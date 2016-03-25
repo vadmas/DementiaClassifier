@@ -65,3 +65,4 @@ target/
 
 #virtualenv
 venv/
+.DS_Store
