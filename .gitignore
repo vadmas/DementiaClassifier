@@ -62,3 +62,7 @@ target/
 .ipynb_checkpoints
 
 .idea/
+
+#virtualenv
+venv/
+.DS_Store
