@@ -1,0 +1,1 @@
+# takes a long string and cleans it up and converts it into a vector to be extracted
