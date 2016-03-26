@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002622-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|87;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	341-0c, audio
+*PAR:	what's going on ? [+ exc] 0_1963
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on ?
+*INV:	mhm . 1963_2619
+%mor:	co|yes .
+*PAR:	well she's doing the dishes . 2619_4422
+%mor:	co|well pro:sub|she~aux|be&3S part|do-PRESP det|the n|dish-PL .
+*INV:	okay . 4422_5429
+%mor:	co|okay .
+*PAR:	(.) and he's into the cookie jar (.) for his sister . 5429_12948
+%mor:	conj|and pro:sub|he~cop|be&3S prep|into det|the n|cookie n|jar
+	prep|for pro:poss:det|his n|sister .
+*PAR:	and she let the water run over in the sink . 12948_18821
+%mor:	conj|and pro:sub|she v|let&ZERO det|the n|water v|run adv|over
+	prep|in det|the n|sink .
+*PAR:	(...) &hm (.) she's ruining her shoes and everything . 18821_32469
+%mor:	pro:sub|she~aux|be&3S part|ruin-PRESP pro:poss:det|her n|shoe-PL
+	coord|and pro:indef|everything .
+*INV:	anything else you see going on in the picture ? 32469_37327
+%mor:	pro:indef|anything post|else pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|the n|picture ?
+*PAR:	hm ? [+ exc] 37327_38196
+%mor:	co|hm ?
+*INV:	anything else you see going on in the picture ? 38196_40499
+%mor:	pro:indef|anything post|else pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|the n|picture ?
+*PAR:	now he's <falling off the> [//] gonna [: going to] be <on his> [//] &t &=laughs (.) on the floor in a minute . 40499_52737
+%mor:	adv|now pro:sub|he~aux|be&3S part|go-PRESP inf|to cop|be prep|on
+	det|the n|floor prep|in det|a n|minute .
+*PAR:	he's falling off his chair [: stool] [* s:r] . 52737_54707
+%mor:	pro:sub|he~aux|be&3S part|fall-PRESP prep|off pro:poss:det|his
+	n|stool .
+*PAR:	and she's letting the sink run over while she's drying the dishes . 54707_59971
+%mor:	conj|and pro:sub|she~aux|be&3S part|let-PRESP det|the n|sink v|run
+	adv|over conj|while pro:sub|she~aux|be&3S part|dry-PRESP det|the
+	n|dish-PL .
+*PAR:	(..) not payin(g) attention to what she's doin(g) . [+ gram] 59971_68123
+%mor:	neg|not part|pay-PRESP n|attention inf|to pro:wh|what
+	pro:sub|she~aux|be&3S part|do-PRESP .
+*INV:	&=laughs . 68123_69000
+*PAR:	&=laughs  . [+ exc] 68589_69303
+*INV:	okay ? 69303_70218
+%mor:	co|okay ?
+@End

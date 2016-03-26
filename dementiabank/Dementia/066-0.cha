@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00002481-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|ProbableAD||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	066-0c, audio
+*INV:	at the picture . 0_1463
+%mor:	prep|at det|the n|picture .
+*INV:	so you just tell me everything that's going on . 1463_3392
+%mor:	conj|so pro|you adv|just v|tell pro:obj|me pro:indef|everything
+	rel|that~aux|be&3S part|go-PRESP adv|on .
+*PAR:	alright . [+ exc] 3392_4755
+%mor:	co|alright .
+*INV:	(.) what do you see going on ? 4755_12720
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on ?
+*PAR:	well the boy's on the ladder [: stool] [* s:r] . 12720_14897
+%mor:	co|well det|the n|boy~cop|be&3S prep|on det|the n|stool .
+*PAR:	and the ladder's [: stool's] [* s:r] tipped over  . 14897_16600
+%mor:	conj|and det|the n|stool~poss|s part|tip-PASTP adv|over .
+*PAR:	an(d) it's &uh not a ladder it's a step+stool . 16600_19170
+%mor:	conj|and pro|it~cop|be&3S neg|not det|a n|ladder pro|it~cop|be&3S
+	det|a n|+n|step+n|stool .
+*PAR:	and &uh she's xxx . [+ jar] 19170_23350
+%mor:	conj|and pro:sub|she~cop|be&3S .
+*PAR:	from what I can see he's gonna [: going to ] upset the cookies &=laughs . 23350_27317
+%mor:	prep|from pro:wh|what pro:sub|I mod|can v|see pro:sub|he~aux|be&3S
+	part|go-PRESP inf|to v|upset det|the n|cookie-PL .
+*INV:	&=laughs . 27317_28824
+*PAR:	and &uh the sink is flowin(g) over on the floor while the mother I guess is dryin(g) the dishes . 28824_37477
+%mor:	conj|and det|the n|sink aux|be&3S part|flow-PRESP adv|over prep|on
+	det|the n|floor conj|while det|the n|mother pro:sub|I n|guess
+	aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	boy I'll tell you I wouldn't want to be on that step+stool there . [+ exc] 37477_42351
+%mor:	co|boy pro:sub|I~mod|will v|tell pro|you pro:sub|I
+	mod|will&COND~neg|not v|want inf|to cop|be prep|on det|that
+	n|+n|step+n|stool adv|there .
+*INV:	&=laughs . 42351_43563
+*PAR:	it's not even a step+stool it's just a stool &=laughs . 43563_47280
+%mor:	pro|it~cop|be&3S neg|not v|even det|a n|+n|step+n|stool
+	pro|it~mod|do&3S adj|just det|a n|stool .
+*INV:	anything else going on ? 47280_53773
+%mor:	pro:indef|anything post|else part|go-PRESP adv|on ?
+*PAR:	the water's overflowing (.) on the floor . 53773_58086
+%mor:	det|the n|water~aux|be&3S over#part|flow-PRESP prep|on det|the
+	n|floor .
+*INV:	okay . 58086_61990
+%mor:	co|okay .
+*PAR:	there's probably some more water back this way but I [//] I'm not too sure at all except that the water's pourin(g) down . 61990_72603
+%mor:	pro:exist|there~cop|be&3S adv|probable&dadj-LY qn|some qn|more
+	n|water adv|back det|this n|way conj|but pro:sub|I~cop|be&1S neg|not
+	adv|too adj|sure prep|at pro:indef|all conj|except rel|that det|the
+	n|water~aux|be&3S part|pour-PRESP adv|down .
+*INV:	+< mhm . 69650_69990
+%mor:	co|yes .
+*INV:	do you see anything else ? 72603_75460
+%mor:	mod|do pro|you v|see pro:indef|anything post|else ?
+*PAR:	I'm trying to figure out what this is out here . [+ exc] 75460_83266
+%mor:	pro:sub|I~aux|be&1S part|try-PRESP inf|to v|figure adv|out adv|what
+	det|this cop|be&3S adv|out adv|here .
+*INV:	hm . 83266_84010
+%mor:	co|hm .
+*PAR:	&=laughs . [+ exc] 84010_84991
+*INV:	okay well <that's fine> [/] that's fine . 84991_90969
+%mor:	co|okay co|well pro:dem|that~cop|be&3S adj|fine .
+@End

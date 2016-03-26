@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002257-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	109-3c, audio
+*INV:	I'd like you to tell me everything you see going on in this picture . 0_3004
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|this n|picture .
+*PAR:	mhm . [+ exc] 3004_3876
+%mor:	co|yes .
+*PAR:	&um there's a boy and a girl and the boy is on the ladder [: stool] [* s:r] &uh taking cookies out of the &uh cookie &uh jar on a stool . 3876_13214
+%mor:	pro:exist|there~cop|be&3S det|a n|boy coord|and det|a n|girl
+	coord|and det|the n|boy aux|be&3S prep|on det|the n|stool
+	part|take-PRESP n|cookie-PL adv|out prep|of det|the n|cookie n|jar
+	prep|on det|a n|stool .
+*PAR:	and the stool is tilting over . 13214_16107
+%mor:	conj|and det|the n|stool aux|be&3S part|tilt-PRESP adv|over .
+*PAR:	and &uh the girl is reaching up and he's passing the cookies to her . 16107_20390
+%mor:	conj|and det|the n|girl aux|be&3S part|reach-PRESP adv|up coord|and
+	pro:sub|he~aux|be&3S part|pass-PRESP det|the n|cookie-PL prep|to
+	pro:obj|her .
+*PAR:	and the mother is drying dishes &uh in front of the open window . 20390_24948
+%mor:	conj|and det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL
+	prep|in n|front prep|of det|the adj|open n|window .
+*PAR:	and &um the [//] &uh while she's drying the <dish with the> [//] dish with the towel the sink is running over . 24948_34160
+%mor:	conj|and conj|while pro:sub|she~aux|be&3S part|dry-PRESP det|the
+	n|dish prep|with det|the n|towel det|the n|sink aux|be&3S
+	part|run-PRESP adv|over .
+*PAR:	and it's all splashing on the floor . 34160_37508
+%mor:	conj|and pro|it~cop|be&3S post|all part|splash-PRESP prep|on
+	det|the n|floor .
+*PAR:	and <there's a cup> [//] &uh there's two cups and plate <that she's> [//] that are sitting on the counter . 37508_43673
+%mor:	conj|and pro:exist|there~cop|be&3S det:num|two n|cup-PL coord|and
+	n|plate rel|that aux|be&PRES part|sit-PRESP prep|on det|the
+	n|counter .
+*PAR:	and &um I don't know . [+ exc] 43673_46073
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know .
+*PAR:	there's trees and grass outside . 46073_47812
+%mor:	pro:exist|there~aux|be&3S n|tree-PL coord|and n|grass adv|outside .
+*PAR:	and the kitchen has all these cabinets . 47812_51947
+%mor:	conj|and det|the n|kitchen v|have&3S qn|all det|these n|cabinet-PL
+	.
+*INV:	okay . 51947_54232
+%mor:	co|okay .
+*PAR:	that it . [+ exc] 54232_54832
+%mor:	pro:dem|that pro|it .
+@End

@@ -1,0 +1,69 @@
+@UTF8
+@PID:	11312/t-00016675-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	492-0s, audio
+*INV:	the word is pencil@q . 0_1853
+%mor:	det|the n|word aux|be&3S meta|pencil .
+*PAR:	I write with a pencil . 1853_4187
+%mor:	pro:sub|I v|write prep|with det|a n|pencil .
+*INV:	tree@q . 4187_12669
+%mor:	meta|tree .
+*PAR:	&uh my tree has lost all its &uh leaves . 12669_18755
+%mor:	pro:poss:det|my n|tree aux|have&3S v|lose&PAST adv|all
+	pro:poss:det|its n|leaf-PL .
+*INV:	I'm going to give you two words . 18755_30725
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you det:num|two
+	n|word-PL .
+*INV:	I want you to use them both for me in a sentence . 30725_32840
+%mor:	pro:sub|I v|want pro|you inf|to v|use pro:obj|them qn|both prep|for
+	pro:obj|me prep|in det|a n|sentence .
+*INV:	child@q hospital@q . 32840_36839
+%mor:	meta|child meta|hospital .
+*PAR:	I took my child to the hospital . 36839_39470
+%mor:	pro:sub|I v|take&PAST pro:poss:det|my n|child prep|to det|the
+	n|hospital .
+*INV:	cold@q winter@q . 39470_51359
+%mor:	meta|cold meta|winter .
+*PAR:	it's gonna be a cold winter . 51359_54017
+%mor:	pro|it~aux|be&3S part|go-PRESP~inf|to cop|be det|a adj|cold
+	n|winter .
+*PAR:	although I hope not . [+ exc] 54017_60262
+%mor:	conj|although pro:sub|I v|hope neg|not .
+*INV:	I hope so „ too . 60262_62284
+%mor:	pro:sub|I n|hope adv|so end|end post|too .
+*PAR:	&=laughs . [+ exc] 62284_63203
+*INV:	I'm going to give you three words . 63203_65613
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	and I want you to use them all for me in a sentence . 65613_68114
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|use pro:obj|them qn|all
+	prep|for pro:obj|me prep|in det|a n|sentence .
+*INV:	chair@q doctor@q sit@q . 68114_72677
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor told the (.) &uh to sit on the chair . [+ exc] 72677_75765
+%mor:	det|the n|doctor v|tell&PAST det|the inf|to v|sit prep|on det|the
+	n|chair .
+*PAR:	<the [/] the> [//] what was that &=laughs first one again ? [+ exc]
+	75765_79027
+%mor:	pro:wh|what cop|be&PAST&13S pro:dem|that adv|first det:num|one
+	adv|again ?
+*PAR:	I can't remember . [+ exc] 79027_79778
+%mor:	pro:sub|I mod|can~neg|not v|remember .
+*INV:	chair@q doctor@q sit@q . 79778_82855
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	yeah . 82855_83969
+%mor:	co|yeah .
+*PAR:	the doctor told “sit on the chair” . 83969_86488
+%mor:	det|the n|doctor v|tell&PAST bq|bq v|sit prep|on det|the n|chair
+	eq|eq .
+*INV:	okay . 86488_88857
+%mor:	co|okay .
+*INV:	bureau@q open@q drawer@q . 88857_95300
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	open the bureau drawer . 95300_96945
+%mor:	v|open det|the n|bureau n|drawer .
+@End

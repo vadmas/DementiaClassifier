@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/t-00002471-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|male|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	058-1c, audio
+*INV:	here's the picture . 0_1729
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	all of the action . 1729_3766
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	okay I'll start . [+ exc] 3766_7099
+%mor:	co|okay pro:sub|I~mod|will v|start .
+*PAR:	the mother is drying dishes . 7099_8966
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and the sink is over flowing . 8966_13621
+%mor:	conj|and det|the n|sink cop|be&3S adv|over part|flow-PRESP .
+*PAR:	the water is falling onto the floor . 13621_16299
+%mor:	det|the n|water aux|be&3S part|fall-PRESP prep|onto det|the n|floor
+	.
+*PAR:	&uh the boy is on his stool &uh taking cookies out of a cookie jar . 16299_26458
+%mor:	det|the n|boy aux|be&3S prep|on pro:poss:det|his n|stool
+	part|take-PRESP n|cookie-PL adv|out prep|of det|a n|cookie n|jar .
+*PAR:	and he has <one cookie> [//] two cookies one in each hand . 26458_31750
+%mor:	conj|and pro:sub|he v|have&3S det:num|two n|cookie-PL det:num|one
+	prep|in qn|each n|hand .
+*PAR:	the &uh girl is standing, reaching up for a cookie with her &uh finger over her mouth telling him to be quiet . 31750_44730
+%mor:	det|the n|girl aux|be&3S part|stand-PRESP cm|cm part|reach-PRESP
+	adv|up prep|for det|a n|cookie prep|with pro:poss:det|her n|finger
+	prep|over pro:poss:det|her n|mouth part|tell-PRESP pro:obj|him
+	inf|to cop|be adj|quiet .
+*PAR:	the stool is on one leg . 44730_47577
+%mor:	det|the n|stool cop|be&3S prep|on det:num|one n|leg .
+*PAR:	&uh there's drapes on the window . 47577_52435
+%mor:	pro:exist|there~aux|be&3S v|drape-3S prep|on det|the n|window .
+*PAR:	there's a path &uh between the grass and the bushes . 52435_58999
+%mor:	pro:exist|there~cop|be&3S det|a n|path prep|between det|the n|grass
+	coord|and det|the n|bush-PL .
+*PAR:	and this little picture is a part of the xxx house and part of the tree in the upper window . 58999_68915
+%mor:	conj|and det|this adj|little n|picture cop|be&3S det|a n|part
+	prep|of det|the n|house coord|and n|part prep|of det|the n|tree
+	prep|in det|the adj|upper n|window .
+*PAR:	there are &uh &uh doors on the &uh cabinets in the sink . 68915_78100
+%mor:	adv|there cop|be&PRES n|door-PL prep|on det|the n|cabinet-PL
+	prep|in det|the n|sink .
+*PAR:	and &uh it's daylight . 78100_85586
+%mor:	conj|and pro|it~cop|be&3S n|daylight .
+*PAR:	&um there's two cups and a dish <on it> [//] on the sink . 85586_95701
+%mor:	pro:exist|there~cop|be&3S det:num|two n|cup-PL coord|and det|a
+	n|dish prep|on det|the n|sink .
+*PAR:	&=hums (..) should I describe the two faucets ? [+ exc] 95701_104945
+%mor:	mod|should pro:sub|I v|describe det|the det:num|two n|faucet-PL ?
+*INV:	that's okay . 104945_106158
+%mor:	pro:dem|that~cop|be&3S adj|okay .
+*INV:	that's fine . 106158_106892
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+*INV:	okay . 106892_108121
+%mor:	co|okay .
+@End

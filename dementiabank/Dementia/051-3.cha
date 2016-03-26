@@ -1,0 +1,76 @@
+@UTF8
+@PID:	11312/t-00002465-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	051-3c, audio
+*PAR:	alright . [+ exc] 0_366
+%mor:	co|alright .
+*PAR:	gonna [: going to] start here . [+ exc] 366_1610
+%mor:	part|go-PRESP prep|to n|start adv|here .
+*INV:	okay . 1610_2260
+%mor:	co|okay .
+*PAR:	+< <the [x 3] boys have opened the> [//] the boy has opened the [//] <into the cookie> [//] &ca &uh where the cookies are . [+ cir] 2060_10156
+%mor:	det|the n|boy aux|have&3S part|open-PASTP rel|where det|the
+	n|cookie-PL cop|be&PRES .
+*PAR:	and in the meantime he's [//] <they almost> [//] the thing is falling down . [+ es] 10156_16996
+%mor:	conj|and prep|in det|the n|meantime det|the n|thing aux|be&3S
+	part|fall-PRESP adv|down .
+*PAR:	<the little boy> [//] the girl was being shh@o quiet . 16996_21650
+%mor:	det|the n|girl aux|be&PAST&13S aux|be-PRESP on|shh n|quiet .
+*PAR:	<mother has> [//] the water is running over in the kitchen . 21650_26633
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|over prep|in det|the
+	n|kitchen .
+*PAR:	mother is wiping <the dishes> [//] the dish and dishes . 26633_31812
+%mor:	n|mother aux|be&3S part|wipe-PRESP det|the n|dish coord|and
+	n|dish-PL .
+*PAR:	&uh it's [//] she doesn't seem to <think it's> [//] even know what's going on . 31812_38052
+%mor:	pro:sub|she mod|do&3S~neg|not v|seem inf|to v|even v|know
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on .
+*PAR:	&uh it's &uh I would say summer . 38052_44454
+%mor:	pro|it~aux|be&3S pro:sub|I mod|will&COND v|say n|summer .
+*PAR:	that looks like things are growing up . 44454_46442
+%mor:	rel|that v|look-3S prep|like n|thing-PL aux|be&PRES part|grow-PRESP
+	adv|up .
+*PAR:	there she's looking out the window . 46442_48652
+%mor:	adv|there pro:sub|she~aux|be&3S part|look-PRESP prep|out det|the
+	n|window .
+*PAR:	&uh she's standing in the water . 48652_53623
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the n|water .
+*PAR:	&uh cookies . [+ gram] 53623_58926
+%mor:	n|cookie-PL .
+*PAR:	they've taken cookies out of the cookie jar . 58926_62302
+%mor:	pro:sub|they~aux|have part|take&PASTP n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar .
+*PAR:	she's keeping quiet . 62302_65144
+%mor:	pro:sub|she~aux|be&3S part|keep-PRESP n|quiet .
+*PAR:	the things break, falling over . 65144_67888
+%mor:	det|the n|thing-PL n|break cm|cm part|fall-PRESP adv|over .
+*PAR:	it's summer . 67888_70264
+%mor:	pro|it~cop|be&3S n|summer .
+*PAR:	I_mean it looks like it's summer . 70264_71890
+%mor:	co|I_mean pro|it v|look-3S rel|like pro|it~cop|be&3S
+	n|summer .
+*PAR:	it's [//] things are coming up . [+ es] 71890_73957
+%mor:	n|thing-PL aux|be&PRES part|come-PRESP adv|up .
+*PAR:	&uh mother doesn't seem to care what's going on with the kids &=laughs . 73957_81581
+%mor:	n|mother mod|do&3S~neg|not v|seem inf|to v|care
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|with det|the
+	n|kid-PL .
+*PAR:	&uh there are two cups but only one [/] one &uh dish . 81581_88898
+%mor:	adv|there cop|be&PRES det:num|two n|cup-PL conj|but adv|only
+	det:num|one n|dish .
+*INV:	okay ? 95994_96725
+%mor:	co|okay ?
+*PAR:	&hm <I think> [//] did I say <they'd turned off the water> [//] <they hadn't> [//] the water's still running . [+ exc] 96725_103492
+%mor:	mod|do&PAST pro:sub|I v|say det|the n|water~aux|be&3S adv|still
+	part|run-PRESP .
+*PAR:	that was all . [+ exc] 103492_104223
+%mor:	pro:dem|that aux|be&PAST&13S adv|all .
+*PAR:	I guess that's it . [+ exc] 104223_105211
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S pro|it .
+*INV:	okay good . 105211_106548
+%mor:	co|okay adj|good .
+@End

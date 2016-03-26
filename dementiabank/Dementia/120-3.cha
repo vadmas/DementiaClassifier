@@ -1,0 +1,56 @@
+@UTF8
+@PID:	11312/t-00002504-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|80;|male|MCI||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	120-3c, audio
+*INV:	take a look at this picture and tell me everything that's happening here . 0_4461
+%mor:	v|take det|a n|look prep|at det|this n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything rel|that~aux|be&3S part|happen-PRESP
+	adv|here .
+*INV:	tell me everything that's going on in that picture . 4461_6805
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that~aux|be&3S
+	part|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	okay . [+ exc] 6905_8300
+%mor:	co|okay .
+*PAR:	the little boy is snitching a cookie while the mother's not looking . 8300_13263
+%mor:	det|the adj|little n|boy aux|be&3S part|snitch-PRESP det|a n|cookie
+	conj|while det|the n|mother~aux|be&3S neg|not part|look-PRESP .
+*PAR:	he's snitching one for his sister also . 13263_16380
+%mor:	pro:sub|he~aux|be&3S part|snitch-PRESP pro:indef|one prep|for
+	pro:poss:det|his n|sister adv|also .
+*PAR:	the little girl is saying “quiet shh@o” with her finger to her lips . 16380_23298
+%mor:	det|the adj|little n|girl aux|be&3S part|say-PRESP bq|bq adj|quiet
+	on|shh eq|eq prep|with pro:poss:det|her n|finger prep|to
+	pro:poss:det|her n|lip-PL .
+*PAR:	the stool is going to come topple over and their secret will be discovered . 23298_28468
+%mor:	det|the n|stool aux|be&3S part|go-PRESP inf|to v|come v|topple
+	adv|over coord|and pro:poss:det|their n|secret mod|will aux|be
+	part|discover-PASTP .
+*PAR:	&uh the woman is washing the dishes . 28468_33140
+%mor:	det|the n|woman aux|be&3S part|wash-PRESP det|the n|dish-PL .
+*PAR:	and I think she's wiping (th)em .  33140_37979
+%mor:	conj|and pro:sub|I v|think pro:sub|she~aux|be&3S part|wipe-PRESP
+	pro:obj|them .
+*PAR:	and the faucet is running and the sink is running over and spilling onto the floor and she's walking in a puddle .  37979_44645
+%mor:	conj|and det|the n|faucet aux|be&3S part|run-PRESP coord|and
+	det|the n|sink aux|be&3S part|run-PRESP adv|over coord|and
+	part|spill-PRESP prep|onto det|the n|floor coord|and
+	pro:sub|she~aux|be&3S part|walk-PRESP prep|in det|a n|puddle .
+*PAR:	and let's see things that are happening . [+ exc] 44645_47900
+%mor:	conj|and v|let~pro:obj|us v|see n|thing-PL rel|that aux|be&PRES
+	part|happen-PRESP .
+*PAR:	I guess that's about all that's +... [+ exc] 47900_50071
+%mor:	pro:sub|I n|guess rel|that~aux|be&3S prep|about qn|all
+	pro:dem|that~mod|do&3S +...
+*PAR:	well she's not [//] &n has not yet noticed the children . 50071_54054
+%mor:	co|well pro:sub|she~cop|be&3S aux|have&3S neg|not adv|yet
+	v|notice-PAST det|the n|child&PL .
+*PAR:	and that's really all that's happening I guess . [+ exc] 54054_59900
+%mor:	conj|and pro:dem|that~mod|do&3S adv|real&dadj-LY qn|all
+	rel|that~aux|be&3S part|happen-PRESP pro:sub|I v|guess .
+*INV:	okay . 59900_61993
+%mor:	co|okay .
+@End

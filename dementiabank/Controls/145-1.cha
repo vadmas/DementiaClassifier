@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002308-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	145-1c, audio
+*INV:	here's the picture . 0_1963
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	&hm . [+ exc] 1963_5292
+*PAR:	touching lip . [+ gram] 5292_6911
+%mor:	part|touch-PRESP n|lip .
+*PAR:	raising arm .  [+ gram] 6911_8187
+%mor:	part|raise-PRESP n|arm .
+*PAR:	is that what you mean ? [+ exc] 8187_10274
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|you v|mean ?
+*INV:	just, yeah, tell me +/. 10274_11655
+%mor:	adv|just cm|cm co|yeah cm|cm v|tell pro:obj|me +/.
+*PAR:	+< &lea reaching for cookie .  [+ gram] 10300_13199
+%mor:	part|reach-PRESP prep|for n|cookie .
+*PAR:	handing cookie down .  [+ gram] 13199_15082
+%mor:	part|hand-PRESP n|cookie adv|down .
+*PAR:	slipping from stool .  [+ gram] 15082_18709
+%mor:	part|slip-PRESP prep|from n|stool .
+*PAR:	stool falling over .  [+ gram] 18709_20856
+%mor:	n|stool part|fall-PRESP adv|over .
+*PAR:	&um wiping dishes .  [+ gram] 20856_25136
+%mor:	part|wipe-PRESP n|dish-PL .
+*PAR:	water running .  [+ gram] 25136_27456
+%mor:	n|water part|run-PRESP .
+*PAR:	water overflowing .  [+ gram] 27456_29696
+%mor:	n|water over#part|flow-PRESP .
+*PAR:	&um breeze .  [+ gram] 29696_35254
+%mor:	n|breeze .
+*PAR:	I don't know if that's action . [+ exc] 35254_36824
+%mor:	pro:sub|I mod|do~neg|not v|know conj|if pro:dem|that~cop|be&3S
+	n|action .
+*PAR:	&um stepping out from water . [+ gram] 36824_41866
+%mor:	part|step-PRESP adv|out prep|from n|water .
+*PAR:	I guess that's it . [+ exc] 41866_47858
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S pro|it .
+*INV:	okay . 47858_49321
+%mor:	co|okay .
+*INV:	good . 49321_51966
+%mor:	adj|good .
+@End

@@ -1,0 +1,119 @@
+@UTF8
+@PID:	11312/t-00016509-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|67;|male|ProbableAD||Participant|21||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	029-0s, audio
+*INV:	I'm just going to say one word . 0_2035
+%mor:	pro:sub|I~aux|be&1S adv|just part|go-PRESP inf|to v|say det:num|one
+	n|word .
+*INV:	you just use it in a [/] &se a brief simple sentence . 2035_5035
+%mor:	pro|you adv|just n|use pro|it prep|in det|a adj|brief adj|simple
+	n|sentence .
+*INV:	the first word is pencil@q . 5035_7346
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*PAR:	I write with a pencil . 7346_8950
+%mor:	pro:sub|I v|write prep|with det|a n|pencil .
+*INV:	tree@q . 8950_10413
+%mor:	meta|tree .
+*PAR:	we [//] you [//] we cut the tree down to (.) take it to the (.) wood
+	factory or not the wood factory but the saw mill  . 10413_20156
+%mor:	pro:sub|we v|cut&ZERO det|the n|tree adv|down inf|to v|take pro|it
+	prep|to det|the n|wood n|factory coord|or neg|not det|the n|wood
+	n|factory conj|but det|the v|see&PAST n|mill .
+*INV:	okay . 20156_21385
+%mor:	co|okay .
+*PAR:	there's something xxx . [+ exc] 21385_23591
+%mor:	pro:exist|there~cop|be&3S pro:indef|something .
+*INV:	+< now I'm going to say two words . 21985_25300
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|say det:num|two
+	n|word-PL .
+*PAR:	okay . [+ exc] 25300_25730
+%mor:	co|okay .
+*INV:	don't worry about the order . 25730_26965
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order .
+*PAR:	okay . [+ exc] 26965_27200
+%mor:	co|okay .
+*INV:	you can use them in any order . 27200_28220
+%mor:	pro|you mod|can v|use pro:obj|them prep|in qn|any n|order .
+*PAR:	+< okay . [+ exc] 28020_28520
+%mor:	co|okay .
+*INV:	but do a brief simple sentence . 28020_29711
+%mor:	conj|but v|do det|a adj|brief adj|simple n|sentence .
+*PAR:	okay . [+ exc] 29711_30117
+%mor:	co|okay .
+*INV:	child@q hospital@q . 30117_31947
+%mor:	meta|child meta|hospital .
+*PAR:	child what „ hon ? [+ exc] 31947_33590
+%mor:	n|child adv|what end|end n|hon ?
+*INV:	hospital@q . 33590_34460
+%mor:	meta|hospital .
+*PAR:	the child was put in the hospital . 34460_37292
+%mor:	det|the n|child aux|be&PAST&13S part|put&PASTP prep|in det|the
+	n|hospital .
+*INV:	cold@q winter@q . 37292_39531
+%mor:	meta|cold meta|winter .
+*PAR:	we are having a cold winter . 39531_42705
+%mor:	pro:sub|we aux|be&PRES part|have-PRESP det|a adj|cold n|winter .
+*INV:	now I'm going to say three words . 42705_45541
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|say
+	det:num|three n|word-PL .
+*INV:	and again don't worry about the order . 45541_47998
+%mor:	conj|and adv|again mod|do~neg|not v|worry prep|about det|the
+	n|order .
+*INV:	+< but just use all three in one sentence . 47800_50215
+%mor:	conj|but adj|just n|use adv|all det:num|three prep|in det:num|one
+	n|sentence .
+*PAR:	+< (o)kay . [+ exc] 47898_48400
+%mor:	co|okay .
+*PAR:	+< (o)kay [/] (o)kay alright . [+ exc] 48900_50900
+%mor:	adj|okay adj|alright .
+*INV:	chair@q doctor@q . 50900_52700
+%mor:	meta|chair meta|doctor .
+*PAR:	+< what [/] what is that word ? [+ exc] 51300_52863
+%mor:	pro:wh|what cop|be&3S rel|that n|word ?
+*INV:	chair@q . 52863_53804
+%mor:	meta|chair .
+*INV:	chair@q . 53804_54531
+%mor:	meta|chair .
+*PAR:	chair@q „ okay „ alright  . [+ exc] 54531_55951
+%mor:	meta|chair end|end adj|okay end|end co|alright .
+*INV:	+< chair@q . 55051_55826
+%mor:	meta|chair .
+*PAR:	it's your English accent . [+ exc] 55826_57275
+%mor:	pro|it~cop|be&3S pro:poss:det|your n:prop|English n|accent .
+*INV:	+<  chair@q „ &=laughs I know . 56800_57958
+%mor:	meta|chair end|end pro:sub|I v|know .
+*PAR:	okay ‡ that's all right . [+ exc] 57958_58964
+%mor:	co|okay beg|beg pro:dem|that~cop|be&3S pro:indef|all n|right .
+*INV:	+< chair@q . 58100_58964
+%mor:	meta|chair .
+*PAR:	chair@q . [+ exc] 58964_59208
+%mor:	meta|chair .
+*PAR:	now I got it . [+ exc] 59208_60108
+%mor:	adv|now pro:sub|I v|get&PAST pro|it .
+*PAR:	chair@q . 60108_60542
+%mor:	meta|chair .
+*INV:	doctor@q sit@q . 60542_62425
+%mor:	meta|doctor meta|sit .
+*PAR:	+< doctor@q . 61280_62400
+%mor:	meta|doctor .
+*PAR:	what's the last one ? [+ exc] 62400_63491
+%mor:	pro:wh|what~aux|be&3S det|the adj|last pro:indef|one ?
+*INV:	sit@q . 63491_64215
+%mor:	meta|sit .
+*PAR:	sit@q . [+ exc] 64215_64872
+%mor:	meta|sit .
+*INV:	mhm . 64872_65220
+%mor:	co|yes .
+*PAR:	the doctor sat in the chair . 65220_67101
+%mor:	det|the n|doctor v|sit&PAST prep|in det|the n|chair .
+*INV:	bureau@q open@q drawer@q . 67101_70751
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	+< bureau@q open@q . [+ exc] 68901_70751
+%mor:	meta|bureau meta|open .
+*PAR:	<the bureau> [/] &=laughs the bureau drawer is open . 70751_75562
+%mor:	det|the n|bureau n|drawer cop|be&3S adj|open .
+@End

@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002547-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|male|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	203-1c, audio
+*INV:	have a look at that picture (.) and tell me everything that you see going on in that picture . 0_5917
+%mor:	v|have det|a n|look prep|at det|that n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*INV:	what's happening there ? 5917_7315
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP adv|there ?
+*INV:	tell me all the action you see going on there . 7315_10241
+%mor:	v|tell pro:obj|me adv|all det|the n|action pro|you v|see
+	n:gerund|go-PRESP prep|on pro:dem|there .
+*PAR:	&um the girl's <in the> [//] (.) tryin(g) +... 10241_20544
+%mor:	det|the n|girl~aux|be&3S part|try-PRESP +...
+*PAR:	(...) &hm did I get that ? [+ exc] 20544_37402
+%mor:	mod|do&PAST pro:sub|I v|get pro:dem|that ?
+*INV:	mhm . 37402_38893
+%mor:	co|yes .
+*INV:	anything else you can see going on there ? 38893_41182
+%mor:	pro:indef|anything post|else pro|you mod|can v|see
+	n:gerund|go-PRESP prep|on pro:dem|there ?
+*PAR:	and girl that &=clears:throat (.) is dryin(g) does dishes, right ? [+ gram] 41182_54364
+%mor:	coord|and n|girl rel|that aux|be&3S part|dry-PRESP mod|do&3S
+	n|dish-PL cm|cm n|right ?
+*PAR:	she's bʌʃɪŋ@u [: washing] [* n:k-ret] [//] gushin(g) [: washing] [* s:ur] dishes . [+ jar] 54364_58052
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	and there's two boys . 58052_61506
+%mor:	conj|and pro:exist|there~cop|be&3S det:num|two n|boy-PL .
+*PAR:	one [/] &uh one is get a &choc cookies [/] cookies jar (..) in the cabinet . [+ gram] 61506_78361
+%mor:	pro:indef|one aux|be&3S v|get det|a n|cookie-PL n|jar prep|in
+	det|the n|cabinet .
+*PAR:	and <the [/] the girl's cryin(g) for the> [//] &=laughs &s she wants a &=laughs &coo &cook &c cookie . 78361_90268
+%mor:	conj|and pro:sub|she v|want-3S det|a n|cookie .
+*PAR:	and the girl +... 90268_98888
+%mor:	coord|and det|the n|girl +...
+*PAR:	what's it always say that ? [+ gram] [+ exc] 98888_101302
+%mor:	pro:wh|what~aux|be&3S pro|it adv|always v|say rel|that ?
+*PAR:	upset the water up the sink . [+ gram] 101302_104244
+%mor:	n|upset det|the n|water prep|up det|the n|sink .
+*INV:	(..) okay good . 104244_116198
+%mor:	co|okay adj|good .
+@End

@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002311-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	150-0c, audio
+*INV:	and there's the picture . 0_1629
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	oh you mean things like the boy climbing up on the stool reaching for cookies . 1629_7133
+%mor:	co|oh pro|you v|mean n|thing-PL prep|like det|the n|boy
+	part|climb-PRESP adv|up prep|on det|the n|stool part|reach-PRESP
+	prep|for n|cookie-PL .
+*PAR:	and the &uh stool is tipping over and he's gonna [: going to] go falling on his lup@u [: x@n] [* n:uk] . 7133_11485
+%mor:	conj|and det|the n|stool aux|be&3S part|tip-PRESP adv|over
+	coord|and pro:sub|he~aux|be&3S part|go-PRESP inf|to v|go
+	part|fall-PRESP prep|on pro:poss:det|his neo|x .
+*PAR:	and his sister's talking to him and pointing . 11485_14616
+%mor:	conj|and pro:poss:det|his n|sister~aux|be&3S part|talk-PRESP
+	prep|to pro:obj|him coord|and part|point-PRESP .
+*PAR:	and &uh (.) the mother is wiping the dishes and the sink is spilling over and going on the floor . 14616_23720
+%mor:	conj|and det|the n|mother aux|be&3S part|wipe-PRESP det|the
+	n|dish-PL coord|and det|the n|sink aux|be&3S part|spill-PRESP
+	adv|over coord|and part|go-PRESP prep|on det|the n|floor .
+*PAR:	and did I say she's &wi wiping the dishes ? [+ exc] 23720_26786
+%mor:	conj|and v|do&PAST pro:sub|I v|say pro:sub|she~aux|be&3S
+	part|wipe-PRESP det|the n|dish-PL ?
+*PAR:	I presume there's something in the sink . 26786_30103
+%mor:	pro:sub|I v|presume pro:exist|there~cop|be&3S pro:indef|something
+	prep|in det|the n|sink .
+*PAR:	(.) it looks like the girl is laughing . 30103_36280
+%mor:	pro|it v|look-3S prep|like det|the n|girl aux|be&3S
+	part|laugh-PRESP .
+*PAR:	the mother's standing in water . 36280_40388
+%mor:	det|the n|mother~aux|be&3S part|stand-PRESP prep|in n|water .
+*PAR:	you mean things like that ? [+ exc] 40388_41466
+%mor:	pro|you v|mean n|thing-PL prep|like pro:dem|that ?
+*INV:	mhm . 41466_42335
+%mor:	co|yes .
+*PAR:	can I finish now ? [+ exc] 42335_43403
+%mor:	mod|can pro:sub|I v|finish adv|now ?
+*INV:	mhm . 43403_44138
+%mor:	co|yes .
+*PAR:	good . [+ exc] 44138_44761
+%mor:	adj|good .
+@End

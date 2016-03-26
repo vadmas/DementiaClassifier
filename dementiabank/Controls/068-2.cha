@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/t-00002228-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	068-2c, audio
+*PAR:	oh yes . [+ exc] 0_1494
+%mor:	co|oh co|yes .
+*PAR:	(.) well &=sighs &uh the mother is washing the dishes . 1494_10910
+%mor:	co|well det|the n|mother aux|be&3S part|wash-PRESP det|the
+	n|dish-PL .
+*PAR:	and the water is running over in the sink . 10910_15100
+%mor:	conj|and det|the n|water aux|be&3S part|run-PRESP adv|over prep|in
+	det|the n|sink .
+*PAR:	and the kids [//] little boy's &goi getting in the cookie jar and he's about to trip over the chair [: stool] [* s:r] . 15100_21900
+%mor:	conj|and det|the adj|little n|boy~poss|s part|get-PRESP prep|in
+	det|the n|cookie n|jar coord|and pro:sub|he~mod|do&3S adv|about
+	inf|to v|trip prep|over det|the n|stool .
+*PAR:	and she seems to be oblivious to everything . 21900_24889
+%mor:	conj|and pro:sub|she v|seem-3S inf|to cop|be adj|oblivious prep|to
+	pro:indef|everything .
+*PAR:	guess in some kind of daze . [+ gram] 24889_27915
+%mor:	n|guess prep|in qn|some n|kind prep|of v|daze .
+*PAR:	and the little girl has her finger on her lips and +"/. 27915_30741
+%mor:	conj|and det|the adj|little n|girl v|have&3S pro:poss:det|her
+	n|finger prep|on pro:poss:det|her n|lip-PL coord|and +"/.
+*PAR:	+" sh@o don't tell mom . 30741_31984
+%mor:	on|sh mod|do~neg|not v|tell n|mom .
+*PAR:	&um (.) this looks [/] looks like the mother is really kinda [: kind_of] (.) burned out . 31984_43394
+%mor:	pro:dem|this v|look-3S prep|like det|the n|mother aux|be&3S
+	adv|real&dadj-LY adv|kind_of v|burn-PAST adv|out .
+*PAR:	or in some kind of a depression (be)cause she doesn't seem to know what's going on . [+ gram] 43394_51296
+%mor:	conj|or prep|in qn|some n|kind prep|of det|a n|depression
+	conj|because pro:sub|she mod|do&3S~neg|not v|seem inf|to v|know
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on .
+@End

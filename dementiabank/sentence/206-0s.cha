@@ -1,0 +1,94 @@
+@UTF8
+@PID:	11312/t-00016587-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|female|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	206-0s, audio
+*PAR:	&um (.) pencil@q &um +... [+ exc] 0_7454
+%mor:	meta|pencil +...
+*PAR:	you use a pencil to write &uh your spelling or something like
+	that . 7454_12550
+%mor:	pro|you v|use det|a n|pencil inf|to v|write pro:poss:det|your
+	part|spell-PRESP coord|or pro:indef|something prep|like pro:dem|that
+	.
+*INV:	+< okay . 12050_12934
+%mor:	co|okay .
+*INV:	how_(a)bout tree@q ? 12934_16871
+%mor:	adv:wh|how_about meta|tree ?
+*INV:	can you give me one with tree@q ? 16871_18412
+%mor:	mod|can pro|you v|give pro:obj|me pro:indef|one prep|with meta|tree
+	?
+*PAR:	+< tree@q ? [+ exc] 18011_18880
+%mor:	meta|tree ?
+*PAR:	the cat ran up the tree . 18880_23019
+%mor:	det|the n|cat v|run&PAST prep|up det|the n|tree .
+*INV:	good . 23019_23906
+%mor:	adj|good .
+*INV:	okay ‡ now I'm gonna give you two words . 23906_28100
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	you don't have to worry about the order that I give (th)em to you . 28100_30050
+%mor:	pro|you mod|do~neg|not v|have inf|to v|worry prep|about det|the
+	n|order rel|that pro:sub|I v|give pro:obj|them prep|to pro|you .
+*INV:	just use both of them in a sentence . 30050_32265
+%mor:	adj|just n|use qn|both prep|of pro:obj|them prep|in det|a
+	n|sentence .
+*INV:	the first two words are child@q hospital@q . 32265_35659
+%mor:	det|the n|first det:num|two n|word-PL aux|be&PRES meta|child
+	meta|hospital .
+*PAR:	you mean I have to use them in one sentence or separate sentences ?
+	[+ exc]  35659_41000
+%mor:	pro|you v|mean pro:sub|I v|have inf|to v|use pro:obj|them prep|in
+	det:num|one n|sentence coord|or adj|separate n|sentence-PL ?
+*INV:	+< mhm . 40100_40831
+%mor:	co|yes .
+*INV:	no ‡ in one sentence . 41000_43022
+%mor:	co|no beg|beg prep|in det:num|one n|sentence .
+*PAR:	&=coughs I would say the [/] &uh (.) &uh the sick child was
+	taken to the hospital . 43022_55500
+%mor:	pro:sub|I mod|will&COND v|say det|the adj|sick n|child
+	aux|be&PAST&13S part|take&PASTP prep|to det|the n|hospital .
+*INV:	good ! 55500_56392
+%mor:	adj|good !
+*INV:	how_(a)bout cold@q winter@q . 56392_60158
+%mor:	adv:wh|how_about meta|cold meta|winter .
+*PAR:	I feel very cold in the winter . 60158_65885
+%mor:	pro:sub|I v|feel adv|very adv|cold prep|in det|the n|winter .
+*PAR:	which is true . [+ exc] 65885_68100
+%mor:	rel|which cop|be&3S adv|true .
+*INV:	&mm . 68100_68859
+*INV:	okay ‡ now I'm gonna give you three words . 68859_73705
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	you don't have to worry about the order still . 73705_75298
+%mor:	pro|you mod|do~neg|not v|have inf|to v|worry prep|about det|the
+	n|order adv|still .
+*INV:	just use all three in one short simple sentence . 75298_78493
+%mor:	adj|just n|use adv|all det:num|three adv|in pro:indef|one adj|short
+	adj|simple n|sentence .
+*INV:	the first three are chair@q doctor@q and sit@q . 78493_82477
+%mor:	det|the n|first det:num|three aux|be&PRES meta|chair meta|doctor
+	coord|and meta|sit .
+*PAR:	sick@q ? [+ exc] 82477_83896
+%mor:	meta|sick ?
+*INV:	sit@q . 83896_84737
+%mor:	meta|sit .
+*PAR:	oh ‡ sit@q ! [+ exc] 84737_85733
+%mor:	co|oh beg|beg meta|sit !
+*INV:	mhm . 85733_87505
+%mor:	co|yes .
+*PAR:	(..) &hm (.) I'd say the doctor told me to sit in the chair . 87505_99643
+%mor:	pro:sub|I~mod|genmod v|say det|the n|doctor v|tell&PAST pro:obj|me
+	inf|to v|sit prep|in det|the n|chair .
+*INV:	good ! 99643_100177
+%mor:	adj|good !
+*INV:	how_(a)bout bureau@q open@q drawer@q . 100177_103038
+%mor:	adv:wh|how_about meta|bureau meta|open meta|drawer .
+*PAR:	the letter was found in an open bureau drawer . 103038_109644
+%mor:	det|the n|letter aux|be&PAST&13S part|find&PASTP prep|in det|a
+	adj|open n|bureau n|drawer .
+*INV:	good ! 109644_110881
+%mor:	adj|good !
+@End

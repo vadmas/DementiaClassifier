@@ -1,0 +1,80 @@
+@UTF8
+@PID:	11312/t-00002560-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	218-0c, audio
+*INV:	okay ? 0_375
+%mor:	co|okay ?
+*INV:	and I want you to tell me everything that you see going on in that picture . 375_5380
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|that n|picture .
+*INV:	just tell me everything that you see happening here . 5380_8888
+%mor:	adv|just v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|happen-PRESP adv|here .
+*INV:	there's the picture . 8888_10350
+%mor:	pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	you [//] I'm supposed to tell ya everything that's happening ? [+ exc] 10350_14600
+%mor:	pro:sub|I~cop|be&1S adj|supposed inf|to v|tell pro|you
+	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP ?
+*INV:	yeah, mhm . 14600_15581
+%mor:	co|yeah cm|cm co|yes .
+*PAR:	<how many over> [//] there [//] there's one two three [/] three women . 15581_20685
+%mor:	pro:exist|there~cop|be&3S det:num|one det:num|two det:num|three
+	n|woman&PL .
+*PAR:	has some aprons on her . [+ gram] 20703_24516
+%mor:	v|have&3S qn|some n|apron-PL prep|on pro:obj|her .
+*PAR:	going to &uh wash and dryer there . [+ gram] 24516_30134
+%mor:	part|go-PRESP inf|to v|wash coord|and n|dryer adv|there .
+*PAR:	little boy is xxx fast . [+ jar] 30134_38445
+%mor:	adj|little n|boy aux|be&3S adv|fast .
+*INV:	&=laughs . 38445_39536
+*PAR:	&=laughs . [+ exc] 39536_40126
+*INV:	now then . 40126_41092
+%mor:	adv|now adv:tem|then .
+*INV:	+< what's happening in the picture . 41390_42597
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|in det|the n|picture .
+*PAR:	<washing the> [//] washing dishes . [+ gram] 43594_45713
+%mor:	part|wash-PRESP n|dish-PL .
+*INV:	okay . 45713_46598
+%mor:	co|okay .
+*INV:	what else is happening ? 46598_52560
+%mor:	pro:wh|what post|else aux|be&3S part|happen-PRESP ?
+*PAR:	hm ? [+ exc] 52560_54254
+%mor:	co|hm ?
+*INV:	what else is happening ? 54254_55963
+%mor:	pro:wh|what post|else aux|be&3S part|happen-PRESP ?
+*PAR:	what else is happening here ? [+ exc] 55963_57338
+%mor:	pro:wh|what post|else aux|be&3S part|happen-PRESP adv|here ?
+*INV:	yeah . 57338_57742
+%mor:	co|yeah .
+*PAR:	&uh then see a minute ago the girls I guess are gettin(g) up there and gonna [: going to] xxx <a cookie> [//] cookies . [+ jar] 57742_64526
+%mor:	adv:tem|then v|see det|a n|minute adv|ago det|the n|girl-PL
+	pro:sub|I n|guess aux|be&PRES part|get-PRESP adv|up adv|there
+	coord|and part|go-PRESP inf|to n|cookie-PL .
+*PAR:	he didn't get us cookies .  64526_66723
+%mor:	pro:sub|he mod|do&PAST~neg|not v|get pro:obj|us n|cookie-PL .
+*INV:	(.) what's happening over here ? 66723_78286
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|over pro:dem|here ?
+*PAR:	oh the [/] &la the &uh +...  78286_84371
+%mor:	co|oh det|the +...
+*PAR:	these women that are +... 84371_86800
+%mor:	det|these n|woman&PL rel|that cop|be&PRES +...
+*PAR:	there are +... 86800_92230
+%mor:	adv|there cop|be&PRES +...
+*PAR:	cease this all to send the ball . [+ jar] 92230_95010
+%mor:	v|cease det|this adv|all inf|to v|send det|the n|ball .
+*INV:	pardon ? 95010_95873
+%mor:	co|pardon ?
+*PAR:	I heard it might but I'm sayin(g) let's tell her send the button and that's it . [+ jar] [+ exc] 95873_99980
+%mor:	pro:sub|I v|hear&PAST pro|it mod|might conj|but pro:sub|I~aux|be&1S
+	part|say-PRESP v|let~pro:obj|us v|tell pro:obj|her v|send det|the
+	n|button conj|and pro:dem|that~cop|be&3S pro|it .
+*INV:	okay . 99980_101240
+%mor:	co|okay .
+*PAR:	you'll see it happen . [+ exc] 101240_102444
+%mor:	pro|you~mod|will v|see pro|it v|happen .
+@End

@@ -1,0 +1,48 @@
+@UTF8
+@PID:	11312/t-00002463-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	051-1c, audio
+*INV:	there [/] there it is . 0_1414
+%mor:	adv|there pro|it cop|be&3S .
+*INV:	whoops . 1414_1879
+%mor:	co|whoops .
+*INV:	there you go . 1879_3348
+%mor:	adv|there pro|you v|go .
+*PAR:	the boy reaching for the cookies is gonna [: going to] fall down on the &um what do you call it . [+ es] 3348_13932
+%mor:	det|the n|boy part|reach-PRESP prep|for det|the n|cookie-PL
+	aux|be&3S part|go-PRESP inf|to v|fall adv|down prep|on det|the
+	pro:wh|what mod|do pro|you v|call pro|it .
+*PAR:	&uh she's saying “shh@o” I think +"/. 13932_17600
+%mor:	pro:sub|she~aux|be&3S part|say-PRESP bq|bq on|shh eq|eq pro:sub|I
+	v|think +"/.
+*PAR:	+" shh@o but give me a cookie too . 17600_20018
+%mor:	on|shh conj|but v|give pro:obj|me det|a n|cookie post|too .
+*PAR:	&um mother is wiping the dish . 20018_26058
+%mor:	n|mother aux|be&3S part|wipe-PRESP det|the n|dish .
+*PAR:	sink is running over . 26058_28299
+%mor:	n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	the &uh +... 28281_42222
+%mor:	det|the +...
+*PAR:	I'm to tell everything I see ? [+ exc] 42222_45445
+%mor:	pro:sub|I~aux|be&1S inf|to v|tell pro:indef|everything pro:sub|I
+	v|see ?
+*INV:	well just the action, just what you see going on . 45445_48468
+%mor:	co|well adv|just det|the n|action cm|cm adv|just pro:wh|what
+	pro|you v|see n:gerund|go-PRESP adv|on .
+*PAR:	+< all the action yeah . [+ exc] 47000_48330
+%mor:	qn|all det|the n|action co|yeah .
+*PAR:	splashing the water . [+ gram] 48730_50127
+%mor:	part|splash-PRESP det|the n|water .
+*PAR:	well xxx and the girl saying +"/. 50127_54800
+%mor:	co|well conj|and det|the n|girl part|say-PRESP +"/.
+*PAR:	+" shh@o give me a cookie too . 54800_56793
+%mor:	on|shh v|give pro:obj|me det|a n|cookie post|too .
+*PAR:	that's all I see . [+ exc] 56793_59577
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:sub|I v|see .
+*INV:	alright good . 59577_63125
+%mor:	co|alright adj|good .
+@End

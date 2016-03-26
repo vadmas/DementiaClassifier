@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002544-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	190-1c, audio
+*INV:	see going on . 0_2335
+%mor:	v|see n:gerund|go-PRESP adv|on .
+*PAR:	(.) seein(g) the mother .  [+ gram] 2335_9300
+%mor:	part|see-PRESP det|the n|mother .
+*PAR:	she's washing dishes and the water's runnin(g) all over the floor . 9300_13091
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL coord|and det|the
+	n|water~aux|be&3S part|run-PRESP adv|all prep|over det|the n|floor .
+*PAR:	and the boy he's reaching up for cookies . 13091_17264
+%mor:	conj|and det|the n|boy pro:sub|he~aux|be&3S part|reach-PRESP adv|up
+	prep|for n|cookie-PL .
+*PAR:	and he [//] his ladder [: stool] [* s:r] slipped from underneath him . 17264_21500
+%mor:	conj|and pro:poss:det|his n|stool v|slip-PAST prep|from
+	adv|underneath pro:obj|him .
+*PAR:	and I guess he's gonna [: going to] have an accident . 21500_23579
+%mor:	conj|and pro:sub|I v|guess pro:sub|he~aux|be&3S part|go-PRESP
+	inf|to v|have det|a n|accident .
+*PAR:	and the little girl she's waiting for the cookies, but I don't think she's gonna [: going to]  to get (th)em because the boy's falling down . 23579_33029
+%mor:	conj|and det|the adj|little n|girl pro:sub|she~aux|be&3S
+	part|wait-PRESP prep|for det|the n|cookie-PL cm|cm conj|but
+	pro:sub|I mod|do~neg|not v|think pro:sub|she~aux|be&3S part|go-PRESP
+	prep|to inf|to v|get pro:obj|them conj|because det|the
+	n|boy~aux|be&3S part|fall-PRESP adv|down .
+*INV:	(...)  okay . 33029_40934
+%mor:	co|okay .
+@End

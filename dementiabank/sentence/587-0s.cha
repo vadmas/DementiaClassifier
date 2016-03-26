@@ -1,0 +1,116 @@
+@UTF8
+@PID:	11312/t-00016693-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|male|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	587-0s, audio, missing
+*INV:	use this word in a sentence for me . 0_2300
+%mor:	v|use det|this n|word prep|in det|a n|sentence prep|for pro:obj|me
+	.
+*INV:	pencil@q . 2300_3347
+%mor:	meta|pencil .
+*PAR:	&uh here's the pencil, you can &uh write a letter . 3347_7986
+%mor:	pro:exist|here~cop|be&3S det|the n|pencil cm|cm pro|you mod|can
+	v|write det|a n|letter .
+*INV:	mhm . 7986_8856
+%mor:	co|yes .
+*INV:	(...) use the word tree@q in a sentence . 8856_21494
+%mor:	v|use det|the n|word meta|tree prep|in det|a n|sentence .
+*PAR:	+< tree@q ? [+ exc] 20500_21602
+%mor:	meta|tree ?
+*PAR:	&uh you're gonna trim the tree today . 21602_27827
+%mor:	pro|you~aux|be&PRES part|go-PRESP~inf|to v|trim det|the n|tree
+	adv:tem|today .
+*INV:	(..) I'm going to give you two words now . 27827_37758
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you det:num|two
+	n|word-PL adv|now .
+*INV:	and I still want you to use them in a simple sentence . 37758_40573
+%mor:	conj|and pro:sub|I adv|still v|want pro|you inf|to v|use
+	pro:obj|them prep|in det|a adj|simple n|sentence .
+*PAR:	mhm . [+ exc] 40573_40850
+%mor:	co|yes .
+*INV:	doesn't matter their order . 40850_42638
+%mor:	mod|do&3S~neg|not v|matter pro:poss:det|their n|order .
+*INV:	child@q and hospital@q . 42638_45534
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	&um our child is in the hospital . 45534_50996
+%mor:	pro:poss:det|our n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	(..) cold@q and winter@q . 50996_60770
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	let's put the [//] some more coal on the fire . [+ exc] 60770_64863
+%mor:	v|let~pro:obj|us v|put&ZERO qn|some qn|more n|coal prep|on det|the
+	n|fire .
+*INV:	no ‡ you didn't hear me right . 64863_66855
+%mor:	co|no beg|beg pro|you mod|do&PAST~neg|not v|hear pro:obj|me n|right
+	.
+*INV:	cold@q . 66855_67789
+%mor:	meta|cold .
+*PAR:	cold@q . [+ exc] 67789_68508
+%mor:	meta|cold .
+*INV:	and winter@q +/. 68508_69180
+%mor:	conj|and meta|winter +/.
+*PAR:	oh ‡ cold@q and winter@q „ oh ! [+ exc] 69180_71942
+%mor:	co|oh beg|beg meta|cold conj|and meta|winter end|end co|oh !
+*PAR:	this winter has been a long cold one . 71942_75294
+%mor:	det|this n|winter aux|have&3S cop|be&PASTP det|a adj|long adj|cold
+	pro:indef|one .
+*INV:	mhm . 75294_76443
+%mor:	co|yes .
+*INV:	(...) now I'm going to give you three words . 76443_88081
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	I still want you to put them in a sentence . 88081_90250
+%mor:	pro:sub|I adv|still v|want pro|you inf|to v|put&ZERO pro:obj|them
+	prep|in det|a n|sentence .
+*PAR:	+< mhm . [+ exc] 89950_90300
+%mor:	co|yes .
+*INV:	and it doesn't matter their order . 90250_91832
+%mor:	conj|and pro|it mod|do&3S~neg|not v|matter pro:poss:det|their
+	n|order .
+*PAR:	mhm . [+ exc] 91832_92660
+%mor:	co|yes .
+*INV:	chair@q doctor@q and sit@q . 92660_96179
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	and you may sit down, the doctor will see you soon . 96179_100677
+%mor:	conj|and pro|you mod|may v|sit adv|down cm|cm det|the n|doctor
+	mod|will v|see pro|you adv|soon .
+*INV:	(...) bureau@q open@q and drawer@q . 100677_116722
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	bureau@q draw@q &uh &uh +... [+ exc] 116722_122232
+%mor:	meta|bureau meta|draw +...
+*PAR:	bureau@q . [+ exc] 122232_124115
+%mor:	meta|bureau .
+*PAR:	say it again . [+ exc] 124115_125434
+%mor:	co|say pro|it adv|again .
+*INV:	bureau@q +/. 125434_126096
+%mor:	meta|bureau +/.
+*PAR:	+< bureau@q . [+ exc] 125796_126599
+%mor:	meta|bureau .
+*INV:	open@q +/. 126096_127750
+%mor:	meta|open +/.
+*PAR:	+< open@q . [+ exc] 126800_127750
+%mor:	meta|open .
+*INV:	and drawer@q . 127350_128917
+%mor:	conj|and meta|drawer .
+*PAR:	&um (.) who left the drawer open +..? [+ exc] 128917_133828
+%mor:	pro:wh|who v|leave&PAST det|the n|drawer adj|open +..?
+*PAR:	what to do . [+ exc] 133828_135802
+%mor:	pro:wh|what inf|to v|do .
+*PAR:	open the drawer . [+ exc] 135802_137578
+%mor:	v|open det|the n|drawer .
+*PAR:	(.) open the drawer +... 137578_148893
+%mor:	v|open det|the n|drawer +...
+*PAR:	can't think of +...  [+ exc] 148893_155555
+%mor:	mod|can~neg|not v|think prep|of +...
+*PAR:	open the drawer +... 155555_159595
+%mor:	v|open det|the n|drawer +...
+*PAR:	can't think of the three words . [+ exc] 159595_161639
+%mor:	mod|can~neg|not v|think prep|of det|the det:num|three n|word-PL .
+*INV:	+< okay . 161600_162015
+%mor:	co|okay .
+*INV:	that's fine . 162015_162668
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+*PAR:	&um +... [+ exc] 162668_164154
+@End

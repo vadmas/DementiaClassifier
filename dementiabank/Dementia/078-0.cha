@@ -1,0 +1,65 @@
+@UTF8
+@PID:	11312/t-00002489-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	078-0c, audio
+*INV:	just tell me everything that you see happening in the picture . 0_3038
+%mor:	adv|just v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|happen-PRESP prep|in det|the n|picture .
+*PAR:	oh yes . [+ exc] 3038_6047
+%mor:	co|oh co|yes .
+*PAR:	a little girl &a and the little boy is getting cookies out of the jar . 6047_13417
+%mor:	det|a adj|little n|girl coord|and det|the adj|little n|boy
+	aux|be&3S part|get-PRESP n|cookie-PL adv|out prep|of det|the n|jar .
+*PAR:	oh and the stool is upsetting &=laughs . 13417_20203
+%mor:	co|oh coord|and det|the n|stool aux|be&3S part|upset-PRESP .
+*PAR:	and the [//] I guess it's the mother is drying dishes .  20203_25903
+%mor:	conj|and pro:sub|I v|guess pro|it~cop|be&3S det|the n|mother
+	aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	water's spilling down all over the sink . 25903_28918
+%mor:	n|water~aux|be&3S part|spill-PRESP adv|down adv|all prep|over
+	det|the n|sink .
+*PAR:	water on the floor .  [+ gram] 28918_31828
+%mor:	n|water prep|on det|the n|floor .
+*PAR:	little boy's gonna [: going to] fall and that [/] &steps &uh that there stool .  [+ gram] 31828_39973
+%mor:	adj|little n|boy~mod|do&3S part|go-PRESP inf|to v|fall coord|and
+	rel|that adv|there n|stool .
+*PAR:	&uh I think the cookie jar is gonna [: going to] fall &=laughs . 39973_48996
+%mor:	pro:sub|I v|think det|the n|cookie n|jar aux|be&3S part|go-PRESP
+	inf|to v|fall .
+*PAR:	and the [//] guess dryin(g) dishes and water [//] the faucet's on and water's runnin(g) all over the floor .  [+ gram] 48996_55998
+%mor:	conj|and n|guess part|dry-PRESP n|dish-PL coord|and det|the
+	n|faucet~aux|be&3S adv|on coord|and n|water~aux|be&3S part|run-PRESP
+	adv|all prep|over det|the n|floor .
+*PAR:	(..) &wh <what else am I [/] &sup I_mean what> [//] what +..? [+ exc] 56370_68403
+%mor:	pro:wh|what +..?
+*INV:	anything else ? 68403_70940
+%mor:	pro:indef|anything post|else ?
+*INV:	just the things that you see happening . 70940_73134
+%mor:	adv|just det|the n|thing-PL rel|that pro|you v|see
+	n:gerund|happen-PRESP .
+*PAR:	yeah . [+ exc] 73134_73700
+%mor:	co|yeah .
+*PAR:	the cookie jar . [+ gram]  73700_74801
+%mor:	det|the n|cookie n|jar .
+*INV:	yeah . 74801_75580
+%mor:	co|yeah .
+*PAR:	the stool . [+ gram] 75580_76503
+%mor:	det|the n|stool .
+*INV:	mhm . 76503_77053
+%mor:	co|yes .
+*PAR:	her doin(g) the dishes . [+ gram] 77053_78232
+%mor:	pro:obj|her part|do-PRESP det|the n|dish-PL .
+*PAR:	the water spilling . 78232_79531
+%mor:	det|the n|water part|spill-PRESP .
+*INV:	okay ? 79531_84917
+%mor:	co|okay ?
+*PAR:	<far as> [//] yeah that's as far as I could see . [+ exc] 84917_86930
+%mor:	co|yeah pro:dem|that~cop|be&3S adv|as adv|far conj|as pro:sub|I
+	mod|could v|see .
+*INV:	+< well +/. 86930_86931
+%mor:	co|well +/.
+@End

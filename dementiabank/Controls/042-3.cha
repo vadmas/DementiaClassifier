@@ -1,0 +1,42 @@
+@UTF8
+@PID:	11312/t-00002212-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	042-3c, audio
+*PAR:	okay &uh the boy is up in the cupboard &uh getting cookies and he's falling off the stool at the same time . 0_10382
+%mor:	co|okay det|the n|boy cop|be&3S adv|up prep|in det|the n|cupboard
+	part|get-PRESP n|cookie-PL coord|and pro:sub|he~aux|be&3S
+	part|fall-PRESP prep|off det|the n|stool prep|at det|the adj|same
+	n|time .
+*PAR:	little girl's reaching up her hand .  [+ gram] 10382_13026
+%mor:	adj|little n|girl~mod|do&3S part|reach-PRESP prep|up
+	pro:poss:det|her n|hand .
+*PAR:	she has her finger up to her mouth . 13026_15403
+%mor:	pro:sub|she v|have&3S pro:poss:det|her n|finger adv|up prep|to
+	pro:poss:det|her n|mouth .
+*PAR:	&um mother's drying a dish at the sink . 15403_18175
+%mor:	n|mother~aux|be&3S part|dry-PRESP det|a n|dish prep|at det|the
+	n|sink .
+*PAR:	the water is running over onto the floor . 18175_21029
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|over prep|onto det|the
+	n|floor .
+*PAR:	&um there's a <cup and> [//] two cups and a dish on the counter . 21029_27752
+%mor:	pro:exist|there~cop|be&3S det|a det:num|two n|cup-PL coord|and
+	det|a n|dish prep|on det|the n|counter .
+*PAR:	&uh outside there's a [/] &um a path or some bushes &uh grass tree . 27752_34767
+%mor:	adv|outside pro:exist|there~cop|be&3S det|a n|path coord|or qn|some
+	n|bush-PL n|grass n|tree .
+*PAR:	&um let's see . [+ exc] 34767_38424
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	cupboard doors open . 38424_39622
+%mor:	n|cupboard n|door-PL adv|open .
+*PAR:	and (.) I said she's drying dishes . 39622_45583
+%mor:	conj|and pro:sub|I v|say&PAST pro:sub|she~aux|be&3S part|dry-PRESP
+	n|dish-PL .
+*PAR:	think that's about all  . [+ exc] 45583_46947
+%mor:	v|think pro:dem|that~mod|do&3S adv|about adv|all .
+*PAR:	xxx . [+ exc] 46947_48060
+@End

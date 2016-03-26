@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/t-00002202-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	022-2c, audio
+*INV:	mention that you see going on in the picture . 0_2631
+%mor:	n|mention rel|that pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|the n|picture .
+*INV:	okay ? 2631_4150
+%mor:	co|okay ?
+*PAR:	oh goody . [+ exc] 4150_5214
+%mor:	co|oh co|goody .
+*PAR:	that boy's climbed on a stool that's falling over to get a cookie . 5214_12529
+%mor:	det|that n|boy~poss|s part|climb-PASTP prep|on det|a n|stool
+	rel|that~aux|be&3S part|fall-PRESP adv|over inf|to v|get det|a
+	n|cookie .
+*PAR:	and the little girl is standin(g) below him tryin(g) to get the cookie from his hand . 12529_19221
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|stand-PRESP
+	prep|below pro:obj|him part|try-PRESP inf|to v|get det|the n|cookie
+	prep|from pro:poss:det|his n|hand .
+*PAR:	and the mother is washing dishes while the water's runnin(g) over in the sink on the floor . 19221_28668
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL
+	conj|while det|the n|water~aux|be&3S part|run-PRESP adv|over prep|in
+	det|the n|sink prep|on det|the n|floor .
+*PAR:	and <the window is> [//] the sun's shining &=laughs . 28668_35301
+%mor:	conj|and det|the n|sun~aux|be&3S part|shine-PRESP .
+*PAR:	there's two cups and this plate on the counter . 35301_43517
+%mor:	pro:exist|there~cop|be&3S det:num|two n|cup-PL coord|and det|this
+	n|plate prep|on det|the n|counter .
+*PAR:	and maybe the mother is drying a plate . 43517_47127
+%mor:	conj|and adv|maybe det|the n|mother aux|be&3S part|dry-PRESP det|a
+	n|plate .
+*PAR:	that's all I see . [+ exc] 47127_50450
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:sub|I v|see .
+*INV:	okay good . 50450_52264
+%mor:	co|okay adj|good .
+@End

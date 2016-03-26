@@ -1,0 +1,73 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|59;|female|ProbableAD||Participant|7||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	049-3s, audio
+*PAR:	oh &=laughs . 0_1304
+%mor:	co|oh .
+*INV:	+< okay ‡ pencil@q . 1304_3100
+%mor:	co|okay beg|beg meta|pencil .
+*PAR:	pencils . [+ exc] 3100_5828
+%mor:	n|pencil-PL .
+*PAR:	people always take my pencils . 5828_8287
+%mor:	n|person&PL adv|always v|take pro:poss:det|my n|pencil-PL .
+*INV:	okay . 8287_9625
+%mor:	co|okay .
+*PAR:	do they take yours &=laughs ? [+ exc]  9625_14562
+%mor:	mod|do pro:sub|they v|take pro:poss|yours ?
+*INV:	how_(a)bout tree@q ? 14562_16765
+%mor:	adv:wh|how_about meta|tree ?
+*PAR:	&uh I like great big trees (a)s long as they don't fall over on me .
+	16765_22756
+%mor:	pro:sub|I v|like adj|great adj|big n|tree-PL adv|as adv|long
+	conj|as pro:sub|they mod|do~neg|not v|fall adv|over prep|on
+	pro:obj|me .
+*INV:	how_(a)bout now I'm gonna give you two words . 22756_26357
+%mor:	adv:wh|how_about adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	and I don't want you to worry about the order of the two words . 26357_28265
+%mor:	coord|and pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry
+	prep|about det|the n|order prep|of det|the det:num|two n|word-PL .
+*INV:	just use both of them in one short simple sentence . 28265_31684
+%mor:	adj|just n|use qn|both prep|of pro:obj|them prep|in det:num|one
+	adj|short adj|simple n|sentence .
+*INV:	how_(a)bout child@q hospital@q ? 31684_34877
+%mor:	adv:wh|how_about meta|child meta|hospital ?
+*PAR:	the child had to go to the hospital . 34877_37779
+%mor:	det|the n|child v|have&PAST inf|to v|go prep|to det|the n|hospital
+	.
+*INV:	how_(a)bout cold@q winter@q ? 37779_44525
+%mor:	adv:wh|how_about meta|cold meta|winter ?
+*PAR:	I don't like cold winter . 44525_47102
+%mor:	pro:sub|I mod|do~neg|not v|like adj|cold n|winter .
+*PAR:	I hate cold winter &=laughs . [+ exc]  47102_50043
+%mor:	pro:sub|I v|hate adj|cold n|winter .
+*INV:	me too . 50043_51154
+%mor:	pro:obj|me post|too .
+*INV:	now I'm gonna give you three words . 51154_53116
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	I don't want you worry [/] worry about the order of the three words
+	. 53116_56204
+%mor:	pro:sub|I mod|do~neg|not v|want pro|you v|worry prep|about det|the
+	n|order prep|of det|the det:num|three n|word-PL .
+*INV:	I just want you to use them in one sentence . 56204_58586
+%mor:	pro:sub|I adv|just v|want pro|you inf|to v|use pro:obj|them prep|in
+	det:num|one n|sentence .
+*PAR:	okay . [+ exc] 58586_59130
+%mor:	co|okay .
+*INV:	chair@q doctor@q sit@q . 59130_62973
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor sat on his chair . 62973_66277
+%mor:	det|the n|doctor v|sit&PAST prep|on pro:poss:det|his n|chair .
+*INV:	okay . 66277_67245
+%mor:	co|okay .
+*INV:	how_(a)bout bureau@q open@q drawer@q ? 67245_73573
+%mor:	adv:wh|how_about meta|bureau meta|open meta|drawer ?
+*PAR:	&uh open the bureau drawer . 73573_77474
+%mor:	v|open det|the n|bureau n|drawer .
+*INV:	okay . 77474_82431
+%mor:	co|okay .
+@End

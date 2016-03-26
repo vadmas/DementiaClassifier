@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/t-00002336-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	192-2c, audio
+*INV:	okay . 0_380
+%mor:	co|okay .
+*INV:	just tell me everything that you see happening in this picture . 380_3160
+%mor:	adv|just v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|happen-PRESP prep|in det|this n|picture .
+*INV:	just everything that you see going on . 3160_5139
+%mor:	adv|just pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on .
+*PAR:	okay . [+ exc] 5139_7018
+%mor:	co|okay .
+*PAR:	the little boy is climbing up <in the> [//] getting cookies out o(f) the cookie jar and is [//] he's falling . 7018_13419
+%mor:	det|the adj|little n|boy aux|be&3S part|climb-PRESP adv|up
+	part|get-PRESP n|cookie-PL adv|out prep|of det|the n|cookie n|jar
+	coord|and pro:sub|he~aux|be&3S part|fall-PRESP .
+*PAR:	the stool's falling over . 13419_15548
+%mor:	det|the n|stool~aux|be&3S part|fall-PRESP adv|over .
+*PAR:	and the little girl has her hand up that she wants a cookie and he's trying to hand her one . 15548_20375
+%mor:	conj|and det|the adj|little n|girl aux|have&3S pro:poss:det|her
+	n|hand prep|up rel|that pro:sub|she v|want-3S det|a n|cookie
+	coord|and pro:sub|he~aux|be&3S part|try-PRESP inf|to v|hand
+	pro:poss:det|her pro:indef|one .
+*PAR:	and the door to the cabinet is open . 20375_22976
+%mor:	conj|and det|the n|door prep|to det|the n|cabinet aux|be&3S
+	adv|open .
+*PAR:	and the mother is washing dishes . 22976_27254
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	and the [/] &dishwash the dish water is overflowing in the sink and it's running on to the floor and she's standing in the water . 27254_36530
+%mor:	conj|and det|the n|dish n|water aux|be&3S over#part|flow-PRESP
+	prep|in det|the n|sink coord|and pro|it~aux|be&3S part|run-PRESP
+	adv|on prep|to det|the n|floor coord|and pro:sub|she~aux|be&3S
+	part|stand-PRESP prep|in det|the n|water .
+*PAR:	and there's [//] she's drying a plate or washing it . 36530_41650
+%mor:	conj|and pro:sub|she~aux|be&3S part|dry-PRESP det|a n|plate
+	coord|or part|wash-PRESP pro|it .
+*PAR:	whatever . [+ exc] 41650_42334
+%mor:	pro:wh|whatever .
+*PAR:	and there's two cups and a plate on the counter top . 42334_46299
+%mor:	conj|and pro:exist|there~cop|be&3S det:num|two n|cup-PL coord|and
+	det|a n|plate prep|on det|the n|counter n|top .
+*PAR:	and it looks like the window is open . 46299_49134
+%mor:	conj|and pro|it v|look-3S prep|like det|the n|window aux|be&3S
+	adv|open .
+*PAR:	and it has curtains pulled back at the window . 49134_53492
+%mor:	conj|and pro|it aux|have&3S n|curtain-PL v|pull-PAST adv|back
+	prep|at det|the n|window .
+*PAR:	and there's a little lane going around the house towards the back I imagine with shrubs . 53492_60890
+%mor:	conj|and pro:exist|there~cop|be&3S det|a adj|little n|lane
+	part|go-PRESP prep|around det|the n|house prep|towards det|the
+	n|back pro:sub|I v|imagine prep|with n|shrub-PL .
+*PAR:	and you can see another window . 60890_62441
+%mor:	conj|and pro|you mod|can v|see qn|another n|window .
+@End

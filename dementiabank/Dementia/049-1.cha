@@ -1,0 +1,57 @@
+@UTF8
+@PID:	11312/t-00002460-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|57;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	049-1c, audio
+*INV:	okay and here's the picture . 0_1610
+%mor:	co|okay coord|and pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	tell me all the action . 1610_3020
+%mor:	v|tell pro:obj|me adv|all det|the n|action .
+*PAR:	oh little boy's in the cookie jar . [+ gram] 3020_5464
+%mor:	co|oh adj|little n|boy~mod|do&3S prep|in det|the n|cookie n|jar .
+*PAR:	the girl's standin(g) down and waitin(g) for him to <give him [: her] [* s:r-ret] some> [//] give her some . 5464_9590
+%mor:	det|the n|girl~aux|be&3S part|stand-PRESP adv|down coord|and
+	part|wait-PRESP prep|for pro:obj|him inf|to v|give pro:obj|her
+	qn|some .
+*PAR:	the mother's doin(g) the dishes . 9590_11936
+%mor:	det|the n|mother~aux|be&3S part|do-PRESP det|the n|dish-PL .
+*PAR:	and she's also <letting him> [//] letting &hm +... 11936_18420
+%mor:	conj|and pro:sub|she~aux|be&3S adv|also part|let-PRESP +...
+*PAR:	oh the water just fell off [//] over on the floor . 18420_23395
+%mor:	co|oh det|the n|water adv|just v|fall&PAST adv|over prep|on det|the
+	n|floor .
+*PAR:	&uh can I turn the page ? [+ exc] 23395_26755
+%mor:	mod|can pro:sub|I v|turn det|the n|page ?
+*INV:	that's all there is . 26755_28140
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:exist|there cop|be&3S .
+*PAR:	okay . [+ exc] 28140_29183
+%mor:	co|okay .
+*PAR:	that's all there is except she's just gettin(g) all wet . 29183_32857
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:exist|there cop|be&3S
+	conj|except pro:sub|she~aux|be&3S adv|just part|get-PRESP adv|all
+	part|wet&PASTP .
+*INV:	is that everything in the picture ? 32857_35284
+%mor:	cop|be&3S rel|that pro:indef|everything prep|in det|the n|picture ?
+*PAR:	no . [+ exc] 35284_35749
+%mor:	co|no .
+*PAR:	the little girl was helpin(g) xxx the boy to get to the cookie jar . 35774_40590
+%mor:	det|the adj|little n|girl aux|be&PAST&13S part|help-PRESP det|the
+	n|boy inf|to v|get prep|to det|the n|cookie n|jar .
+*PAR:	but he started stumblin(g) . 40590_42572
+%mor:	conj|but pro:sub|he v|start-PAST n:gerund|stumble-PRESP .
+*PAR:	he must ha(ve) fell over (be)cause he seems to be falling there . 42572_45595
+%mor:	pro:sub|he mod|must v|have v|fall&PAST adv|over conj|because
+	pro:sub|he v|seem-3S inf|to aux|be part|fall-PRESP adv|there .
+*PAR:	and the mother's over at the sink drying dishes . 45595_49345
+%mor:	conj|and det|the n|mother~aux|be&3S adv|over prep|at det|the n|sink
+	part|dry-PRESP n|dish-PL .
+*PAR:	and it's goin(g) on the floor . 49345_50797
+%mor:	conj|and pro|it~aux|be&3S part|go-PRESP prep|on det|the n|floor .
+*PAR:	and three cups [//] three bowls there . [+ gram] 50797_54600
+%mor:	coord|and det:num|three det:num|three n|bowl-PL adv|there .
+*INV:	okay that's fine . 54600_57880
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,23 @@
+@UTF8
+@PID:	11312/t-00002369-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|51;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	255-1c, audio
+*PAR:	I &s see this woman who's standin(g) by the sink washin(g) dishes and the water's spillin(g) out over the sink . 0_7099
+%mor:	pro:sub|I v|see det|this n|woman rel|who~aux|be&3S part|stand-PRESP
+	prep|by det|the n|sink part|wash-PRESP n|dish-PL coord|and det|the
+	n|water~aux|be&3S part|spill-PRESP adv|out prep|over det|the n|sink
+	.
+*PAR:	and I see <a little> [//] this little boy standing on a stool reaching for cookies and he looks like he's ready to fall . 7099_17758
+%mor:	conj|and pro:sub|I v|see det|this adj|little n|boy part|stand-PRESP
+	prep|on det|a n|stool part|reach-PRESP prep|for n|cookie-PL
+	coord|and pro:sub|he v|look-3S rel|like pro:sub|he~aux|be&3S
+	adj|ready prep|to n|fall .
+*PAR:	(..) &uh as far as action goes I don't know if I see any more action in there at all . [+ exc]  17758_40528
+%mor:	conj|as adj|far adv|as n|action v|go-3S pro:sub|I mod|do~neg|not
+	v|know conj|if pro:sub|I v|see qn|any adv|more n|action adv|in
+	adv|there prep|at pro:indef|all .
+@End

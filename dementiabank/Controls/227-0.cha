@@ -1,0 +1,65 @@
+@UTF8
+@PID:	11312/t-00002351-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|male|Control||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	227-0c, audio
+*PAR:	he's falling off the stool . 0_1505
+%mor:	pro:sub|he~aux|be&3S part|fall-PRESP prep|off det|the n|stool .
+*INV:	action . 1505_2072
+%mor:	n|action .
+*INV:	okay . 2072_2941
+%mor:	co|okay .
+*PAR:	the water's over flowing . 2941_4482
+%mor:	det|the n|water~aux|be&3S adv|over part|flow-PRESP .
+*PAR:	not xxx do you xxx more ? [+ exc] 4482_7909
+%mor:	neg|not v|do pro|you pro:indef|more ?
+*PAR:	is there more ? [+ exc] 7909_10070
+%mor:	cop|be&3S adv|there pro:indef|more ?
+*INV:	do you see any more ? 10070_11870
+%mor:	mod|do pro|you v|see qn|any pro:indef|more ?
+*PAR:	+<  right there . [+ exc] 10570_11770
+%mor:	adv|right adv|there .
+*PAR:	what if . [+ exc] 11870_13866
+%mor:	pro:wh|what conj|if .
+*PAR:	the action . [+ exc] 13866_17256
+%mor:	det|the n|action .
+*PAR:	I don't know what you strictly mean by action . [+ exc] 17256_19169
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro|you
+	adv|strict&dadj-LY adj|mean prep|by n|action .
+*PAR:	the guy's eatin(g) some cookies . 19169_20282
+%mor:	det|the n|guy~aux|be&3S part|eat-PRESP qn|some n|cookie-PL .
+*PAR:	is that action ? [+ exc] 20282_21450
+%mor:	cop|be&3S rel|that n|action ?
+*INV:	things that are going on . 21450_26348
+%mor:	n|thing-PL rel|that aux|be&PRES part|go-PRESP adv|on .
+*PAR:	(.) washing dishes ? [+ exc] 26348_33777
+%mor:	part|wash-PRESP n|dish-PL ?
+*PAR:	is that action ? [+ exc] 33777_34735
+%mor:	cop|be&3S rel|that n|action ?
+*INV:	mhm . 34735_35314
+%mor:	co|yes .
+*PAR:	and the water coming out of the faucet is action . 35314_38340
+%mor:	conj|and det|the n|water part|come-PRESP adv|out prep|of det|the
+	n|faucet cop|be&3S n|action .
+*PAR:	and drying the dishes is action . 38340_40884
+%mor:	conj|and part|dry-PRESP det|the n|dish-PL cop|be&3S n|action .
+*PAR:	and takin(g) the cookie is action . 40884_42585
+%mor:	coord|and part|take-PRESP det|the n|cookie cop|be&3S n|action .
+*PAR:	and I don't see anybody eating one . 42385_45366
+%mor:	conj|and pro:sub|I mod|do~neg|not v|see pro:indef|anybody
+	n:gerund|eat-PRESP pro:indef|one .
+*PAR:	okay ? [+ exc] 45366_48124
+%mor:	co|okay ?
+*INV:	okay . 48124_49058
+%mor:	co|okay .
+*PAR:	(.) that's about all the action I see . [+ exc] 49058_56080
+%mor:	pro:dem|that~cop|be&3S prep|about qn|all det|the n|action pro:sub|I
+	v|see .
+*INV:	okay . 56080_56776
+%mor:	co|okay .
+*PAR:	any more ? [+ exc] 56776_57833
+%mor:	qn|any pro:indef|more ?
+@End

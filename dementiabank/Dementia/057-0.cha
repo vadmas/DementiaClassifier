@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002467-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|83;|female|ProbableAD||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	057-0c, audio
+*INV:	just tell me what you see going on . 0_1895
+%mor:	adv|just v|tell pro:obj|me pro:wh|what pro|you v|see
+	n:gerund|go-PRESP adv|on .
+*PAR:	okay . [+ exc] 1895_3059
+%mor:	co|okay .
+*PAR:	&uh I see a &uh boy on &uh a stool . 3059_9560
+%mor:	pro:sub|I v|see det|a n|boy prep|on det|a n|stool .
+*PAR:	and the stool is falling over while he is reaching for the cookie jar . 9560_16171
+%mor:	conj|and det|the n|stool aux|be&3S part|fall-PRESP adv|over
+	conj|while pro:sub|he aux|be&3S part|reach-PRESP prep|for det|the
+	n|cookie n|jar .
+*PAR:	and &uh his sister is reaching . 16171_20178
+%mor:	conj|and pro:poss:det|his n|sister aux|be&3S part|reach-PRESP .
+*PAR:	&uh he has two cookies in his left hand . 20178_24483
+%mor:	pro:sub|he v|have&3S det:num|two n|cookie-PL prep|in
+	pro:poss:det|his n|left n|hand .
+*PAR:	and &uh his sister is reaching hoping to get the [/] the cookies in his hand .24483_31922
+%mor:	conj|and pro:poss:det|his n|sister aux|be&3S part|reach-PRESP
+	part|hope-PRESP inf|to v|get det|the n|cookie-PL prep|in
+	pro:poss:det|his n|hand .
+*PAR:	and the mother is &uh drying the dishes <while the> [/] &uh &wat while the water's filling up and overflowing onto the [/] the kitchen (.) floor .31922_50147
+%mor:	conj|and det|the n|mother aux|be&3S part|dry-PRESP det|the
+	n|dish-PL conj|while det|the n|water~aux|be&3S part|fill-PRESP
+	adv|up coord|and over#part|flow-PRESP prep|onto det|the n|kitchen
+	n|floor .
+*PAR:	and &uh the window's &op open .50147_56186
+%mor:	conj|and det|the n|window~aux|be&3S adv|open .
+*PAR:	let me see what else . [+ exc] 56186_59347
+%mor:	v|let&ZERO pro:obj|me v|see pro:wh|what post|else .
+*PAR:	I can't see anything else going on . [+ exc] 59347_64998
+%mor:	pro:sub|I mod|can~neg|not v|see pro:indef|anything post|else
+	part|go-PRESP adv|on .
+*PAR:	the [/] the curtains are &flu [//] blowin(g) . 64998_68469
+%mor:	det|the n|curtain-PL aux|be&PRES part|blow-PRESP .
+*PAR:	(.) I can't see anything else . [+ exc] 68469_76952
+%mor:	pro:sub|I mod|can~neg|not v|see pro:indef|anything post|else .
+*INV:	okay that's fine . 76952_78599
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

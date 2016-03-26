@@ -1,0 +1,104 @@
+@UTF8
+@PID:	11312/t-00016712-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|male|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	663-0s, audio
+*INV:	make a sentence using the word pencil .
+%mor:	v|make det|a n|sentence part|use-PRESP det|the n|word n|pencil .
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|3|XMOD 5|7|DET 6|7|MOD 7|4|OBJ 8|1|PUNCT
+*PAR:	I (.) write a letter with a pencil .
+%mor:	pro:sub|I v|write det|a n|letter prep|with det|a n|pencil .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*INV:	tree .
+%mor:	n|tree .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	I see a tree (.) in the field .
+%mor:	pro:sub|I v|see det|a n|tree prep|in det|the n|field .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*INV:	I'll give you two words now and I still want you to put them in a
+	brief simple sentence for me .
+%mor:	pro:sub|I~mod|will v|give pro|you det:num|two n|word-PL adv|now
+	coord|and pro:sub|I adv|still v|want pro|you inf|to v|put&ZERO
+	pro:obj|them prep|in det|a adj|brief adj|simple n|sentence prep|for
+	pro:obj|me .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|6|QUANT 6|3|JCT 7|3|JCT 8|11|LINK
+	9|11|SUBJ 10|11|JCT 11|3|COMP 12|11|OBJ 13|14|INF 14|12|XCOMP 15|14|OBJ
+	16|14|JCT 17|20|DET 18|20|MOD 19|20|MOD 20|16|POBJ 21|20|NJCT 22|21|POBJ
+	23|3|PUNCT
+*INV:	child and hospital .
+%mor:	n|child coord|and n|hospital .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*PAR:	child and hospital ?
+%mor:	n|child coord|and n|hospital ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*INV:	mhm .
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	the child is in the hospital .
+%mor:	det|the n|child cop|be&3S prep|in det|the n|hospital .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*INV:	cold and winter .
+%mor:	adv|cold coord|and n|winter .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*PAR:	winter (.) brings (.) cold weather .
+%mor:	n|winter v|bring-3S adj|cold n|weather .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*PAR:	is that good enough ?
+%mor:	cop|be&3S pro:dem|that adj|good adv|enough ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|1|PUNCT
+*INV:	that's fine .
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*INV:	I will give you three words now .
+%mor:	pro:sub|I mod|will v|give pro|you det:num|three n|word-PL adv|now .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|6|QUANT 6|3|OBJ 7|3|JCT 8|3|PUNCT
+*INV:	still use them in a brief simple sentence .
+%mor:	adj|still v|use pro:obj|them prep|in det|a adj|brief adj|simple
+	n|sentence .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|8|DET 6|8|MOD 7|8|MOD 8|4|POBJ
+	9|2|PUNCT
+*INV:	doesn't matter what order .
+%mor:	mod|do&3S~neg|not v|matter pro:wh|what n|order .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|5|MOD 5|3|OBJ 6|3|PUNCT
+*INV:	chair doctor and sit .
+%mor:	n|chair n|doctor coord|and v|sit .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*PAR:	I sit on a chair (.) the doctor (.) checks my health .
+%mor:	pro:sub|I v|sit prep|on det|a n|chair det|the n|doctor v|check-3S
+	pro:poss:det|my n|health .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|7|DET 7|8|SUBJ 8|2|COMP
+	9|10|MOD 10|8|OBJ 11|2|PUNCT
+*PAR:	what was the last one ?
+%mor:	pro:wh|what cop|be&PAST&13S det|the adj|last pro:indef|one ?
+%gra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*INV:	you got them .
+%mor:	pro|you v|get&PAST pro:obj|them .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*PAR:	did I get them all ?
+%mor:	mod|do&PAST pro:sub|I v|get pro:obj|them post|all ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|PQ 6|3|PUNCT
+*INV:	mhm .
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	okay .
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*INV:	I'll give you three more words bureau open and drawer .
+%mor:	pro:sub|I~mod|will v|give pro|you det:num|three adv|more n|word-PL
+	n|bureau adj|open coord|and n|drawer .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|8|QUANT 6|8|JCT 7|8|MOD 8|3|COMP
+	9|8|XMOD 10|9|CONJ 11|10|COORD 12|3|PUNCT
+*PAR:	I open (.)  the drawer of the bureau .
+%mor:	pro:sub|I v|open det|the n|drawer prep|of det|the n|bureau .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*PAR:	how does that sound ?
+%mor:	adv:wh|how mod|do&3S adv|that n|sound ?
+%gra:	1|4|LINK 2|4|AUX 3|4|JCT 4|0|INCROOT 5|4|PUNCT
+*INV:	mhm .
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	&=clears:throat .
+@End

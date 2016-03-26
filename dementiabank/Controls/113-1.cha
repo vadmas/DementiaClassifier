@@ -1,0 +1,45 @@
+@UTF8
+@PID:	11312/t-00002260-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|48;|female|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	113-1c, audio
+*INV:	there it is . 0_1009
+%mor:	adv|there pro|it cop|be&3S .
+*PAR:	&mm the little girl is asking for a cookie . 1009_7127
+%mor:	det|the adj|little n|girl aux|be&3S part|ask-PRESP prep|for det|a
+	n|cookie .
+*PAR:	little boy is handing her a cookie and taking a cookie and falling off the chair [: stool] [* s:r] . 7127_15658
+%mor:	adj|little n|boy aux|be&3S part|hand-PRESP pro:obj|her det|a
+	n|cookie coord|and part|take-PRESP det|a n|cookie coord|and
+	part|fall-PRESP prep|off det|the n|stool .
+*PAR:	mother's washing dishes . 15658_18384
+%mor:	n|mother~aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	the water's running . 18384_20656
+%mor:	det|the n|water~aux|be&3S part|run-PRESP .
+*PAR:	it's falling on the floor . 20656_22219
+%mor:	pro|it~aux|be&3S part|fall-PRESP prep|on det|the n|floor .
+*PAR:	and she's standing in it . 22219_23583
+%mor:	conj|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in pro|it .
+*PAR:	&uh the wind is blowing . 23583_26242
+%mor:	det|the n|wind aux|be&3S part|blow-PRESP .
+*PAR:	the curtains are ruffled . 26242_27425
+%mor:	det|the n|curtain-PL aux|be&PRES part|ruffle-PASTP .
+*PAR:	the mother's smiling . 27425_33322
+%mor:	det|the n|mother~aux|be&3S part|smile-PRESP .
+*PAR:	she must be deaf not to see what's going on behind her too &=laughs .  33322_41694
+%mor:	pro:sub|she mod|must cop|be adj|deaf neg|not inf|to v|see
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|behind pro:obj|her
+	post|too .
+*INV:	&=laughs . 41694_42769
+*PAR:	it's summertime . 42769_45523
+%mor:	pro|it~cop|be&3S n|+n|summer+n|time .
+*PAR:	flower [//] &er the plants are in bloom outside . 45523_49244
+%mor:	det|the n|plant-PL cop|be&PRES prep|in n|bloom adv|outside .
+*PAR:	that's all I see . [+ exc] 49244_52342
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:sub|I v|see .
+*INV:	okay great . 52342_53476
+%mor:	co|okay adj|great .
+@End

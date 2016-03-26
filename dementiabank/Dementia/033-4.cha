@@ -1,0 +1,57 @@
+@UTF8
+@PID:	11312/t-00002450-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|MCI||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	033-4c, audio
+*INV:	&=clears:throat let's just take a look at that picture . 0_2679
+%mor:	v|let~pro:obj|us adv|just v|take det|a n|look prep|at det|that
+	n|picture .
+*INV:	and tell me everything that you see happening in that picture . 2679_5762
+%mor:	coord|and v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|happen-PRESP prep|in det|that n|picture .
+*INV:	everything that's going on there . 5762_7875
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP prep|on
+	pro:dem|there .
+*PAR:	&=clears:throat (o)kay . [+ exc] 7875_10251
+%mor:	co|okay .
+*PAR:	&=clears:throat there are three persons in the kitchen . 10251_13426
+%mor:	adv|there cop|be&PRES det:num|three n|person-PL prep|in det|the
+	n|kitchen .
+*PAR:	the little girl is instructing the little boy to take cookies out of the cookie jar on the second &uh shelf of the cupboard . 13426_25956
+%mor:	det|the adj|little n|girl aux|be&3S part|instruct-PRESP det|the
+	adj|little n|boy inf|to v|take n|cookie-PL adv|out prep|of det|the
+	n|cookie n|jar prep|on det|the adj|second n|shelf prep|of det|the
+	n|cupboard .
+*PAR:	and at the same time his &uh stool that he's standing on is about to collapse . 25956_34349
+%mor:	conj|and prep|at det|the adj|same n|time pro:poss:det|his n|stool
+	rel|that pro:sub|he~aux|be&3S part|stand-PRESP adv|on cop|be&3S
+	adv|about prep|to n|collapse .
+*PAR:	the mother apparently is &uh doing dishes and &uh looking out the windo(w) .  34349_41482
+%mor:	det|the n|mother adv|apparent&dadj-LY aux|be&3S part|do-PRESP
+	n|dish-PL coord|and part|look-PRESP prep|out det|the n|window .
+*PAR:	has the faucet &ro &uh on in the sink .  [+ gram] 41482_45321
+%mor:	v|have&3S det|the n|faucet adv|on prep|in det|the n|sink .
+*PAR:	and the [//] apparently the plug is in and the water is cascading over the kitchen floor .  45321_54930
+%mor:	conj|and adv|apparent&dadj-LY det|the n|plug cop|be&3S adv|in
+	coord|and det|the n|water aux|be&3S part|cascade-PRESP prep|over
+	det|the n|kitchen n|floor .
+*PAR:	and &uh it must be a warm sunny day because the windo(w) is open . 54930_64053
+%mor:	conj|and pro|it mod|must cop|be det|a adj|warm adj|sun&dn-Y n|day
+	conj|because det|the n|window aux|be&3S adv|open .
+*PAR:	and I can see the shrubbery and what appears to be the end of the house maybe a garage door . 64053_72165
+%mor:	conj|and pro:sub|I mod|can v|see det|the n|shrubbery coord|and
+	pro:wh|what v|appear-3S inf|to cop|be det|the n|end prep|of det|the
+	n|house adv|maybe det|a n|garage n|door .
+*PAR:	and on the counter there are dishes that the mother has either washed or &ha has dried and &uh is still washing a plate . 72165_85381
+%mor:	conj|and prep|on det|the n|counter adv|there cop|be&PRES v|dish-3S
+	rel|that det|the n|mother aux|have&3S adv|either part|wash-PASTP
+	coord|or aux|have&3S part|dry-PASTP coord|and cop|be&3S adv|still
+	part|wash-PRESP det|a n|plate .
+*INV:	okay . 85381_86440
+%mor:	co|okay .
+*INV:	thanks . 86440_88340
+%mor:	co|thanks .
+@End

@@ -1,0 +1,39 @@
+@UTF8
+@PID:	11312/t-00002529-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|MCI||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	172-3c, audio
+*PAR:	okay . [+ exc] 0_793
+%mor:	co|okay .
+*PAR:	little boy is reaching for the cookie jar <in so doing he's tipping over the> [//] &s and he's handing them to his sister, the cookies . 793_8161
+%mor:	adj|little n|boy aux|be&3S part|reach-PRESP prep|for det|the
+	n|cookie n|jar coord|and pro:sub|he~aux|be&3S part|hand-PRESP
+	pro:obj|them prep|to pro:poss:det|his n|sister cm|cm det|the
+	n|cookie-PL .
+*PAR:	so doing he's tipping over the stool in the &uh [//] in front of the open cupboard . 8161_14179
+%mor:	adv|so part|do-PRESP pro:sub|he~aux|be&3S part|tip-PRESP prep|over
+	det|the n|stool prep|in det|the prep|in n|front prep|of det|the
+	adj|open n|cupboard .
+*PAR:	&uh the mother is washing dishes and at that time water is overflowing from the sink . 14179_21479
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	prep|at det|that n|time n|water aux|be&3S over#part|flow-PRESP
+	prep|from det|the n|sink .
+*PAR:	she's wiping a dish at the time . 21479_25302
+%mor:	pro:sub|she~aux|be&3S part|wipe-PRESP det|a n|dish prep|at det|the
+	n|time .
+*PAR:	and that's what I +//. [+ exc] 25302_27288
+%mor:	conj|and pro:dem|that~cop|be&3S pro:wh|what pro:sub|I +//.
+*PAR:	her feet are in the water . 27288_28714
+%mor:	pro:poss:det|her n|foot&PL cop|be&PRES prep|in det|the n|water .
+*PAR:	and that's as much as I see . [+ exc] 28714_29820
+%mor:	conj|and pro:dem|that~cop|be&3S adv|as qn|much prep|as pro:sub|I
+	v|see .
+*PAR:	her back is to the boy and to the girl . 29820_33150
+%mor:	pro:poss:det|her n|back aux|be&3S prep|to det|the n|boy coord|and
+	prep|to det|the n|girl .
+*INV:	okay . 33150_36141
+%mor:	co|okay .
+@End

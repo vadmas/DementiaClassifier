@@ -1,0 +1,45 @@
+@UTF8
+@PID:	11312/t-00002573-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|male|Vascular||Participant|16||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	234-0c, audio
+*INV:	what do you see happening in that picture ? 0_1699
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|happen-PRESP prep|in
+	det|that n|picture ?
+*PAR:	mhm . [+ exc] 1699_2300
+%mor:	co|yes .
+*INV:	+< what's happening ? 1699_2554
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP ?
+*PAR:	well the kids is [* m:a] robbin(g) a cookie jar . 2554_5014
+%mor:	co|well det|the n|kid-PL cop|be&3S part|rob-PRESP det|a n|cookie
+	n|jar .
+*PAR:	and &uh the mother is &uh washin(g) dishes and forgettin(g) that the water is runnin(g) . 5014_9400
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL
+	coord|and part|forget-PRESP rel|that det|the n|water aux|be&3S
+	part|run-PRESP .
+*PAR:	it's runnin(g) on the floor . 9400_10337
+%mor:	pro|it~aux|be&3S part|run-PRESP prep|on det|the n|floor .
+*INV:	mhm . 10368_11863
+%mor:	co|yes .
+*PAR:	and his stool is about to dump him &=laughs . 11206_15020
+%mor:	conj|and pro:poss:det|his n|stool cop|be&3S adv|about inf|to v|dump
+	pro:obj|him .
+*PAR:	see here ? [+ exc] 15020_15704
+%mor:	v|see adv|here ?
+*INV:	uhhuh yeah . 15704_16885
+%mor:	co|uhhuh co|yeah .
+*PAR:	+< he's about to go . 16485_17917
+%mor:	pro:sub|he~mod|do&3S adv|about inf|to v|go .
+*PAR:	now I think that's just about all I can see that's [//] that you might be lookin(g) for . [+ exc] 17946_25807
+%mor:	adv|now pro:sub|I v|think pro:dem|that~cop|be&3S adv|just
+	prep|about adv|all pro:sub|I mod|can v|see rel|that pro|you
+	mod|might aux|be part|look-PRESP prep|for .
+*PAR:	he's about to drop off that stool too . 25807_28796
+%mor:	pro:sub|he~mod|do&3S adv|about inf|to v|drop prep|off det|that
+	n|stool post|too .
+*INV:	okay . 28280_29293
+%mor:	co|okay .
+@End

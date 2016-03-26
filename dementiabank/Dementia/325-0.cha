@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/t-00002613-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	325-0c, audio
+*INV:	tell me everything that you see going on in that picture . 0_4064
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	(.) well the lady's dryin(g) her dishes . 4064_10068
+%mor:	co|well det|the n|lady~aux|be&3S part|dry-PRESP pro:poss:det|her
+	n|dish-PL .
+*PAR:	that [//] the little boy's up on a ladder reachin(g) for cookie jar &=laughs . [+ gram] 10068_15533
+%mor:	det|the adj|little n|boy~poss|s adv|up prep|on det|a n|ladder
+	part|reach-PRESP prep|for n|cookie n|jar .
+*PAR:	and the little girl's down on the floor reachin(g) up toward him . 15533_21075
+%mor:	conj|and det|the adj|little n|girl~poss|s adv|down prep|on det|the
+	n|floor part|reach-PRESP adv|up prep|toward pro:obj|him .
+*PAR:	then I see a sink, the dishes, cupboard . [+ gram] 21075_27409
+%mor:	adv:tem|then pro:sub|I v|see det|a n|sink cm|cm det|the n|dish-PL
+	cm|cm n|cupboard .
+*PAR:	and then there's a walkway in the back . 27409_31072
+%mor:	conj|and adv:tem|then pro:exist|there~cop|be&3S det|a
+	n|+n|walk+n|way prep|in det|the n|back .
+*PAR:	guess [//] I guess that's a walkway I call . [+ gram] [+ exc] 31072_34148
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S det|a n|+n|walk+n|way
+	pro:sub|I v|call .
+*INV:	anything else ? 34148_37027
+%mor:	pro:indef|anything post|else ?
+*INV:	what else is going on in that picture ? 37027_38893
+%mor:	pro:wh|what post|else aux|be&3S part|go-PRESP adv|on prep|in
+	det|that n|picture ?
+*PAR:	the water's running over the sink &=laughs . 38893_43066
+%mor:	det|the n|water~aux|be&3S part|run-PRESP prep|over det|the n|sink .
+*INV:	+< okay . 41838_43066
+%mor:	co|okay .
+*INV:	anything else ? 43066_48371
+%mor:	pro:indef|anything post|else ?
+*PAR:	well I said the little boy's climbing up <on the cookie> [//] &j for the cookies . 48371_53924
+%mor:	co|well pro:sub|I v|say&PAST det|the adj|little n|boy~poss|s
+	part|climb-PRESP adv|up prep|for det|the n|cookie-PL .
+*INV:	okay . 54500_55670
+%mor:	co|okay .
+@End

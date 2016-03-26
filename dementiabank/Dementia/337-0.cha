@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002619-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|59;|female|ProbableAD||Participant|16||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	337-0c, audio
+*INV:	okay good . 0_860
+%mor:	co|okay adj|good .
+*INV:	going on in the picture . 860_2538
+%mor:	part|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	well the poor mother's a-doin(g) [: doin(g)] dishes &=laughs . 2538_10337
+%mor:	co|well det|the adj|poor n|mother~poss|s part|do-PRESP n|dish-PL .
+*PAR:	there's a boy <on a> [/] &lad on a stool . 10337_14645
+%mor:	pro:exist|there~cop|be&3S det|a n|boy prep|on det|a n|stool .
+*PAR:	cookie jar . [+ gram] 14645_16871
+%mor:	n|cookie n|jar .
+*PAR:	and a girl down below . [+ gram] 16871_19099
+%mor:	conj|and det|a n|girl adv|down prep|below .
+*PAR:	is that all you wanted to know ? [+ exc] 19099_20934
+%mor:	cop|be&3S rel|that qn|all pro|you v|want-PAST inf|to v|know ?
+*INV:	tell me everything that you see going on in the picture . 20934_24160
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	okay . [+ exc] 24160_25123
+%mor:	co|okay .
+*PAR:	there's a cookie jar . 25123_26529
+%mor:	pro:exist|there~cop|be&3S det|a n|cookie n|jar .
+*PAR:	the little boy is standing on a stool and he's ready to go over . 26529_30865
+%mor:	det|the adj|little n|boy aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool coord|and pro:sub|he~aux|be&3S adj|ready inf|to v|go
+	adv|over .
+*PAR:	the little girl's standing there . 30865_34054
+%mor:	det|the adj|little n|girl~poss|s part|stand-PRESP adv|there .
+*PAR:	the mother's &st at the sink doing dishes . 34054_36483
+%mor:	det|the n|mother~cop|be&3S prep|at det|the n|sink part|do-PRESP
+	n|dish-PL .
+*PAR:	(.) her water's overflowing . 36483_42878
+%mor:	pro:poss:det|her n|water~mod|do&3S over#part|flow-PRESP .
+*INV:	(.) okay anything else ? 42878_48636
+%mor:	co|okay pro:indef|anything post|else ?
+*PAR:	that's about it . [+ exc]  48636_49990
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay good . 49990_50925
+%mor:	co|okay adj|good .
+@End

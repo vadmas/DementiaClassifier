@@ -1,0 +1,96 @@
+@UTF8
+@PID:	11312/t-00016639-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|male|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	339-0s, audio
+*INV:	www . 0_1996
+%exp:	finishing previous task
+*INV:	word is pencil@q . 1996_3796
+%mor:	n|word aux|be&3S meta|pencil .
+*PAR:	oh ‡ I'm gonna write with a pencil . 3796_6327
+%mor:	co|oh beg|beg pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|write
+	prep|with det|a n|pencil .
+*INV:	okay . 6327_7488
+%mor:	co|okay .
+*INV:	tree@q . 7488_9880
+%mor:	meta|tree .
+*PAR:	well ‡ the tree is (.) it's &uh (.) makin(g) shade in [x 2] the front
+	of the house &=laughs . 9880_19992
+%mor:	co|well beg|beg det|the n|tree aux|be&3S pro|it~aux|be&3S
+	part|make-PRESP n|shade prep|in det|the n|front prep|of det|the
+	n|house .
+*INV:	mhm . 19992_20623
+%mor:	co|yes .
+*PAR:	at the shade . [+ exc] 20623_21443
+%mor:	prep|at det|the n|shade .
+*PAR:	the &sh +... [+ exc] 21443_24125
+%mor:	det|the +...
+*INV:	now I'm going to give you two words . 24125_26575
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	<I want> [//] I don't want you to worry (a)bout the order of the two
+	words that I give you . 26575_30178
+%mor:	pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry prep|about
+	det|the n|order prep|of det|the det:num|two n|word-PL rel|that
+	pro:sub|I v|give pro|you .
+*INV:	just use both of those words in one short simple sentence . 30178_33638
+%mor:	adj|just n|use qn|both prep|of det|those n|word-PL adv|in
+	pro:indef|one adj|short adj|simple n|sentence .
+*INV:	child@q hospital@q . 33638_36041
+%mor:	meta|child meta|hospital .
+*PAR:	well ‡ &th the child is born in a hospital or she went to the
+	hospital . 36041_43529
+%mor:	co|well beg|beg det|the n|child cop|be&3S adj|born prep|in det|a
+	n|hospital coord|or pro:sub|she v|go&PAST prep|to det|the n|hospital
+	.
+*INV:	+< okay . 41400_42143
+%mor:	co|okay .
+*INV:	okay . 43529_47558
+%mor:	co|okay .
+*INV:	cold@q winter@q . 47558_49798
+%mor:	meta|cold meta|winter .
+*PAR:	well ‡ the <winter was> [/] winter was very cold . 49798_55383
+%mor:	co|well beg|beg det|the n|winter cop|be&PAST&13S adv|very adv|cold
+	.
+*INV:	okay . 55383_57159
+%mor:	co|okay .
+*PAR:	right now I'm going to xxx . [+ exc] 57159_60712
+%mor:	adv|right adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to .
+*PAR:	and then I go home . [+ exc] 60712_61885
+%mor:	conj|and adv:tem|then pro:sub|I v|go n|home .
+*INV:	&=laughs . 61885_62721
+*PAR:	&=laughs . [+ exc] 62721_63243
+*INV:	now I'm going to give you three words . 63243_64950
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	again don't want you to worry about the order of the three words .
+	64950_66947
+%mor:	adv|again mod|do~neg|not v|want pro|you inf|to v|worry prep|about
+	det|the n|order prep|of det|the det:num|three n|word-PL .
+*INV:	just use all three of them in one short simple sentence . 66947_69954
+%mor:	adj|just n|use adv|all det:num|three prep|of pro:obj|them adv|in
+	pro:indef|one adj|short adj|simple n|sentence .
+*INV:	chair@q doctor@q sit@q . 69954_73355
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	well ‡ when I went to the doctor (.) he told me to sit in the chair
+	&=laughs . 73355_82248
+%mor:	co|well beg|beg conj|when pro:sub|I v|go&PAST prep|to det|the
+	n|doctor pro:sub|he v|tell&PAST pro:obj|me inf|to v|sit prep|in
+	det|the n|chair .
+*PAR:	oh ‡ good lord . [+ exc] 82248_84048
+%mor:	co|oh beg|beg adj|good n|lord .
+*INV:	bureau@q open@q drawer@q . 84048_91617
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	you always open the drawer in the bureau (.) to [/] (..) to get
+	your shirt outa there &=laughs . 91617_102458
+%mor:	pro|you adv|always adj|open det|the n|drawer prep|in det|the
+	n|bureau inf|to v|get pro:poss:det|your n|shirt prep|outa
+	pro:dem|there .
+*INV:	okay . 102458_103387
+%mor:	co|okay .
+*INV:	okay ‡ good . 103387_111061
+%mor:	co|okay beg|beg adj|good .
+@End

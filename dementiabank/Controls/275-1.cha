@@ -1,0 +1,44 @@
+@UTF8
+@PID:	11312/t-00002382-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|48;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	275-1c, audio
+*INV:	while that's on I'm gonna [: going to] have you look at a picture . 0_2788
+%mor:	conj|while pro:dem|that~cop|be&3S adv|on pro:sub|I~aux|be&1S
+	part|go-PRESP inf|to v|have pro|you v|look prep|at det|a n|picture .
+*INV:	I want you to tell me all the action all that you see going on in the picture . 2788_7208
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me adv|all det|the
+	n|action qn|all pro:dem|that pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|the n|picture .
+*INV:	tell me everything you see going on in the picture . 7208_9434
+%mor:	v|tell pro:obj|me pro:indef|everything pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	okay the boy is taking cookies out of the cookie jar . 9434_13584
+%mor:	co|okay det|the n|boy aux|be&3S part|take-PRESP n|cookie-PL adv|out
+	prep|of det|the n|cookie n|jar .
+*PAR:	the girl's reaching for them . 13584_15210
+%mor:	det|the n|girl~aux|be&3S part|reach-PRESP prep|for pro:obj|them .
+*PAR:	she's apparently telling him to be quiet . 15210_17887
+%mor:	pro:sub|she~aux|be&3S adv|apparent&dadj-LY part|tell-PRESP
+	pro:obj|him inf|to cop|be adj|quiet .
+*PAR:	he's falling off the stool . 17887_21295
+%mor:	pro:sub|he~aux|be&3S part|fall-PRESP prep|off det|the n|stool .
+*PAR:	&uh mom's washin(g) dishes while the water runs &=laughs out over the sink . 21295_26561
+%mor:	n|mom~aux|be&3S part|wash-PRESP n|dish-PL conj|while det|the
+	n|water v|run-3S adv|out prep|over det|the n|sink .
+*PAR:	&um looks like the curtain might be blowing a little bit there . 26561_31022
+%mor:	n|look-PL prep|like det|the n|curtain mod|might aux|be
+	part|blow-PRESP det|a adj|little n|bit adv|there .
+*PAR:	&uh (.) and she's stepping out of the puddle . 31022_35505
+%mor:	conj|and pro:sub|she~aux|be&3S part|step-PRESP adv|out prep|of
+	det|the n|puddle .
+*PAR:	&um (..) I guess that's about it . [+ exc] 35505_43472
+%mor:	pro:sub|I n|guess rel|that~aux|be&3S prep|about pro|it .
+*INV:	okay . 43472_44999
+%mor:	co|okay .
+*INV:	good . 44999_46849
+%mor:	adj|good .
+@End

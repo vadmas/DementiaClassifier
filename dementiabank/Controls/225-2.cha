@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002350-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	225-2c, audio
+*INV:	oh yeah . 0_1853
+%mor:	co|oh co|yeah .
+*PAR:	okay . [+ exc] 1853_4389
+%mor:	co|okay .
+*PAR:	the mother is washing or drying the dishes . 4389_8281
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP coord|or part|dry-PRESP
+	det|the n|dish-PL .
+*PAR:	the water is overflowing onto the floor . 8281_12576
+%mor:	det|the n|water aux|be&3S over#part|flow-PRESP prep|onto det|the
+	n|floor .
+*PAR:	the little boy is almost falling off of the stool and is getting a cookie . 12576_18694
+%mor:	det|the adj|little n|boy aux|be&3S adv|almost part|fall-PRESP
+	adv|off prep|of det|the n|stool coord|and aux|be&3S part|get-PRESP
+	det|a n|cookie .
+*PAR:	and &uh he's giving it to his little sister . 18694_23380
+%mor:	conj|and pro:sub|he~aux|be&3S part|give-PRESP pro|it prep|to
+	pro:poss:det|his adj|little n|sister .
+*PAR:	and &uh (.) you can see the &uh walk out the window .  23380_36900
+%mor:	conj|and pro|you mod|can v|see det|the v|walk prep|out det|the
+	n|window .
+*PAR:	the [/] the curtains are [//] seem to be &uh shaking in the wind . 36900_44250
+%mor:	det|the n|curtain-PL v|seem inf|to aux|be part|shake-PRESP prep|in
+	det|the n|wind .
+*PAR:	the window is open . 44250_46013
+%mor:	det|the n|window aux|be&3S adv|open .
+*PAR:	and &um (..) a_lot_of water splashing on the floor . [+ gram]  46013_61045
+%mor:	conj|and qn|a_lot_of n|water part|splash-PRESP prep|on det|the
+	n|floor .
+%com:	overlapping recording can be heard
+*PAR:	(...) a &uh woman is standing in the water . 61045_70712
+%mor:	det|a n|woman aux|be&3S part|stand-PRESP prep|in det|the n|water .
+*PAR:	a wet floor .  [+ gram] 70712_74396
+%mor:	det|a adj|wet n|floor .
+*PAR:	(.) the &uh little girl is sort of motioning (.) &uh her brother to be quiet so the mother won't know he's getting a cookie out of the jar . 74113_97504
+%mor:	det|the adj|little n|girl cop|be&3S v|sort prep|of
+	n:gerund|motion-PRESP pro:poss:det|her n|brother inf|to cop|be
+	adj|quiet conj|so det|the n|mother mod|will~neg|not v|know
+	pro:sub|he~aux|be&3S part|get-PRESP det|a n|cookie adv|out prep|of
+	det|the n|jar .
+*PAR:	and she's reaching up to &uh get the cookie that he's handing her . 97504_107173
+%mor:	conj|and pro:sub|she~aux|be&3S part|reach-PRESP adv|up inf|to v|get
+	det|the n|cookie rel|that pro:sub|he~aux|be&3S part|hand-PRESP
+	pro:obj|her .
+*PAR:	(..) the woman has a dish cloth in her hand wiping <the dishes> [//] the one dish . 107173_124882
+%mor:	det|the n|woman aux|have&3S det|a n|dish n|cloth prep|in
+	pro:poss:det|her n|hand part|wipe-PRESP det|the pro:indef|one n|dish
+	.
+*PAR:	(.) that's about as much as I see . [+ exc] 124882_131152
+%mor:	pro:dem|that~cop|be&3S adv|about adv|as qn|much prep|as pro:sub|I
+	v|see .
+*INV:	okay that's fine . 131481_131868
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

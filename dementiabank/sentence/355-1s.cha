@@ -1,0 +1,75 @@
+@UTF8
+@PID:	11312/t-00016650-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|86;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	355-1s, audio
+*INV:	www . 0_14095
+%exp:	investigator preparing
+*INV:	the word I give you . 14095_16094
+%mor:	det|the n|word pro:sub|I v|give pro|you .
+*INV:	pencil@q . 16094_16888
+%mor:	meta|pencil .
+*PAR:	I like to write with a pencil . 16888_18824
+%mor:	pro:sub|I v|like inf|to v|write prep|with det|a n|pencil .
+*INV:	(..) tree@q . 18824_25681
+%mor:	meta|tree .
+*PAR:	the tree has beautiful leaves on it now . 25681_29000
+%mor:	det|the n|tree aux|have&3S adj|beautiful n|leaf-PL prep|on pro|it
+	adv|now .
+*INV:	(..) I'm going to give you two words now . 29000_39609
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you det:num|two
+	n|word-PL adv|now .
+*INV:	and I still want you to create a sentence using the two words . 39609_42830
+%mor:	conj|and pro:sub|I adv|still v|want pro|you inf|to v|create det|a
+	n|sentence part|use-PRESP det|the det:num|two n|word-PL .
+*INV:	child@q and hospital@q . 42830_45244
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	the child is in the hospital . 45244_47500
+%mor:	det|the n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	cold@q and winter@q . 47500_57320
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	it is cold enough right now to be winter . 57320_60900
+%mor:	pro|it cop|be&3S adv|cold adv|enough adv|right adv|now inf|to
+	cop|be n|winter .
+*PAR:	&=laughs . [+ exc]  60900_63375
+*PAR:	(.) it is ! [+ exc] 63375_67067
+%mor:	pro|it cop|be&3S !
+*INV:	I know . 67067_68045
+%mor:	pro:sub|I v|know .
+*PAR:	I wished I had worn my jacket . [+ exc] 68045_72745
+%mor:	pro:sub|I v|wish-PAST pro:sub|I aux|have&PAST part|wear&PASTP
+	pro:poss:det|my n|jacket .
+*INV:	+< I know .  72145_72691
+%mor:	pro:sub|I v|know .
+*INV:	air conditioning is still on in here . 72691_74672
+%mor:	v|air n:gerund|condition-PRESP cop|be&3S adv|still adv|on prep|in
+	pro:dem|here .
+*INV:	I'm going to give you three words now . 74672_77507
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL adv|now .
+*INV:	and I still want you to put them in a brief simple sentence for me .
+	77507_80625
+%mor:	conj|and pro:sub|I adv|still v|want pro|you inf|to v|put&ZERO
+	pro:obj|them prep|in det|a adj|brief adj|simple n|sentence prep|for
+	pro:obj|me .
+*INV:	it doesn't matter what order you put them in . 80625_82219
+%mor:	pro|it mod|do&3S~neg|not v|matter pro:wh|what n|order pro|you
+	v|put&ZERO pro:obj|them adv|in .
+*INV:	chair@q doctor@q and sit@q . 82219_85709
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	the doctor likes to sit in this chair . 85709_91886
+%mor:	det|the n|doctor v|like-3S inf|to v|sit prep|in det|this n|chair .
+*PAR:	(..) right ? [+ exc] 91886_98469
+%mor:	co|right ?
+*INV:	right . 98469_99200
+%mor:	co|right .
+*INV:	there are three more . 99200_101180
+%mor:	adv|there cop|be&PRES det:num|three adv|more .
+*INV:	bureau@q open@q and drawer@q . 101180_105132
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	the drawer is open in the bureau . 105132_107605
+%mor:	det|the n|drawer cop|be&3S adj|open prep|in det|the n|bureau .
+@End

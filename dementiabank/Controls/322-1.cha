@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/t-00002402-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|56;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	322-1c, audio
+*INV:	&chir I'd like you to tell me everything you see going on in the picture . 0_3829
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|the n|picture .
+*INV:	and there's the picture . 3829_6805
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	action type things ? [+ exc] 6805_10197
+%mor:	n|action n|type n|thing-PL ?
+*PAR:	there is water coming out of a faucet into a basin which is overflowing onto the floor . 10197_19502
+%mor:	pro:exist|there cop|be&3S v|water n:gerund|come-PRESP adv|out
+	prep|of det|a n|faucet prep|into det|a n|basin rel|which cop|be&3S
+	over#part|flow-PRESP prep|onto det|the n|floor .
+*PAR:	the mother is drying dishes . 19502_23751
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and she's walking in the water that is flowing on the floor . 23751_27987
+%mor:	conj|and pro:sub|she~aux|be&3S part|walk-PRESP prep|in det|the
+	n|water rel|that aux|be&3S part|flow-PRESP prep|on det|the n|floor .
+*PAR:	two children are stealing cookies . 27987_32417
+%mor:	det:num|two n|child&PL aux|be&PRES part|steal-PRESP n|cookie-PL .
+*PAR:	one of whom is up on a &uh stool that is about to fall .  [+ gram] 32417_41635
+%mor:	det:num|one prep|of pro:wh|whom cop|be&3S adv|up prep|on det|a
+	n|stool rel|that cop|be&3S adv|about prep|to n|fall .
+*PAR:	he's removing cookies from an upper shelf in the closet . 41635_46286
+%mor:	pro:sub|he~aux|be&3S part|remove-PRESP n|cookie-PL prep|from det|a
+	adj|upper n|shelf prep|in det|the n|closet .
+*PAR:	the wind appears to be blowing because the curtains appear to be you_know puffed . 46286_58534
+%mor:	det|the n|wind v|appear-3S inf|to aux|be part|blow-PRESP
+	conj|because det|the n|curtain-PL v|appear inf|to aux|be co|you_know
+	part|puff-PASTP .
+*PAR:	those are the only action things that I can see . [+ exc] 58534_63111
+%mor:	pro:dem|those cop|be&PRES det|the qn|only n|action n|thing-PL
+	rel|that pro:sub|I mod|can v|see .
+*INV:	okay good . 63111_64498
+%mor:	co|okay adj|good .
+@End

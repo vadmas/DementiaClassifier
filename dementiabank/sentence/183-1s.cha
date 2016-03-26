@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00017070-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|ProbableAD||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	183-1s, audio
+*INV:	the first word is pencil@q . 0_3009
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*PAR:	you write with a pencil . 3009_6133
+%mor:	pro|you v|write prep|with det|a n|pencil .
+*INV:	tree@q . 6133_7330
+%mor:	meta|tree .
+*PAR:	tree's in the field . 7330_9515
+%mor:	n|tree~cop|be&3S prep|in det|the n|field .
+*INV:	now then ‡ I'm going to give you two words . 9515_16404
+%mor:	adv|now adv:tem|then beg|beg pro:sub|I~aux|be&1S part|go-PRESP
+	inf|to v|give pro|you det:num|two n|word-PL .
+*INV:	and I want you to use both words in one brief simple sentence . 16404_21993
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL
+	prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	and I don't want you to worry about the order . 21993_24719
+%mor:	conj|and pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry
+	prep|about det|the n|order .
+*INV:	child@q hospital@q . 24719_28094
+%mor:	meta|child meta|hospital .
+*PAR:	child is in the hospital . 28094_31362
+%mor:	n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	cold@q winter@q . 31362_37135
+%mor:	meta|cold meta|winter .
+*PAR:	&yu &yu you use coal in the winter . [+ exc] 37135_42893
+%mor:	pro|you v|use n|coal prep|in det|the n|winter .
+*INV:	(..) cold@q winter@q . 42893_52855
+%mor:	meta|cold meta|winter .
+*PAR:	cold@q winter@q . [+ exc] 52855_54805
+%mor:	meta|cold meta|winter .
+*INV:	+< mhm . 54005_54848
+%mor:	co|yes .
+*PAR:	(..) cold@q winter@q +... [+ exc] 54805_63923
+%mor:	meta|cold meta|winter +...
+*PAR:	it was a cold winter . 63923_65756
+%mor:	pro|it cop|be&PAST&13S det|a adj|cold n|winter .
+*INV:	mhm . 65756_66301
+%mor:	co|yes .
+*INV:	I'm gonna give you three words . 66301_69289
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	and I want you to use all three words in one brief
+	simple sentence . 69289_73599
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use adv|all
+	det:num|three n|word-PL prep|in pro:indef|one adj|brief adj|simple
+	n|sentence .
+*INV:	and don't worry about the order . 73599_75748
+%mor:	conj|and mod|do~neg|not v|worry prep|about det|the n|order .
+*INV:	chair@q doctor@q sit@q . 75748_81537
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor (.) &s (.) made chair sit . 81537_90828
+%mor:	det|the n|doctor v|make&PAST n|chair v|sit .
+*INV:	bureau@q open@q drawer@q . 90828_99839
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	(..) the [/] the bureau opened <the door> [//] the drawer . 99839_115745
+%mor:	det|the n|bureau v|open-PAST det|the n|drawer .
+*PAR:	&=clears:throat . [+ exc] 115745_121644
+*INV:	good . 121644_124025
+%mor:	adj|good .
+@End

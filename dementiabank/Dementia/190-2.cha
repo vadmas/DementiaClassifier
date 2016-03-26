@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002545-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	190-2c, audio
+*INV:	everything that's going on . 0_1698
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on .
+*PAR:	(..) the boy is gettin(g) cookies and is falling the [//] &uh his stand [: stool] [* s:r] . [+ gram] 1698_16498
+%mor:	det|the n|boy aux|be&3S part|get-PRESP n|cookie-PL coord|and
+	aux|be&3S part|fall-PRESP pro:poss:det|his n|stool .
+*PAR:	(.) the lady's washin(g) dishes and she let the water run all <over the> [/] over the top o(f) the +... 16498_41352
+%mor:	det|the n|lady~aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	pro:sub|she v|let&ZERO det|the n|water n|run adv|all prep|over
+	det|the n|top prep|of det|the +...
+*PAR:	the little girl she wanted the cookie . 41352_43879
+%mor:	det|the adj|little n|girl pro:sub|she v|want-PAST det|the n|cookie
+	.
+*PAR:	and he was getting the cookies and he's fallin(g) over . 43879_47424
+%mor:	conj|and pro:sub|he aux|be&PAST&13S part|get-PRESP det|the
+	n|cookie-PL coord|and pro:sub|he~aux|be&3S part|fall-PRESP adv|over
+	.
+*PAR:	(..) and the wife she's washin(g) the dishes . 47424_57915
+%mor:	conj|and det|the n|wife pro:sub|she~aux|be&3S part|wash-PRESP
+	det|the n|dish-PL .
+*PAR:	and now she's wipin(g) them off rather . 57915_61353
+%mor:	conj|and adv|now pro:sub|she~aux|be&3S part|wipe-PRESP pro:obj|them
+	prep|off adv|rather .
+*INV:	(.) okay good . 61353_65257
+%mor:	co|okay adj|good .
+@End

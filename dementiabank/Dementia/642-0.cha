@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/t-00002711-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	642-0c, audio
+*INV:	take a look at this picture . 0_2100
+%mor:	v|take det|a n|look prep|at det|this n|picture .
+*INV:	just tell me what you see going on in that picture . 2100_5182
+%mor:	adv|just v|tell pro:obj|me pro:wh|what pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	+< mhm . [+ exc] 2200_3000
+%mor:	co|yes .
+*INV:	tell me everything that you see happening there . 5182_7800
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP adv|there .
+*PAR:	now [//] right now ? [+ exc] 7800_8897
+%mor:	adv|right adv|now ?
+*INV:	+< mhm yeah just tell me +/. 8400_10040
+%mor:	co|yes co|yeah adv|just v|tell pro:obj|me +/.
+*PAR:	+< oh I thought you meant +//. [+ exc] 9000_10463
+%mor:	co|oh pro:sub|I v|think&PAST pro|you v|mean&PAST +//.
+*PAR:	well the boy was &uh taking some cookies from the cupboard up there . 10463_14303
+%mor:	co|well det|the n|boy aux|be&PAST&13S part|take-PRESP qn|some
+	n|cookie-PL prep|from det|the n|cupboard prep|up pro:dem|there .
+*PAR:	and he [//] the [//] &uh &uh yeah that there &uh &uh stool I'd call it . [+ gram] 14303_22950
+%mor:	conj|and co|yeah rel|that adv|there n|stool pro:sub|I~mod|genmod
+	v|call pro|it .
+*PAR:	I don't know what you call (th)em . [+ exc] 22950_24095
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro|you v|call
+	pro:obj|them .
+*PAR:	and what's she doin(g) ? [+ exc] 24095_26817
+%mor:	conj|and pro:wh|what~cop|be&3S pro:sub|she part|do-PRESP ?
+*PAR:	she's asking for some cookies . 26817_29500
+%mor:	pro:sub|she~aux|be&3S part|ask-PRESP prep|for qn|some n|cookie-PL .
+*PAR:	mother's drying the dishes . 29500_31329
+%mor:	n|mother~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	and she's spilled water all over the place at the sink . 31329_35889
+%mor:	conj|and pro:sub|she~aux|be&3S v|spill-PAST n|water adv|all
+	prep|over det|the n|place prep|at det|the n|sink .
+*PAR:	she's also has some cups and &uh a dish sitting there . 35889_41400
+%mor:	pro:sub|she~aux|be&3S adv|also v|have&3S qn|some n|cup-PL coord|and
+	det|a n|dish part|sit-PRESP adv|there .
+*PAR:	her curtains you could see (.) real well . 41400_45554
+%mor:	pro:poss:det|her n|curtain-PL pro|you mod|could v|see adj|real
+	adv|well .
+*PAR:	oh what else ? [+ exc] 45554_48371
+%mor:	co|oh pro:wh|what post|else ?
+*PAR:	that's about it . [+ exc] 48371_51100
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay fine thank you . 51100_52857
+%mor:	co|okay adv|fine v|thank pro|you .
+@End

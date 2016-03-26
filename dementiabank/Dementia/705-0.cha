@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/t-00002730-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	705-0c, audio
+*INV:	picture okay ? 0_1200
+%mor:	n|picture adj|okay ?
+*PAR:	mhm . [+ exc] 1200_1800
+%mor:	co|yes .
+*INV:	can you tell me now ? 1800_4100
+%mor:	mod|can pro|you v|tell pro:obj|me adv|now ?
+*PAR:	well this one is in the cookie jar . 4100_9000
+%mor:	co|well det|this pro:indef|one cop|be&3S prep|in det|the n|cookie
+	n|jar .
+*INV:	mhm . 9000_10097
+%mor:	co|yes .
+*PAR:	and <this is> [//] she tried to climb the &uh +... 10097_14770
+%mor:	conj|and pro:sub|she v|try-PAST inf|to v|climb det|the +...
+*PAR:	oh no [/] no . [+ exc]  14770_16084
+%mor:	co|oh co|no .
+*PAR:	this boy (.) <I think this is the same one huh> [//] (.) tried to get in the cookie jar .  16084_25879
+%mor:	det|this n|boy part|try-PASTP inf|to v|get prep|in det|the n|cookie
+	n|jar .
+*PAR:	and she's watching .  25879_28140
+%mor:	conj|and pro:sub|she~aux|be&3S part|watch-PRESP .
+*PAR:	and over here must be the mother . 28140_37414
+%mor:	conj|and prep|over pro:dem|here mod|must cop|be det|the n|mother .
+*PAR:	I don't know what the heck they're doin(g) here though . [+ exc] 37414_42600
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what det|the n|heck
+	pro:sub|they~aux|be&PRES part|do-PRESP adv|here adv|though .
+*INV:	can you tell me something else that's going on over here ? 42600_45445
+%mor:	mod|can pro|you v|tell pro:obj|me pro:indef|something post|else
+	rel|that~aux|be&3S part|go-PRESP adv|on prep|over pro:dem|here ?
+*PAR:	what's goin(g) on ? [+ exc] 45445_46250
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on ?
+*INV:	mhm . 46250_46800
+%mor:	co|yes .
+*PAR:	<the stool> [//] she [: he] [* s:r] was climbing and the stool tipped over . 46800_50941
+%mor:	pro:sub|he aux|be&PAST&13S part|climb-PRESP coord|and det|the
+	n|stool v|tip-PAST adv|over .
+*INV:	okay . 50941_52419
+%mor:	co|okay .
+*INV:	how (a)bout over here ? 52419_56813
+%mor:	adv:wh|how adv|about prep|over pro:dem|here ?
+*INV:	is there something else going on over here ? 56813_58602
+%mor:	cop|be&3S adv|there pro:indef|something post|else part|go-PRESP
+	adv|on prep|over pro:dem|here ?
+*PAR:	she was doin(g) the dishes I think . 58602_64417
+%mor:	pro:sub|she aux|be&PAST&13S part|do-PRESP det|the n|dish-PL
+	pro:sub|I v|think .
+*INV:	okay . 64417_65554
+%mor:	co|okay .
+*PAR:	she spilled something . 65554_68511
+%mor:	pro:sub|she v|spill-PAST pro:indef|something .
+*INV:	okay that's fine . 68511_75701
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

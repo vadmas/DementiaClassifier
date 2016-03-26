@@ -1,0 +1,30 @@
+@UTF8
+@PID:	11312/t-00002328-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	171-1c, audio
+*INV:	and there's the picture . 0_1932
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	well let's see . [+ exc] 1932_5673
+%mor:	co|well v|let~pro:obj|us v|see .
+*PAR:	the boy is taking cookies out of the cookie jar . 5673_8865
+%mor:	det|the n|boy aux|be&3S part|take-PRESP n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar .
+*PAR:	and the little girl is laughing . 8865_10655
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|laugh-PRESP .
+*PAR:	and the boy is falling off the stool . 10655_12699
+%mor:	conj|and det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the
+	n|stool .
+*PAR:	and the mother's washing dishes . 12699_14273
+%mor:	conj|and det|the n|mother~aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	and the water is running over . 14273_17371
+%mor:	conj|and det|the n|water aux|be&3S part|run-PRESP adv|over .
+*PAR:	and (..) I don't know whether the wind is blowing or not &=laughs . [+ exc] 17371_28218
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know conj|whether det|the
+	n|wind aux|be&3S part|blow-PRESP coord|or neg|not .
+*INV:	okay . 28218_31703
+%mor:	co|okay .
+@End

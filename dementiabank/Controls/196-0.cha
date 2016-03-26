@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/t-00002337-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|62;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	196-0c, audio
+*INV:	and there's the picture . 0_1400
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	mhm . [+ exc] 1400_2413
+%mor:	co|yes .
+*PAR:	&=sighs the mother is washing the dishes but not very attentively allowing the sink to overflow onto the floor . 2413_12872
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP det|the n|dish-PL
+	conj|but neg|not adv|very adv|attentive&dadj-LY part|allow-PRESP
+	det|the n|sink inf|to over#v|flow prep|onto det|the n|floor .
+*PAR:	and she is drying a dish . 12872_16874
+%mor:	conj|and pro:sub|she aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	&=sighs kids are tryin(g) to get into the cookie jar .  [+ gram] 16874_20884
+%mor:	n|kid-PL aux|be&PRES part|try-PRESP inf|to v|get prep|into det|the
+	n|cookie n|jar .
+*PAR:	they have managed to get into it . 20884_22632
+%mor:	pro:sub|they aux|have part|manage-PASTP inf|to v|get prep|into
+	pro|it .
+*PAR:	the boy is standing on a stool which is in the process of falling over while he's trying to hand a cookie to his younger sister who is reaching for it . 22632_30678
+%mor:	det|the n|boy aux|be&3S part|stand-PRESP prep|on det|a n|stool
+	rel|which cop|be&3S prep|in det|the n|process prep|of
+	n:gerund|fall-PRESP adv|over conj|while pro:sub|he~aux|be&3S
+	part|try-PRESP inf|to v|hand det|a n|cookie prep|to pro:poss:det|his
+	adj|young-CP n|sister rel|who aux|be&3S part|reach-PRESP prep|for
+	pro|it .
+*PAR:	the window is open overlooking a garden . 30678_36170
+%mor:	det|the n|window aux|be&3S adv|open over#part|look-PRESP det|a
+	n|garden .
+*PAR:	the wind is blowing slightly . 36170_39888
+%mor:	det|the n|wind aux|be&3S part|blow-PRESP adv|slight&dadj-LY .
+*PAR:	it's ruffling the curtains . 39888_41307
+%mor:	pro|it~aux|be&3S part|ruffle-PRESP det|the n|curtain-PL .
+*PAR:	it is summer . 41307_45430
+%mor:	pro|it cop|be&3S n|summer .
+*PAR:	or at least the grass is out and the trees are in leaf and the bushes . 45430_51967
+%mor:	conj|or prep|at n|least det|the n|grass cop|be&3S adv|out coord|and
+	det|the n|tree-PL cop|be&PRES prep|in n|leaf coord|and det|the
+	n|bush-PL .
+*PAR:	that's all of the action I see . [+ exc] 51967_59546
+%mor:	pro:dem|that~cop|be&3S pro:indef|all prep|of det|the n|action
+	pro:sub|I v|see .
+*INV:	okay . 59546_60296
+%mor:	co|okay .
+*INV:	thank you . 60296_60512
+%mor:	v|thank pro|you .
+@End

@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/t-00002421-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|59;|male|ProbableAD||Participant|11||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	001-2c, audio
+*INV:	you see going on in the picture . 0_1808
+%mor:	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	tell me all the action . 1808_3609
+%mor:	v|tell pro:obj|me adv|all det|the n|action .
+*PAR:	mhm . 3609_4282
+%mor:	co|yes .
+*INV:	okay ? 4282_5096
+%mor:	co|okay ?
+*PAR:	there's a young boy &uh going in a cookie jar . 5096_10600
+%mor:	pro:exist|there~cop|be&3S det|a adj|young n|boy part|go-PRESP
+	prep|in det|a n|cookie n|jar .
+*PAR:	and there's a [/] &lit a girl [//] young girl . 10600_13143
+%mor:	conj|and pro:exist|there~cop|be&3S det|a adj|young n|girl .
+*PAR:	and I'm sayin(g) he's a boy (be)cause <you can> [//] &hard it's hardly [//] hard to tell anymore . 13143_18888
+%mor:	conj|and pro:sub|I~aux|be&1S part|say-PRESP pro:sub|he~mod|do&3S
+	det|a n|boy conj|because pro|it~cop|be&3S adj|hard inf|to v|tell
+	adv|anymore .
+*INV:	&=laughs . 18888_19885
+*PAR:	&uh and he's [/] he's in the &c &t cookie jar . 19885_23542
+%mor:	conj|and pro:sub|he~cop|be&3S prep|in det|the n|cookie n|jar .
+*PAR:	and there's a &s stool that he is on and it already is starting to fall over . 23542_30444
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|stool rel|that
+	pro:sub|he cop|be&3S adv|on coord|and pro|it adv|already aux|be&3S
+	part|start-PRESP inf|to v|fall adv|over .
+*PAR:	and so is the water in the sink &uh is &ev overflowing in the sink . [+ gram] 30444_36811
+%mor:	conj|and adv|so cop|be&3S det|the n|water prep|in det|the n|sink
+	aux|be&3S over#part|flow-PRESP prep|in det|the n|sink .
+*INV:	okay anything else ? 36811_39837
+%mor:	co|okay pro:indef|anything post|else ?
+*PAR:	&hm I [/] I don't know about the [//] this hickey here I [//] whether that's more than what I said .  [+ es] 39837_45689
+%mor:	pro:sub|I mod|do~neg|not v|know prep|about det|this n|hickey
+	adv|here conj|whether pro:dem|that~mod|do&3S adv|more prep|than
+	pro:wh|what pro:sub|I v|say&PAST .
+*PAR:	&uh like <it &uh the wife or &g I_mean> [//] &uh the [/] the mother is near the girl . 45689_52722
+%mor:	prep|like det|the n|mother cop|be&3S prep|near det|the n|girl .
+*PAR:	and she's [//] &uh &w &uh &h she has [/] &uh has +/. 52722_58250
+%mor:	conj|and pro:sub|she v|have&3S +/.
+*PAR:	oh &uh I [/] I can't think of the +... 58250_64444
+%mor:	co|oh pro:sub|I mod|can~neg|not v|think prep|of det|the +...
+*PAR:	she has &uh the she's tryin(g) to wipe [/] &uh wipe dishes . 64444_71010
+%mor:	pro:sub|she v|have&3S det|the pro:sub|she~aux|be&3S part|try-PRESP
+	prep|to n|wipe n|dish-PL .
+*INV:	okay . 71010_71809
+%mor:	co|okay .
+*PAR:	oh &a and stop the water from going out . 71809_74738
+%mor:	co|oh coord|and v|stop det|the n|water prep|from n:gerund|go-PRESP
+	adv|out .
+*INV:	okay . 74738_76386
+%mor:	co|okay .
+*INV:	okay good . 76386_80231
+%mor:	co|okay adj|good .
+@End

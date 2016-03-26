@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002479-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|female|MCI||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	065-1c, audio
+*INV:	you see going on in that picture . 0_2850
+%mor:	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	(.) that [//] the little girl is [//] (.) the [//] &=clears:throat <gonna [: going to] [/] gonna [: going to] have> [//] &uh is &uh waiting for the boy to get her a cookie . 2850_25151
+%mor:	det|the adj|little n|girl aux|be&3S part|wait-PRESP prep|for
+	det|the n|boy inf|to v|get pro:obj|her det|a n|cookie .
+*PAR:	and [/] and she's &uh pointing “shush don't make a noise” because the mother might see them . 25151_31875
+%mor:	conj|and pro:sub|she~aux|be&3S part|point-PRESP bq|bq co|shush
+	mod|do~neg|not v|make det|a n|noise eq|eq conj|because det|the
+	n|mother mod|might v|see pro:obj|them .
+*PAR:	and the little boy has &uh &uh a cookie in his hand . 31875_37773
+%mor:	conj|and det|the adj|little n|boy aux|have&3S det|a n|cookie
+	prep|in pro:poss:det|his n|hand .
+*PAR:	and <he's ready to> [//] he gonna [: going to] get another one out of the &cook &t &cook &j &uh cookie jar but his &t stool has gone over . [+ gram] 37773_47000
+%mor:	conj|and pro:sub|he part|go-PRESP inf|to v|get qn|another
+	pro:indef|one adv|out prep|of det|the n|cookie n|jar conj|but
+	pro:poss:det|his n|stool aux|have&3S part|go&PASTP adv|over .
+*PAR:	it's starting to go over . 47000_49058
+%mor:	pro|it~aux|be&3S part|start-PRESP inf|to v|go adv|over .
+*PAR:	and the mother is washing &uh dishes .49058_53713
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	and &uh the [//] but [//] and water is +//.53713_58368
+%mor:	conj|and conj|and n|water cop|be&3S +//.
+*PAR:	I_mean &s &uh drying dishes .58368_60452
+%mor:	co|I_mean part|dry-PRESP n|dish-PL .
+*PAR:	and &uh <the water> [//] &uh &uh she's listening with the little girls and so the water's running onto [//] down onto [/] onto the floor . 60452_69679
+%mor:	conj|and pro:sub|she~aux|be&3S part|listen-PRESP prep|with det|the
+	adj|little n|girl-PL coord|and co|so det|the n|water~aux|be&3S
+	part|run-PRESP adv|down prep|onto det|the n|floor .
+*PAR:	(..) let me see about there anything happening outside . [+ gram] [+ exc] 69679_83000
+%mor:	v|let&ZERO pro:obj|me v|see adv|about adv|there pro:indef|anything
+	part|happen-PRESP adv|outside .
+*PAR:	no . [+ exc] 83000_84484
+%mor:	co|no .
+*PAR:	(.) the wind might be blowing beside but I don't think anybody +... 84484_92540
+%mor:	det|the n|wind mod|might aux|be part|blow-PRESP prep|beside
+	conj|but pro:sub|I mod|do~neg|not v|think pro:indef|anybody +...
+*PAR:	if it is it's [//] you could hardly tasty [* s:uk] &=laughs . [+ gram] 92540_96798
+%mor:	conj|if pro|it cop|be&3S pro|you mod|could adv|hard&dadj-LY
+	adj|taste&dn-Y .
+*INV:	(.) is that it ? 96798_100626
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	(.) okay . [+ exc]  100626_106421
+%mor:	co|okay .
+*INV:	okay . 106421_106790
+%mor:	co|okay .
+@End

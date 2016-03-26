@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/t-00002456-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	046-0c, audio
+*INV:	there it is . 0_1546
+%mor:	adv|there pro|it cop|be&3S .
+*PAR:	go [/] &=clears throat go ? [+ exc] 1546_4472
+%mor:	n|throat v|go ?
+*INV:	go ? 4472_5619
+%mor:	v|go ?
+*INV:	mhm .  5619_6462
+%mor:	co|yes .
+*PAR:	mother is washin(g) dishes . 6462_8999
+%mor:	n|mother aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	the kids are lookin(g) for cookies . 8999_11172
+%mor:	det|the n|kid-PL aux|be&PRES part|look-PRESP prep|for n|cookie-PL .
+*PAR:	the little girl's cryin(g) (be)cause he ain't givin(g) her no cookies . 11172_15697
+%mor:	det|the adj|little n|girl~poss|s part|cry-PRESP conj|because
+	pro:sub|he aux|be&1S~neg|not part|give-PRESP pro:poss:det|her co|no
+	n|cookie-PL .
+*PAR:	and he gets the cookies down . 15697_20750
+%mor:	conj|and pro:sub|he v|get-3S det|the n|cookie-PL adv|down .
+*PAR:	and the mother's broke a plate . 20750_24000
+%mor:	conj|and det|the n|mother~poss|s v|break&PAST det|a n|plate .
+*PAR:	fell down . [+ gram] 24000_26055
+%mor:	v|fall&PAST adv|down .
+*PAR:	xxx just on this page ? [+ exc] 26055_29268
+%mor:	adv|just prep|on det|this n|page ?
+*INV:	<on the> [//] &ha yes just that one page . 29268_31428
+%mor:	co|yes adj|just rel|that det:num|one n|page .
+*PAR:	that's it . [+ exc] 31428_33385
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	okay . 33385_37962
+%mor:	co|okay .
+*PAR:	&=laughs . [+ exc] 37962_38490
+*INV:	what's happening here ? 38490_39346
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP adv|here ?
+*PAR:	she broke [/] broke a plate or somethin(g) . 39346_43160
+%mor:	pro:sub|she v|break&PAST det|a n|plate coord|or pro:indef|something
+	.
+*PAR:	went down the wrong way down there . [+ gram] 43160_45223
+%mor:	v|go&PAST prep|down det|the adj|wrong n|way adv|down adv|there .
+*INV:	okay . 45123_46040
+%mor:	co|okay .
+*PAR:	xxx just gettin(g) the water run over . 46040_51237
+%mor:	adv|just part|get-PRESP det|the n|water v|run adv|over .
+*PAR:	she let the water run too fast . 51237_56655
+%mor:	pro:sub|she v|let&ZERO det|the n|water v|run adv|too adv|fast .
+*PAR:	&=laughs . [+ exc] 56655_60563
+*INV:	+< okay . 60063_60548
+%mor:	co|okay .
+*PAR:	okay . [+ exc] 60548_60988
+%mor:	co|okay .
+@End

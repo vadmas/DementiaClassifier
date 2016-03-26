@@ -1,0 +1,42 @@
+@UTF8
+@PID:	11312/t-00002300-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|54;|female|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	141-0c, audio
+*INV:	and here's the picture +/. 0_800
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture +/.
+*PAR:	the action only ? [+ exc] 800_1781
+%mor:	det|the n|action qn|only ?
+*INV:	right . 1781_2346
+%mor:	co|right .
+*PAR:	okay . [+ exc] 2346_4657
+%mor:	co|okay .
+*PAR:	let's see . [+ exc] 4657_5700
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	there's &uh a boy and a girl . 5700_6888
+%mor:	pro:exist|there~cop|be&3S det|a n|boy coord|and det|a n|girl .
+*PAR:	the boy is getting cookies from the jar and he is on a stool . 6888_10711
+%mor:	det|the n|boy aux|be&3S part|get-PRESP n|cookie-PL prep|from
+	det|the n|jar coord|and pro:sub|he cop|be&3S prep|on det|a n|stool .
+*PAR:	and the stall [: stool] [* p:w] is tilted over . 10711_13523
+%mor:	conj|and det|the n|stool aux|be&3S part|tilt-PASTP adv|over .
+*PAR:	a catastrophe there I can see . 13523_15845
+%mor:	det|a n|catastrophe adv|there pro:sub|I mod|can v|see .
+*PAR:	the mother is drying dishes and has the water turned on . 15845_20100
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL coord|and
+	v|have&3S det|the n|water v|turn-PAST adv|on .
+*PAR:	and her mind must be elsewhere &=laughs because the water has overflowed . 20100_24535
+%mor:	conj|and pro:poss:det|her n|mind mod|must cop|be n|elsewhere
+	conj|because det|the n|water aux|have&3S over#part|flow-PASTP .
+*PAR:	and (.) I don't see anything happening outside . 24580_32557
+%mor:	conj|and pro:sub|I mod|do~neg|not v|see pro:indef|anything
+	part|happen-PRESP adv|outside .
+*PAR:	(th)at's [/] that's just about it I think . [+ exc] 32557_35565
+%mor:	pro:dem|that~cop|be&3S adv|just prep|about pro|it pro:sub|I v|think
+	.
+*INV:	okay . 35299_36980
+%mor:	co|okay .
+@End

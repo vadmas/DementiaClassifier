@@ -1,0 +1,201 @@
+@UTF8
+@PID:	11312/t-00016586-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|male|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	203-1s, audio, missing
+*INV:	I'm going to give you a word . 0_9160
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you det|a
+	n|word .
+*INV:	and I want you to use that word in a brief simple sentence . 9160_14733
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|use det|that n|word
+	prep|in det|a adj|brief adj|simple n|sentence .
+*INV:	for example . 14733_16068
+%mor:	prep|for n|example .
+*INV:	if I gave you the word table@q . 16068_18982
+%mor:	conj|if pro:sub|I v|give&PAST pro|you det|the n|word meta|table .
+*INV:	you might say +"/. 18982_20445
+%mor:	pro|you mod|might v|say +"/.
+*INV:	+" your dinner is on the table . 20445_23823
+%mor:	pro:poss:det|your n|dinner cop|be&3S prep|on det|the n|table .
+*PAR:	mhm . [+ exc] 23523_24381
+%mor:	co|yes .
+*INV:	just a simple sentence . 24381_26366
+%mor:	adv|just det|a adj|simple n|sentence .
+*INV:	your first word is pencil@q . 26366_29071
+%mor:	pro:poss:det|your adj|first n|word aux|be&3S meta|pencil .
+*INV:	can you use the word pencil@q in a sentence ? 29071_35306
+%mor:	mod|can pro|you v|use det|the n|word meta|pencil prep|in det|a
+	n|sentence ?
+*INV:	can you make up a sentence using the word pencil@q ? 35306_44513
+%mor:	mod|can pro|you v|make prep|up det|a n|sentence part|use-PRESP
+	det|the n|word meta|pencil ?
+*PAR:	who took [/] took my pɛnəl@u [: pencil]
+	[* p:n-ret] [//] pencil, I need it . 44513_51212
+%mor:	pro:wh|who v|take&PAST pro:poss:det|my n|pencil cm|cm pro:sub|I
+	v|need pro|it .
+*INV:	tree@q . 51212_57806
+%mor:	meta|tree .
+*INV:	can you make up a sentence using the word tree@q ? 57806_62311
+%mor:	mod|can pro|you v|make prep|up det|a n|sentence part|use-PRESP
+	det|the n|word meta|tree ?
+*PAR:	tree@q ? [+ exc] 62111_62564
+%mor:	meta|tree ?
+*INV:	mhm . 62564_63553
+%mor:	co|yes .
+*PAR:	they had to chase (h)im up the tree . 63553_67663
+%mor:	pro:sub|they v|have&PAST inf|to v|chase pro:obj|him prep|up det|the
+	n|tree .
+*INV:	(...) now then ‡  I'm going to give you two words . 67663_84312
+%mor:	adv|now adv:tem|then beg|beg pro:sub|I~aux|be&1S part|go-PRESP
+	inf|to v|give pro|you det:num|two n|word-PL .
+*INV:	and I want you to use both words in one brief simple sentence . 84312_91324
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL
+	prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	child@q hospital@q . 91324_95863
+%mor:	meta|child meta|hospital .
+*INV:	(...) can you put those two words in one sentence ? 95863_113398
+%mor:	mod|can pro|you v|put&ZERO det|those det:num|two n|word-PL prep|in
+	det:num|one n|sentence ?
+*PAR:	<he was> [/] &=clears:throat <he was> [/] he was +... [+ exc]  113398_120120
+%mor:	pro:sub|he cop|be&PAST&13S +...
+*PAR:	wait a minute xxx  . [+ exc] 120120_122833
+%mor:	v|wait det|a n|minute .
+*PAR:	he was in a wreck <and I had to> [//] &=clears:throat &uh <and I
+	had> [/] &=clears:throat and I had to get to the [/] the ambulance
+	down there . 122833_137032
+%mor:	pro:sub|he cop|be&PAST&13S prep|in det|a n|wreck coord|and
+	pro:sub|I v|have&PAST inf|to v|get prep|to det|the n|ambulance
+	adv|down adv|there .
+*PAR:	is that two there or one ? [+ exc] 137032_141501
+%mor:	cop|be&3S rel|that det:num|two adv|there coord|or pro:indef|one ?
+*INV:	okay . 141501_142616
+%mor:	co|okay .
+*INV:	now then . 142616_145078
+%mor:	adv|now adv:tem|then .
+*INV:	two words . 145078_147040
+%mor:	det:num|two n|word-PL .
+*INV:	and I want you two use both words in one brief simple sentence . 147040_152949
+%mor:	coord|and pro:sub|I v|want pro|you det:num|two v|use qn|both
+	n|word-PL prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	the words are . 152949_154157
+%mor:	det|the n|word-PL cop|be&PRES .
+*INV:	cold@q winter@q . 154157_157396
+%mor:	meta|cold meta|winter .
+*PAR:	told@q winter@q ? [+ exc] 157396_158778
+%mor:	meta|told meta|winter ?
+*INV:	mhm . 158778_159207
+%mor:	co|yes .
+*PAR:	xxx . [+ exc] 159207_161703
+*INV:	cold@q . 161703_162992
+%mor:	meta|cold .
+*INV:	winter@q . 162992_164246
+%mor:	meta|winter .
+*INV:	and put those two words in one sentence . 164246_167798
+%mor:	coord|and v|put&ZERO det|those det:num|two n|word-PL prep|in
+	det:num|one n|sentence .
+*PAR:	xxx . [+ exc] 167798_168854
+*INV:	mhm . 168854_169888
+%mor:	co|yes .
+*PAR:	&uh xxx +... [+ exc] 169888_180813
+*PAR:	read me that off xxx . [+ exc] 180813_184567
+%mor:	v|read&ZERO pro:obj|me det|that adv|off .
+*INV:	+< mhm . 183666_184567
+%mor:	co|yes .
+*INV:	I'm gonna give you two words . 184567_186754
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you det:num|two
+	n|word-PL .
+*INV:	and I want you to put those two words into a brief simple sentence .
+	186754_193735
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|put&ZERO det|those
+	det:num|two n|word-PL prep|into det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	+< two words . [+ exc]  187200_188348
+%mor:	det:num|two n|word-PL .
+*INV:	so ‡ make up a sentence using the words cold@q winter@q . 193735_200852
+%mor:	co|so beg|beg v|make prep|up det|a n|sentence part|use-PRESP
+	det|the n|word-PL meta|cold meta|winter .
+*PAR:	&=clears:throat &h &um let's see xxx . [+ exc] 200852_207493
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	we sure had a bad winter xxx . 207493_212868
+%mor:	pro:sub|we adv|sure v|have&PAST det|a adj|bad n|winter .
+*INV:	(..) now then . 212868_224171
+%mor:	adv|now adv:tem|then .
+*INV:	I'm gonna give you three words . 224171_226440
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	and I want you to make up a sentence using all three words . 226440_230980
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|make prep|up det|a
+	n|sentence part|use-PRESP adv|all det:num|three n|word-PL .
+*INV:	alright ? 230980_232292
+%mor:	co|alright ?
+*PAR:	mhm . [+ exc] 232292_232932
+%mor:	co|yes .
+*INV:	chair@q . 232932_234649
+%mor:	meta|chair .
+*INV:	one of these things . 234649_236205
+%mor:	det:num|one prep|of det|these n|thing-PL .
+*INV:	chair@q . 236205_236785
+%mor:	meta|chair .
+*INV:	doctor@q . 236785_238968
+%mor:	meta|doctor .
+*INV:	sit@q . 238968_241174
+%mor:	meta|sit .
+*PAR:	now you're gettin(g) xxx . [+ exc] 241174_246154
+%mor:	adv|now pro|you~aux|be&PRES part|get-PRESP .
+*INV:	+< mhm . 245354_247130
+%mor:	co|yes .
+*PAR:	how many ? [+ exc] 247130_249185
+%mor:	adv:wh|how qn|many ?
+*INV:	chair@q . 249185_250590
+%mor:	meta|chair .
+*INV:	doctor@q . 250590_252377
+%mor:	meta|doctor .
+*INV:	sit@q . 252377_254084
+%mor:	meta|sit .
+*INV:	put those three words in a sentence for me . 254084_257279
+%mor:	v|put&ZERO det|those det:num|three n|word-PL prep|in det|a
+	n|sentence prep|for pro:obj|me .
+*PAR:	&uh <he was> [/] he was sittin(g) in the room &=clears throat at the
+	hotel and &uh &=clears:throat +... [+ exc] 257279_276500
+%mor:	pro:sub|he aux|be&PAST&13S part|sit-PRESP prep|in det|the n|room
+	n|throat prep|at det|the n|hotel coord|and +...
+*PAR:	and what do I have then ? [+ exc] 276500_281251
+%mor:	coord|and pro:wh|what mod|do pro:sub|I v|have adv:tem|then ?
+*INV:	chair@q . 281251_283144
+%mor:	meta|chair .
+*INV:	doctor@q . 283144_284850
+%mor:	meta|doctor .
+*INV:	sit@q . 284850_286708
+%mor:	meta|sit .
+*PAR:	<they put> [/] they put them in the room &=clears:throat <and he
+	had> [//] and he was +... 286708_308530
+%mor:	pro:sub|they v|put&ZERO pro:obj|them prep|in det|the n|room
+	coord|and pro:sub|he cop|be&PAST&13S +...
+*PAR:	xxx . [+ exc]  308530_312853
+*PAR:	since I'm not finished with xxx . [+ exc] 312853_317950
+%mor:	conj|since pro:sub|I~cop|be&1S neg|not part|finish-PASTP prep|with
+	.
+*INV:	+< okay ‡ mhm . 317000_318463
+%mor:	co|okay beg|beg co|yes .
+*INV:	they put them in the room and he was +... 318463_322211
+%mor:	pro:sub|they v|put&ZERO pro:obj|them prep|in det|the n|room
+	coord|and pro:sub|he cop|be&PAST&13S +...
+*INV:	can you remember the words that you're using ? 322211_325973
+%mor:	mod|can pro|you v|remember det|the n|word-PL rel|that
+	pro|you~aux|be&PRES part|use-PRESP ?
+*PAR:	yeah ‡ xxx . [+ exc] 325973_328481
+%mor:	co|yeah beg|beg .
+*PAR:	they put (th)em in a room and &=clears:throat &uh waited [/]
+	waited (un)til their (.) <xxx &uh or> [//] rɛntsɪn@u [: x@n] came
+	too . 328481_351045
+%mor:	pro:sub|they v|put&ZERO pro:obj|them prep|in det|a n|room coord|and
+	v|wait-PAST prep|until pro:poss:det|their neo|x v|come&PAST adv|too
+	.
+*INV:	okay . 351045_351558
+%mor:	co|okay .
+*INV:	now then . 351558_352287
+%mor:	adv|now adv:tem|then .
+@End

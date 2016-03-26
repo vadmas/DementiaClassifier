@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002407-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|46;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	340-0c, audio
+*PAR:	okay . [+ exc] 0_466
+%mor:	co|okay .
+*PAR:	the sink is running over . 466_1829
+%mor:	det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	she's standing in the sink . 1829_3209
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the n|sink .
+*PAR:	the mother is . 3209_4389
+%mor:	det|the n|mother cop|be&3S .
+*PAR:	the mother is also drying dishes . 4389_6202
+%mor:	det|the n|mother aux|be&3S adv|also part|dry-PRESP n|dish-PL .
+*PAR:	the little boy is getting cookies out of the cookie jar handing it to his sister and falling off the step+stool at the same time little girl is touching her nose . 6202_13085
+%mor:	det|the adj|little n|boy aux|be&3S part|get-PRESP n|cookie-PL
+	adv|out prep|of det|the n|cookie n|jar part|hand-PRESP pro|it
+	prep|to pro:poss:det|his n|sister coord|and part|fall-PRESP prep|off
+	det|the n|+n|step+n|stool prep|at det|the adj|same n|time adj|little
+	n|girl aux|be&3S part|touch-PRESP pro:poss:det|her n|nose .
+*PAR:	outside &um you can see the outside window . 13085_17557
+%mor:	out#v|side pro|you mod|can v|see det|the adj|outside n|window .
+*PAR:	I don't know if that's a little bit of action I guess . [+ exc] 17557_19603
+%mor:	pro:sub|I mod|do~neg|not v|know conj|if pro:dem|that~cop|be&3S
+	det|a adj|little n|bit prep|of n|action pro:sub|I v|guess .
+*PAR:	&uh the cookie jar lid is [//] has fallen over to the side . 19603_24400
+%mor:	det|the n|cookie n|jar n|lid aux|have&3S part|fall&PASTP adv|over
+	prep|to det|the n|side .
+*PAR:	&um okay . [+ exc] 24400_28515
+%mor:	co|okay .
+*PAR:	it looks like the curtains are blowing . 28515_30146
+%mor:	pro|it v|look-3S prep|like det|the n|curtain-PL aux|be&PRES
+	part|blow-PRESP .
+*PAR:	and it looks like &um the mother has completed washing at least two cups and one dish . 30146_37883
+%mor:	conj|and pro|it v|look-3S prep|like det|the n|mother aux|have&3S
+	part|complete-PASTP part|wash-PRESP prep|at n|least det:num|two
+	n|cup-PL coord|and det:num|one n|dish .
+*PAR:	process of doing the other ones .  [+ gram] 37883_40809
+%mor:	n|process prep|of n:gerund|do-PRESP det|the qn|other
+	pro:indef|one-PL .
+*PAR:	okay . [+ exc] 40809_43469
+%mor:	co|okay .
+*PAR:	and (.) action would be the door hanging open where the cookie jar is in that cupboard . 43469_51516
+%mor:	coord|and n|action mod|will&COND cop|be det|the n|door
+	part|hang-PRESP adv|open rel|where det|the n|cookie n|jar cop|be&3S
+	prep|in det|that n|cupboard .
+@End

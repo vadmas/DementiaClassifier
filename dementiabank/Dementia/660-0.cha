@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/t-00002717-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|PossibleAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	660-0c, audio
+*INV:	going on in the picture ? 0_1403
+%mor:	part|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	I see the little boy's down here +/. 1403_3680
+%mor:	pro:sub|I v|see det|the adj|little n|boy~poss|s adv|down adv|here
+	+/.
+*INV:	+< okay . 3680_5060
+%mor:	co|okay .
+*PAR:	+, getting the [/] the food . 5060_6600
+%mor:	part|get-PRESP det|the n|food .
+*PAR:	and the little girl down here is the same way . 6600_8789
+%mor:	conj|and det|the adj|little n|girl prep|down adv|here cop|be&3S
+	det|the adj|same n|way .
+*PAR:	<this little boy> [//] this is falling over .8789_11147
+%mor:	pro:dem|this aux|be&3S part|fall-PRESP adv|over .
+*INV:	mhm .11147_11800
+%mor:	co|yes .
+*PAR:	and this little girl she's just getting [/] (.) getting things ready for dinner .11800_20516
+%mor:	conj|and det|this adj|little n|girl pro:sub|she~aux|be&3S adv|just
+	part|get-PRESP n|thing-PL adj|ready prep|for n|dinner .
+*INV:	what else is happening over here ? 20516_22769
+%mor:	pro:wh|what post|else aux|be&3S part|happen-PRESP prep|over
+	pro:dem|here ?
+*PAR:	food dropped . 22769_25010
+%mor:	n|food v|drop-PAST .
+*INV:	okay .25010_26660
+%mor:	co|okay .
+*PAR:	I think it did . [+ exc] 26660_27850
+%mor:	pro:sub|I v|think pro|it v|do&PAST .
+*PAR:	yes it did . [+ exc] 27850_28900
+%mor:	co|yes pro|it v|do&PAST .
+*INV:	okay . 28900_30009
+%mor:	co|okay .
+@End

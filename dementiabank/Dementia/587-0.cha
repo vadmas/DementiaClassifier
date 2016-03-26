@@ -1,0 +1,53 @@
+@UTF8
+@PID:	11312/t-00002694-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|male|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	587-0c, audio
+*INV:	I want you to tell me everything you see happening in that picture . 0_3626
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything pro|you v|see n:gerund|happen-PRESP prep|in
+	det|that n|picture .
+*PAR:	everything ? [+ exc] 3626_4514
+%mor:	pro:indef|everything ?
+*INV:	everything you see happening . 4514_5883
+%mor:	pro:indef|everything pro|you v|see n:gerund|happen-PRESP .
+*PAR:	happening ? [+ exc] 5883_6416
+%mor:	part|happen-PRESP ?
+*INV:	yeah everything that's going on . 6416_8062
+%mor:	co|yeah pro:indef|everything rel|that~aux|be&3S part|go-PRESP
+	adv|on .
+*PAR:	&hm mhm . [+ exc] 7262_9042
+%mor:	co|yes .
+*INV:	what's happening in that picture ? 9042_10707
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|in det|that n|picture
+	?
+*PAR:	+< well (..) &uh this is the boy trying to get the cookie jar down for his sister I would imagine it is . 10007_19828
+%mor:	co|well pro:dem|this cop|be&3S det|the n|boy part|try-PRESP inf|to
+	v|get det|the n|cookie n|jar adv|down prep|for pro:poss:det|his
+	n|sister pro:sub|I mod|will&COND v|imagine pro|it cop|be&3S .
+*PAR:	&uh and he's gonna [: going to] fall <off the ladder [: stool] [* s:r-ret]> [//] off the [//] (..) &uh his s:tool or whatever he is settin(g) on . 19828_28418
+%mor:	conj|and pro:sub|he~aux|be&3S part|go-PRESP prep|to n|fall prep|off
+	pro:poss:det|his n|stool coord|or pro:wh|whatever pro:sub|he
+	aux|be&3S part|set-PRESP adv|on .
+*PAR:	the mother is over here . 28418_30403
+%mor:	det|the n|mother cop|be&3S prep|over pro:dem|here .
+*PAR:	she just dropped [: spilled] [* s:r] some water or whatever on the floor . 30403_34748
+%mor:	pro:sub|she adv|just v|spill-PAST qn|some n|water coord|or
+	pro:wh|whatever adv|on det|the n|floor .
+*PAR:	and [/] and she looks (.) pretty mad . 34748_38800
+%mor:	conj|and pro:sub|she n|look-PL adv|pretty adj|mad .
+*INV:	mhm . 38800_39697
+%mor:	co|yes .
+*PAR:	and &um the water's still runnin(g) . 39697_42540
+%mor:	conj|and det|the n|water~aux|be&3S adv|still part|run-PRESP .
+*PAR:	and it looks like the [/] the girl is laughing <at the> [/] at the boy because the [/] &uh the stool is gonna [: going to] fall over . 42540_54645
+%mor:	conj|and pro|it v|look-3S prep|like det|the n|girl aux|be&3S
+	part|laugh-PRESP prep|at det|the n|boy conj|because det|the n|stool
+	aux|be&3S part|go-PRESP inf|to v|fall adv|over .
+*PAR:	and there's [/] there's water on the floor there . 54645_59712
+%mor:	conj|and pro:exist|there~cop|be&3S n|water prep|on det|the n|floor
+	adv|there .
+@End

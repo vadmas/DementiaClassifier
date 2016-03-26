@@ -1,0 +1,39 @@
+@UTF8
+@PID:	11312/t-00002606-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	291-1c, audio
+*INV:	what's going on in the picture ? 0_1400
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	(.) &uh the boy in the cookie jar . [+ gram] 1400_5012
+%mor:	det|the n|boy prep|in det|the n|cookie n|jar .
+*INV:	mhm . 5012_6134
+%mor:	co|yes .
+*PAR:	&uh the little girl waiting for the cookie .  [+ gram] 6134_9870
+%mor:	det|the adj|little n|girl part|wait-PRESP prep|for det|the n|cookie
+	.
+*PAR:	her hand goes up . 9870_11223
+%mor:	pro:poss:det|her n|hand v|go-3S adv|up .
+*INV:	+< mhm . 10125_11825
+%mor:	co|yes .
+*PAR:	a mother drying dishes . [+ gram] 11825_14524
+%mor:	det|a n|mother part|dry-PRESP n|dish-PL .
+*PAR:	(.) sink running over . [+ gram] 14524_18211
+%mor:	n|sink part|run-PRESP adv|over .
+*PAR:	(.) the &um stool the little boy is on is tilting . 18211_27505
+%mor:	det|the n|stool det|the adj|little n|boy cop|be&3S adv|on aux|be&3S
+	part|tilt-PRESP .
+*INV:	(..) anything else that you see going on in the picture ? 27505_36345
+%mor:	pro:indef|anything post|else pro:dem|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	(.) no . [+ exc] 36345_38225
+%mor:	co|no .
+*INV:	okay . 38326_39012
+%mor:	co|okay .
+*INV:	that's fine . 39012_39863
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+@End

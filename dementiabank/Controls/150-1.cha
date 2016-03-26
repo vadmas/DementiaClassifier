@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/t-00002312-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	150-1c, audio
+*INV:	okay what action do you see going on in this picture ? 0_4764
+%mor:	co|okay pro:wh|what n|action v|do pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|this n|picture ?
+*PAR:	you mean starting from say left to right or whatever ? [+ exc] 4764_8187
+%mor:	pro|you v|mean part|start-PRESP prep|from co|say v|leave&PAST
+	prep|to n|right coord|or pro:wh|whatever ?
+*INV:	how ever you like . 8187_9251
+%mor:	adv:wh|how adv|ever pro|you co|like .
+*PAR:	&uh the brother or the boy is reaching into the cookie jar . 9251_14489
+%mor:	det|the n|brother coord|or det|the n|boy aux|be&3S part|reach-PRESP
+	prep|into det|the n|cookie n|jar .
+*PAR:	and the sister could be laughing or cautioning him . 14489_19759
+%mor:	conj|and det|the n|sister mod|could aux|be part|laugh-PRESP
+	coord|or part|caution-PRESP pro:obj|him .
+*PAR:	and the stool is &uh tipping over . 19759_22817
+%mor:	conj|and det|the n|stool aux|be&3S part|tip-PRESP adv|over .
+*PAR:	and &uh old mom is &uh standing in a puddle &uh washing [//] drying dishes . 22817_29300
+%mor:	conj|and adj|old n|mom aux|be&3S part|stand-PRESP prep|in det|a
+	n|puddle part|dry-PRESP n|dish-PL .
+*PAR:	and the sink is overflowing . 29300_31429
+%mor:	conj|and det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	and &uh the perspective was [//] means the &uh path is coming right in the house . 31429_38161
+%mor:	conj|and det|the n|perspective v|mean-3S det|the n|path aux|be&3S
+	part|come-PRESP adv|right prep|in det|the n|house .
+*PAR:	and &uh what else do you want ? [+ exc] 38161_41975
+%mor:	coord|and pro:wh|what post|else v|do pro|you v|want ?
+*INV:	any action that you see . 41975_45652
+%mor:	qn|any n|action rel|that pro|you v|see .
+*PAR:	well the mom is drying the dishes . 45652_50291
+%mor:	co|well det|the n|mom aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	she's getting her feet wet . 50291_51438
+%mor:	pro:sub|she~aux|be&3S part|get-PRESP pro:poss:det|her n|foot&PL
+	part|wet&PASTP .
+*PAR:	and the sister's reaching for the cookie that's in the brother's hand or the kid's hand . 51438_59249
+%mor:	conj|and det|the n|sister~aux|be&3S part|reach-PRESP prep|for
+	det|the n|cookie rel|that~aux|be&3S adv|in det|the n|brother~poss|s
+	n|hand coord|or det|the n|kid~poss|s n|hand .
+*INV:	okay is that it ? 59249_61523
+%mor:	co|okay cop|be&3S rel|that pro|it ?
+*PAR:	yep . [+ exc] 61523_62284
+%mor:	co|yep .
+@End

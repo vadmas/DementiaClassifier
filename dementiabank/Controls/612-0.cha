@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002408-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	612-0c, audio
+*INV:	I want you to tell me everything that you see going on in this picture . 0_3966
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|this n|picture .
+*INV:	everything that you see happening here . 3966_7083
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	adv|here .
+*INV:	go ahead . 7083_8888
+%mor:	v|go adv|ahead .
+*PAR:	well for one thing the boy is stealing cookies . 8888_13279
+%mor:	co|well prep|for pro:indef|one n|thing det|the n|boy aux|be&3S
+	part|steal-PRESP n|cookie-PL .
+*PAR:	and the girl is asking for a cookie . 13279_16545
+%mor:	conj|and det|the n|girl aux|be&3S part|ask-PRESP prep|for det|a
+	n|cookie .
+*PAR:	and the boy is standing on a (.) stool which is tipping over . 16545_21370
+%mor:	conj|and det|the n|boy aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool rel|which cop|be&3S part|tip-PRESP adv|over .
+*PAR:	and the lady's drying a plate . 21370_24795
+%mor:	conj|and det|the n|lady~aux|be&3S part|dry-PRESP det|a n|plate .
+*PAR:	and the (.) water is running in the sink and overflowing on the floor and getting her feet wet . 24795_34007
+%mor:	conj|and det|the n|water aux|be&3S part|run-PRESP prep|in det|the
+	n|sink coord|and over#part|flow-PRESP prep|on det|the n|floor
+	coord|and part|get-PRESP pro:poss:det|her n|foot&PL part|wet&PASTP .
+*PAR:	and the window is open . 34007_37742
+%mor:	conj|and det|the n|window aux|be&3S adv|open .
+*PAR:	and (.) I don't know that there's anything special going on outside the window . [+ exc]  37742_47521
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know rel|that
+	pro:exist|there~cop|be&3S pro:indef|anything adj|special
+	part|go-PRESP adv|on adj|outside det|the n|window .
+*PAR:	seems to me <that> [/] &uh that's essentially the things that are going on in this picture . [+ exc] 47936_54613
+%mor:	v|seem-3S prep|to pro:obj|me pro:dem|that~cop|be&3S
+	adv|essential&dadj-LY det|the n|thing-PL rel|that aux|be&PRES
+	part|go-PRESP adv|on prep|in det|this n|picture .
+*PAR:	the girl is picking her nose . 54613_58830
+%mor:	det|the n|girl aux|be&3S part|pick-PRESP pro:poss:det|her n|nose .
+*INV:	&=laughs . 58830_61868
+*PAR:	the boy is handing her a cookie . 61868_64698
+%mor:	det|the n|boy aux|be&3S part|hand-PRESP pro:obj|her det|a n|cookie
+	.
+*PAR:	(.) &uh really those are the only activities I see . [+ exc] 64510_74923
+%mor:	adv|real&dadj-LY pro:dem|those cop|be&PRES det|the qn|only
+	n|activity-PL pro:sub|I v|see .
+*INV:	okay . 74923_76182
+%mor:	co|okay .
+@End

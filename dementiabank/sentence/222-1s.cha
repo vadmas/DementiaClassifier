@@ -1,0 +1,139 @@
+@UTF8
+@PID:	11312/t-00016603-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|62;|female|ProbableAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	222-1s, audio
+*INV:	okay ‡ good . 0_919
+%mor:	co|okay beg|beg adj|good .
+*INV:	pencil@q . 919_1645
+%mor:	meta|pencil .
+*INV:	can you use that in a sentence ? 1645_3800
+%mor:	mod|can pro|you v|use pro:dem|that prep|in det|a n|sentence ?
+*INV:	pencil@q . 3800_5140
+%mor:	meta|pencil .
+*PAR:	&um well ‡ a [/] &p a pencil whenever we wanna <put something>
+	[/] &uh &uh put something on you_know . [+ exc] 5140_15772
+%mor:	co|well beg|beg det|a n|pencil adv:wh|whenever pro:sub|we
+	v|want~inf|to v|put&ZERO pro:indef|something prep|on co|you_know .
+*INV:	+< okay . 15531_16372
+%mor:	co|okay .
+*PAR:	and that's what we can put it on . [+ exc] 15772_17421
+%mor:	conj|and pro:dem|that~cop|be&3S pro:wh|what pro:sub|we mod|can
+	v|put&ZERO pro|it adv|on .
+*INV:	alright ‡ what I want you to do is &t to use the word pencil@q . 17421_20850
+%mor:	co|alright beg|beg pro:wh|what pro:sub|I v|want pro|you inf|to v|do
+	cop|be&3S inf|to v|use det|the n|word meta|pencil .
+*INV:	remember the example table@q ? 20850_23054
+%mor:	v|remember det|the n|example meta|table ?
+*INV:	and we wanted to put table@q in a sentence . 23054_26038
+%mor:	conj|and pro:sub|we v|want-PAST inf|to v|put&ZERO meta|table
+	prep|in det|a n|sentence .
+*INV:	we said +"/. 26038_26607
+%mor:	pro:sub|we v|say&PAST +"/.
+*INV:	+" the dinner is on the table . 26607_29100
+%mor:	det|the n|dinner cop|be&3S prep|on det|the n|table .
+*PAR:	yeah . [+ exc] 29100_29590
+%mor:	co|yeah .
+*INV:	that's a sentence and the word table@q is in there . 29590_33041
+%mor:	pro:dem|that~cop|be&3S det|a n|sentence coord|and det|the n|word
+	meta|table cop|be&3S prep|in pro:dem|there .
+*INV:	now I want you to come up with a [/] a &wor [//] a sentence using
+	the word pencil@q . 33041_38146
+%mor:	adv|now pro:sub|I v|want pro|you inf|to v|come adv|up prep|with
+	det|a det|a n|sentence part|use-PRESP det|the n|word meta|pencil .
+*PAR:	pencil@q ? [+ exc] 38146_39350
+%mor:	meta|pencil ?
+*INV:	mhm . 39350_40668
+%mor:	co|yes .
+*PAR:	I_mean ‡ <I was> [//] with pencil we can &uh &um <put on a> [/] put
+	on a piece of paper . 40093_47506
+%mor:	co|I_mean beg|beg prep|with n|pencil pro:sub|we mod|can v|put&ZERO
+	prep|on det|a n|piece prep|of n|paper .
+*INV:	alright ‡ that's what we do with a pencil but can you put the word
+	pencil@q in a sentence ? 47506_51984
+%mor:	co|alright beg|beg pro:dem|that~cop|be&3S pro:wh|what pro:sub|we
+	v|do prep|with det|a n|pencil conj|but mod|can pro|you v|put&ZERO
+	det|the n|word meta|pencil prep|in det|a n|sentence ?
+*INV:	in a sentence use the word pencil@q . 51984_57244
+%mor:	prep|in det|a n|sentence n|use det|the n|word meta|pencil .
+*INV:	say the word pencil@q in a sentence for me . 57244_60402
+%mor:	v|say det|the n|word meta|pencil prep|in det|a n|sentence prep|for
+	pro:obj|me .
+*PAR:	well ‡ whenever I wanna [x 3] <put a> [//] put it on a piece of paper
+	and then I can put one on there  .  [+ exc] 60402_68651
+%mor:	co|well beg|beg adv:wh|whenever pro:sub|I v|want~inf|to v|put&ZERO
+	pro|it prep|on det|a n|piece prep|of n|paper coord|and adv:tem|then
+	pro:sub|I mod|can v|put&ZERO pro:indef|one prep|on pro:dem|there .
+*INV:	uhhuh ‡ that's what you do with a pencil . 68651_71967
+%mor:	co|uhhuh beg|beg pro:dem|that~cop|be&3S pro:wh|what pro|you v|do
+	prep|with det|a n|pencil .
+*INV:	I want you to use the word pencil@q in a sentence . 71967_75406
+%mor:	pro:sub|I v|want pro|you inf|to v|use det|the n|word meta|pencil
+	prep|in det|a n|sentence .
+*INV:	remember the example ? 75406_76962
+%mor:	v|remember det|the n|example ?
+*INV:	a sentence is something like +"/. 76962_79435
+%mor:	det|a n|sentence aux|be&3S pro:indef|something prep|like +"/.
+*INV:	the pencil is on the desk . 79435_82161
+%mor:	det|the n|pencil cop|be&3S prep|on det|the n|desk .
+*INV:	okay . 82052_83590
+%mor:	co|okay .
+*PAR:	the pencil is on the desk +/. [+ exc] 83590_85523
+%mor:	det|the n|pencil cop|be&3S prep|on det|the n|desk +/.
+*INV:	+< right . 85522_86209
+%mor:	co|right .
+*PAR:	yeah ‡ because <we have> [/] we have some stuff at home . [+ exc] 85523_88606
+%mor:	co|yeah beg|beg conj|because pro:sub|we v|have qn|some n|stuff
+	prep|at n|home .
+*INV:	okay . 88606_89681
+%mor:	co|okay .
+*INV:	can you use the word tree@q in a sentence like that ? 89681_93075
+%mor:	mod|can pro|you v|use det|the n|word meta|tree prep|in det|a
+	n|sentence prep|like pro:dem|that ?
+*PAR:	tree@q ? [+ exc] 93075_93700
+%mor:	meta|tree ?
+*INV:	tree@q . 93700_94228
+%mor:	meta|tree .
+*INV:	mhm . 94228_95656
+%mor:	co|yes .
+*PAR:	tree@q . [+ exc] 95656_96378
+%mor:	meta|tree .
+*INV:	in a sentence like, “the pencil is on the desk” . 96378_101341
+%mor:	prep|in det|a n|sentence prep|like cm|cm bq|bq det|the n|pencil
+	cop|be&3S prep|on det|the n|desk eq|eq .
+*INV:	instead of pencil@q now I want you to use the word tree@q . 101341_105092
+%mor:	adv|instead prep|of meta|pencil adv|now pro:sub|I v|want pro|you
+	inf|to v|use det|the n|word meta|tree .
+*PAR:	tree@q . [+ exc] 105092_106400
+%mor:	meta|tree .
+*INV:	mhm . 106400_107210
+%mor:	co|yes .
+*PAR:	well ‡ would that be &um (.) <to get> [/] to get one of them things
+	up in there . [+ exc] 107210_115334
+%mor:	co|well beg|beg mod|will&COND rel|that aux|be inf|to v|get
+	pro:indef|one prep|of pro:obj|them n|thing-PL adv|up prep|in
+	pro:dem|there .
+*INV:	okay ‡ I want you to come up with a sentence for me . 115334_119550
+%mor:	co|okay beg|beg pro:sub|I v|want pro|you inf|to v|come adv|up
+	prep|with det|a n|sentence prep|for pro:obj|me .
+*INV:	a sentence that has the word tree@q in it . 119550_123020
+%mor:	det|a n|sentence rel|that v|have&3S det|the n|word meta|tree
+	prep|in pro|it .
+*INV:	say something with the word tree@q in it . 122920_125713
+%mor:	v|say pro:indef|something prep|with det|the n|word meta|tree
+	prep|in pro|it .
+*PAR:	with tree@q ? [+ exc] 125713_127740
+%mor:	prep|with meta|tree ?
+*INV:	mhm . 127740_128765
+%mor:	co|yes .
+*PAR:	(.) well ‡ we wanna get something for [/] for the tree and for the
+	[/] (.) &uh the [//] to put something <on for> [/] on for that  . 128765_145072
+%mor:	co|well beg|beg pro:sub|we v|want~inf|to v|get pro:indef|something
+	prep|for det|the n|tree coord|and prep|for inf|to v|put&ZERO
+	pro:indef|something adv|on prep|for pro:dem|that .
+*INV:	okay . 145072_146000
+%mor:	co|okay .
+@End

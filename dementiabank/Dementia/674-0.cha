@@ -1,0 +1,31 @@
+@UTF8
+@PID:	11312/t-00002720-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|ProbableAD||Participant|8||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	674-0c, audio
+*INV:	I want you to take a look at this picture . 0_2304
+%mor:	pro:sub|I v|want pro|you inf|to v|take det|a n|look prep|at
+	det|this n|picture .
+*INV:	tell me everything you see happening in that picture, everything that's going on . 2304_8452
+%mor:	v|tell pro:obj|me pro:indef|everything pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture cm|cm
+	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on .
+*PAR:	boy's &t &t touchin(g) a cake [: cookie] [* s:r] . [+ gram] 8452_16964
+%mor:	n|boy~aux|be&3S part|touch-PRESP det|a n|cookie .
+*PAR:	he's [//] girl's reachin(g) <his hand up> [//] her hand up . [+ gram] 16964_20900
+%mor:	n|girl~aux|be&3S part|reach-PRESP pro:poss:det|her n|hand adv|up .
+*PAR:	and that woman's dryin(g) the dishes [/] dishes . 20900_24639
+%mor:	coord|and rel|that n|woman~aux|be&3S part|dry-PRESP det|the
+	n|dish-PL .
+*PAR:	the &uh water's falling [//] flowing over the sink . 24639_30271
+%mor:	det|the n|water~aux|be&3S part|flow-PRESP prep|over det|the n|sink
+	.
+*PAR:	there's cups and a plate on the sink . 30271_37200
+%mor:	pro:exist|there~aux|be&3S n|cup-PL coord|and det|a n|plate prep|on
+	det|the n|sink .
+*INV:	okay thanks .37200_43594
+%mor:	co|okay co|thanks .
+@End

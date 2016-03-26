@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002433-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|67;|male|MCI||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	016-0c, audio
+*PAR:	guy or a boy reaching for a cookie jar &uh tilting on the stool . [+ gram]  0_10241
+%mor:	n|guy coord|or det|a n|boy part|reach-PRESP prep|for det|a n|cookie
+	n|jar part|tilt-PRESP prep|on det|the n|stool .
+*PAR:	and a girl asking for one pointing to her mouth . [+ gram] 10241_15208
+%mor:	conj|and det|a n|girl part|ask-PRESP prep|for pro:indef|one
+	part|point-PRESP prep|to pro:poss:det|her n|mouth .
+*INV:	&=laughs . 15208_16054
+*PAR:	a woman washing [//] &uh drying dishes . [+ gram] 16054_21307
+%mor:	det|a n|woman part|dry-PRESP n|dish-PL .
+*PAR:	&uh outdoors I don't see anything going on but there is a walk+way and &uh grass, shrubs, and &uh looks like some sort of a pattern on the wall  . 28918_46348
+%mor:	n|outdoors pro:sub|I mod|do~neg|not v|see pro:indef|anything
+	part|go-PRESP adv|on conj|but pro:exist|there cop|be&3S det|a
+	n|+n|walk+n|way coord|and n|grass cm|cm n|shrub-PL cm|cm coord|and
+	v|look-3S prep|like qn|some n|sort prep|of det|a n|pattern prep|on
+	det|the n|wall .
+*PAR:	and there's a tree which you can see through the half open window . 46348_52994
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|tree rel|which pro|you
+	mod|can v|see prep|through det|the n|half adj|open n|window .
+*INV:	okay ? 52994_58333
+%mor:	co|okay ?
+*PAR:	mhm . [+ exc] 58333_59064
+%mor:	co|yes .
+*INV:	okay thank you . 59064_59983
+%mor:	co|okay v|thank pro|you .
+@End

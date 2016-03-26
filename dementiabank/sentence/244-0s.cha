@@ -1,0 +1,72 @@
+@Font:	CAfont:13:0
+@UTF8
+@PID:	11312/t-00016611-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	244-0s, audio
+*INV:	the first word is pencil@q . 0_3332
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*PAR:	I found my pencil and wrote with it . 3332_7144
+%mor:	pro:sub|I v|find&PAST pro:poss:det|my n|pencil coord|and
+	v|write&PAST prep|with pro|it .
+*INV:	tree@q . 7144_13417
+%mor:	meta|tree .
+*PAR:	trees are stately and beautiful . 13417_17555
+%mor:	n|tree-PL cop|be&PRES adj|state&dn-LY coord|and adj|beautiful .
+*INV:	okay ‡ now then . 17555_21495
+%mor:	co|okay beg|beg adv|now adv:tem|then .
+*INV:	I'm gonna to give you two words . 21495_23020
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	and I want you to use both words in one brief simple sentence . 23020_27036
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL
+	prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	you don't +/. 27036_27426
+%mor:	pro|you mod|do~neg|not +/.
+*PAR:	both words in one sentence . [+ exc] 27426_28471
+%mor:	qn|both n|word-PL prep|in det:num|one n|sentence .
+*INV:	+< yeah ‡ mhm . 27595_28857
+%mor:	co|yeah beg|beg co|yes .
+*INV:	you don't need to worry about the order . 28857_30429
+%mor:	pro|you mod|do~neg|not v|need inf|to v|worry prep|about det|the
+	n|order .
+*INV:	chair@q . 30818_32639
+%mor:	meta|chair .
+*INV:	I'm sorry hold on a minute now . 32639_34413
+%mor:	pro:sub|I~cop|be&1S adj|sorry n|hold prep|on det|a n|minute adv|now
+	.
+*INV:	child@q hospital@q . 34413_37154
+%mor:	meta|child meta|hospital .
+*PAR:	the child became ill <and went to the hospital> [//] and was taken
+	to the hospital . 37154_44436
+%mor:	det|the n|child cop|become&PAST adj|ill coord|and aux|be&PAST&13S
+	part|take&PASTP prep|to det|the n|hospital .
+*INV:	cold@q winter@q . 44436_56139
+%mor:	meta|cold meta|winter .
+*PAR:	the winters are always cold in Alaska . 56139_62723
+%mor:	det|the n|winter-PL cop|be&PRES adv|always adv|cold prep|in
+	n:prop|Alaska .
+*INV:	now ‡ I'm going to give you three words . 62723_72310
+%mor:	adv|now beg|beg pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give
+	pro|you det:num|three n|word-PL .
+*INV:	I want you to use all three words in one brief simple sentence . 72310_76871
+%mor:	pro:sub|I v|want pro|you inf|to v|use adv|all det:num|three
+	n|word-PL prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	and you don't need to worry about the order . 76871_79158
+%mor:	coord|and pro|you mod|do~neg|not v|need inf|to v|worry prep|about
+	det|the n|order .
+*INV:	chair@q doctor@q sit@q . 79065_83873
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor put the sick man on the chair . 83873_93724
+%mor:	det|the n|doctor v|put&ZERO det|the adj|sick n|man prep|on det|the
+	n|chair .
+*INV:	bureau@q open@q drawer@q . 93724_108836
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	the drawers of the bureau were open . 108836_113116
+%mor:	det|the n|drawer-PL prep|of det|the n|bureau cop|be&PAST adj|open .
+*INV:	okay . 113116_121879
+%mor:	co|okay .
+@End

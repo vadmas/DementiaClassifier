@@ -1,0 +1,48 @@
+@UTF8
+@PID:	11312/t-00002200-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|female|Control||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	022-0c, audio
+*INV:	okay and you can begin right there . 0_3160
+%mor:	co|okay coord|and pro|you mod|can v|begin adv|right adv|there .
+*PAR:	well the little boy's on a step+stool trying to reach the cookie jar and he's falling . 3160_12650
+%mor:	co|well det|the adj|little n|boy~poss|s prep|on det|a
+	n|+n|step+n|stool part|try-PRESP inf|to v|reach det|the n|cookie
+	n|jar coord|and pro:sub|he~aux|be&3S part|fall-PRESP .
+*PAR:	and the girl is reachin(g) for a cookie he has in his hand . 12650_17402
+%mor:	conj|and det|the n|girl aux|be&3S part|reach-PRESP prep|for det|a
+	n|cookie pro:sub|he aux|have&3S prep|in pro:poss:det|his n|hand .
+*PAR:	the mama's washin(g) dishes and the sink's running over and she's drying a plate . 17402_24233
+%mor:	det|the n|mama~aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	det|the n|sink~aux|be&3S part|run-PRESP adv|over coord|and
+	pro:sub|she~aux|be&3S part|dry-PRESP det|a n|plate .
+*PAR:	and the sink is runnin(g) over down on the floor . 24233_27472
+%mor:	conj|and det|the n|sink aux|be&3S part|run-PRESP adv|over adv|down
+	prep|on det|the n|floor .
+*PAR:	the window is up . 27472_29402
+%mor:	det|the n|window cop|be&3S adv|up .
+*PAR:	and is that &a all ? [+ exc] 29402_34900
+%mor:	conj|and cop|be&3S adv|that adv|all ?
+*PAR:	you want something else ? [+ exc] 34900_36150
+%mor:	pro|you v|want pro:indef|something post|else ?
+*INV:	+< anything else ? 35400_36290
+%mor:	pro:indef|anything post|else ?
+*INV:	is there anything else ? 36290_37400
+%mor:	cop|be&3S adv|there pro:indef|anything post|else ?
+*PAR:	oh well there's a plate and two cups on the counter . 37400_43932
+%mor:	co|oh co|well pro:exist|there~cop|be&3S det|a n|plate coord|and
+	det:num|two n|cup-PL prep|on det|the n|counter .
+*PAR:	(.) <is that> [/] is that enough ? [+ exc] 43932_51700
+%mor:	cop|be&3S pro:dem|that adv|enough ?
+*INV:	+< that's fine sure . 51600_52935
+%mor:	pro:dem|that~cop|be&3S adj|fine adj|sure .
+*PAR:	+< I mean is that +..? [+ exc] 51601_52326
+%mor:	pro:sub|I v|mean cop|be&3S pro:dem|that +..?
+*INV:	that's good . 52935_54000
+%mor:	pro:dem|that~cop|be&3S adj|good .
+*PAR:	+< I [/] I don't see anything +/. [+ exc] 53700_54648
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything +/.
+@End

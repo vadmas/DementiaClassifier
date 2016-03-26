@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/t-00002633-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|60;|male|PossibleAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	354-0c, audio
+*INV:	in the picture . 0_1431
+%mor:	prep|in det|the n|picture .
+*INV:	xxx . 1431_5500
+*PAR:	&=laughs ready ? [+ exc] 5500_7637
+%mor:	adj|ready ?
+*INV:	mhm . 7637_8253
+%mor:	co|yes .
+*PAR:	children are &c <stealin(g) the cookie jar> [//] stealing cookies out of the [/] the cookie jar . 8253_14305
+%mor:	n|child&PL aux|be&PRES part|steal-PRESP n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar .
+*PAR:	and they stepped on a stepping [: step] [* f:p] stool and it's [/] &i it's falling over . 14305_20018
+%mor:	conj|and pro:sub|they v|step-PAST prep|on det|a n|step n|stool
+	coord|and pro|it~aux|be&3S part|fall-PRESP adv|over .
+*PAR:	&uh mother [: sister] [* s:r-ret] &uh sister is askin(g) brother for some of the cookies that he's gettin(g) from the cookie jar . 20018_28590
+%mor:	n|sister n|sister aux|be&3S part|ask-PRESP n|brother prep|for
+	qn|some prep|of det|the n|cookie-PL rel|that pro:sub|he~aux|be&3S
+	part|get-PRESP prep|from det|the n|cookie n|jar .
+*PAR:	mother's doing dishes . 28590_30412
+%mor:	n|mother~aux|be&3S part|do-PRESP n|dish-PL .
+*PAR:	the sink is clogged up . 30412_32529
+%mor:	det|the n|sink aux|be&3S part|clog-PASTP adv|up .
+*PAR:	the water is draining on the floor . 32529_35283
+%mor:	det|the n|water aux|be&3S part|drain-PRESP prep|on det|the n|floor
+	.
+*PAR:	she's a_little angry, looks a_little angry . 35283_39343
+%mor:	pro:sub|she~aux|be&3S adv|a_little adj|angry cm|cm v|look-3S
+	adv|a_little adj|angry .
+*PAR:	I don't see no husband or nobody . 39343_42022
+%mor:	pro:sub|I mod|do~neg|not v|see qn|no n|husband coord|or
+	pro:indef|nobody .
+*PAR:	&uh cookie jar, cabinets . [+ gram] 42022_45057
+%mor:	n|cookie n|jar cm|cm n|cabinet-PL .
+*PAR:	(..) mother can't be dressed any different . 45057_50318
+%mor:	n|mother mod|can~neg|not aux|be part|dress-PASTP qn|any
+	adj|different .
+*PAR:	kids . [+ gram]  50318_52300
+%mor:	n|kid-PL .
+*PAR:	that's what I can see . [+ exc] 52300_53501
+%mor:	pro:dem|that~cop|be&3S pro:wh|what pro:sub|I mod|can v|see .
+*INV:	okay that's fine . 53501_54923
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+*INV:	okay . 54923_56279
+%mor:	co|okay .
+@End

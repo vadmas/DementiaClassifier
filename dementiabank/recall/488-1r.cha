@@ -1,0 +1,44 @@
+@Font:	Arial:16:0
+@UTF8
+@PID:	11312/t-00016438-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	488-1r, audio
+@G:	Delayed
+*INV:	read you a short story .
+*INV:	can you remember anything about that story that I read you ?
+*INV:	right after I was done reading you the story you told me
+	everything you could remember about the story .
+*INV:	do you remember anything about that story now ?
+*PAR:	no .
+*INV:	okay .
+*INV:	lemme ask you some questions about that story .
+*INV:	maybe it will bring something back to mind .
+*INV:	who was the story about ?
+*INV:	do you have any guess ?
+*INV:	as to who the story was about ?
+*PAR:	no .
+*INV:	okay .
+*INV:	what time of year was it when Bill returned to the States ?
+*PAR:	one [/] &ye one year .
+*INV:	alright .
+*INV:	how long had Bill been away ?
+*PAR:	how long had Bill been away ?
+*PAR:	five years .
+*INV:	who was eagerly awaiting Bill's return ?
+*INV:	do you know who was waiting for Bill to return ?
+*PAR:	no .
+*INV:	okay .
+*INV:	Johnny could remember one weekend that he and Bill had spent
+	together .
+*INV:	do you remember what they did that weekend ?
+*PAR:	no .
+*INV:	and what time of year was it ?
+*PAR:	what time of year was it ?
+*PAR:	winter .
+*INV:	okay .
+*INV:	great .
+@End

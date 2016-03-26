@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/t-00002262-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|50;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	113-3c, audio
+*INV:	okay and here's the picture . 0_3848
+%mor:	co|okay coord|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	little boy getting in the cookie jar .  [+ gram] 3848_10614
+%mor:	adj|little n|boy part|get-PRESP prep|in det|the n|cookie n|jar .
+*PAR:	and the little girl holding out her hand for some cookies . 10614_15555
+%mor:	conj|and det|the adj|little n|girl part|hold-PRESP prep|out
+	pro:poss:det|her n|hand prep|for qn|some n|cookie-PL .
+*PAR:	and a stool the boy is on is about to tip over .   15555_20127
+%mor:	conj|and det|a n|stool det|the n|boy cop|be&3S adv|on cop|be&3S
+	adv|about prep|to n|tip adv|over .
+*PAR:	and a lady is drying a dish . 20127_24051
+%mor:	conj|and det|a n|lady aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	and the water is running over overflowing from the sink . 24051_28702
+%mor:	conj|and det|the n|water aux|be&3S part|run-PRESP adv|over
+	over#part|flow-PRESP prep|from det|the n|sink .
+*PAR:	&uh you said just the action ? [+ exc] 28702_31808
+%mor:	pro|you v|say&PAST adv|just det|the n|action ?
+*INV:	mhm . 31808_32441
+%mor:	co|yes .
+*PAR:	+< the lady is stepping in the water on the floor . 32241_36605
+%mor:	det|the n|lady aux|be&3S part|step-PRESP prep|in det|the n|water
+	prep|on det|the n|floor .
+*PAR:	&hm I don't know what's goin(g) on outside the window . [+ exc] 36605_44310
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what~aux|be&3S part|go-PRESP
+	adv|on adj|outside det|the n|window .
+*INV:	okay ? 44310_47409
+%mor:	co|okay ?
+*INV:	that's fine thank you . 47409_50021
+%mor:	pro:dem|that~cop|be&3S adj|fine v|thank pro|you .
+@End

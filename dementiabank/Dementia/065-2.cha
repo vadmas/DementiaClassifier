@@ -1,0 +1,75 @@
+@UTF8
+@PID:	11312/t-00002480-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|MCI||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	065-2c, audio
+*INV:	anything going on in the picture . 0_1791
+%mor:	pro:indef|anything part|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	alright let's start over here . [+ exc] 1791_5108
+%mor:	co|alright v|let~pro:obj|us v|start prep|over pro:dem|here .
+*PAR:	the &l little boy is [/] &uh is standing on a stool which is about to fall over . 5108_15533
+%mor:	det|the adj|little n|boy aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool rel|which cop|be&3S adv|about inf|to v|fall adv|over .
+*PAR:	and he [/] &ha he is getting a cookie out of the cookie &uh jar . 15533_22085
+%mor:	conj|and pro:sub|he aux|be&3S part|get-PRESP det|a n|cookie adv|out
+	prep|of det|the n|cookie n|jar .
+*PAR:	and his little sister comes +//. 22085_24295
+%mor:	conj|and pro:poss:det|his adj|little n|sister v|come-3S +//.
+*PAR:	<that had> [//] &uh the lid's off . 24295_25836
+%mor:	det|the n|lid~aux|be&3S adv|off .
+*PAR:	and he has a cookie in his hand [/] hand . 25836_28246
+%mor:	conj|and pro:sub|he v|have&3S det|a n|cookie prep|in
+	pro:poss:det|his n|hand .
+*PAR:	and he [//] <and the little> [//] his little sister is down here . 28246_32269
+%mor:	conj|and pro:poss:det|his adj|little n|sister cop|be&3S adv|down
+	adv|here .
+*PAR:	<and she> [/] &wa and she has &uh her hand up to take the &t a cookie out of the little boy's hand .32269_42111
+%mor:	conj|and pro:sub|she v|have&3S pro:poss:det|her n|hand adv|up
+	inf|to v|take det|the det|a n|cookie adv|out prep|of det|the
+	adj|little n|boy~poss|s n|hand .
+*PAR:	he's giving it to her .42111_43548
+%mor:	pro:sub|he~aux|be&3S part|give-PRESP pro|it prep|to pro:obj|her .
+*PAR:	and her mother is standing at the sink &w &uh wiping a dish with a tea towel . 43548_50816
+%mor:	conj|and pro:poss:det|her n|mother aux|be&3S part|stand-PRESP
+	prep|at det|the n|sink part|wipe-PRESP det|a n|dish prep|with det|a
+	n|tea n|towel .
+*PAR:	and <on the [/] &h the [x 3]> [//] there's [//] then there's a sink that has &uh &uh faucets . 50816_63053
+%mor:	conj|and adv:tem|then pro:exist|there~cop|be&3S det|a n|sink
+	rel|that v|have&3S n|faucet-PL .
+*PAR:	<and the> [/] &wa and the water is on . 63053_65247
+%mor:	conj|and det|the n|water cop|be&3S adv|on .
+*PAR:	<and she has> [//] <and she> [//] <it is> [//] and [/] &sh and she's is spilling over onto the floor . [+ gram] 65247_71082
+%mor:	conj|and pro:sub|she~aux|be&3S aux|be&3S part|spill-PRESP adv|over
+	prep|onto det|the n|floor .
+*PAR:	and on the &uh sink also there are two cups and a plate . 71082_77550
+%mor:	conj|and prep|on det|the n|sink adv|also adv|there cop|be&PRES
+	det:num|two n|cup-PL coord|and det|a n|plate .
+*PAR:	and bənʌf@u [: above] [* n:k-ret] [//] (a)bove the sink is a window . 77550_81024
+%mor:	conj|and prep|above det|the n|sink cop|be&3S det|a n|window .
+*PAR:	and you look out and you see &uh another [//] &d &uh the garage and [/] &uh &th and a <road in> [//] &uh &d &d drive into which has &t bushes on [/] &s on the side . [+ gram] 81024_93397
+%mor:	conj|and pro|you v|look adv|out coord|and pro|you v|see det|the
+	n|garage coord|and det|a n|drive prep|into pro:wh|which aux|have&3S
+	n|bush-PL prep|on det|the n|side .
+*PAR:	and in [/] <in the> [//] &um <on the> [//] &kol in the garage there's also a window . 93397_99432
+%mor:	conj|and prep|in det|the n|garage pro:exist|there~cop|be&3S
+	adv|also det|a n|window .
+*PAR:	<and up> [//] and then up the curtains . [+ gram] 99432_103539
+%mor:	conj|and adv:tem|then adv|up det|the n|curtain-PL .
+*PAR:	and you can see the top of the garage out the window .103539_107933
+%mor:	conj|and pro|you mod|can v|see det|the n|top prep|of det|the
+	n|garage prep|out det|the n|window .
+*PAR:	<and the curtains> [//] and her kɜ˞kɪt@u [: curtains] [* n:k-ret] curtains on her window . [+ gram] 107933_111497
+%mor:	conj|and pro:poss:det|her n|curtain-PL n|curtain-PL prep|on
+	pro:poss:det|her n|window .
+*PAR:	and the [/] &s the cupboards are underneath the [/] the sink . 111497_116495
+%mor:	conj|and det|the n|cupboard-PL cop|be&PRES prep|underneath det|the
+	n|sink .
+*PAR:	and &uh it's a good job there if you ask . 116495_120074
+%mor:	conj|and pro|it~cop|be&3S det|a adj|good n|job adv|there conj|if
+	pro|you v|ask .
+*INV:	okay good .120074_121722
+%mor:	co|okay adj|good .
+@End

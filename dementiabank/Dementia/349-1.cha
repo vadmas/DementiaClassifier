@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002630-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	349-1c, audio
+*INV:	in the picture . 0_966
+%mor:	prep|in det|the n|picture .
+*PAR:	well the kids are gettin(g) to the cookie jar . 966_8050
+%mor:	co|well det|the n|kid-PL aux|be&PRES part|get-PRESP prep|to det|the
+	n|cookie n|jar .
+*PAR:	the boy . [+ gram] 8050_9775
+%mor:	det|the n|boy .
+*PAR:	and he's givin(g) cookies to his sister . 9775_13323
+%mor:	conj|and pro:sub|he~aux|be&3S part|give-PRESP n|cookie-PL prep|to
+	pro:poss:det|his n|sister .
+*PAR:	and his kitchen stool is fallin(g) over . 13323_17418
+%mor:	conj|and pro:poss:det|his n|kitchen n|stool aux|be&3S
+	part|fall-PRESP adv|over .
+*PAR:	him on it . [+ gram] 17418_18755
+%mor:	pro:obj|him prep|on pro|it .
+*PAR:	the mother's dryin(g) dishes . 18755_22100
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and &d drops ? 22100_24100
+%mor:	coord|and n|drop-PL ?
+*PAR:	<it's no> [//] it's &uh water . 24100_25541
+%mor:	pro|it~cop|be&3S n|water .
+*PAR:	water's splashin(g) out over the sink . 25541_29837
+%mor:	n|water~aux|be&3S part|splash-PRESP adv|out prep|over det|the
+	n|sink .
+*PAR:	you want that ? [+ exc] 29837_33416
+%mor:	pro|you v|want pro:dem|that ?
+*INV:	that's okay . 33416_33963
+%mor:	pro:dem|that~cop|be&3S adj|okay .
+*INV:	they'll take a message . 33963_35842
+%mor:	pro:sub|they~mod|will v|take det|a n|message .
+*INV:	can you think of anything else that's going on in the picture  ? 35842_41403
+%mor:	mod|can pro|you v|think prep|of pro:indef|anything post|else
+	rel|that~aux|be&3S part|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	that's water splashin(g) on the floor . 41403_43173
+%mor:	pro:dem|that~cop|be&3S n|water part|splash-PRESP prep|on det|the
+	n|floor .
+*PAR:	and &uh the sister's laughin(g), gettin(g) cookies . 43173_51402
+%mor:	conj|and det|the n|sister~aux|be&3S part|laugh-PRESP cm|cm
+	part|get-PRESP n|cookie-PL .
+*PAR:	mother's dryin(g) dishes . 51402_54495
+%mor:	n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and I [/] I don't know  . [+ exc] 54495_55500
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know .
+*PAR:	the (.) spigot's open . 55500_59488
+%mor:	det|the n|spigot~aux|be&3S adv|open .
+*PAR:	the water's runnin(g) out on the floor . 59488_61149
+%mor:	det|the n|water~aux|be&3S part|run-PRESP adv|out prep|on det|the
+	n|floor .
+*PAR:	that's about all . [+ exc] 61149_64433
+%mor:	pro:dem|that~cop|be&3S adv|about adv|all .
+*INV:	okay that's fine . 64433_65445
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,100 @@
+@Font:	CAfont:13:0
+@UTF8
+@PID:	11312/t-00016618-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	264-0s, audio, missing
+*INV:	okay . 0_1884
+%mor:	co|okay .
+*INV:	use the word pencil@q in a brief simple sentence . 1884_6895
+%mor:	v|use det|the n|word meta|pencil prep|in det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	use the word +... [+ exc] 6895_11424
+%mor:	v|use det|the n|word +...
+*INV:	<give me a word using> [//] give me a sentence using the word
+	pencil@q . 11424_15564
+%mor:	v|give pro:obj|me det|a n|sentence part|use-PRESP det|the n|word
+	meta|pencil .
+*PAR:	&uh (...) &um &er (..) you have my pencil . 15564_32155
+%mor:	pro|you v|have pro:poss:det|my n|pencil .
+*INV:	okay  . 32155_32978
+%mor:	co|okay .
+*INV:	tree@q . 32978_35034
+%mor:	meta|tree .
+*INV:	give me a sentence using the word tree ? 35034_41772
+%mor:	v|give pro:obj|me det|a n|sentence part|use-PRESP det|the n|word
+	n|tree ?
+*PAR:	the tree is blooming . 41772_46785
+%mor:	det|the n|tree aux|be&3S part|bloom-PRESP .
+*PAR:	is blossoming, I should have said . [+ exc] 46785_54285
+%mor:	aux|be&3S part|blossom-PRESP cm|cm pro:sub|I mod|should aux|have
+	part|say&PASTP .
+*INV:	okay ‡ now I'm going to give you two words . 54285_58051
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	and I want you to put them both in a brief simple sentence . 58051_60868
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|put&ZERO pro:obj|them
+	qn|both prep|in det|a adj|brief adj|simple n|sentence .
+*INV:	child@q and hospital@q . 60868_64122
+%mor:	meta|child coord|and meta|hospital .
+*INV:	child@q and hospital@q . 64122_68417
+%mor:	meta|child coord|and meta|hospital .
+*INV:	use those two words in a brief simple sentence . 68417_72556
+%mor:	v|use det|those det:num|two n|word-PL prep|in det|a adj|brief
+	adj|simple n|sentence .
+*PAR:	(.) my child is in the hospital . 72556_81552
+%mor:	pro:poss:det|my n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	okay . 81552_82580
+%mor:	co|okay .
+*INV:	cold@q and winter@q . 82783_91358
+%mor:	meta|cold coord|and meta|winter .
+*PAR:	(..) &hm (.) autumn and spring . [+ exc] 91358_110563
+%mor:	n|autumn coord|and n|spring .
+*PAR:	(..) cold and windy . [+ exc] 110563_122361
+%mor:	adj|cold coord|and adj|wind&dn-Y .
+*INV:	okay ‡ what I want you to do is to use the words cold@q and winter@q
+	in a brief simple sentence . 122361_134718
+%mor:	co|okay beg|beg pro:wh|what pro:sub|I v|want pro|you inf|to v|do
+	cop|be&3S inf|to v|use det|the n|word-PL meta|cold coord|and
+	meta|winter prep|in det|a adj|brief adj|simple n|sentence .
+*PAR:	cold@q and winter@q . [+ exc] 134718_136741
+%mor:	meta|cold coord|and meta|winter .
+*INV:	+< I want you to use those two words in a sentence . 136041_139557
+%mor:	pro:sub|I v|want pro|you inf|to v|use det|those det:num|two
+	n|word-PL prep|in det|a n|sentence .
+*PAR:	this winter is cold . 139557_143699
+%mor:	det|this n|winter aux|be&3S adv|cold .
+*INV:	okay . 143699_145708
+%mor:	co|okay .
+*INV:	alright . 145708_154252
+%mor:	co|alright .
+*PAR:	+< this is a cold winter, I guess I could have said . [+ exc] 153552_156836
+%mor:	pro:dem|this cop|be&3S det|a adj|cold n|winter cm|cm pro:sub|I
+	v|guess pro:sub|I mod|could aux|have part|say&PASTP .
+*INV:	okay ‡ now I'm going to give you three words . 156836_158983
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	and I'd like you to use all three in the same sentence „ okay ? 158983_162641
+%mor:	coord|and pro:sub|I~mod|genmod v|like pro|you prep|to n|use adv|all
+	det:num|three prep|in det|the adj|same n|sentence end|end co|okay ?
+*INV:	chair@q doctor@q and sit@q . 162641_168228
+%mor:	meta|chair meta|doctor coord|and meta|sit .
+*PAR:	sit down on the chair doctor . 168228_174157
+%mor:	v|sit adv|down prep|on det|the n|chair n|doctor .
+*INV:	okay . 174157_182748
+%mor:	co|okay .
+*INV:	bureau@q open@q and drawer@q . 182748_186389
+%mor:	meta|bureau meta|open coord|and meta|drawer .
+*PAR:	dresser . [+ exc] 186389_190484
+%mor:	n|dresser .
+*INV:	okay ‡ I want you to use bureau@q open@q and drawer@q in a brief
+	simple sentence . 190484_199743
+%mor:	co|okay beg|beg pro:sub|I v|want pro|you prep|to n|use meta|bureau
+	meta|open coord|and meta|drawer prep|in det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	the bureau drawer (.) is open . 199743_209081
+%mor:	det|the n|bureau n|drawer cop|be&3S adj|open .
+@End

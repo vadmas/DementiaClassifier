@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/t-00002731-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|female|PossibleAD||Participant|21||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	707-0c, audio
+*INV:	I'd like for you to take a look at this picture . 0_3535
+%mor:	pro:sub|I~mod|genmod co|like prep|for pro|you inf|to v|take det|a
+	n|look prep|at det|this n|picture .
+*INV:	take a look at that picture and tell me everything you see going on there . 3535_7552
+%mor:	v|take det|a n|look prep|at det|that n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything pro|you v|see n:gerund|go-PRESP
+	prep|on pro:dem|there .
+*PAR:	hm . [+ exc] 7552_8185
+%mor:	co|hm .
+*INV:	everything that's happening . 8185_9400
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP .
+*PAR:	the little boy is on the stool which is tipping and he wants cookies to give to his sister . 9400_14000
+%mor:	det|the adj|little n|boy aux|be&3S prep|on det|the n|stool
+	rel|which cop|be&3S part|tip-PRESP coord|and pro:sub|he v|want-3S
+	n|cookie-PL inf|to v|give prep|to pro:poss:det|his n|sister .
+*PAR:	he has a handful of cookies in one hand already and the little girl is eating a cookie . 14000_18647
+%mor:	pro:sub|he v|have&3S det|a n|hand-FUL prep|of n|cookie-PL prep|in
+	det:num|one n|hand adv|already coord|and det|the adj|little n|girl
+	aux|be&3S part|eat-PRESP det|a n|cookie .
+*PAR:	the mother is washin(g) dishes absentmindedly .  18647_22123
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL
+	adv|+adj|absent+adj|minded&dadj-LY .
+*PAR:	she let the sink run over and it's all on the floor . 22123_24873
+%mor:	pro:sub|she v|let&ZERO det|the n|sink v|run adv|over coord|and
+	pro|it~cop|be&3S adv|all prep|on det|the n|floor .
+*PAR:	there's a window with [//]  you can see their driveway . [+ gram] 24873_28500
+%mor:	pro:exist|there~cop|be&3S det|a n|window pro|you mod|can v|see
+	pro:poss:det|their n|driveway .
+*PAR:	either bushes or trees and grass a big window . [+ gram] 28500_35410
+%mor:	qn|either n|bush-PL coord|or n|tree-PL coord|and v|grass det|a
+	adj|big n|window .
+*PAR:	and a tree comin(g) up here . [+ gram] 35410_40800
+%mor:	conj|and det|a n|tree part|come-PRESP prep|up pro:dem|here .
+*PAR:	and the [//] &roo part of the roof . [+ gram] 40800_42659
+%mor:	conj|and n|part prep|of det|the n|roof .
+*INV:	okay . 42659_43798
+%mor:	co|okay .
+*PAR:	and the cookie says cookie jar . 43798_45366
+%mor:	conj|and det|the n|cookie v|say-3S n|cookie n|jar .
+*INV:	okay thanks . 45366_46379
+%mor:	co|okay co|thanks .
+@End

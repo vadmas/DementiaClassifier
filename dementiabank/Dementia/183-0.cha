@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002537-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	183-0c, audio
+*INV:	and here's the picture . 0_1582
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	tell me all of the action . 1582_3211
+%mor:	v|tell pro:obj|me adv|all prep|of det|the n|action .
+*PAR:	the boy's gettin(g) a dint@u [: x@n] [* n:uk] . [+ jar] 3211_7517
+%mor:	det|the n|boy~aux|be&3S part|get-PRESP det|a neo|x .
+*PAR:	the girl's lookin(g) to grab it . 7517_10835
+%mor:	det|the n|girl~aux|be&3S part|look-PRESP inf|to v|grab pro|it .
+*PAR:	the lady's drying dishes . 10835_14101
+%mor:	det|the n|lady~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	the water is spɪlɪs@u [: spilling] [* p:n] . 14101_16326
+%mor:	det|the n|water aux|be&3S part|spill-PRESP .
+*PAR:	the stool is fallin(g) over and down . 16326_22819
+%mor:	det|the n|stool aux|be&3S part|fall-PRESP adv|over coord|and
+	adv|down .
+*PAR:	(.) that's about all . [+ exc] 22819_31159
+%mor:	pro:dem|that~cop|be&3S adv|about adv|all .
+*INV:	nothin(g) else goin(g) on in the picture ? 31159_33104
+%mor:	pro:indef|nothing post|else part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	(.) that's all . [+ exc] 33104_44204
+%mor:	pro:dem|that~cop|be&3S pro:indef|all .
+*INV:	okay good . 44204_45417
+%mor:	co|okay adj|good .
+@End

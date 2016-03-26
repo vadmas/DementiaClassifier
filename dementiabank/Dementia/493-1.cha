@@ -1,0 +1,66 @@
+@UTF8
+@PID:	11312/t-00002666-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	493-1c, audio
+*INV:	I'd like for you to take a look at that picture . 0_3098
+%mor:	pro:sub|I~mod|genmod co|like prep|for pro|you inf|to v|take det|a
+	n|look prep|at det|that n|picture .
+*INV:	I want you to tell me everything that's going on in that picture . 3098_6755
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on prep|in
+	det|that n|picture .
+*INV:	everything that's happening in that picture . 6755_8996
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP prep|in
+	det|that n|picture .
+*PAR:	well I know she's got a wreath or something there to put up maybe on a window . 8996_13900
+%mor:	co|well pro:sub|I v|know pro:sub|she~aux|be&3S part|get&PASTP det|a
+	n|wreath coord|or pro:indef|something adv|there inf|to v|put&ZERO
+	adv|up adv|maybe prep|on det|a n|window .
+*PAR:	I don't know . [+ exc] 13900_14942
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	and there's some [//] &uh <two saucers or> [//] two dishes . 14942_20203
+%mor:	conj|and pro:exist|there~cop|be&3S det:num|two n|dish-PL .
+*PAR:	and I don't know what that is . [+ exc] 20203_21949
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know adv|what adv|that
+	cop|be&3S .
+*PAR:	it could be &uh to throw them things around . [+ exc] 21949_26155
+%mor:	pro|it mod|could cop|be inf|to v|throw pro:obj|them n|thing-PL
+	adv|around .
+*PAR:	I don't know . [+ exc] 26155_27253
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	and over here is your spigot (.) as was your water . 27253_32473
+%mor:	conj|and adv|over adv|here cop|be&3S pro:poss:det|your n|spigot
+	conj|as cop|be&PAST&13S pro:poss:det|your n|water .
+*PAR:	it must have run over . 32473_33688
+%mor:	pro|it mod|must v|have n|run adv|over .
+*PAR:	I don't know . [+ exc] 33688_35035
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	and there's a cookie jar . 35035_37777
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|cookie n|jar .
+*PAR:	the &uh little boy's the gettin(g) a cookie jar . 37777_39656
+%mor:	det|the adj|little n|boy~poss|s det|the part|get-PRESP det|a
+	n|cookie n|jar .
+*PAR:	one for his sister . [+ gram] 39656_40888
+%mor:	pro:indef|one prep|for pro:poss:det|his n|sister .
+*PAR:	and he's almost upset here . 40888_43191
+%mor:	conj|and pro:sub|he~aux|be&3S adv|almost adj|upset adv|here .
+*PAR:	so I don't know what to tell you . [+ exc] 43191_46583
+%mor:	co|so pro:sub|I mod|do~neg|not v|know pro:wh|what inf|to v|tell
+	pro|you .
+*PAR:	she's got a short apron on and a dress underneath it I think . 46583_52807
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP det|a adj|short n|apron adv|on
+	coord|and det|a n|dress prep|underneath pro|it pro:sub|I v|think .
+*PAR:	the water's flowin(g) over . 52807_56961
+%mor:	det|the n|water~aux|be&3S part|flow-PRESP adv|over .
+*PAR:	there's two cups . 56961_61507
+%mor:	pro:exist|there~cop|be&3S det:num|two n|cup-PL .
+*PAR:	and that is [//] must be one of those they throw around . [+ es] 61507_65100
+%mor:	conj|and pro:dem|that mod|must cop|be pro:indef|one prep|of
+	pro:dem|those pro:sub|they v|throw adv|around .
+*INV:	okay thanks . 65100_66318
+%mor:	co|okay co|thanks .
+@End

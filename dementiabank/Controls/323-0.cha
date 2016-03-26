@@ -1,0 +1,66 @@
+@UTF8
+@PID:	11312/t-00002404-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|57;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	323-0c, audio
+*INV:	good and there's the picture . 0_2209
+%mor:	adj|good coord|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	(..) first of all the sink is overflowing . 2209_9606
+%mor:	adv|first prep|of qn|all det|the n|sink aux|be&3S
+	over#part|flow-PRESP .
+*PAR:	(.) mother is washing dishes or an adult is washing dishes . 9606_16671
+%mor:	n|mother aux|be&3S part|wash-PRESP n|dish-PL coord|or det|a n|adult
+	cop|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	there are two children in the cookie jar . 16671_19768
+%mor:	adv|there cop|be&PRES det:num|two n|child&PL prep|in det|the
+	n|cookie n|jar .
+*PAR:	one of (th)em is on a stool . 19768_21545
+%mor:	det:num|one prep|of pro:obj|them aux|be&3S prep|on det|a n|stool .
+*PAR:	and the stool's overturning . 21545_23629
+%mor:	conj|and det|the n|stool~aux|be&3S over#part|turn-PRESP .
+*PAR:	the little girl is reaching for a cookie from the little boy as the &s &s stool turn [//] falls over . 23629_32747
+%mor:	det|the adj|little n|girl aux|be&3S part|reach-PRESP prep|for det|a
+	n|cookie prep|from det|the adj|little n|boy prep|as det|the n|stool
+	v|fall-3S adv|over .
+*PAR:	there's a window . 32747_34504
+%mor:	pro:exist|there~cop|be&3S det|a n|window .
+*PAR:	a::nd the bushes and path outside the window . [+ gram] 34504_40225
+%mor:	conj|and det|the n|bush-PL coord|and n|path adj|outside det|the
+	n|window .
+*PAR:	and a glimpse of another window . [+ gram]  40225_42460
+%mor:	conj|and det|a n|glimpse prep|of qn|another n|window .
+*PAR:	and another part of the house . [+ gram]  42460_45515
+%mor:	conj|and qn|another n|part prep|of det|the n|house .
+*PAR:	there are curtains with tie backs . 45515_47394
+%mor:	adv|there cop|be&PRES n|curtain-PL prep|with n|tie n|back-PL .
+*PAR:	there are dishes . 47394_48468
+%mor:	adv|there cop|be&PRES n|dish-PL .
+*PAR:	(.) <there is dish towels> [//] (.) there are dish towels . 48468_54163
+%mor:	adv|there cop|be&PRES n|dish n|towel-PL .
+*PAR:	&um (.) well maybe there are [* m:a] only one . [+ gram] 54163_60348
+%mor:	adv|well adv|maybe adv|there cop|be&PRES adv|only pro:indef|one .
+*PAR:	there's at least only one dish towel . 60348_62009
+%mor:	pro:exist|there~aux|be&3S prep|at n|least adv|only det:num|one
+	n|dish n|towel .
+*PAR:	<I thought I> [//] &s I looked at one dish towel . [+ exc]  62009_64165
+%mor:	pro:sub|I v|look-PAST prep|at det:num|one n|dish n|towel .
+*PAR:	two cups a plate cabinets .  [+ gram] 64165_68652
+%mor:	det:num|two n|cup-PL det|a n|plate n|cabinet-PL .
+*PAR:	(.) apron . [+ gram]  68652_72666
+%mor:	n|apron .
+*PAR:	(..) glass and trees . [+ gram]  72666_79849
+%mor:	n|glass coord|and n|tree-PL .
+*PAR:	I don't think I can xxx +... [+ exc] 79849_81102
+%mor:	pro:sub|I mod|do~neg|not v|think pro:sub|I mod|can +...
+*PAR:	floor .  [+ gram] 81102_83403
+%mor:	n|floor .
+*PAR:	(.) counter space .  [+ gram] 83403_87451
+%mor:	n|counter n|space .
+*INV:	(...) okay good . 87451_97724
+%mor:	co|okay adj|good .
+*PAR:	+< did I xxx +... [+ exc] 97424_98220
+%mor:	v|do&PAST pro:sub|I +...
+@End

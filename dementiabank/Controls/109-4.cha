@@ -1,0 +1,56 @@
+@UTF8
+@PID:	11312/t-00002258-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	109-4c, audio
+*PAR:	&um the boy is taking &uh cookies . 0_4516
+%mor:	det|the n|boy aux|be&3S part|take-PRESP n|cookie-PL .
+*PAR:	&uh the girl is [/] is saying +"/.  4516_8716
+%mor:	det|the n|girl aux|be&3S part|say-PRESP +"/.
+*PAR:	+" quiet . 8716_9571
+%mor:	adj|quiet .
+*PAR:	he's [/] he's [//] the boy is falling off the stool . 9571_12635
+%mor:	det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the n|stool .
+*PAR:	&uh the mother is drying dishes . 12635_15814
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	the water is running over the sink . 15814_18834
+%mor:	det|the n|water aux|be&3S part|run-PRESP prep|over det|the n|sink .
+*PAR:	&um the curtains are blowing in the breeze . 18834_23285
+%mor:	det|the n|curtain-PL aux|be&PRES part|blow-PRESP prep|in det|the
+	n|breeze .
+*PAR:	&um &hm [x 3] . [+ exc] 23285_26274
+*PAR:	the girl is puttin(g) her hand up to have him pass the cookies . 26274_30243
+%mor:	det|the n|girl aux|be&3S part|put-PRESP pro:poss:det|her n|hand
+	adv|up inf|to v|have pro:obj|him v|pass det|the n|cookie-PL .
+*PAR:	&um she's dryin(g) the dishes . 30243_33500
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	the water's runnin(g) over . 33500_35348
+%mor:	det|the n|water~aux|be&3S part|run-PRESP adv|over .
+*PAR:	(i)t's splashing on the floor . 35348_38771
+%mor:	pro|it~aux|be&3S part|splash-PRESP prep|on det|the n|floor .
+*PAR:	(.) well the window's open but that's not action . 38771_47676
+%mor:	co|well det|the n|window~aux|be&3S adv|open conj|but
+	pro:dem|that~cop|be&3S neg|not n|action .
+*PAR:	that's the curtain blowing right ? [+ exc] 47676_49323
+%mor:	pro:dem|that~cop|be&3S det|the n|curtain part|blow-PRESP adv|right
+	?
+*INV:	okay . 49323_50259
+%mor:	co|okay .
+*PAR:	I guess that's it . [+ exc] 50259_51674
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S pro|it .
+*PAR:	he's passin(g) her the cookies . 51674_53428
+%mor:	pro:sub|he~aux|be&3S part|pass-PRESP pro:obj|her det|the
+	n|cookie-PL .
+*PAR:	did I say that ? [+ exc] 53428_54353
+%mor:	mod|do&PAST pro:sub|I v|say rel|that ?
+*INV:	okay . 54353_56314
+%mor:	co|okay .
+*PAR:	and he's taking them out o(f) the jar . 56314_59487
+%mor:	conj|and pro:sub|he~aux|be&3S part|take-PRESP pro:obj|them adv|out
+	prep|of det|the n|jar .
+*INV:	good . 59487_60922
+%mor:	adj|good .
+@End

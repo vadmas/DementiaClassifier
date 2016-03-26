@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/t-00002389-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	296-0c, audio
+*INV:	I want you to tell me all of the action you see going on in the picture . 0_4094
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me adv|all prep|of
+	det|the n|action pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|the n|picture .
+*PAR:	you have two children and the boy is on a stool getting to the cookie jar . 4094_15020
+%mor:	pro|you v|have det:num|two n|child&PL coord|and det|the n|boy
+	cop|be&3S prep|on det|a n|stool part|get-PRESP prep|to det|the
+	n|cookie n|jar .
+*PAR:	and the stool is tilting over and he's probably going to fall . 15020_18584
+%mor:	conj|and det|the n|stool aux|be&3S part|tilt-PRESP adv|over
+	coord|and pro:sub|he~aux|be&3S adv|probable&dadj-LY part|go-PRESP
+	inf|to v|fall .
+*PAR:	his mother in the meantime is wiping dishes, looking out what is obviously the kitchen window . 18584_28995
+%mor:	pro:poss:det|his n|mother prep|in det|the n|meantime cop|be&3S
+	part|wipe-PRESP n|dish-PL cm|cm part|look-PRESP adv|out pro:wh|what
+	aux|be&3S adv|obvious&dadj-LY det|the n|kitchen n|window .
+*PAR:	she has the water on in the sink and the sink is overflowing . 28995_32951
+%mor:	pro:sub|she v|have&3S det|the n|water adv|on prep|in det|the n|sink
+	coord|and det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	&uh there are two cups and one plate sitting on the sink . 32951_38897
+%mor:	adv|there cop|be&PRES det:num|two n|cup-PL coord|and det:num|one
+	n|plate part|sit-PRESP prep|on det|the n|sink .
+*PAR:	(.) the little girl is laughing at the little boy who's getting into the cookie jar and is going to fall . 38897_51582
+%mor:	det|the adj|little n|girl aux|be&3S part|laugh-PRESP prep|at
+	det|the adj|little n|boy rel|who~aux|be&3S part|get-PRESP prep|into
+	det|the n|cookie n|jar coord|and aux|be&3S part|go-PRESP prep|to
+	n|fall .
+*INV:	(..) okay good . 51582_64576
+%mor:	co|okay adj|good .
+@End

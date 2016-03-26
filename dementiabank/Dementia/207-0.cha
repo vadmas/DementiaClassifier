@@ -1,0 +1,275 @@
+@UTF8
+@PID:	11312/t-00002550-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|61;|male|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	207-0c, audio
+*INV:	this picture . 0_1290
+%mor:	det|this n|picture .
+*PAR:	yes . [+ exc] 1290_2632
+%mor:	co|yes .
+*INV:	+< and tell me everything that you see going on in that picture . 1432_5167
+%mor:	coord|and v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*INV:	what's happening there ? 5167_6677
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP adv|there ?
+*PAR:	the water ? [+ exc] 6677_12485
+%mor:	det|the n|water ?
+*INV:	uhhuh . 12485_13261
+%mor:	co|uhhuh .
+*INV:	what about it ? 13261_14192
+%mor:	pro:wh|what adv|about pro|it ?
+*PAR:	well let's see . [+ exc] 14192_16964
+%mor:	co|well v|let~pro:obj|us v|see .
+*PAR:	there's something has to be where the water goes down over . [+ gram] 16964_22004
+%mor:	pro:exist|there~cop|be&3S pro:indef|something v|have&3S inf|to
+	cop|be rel|where det|the n|water v|go-3S adv|down prep|over .
+*PAR:	&uh there's probably something that's &uh +... 22004_25300
+%mor:	pro:exist|there~cop|be&3S adv|probable&dadj-LY pro:indef|something
+	rel|that~aux|be&3S +...
+*PAR:	or they don't have it open or [/] or something might ha(ve) +//. 25300_29007
+%mor:	conj|or pro:sub|they mod|do~neg|not v|have pro|it adj|open coord|or
+	pro:indef|something mod|might v|have +//.
+*PAR:	I dunno [: don't know] . [+ exc] 29007_29539
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	what &uh +..? [+ exc] 29539_30600
+%mor:	pro:wh|what +..?
+*PAR:	when the water goes down &=finger:tap what [/] what do you call that ? [+ exc] 30600_33244
+%mor:	conj|when det|the n|water v|go-3S adv|down pro:wh|what mod|do
+	pro|you v|call pro:dem|that ?
+*PAR:	this here . [+ exc] 33244_35111
+%mor:	det|this adv|here .
+*PAR:	right here . [+ exc] 35111_36198
+%mor:	adv|right adv|here .
+*PAR:	this . [+ exc] 36198_37521
+%mor:	pro:dem|this .
+*PAR:	what [/] &uh what do you call that ? [+ exc] 37521_39234
+%mor:	pro:wh|what mod|do pro|you v|call pro:dem|that ?
+*PAR:	what is that ? [+ exc] 39234_40248
+%mor:	pro:wh|what cop|be&3S pro:dem|that ?
+*INV:	+< what ? 39488_40248
+%mor:	pro:wh|what ?
+*PAR:	what is that ?  [+ exc] 40248_41545
+%mor:	pro:wh|what cop|be&3S pro:dem|that ?
+*INV:	what would you call that ? 41545_42534
+%mor:	pro:wh|what mod|will&COND pro|you v|call pro:dem|that ?
+*PAR:	I don't know ! [+ exc] 42534_43504
+%mor:	pro:sub|I mod|do~neg|not v|know !
+*PAR:	that's what I'm saying . [+ exc] 43504_44373
+%mor:	pro:dem|that~cop|be&3S pro:wh|what pro:sub|I~aux|be&1S
+	part|say-PRESP .
+*PAR:	I [/] I don't know what that is . [+ exc] 44373_46552
+%mor:	pro:sub|I mod|do~neg|not v|know adv|what adv|that cop|be&3S .
+*INV:	<I don't> [//] I [/] I would call that the u@l pipe . 46552_50597
+%mor:	pro:sub|I mod|will&COND v|call rel|that det|the n:let|u n|pipe .
+*INV:	is that what it's called +/? 50597_51581
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|it~aux|be&3S part|call-PASTP
+	+/?
+*PAR:	+< the what ? [+ exc] 50681_51609
+%mor:	det|the pro:wh|what ?
+*INV:	a u@l pipe ? 51609_53044
+%mor:	det|a n:let|u n|pipe ?
+*INV:	the u@l bend ? 53044_54129
+%mor:	det|the n:let|u n|bend ?
+*INV:	no it's just a pipe . 54129_55071
+%mor:	co|no pro|it~mod|do&3S adj|just det|a n|pipe .
+*PAR:	a pipe . [+ exc] 55071_56226
+%mor:	det|a n|pipe .
+*PAR:	oh [x 3] water pipe ! [+ exc] 56226_58005
+%mor:	co|oh n|water n|pipe !
+*INV:	yeah . 58005_58421
+%mor:	co|yeah .
+*PAR:	oh yeah . [+ exc] 58421_59289
+%mor:	co|oh co|yeah .
+*PAR:	okay . [+ exc] 59289_59800
+%mor:	co|okay .
+*PAR:	well then maybe the water pipe is &uh broke [//] &er &uh not broke but &uh there must be things in there +/. 59800_67788
+%mor:	co|well adv:tem|then adv|maybe det|the n|water n|pipe aux|be&3S
+	neg|not adj|broke conj|but pro:exist|there mod|must cop|be
+	n|thing-PL prep|in pro:dem|there +/.
+*INV:	yeah . 67788_68045
+%mor:	co|yeah .
+*PAR:	+, that the water will not go down . 68045_70201
+%mor:	rel|that det|the n|water mod|will neg|not v|go adv|down .
+*PAR:	I don't know . [+ exc] 70201_71818
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	+< so what's happening to the water ? 71200_73418
+%mor:	conj|so pro:wh|what~aux|be&3S part|happen-PRESP prep|to det|the
+	n|water ?
+*PAR:	huh ? [+ exc] 73418_74260
+%mor:	co|huh ?
+*INV:	what's happening to the water ? 74260_76156
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|to det|the n|water ?
+*PAR:	what's happening to the water ? [+ exc] 76156_77916
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|to det|the n|water ?
+*INV:	yeah . 77916_78363
+%mor:	co|yeah .
+*PAR:	well the water is &g going down in the &uh (.) &=finger:tap &=sighs &=claps +... 78363_86025
+%mor:	co|well det|the n|water aux|be&3S part|go-PRESP adv|down prep|in
+	det|the +...
+*PAR:	&=laughs I don't know . [+ exc] 86025_86800
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	what [x 4] would you call this ? [+ exc] 86800_89326
+%mor:	pro:wh|what mod|will&COND pro|you v|call pro:dem|this ?
+*INV:	on the floor ? 89326_90120
+%mor:	prep|on det|the n|floor ?
+*PAR:	floor [x 3] ! [+ exc] 90120_91377
+%mor:	n|floor !
+*INV:	+< mhm . 90820_91177
+%mor:	co|yes .
+*PAR:	yeah okay [/] okay . [+ exc] 91377_93014
+%mor:	co|yeah co|okay .
+*INV:	+< okay . 91514_92200
+%mor:	co|okay .
+*INV:	okay . 93014_93387
+%mor:	co|okay .
+*INV:	and what's happening over this side of the picture then ? 93387_96204
+%mor:	conj|and rel|what~mod|do&3S part|happen-PRESP prep|over det|this
+	n|side prep|of det|the n|picture adv:tem|then ?
+*PAR:	+< yeah . [+ exc] 93500_94012
+%mor:	co|yeah .
+*INV:	what's happenin(g) over here ? 96204_98648
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|over pro:dem|here ?
+*PAR:	well down on this side of the picture . [+ gram]  98648_100964
+%mor:	co|well adv|down prep|on det|this n|side prep|of det|the n|picture
+	.
+*PAR:	well this thing here is &uh turnin(g) over . [+ es] 100964_107229
+%mor:	co|well det|this n|thing pro:exist|here cop|be&3S part|turn-PRESP
+	adv|over .
+*INV:	mhm . 107229_108016
+%mor:	co|yes .
+*PAR:	yeah . [+ exc] 108016_109338
+%mor:	co|yeah .
+*INV:	can you tell me what's going on there ? 109338_114643
+%mor:	mod|can pro|you v|tell pro:obj|me pro:wh|what~aux|be&3S
+	part|go-PRESP prep|on pro:dem|there ?
+*PAR:	no, uhuh . [+ exc] 114643_116322
+%mor:	co|no cm|cm co|uhuh .
+*PAR:	I don't know what's going on . [+ exc] 116322_117585
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what~aux|be&3S part|go-PRESP
+	adv|on .
+*PAR:	well he's probably &uh gettin(g) +... 117585_119848
+%mor:	co|well pro:sub|he~cop|be&3S adv|probable&dadj-LY part|get-PRESP
+	+...
+*PAR:	what's this here ? [+ exc] 119848_120776
+%mor:	pro:wh|what~cop|be&3S pro:dem|this adv|here ?
+*PAR:	cocoa jar ? [+ exc] [+ gram] 120776_123376
+%mor:	n|cocoa n|jar ?
+*PAR:	what's [/] what's this cocoa ? [+ exc] 123376_127453
+%mor:	rel|what~mod|do&3S det|this n|cocoa ?
+*INV:	say it again ? 127453_128747
+%mor:	co|say pro|it adv|again ?
+*INV:	can you read it again for me ? 128747_130045
+%mor:	mod|can pro|you v|read&ZERO pro|it adv|again prep|for pro:obj|me ?
+*PAR:	c@l o@l o@l k@l i@l e@l  . [+ exc] 130045_132793
+%mor:	n:let|c n:let|o n:let|o n:let|k n:let|i n:let|e .
+*INV:	what does that spell ? 132793_134190
+%mor:	pro:wh|what mod|do&3S pro:dem|that v|spell ?
+*PAR:	I don't know &=laughs . [+ exc] 134190_137366
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	&=laughs I don't know what [x 3] +..? [+ exc] 138013_139222
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what +..?
+*INV:	+< &coo &coo cookie . 138622_141104
+%mor:	n|cookie .
+*PAR:	+< huh ? [+ exc] 140444_141023
+%mor:	co|huh ?
+*INV:	cookie . 141104_142039
+%mor:	n|cookie .
+*PAR:	+< cookie, oh a cookie [/] cookie . [+ exc] 141239_143392
+%mor:	n|cookie cm|cm co|oh det|a n|cookie .
+*INV:	+<   cookie, yeah .142539_143392
+%mor:	n|cookie cm|cm co|yeah .
+*PAR:	oh ! [+ exc] 143392_144308
+%mor:	co|oh !
+*INV:	+< mhm . 143393_144308
+%mor:	co|yes .
+*PAR:	oh okay . [+ exc] 144308_145711
+%mor:	co|oh co|okay .
+*PAR:	mhm . [+ exc] 145711_146505
+%mor:	co|yes .
+*INV:	and what are the kids doing ? 146505_147871
+%mor:	conj|and adv|what aux|be&PRES det|the n|kid-PL part|do-PRESP ?
+*PAR:	well he's &uh gettin(g) it out .  [+ es] 147871_152670
+%mor:	co|well pro:sub|he~aux|be&3S n:gerund|get-PRESP pro|it adv|out .
+*PAR:	and he's gonna [: going to] give it to the girl +/. 152670_155239
+%mor:	conj|and pro:sub|he~aux|be&3S part|go-PRESP inf|to v|give pro|it
+	prep|to det|the n|girl +/.
+*INV:	+< mhm . 155139_155707
+%mor:	co|yes .
+*PAR:	+, down here . 155507_156190
+%mor:	adv|down adv|here .
+*INV:	+< okay . 156000_156640
+%mor:	co|okay .
+*PAR:	mhm . [+ exc] 156640_158300
+%mor:	co|yes .
+*INV:	+< is there anything else going on in the picture that you want to tell me about ? 157700_161341
+%mor:	cop|be&3S adv|there pro:indef|anything post|else part|go-PRESP
+	adv|on prep|in det|the n|picture rel|that pro|you v|want inf|to
+	v|tell pro:obj|me adv|about ?
+*PAR:	going on in the picture ? [+ exc] 161341_163786
+%mor:	part|go-PRESP adv|on prep|in det|the n|picture ?
+*INV:	mhm . 163786_164483
+%mor:	co|yes .
+*PAR:	well the boy is giving him [: her] [* s:r] the girl the &co [/] &co cocoa [: cookie] [* s:r]  . 164483_174645
+%mor:	co|well det|the n|boy aux|be&3S part|give-PRESP pro:obj|her det|the
+	n|girl det|the n|cookie .
+*PAR:	this probably is broke . 174645_179487
+%mor:	det|this adv|probable&dadj-LY cop|be&3S adj|broke .
+*INV:	mhm . 179487_180066
+%mor:	co|yes .
+*PAR:	so the water will not go down in and it's comin(g) up &=finger:tap and going in here huh . 180066_185061
+%mor:	conj|so det|the n|water mod|will neg|not v|go adv|down adv|in v|and
+	pro|it~aux|be&3S part|come-PRESP adv|up coord|and part|go-PRESP
+	prep|in pro:dem|here co|huh .
+*INV:	and what's she doing ? 185061_186023
+%mor:	conj|and pro:wh|what~cop|be&3S pro:sub|she part|do-PRESP ?
+*PAR:	well it looks like she's [//] &wa &uh she was gonna [: going to] wash &uh +/. 186023_192451
+%mor:	co|well pro|it v|look-3S rel|like pro:sub|she aux|be&PAST&13S
+	part|go-PRESP inf|to v|wash +/.
+*INV:	mhm . 192451_193198
+%mor:	co|yes .
+*PAR:	+, <what she> [//] what they eat with, all that . [+ cir] 193198_197000
+%mor:	pro:wh|what pro:sub|they v|eat prep|with cm|cm qn|all pro:dem|that
+	.
+*INV:	+< yeah mhm . 196392_196980
+%mor:	co|yeah co|yes .
+*PAR:	&wha what do you call that ? [+ exc] 197000_198037
+%mor:	pro:wh|what mod|do pro|you v|call pro:dem|that ?
+*PAR:	<what do> [/] what do you call this ? [+ exc] 198037_199609
+%mor:	pro:wh|what mod|do pro|you v|call pro:dem|this ?
+*INV:	a plate ? 199609_201806
+%mor:	det|a n|plate ?
+*INV:	the dishes ? 201806_203720
+%mor:	det|the n|dish-PL ?
+*PAR:	<the plate> [//] a plate ? [+ exc] 203720_205321
+%mor:	det|a n|plate ?
+*INV:	mhm . 205321_205745
+%mor:	co|yes .
+*PAR:	oh [/] oh yeah [x 4] . [+ exc] 205745_207612
+%mor:	co|oh co|yeah .
+*PAR:	what you eat in [: on] [* s:r] . [+ cir] [+ exc] 207612_208824
+%mor:	pro:wh|what pro|you v|eat adv|on .
+*INV:	+< yeah . 208524_208900
+%mor:	co|yeah .
+*PAR:	<is that> [/] is that what you call them a plate ? [+ exc] 208900_210846
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|you v|call pro:obj|them
+	det|a n|plate ?
+*INV:	+< well, <a cup> [/] a cup and saucer . 209446_212500
+%mor:	co|well cm|cm det|a n|cup coord|and n|saucer .
+*PAR:	+< oh this is a cup ? [+ exc] 211398_212729
+%mor:	co|oh pro:dem|this cop|be&3S det|a n|cup ?
+*INV:	it might be a saucer . 212729_214145
+%mor:	pro|it mod|might cop|be det|a n|saucer .
+*PAR:	oh maybe, I don't know . [+ exc] 214145_216076
+%mor:	co|oh adv|maybe cm|cm pro:sub|I mod|do~neg|not v|know .
+*INV:	+< it might be a saucer or a plate . 215276_216964
+%mor:	pro|it mod|might cop|be det|a n|saucer coord|or det|a n|plate .
+*PAR:	mhm . [+ exc] 216964_218275
+%mor:	co|yes .
+*PAR:	okay . [+ exc] 218275_218744
+%mor:	co|okay .
+*INV:	okay . 218744_219490
+%mor:	co|okay .
+@End

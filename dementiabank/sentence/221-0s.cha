@@ -1,0 +1,65 @@
+@UTF8
+@PID:	11312/t-00016599-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|male|MCI||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	221-0s, audio
+*INV:	okay . 0_1550
+%mor:	co|okay .
+*INV:	the first one is pencil@q . 1550_3006
+%mor:	det|the adj|first pro:indef|one cop|be&3S meta|pencil .
+*PAR:	I have a pencil in my hand . 3006_5416
+%mor:	pro:sub|I v|have det|a n|pencil prep|in pro:poss:det|my n|hand .
+*INV:	(..) tree@q . 5416_13463
+%mor:	meta|tree .
+*PAR:	we have a tree in our front yard . 13463_17992
+%mor:	pro:sub|we v|have det|a n|tree prep|in pro:poss:det|our n|front
+	n|yard .
+*INV:	(..) okay . 17992_26442
+%mor:	co|okay .
+*INV:	now I'm gonna to ask you to use two words in a short simple
+	sentence . 26442_30850
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to inf|to v|ask
+	pro|you prep|to n|use det:num|two n|word-PL prep|in det|a adj|short
+	adj|simple n|sentence .
+*INV:	you don't need to worry about the order that I give you the two
+	words in . 30850_33338
+%mor:	pro|you mod|do~neg|not v|need inf|to v|worry prep|about det|the
+	n|order rel|that pro:sub|I v|give pro|you det|the det:num|two
+	n|word-PL adv|in .
+*INV:	but use both of them in a short simple sentence . 33338_35979
+%mor:	conj|but n|use qn|both prep|of pro:obj|them prep|in det|a adj|short
+	adj|simple n|sentence .
+*INV:	the first two are child@q hospital@q . 35979_38489
+%mor:	det|the n|first det:num|two aux|be&PRES meta|child meta|hospital .
+*PAR:	our neighbor has a child in the hospital . 38489_44232
+%mor:	pro:poss:det|our n|neighbor v|have&3S det|a n|child prep|in det|the
+	n|hospital .
+*INV:	(..) cold@q winter@q . 44232_54535
+%mor:	meta|cold meta|winter .
+*PAR:	this has been a cold winter . 54535_58347
+%mor:	pro:dem|this aux|have&3S aux|be&PASTP det|a adj|cold n|winter .
+*INV:	okay ‡ now I'm gonna give you three words . 58347_65818
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	don't worry about the order . 65818_67313
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order .
+*INV:	but just use all three of them in a short simple sentence . 67313_70145
+%mor:	conj|but adj|just n|use adv|all det:num|three prep|of pro:obj|them
+	prep|in det|a adj|short adj|simple n|sentence .
+*INV:	chair@q doctor@q sit@q . 70145_73335
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor will often sit in a chair . 73335_78859
+%mor:	det|the n|doctor mod|will adv|often v|sit prep|in det|a n|chair .
+*INV:	(..) okay . 78859_87080
+%mor:	co|okay .
+*INV:	bureau@q open@q drawer@q . 87080_89833
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	I can open the drawer in the bureau . 89833_94532
+%mor:	pro:sub|I mod|can v|open det|the n|drawer prep|in det|the n|bureau
+	.
+*INV:	(..) good . 94532_102422
+%mor:	adj|good .
+@End

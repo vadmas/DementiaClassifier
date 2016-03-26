@@ -1,0 +1,48 @@
+@UTF8
+@PID:	11312/t-00002566-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|MCI||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	221-2c, audio
+*PAR:	little girl is reaching up for some cookies . 0_3426
+%mor:	adj|little n|girl aux|be&3S part|reach-PRESP adv|up prep|for
+	qn|some n|cookie-PL .
+*PAR:	and it appears that she may be telling her brother to be quiet . 3426_9044
+%mor:	conj|and pro|it v|appear-3S rel|that pro:sub|she mod|may aux|be
+	part|tell-PRESP pro:poss:det|her n|brother inf|to cop|be adj|quiet .
+*PAR:	they may be &uh taking them while the mother is abstracted [: distracted] [* s:r] there at the window . 9044_16027
+%mor:	pro:sub|they mod|may aux|be part|take-PRESP pro:obj|them conj|while
+	det|the n|mother aux|be&3S part|distract-PASTP adv|there prep|at
+	det|the n|window .
+*PAR:	yeah she is abstracted [: distracted] [* s:r] . 16027_17538
+%mor:	co|yeah pro:sub|she aux|be&3S part|distract-PASTP .
+*PAR:	she doesn't even know the sink &s is overflowing . 17538_20616
+%mor:	pro:sub|she mod|do&3S~neg|not v|even v|know det|the n|sink
+	aux|be&3S over#part|flow-PRESP .
+*PAR:	the boy getting the cookies from the cookie jar in his haste has (.) tipped over the lid of the cookie jar and also has caused the stool to slip over backwards so that he will very shortly be <on the ground> [//] on the floor rather . 20616_48464
+%mor:	det|the n|boy part|get-PRESP det|the n|cookie-PL prep|from det|the
+	n|cookie n|jar prep|in pro:poss:det|his n|haste aux|have&3S
+	part|tip-PASTP prep|over det|the n|lid prep|of det|the n|cookie
+	n|jar coord|and adv|also aux|have&3S v|cause-PAST det|the n|stool
+	inf|to v|slip adv|over adv|backwards adv|so adv|that pro:sub|he
+	mod|will adv|very adv|short&dadj-LY cop|be prep|on det|the n|floor
+	adv|rather .
+*PAR:	and &uh the mother's still day dreaming and the sink's still overflowing and she's looking out at the garden and a tree  . 48464_58999
+%mor:	conj|and det|the n|mother~aux|be&3S adv|still n|day
+	part|dream-PRESP coord|and det|the n|sink~aux|be&3S adv|still
+	over#part|flow-PRESP coord|and pro:sub|she~aux|be&3S part|look-PRESP
+	adv|out prep|at det|the n|garden coord|and det|a n|tree .
+*PAR:	and she has a towel in her hand  . 58999_62528
+%mor:	conj|and pro:sub|she v|have&3S det|a n|towel prep|in
+	pro:poss:det|her n|hand .
+*PAR:	and <she still has a &s no> [//] she's probably dried a few dishes . 62528_69964
+%mor:	conj|and pro:sub|she~aux|be&3S adv|probable&dadj-LY v|dry-PAST
+	det|a qn|few n|dish-PL .
+*PAR:	well that's about it for me +/. [+ exc] 69964_72936
+%mor:	co|well pro:dem|that~cop|be&3S adv|about pro|it prep|for pro:obj|me
+	+/.
+*INV:	+< okay good . 72336_73546
+%mor:	co|okay adj|good .
+@End

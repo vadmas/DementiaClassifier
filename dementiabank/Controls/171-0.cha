@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002327-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|female|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	171-0c, audio
+*PAR:	well let's see &=sighs . [+ exc] 0_2229
+%mor:	co|well v|let~pro:obj|us v|see .
+*PAR:	the children are getting cookies . 2229_4872
+%mor:	det|the n|child&PL aux|be&PRES part|get-PRESP n|cookie-PL .
+*PAR:	and the stool is going to fall . 4872_7644
+%mor:	conj|and det|the n|stool aux|be&3S part|go-PRESP inf|to v|fall .
+*PAR:	the sink is overflowing . 7644_9759
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	the mother's <washing or> [//] drying dishes . 9759_14070
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	&um (.) the girl is putting her finger up to her mouth . 14070_20856
+%mor:	det|the n|girl aux|be&3S part|put-PRESP pro:poss:det|her n|finger
+	adv|up prep|to pro:poss:det|her n|mouth .
+*PAR:	like I said the mother doesn't know they took the lid off the cookie jar .  20856_24555
+%mor:	prep|like pro:sub|I v|say&PAST det|the n|mother mod|do&3S~neg|not
+	v|know pro:sub|they v|take&PAST det|the n|lid prep|off det|the
+	n|cookie n|jar .
+*PAR:	they opened the door . 24555_26196
+%mor:	pro:sub|they v|open-PAST det|the n|door .
+*PAR:	and (.) that's all I can see . [+ exc] 26196_36623
+%mor:	conj|and pro:dem|that~cop|be&3S pro:indef|all pro:sub|I mod|can
+	v|see .
+*INV:	okay . 36623_42850
+%mor:	co|okay .
+@End

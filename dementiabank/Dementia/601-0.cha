@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/t-00002700-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|81;|female|ProbableAD||Participant|22||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	601-0c, audio
+*INV:	tell me everything that you see happening in that picture . 0_3316
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture .
+*INV:	what's going on there ? 3316_5129
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP prep|on pro:dem|there ?
+*PAR:	well the chair's [: stool's] [* s:r] gonna [: going to] upset . 5129_8321
+%mor:	co|well det|the n|stool~aux|be&3S part|go-PRESP prep|to adj|upset .
+*PAR:	and the kid's (..) gonna [: going to] upset the cookies for one thing . 8321_10997
+%mor:	conj|and det|the n|kid~aux|be&3S part|go-PRESP inf|to v|upset
+	det|the n|cookie-PL prep|for pro:indef|one n|thing .
+*PAR:	and <the woman> [//] the sink's runnin(g) over the water on the floor while she's dryin(g) the dishes . 10997_18987
+%mor:	conj|and det|the n|sink~aux|be&3S part|run-PRESP prep|over det|the
+	n|water prep|on det|the n|floor conj|while pro:sub|she~aux|be&3S
+	part|dry-PRESP det|the n|dish-PL .
+*PAR:	(...) and &uh you need water in there to wash the dishes and it's runnin(g) on the floor . 18987_28990
+%mor:	conj|and pro|you n|need n|water prep|in pro:dem|there inf|to v|wash
+	det|the n|dish-PL coord|and pro|it~aux|be&3S part|run-PRESP prep|on
+	det|the n|floor .
+*PAR:	you can look out the window and see the grass . 28990_33663
+%mor:	pro|you mod|can v|look prep|out det|the n|window coord|and v|see
+	det|the n|grass .
+*INV:	okay .  33663_34817
+%mor:	co|okay .
+@End

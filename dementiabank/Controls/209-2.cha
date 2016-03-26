@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002343-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	209-2c, audio
+*PAR:	okay . [+ exc] 0_1231
+%mor:	co|okay .
+*PAR:	&uh <little boy's about to> [//] he's gettin(g) into the cookie jar . 1231_6135
+%mor:	pro:sub|he~aux|be&3S part|get-PRESP prep|into det|the n|cookie
+	n|jar .
+*PAR:	got up on a stool .  [+ gram] 6135_7565
+%mor:	v|get&PAST adv|up prep|on det|a n|stool .
+*PAR:	&uh handing (th)em off to obviously [//] well probably his little sister but in the meantime the stool is about to fall over before she really gets any .  [+ gram] 7565_17042
+%mor:	part|hand-PRESP pro:obj|them adv|off prep|to adv|well
+	adj|probable-Y pro:poss:det|his adj|little n|sister conj|but prep|in
+	det|the n|meantime det|the n|stool aux|be&3S adv|about inf|to v|fall
+	adv|over adv|before pro:sub|she adv|real&dadj-LY v|get-3S qn|any .
+*PAR:	the mother's preoccupied at the sink . 17042_19171
+%mor:	det|the n|mother~poss|s pre#part|occupy-PASTP prep|at det|the
+	n|sink .
+*PAR:	she's washing dishes and she's permitting the &uh water to &over &uh overflow . 19171_25855
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	pro:sub|she~aux|be&3S part|permit-PRESP det|the n|water inf|to
+	over#v|flow .
+*PAR:	so she herself is starting to stand in a panel [: puddle] [* s:ur-ret] [//] puddle and she seems to be unaware of what's going on behind her . 25855_33135
+%mor:	conj|so pro:sub|she pro:refl|herself aux|be&3S part|start-PRESP
+	prep|to n|stand prep|in det|a n|puddle coord|and pro:sub|she
+	v|seem-3S inf|to cop|be un#adj|aware prep|of pro:wh|what~aux|be&3S
+	part|go-PRESP adv|on prep|behind pro:obj|her .
+*PAR:	and obviously it's spring or summer because the plants are blooming outside through the &uh kitchen window . 33135_40246
+%mor:	conj|and adv|obvious&dadj-LY pro|it~cop|be&3S n|spring coord|or
+	n|summer conj|because det|the n|plant-PL aux|be&PRES
+	part|bloom-PRESP adv|outside prep|through det|the n|kitchen n|window
+	.
+*PAR:	&uh you didn't say what's wrong . [+ exc] 40246_43372
+%mor:	pro|you mod|do&PAST~neg|not v|say rel|what~mod|do&3S adj|wrong .
+*PAR:	I mean this is what I'm supposed to be picking out . [+ exc] 43372_45620
+%mor:	pro:sub|I v|mean pro:dem|this cop|be&3S pro:wh|what
+	pro:sub|I~aux|be&1S part|suppose-PASTP inf|to aux|be part|pick-PRESP
+	adv|out .
+*INV:	+< no . 43800_44800
+%mor:	co|no .
+*INV:	just tell me everything that you see going on in the picture . 45804_49146
+%mor:	adv|just v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	xxx . 49146_50859
+*PAR:	&uh that's about it . [+ exc] 50859_55594
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay . 55594_56079
+%mor:	co|okay .
+@End

@@ -1,0 +1,156 @@
+@Font:	CAfont:14:0
+@UTF8
+@PID:	11312/t-00016709-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|87;|female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	650-0s, audio, missing
+*PAR:	I xxx like to write with a pencil .
+%mor:	pro:sub|I v|like inf|to v|write prep|with det|a n|pencil .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|XCOMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*INV:	use the word tree in a sentence .
+%mor:	v|use det|the n|word n|tree prep|in det|a n|sentence .
+%gra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*PAR:	oh .
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	there trees are heading there's no leaves .
+%mor:	adv|there n|tree-PL aux|be&PRES part|head-PRESP
+	pro:exist|there~cop|be&3S qn|no n|leave-PL .
+%gra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|6|LINK 5|6|SUBJ 6|0|ROOT 7|8|QUANT 8|6|PRED
+	9|6|PUNCT
+*INV:	use the words child and hospital in a sentence .
+%mor:	v|use det|the n|word-PL n|child coord|and n|hospital prep|in det|a
+	n|sentence .
+%gra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|4|CONJ 6|5|COORD 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|1|PUNCT
+*PAR:	&um: oh .
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	the child was xxx the hospital .
+%mor:	det|the n|child cop|be&PAST&13S det|the n|hospital .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*INV:	use the words cold and winter .
+%mor:	v|use det|the n|word-PL n|cold coord|and n|winter .
+%gra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*PAR:	it should be winter because the weather is getting colder .
+%mor:	pro|it mod|should cop|be n|winter conj|because det|the n|weather
+	aux|be&3S part|get-PRESP adj|cold-CP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PRED 5|9|LINK 6|7|DET 7|9|SUBJ 8|9|AUX
+	9|3|CJCT 10|9|JCT 11|3|PUNCT
+*INV:	use the words chair doctor and sit in a sentence .
+%mor:	v|use det|the n|word-PL n|chair n|doctor coord|and v|sit prep|in
+	det|a n|sentence .
+%gra:	1|0|ROOT 2|5|DET 3|5|MOD 4|5|MOD 5|1|OBJ 6|5|CONJ 7|6|COORD 8|7|JCT
+	9|10|DET 10|8|POBJ 11|1|PUNCT
+*PAR:	chair doctor sit@n .
+%mor:	n|chair n|doctor neo|sit .
+%gra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*INV:	no sit .
+%mor:	co|no v|sit .
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*PAR:	six [//] sit [//] six .
+%mor:	det:num|six .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*INV:	sit .
+%mor:	v|sit .
+%gra:	1|0|ROOT 2|1|PUNCT
+*PAR:	sick [/] sick [//] sit .
+%mor:	v|sit .
+%gra:	1|0|ROOT 2|1|PUNCT
+*INV:	no no sit .
+%mor:	co|no co|no v|sit .
+%gra:	1|3|COM 2|3|COM 3|0|ROOT 4|3|PUNCT
+*INV:	as you sit in a chair .
+%mor:	conj|as pro|you v|sit prep|in det|a n|chair .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*PAR:	oh sit .
+%mor:	co|oh v|sit .
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*INV:	right .
+%mor:	co|right .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	oh sit .
+%mor:	co|oh v|sit .
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*INV:	chair doctor and sit .
+%mor:	n|chair n|doctor coord|and v|sit .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*PAR:	sit [/] sit .
+%mor:	v|sit .
+%gra:	1|0|ROOT 2|1|PUNCT
+*PAR:	I guess I pronounce it a little different I xxx &um .
+%mor:	pro:sub|I v|guess pro:sub|I v|pronounce pro|it det|a adj|little
+	adj|different pro:sub|I .
+%gra:	1|2|SUBJ 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|7|DET 7|9|MOD 8|9|MOD
+	9|4|JCT 10|4|PUNCT
+*PAR:	&um: xxx do you think xxx &uh: .
+%mor:	mod|do pro|you v|think .
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*PAR:	xxx &um: well I was my grandparents Tazmanian_Dutch .
+%mor:	co|well pro:sub|I cop|be&PAST&13S pro:poss:det|my grand#n|parent-PL
+	n:prop|Tazmanian_Dutch .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|5|APP 7|3|PUNCT
+*PAR:	and do you think words like that I repeat sound different to other
+	people ?
+%mor:	conj|and mod|do pro|you v|think n|word-PL co|like adv|that
+	pro:sub|I n|repeat adj|sound adj|different prep|to qn|other
+	n|person&PL ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|COM 7|9|JCT 8|9|SUBJ
+	9|4|OBJ 10|9|XMOD 11|10|JCT 12|11|JCT 13|14|QUANT 14|12|POBJ 15|4|PUNCT
+*INV:	a little bit just a little bit .
+%mor:	det|a adj|little n|bit adv|just det|a adj|little n|bit .
+%gra:	1|3|DET 2|3|MOD 3|7|SUBJ 4|7|JCT 5|7|DET 6|7|MOD 7|0|INCROOT 8|7|PUNCT
+*PAR:	uhhuh .
+%mor:	co|uhhuh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*INV:	now I want you to use those three words in a sentence though .
+%mor:	adv|now pro:sub|I v|want pro|you inf|to v|use det|those
+	det:num|three n|word-PL prep|in det|a n|sentence adv|though .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|INF 6|3|XCOMP 7|9|DET 8|9|QUANT
+	9|6|OBJ 10|6|JCT 11|12|DET 12|10|POBJ 13|12|NJCT 14|3|PUNCT
+*INV:	use the words chair doctor and sit in a sentence .
+%mor:	v|use det|the n|word-PL n|chair n|doctor coord|and v|sit prep|in
+	det|a n|sentence .
+%gra:	1|0|ROOT 2|5|DET 3|5|MOD 4|5|MOD 5|1|OBJ 6|5|CONJ 7|6|COORD 8|7|JCT
+	9|10|DET 10|8|POBJ 11|1|PUNCT
+*PAR:	chair doctor and sit .
+%mor:	n|chair n|doctor coord|and v|sit .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*PAR:	&uh: .
+*PAR:	let the doctor sit on the chair .
+%mor:	v|let&ZERO det|the n|doctor v|sit prep|on det|the n|chair .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*INV:	mhm .
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*INV:	here are three more words .
+%mor:	adv|here cop|be&PRES det:num|three adv|more n|word-PL .
+%gra:	1|2|JCT 2|0|ROOT 3|5|QUANT 4|5|JCT 5|2|PRED 6|2|PUNCT
+*INV:	use these in a sentence bureau open and draw .
+%mor:	v|use pro:dem|these prep|in det|a n|sentence n|bureau adj|open
+	coord|and v|draw .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|XMOD 8|7|CONJ
+	9|8|COORD 10|1|PUNCT
+*PAR:	come on .
+%mor:	v|come adv|on .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*PAR:	&uh: &uh: .
+*PAR:	bureau .
+%mor:	n|bureau .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	you said bureau open and drawer .
+%mor:	pro|you v|say&PAST n|bureau adj|open coord|and n|drawer .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|XMOD 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*INV:	right .
+%mor:	co|right .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	open the bureau drawer .
+%mor:	v|open det|the n|bureau n|drawer .
+%gra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*INV:	good .
+%mor:	adj|good .
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

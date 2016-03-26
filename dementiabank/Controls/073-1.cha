@@ -1,0 +1,32 @@
+@UTF8
+@PID:	11312/t-00002236-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|male|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	073-1c, audio
+*INV:	see going on there . 0_2725
+%mor:	v|see n:gerund|go-PRESP prep|on pro:dem|there .
+*PAR:	well the boy is &=clears:throat taking cookies out of the cookie jar while the [/] the stool is ready to &uh fall over . 2725_15721
+%mor:	co|well det|the n|boy aux|be&3S part|take-PRESP n|cookie-PL adv|out
+	prep|of det|the n|cookie n|jar conj|while det|the n|stool cop|be&3S
+	adj|ready inf|to v|fall adv|over .
+*PAR:	the girl is reachin(g) for a cookie . 15721_22041
+%mor:	det|the n|girl aux|be&3S part|reach-PRESP prep|for det|a n|cookie .
+*PAR:	&uh the mother is looking out the window while the water runs over from the sink . 22041_31562
+%mor:	det|the n|mother aux|be&3S part|look-PRESP prep|out det|the
+	n|window conj|while det|the n|water v|run-3S adv|over prep|from
+	det|the n|sink .
+*PAR:	she has wet feet standing in the water . 31562_39768
+%mor:	pro:sub|she aux|have&3S part|wet&PASTP n|foot&PL part|stand-PRESP
+	prep|in det|the n|water .
+*PAR:	that's the action that I see . [+ exc] 39768_53416
+%mor:	pro:dem|that~cop|be&3S det|the n|action rel|that pro:sub|I v|see .
+*INV:	is that it ? 53416_56823
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	well naturally the stool falls over the boy is going to fall on the floor .  [+ gram] 56823_66818
+%mor:	adv|well adv|natural&dadj-LY det|the n|stool v|fall-3S prep|over
+	det|the n|boy aux|be&3S part|go-PRESP inf|to v|fall prep|on det|the
+	n|floor .
+@End

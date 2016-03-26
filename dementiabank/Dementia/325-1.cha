@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/t-00002614-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	325-1c, audio
+*INV:	take a look at this picture . 0_1526
+%mor:	v|take det|a n|look prep|at det|this n|picture .
+*INV:	I want you to tell me everything that you see happening in that picture . 1526_6555
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*INV:	everything that's going on there . 6555_8996
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP prep|on
+	pro:dem|there .
+*PAR:	okay . [+ exc] 8996_11450
+%mor:	co|okay .
+*PAR:	the lady's washin(g) the dishes &=laughs like they always do . 11450_16150
+%mor:	det|the n|lady~aux|be&3S part|wash-PRESP det|the n|dish-PL
+	prep|like pro:sub|they adv|always v|do .
+*INV:	mhm . 16150_16856
+%mor:	co|yes .
+*PAR:	a little boy's up on the stool fallin(g) over . 16856_21229
+%mor:	det|a adj|little n|boy~poss|s adv|up prep|on det|the n|stool
+	part|fall-PRESP adv|over .
+*PAR:	he's tryin(g) to get a cookie . 21229_24017
+%mor:	pro:sub|he~aux|be&3S part|try-PRESP inf|to v|get det|a n|cookie .
+*PAR:	and the girl's tryin(g) to help and she's reachin(g) her hand up . 24017_27921
+%mor:	conj|and det|the n|girl~aux|be&3S part|try-PRESP inf|to v|help
+	conj|and pro:sub|she~aux|be&3S part|reach-PRESP pro:poss:det|her
+	n|hand adv|up .
+*PAR:	and they <spilled water out of the> [//] &s &raw overran the sink . 27921_38241
+%mor:	conj|and pro:sub|they over#v|run&PAST det|the n|sink .
+*PAR:	spilled water all over . [+ gram] 38241_39625
+%mor:	v|spill-PAST n|water adv|all adv|over .
+*INV:	(..) okay . 39625_46974
+%mor:	co|okay .
+@End

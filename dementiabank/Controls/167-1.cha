@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/t-00002324-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|female|Control||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	167-1c, audio
+*PAR:	oh the boy is going to fall off the stool because he is stealing cookies from the cookie jar and his sister is reaching I assume it's his sister reaching up for him to hand her a cookie . 0_12254
+%mor:	co|oh det|the n|boy aux|be&3S part|go-PRESP inf|to v|fall prep|off
+	det|the n|stool conj|because pro:sub|he aux|be&3S part|steal-PRESP
+	n|cookie-PL prep|from det|the n|cookie n|jar coord|and
+	pro:poss:det|his n|sister aux|be&3S part|reach-PRESP pro:sub|I
+	v|assume pro|it~cop|be&3S pro:poss:det|his n|sister part|reach-PRESP
+	adv|up prep|for pro:obj|him inf|to v|hand pro:obj|her det|a n|cookie
+	.
+*PAR:	mother is drying dishes but she's very inattentive here because the water is pouring all over the sink . 12254_20119
+%mor:	n|mother aux|be&3S part|dry-PRESP n|dish-PL conj|but
+	pro:sub|she~aux|be&3S adv|very in#adj|attentive adv|here
+	conj|because det|the n|water aux|be&3S part|pour-PRESP adv|all
+	prep|over det|the n|sink .
+*PAR:	the faucet is running and the water is pouring down over . 20119_24591
+%mor:	det|the n|faucet aux|be&3S part|run-PRESP coord|and det|the n|water
+	aux|be&3S part|pour-PRESP adv|down prep|over .
+*PAR:	&uh the floor is all wet . 24591_26902
+%mor:	det|the n|floor aux|be&3S adv|all part|wet&PASTP .
+*PAR:	and &uh it must be a nice summer day (be)cause the window looks as if it's open . 26902_32357
+%mor:	conj|and pro|it mod|must cop|be det|a adj|nice n|summer n|day
+	conj|because det|the n|window n|look-PL adv|as conj|if
+	pro|it~aux|be&3S adj|open .
+*PAR:	and that's about +... [+ exc] 32357_34063
+%mor:	conj|and pro:dem|that~cop|be&3S adv|about +...
+*PAR:	I don't see any birds or any animals out there . 34063_36280
+%mor:	pro:sub|I mod|do~neg|not v|see qn|any n|bird-PL coord|or qn|any
+	n|animal-PL adv|out adv|there .
+*INV:	okay . 36280_37430
+%mor:	co|okay .
+*INV:	(.) okay . 37430_40622
+%mor:	co|okay .
+@End

@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/t-00002501-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|male|MCI||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	120-0c, audio
+*INV:	okay . 0_690
+%mor:	co|okay .
+*INV:	and here's the picture . 690_2119
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	okay . [+ exc] 2119_3660
+%mor:	co|okay .
+*PAR:	the boy is getting cookies from the cookie jar and handing one <to his> [//] to the girl . 3551_10491
+%mor:	det|the n|boy aux|be&3S part|get-PRESP n|cookie-PL prep|from
+	det|the n|cookie n|jar coord|and part|hand-PRESP det:num|one prep|to
+	det|the n|girl .
+*PAR:	oh and the woman is wiping the dishes with her back to the children . 10491_17512
+%mor:	co|oh coord|and det|the n|woman aux|be&3S part|wipe-PRESP det|the
+	n|dish-PL prep|with pro:poss:det|her n|back prep|to det|the
+	n|child&PL .
+*PAR:	and the sink is running over and spilling water onto the floor . 17512_22214
+%mor:	conj|and det|the n|sink aux|be&3S part|run-PRESP adv|over coord|and
+	part|spill-PRESP n|water prep|onto det|the n|floor .
+*PAR:	I guess that's all the action . [+ exc] 22214_26215
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S adv|all det|the n|action .
+*PAR:	oh no the [/] the stool &=laughs is [/] &ti is tipping over . 26395_29681
+%mor:	co|oh co|no det|the n|stool aux|be&3S part|tip-PRESP adv|over .
+*PAR:	&=laughs the stool that the boy is standing on is tipping over . 29681_33185
+%mor:	det|the n|stool rel|that det|the n|boy aux|be&3S part|stand-PRESP
+	adv|on aux|be&3S part|tip-PRESP adv|over .
+*PAR:	that appears to be all the action . [+ exc]  33185_38787
+%mor:	rel|that v|appear-3S inf|to cop|be qn|all det|the n|action .
+*INV:	okay ? 38787_42472
+%mor:	co|okay ?
+*PAR:	mhm . [+ exc] 42472_43344
+%mor:	co|yes .
+*INV:	okay good . 43344_45120
+%mor:	co|okay adj|good .
+@End

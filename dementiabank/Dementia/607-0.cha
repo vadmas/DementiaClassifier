@@ -1,0 +1,63 @@
+@UTF8
+@PID:	11312/t-00002701-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|PossibleAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	607-0c, audio
+*INV:	picture . 0_225
+%mor:	n|picture .
+*INV:	tell me what you see going on in that picture . 225_2478
+%mor:	v|tell pro:obj|me pro:wh|what pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|that n|picture .
+*INV:	(.) can you tell me what's going on in that picture ? 2478_9161
+%mor:	mod|can pro|you v|tell pro:obj|me pro:wh|what~aux|be&3S
+	part|go-PRESP adv|on prep|in det|that n|picture ?
+*PAR:	yeah . [+ exc] 9161_9447
+%mor:	co|yeah .
+*PAR:	the [/] the little boy's trying to get into the cookie jar . 9447_12394
+%mor:	det|the adj|little n|boy~poss|s part|try-PRESP inf|to v|get
+	prep|into det|the n|cookie n|jar .
+*PAR:	and a little girl is [//] has her hand out for the cookie . 12394_16376
+%mor:	conj|and det|a adj|little n|girl v|have&3S pro:poss:det|her n|hand
+	adv|out prep|for det|the n|cookie .
+*PAR:	and the mother's &wa dryin(g) dishes . 16376_18372
+%mor:	conj|and det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	but they drop something +//. 18372_19818
+%mor:	conj|but pro:sub|they v|drop pro:indef|something +//.
+*PAR:	oh no she [/] &sp she let the water run over . 19818_22707
+%mor:	co|oh co|no pro:sub|she v|let&ZERO det|the n|water v|run adv|over .
+*PAR:	and the little boy's he's going to fall off the chair [: stool] [* s:r] if he doesn't &=laughs +... 22707_30053
+%mor:	conj|and det|the adj|little n|boy~poss|s pro:sub|he~aux|be&3S
+	part|go-PRESP prep|to n|fall prep|off det|the n|stool conj|if
+	pro:sub|he mod|do&3S~neg|not +...
+*PAR:	oh I guess that's a &j cookie jar, that little girl . 30053_35142
+%mor:	co|oh pro:sub|I v|guess pro:dem|that~mod|do&3S det|a n|cookie n|jar
+	cm|cm rel|that adj|little n|girl .
+*PAR:	the little boy is gonna [: going to] fall off the chair [: stool] [* s:r] if he doesn't be careful . 35142_39374
+%mor:	det|the adj|little n|boy aux|be&3S part|go-PRESP prep|to n|fall
+	prep|off det|the n|stool conj|if pro:sub|he mod|do&3S~neg|not aux|be
+	co|careful .
+*INV:	what's happening over here ? 39374_40678
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|over pro:dem|here ?
+*PAR:	it's the water . 40678_41675
+%mor:	pro|it~cop|be&3S det|the n|water .
+*PAR:	I said that . [+ exc] 41675_44035
+%mor:	pro:sub|I v|say&PAST rel|that .
+*PAR:	the water was running over the sink . 44035_45666
+%mor:	det|the n|water aux|be&PAST&13S part|run-PRESP prep|over det|the
+	n|sink .
+*INV:	+< okay . 44535_45200
+%mor:	co|okay .
+*PAR:	you_know sinks xxx . 45666_46802
+%mor:	co|you_know v|sink-3S .
+*INV:	okay . 46102_47366
+%mor:	co|okay .
+*PAR:	and &uh what else is there ? [+ exc] 47366_49900
+%mor:	conj|and pro:wh|what post|else aux|be&3S adv|there ?
+*PAR:	there are a few dishes there . 49900_51110
+%mor:	adv|there cop|be&PRES det|a qn|few n|dish-PL adv|there .
+*INV:	(.) okay that's fine . 51110_55013
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

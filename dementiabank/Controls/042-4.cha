@@ -1,0 +1,35 @@
+@UTF8
+@PID:	11312/t-00002213-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	042-4c, audio
+*PAR:	&uh the sink is overflowing . 0_2947
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	&uh mother is drying a dish . 2947_5884
+%mor:	n|mother aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	&um okay the boy is falling off the stool while he's getting a cookie out o(f) the [/] &k the &uh kitchen cupboard there . 5884_14895
+%mor:	co|okay det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the
+	n|stool conj|while pro:sub|he~aux|be&3S part|get-PRESP det|a
+	n|cookie adv|out prep|of det|the n|kitchen n|cupboard adv|there .
+*PAR:	the girl is reaching up for a cookie . 14895_18635
+%mor:	det|the n|girl aux|be&3S part|reach-PRESP adv|up prep|for det|a
+	n|cookie .
+*PAR:	&um let's see . [+ exc] 18635_22376
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	&um +... [+ exc] 22376_27466
+*INV:	anything else ? 27466_28406
+%mor:	pro:indef|anything post|else ?
+*PAR:	dishes on the counter but there's no action with them I guess &=laughs . [+ gram]  28406_33307
+%mor:	n|dish-PL prep|on det|the n|counter conj|but
+	pro:exist|there~cop|be&3S qn|no n|action prep|with pro:obj|them
+	pro:sub|I v|guess .
+*INV:	okay . 33307_34057
+%mor:	co|okay .
+*PAR:	+< &uh guess that's all I see . [+ exc] 33557_35382
+%mor:	n|guess pro:dem|that~mod|do&3S pro:indef|all pro:sub|I v|see .
+*INV:	okay good . 35382_36266
+%mor:	co|okay adj|good .
+@End

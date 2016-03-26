@@ -1,0 +1,73 @@
+@UTF8
+@PID:	11312/t-00002276-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	121-3c, audio
+*INV:	now I want you to tell me everything that you see happening in that picture . 0_3460
+%mor:	adv|now pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*INV:	everything that you see going on there . 3460_6305
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP
+	prep|on pro:dem|there .
+*PAR:	alright  . [+ exc] 6305_8550
+%mor:	co|alright .
+*PAR:	&um the mother is standing at the kitchen sink . 8550_12575
+%mor:	det|the n|mother aux|be&3S part|stand-PRESP prep|at det|the
+	n|kitchen n|sink .
+*PAR:	the water is overflowing the sink and she's paying no attention to it even though her foot is in a puddle . 12575_18352
+%mor:	det|the n|water aux|be&3S over#part|flow-PRESP det|the n|sink
+	coord|and pro:sub|she~aux|be&3S part|pay-PRESP qn|no n|attention
+	prep|to pro|it adj|even adv|though pro:poss:det|her n|foot cop|be&3S
+	prep|in det|a n|puddle .
+*PAR:	&uh she's drying a plate . 18352_21015
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|a n|plate .
+*PAR:	the window is open . 21015_23792
+%mor:	det|the n|window aux|be&3S adv|open .
+*PAR:	I believe it's open and it looks out onto the sidewalk and the &n &um house or garage next door . 23792_32453
+%mor:	pro:sub|I v|believe pro|it~cop|be&3S adj|open coord|and pro|it
+	v|look-3S adv|out prep|onto det|the n|sidewalk coord|and det|the
+	n|house coord|or n|garage adj|next n|door .
+*PAR:	it has curtains in the window . 32453_34163
+%mor:	pro|it aux|have&3S n|curtain-PL prep|in det|the n|window .
+*PAR:	&um the &w woman is smiling . 34163_37759
+%mor:	det|the n|woman aux|be&3S part|smile-PRESP .
+*PAR:	&um there are cup [/] two cups and a plate on the counter . 37759_42912
+%mor:	adv|there cop|be&PRES det:num|two n|cup-PL coord|and det|a n|plate
+	prep|on det|the n|counter .
+*PAR:	<the &s boy> [/] the little boy is on the stool which is tipping over and he's reaching for a cookie . 42912_51374
+%mor:	det|the adj|little n|boy aux|be&3S prep|on det|the n|stool
+	rel|which cop|be&3S part|tip-PRESP adv|over coord|and
+	pro:sub|he~aux|be&3S part|reach-PRESP prep|for det|a n|cookie .
+*PAR:	he has one right in hand down to his sister or a friend . 51374_55283
+%mor:	pro:sub|he v|have&3S det:num|one adv|right prep|in n|hand adv|down
+	prep|to pro:poss:det|his n|sister coord|or det|a n|friend .
+*PAR:	and he's taking another one out of the cookie jar . 55283_58242
+%mor:	conj|and pro:sub|he~aux|be&3S part|take-PRESP qn|another
+	pro:indef|one adv|out prep|of det|the n|cookie n|jar .
+*PAR:	the lid is slid off to the side . 58242_60309
+%mor:	det|the n|lid aux|be&3S part|slide&PASTP adv|off prep|to det|the
+	n|side .
+*PAR:	the little girl is standing beside him &um on the floor . 60309_66023
+%mor:	det|the adj|little n|girl aux|be&3S part|stand-PRESP prep|beside
+	pro:obj|him prep|on det|the n|floor .
+*PAR:	and &um she (is) [//] &uh has her finger up to her lips as if she's saying +"/. 66023_70609
+%mor:	conj|and pro:sub|she v|have&3S pro:poss:det|her n|finger adv|up
+	prep|to pro:poss:det|her n|lip-PL adv|as conj|if
+	pro:sub|she~aux|be&3S part|say-PRESP +"/.
+*PAR:	+" be quiet mother might hear you . 70609_72241
+%mor:	cop|be adj|quiet n|mother mod|might v|hear pro|you .
+*PAR:	and she's reaching up her hand for the cookie he has . 72241_74810
+%mor:	conj|and pro:sub|she~aux|be&3S part|reach-PRESP prep|up
+	pro:poss:det|her n|hand prep|for det|the n|cookie pro:sub|he
+	v|have&3S .
+*PAR:	cupboard door is open .  [+ gram] 74810_76948
+%mor:	n|cupboard n|door aux|be&3S adv|open .
+*PAR:	obviously . [+ exc] 76948_79158
+%mor:	adv|obvious&dadj-LY .
+*INV:	okay ? 79158_82534
+%mor:	co|okay ?
+@End

@@ -1,0 +1,56 @@
+@UTF8
+@PID:	11312/t-00002220-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	055-0c, audio
+*INV:	okay and here's the picture . 0_1713
+%mor:	co|okay coord|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	&=clears:throat a girl and a boy and a stool . [+ gram] 1713_8467
+%mor:	det|a n|girl coord|and det|a n|boy coord|and det|a n|stool .
+*PAR:	cookies . [+ gram] 8467_10100
+%mor:	n|cookie-PL .
+*PAR:	cookie jar .  [+ gram] 10100_11081
+%mor:	n|cookie n|jar .
+*PAR:	open closet .  [+ gram] 11081_13932
+%mor:	adv|open v|closet .
+*INV:	okay .13932_15594
+%mor:	co|okay .
+*PAR:	curtains .  [+ gram] 15594_16592
+%mor:	n|curtain-PL .
+*INV:	+< what's going on in the picture ? 16000_17490
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*INV:	what kind of action is there ? 17490_18978
+%mor:	pro:wh|what n|kind prep|of n|action cop|be&3S adv|there ?
+*PAR:	oh the little boy's reaching for the cookies and the stool's falling over .18978_23566
+%mor:	co|oh det|the adj|little n|boy~poss|s part|reach-PRESP prep|for
+	det|the n|cookie-PL coord|and det|the n|stool~aux|be&3S
+	part|fall-PRESP adv|over .
+*PAR:	she's laughing I think &wai waiting for a cookie .23566_28627
+%mor:	pro:sub|she~aux|be&3S part|laugh-PRESP pro:sub|I v|think
+	part|wait-PRESP prep|for det|a n|cookie .
+*PAR:	the mother's drying dishes .28627_31812
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	the water's spilling over .31812_34291
+%mor:	det|the n|water~aux|be&3S part|spill-PRESP adv|over .
+*PAR:	there's two tea [//] &k coffee cups, a saucer a plate .34291_40159
+%mor:	pro:exist|there~cop|be&3S det:num|two n|coffee n|cup-PL cm|cm det|a
+	n|saucer det|a n|plate .
+*PAR:	let me see . [+ exc] 40159_41622
+%mor:	v|let&ZERO pro:obj|me v|see .
+*PAR:	the (.) view from the outside .  [+ gram] 41622_44600
+%mor:	det|the n|view prep|from det|the adj|outside .
+*PAR:	a tree and some shrubs .  [+ gram] 44600_46023
+%mor:	det|a n|tree coord|and qn|some n|shrub-PL .
+*PAR:	(..) the plate she's wiping . [+ gram] 46023_54839
+%mor:	det|the n|plate pro:sub|she~aux|be&3S part|wipe-PRESP .
+*PAR:	tea towel .  [+ gram] 54839_55817
+%mor:	n|tea n|towel .
+*PAR:	any more ? [+ exc] 55817_59255
+%mor:	qn|any pro:indef|more ?
+*INV:	hmhmm that's fine .59255_60894
+%mor:	co|no pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,68 @@
+@UTF8
+@PID:	11312/t-00016621-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	270-0s, audio
+*INV:	pencil@q . 0_2631
+%mor:	meta|pencil .
+*PAR:	the pencil is in the pencil box . 2631_4732
+%mor:	det|the n|pencil cop|be&3S prep|in det|the n|pencil n|box .
+*INV:	tree@q . 4732_11984
+%mor:	meta|tree .
+*PAR:	the tree &=clears:throat leaves are in bloom . 11984_15361
+%mor:	det|the n|tree n|leaf-PL cop|be&PRES prep|in n|bloom .
+*PAR:	is that alright &=laughs ? [+ exc] 15361_17228
+%mor:	cop|be&3S pro:dem|that adj|alright  ?
+*PAR:	okay . [+ exc] 17228_17985
+%mor:	co|okay .
+*INV:	now I'm gonna give you two words . 17985_22600
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	now I don't want you to worry about the order of the two words . 22600_25232
+%mor:	adv|now pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry
+	prep|about det|the n|order prep|of det|the det:num|two n|word-PL .
+*INV:	but use both of them in a sentence . 25232_26816
+%mor:	conj|but n|use qn|both prep|of pro:obj|them prep|in det|a
+	n|sentence .
+*INV:	the same sentence . 26816_27798
+%mor:	det|the adj|same n|sentence .
+*PAR:	the same +/? [+ exc] 27798_28257
+%mor:	det|the adj|same +/?
+*INV:	child@q hospital@q . 28257_29852
+%mor:	meta|child meta|hospital .
+*PAR:	the child went to the hospital . 29852_33025
+%mor:	det|the n|child v|go&PAST prep|to det|the n|hospital .
+*INV:	cold@q winter@q . 33025_39000
+%mor:	meta|cold meta|winter .
+*PAR:	it was a frigid cold winter . 39000_43065
+%mor:	pro|it cop|be&PAST&13S det|a adj|frigid adj|cold n|winter .
+*PAR:	we've had one of those &=laughs . [+ exc] 43065_47500
+%mor:	pro:sub|we~aux|have part|have&PASTP pro:indef|one prep|of
+	pro:dem|those .
+*INV:	&=laughs . 47500_48621
+*PAR:	&=gasps I'll never forget that ! [+ exc] 48621_49818
+%mor:	pro:sub|I~mod|will adv|never v|forget pro:dem|that !
+*PAR:	I don't imagine any of us will &=laughs . [+ exc] 49818_52700
+%mor:	pro:sub|I mod|do~neg|not v|imagine qn|any prep|of pro:obj|us
+	mod|will .
+*INV:	+< &=laughs . 52000_53000
+*INV:	okay ‡ now I'm going to give you three words again in the same
+	sentence . 53000_56635
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|three n|word-PL adv|again prep|in det|the
+	adj|same n|sentence .
+*INV:	chair@q doctor@q sit@q . 56635_59500
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor asked me to sit down . 59500_62612
+%mor:	det|the n|doctor v|ask-PAST pro:obj|me inf|to v|sit adv|down .
+*INV:	(..) bureau@q open@q drawer@q . 62612_72292
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	the top drawer of the bureau is open . 72292_75498
+%mor:	det|the adj|top n|drawer prep|of det|the n|bureau cop|be&3S
+	adj|open .
+*INV:	(..) okay good . 75498_85613
+%mor:	co|okay adj|good .
+@End

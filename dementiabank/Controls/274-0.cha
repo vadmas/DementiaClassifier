@@ -1,0 +1,53 @@
+@UTF8
+@PID:	11312/t-00002378-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|54;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	274-0c, audio
+*INV:	okay I just want you to tell me what you see going on in that picture ? 125_3848
+%mor:	co|okay pro:sub|I adv|just v|want pro|you inf|to v|tell pro:obj|me
+	pro:wh|what pro|you v|see n:gerund|go-PRESP adv|on prep|in det|that
+	n|picture ?
+*PAR:	well the water's running over . 3848_5385
+%mor:	co|well det|the n|water~aux|be&3S part|run-PRESP adv|over .
+*PAR:	<the stool is> [//] and the boy's gonna [: going to] fall off the stool  . 5385_9042
+%mor:	conj|and det|the n|boy~aux|be&3S part|go-PRESP inf|to v|fall
+	prep|off det|the n|stool .
+*PAR:	the girl is saying +"/. 9042_11100
+%mor:	det|the n|girl aux|be&3S part|say-PRESP +"/.
+*PAR:	+" give me one or I will tell . 11100_12682
+%mor:	v|give pro:obj|me pro:indef|one coord|or pro:sub|I mod|will v|tell
+	.
+*PAR:	and the boy is taking the second one out of the cookie jar . 12682_15677
+%mor:	conj|and det|the n|boy aux|be&3S part|take-PRESP det|the n|second
+	det:num|one adv|out prep|of det|the n|cookie n|jar .
+*PAR:	the lid's gonna [: going to] fall off . 15677_16811
+%mor:	det|the n|lid~aux|be&3S part|go-PRESP inf|to v|fall adv|off .
+*PAR:	the mother's drying the dishes . 16811_19362
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	(.) the &um window is open . 19362_24555
+%mor:	det|the n|window aux|be&3S adv|open .
+*PAR:	(..) she's standing in the water . 24555_28668
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the n|water .
+*PAR:	she's drying the dishes  . 28668_32941
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*INV:	(...) anything else ? 32941_45742
+%mor:	pro:indef|anything post|else ?
+*PAR:	wait &w you want what's in the picture or what's going on ? [+ exc] 45742_47877
+%mor:	co|wait pro|you v|want rel|what~mod|do&3S prep|in det|the n|picture
+	conj|or rel|what~mod|do&3S part|go-PRESP adv|on ?
+*PAR:	I thought you said what's going on ? [+ exc] 47877_49150
+%mor:	pro:sub|I v|think&PAST pro|you v|say&PAST pro:wh|what~aux|be&3S
+	part|go-PRESP adv|on ?
+*INV:	just what was going on . 49150_50365
+%mor:	adv|just pro:wh|what aux|be&PAST&13S part|go-PRESP adv|on .
+*PAR:	+< okay actio(n) [//] so it's got to be action . [+ exc] 49700_52000
+%mor:	co|okay co|so pro|it~aux|be&3S part|get&PASTP inf|to cop|be
+	n|action .
+*PAR:	&um that's all . [+ exc] 52000_55020
+%mor:	pro:dem|that~cop|be&3S pro:indef|all .
+*INV:	okay . 55020_55751
+%mor:	co|okay .
+@End

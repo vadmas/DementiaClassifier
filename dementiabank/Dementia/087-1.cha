@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002492-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|female|ProbableAD||Participant|3||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	087-1c, audio
+*INV:	what's going on in the picture ? 0_2610
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	<in here> [//] look this [/] this &uh way ? [+ exc] 2610_5536
+%mor:	v|look pro:dem|this n|way ?
+*INV:	+< mhm, mhm . 4500_6195
+%mor:	co|yes cm|cm co|yes .
+*PAR:	well I really don't know (be)cause they haven't gotten things turned up (.) right . [+ jar] [+ exc] 6195_12623
+%mor:	co|well pro:sub|I adv|real&dadj-LY mod|do~neg|not v|know
+	conj|because pro:sub|they aux|have~neg|not part|get&PASTP n|thing-PL
+	v|turn-PAST prep|up n|right .
+*INV:	have a look at the picture see if you can tell me what's going on . 12157_19221
+%mor:	v|have det|a n|look prep|at det|the n|picture v|see conj|if pro|you
+	mod|can v|tell pro:obj|me pro:wh|what~aux|be&3S part|go-PRESP adv|on
+	.
+*PAR:	not in this one . [+ exc] [+ es] 19221_25239
+%mor:	neg|not prep|in det|this pro:indef|one .
+*PAR:	maybe under this right here . [+ exc] [+ es] 25239_28683
+%mor:	adv|maybe prep|under det|this adv|right adv|here .
+*INV:	what is it ? 28683_29580
+%mor:	pro:wh|what aux|be&3S pro|it ?
+*PAR:	it's like a +...  29580_33555
+%mor:	pro|it~cop|be&3S rel|like det|a +...
+*PAR:	no it isn't . [+ exc] 33555_35035
+%mor:	co|no pro|it cop|be&3S~neg|not .
+*PAR:	(..) (loo)ks like &s this is a kind of thing that who [//] whoever xxx . [+ jar] 35035_52158
+%mor:	n|look-PL prep|like pro:dem|this cop|be&3S det|a n|kind prep|of
+	n|thing rel|that pro:wh|whoever .
+*INV:	what is it that's happening here ? 52158_54957
+%mor:	pro:wh|what aux|be&3S pro|it rel|that~aux|be&3S part|happen-PRESP
+	adv|here ?
+*PAR:	she's cleaning . 54957_56682
+%mor:	pro:sub|she~aux|be&3S part|clean-PRESP .
+*INV:	(.) and what are they doing ? 56682_65210
+%mor:	conj|and adv|what aux|be&PRES pro:sub|they part|do-PRESP ?
+*PAR:	looking to see what they have so they can get it ready for bed I guess . [+ gram] 65210_71900
+%mor:	part|look-PRESP inf|to v|see pro:wh|what pro:sub|they v|have
+	conj|so pro:sub|they mod|can v|get pro|it v|ready prep|for n|bed
+	pro:sub|I v|guess .
+*PAR:	I don't know . [+ exc] 71900_72714
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	his hair [* s:uk] is down . [+ jar] 72714_74826
+%mor:	pro:poss:det|his n|hair cop|be&3S adv|down .
+*PAR:	it's fallen down a_lot . 74826_76214
+%mor:	pro|it~aux|be&3S part|fall&PASTP adv|down adv|a_lot .
+@End

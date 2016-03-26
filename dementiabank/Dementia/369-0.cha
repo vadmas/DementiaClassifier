@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002646-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|female|ProbableAD||Participant|22||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	369-0c, audio
+*INV:	on in the picture . 0_1713
+%mor:	adv|on prep|in det|the n|picture .
+*PAR:	mhm . [+ exc] 1713_2926
+%mor:	co|yes .
+*PAR:	&hm well &sh (..) she's &um spillin(g) the water from [/] from washin(g) &uh her dishes . 2926_23051
+%mor:	co|well pro:sub|she~aux|be&3S part|spill-PRESP det|the n|water
+	prep|from n:gerund|wash-PRESP pro:poss:det|her n|dish-PL .
+*PAR:	it's [/] it's runnin(g) over rather . 23051_26521
+%mor:	pro|it~aux|be&3S part|run-PRESP adv|over adv|rather .
+*PAR:	in the (.) the youngsters are [/] are &uh getting the jam [* s:uk] . 26521_44108
+%mor:	prep|in det|the det|the n|youngster-PL aux|be&PRES part|get-PRESP
+	det|the n|jam .
+*PAR:	and in the meantime he's tiltin(g) his chair [: stool] [* s:r] &=laughs . 44108_57183
+%mor:	conj|and prep|in det|the n|meantime pro:sub|he~aux|be&3S
+	part|tilt-PRESP pro:poss:det|his n|stool .
+*INV:	anything else ? 57183_68777
+%mor:	pro:indef|anything post|else ?
+*PAR:	hm ? [+ exc] 68777_70581
+%mor:	co|hm ?
+*INV:	that you see going on in the picture . 70581_72729
+%mor:	rel|that pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the
+	n|picture .
+*PAR:	<he is> [//] he's [/] he's trying to get the cake [* s:uk] down where &sh &sh I suppose she can share with him . 72729_84730
+%mor:	pro:sub|he~aux|be&3S part|try-PRESP inf|to v|get det|the n|cake
+	adv|down rel|where pro:sub|I v|suppose pro:sub|she mod|can v|share
+	prep|with pro:obj|him .
+*PAR:	<and then> [//] <and the mother is> [//] &uh &lis the water is runnin(g) over &=laughs which she doesn't seem to be aware of it too much . [+ gram] 84730_103919
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|over rel|which
+	pro:sub|she mod|do&3S~neg|not v|seem inf|to cop|be adj|aware prep|of
+	pro|it adv|too qn|much .
+*PAR:	and <his chair [: stool] [* s:r-ret] is slippin(g) out from> [//]
+	&uh the stool is slippin(g) out from under him &=laughs . 103919_120727
+%mor:	conj|and det|the n|stool aux|be&3S part|slip-PRESP adv|out
+	prep|from adv|under pro:obj|him .
+*INV:	okay . 120727_134345
+%mor:	co|okay .
+*INV:	that's fine . 134345_135903
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+@End

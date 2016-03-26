@@ -1,0 +1,75 @@
+@UTF8
+@PID:	11312/t-00002468-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|85;|female|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	057-2c, audio
+*INV:	going on in that picture . 0_1144
+%mor:	part|go-PRESP adv|on prep|in det|that n|picture .
+*INV:	tell me everything that you see happening in that picture . 1144_3971
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture .
+*PAR:	&um the little boy is gettin(g) the cookies [//] cookie jar opened and is giving &uh one to his sister I think . 3971_26647
+%mor:	det|the adj|little n|boy aux|be&3S part|get-PRESP det|the n|cookie
+	n|jar v|open-PAST coord|and aux|be&3S part|give-PRESP det:num|one
+	prep|to pro:poss:det|his n|sister pro:sub|I v|think .
+*PAR:	I don't know how many to his sister and that's where that &s ends . 26647_33898
+%mor:	pro:sub|I mod|do~neg|not v|know adv:wh|how qn|many prep|to
+	pro:poss:det|his n|sister conj|and pro:dem|that~cop|be&3S rel|where
+	rel|that v|end-3S .
+*PAR:	and the fact that also that &th he's [/] he's bumpin(g) [* s:uk] over the &uh chair [: stool] [* s:r] . [+ gram] 33898_43203
+%mor:	conj|and det|the n|fact rel|that adv|also rel|that
+	pro:sub|he~aux|be&3S part|bump-PRESP prep|over det|the n|stool .
+*PAR:	so that's [//] &uh he's gonna [: going to] get hurt . 43203_46495
+%mor:	co|so pro:sub|he~aux|be&3S part|go-PRESP inf|to v|get n|hurt .
+*PAR:	and his &um mother is [/] &uh is &uh +"/. 46495_52895
+%mor:	conj|and pro:poss:det|his n|mother cop|be&3S +"/.
+*PAR:	+" oh &re really . 52895_54641
+%mor:	co|oh adv|real&dadj-LY .
+*PAR:	<his [/] &uh his mother is>  [//] &uh she must be talkin(g) to somebody . 54641_62040
+%mor:	pro:sub|she mod|must aux|be part|talk-PRESP prep|to
+	pro:indef|somebody .
+*PAR:	but anyway she [//] &uh the water's running over (.) and running on the floor . 62040_70581
+%mor:	conj|but adv|anyway det|the n|water~aux|be&3S part|run-PRESP
+	adv|over coord|and part|run-PRESP prep|on det|the n|floor .
+*PAR:	boy and then the cookie jars they +... 70581_74000
+%mor:	co|boy coord|and adv:tem|then det|the n|cookie n|jar-PL
+	pro:sub|they +...
+*PAR:	and he's gonna [: going to] fall . 74000_75646
+%mor:	conj|and pro:sub|he~aux|be&3S part|go-PRESP inf|to v|fall .
+*PAR:	and the little girl she's still tryin(g) to calm him +"/. 75646_81415
+%mor:	conj|and det|the adj|little n|girl pro:sub|she~aux|be&3S adv|still
+	part|try-PRESP inf|to v|calm pro:obj|him +"/.
+*PAR:	+" sh@o . 81415_82496
+%mor:	on|sh .
+*PAR:	she's puttin(g) her finger to her lips . 82496_84956
+%mor:	pro:sub|she~aux|be&3S part|put-PRESP pro:poss:det|her n|finger
+	prep|to pro:poss:det|her n|lip-PL .
+*PAR:	and then the +... 84956_89400
+%mor:	conj|and adv:tem|then det|the +...
+*PAR:	I don't know what that's +... [+ exc] 89400_92326
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro:dem|that~mod|do&3S
+	+...
+*PAR:	I don't know <what's that> [//] <what that> [/] what that +/. [+ exc] 92326_97149
+%mor:	pro:sub|I mod|do~neg|not v|know adv|what adv|that +/.
+*PAR:	well that must be some kind of a +... 97149_100500
+%mor:	co|well pro:dem|that mod|must cop|be qn|some n|kind prep|of det|a
+	+...
+*PAR:	I don't know . [+ exc] 100500_101554
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	<I can't> [//] &i &i it's upside down . 101554_104929
+%mor:	pro|it~cop|be&3S adv|upside adv|down .
+*PAR:	and then when I get it upside down I can't +... [+ exc] 104929_109999
+%mor:	conj|and adv:tem|then conj|when pro:sub|I v|get pro|it up#v|side
+	adv|down pro:sub|I mod|can~neg|not +...
+*PAR:	cappdf@k seven [//] five seven . [+ exc] [+ gram] 109999_118555
+%mor:	n:let|cappdf det:num|five det:num|seven .
+*PAR:	I don't know what that is . [+ exc] 118555_121334
+%mor:	pro:sub|I mod|do~neg|not v|know adv|what adv|that cop|be&3S .
+*PAR:	that's about all . [+ exc] 121334_123576
+%mor:	pro:dem|that~cop|be&3S adv|about adv|all .
+*INV:	okay . 123576_125007
+%mor:	co|okay .
+@End

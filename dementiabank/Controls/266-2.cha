@@ -1,0 +1,74 @@
+@UTF8
+@PID:	11312/t-00002375-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	266-2c, audio
+*PAR:	&uh it's &uh a kitchen scene . 0_4873
+%mor:	pro|it~cop|be&3S det|a n|kitchen n|scene .
+*PAR:	and the mother is doing the dishes . 4873_7270
+%mor:	conj|and det|the n|mother aux|be&3S part|do-PRESP det|the n|dish-PL
+	.
+*PAR:	the children are trying to get into the cookie jar . 7270_10991
+%mor:	det|the n|child&PL aux|be&PRES part|try-PRESP inf|to v|get
+	prep|into det|the n|cookie n|jar .
+*PAR:	the stool is falling over . 10991_14117
+%mor:	det|the n|stool aux|be&3S part|fall-PRESP adv|over .
+*PAR:	the water is running over in the sink . 14117_17624
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|over prep|in det|the
+	n|sink .
+*PAR:	the [//] &um &win it looks as though the window is open . 17624_22913
+%mor:	pro|it v|look-3S conj|as adv|though det|the n|window aux|be&3S
+	adj|open .
+*PAR:	and there (.) is grass and what have you, &t grass and trees outside . 22913_30769
+%mor:	conj|and pro:exist|there cop|be&3S v|grass coord|and pro:wh|what
+	aux|have pro|you cm|cm n|grass coord|and n|tree-PL adv|outside .
+*PAR:	looks like the curtains might be billowing a little .  [+ gram] 30769_34163
+%mor:	n|look-PL prep|like det|the n|curtain-PL mod|might aux|be
+	part|billow-PRESP det|a adj|little .
+*PAR:	the little girl is asking the boy for a cookie . 34163_38399
+%mor:	det|the adj|little n|girl aux|be&3S part|ask-PRESP det|the n|boy
+	prep|for det|a n|cookie .
+*PAR:	and let's see . [+ exc] 38399_41400
+%mor:	conj|and v|let~pro:obj|us v|see .
+*PAR:	the mother's drying the dishes . 41400_43094
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	and (..) she's standing in the water . 43094_51672
+%mor:	conj|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the
+	n|water .
+*PAR:	looks like there are a couple dishes that have already been dried sitting on the sink .  [+ gram] 51672_58706
+%mor:	v|look-3S prep|like pro:dem|there cop|be&PRES det|a n|couple
+	v|dish-3S rel|that aux|have adv|already aux|be&PASTP v|dry-PAST
+	n:gerund|sit-PRESP prep|on det|the n|sink .
+*PAR:	(..) I guess that's all I see . [+ exc] 58706_63845
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S pro:indef|all pro:sub|I
+	v|see .
+*INV:	can you tell me what's going on over here ? 63845_66286
+%mor:	mod|can pro|you v|tell pro:obj|me pro:wh|what~aux|be&3S
+	part|go-PRESP adv|on prep|over pro:dem|here ?
+*PAR:	pardon me ? [+ exc] 66286_67267
+%mor:	v|pardon pro:obj|me ?
+*INV:	tell me this again . 67267_68415
+%mor:	v|tell pro:obj|me det|this adv|again .
+*PAR:	I might have missed it what you said . [+ exc] 68415_69630
+%mor:	pro:sub|I mod|might aux|have part|miss-PASTP pro|it pro:wh|what
+	pro|you v|say&PAST .
+*PAR:	oh I said the little boy's tryin(g) to get some cookies out of the cookie jar . [+ exc] 69630_73400
+%mor:	co|oh pro:sub|I v|say&PAST det|the adj|little n|boy~poss|s
+	part|try-PRESP inf|to v|get qn|some n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar .
+*INV:	+< okay .  72525_73300
+%mor:	co|okay .
+*PAR:	and the little girl's asking for a cookie . [+ exc] 73400_75400
+%mor:	conj|and det|the adj|little n|girl~mod|do&3S part|ask-PRESP
+	prep|for det|a n|cookie .
+*PAR:	and the stool looks as though it's going to fall over . [+ exc] 75400_78299
+%mor:	conj|and det|the n|stool n|look-PL conj|as conj|though
+	pro|it~aux|be&3S part|go-PRESP inf|to v|fall adv|over .
+*INV:	okay . 78299_79696
+%mor:	co|okay .
+*INV:	okay good . 79696_82285
+%mor:	co|okay adj|good .
+@End

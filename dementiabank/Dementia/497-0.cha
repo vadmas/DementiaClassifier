@@ -1,0 +1,52 @@
+@UTF8
+@PID:	11312/t-00002667-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	497-0c, audio
+*INV:	you see going on in the picture ? 0_2957
+%mor:	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	well the little boy went up to get some cookies . 2957_7429
+%mor:	co|well det|the adj|little n|boy v|go&PAST adv|up inf|to v|get
+	qn|some n|cookie-PL .
+*PAR:	and the little girl reaching up to give the jar <to the> [//] &cook to her brother . 7429_14801
+%mor:	conj|and det|the adj|little n|girl part|reach-PRESP adv|up inf|to
+	v|give det|the n|jar prep|to pro:poss:det|her n|brother .
+*PAR:	the mother is washing dishes . 14801_17168
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	<and the> [//] &wa and the [/] &uh the sink is <full of dish(es)> [//] &uh full of water . 17168_22225
+%mor:	conj|and det|the n|sink aux|be&3S adv|full prep|of n|water .
+*PAR:	and the mother is still &uh &uh &w &uh wiping the dishes . 22225_26465
+%mor:	conj|and det|the n|mother cop|be&3S adv|still part|wipe-PRESP
+	det|the n|dish-PL .
+*PAR:	and let's see what else . [+ exc] 26465_29300
+%mor:	conj|and v|let~pro:obj|us v|see pro:wh|what post|else .
+*PAR:	and the boy is &uh almost fallin(g) off this long &s &uh thing here . [+ cir] 29300_37100
+%mor:	conj|and det|the n|boy aux|be&3S adv|almost part|fall-PRESP
+	prep|off det|this adj|long n|thing adv|here .
+*PAR:	&uh what do you wanna [: want to] call this ? [+ exc] 37100_39096
+%mor:	pro:wh|what mod|do pro|you v|want inf|to v|call pro:dem|this ?
+*PAR:	<a chair [: stool] [* s:r-rep]> [/] a chair [: stool] [* s:r] . 39096_40500
+%mor:	det|a n|stool .
+*INV:	+< okay . 39800_41059
+%mor:	co|okay .
+*PAR:	<and &uh the> [//] <and then> [//] &uh and the water's &fa fallin(g) over on the floor by the mother . 41059_46661
+%mor:	conj|and det|the n|water~aux|be&3S part|fall-PRESP adv|over prep|on
+	det|the n|floor prep|by det|the n|mother .
+*PAR:	&a and the little girl's &uh handin(g) [/] &uh handing her [//] &uh something to her brother .  46661_57318
+%mor:	conj|and det|the adj|little n|girl~mod|do&3S part|hand-PRESP
+	pro:indef|something prep|to pro:poss:det|her n|brother .
+*PAR:	and [//] &c &uh cookies it's probably cookies . 57318_59150
+%mor:	n|cookie-PL pro|it~mod|do&3S adj|probable-Y n|cookie-PL .
+*PAR:	or he's handing her a cookies [* m:a] whatever . 59150_60650
+%mor:	conj|or pro:sub|he~aux|be&3S part|hand-PRESP pro:obj|her det|a
+	n|cookie-PL pro:wh|whatever .
+*PAR:	right ? [+ exc] 60800_63160
+%mor:	co|right ?
+*INV:	(o)kay ? 63160_63509
+%mor:	co|okay ?
+*INV:	sure . 63509_64125
+%mor:	adj|sure .
+@End

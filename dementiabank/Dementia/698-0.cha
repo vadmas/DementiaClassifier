@@ -1,0 +1,68 @@
+@UTF8
+@PID:	11312/t-00002726-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|female|ProbableAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	698-0c, audio
+*INV:	xxx picture . 0_2194
+%mor:	n|picture .
+*PAR:	well there's a cookie jar there with the lid off . 2194_10772
+%mor:	co|well pro:exist|there~cop|be&3S det|a n|cookie n|jar adv|there
+	prep|with det|the n|lid adv|off .
+*PAR:	and the kid was up gettin(g) cookies . 10772_13085
+%mor:	conj|and det|the n|kid cop|be&PAST&13S adv|up part|get-PRESP
+	n|cookie-PL .
+*PAR:	and he's upsettin(g) . 13085_17820
+%mor:	conj|and pro:sub|he~aux|be&3S part|upset-PRESP .
+*PAR:	there's a &sp water spigot here . 17820_23767
+%mor:	pro:exist|there~cop|be&3S det|a n|water n|spigot adv|here .
+*INV:	okay &h hang on a second . 23767_31265
+%mor:	co|okay v|hang prep|on det|a n|second .
+*INV:	let me +... 31265_35454
+%mor:	v|let&ZERO pro:obj|me +...
+*INV:	okay . 35454_36385
+%mor:	co|okay .
+*INV:	let me have you look at this again and I want you to tell me everything you see going on right here . 36385_41200
+%mor:	v|let&ZERO pro:obj|me v|have pro|you v|look prep|at det|this
+	adv|again coord|and pro:sub|I v|want pro|you inf|to v|tell
+	pro:obj|me pro:indef|everything pro|you v|see n:gerund|go-PRESP
+	adv|on adv|right adv|here .
+*INV:	what do you see going on there ? 41200_42900
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP prep|on
+	pro:dem|there ?
+*PAR:	that kid's gettin(g) cookies . 42900_44573
+%mor:	det|that n|kid~aux|be&3S part|get-PRESP n|cookie-PL .
+*PAR:	see he got a handful on him . 44573_47127
+%mor:	v|see pro:sub|he v|get&PAST det|a n|hand-FUL prep|on pro:obj|him .
+*INV:	can you see anything else ? 47127_48586
+%mor:	mod|can pro|you v|see pro:indef|anything post|else ?
+*INV:	what else is going on ? 48586_49916
+%mor:	pro:wh|what post|else aux|be&3S part|go-PRESP adv|on ?
+*PAR:	(.) well this is a &c cupboard up here . 49916_62815
+%mor:	co|well pro:dem|this cop|be&3S det|a n|cupboard prep|up
+	pro:dem|here .
+*PAR:	(.) here somebody ate and left the dish set . 62815_74000
+%mor:	adv|here pro:indef|somebody v|eat&PAST coord|and v|leave&PAST
+	det|the n|dish v|set&ZERO .
+*PAR:	and this one's &uh dryin(g) the dishes . 74000_77864
+%mor:	conj|and det|this pro:indef|one~aux|be&3S part|dry-PRESP det|the
+	n|dish-PL .
+*INV:	what else do you see going on here ? 77864_81460
+%mor:	pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP prep|on
+	pro:dem|here ?
+*PAR:	this lady's dryin(g) dishes . 81460_91141
+%mor:	det|this n|lady~aux|be&3S part|dry-PRESP n|dish-PL .
+*INV:	can you see anything else going on ? 91141_94101
+%mor:	mod|can pro|you v|see pro:indef|anything post|else part|go-PRESP
+	adv|on ?
+*PAR:	that's a cookie jar and the little boy is on a ladder [: stool] [* s:r] tryin(g) to get cookies . 94101_98900
+%mor:	pro:dem|that~cop|be&3S det|a n|cookie n|jar coord|and det|the
+	adj|little n|boy cop|be&3S prep|on det|a n|stool part|try-PRESP
+	inf|to v|get n|cookie-PL .
+*INV:	okay . 98900_105000
+%mor:	co|okay .
+*INV:	okay let me take that away . 105000_107215
+%mor:	co|okay v|let&ZERO pro:obj|me v|take rel|that adv|away .
+@End

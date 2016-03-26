@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/t-00002663-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	488-1c, audio
+*INV:	happening . 0_731
+%mor:	part|happen-PRESP .
+*INV:	everything that you see happening in that picture . 731_3238
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*INV:	what's going on in that picture ? 3238_5464
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|that
+	n|picture ?
+*PAR:	the [/] the water's flowing on the floor .  5464_8249
+%mor:	det|the n|water~aux|be&3S part|flow-PRESP prep|on det|the n|floor .
+*INV:	uhhuh . 8249_9000
+%mor:	co|uhhuh .
+*INV:	what else ? 9000_10056
+%mor:	pro:wh|what post|else ?
+*PAR:	and she's drying dishes . 10056_13044
+%mor:	conj|and pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*INV:	mhm . 13044_14009
+%mor:	co|yes .
+*PAR:	and he's up in the cookie jar . 14009_16533
+%mor:	conj|and pro:sub|he~cop|be&3S prep|up prep|in det|the n|cookie
+	n|jar .
+*PAR:	(...) and she's drying dishes . 16533_29618
+%mor:	conj|and pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*INV:	mhm . 29618_31331
+%mor:	co|yes .
+*INV:	okay good . 31331_32300
+%mor:	co|okay adj|good .
+*PAR:	thank you very much . [+ exc] 32300_33479
+%mor:	v|thank pro|you adv|very qn|much .
+@End

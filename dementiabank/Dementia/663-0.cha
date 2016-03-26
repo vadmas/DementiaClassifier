@@ -1,0 +1,27 @@
+@UTF8
+@PID:	11312/t-00002718-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|male|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	663-0c, audio
+*PAR:	well the boy on the chair [: stool] [* s:r] is &uh fallin(g), reachin(g) up for a cookie, handin(g) one to the girl . 0_7580
+%mor:	co|well det|the n|boy prep|on det|the n|stool aux|be&3S
+	part|fall-PRESP cm|cm part|reach-PRESP adv|up prep|for det|a
+	n|cookie cm|cm part|hand-PRESP det:num|one prep|to det|the n|girl .
+*PAR:	the lady is &uh wiping a dish .7580_10330
+%mor:	det|the n|lady aux|be&3S part|wipe-PRESP det|a n|dish .
+*PAR:	water runnin(g) on the floor . [+ gram] 10330_12000
+%mor:	n|water part|run-PRESP prep|on det|the n|floor .
+*PAR:	she's standin(g) in it .12000_13277
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in pro|it .
+*PAR:	(.) &mm (.) trees outside, the lawn, shrubbery . [+ gram] 13277_22111
+%mor:	n|tree-PL adv|outside cm|cm det|the n|lawn cm|cm n|shrubbery .
+*PAR:	a window outside that I can see . [+ gram] 22111_24421
+%mor:	det|a n|window adv|outside rel|that pro:sub|I mod|can v|see .
+*PAR:	(.) that's about it dear . [+ exc] 24342_28182
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it co|dear .
+*INV:	+< that's fine .27674_28249
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/t-00002656-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|male|Vascular||Participant|14||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	468-0c, audio
+*PAR:	(.) oh any [//] anything I see . [+ exc] 0_5067
+%mor:	co|oh pro:indef|anything pro:sub|I v|see .
+*INV:	right . 5067_5777
+%mor:	co|right .
+*PAR:	well there's &uh a little girl here . 5777_10557
+%mor:	co|well pro:exist|there~cop|be&3S det|a adj|little n|girl adv|here
+	.
+*PAR:	(..) she's (..) pointing at something . 10557_23113
+%mor:	pro:sub|she~aux|be&3S part|point-PRESP prep|at pro:indef|something
+	.
+*PAR:	and that looks like &uh (..) her mother [: brother] [* s:r] (.) is just about ready to [/] to fall down <on that> [/] where she's sitting [* s:uk] there (.) where it says cookie jar . [+ cir]  23113_46770
+%mor:	conj|and rel|that n|look-PL co|like pro:obj|her n|brother aux|be&3S
+	adj|just adv|about adj|ready inf|to v|fall adv|down rel|where
+	pro:sub|she~aux|be&3S part|sit-PRESP adv|there rel|where pro|it
+	v|say-3S n|cookie n|jar .
+*PAR:	and here on her right side there's a young lady there . 46770_54736
+%mor:	conj|and adv|here prep|on pro:poss:det|her n|right v|side
+	pro:exist|there~cop|be&3S det|a adj|young n|lady adv|there .
+*PAR:	she's &uh washing the [//] (..) what she &uh +... 54736_64657
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP pro:wh|what pro:sub|she +...
+*PAR:	she's cleaning +/. 64657_69681
+%mor:	pro:sub|she~aux|be&3S part|clean-PRESP +/.
+*INV:	okay . 69681_70913
+%mor:	co|okay .
+*PAR:	+, the &uh +...  70913_79157
+%mor:	det|the +...
+*PAR:	she's cleaning . 79157_81534
+%mor:	pro:sub|she~aux|be&3S part|clean-PRESP .
+*PAR:	what is she +//? [+ exc] 87369_90861
+%mor:	pro:wh|what cop|be&3S pro:sub|she +//?
+*PAR:	she +... 90861_103993
+%mor:	pro:sub|she +...
+@End

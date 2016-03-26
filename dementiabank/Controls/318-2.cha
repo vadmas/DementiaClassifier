@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/t-00002401-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	318-2c, audio
+*INV:	in the picture . 0_515
+%mor:	prep|in det|the n|picture .
+*PAR:	oh my . [+ exc] 715_1963
+%mor:	co|oh pro:poss:det|my .
+*PAR:	well the ladder [: stool] [* s:r] is falling over . 1963_4400
+%mor:	co|well det|the n|stool aux|be&3S part|fall-PRESP adv|over .
+*PAR:	and the boy is reaching for the cookie and is handing it to that little sister I assume . 4400_9480
+%mor:	conj|and det|the n|boy aux|be&3S part|reach-PRESP prep|for det|the
+	n|cookie coord|and aux|be&3S part|hand-PRESP pro|it prep|to det|that
+	adj|little n|sister pro:sub|I v|assume .
+*PAR:	and she's telling him to be quiet (be)cause the mother is going to hear . 9480_14163
+%mor:	conj|and pro:sub|she~aux|be&3S part|tell-PRESP pro:obj|him inf|to
+	cop|be n|quiet conj|because det|the n|mother aux|be&3S part|go-PRESP
+	inf|to v|hear .
+*PAR:	and the (.) sink is splashed over with water as the mother is still drying the dishes . 14163_20141
+%mor:	conj|and det|the n|sink aux|be&3S part|splash-PASTP adv|over
+	prep|with n|water prep|as det|the n|mother cop|be&3S adv|still
+	part|dry-PRESP det|the n|dish-PL .
+*PAR:	and her feet are getting soaking wet . 20141_22397
+%mor:	conj|and pro:poss:det|her n|foot&PL aux|be&PRES part|get-PRESP
+	part|soak-PRESP part|wet&PASTP .
+*INV:	(...) okay . 22397_28730
+%mor:	co|okay .
+*PAR:	is there more you want ? [+ exc] 28730_31253
+%mor:	cop|be&3S adv|there adv|more pro|you v|want ?
+*INV:	that's fine . 31253_31812
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+@End

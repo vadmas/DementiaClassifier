@@ -1,0 +1,124 @@
+@UTF8
+@PID:	11312/t-00016585-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|male|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	203-0s, audio
+*INV:	okay ‡ here's the first word . 0_3969
+%mor:	co|okay beg|beg pro:exist|here~cop|be&3S det|the adj|first n|word .
+*INV:	pencil@q . 3969_4810
+%mor:	meta|pencil .
+*PAR:	&=clears:throat the pencil you have is broken . 4810_11284
+%mor:	det|the n|pencil pro|you v|have aux|be&3S part|break&PASTP .
+*INV:	okay . 11284_11922
+%mor:	co|okay .
+*INV:	how_(a)bout tree . 11922_12700
+%mor:	adv:wh|how_about n|tree .
+*PAR:	what ? [+ exc] 12700_14600
+%mor:	pro:wh|what ?
+*INV:	the word tree@q . 14600_15782
+%mor:	det|the n|word meta|tree .
+*PAR:	tree@q . [+ exc] 15782_16638
+%mor:	meta|tree .
+*INV:	mhm . 16638_18148
+%mor:	co|yes .
+*PAR:	the boy is climbing the tree . 18148_20684
+%mor:	det|the n|boy aux|be&3S part|climb-PRESP det|the n|tree .
+*INV:	okay ‡ good ! 20684_22443
+%mor:	co|okay beg|beg adj|good !
+*INV:	now I'm gonna give you two words . 22443_26070
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	don't worry about the order just use both of them in one simple
+	sentence „ okay ? 26070_30614
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order adj|just v|use
+	qn|both prep|of pro:obj|them prep|in det:num|one adj|simple
+	n|sentence end|end co|okay ?
+*INV:	the first two are child@q hospital@q . 30614_33516
+%mor:	det|the adj|first det:num|two aux|be&PRES meta|child meta|hospital
+	.
+*PAR:	the boy worked . [+ exc] 33516_36222
+%mor:	det|the n|boy part|work-PASTP .
+*PAR:	and that's it &=clears:throat . [+ exc] 36222_38162
+%mor:	coord|and pro:dem|that~cop|be&3S pro|it .
+*PAR:	hospital@q ? [+ exc] 38162_39283
+%mor:	meta|hospital ?
+*INV:	child@q . 39283_40247
+%mor:	meta|child .
+*INV:	hospital@q . 40247_40855
+%mor:	meta|hospital .
+*PAR:	they took the &ch child to the hospital . 40855_44184
+%mor:	pro:sub|they v|take&PAST det|the n|child prep|to det|the n|hospital
+	.
+*INV:	okay . 44184_44823
+%mor:	co|okay .
+*PAR:	&=clears:throat . 44823_45819
+*INV:	how_about cold@q winter@q . 45819_50956
+%mor:	adv:wh|how_about meta|cold meta|winter .
+*PAR:	boy isn't it &=laughs . [+ exc] 50956_53944
+%mor:	co|boy cop|be&3S~neg|not pro|it .
+*INV:	go ahead ! 53944_55117
+%mor:	v|go adv|ahead !
+*PAR:	&s &c cool winter [/] winter &=laughs . 55117_59624
+%mor:	adj|cool n|winter .
+*PAR:	not a wiener &=laughs . [+ exc] 59624_61806
+%mor:	neg|not det|a n|wiener .
+*INV:	okay . 61806_63188
+%mor:	co|okay .
+*INV:	how_(a)bout now I'm gonna give you three words . 63188_65819
+%mor:	adv:wh|how_about adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	okay ‡ same thing . 65819_66538
+%mor:	co|okay beg|beg adj|same n|thing .
+*INV:	don't worry about the order . 66538_67386
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order .
+*INV:	just use all three in a sentence and here they are . 67386_69658
+%mor:	adj|just n|use adv|all det:num|three prep|in det|a n|sentence
+	coord|and adv|here pro:sub|they cop|be&PRES .
+*INV:	chair@q doctor@q sit@q . 69658_73459
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	one sentence ? [+ exc] 73459_75872
+%mor:	det:num|one n|sentence ?
+*INV:	right . 75872_77008
+%mor:	co|right .
+*INV:	chair@q doctor@q sit@q . 77008_79108
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	<the doc had> [//] the [/] the doctor had me sitting in a room . 79108_86392
+%mor:	det|the n|doctor v|have&PAST pro:obj|me part|sit-PRESP prep|in
+	det|a n|room .
+*PAR:	is that it ? [+ exc] 86392_89318
+%mor:	cop|be&3S rel|that pro|it ?
+*INV:	okay ! 89318_90205
+%mor:	co|okay !
+*INV:	how_(a)bout this one ? 90205_91621
+%mor:	adv:wh|how_about det|this pro:indef|one ?
+*INV:	bureau@q open@q drawer@q . 91621_94766
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	I didn't get that . [+ exc] 94766_96923
+%mor:	pro:sub|I mod|do&PAST~neg|not v|get pro:dem|that .
+*INV:	bureau . 96923_97820
+%mor:	n|bureau .
+*PAR:	bureau ! [+ exc] 97820_99030
+%mor:	n|bureau !
+*INV:	open@q drawer@q . 99030_101691
+%mor:	meta|open meta|drawer .
+*INV:	use all three of those words in a &s +/. 101691_103444
+%mor:	n|use adv|all det:num|three prep|of det|those n|word-PL prep|in
+	det|a +/.
+*PAR:	<the [/] the bureau> [/] the bureau is klopɪnd@u [: x@n] . [+ exc] 102270_106610
+%mor:	det|the n|bureau aux|be&3S neo|x .
+*INV:	okay . 106610_107450
+%mor:	co|okay .
+*INV:	use bureau@q open@q drawer@q in one sentence . 107450_112287
+%mor:	n|use meta|bureau meta|open meta|drawer prep|in det:num|one
+	n|sentence .
+*INV:	those three words in one sentence . 112287_114562
+%mor:	det|those det:num|three n|word-PL prep|in det:num|one n|sentence .
+*PAR:	will you please open the door in the bureau ? 114562_120555
+%mor:	mod|will pro|you co|please v|open det|the n|door prep|in det|the
+	n|bureau ?
+*INV:	okay ‡ good ! 120555_122780
+%mor:	co|okay beg|beg adj|good !
+@End

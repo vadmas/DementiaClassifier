@@ -1,0 +1,25 @@
+@UTF8
+@PID:	11312/t-00002527-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|MCI||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	172-2c, audio
+*PAR:	mother's drying the dishes and the water is running over the sink and going onto the floor . 0_8514
+%mor:	n|mother~aux|be&3S part|dry-PRESP det|the n|dish-PL coord|and
+	det|the n|water aux|be&3S part|run-PRESP prep|over det|the n|sink
+	coord|and part|go-PRESP prep|onto det|the n|floor .
+*PAR:	and &uh the little boy is up getting cookies out of the jar and the stool's about to fall over . 8514_15736
+%mor:	conj|and det|the adj|little n|boy cop|be&3S adv|up part|get-PRESP
+	n|cookie-PL adv|out prep|of det|the n|jar coord|and det|the
+	n|stool~aux|be&3S adv|about inf|to v|fall adv|over .
+*PAR:	and the little girl's holding <her hands up for [/] for a cookie> [//] one hand up for a cookie and the other one up to her mouth +"/. 15736_22707
+%mor:	conj|and det|the adj|little n|girl~mod|do&3S part|hold-PRESP
+	det:num|one n|hand adv|up prep|for det|a n|cookie coord|and det|the
+	qn|other pro:indef|one adv|up prep|to pro:poss:det|her n|mouth +"/.
+*PAR:	+" sh@o don't tell mother . 22707_24139
+%mor:	on|sh mod|do~neg|not v|tell n|mother .
+*INV:	(...) okay that's fine . 24139_35920
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002495-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|89;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	091-1c, audio
+*INV:	I want you to tell me all of the action that you see okay ? 0_3342
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me adv|all prep|of
+	det|the n|action rel|that pro|you v|see co|okay ?
+*INV:	here's the picture . 3342_4273
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	all of the action . 4273_5300
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	&hm there's a boy gettin(g) in the cookie jar . 5300_9875
+%mor:	pro:exist|there~cop|be&3S det|a n|boy part|get-PRESP prep|in
+	det|the n|cookie n|jar .
+*PAR:	and the girl is waiting for her [: him] [* s:r] . 9875_12860
+%mor:	conj|and det|the n|girl aux|be&3S part|wait-PRESP prep|for
+	pro:obj|him .
+*PAR:	oh they're (.) tipping over . 12860_18555
+%mor:	co|oh pro:sub|they~aux|be&PRES part|tip-PRESP adv|over .
+*INV:	okay . 18555_20754
+%mor:	co|okay .
+*PAR:	the girl [: woman] [* s:r] is washing dishes and the water's flowing on the floor . 20716_27065
+%mor:	det|the n|woman aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	det|the n|water~aux|be&3S part|flow-PRESP prep|on det|the n|floor .
+*PAR:	(..) she's drying dishes I guess . 27065_34269
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL pro:sub|I v|guess .
+*INV:	(..) is that all the action ? 34269_45819
+%mor:	cop|be&3S rel|that qn|all det|the n|action ?
+*INV:	what did you say was going on over here ? 45819_48389
+%mor:	pro:wh|what mod|do&PAST pro|you v|say aux|be&PAST&13S part|go-PRESP
+	adv|on prep|over pro:dem|here ?
+*PAR:	the boy is getting cookies out of the jar . 48543_51997
+%mor:	det|the n|boy aux|be&3S part|get-PRESP n|cookie-PL adv|out prep|of
+	det|the n|jar .
+*INV:	okay . 51997_53000
+%mor:	co|okay .
+*PAR:	+< gives one to the girl . [+ gram] 52200_54079
+%mor:	v|give-3S pro:indef|one prep|to det|the n|girl .
+*PAR:	and the girl [: woman] [* s:r] (i)s drying dishes . 54079_57653
+%mor:	conj|and det|the n|woman aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and she'll have to wipe up the floor to the action there . 57653_60496
+%mor:	conj|and pro:sub|she~mod|will v|have inf|to v|wipe prep|up det|the
+	n|floor prep|to det|the n|action adv|there .
+*INV:	yes there will be . 60496_61930
+%mor:	co|yes pro:dem|there mod|will cop|be .
+*INV:	(.) okay good . 61930_69790
+%mor:	co|okay adj|good .
+*INV:	that's good . 69790_70862
+%mor:	pro:dem|that~cop|be&3S adj|good .
+@End

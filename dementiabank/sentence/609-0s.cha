@@ -1,0 +1,166 @@
+@Font:	Arial:18:0
+@UTF8
+@PID:	11312/t-00016700-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	609-0s, audio
+*INV:	give me a sentence using the word pencil@q . 0_2708
+%mor:	v|give pro:obj|me det|a n|sentence part|use-PRESP det|the n|word
+	meta|pencil .
+*PAR:	where are the pencils ? 2708_5285
+%mor:	adv:wh|where cop|be&PRES det|the n|pencil-PL ?
+*INV:	+< mhm . 5044_5931
+%mor:	co|yes .
+*INV:	how_(a)bout tree@q ? 5931_12016
+%mor:	adv:wh|how_about meta|tree ?
+*PAR:	&hm (...) it seems funny to talk about trees . 12016_22194
+%mor:	pro|it v|seem-3S adj|fun&dn-Y inf|to v|talk prep|about n|tree-PL .
+*INV:	okay . 22194_24685
+%mor:	co|okay .
+*INV:	now I'm gonna give you two words . 24685_33293
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	don't worry (a)bout the order that I give them to you in . 33293_35798
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order rel|that
+	pro:sub|I v|give pro:obj|them prep|to pro|you adv|in .
+*INV:	just use both of them in one short simple sentence . 35798_39049
+%mor:	adj|just n|use qn|both prep|of pro:obj|them prep|in det:num|one
+	adj|short adj|simple n|sentence .
+*INV:	child@q hospital@q . 39049_43626
+%mor:	meta|child meta|hospital .
+*PAR:	I don't understand . [+ exc] 43626_49401
+%mor:	pro:sub|I mod|do~neg|not v|understand .
+*INV:	can you come up with a sentence using the words child@q and
+	hospital@q . 48823_53150
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP det|the n|word-PL meta|child coord|and meta|hospital
+	.
+*PAR:	sure if children are in the hospital . [+ exc] 52978_57196
+%mor:	adj|sure conj|if n|child&PL cop|be&PRES prep|in det|the n|hospital
+	.
+*INV:	well ‡ what I want you to do is just &t to come up with a sentence .
+	57196_62907
+%mor:	co|well beg|beg pro:wh|what pro:sub|I v|want pro|you inf|to v|do
+	cop|be&3S adv|just inf|to v|come adv|up prep|with det|a n|sentence .
+*INV:	just make up a sentence that uses the word child@q and hospital@q in
+	[/] &n in a sentence . 62907_68760
+%mor:	adv|just v|make prep|up det|a n|sentence rel|that v|use-3S det|the
+	n|word meta|child coord|and meta|hospital prep|in det|a n|sentence .
+*INV:	just like you did with the word pencil@q . 68760_71920
+%mor:	adv|just prep|like pro|you v|do&PAST prep|with det|the n|word
+	meta|pencil .
+*INV:	you said +"/. 71920_72542
+%mor:	pro|you v|say&PAST +"/.
+*INV:	+" where are the pencils ? 72528_73804
+%mor:	adv:wh|where cop|be&PRES det|the n|pencil-PL ?
+*INV:	can you use the word child@q and hospital@q in a sentence ? 73755_77351
+%mor:	mod|can pro|you v|use det|the n|word meta|child coord|and
+	meta|hospital prep|in det|a n|sentence ?
+*PAR:	I'm done . [+ exc] 77289_80714
+%mor:	pro:sub|I~aux|be&1S part|do&PASTP .
+*INV:	can you think of a sentence using the words child@q and hospital@q ?
+	80714_86089
+%mor:	mod|can pro|you v|think prep|of det|a n|sentence part|use-PRESP
+	det|the n|word-PL meta|child coord|and meta|hospital ?
+*PAR:	&=sighs . [+ exc]   86089_93000
+*INV:	we're almost through . 93000_94800
+%mor:	pro:sub|we~cop|be&PRES adv|almost adv|through .
+*INV:	we just need to finish these . 94800_95842
+%mor:	pro:sub|we adv|just v|need inf|to v|finish det|these .
+*PAR:	&hm would you say that again ? [+ exc] 96106_99080
+%mor:	mod|will&COND pro|you v|say rel|that adv|again ?
+*INV:	sure . 99080_99375
+%mor:	adj|sure .
+*INV:	I'm gonna give you two words . 99902_101769
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you det:num|two
+	n|word-PL .
+*INV:	and I want you to put them into a sentence . 101769_103931
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|put&ZERO pro:obj|them
+	prep|into det|a n|sentence .
+*INV:	make up a sentence using the words that I give you . 103931_107185
+%mor:	v|make prep|up det|a n|sentence part|use-PRESP det|the n|word-PL
+	rel|that pro:sub|I v|give pro|you .
+*INV:	child@q hospital@q . 107185_109660
+%mor:	meta|child meta|hospital .
+*PAR:	child is in the hospital . 109660_113039
+%mor:	n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	+< good . 112398_113053
+%mor:	adj|good .
+*INV:	how_(a)bout cold@q winter@q . 113271_118983
+%mor:	adv:wh|how_about meta|cold meta|winter .
+*PAR:	the [/] &k the winter is cold . 118983_127153
+%mor:	det|the n|winter aux|be&3S adv|cold .
+*INV:	mhm . 127153_128227
+%mor:	co|yes .
+*INV:	now I'm gonna give you three words . 128227_131277
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	don't worry about the order that I give them to you . 131277_134250
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order rel|that
+	pro:sub|I v|give pro:obj|them prep|to pro|you .
+*INV:	use all three of them in a sentence okay ? 134250_137580
+%mor:	n|use adv|all det:num|three prep|of pro:obj|them prep|in det|a
+	n|sentence adj|okay ?
+*INV:	chair@q doctor@q sit@q . 137580_141549
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	<chair@q doctor@q sit@q> [=! whispering] . [+ exc] 141549_146373
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	chair@q doctor@q &s +... [+ exc] 146373_150142
+%mor:	meta|chair meta|doctor +...
+*INV:	and sit@q . 150142_150872
+%mor:	coord|and meta|sit .
+*PAR:	and sit@q . [+ exc] 150872_152288
+%mor:	coord|and meta|sit .
+*INV:	can you use those in a sentence for me ? 152257_154546
+%mor:	mod|can pro|you v|use pro:dem|those prep|in det|a n|sentence
+	prep|for pro:obj|me ?
+*PAR:	what do you think ? [+ exc] 154546_159775
+%mor:	pro:wh|what mod|do pro|you v|think ?
+*INV:	just a short simple sentence using the words chair@q doctor@q and
+	sit@q . 159775_171853
+%mor:	adv|just det|a adj|short adj|simple n|sentence part|use-PRESP
+	det|the n|word-PL meta|chair meta|doctor coord|and meta|sit .
+*INV:	can you come up with a sentence using chair@q doctor@q and sit@q ? 171853_179681
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP meta|chair meta|doctor coord|and meta|sit ?
+*PAR:	&hm (...) chair@q doctor@q and sit@q . [+ exc] 184924_190483
+%mor:	meta|chair meta|doctor coord|and meta|sit .
+*INV:	mhm . 190483_191558
+%mor:	co|yes .
+*PAR:	it just doesn't make sense to me . [+ exc] 191508_196128
+%mor:	pro|it adv|just mod|do&3S~neg|not v|make n|sense prep|to pro:obj|me
+	.
+*INV:	okay . 196128_196737
+%mor:	co|okay .
+*INV:	it doesn't because they have to be put into a sentence . 196737_199382
+%mor:	pro|it mod|do&3S~neg|not conj|because pro:sub|they v|have inf|to
+	cop|be v|put&ZERO prep|into det|a n|sentence .
+*INV:	you have to make a sentence with those words . 199382_202277
+%mor:	pro|you v|have inf|to v|make det|a n|sentence prep|with det|those
+	n|word-PL .
+*INV:	can you come up with a sentence using those words ? 202277_204953
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP det|those n|word-PL ?
+*PAR:	chair@q doctor@q &s &s sit@q [/] sit@q . [+ exc] 204953_212145
+%mor:	meta|chair meta|doctor meta|sit .
+*INV:	how_(a)bout these words ? 212145_217530
+%mor:	adv:wh|how_about det|these n|word-PL ?
+*INV:	bureau@q open@q drawer@q . 217530_221622
+%mor:	meta|bureau meta|open meta|drawer .
+*INV:	can you come up with a sentence using bereau@q open@q and drawer@q ? 221622_226212
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP meta|bereau meta|open coord|and meta|drawer ?
+*PAR:	that's even worse than the other one . [+ exc] 226212_239583
+%mor:	pro:dem|that~cop|be&3S adv|even adj|bad&CP prep|than det|the
+	qn|other pro:indef|one .
+*INV:	can you come up with a sentence using those words ? 239583_246914
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP det|those n|word-PL ?
+*PAR:	no ‡ I can't . [+ exc] 246554_248860
+%mor:	co|no beg|beg pro:sub|I mod|can~neg|not .
+*INV:	okay . 248860_250430
+%mor:	co|okay .
+@End

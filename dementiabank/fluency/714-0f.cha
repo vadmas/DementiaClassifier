@@ -1,0 +1,34 @@
+@Font:	Arial:16:0
+@UTF8
+@PID:	11312/t-00016249-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|male|PossibleAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	714-0f, audio, missing
+*INV:	give me all the animals you can think of .
+*INV:	go ahead .
+*PAR:	cat dog pig dell deer horse (..) pig (.) bear .
+*PAR:	xxx .
+*INV:	I'm sorry what ?
+*PAR:	xxx .
+*INV:	okay .
+*INV:	great that's a minute .
+*INV:	now I'm going to give you another minute and in that minute's time
+	name as many words you can think of that start with the letter f@l .
+*INV:	all the words that come to mind that start with the letter f@l .
+*INV:	no proper names of people or places and only one form of the word .
+*INV:	for instance if you gave me the word walk I wouldn't want you to
+	give me walking and walked also .
+*INV:	so one form of the word no proper names .
+*INV:	any word that you can think of that starts with the letter f@l .
+*INV:	okay .
+*INV:	give you a minute .
+*INV:	ready begin .
+*PAR:	floor (..) .
+*INV:	mhm .
+*INV:	anything that starts with f@l .
+*PAR:	(..) five (..) foot (..) fedge@n (...) fry .
+*INV:	okay that's a minute .
+@End

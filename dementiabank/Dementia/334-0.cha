@@ -1,0 +1,103 @@
+@UTF8
+@PID:	11312/t-00002617-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|83;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	334-0c, audio
+*INV:	in the picture . 0_1574
+%mor:	prep|in det|the n|picture .
+*PAR:	stool <is being> [//] &uh is &k falling over . [+ gram] 1574_5963
+%mor:	n|stool aux|be&3S part|fall-PRESP adv|over .
+*PAR:	the little girl is &uh criticizing her brother if it's her brother . 5963_10900
+%mor:	det|the adj|little n|girl aux|be&3S part|criticize-PRESP
+	pro:poss:det|her n|brother conj|if pro|it~cop|be&3S pro:obj|her
+	n|brother .
+*PAR:	her brother's getting in the cookie jar .10900_13300
+%mor:	pro:poss:det|her n|brother~poss|s part|get-PRESP prep|in det|the
+	n|cookie n|jar .
+*PAR:	and the stool's gonna [: going to] fall over with him .13300_15142
+%mor:	conj|and det|the n|stool~aux|be&3S part|go-PRESP inf|to v|fall
+	adv|over prep|with pro:obj|him .
+*PAR:	the mother's drying dishes . 15142_16490
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	there's water . 16490_17171
+%mor:	pro:exist|there~cop|be&3S n|water .
+*PAR:	sink's overflowing . [+ gram] 17171_18621
+%mor:	n|sink~aux|be&3S over#part|flow-PRESP .
+*PAR:	there's dirty dishes on the sink .18621_20872
+%mor:	pro:exist|there~aux|be&3S adj|dirt&dn-Y n|dish-PL prep|on det|the
+	n|sink .
+*PAR:	there's curtains at the window .20872_22484
+%mor:	pro:exist|there~aux|be&3S n|curtain-PL prep|at det|the n|window .
+*PAR:	there's shrubbery, a tree outside . 22484_25589
+%mor:	pro:exist|there~cop|be&3S n|shrubbery cm|cm det|a n|tree
+	adv|outside .
+*PAR:	there's &uh (..) oh landscaping .25589_33453
+%mor:	pro:exist|there~aux|be&3S co|oh part|landscape-PRESP .
+*PAR:	you can see the window to the neighborhood [//] neighbor yard I guess your [//] her house . 33453_38558
+%mor:	pro|you mod|can v|see det|the n|window prep|to det|the n|neighbor
+	n|yard pro:sub|I v|guess pro:poss:det|her n|house .
+*PAR:	what else . [+ exc] 38756_40119
+%mor:	pro:wh|what post|else .
+*PAR:	anything else ? [+ exc] 40119_40888
+%mor:	pro:indef|anything post|else ?
+*INV:	you tell me . 40888_42641
+%mor:	pro|you v|tell pro:obj|me .
+*PAR:	I did say that the water's running in the sink and overflowing and it's getting on the mother's shoe .42641_48749
+%mor:	pro:sub|I v|do&PAST v|say rel|that det|the n|water~aux|be&3S
+	part|run-PRESP prep|in det|the n|sink coord|and over#part|flow-PRESP
+	coord|and pro|it~cop|be&3S part|get-PRESP prep|on det|the
+	n|mother~poss|s n|shoe .
+*PAR:	she's standing in the water .48749_51556
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the n|water .
+*PAR:	she's drying a dish .51556_53182
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	she has an apron on .53182_54502
+%mor:	pro:sub|she v|have&3S det|a n|apron adv|on .
+*INV:	okay .54502_55891
+%mor:	co|okay .
+*PAR:	I told you the boy's falling <off the> [/] &uh off the stool .55891_60947
+%mor:	pro:sub|I v|tell&PAST pro|you det|the n|boy~aux|be&3S
+	part|fall-PRESP prep|off det|the n|stool .
+*PAR:	and the girl's trying to +... 60947_63591
+%mor:	conj|and det|the n|girl~aux|be&3S part|try-PRESP inf|to +...
+*PAR:	cupboard door is open . [+ gram] 63591_64567
+%mor:	n|cupboard n|door aux|be&3S adv|open .
+*PAR:	the cookie jar is open .64567_65788
+%mor:	det|the n|cookie n|jar aux|be&3S adv|open .
+*PAR:	he's got a cookie in his hand he's handing to his sister I guess .65788_69399
+%mor:	pro:sub|he~aux|be&3S part|get&PASTP det|a n|cookie prep|in
+	pro:poss:det|his n|hand pro:sub|he~aux|be&3S part|hand-PRESP prep|to
+	pro:poss:det|his n|sister pro:sub|I v|guess .
+*PAR:	(.) &w you want any more things ? [+ exc] 69399_73172
+%mor:	pro|you v|want qn|any adv|more n|thing-PL ?
+*INV:	you tell me . 73172_73767
+%mor:	pro|you v|tell pro:obj|me .
+*INV:	you think that's all ? 73767_74491
+%mor:	pro|you v|think pro:dem|that~cop|be&3S pro:indef|all ?
+*PAR:	tie back curtains . [+ gram]  74491_75569
+%mor:	n|tie adj|back n|curtain-PL .
+*INV:	okay . 75569_78584
+%mor:	co|okay .
+*PAR:	I said some dishes on the counter .78584_81850
+%mor:	pro:sub|I v|say&PAST qn|some n|dish-PL prep|on det|the n|counter .
+*PAR:	<the sink's> [//] (.) the water's running in the sink it's overflowing .81850_85966
+%mor:	det|the n|water~aux|be&3S part|run-PRESP prep|in det|the n|sink
+	pro|it~aux|be&3S over#part|flow-PRESP .
+*PAR:	and shows a garden in the neighbor's house . [+ gram]  85966_89425
+%mor:	conj|and v|show-3S det|a n|garden prep|in det|the n|neighbor~poss|s
+	n|house .
+*PAR:	tree growing in the neighbor's yard . [+ gram] 89425_93553
+%mor:	n|tree part|grow-PRESP prep|in det|the n|neighbor~poss|s n|yard .
+*PAR:	they have some shrubbery in their yard . 93553_96914
+%mor:	pro:sub|they v|have qn|some n|shrubbery prep|in pro:poss:det|their
+	n|yard .
+*PAR:	I don't know . [+ exc] 96914_97570
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	okay that's xxx . 97570_98787
+%mor:	co|okay pro:dem|that~cop|be&3S .
+*INV:	okay ? 98787_99486
+%mor:	co|okay ?
+@End

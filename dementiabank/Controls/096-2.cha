@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/t-00002250-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	096-2c, audio
+*PAR:	what do I see going on ? [+ exc] 0_1635
+%mor:	pro:wh|what mod|do pro:sub|I v|see n:gerund|go-PRESP adv|on ?
+*PAR:	just [/] just start to describe it ? [+ exc] 1635_3682
+%mor:	adj|just v|start inf|to v|describe pro|it ?
+*INV:	right . 3682_4265
+%mor:	co|right .
+*PAR:	the girl wants a cookie . 4265_7274
+%mor:	det|the n|girl v|want-3S det|a n|cookie .
+*PAR:	and the boy's &k tryin(g) to get a cookie out of the cookie jar .7274_10567
+%mor:	conj|and det|the n|boy~aux|be&3S part|try-PRESP inf|to v|get det|a
+	n|cookie adv|out prep|of det|the n|cookie n|jar .
+*PAR:	and the stool's fallin(g) over .10567_12031
+%mor:	conj|and det|the n|stool~aux|be&3S part|fall-PRESP adv|over .
+*PAR:	and the water &s spigot's turned on .13031_17543
+%mor:	conj|and det|the n|water n|spigot~poss|s part|turn-PASTP adv|on .
+*PAR:	the water's overflowin(g) . 17543_18996
+%mor:	det|the n|water~aux|be&3S over#part|flow-PRESP .
+*PAR:	and the mother's doin(g) the dishes .18996_21009
+%mor:	conj|and det|the n|mother~aux|be&3S part|do-PRESP det|the n|dish-PL
+	.
+*PAR:	and &uh the windows open .21009_24213
+%mor:	conj|and det|the n|window-PL adv|open .
+*PAR:	and &uh (.) it's spring outside somethin(g)'s growing .24213_31703
+%mor:	conj|and pro|it~cop|be&3S n|spring adv|outside
+	pro:indef|something~aux|be&3S part|grow-PRESP .
+*PAR:	the window's open .31703_33570
+%mor:	det|the n|window~aux|be&3S adv|open .
+*PAR:	anything else ? [+ exc] 33570_37400
+%mor:	pro:indef|anything post|else ?
+*PAR:	she's drying the dishes . 37400_38464
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	has a dress on . [+ gram] 38464_39343
+%mor:	v|have&3S det|a n|dress adv|on .
+*PAR:	her feet's [* m:a] in the water . [+ gram] 39343_40818
+%mor:	pro:poss:det|her n|foot&PL~mod|do&3S prep|in det|the n|water .
+*PAR:	(.) the lid's off the cookie jar .40818_44222
+%mor:	det|the n|lid~cop|be&3S prep|off det|the n|cookie n|jar .
+*PAR:	and the kid has <a hand on> [//] <one hand> [//] in the right hand has gettin(g) a cookie and the left hand has one in .44222_49708
+%mor:	conj|and det|the n|kid aux|have&3S prep|in det|the adj|right n|hand
+	aux|have&3S part|get-PRESP det|a n|cookie coord|and det|the n|left
+	n|hand aux|have&3S pro:indef|one adv|in .
+*PAR:	he's givin(g) [//] gonna [: going to] give it to the sister .49708_52778
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|give pro|it prep|to
+	det|the n|sister .
+*INV:	okay good .52778_55007
+%mor:	co|okay adj|good .
+@End

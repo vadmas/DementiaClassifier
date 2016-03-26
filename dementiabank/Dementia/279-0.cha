@@ -1,0 +1,85 @@
+@UTF8
+@PID:	11312/t-00002598-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|ProbableAD||Participant|21||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	279-0c, audio
+*INV:	and here's the picture . 0_1823
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	kid's stool turnin(g) over . [+ gram] 1823_7170
+%mor:	n|kid~poss|s n|stool part|turn-PRESP adv|over .
+*PAR:	she [//] &uh tryin(g) to steal cookies out of the cookie jar . [+ gram]  7170_10991
+%mor:	part|try-PRESP inf|to v|steal n|cookie-PL adv|out prep|of det|the
+	n|cookie n|jar .
+*PAR:	little girl is reachin(g) up to grab hers . [+ gram] 10991_14000
+%mor:	adj|little n|girl aux|be&3S part|reach-PRESP adv|up prep|to n|grab
+	pro:poss|hers .
+*PAR:	huh . [+ exc] 14000_15164
+%mor:	co|huh .
+*PAR:	mother's doin(g) the dishes but let the water run over all over the floor . 15164_19271
+%mor:	n|mother~aux|be&3S part|do-PRESP det|the n|dish-PL conj|but
+	v|let&ZERO det|the n|water v|run adv|over qn|all prep|over det|the
+	n|floor .
+*PAR:	and she's standin(g) in a puddle . 19271_21946
+%mor:	conj|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|a
+	n|puddle .
+*PAR:	(..) action . [+ gram] [+ exc] 21946_27861
+%mor:	n|action .
+*PAR:	(...) dryin(g) the dishes . [+ gram] 27861_32047
+%mor:	part|dry-PRESP det|the n|dish-PL .
+*PAR:	(.) or did I say that before before ? [+ exc] 32047_34491
+%mor:	conj|or v|do&PAST pro:sub|I v|say rel|that adv|before adv|before ?
+*PAR:	yeah . [+ exc] 34491_35588
+%mor:	co|yeah .
+*PAR:	kid's laughin(g) . [+ gram] 35588_38864
+%mor:	n|kid~aux|be&3S part|laugh-PRESP .
+*PAR:	the other kid with the stool fallin(g) over &=laughs break his neck . [+ gram] 38864_44444
+%mor:	det|the qn|other n|kid prep|with det|the n|stool part|fall-PRESP
+	prep|over n|break pro:poss:det|his n|neck .
+*INV:	mhm . 44444_45708
+%mor:	co|yes .
+*PAR:	&hm there no action to the curtains . [+ gram] 45708_49664
+%mor:	adv|there qn|no n|action prep|to det|the n|curtain-PL .
+*PAR:	and grass is growing out there . 49664_51300
+%mor:	conj|and n|grass aux|be&3S part|grow-PRESP adv|out adv|there .
+*PAR:	I guess you can call that action . [+ exc] 51300_53897
+%mor:	pro:sub|I v|guess pro|you mod|can v|call det|that n|action .
+*PAR:	leaves are probably blowing .  53897_56886
+%mor:	n|leave-PL cop|be&PRES adv|probable&dadj-LY part|blow-PRESP .
+*PAR:	(.) the mother's in her own little world . 56886_62700
+%mor:	det|the n|mother~cop|be&3S prep|in pro:obj|her adj|own adj|little
+	n|world .
+*PAR:	the water's still runnin(g) .  62700_64328
+%mor:	det|the n|water~aux|be&3S adv|still part|run-PRESP .
+*INV:	okay . 64328_66788
+%mor:	co|okay .
+*PAR:	cookie jar . [+ gram] 66788_70380
+%mor:	n|cookie n|jar .
+*PAR:	he's handin(g) (th)em out (.) like he [/] he made them &=laughs . 70380_75500
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP pro:obj|them adv|out prep|like
+	pro:sub|he v|make&PAST pro:obj|them .
+*INV:	&=laughs . 75500_77042
+*PAR:	the chair's [: stool's] [* s:r-ret] fallin(g) over or the stool . [+ gram] 77042_80068
+%mor:	det|the n|stool~aux|be&3S part|fall-PRESP adv|over coord|or det|the
+	n|stool .
+*INV:	okay . 80068_81232
+%mor:	co|okay .
+*PAR:	+< I think .  [+ exc]  80100_80716
+%mor:	pro:sub|I v|think .
+*INV:	good . 81232_83228
+%mor:	adj|good .
+*PAR:	and I think the little kid kicked it . 83228_84674
+%mor:	conj|and pro:sub|I v|think det|the adj|little n|kid v|kick-PAST
+	pro|it .
+*PAR:	and it pushed him over &=laughs .84674_86352
+%mor:	conj|and pro|it v|push-PAST pro:obj|him adv|over .
+*INV:	okay . 86352_87750
+%mor:	co|okay .
+*PAR:	+< instead  of holdin(g) him up she gave him a shove . 87000_89550
+%mor:	adv|instead prep|of n:gerund|hold-PRESP pro:obj|him adv|up
+	pro:sub|she v|give&PAST pro:obj|him det|a v|shove .
+*INV:	okay good .  89550_91778
+%mor:	co|okay adj|good .
+@End

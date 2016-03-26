@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002609-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|male|PossibleAD||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	306-0c, audio
+*INV:	all of the action . 0_1996
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	whew &=laughs . [+ exc] 1996_6385
+%mor:	co|whew .
+*PAR:	&uh do I have to use my [/] my [/] &uh my personal &uh description ? [+ exc]  6385_13878
+%mor:	mod|do pro:sub|I v|have inf|to v|use pro:poss:det|my adj|personal
+	n|description ?
+*PAR:	or &=laughs like &uh +... [+ exc]   13878_15200
+%mor:	coord|or co|like +...
+*PAR:	<the &c cookie jar> [//] stealing the &g &uh cookie out o(f) the cookie jar .  [+ gram] 15200_20234
+%mor:	part|steal-PRESP det|the n|cookie adv|out prep|of det|the n|cookie
+	n|jar .
+*PAR:	the [/] &t &uh the &tripar not [//] &t stool the &tr triple [: three legged] [* s:r] stool is [//] he's [/] &uh he's rockin(g) with its +... 20234_31238
+%mor:	det|the n|stool det|the det:num|three adj|legged n|stool
+	pro:sub|he~aux|be&3S part|rock-PRESP prep|with pro:poss:det|its +...
+*PAR:	&uh I wonder if she's puttin(g) her finger to her [/] her lips . 34038_39622
+%mor:	pro:sub|I v|wonder conj|if pro:sub|she~aux|be&3S part|put-PRESP
+	pro:poss:det|her n|finger prep|to pro:poss:det|her n|lip-PL .
+*PAR:	and &uh is that she wants one to eat or she's &ha &h reachin(g) up for it ? [+ gram]  39622_44298
+%mor:	coord|and cop|be&3S rel|that pro:sub|she v|want-3S pro:indef|one
+	inf|to v|eat coord|or pro:sub|she~aux|be&3S part|reach-PRESP adv|up
+	prep|for pro|it ?
+*PAR:	huh ? [+ exc]  44076_44990
+%mor:	co|huh ?
+*PAR:	and then spillin(g) the water in the kitchen sink . [+ gram] 44990_48511
+%mor:	conj|and adv:tem|then part|spill-PRESP det|the n|water prep|in
+	det|the n|kitchen n|sink .
+*PAR:	she's dryin(g) the dishes . 48511_51603
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	(..) they got their &s sink is overflowin(g) . 51603_60915
+%mor:	pro:sub|they v|get&PAST pro:poss:det|their n|sink aux|be&3S
+	over#part|flow-PRESP .
+*PAR:	so <that would be the> [//] that's why it's overflowin(g) because <the &s sink> [//] &w &uh &uh this water's runnin(g) out o(f) the spigot . 60915_68136
+%mor:	co|so pro:dem|that~cop|be&3S adv:wh|why pro|it~aux|be&3S
+	over#part|flow-PRESP conj|because det|this n|water~aux|be&3S
+	part|run-PRESP adv|out prep|of det|the n|spigot .
+*PAR:	she's dryin(g) the dishes .  68136_70260
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	and let's see what else &uh +... [+ exc] 70260_80000
+%mor:	conj|and v|let~pro:obj|us v|see pro:wh|what post|else +...
+*INV:	okay ? 80000_81084
+%mor:	co|okay ?
+*PAR:	am I missin(g) somethin(g)  ? [+ exc] 81084_83544
+%mor:	cop|be&1S pro:sub|I mis#v|sing pro:indef|something ?
+*PAR:	you_know I'm pretty tired . [+ exc] 83544_84710
+%mor:	co|you_know pro:sub|I~aux|be&1S adv|pretty part|tire-PASTP .
+*PAR:	(..) I guess xxx . [+ exc] 84710_93754
+%mor:	pro:sub|I v|guess .
+*INV:	okay that's +/. 93254_94385
+%mor:	co|okay pro:dem|that~cop|be&3S +/.
+*PAR:	xxx huh ? [+ exc]  93832_94689
+%mor:	co|huh ?
+@End

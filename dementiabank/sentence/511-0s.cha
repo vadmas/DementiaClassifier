@@ -1,0 +1,165 @@
+@UTF8
+@PID:	11312/t-00016678-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|75;|female|PossibleAD||Participant|10||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	511-0s, audio
+*INV:	now I'm going to give you a word . 0_6153
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	art|a n|word .
+*INV:	and I want you to use it in a brief simple sentence . 6153_10159
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|use pro|it prep|in
+	art|a adj|brief adj|simple n|sentence .
+*INV:	let's practice . 10159_12156
+%mor:	v|let~pro:obj|us v|practice .
+*INV:	if I gave you the word table@q give me a sentence using the word
+	table . 12156_17543
+%mor:	conj|if pro:sub|I v|give&PAST pro|you art|the n|word meta|table
+	v|give pro:obj|me art|a n|sentence part|use-PRESP art|the n|word
+	n|table .
+*PAR:	table@q ? [+ exc] 17543_18205
+%mor:	meta|table ?
+*INV:	mhm . 18205_18716
+%mor:	co|yes .
+*PAR:	what_about it ? [+ exc] 18716_21072
+%mor:	adv:wh|what_about pro|it ?
+*INV:	use that in a sentence for me . 21072_23673
+%mor:	v|use pro:dem|that prep|in art|a n|sentence prep|for pro:obj|me .
+*PAR:	(.) xxx . [+ exc] 23673_28642
+*INV:	try to make the word table@q in a sentence for me . 28642_32891
+%mor:	v|try inf|to v|make art|the n|word meta|table prep|in art|a
+	n|sentence prep|for pro:obj|me .
+*PAR:	table@q . [+ exc] 32891_33797
+%mor:	meta|table .
+*INV:	yeah ‡ make a sentence using the word table@q . 33797_37129
+%mor:	co|yeah beg|beg v|make art|a n|sentence part|use-PRESP art|the
+	n|word meta|table .
+*PAR:	(.) leaning . [+ exc] 37129_42110
+%mor:	part|lean-PRESP .
+*INV:	make a whole sentence with that . 42110_45837
+%mor:	v|make art|a adj|whole n|sentence prep|with pro:dem|that .
+*PAR:	leaning it on the table . 45837_49204
+%mor:	part|lean-PRESP pro|it prep|on art|the n|table .
+*INV:	okay . 49204_49668
+%mor:	co|okay .
+*PAR:	now can I please go home ? [+ exc] 49668_53952
+%mor:	adv|now mod|can pro:sub|I co|please v|go n|home ?
+*INV:	pretty soon . 53952_54486
+%mor:	adv|pretty adv|soon .
+*INV:	here's the next word . 54486_57249
+%mor:	pro:exist|here~cop|be&3S art|the adj|next n|word .
+*INV:	I want you to make me a short sentence with this word . 57249_60268
+%mor:	pro:sub|I v|want pro|you inf|to v|make pro:obj|me art|a adj|short
+	n|sentence prep|with det|this n|word .
+*INV:	the word is pencil@q . 60268_62125
+%mor:	art|the n|word aux|be&3S meta|pencil .
+*PAR:	I don't know that . [+ exc] 62125_67361
+%mor:	pro:sub|I mod|do~neg|not v|know pro:dem|that .
+*INV:	can you tell me a sentence using the word pencil@q ? 67361_71425
+%mor:	mod|can pro|you v|tell pro:obj|me art|a n|sentence part|use-PRESP
+	art|the n|word meta|pencil ?
+*PAR:	pencil@q ? [+ exc] 71425_72505
+%mor:	meta|pencil ?
+*INV:	mhm . 72505_72946
+%mor:	co|yes .
+*PAR:	well ‡ we use pencils (.) for writing . 72946_79041
+%mor:	co|well beg|beg pro:sub|we v|use n|pencil-PL prep|for
+	n:gerund|write-PRESP .
+*INV:	okay . 79041_80028
+%mor:	co|okay .
+*INV:	how_(a)bout the word tree@q ? 80028_85659
+%mor:	adv:wh|how_about art|the n|word meta|tree ?
+*PAR:	tree@q ? [+ exc] 85659_86762
+%mor:	meta|tree ?
+*INV:	mhm . 86762_87261
+%mor:	co|yes .
+*PAR:	well ‡ (.) (a)_lot_of them make it pretty . [+ exc] 87261_91963
+%mor:	co|well beg|beg qn|a_lot_of pro:obj|them v|make pro|it adv|pretty .
+*INV:	use the word tree@q in a sentence . 91963_98453
+%mor:	v|use art|the n|word meta|tree prep|in art|a n|sentence .
+*PAR:	tree@q ? [+ exc] 98453_99080
+%mor:	meta|tree ?
+*INV:	mhm . 99080_99555
+%mor:	co|yes .
+*PAR:	yeah . [+ exc] 99555_101123
+%mor:	co|yeah .
+*PAR:	now we have a tree . 101123_104130
+%mor:	adv|now pro:sub|we v|have art|a n|tree .
+*INV:	okay . 104130_105082
+%mor:	co|okay .
+*INV:	now I'm going to give you two words that I want you to put into a
+	sentence . 105082_113899
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|two n|word-PL rel|that pro:sub|I v|want pro|you inf|to
+	v|put&ZERO prep|into art|a n|sentence .
+*INV:	it doesn't matter what order they're in . 113899_116402
+%mor:	pro|it mod|do&3S~neg|not v|matter pro:wh|what n|order
+	pro:sub|they~aux|be&PRES adv|in .
+*INV:	use the word child@q and hospital@q in a sentence . 116402_121371
+%mor:	v|use art|the n|word meta|child coord|and meta|hospital prep|in
+	art|a n|sentence .
+*PAR:	hospital is a good place to come when you're ill [/] ill . 121371_127315
+%mor:	n|hospital cop|be&3S art|a adj|good n|place inf|to v|come conj|when
+	pro|you~cop|be&PRES adv|ill .
+*PAR:	and what's the other one ? [+ exc] 127315_130462
+%mor:	coord|and pro:wh|what~aux|be&3S art|the qn|other pro:indef|one ?
+*INV:	okay . 130462_144556
+%mor:	co|okay .
+*INV:	try to use both of these words in a sentence . 144556_148759
+%mor:	v|try inf|to v|use qn|both prep|of det|these n|word-PL prep|in
+	art|a n|sentence .
+*INV:	cold@q and winter@q . 148759_151569
+%mor:	meta|cold coord|and meta|winter .
+*PAR:	cold@q and winter@q . [+ exc] 151569_153403
+%mor:	meta|cold coord|and meta|winter .
+*INV:	mhm . 153403_153903
+%mor:	co|yes .
+*PAR:	that's all . [+ exc] 153903_155911
+%mor:	pro:dem|that~cop|be&3S pro:indef|all .
+*INV:	in a sentence . 155911_157204
+%mor:	prep|in art|a n|sentence .
+*INV:	put those in a sentence for me . 157204_158918
+%mor:	v|put&ZERO pro:dem|those prep|in art|a n|sentence prep|for
+	pro:obj|me .
+*PAR:	it's cold and wintery  . 158918_161147
+%mor:	pro|it~cop|be&3S adj|cold coord|and adj|winter&dn-Y
+	.
+*INV:	okay . 161147_161519
+%mor:	co|okay .
+*INV:	now I'm gonna give you three words . 161519_170296
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	and I want you to put the three words in a sentence for me . 170296_174731
+%mor:	coord|and pro:sub|I v|want pro|you inf|to v|put&ZERO art|the
+	det:num|three n|word-PL prep|in art|a n|sentence prep|for pro:obj|me
+	.
+*PAR:	oh ‡ please ‡ my daughter's waiting for me . [+ exc] 173531_176751
+%mor:	co|oh beg|beg co|please beg|beg co|my n|daughter~poss|s
+	part|wait-PRESP prep|for pro:obj|me .
+*INV:	I know . 176751_177320
+%mor:	pro:sub|I v|know .
+*INV:	she knows that we're testing you today . 177320_179921
+%mor:	pro:sub|she v|know-3S rel|that pro:sub|we~aux|be&PRES
+	part|test-PRESP pro|you adv:tem|today .
+*INV:	try chair@q doctor@q and sit@q . 179921_186178
+%mor:	v|try meta|chair meta|doctor coord|and meta|sit .
+*INV:	make a sentence for me using chair@q doctor@q and sit@q . 186178_191902
+%mor:	v|make art|a n|sentence prep|for pro:obj|me part|use-PRESP
+	meta|chair meta|doctor coord|and meta|sit .
+*PAR:	+< her chair@q . [+ exc] 191002_192540
+%mor:	pro:poss:det|her meta|chair .
+*PAR:	the doctor sitting on the chair . 192540_195361
+%mor:	art|the n|doctor part|sit-PRESP prep|on art|the n|chair .
+*INV:	okay . 195361_202873
+%mor:	co|okay .
+*INV:	now try to make a sentence using the words bureau@q open@q and
+	drawer@q . 202873_210280
+%mor:	adv|now v|try inf|to v|make art|a n|sentence part|use-PRESP art|the
+	n|word-PL meta|bureau meta|open coord|and meta|drawer .
+*PAR:	alright . [+ exc] 210280_211510
+%mor:	co|alright .
+*PAR:	close the drawer (.) and clothing goes in . 211510_218871
+%mor:	v|close art|the n|drawer coord|and n|clothing v|go-3S adv|in .
+@End

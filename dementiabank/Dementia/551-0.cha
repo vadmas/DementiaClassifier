@@ -1,0 +1,79 @@
+@UTF8
+@PID:	11312/t-00002684-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	551-0c, audio
+*INV:	I want you to tell me everything that's happening in that picture . 0_4095
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP prep|in
+	det|that n|picture .
+*INV:	(..) I want you to tell me everything that's going on in that picture . 4095_10800
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on prep|in
+	det|that n|picture .
+*PAR:	+< well this boy is almost falling <out of the> [//] off of the chair [: stool] [* s:r] when he's putting up the picture . 9800_14831
+%mor:	co|well det|this n|boy aux|be&3S adv|almost part|fall-PRESP adv|off
+	prep|of det|the n|stool conj|when pro:sub|he~aux|be&3S
+	part|put-PRESP prep|up det|the n|picture .
+*PAR:	and &uh she's washin(g) dishes . 14831_19579
+%mor:	conj|and pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	I guess she wouldn't know . 19579_22029
+%mor:	pro:sub|I v|guess pro:sub|she mod|will&COND~neg|not v|know .
+*PAR:	oh my ! [+ exc] 22029_22579
+%mor:	co|oh pro:poss:det|my !
+*PAR:	her sink is running over too isn't it &=laughs . 22579_25493
+%mor:	pro:poss:det|her n|sink aux|be&3S part|run-PRESP adv|over adv|too
+	cop|be&3S~neg|not pro|it .
+*INV:	mhm . 25493_26114
+%mor:	co|yes .
+*PAR:	is that all [//] more [: all] [* s:r] or is [/] is there more to it ? [+ exc] 26114_29039
+%mor:	cop|be&3S rel|that qn|all coord|or cop|be&3S adv|there adv|more
+	prep|to pro|it ?
+*PAR:	this one looks kinda [: kind_of] like a +... 29039_31456
+%mor:	det|this pro:indef|one v|look-3S adv|kind_of co|like det|a +...
+*PAR:	oh that's a plate I guess . 31456_32858
+%mor:	co|oh pro:dem|that~cop|be&3S det|a n|plate pro:sub|I v|guess .
+*PAR:	and a cup and saucer . [+ gram] 32858_35174
+%mor:	conj|and det|a n|cup coord|and n|saucer .
+*PAR:	(..) oh this is a lady here . 35174_47800
+%mor:	co|oh pro:dem|this cop|be&3S det|a n|lady adv|here .
+*PAR:	is it or isn't it &=laughs ? [+ exc] 47800_49105
+%mor:	aux|be&3S pro|it coord|or cop|be&3S~neg|not pro|it ?
+*PAR:	right there . [+ exc] 49505_50200
+%mor:	adv|right adv|there .
+*PAR:	is that a lady ? [+ exc] 50200_50816
+%mor:	cop|be&3S rel|that det|a n|lady ?
+*INV:	no hmhmm . 50816_51871
+%mor:	co|no co|no .
+*PAR:	<I thought this> [//] when I had it this way it looked almost like a lady . [+ exc] 51871_55638
+%mor:	conj|when pro:sub|I v|have&PAST pro|it det|this n|way pro|it
+	v|look-PAST adv|almost co|like det|a n|lady .
+*INV:	+< just tell me anything you see happening in there . 54638_57800
+%mor:	adv|just v|tell pro:obj|me pro:indef|anything pro|you v|see
+	n:gerund|happen-PRESP prep|in pro:dem|there .
+*PAR:	oh . [+ exc] 57800_58638
+%mor:	co|oh .
+*INV:	and just turn it this way . 58638_60671
+%mor:	coord|and adj|just n|turn pro|it det|this n|way .
+*PAR:	she's washing dishes . 60671_63200
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL .
+*INV:	mhm . 63200_63734
+%mor:	co|yes .
+*PAR:	and she must have dropped one . 63734_66044
+%mor:	conj|and pro:sub|she mod|must v|have part|drop-PASTP pro:indef|one
+	.
+*PAR:	oh no she let the sink ran over . 66044_68611
+%mor:	co|oh co|no pro:sub|she v|let&ZERO det|the n|sink v|run&PAST
+	adv|over .
+*PAR:	and he's almost falling off of the chair [: stool] [* s:r] . 68611_72001
+%mor:	conj|and pro:sub|he~aux|be&3S adv|almost part|fall-PRESP adv|off
+	prep|of det|the n|stool .
+*PAR:	and she's [//] she did something, it looks like . [+ es] 72001_78707
+%mor:	conj|and pro:sub|she v|do&PAST pro:indef|something cm|cm pro|it
+	v|look-3S prep|like .
+*INV:	okay good . 78707_81145
+%mor:	co|okay adj|good .
+@End

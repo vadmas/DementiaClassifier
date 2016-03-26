@@ -1,0 +1,49 @@
+@UTF8
+@PID:	11312/t-00002357-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|male|Control||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	242-0c, audio
+*INV:	there it is . 0_1340
+%mor:	adv|there pro|it cop|be&3S .
+*PAR:	well the stool is tilting as the kid is taking cookies to give to his sister . 1340_8361
+%mor:	co|well det|the n|stool aux|be&3S part|tilt-PRESP conj|as det|the
+	n|kid aux|be&3S part|take-PRESP n|cookie-PL inf|to v|give prep|to
+	pro:poss:det|his n|sister .
+*PAR:	(..) the water's runnin(g) over in the sink . 8361_21525
+%mor:	det|the n|water~aux|be&3S part|run-PRESP adv|over prep|in det|the
+	n|sink .
+*PAR:	(..) the mother has to be blind . 21525_31453
+%mor:	det|the n|mother aux|have&3S inf|to cop|be adj|blind .
+*PAR:	(..) &w &w &w you_know she's dryin(g) the dishes . 31453_41053
+%mor:	co|you_know pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL
+	.
+*PAR:	what else am I supposed to find out ? [+ exc] 41053_45991
+%mor:	pro:wh|what post|else cop|be&1S pro:sub|I v|suppose-PAST inf|to
+	v|find adv|out ?
+*INV:	I beg your pardon ? 45991_48558
+%mor:	pro:sub|I v|beg pro:poss:det|your co|pardon ?
+*PAR:	what else am I supposed to know ? [+ exc] 48558_50240
+%mor:	pro:wh|what post|else cop|be&1S pro:sub|I v|suppose-PAST inf|to
+	v|know ?
+*INV:	just anything that you see happening in the picture . 50240_52097
+%mor:	adv|just pro:indef|anything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|the n|picture .
+*PAR:	oh happening ? [+ exc] 52097_52729
+%mor:	co|oh part|happen-PRESP ?
+*PAR:	the [//] like I say the water running <over the> [//] &uh over onto the floor and &uh the mother standing in it .  [+ gram] 52729_59483
+%mor:	prep|like pro:sub|I v|say det|the n|water part|run-PRESP adv|over
+	prep|onto det|the n|floor coord|and det|the n|mother
+	part|stand-PRESP prep|in pro|it .
+*INV:	+< mhm . 52800_53800
+%mor:	co|yes .
+*PAR:	she [//] she's washin(g) dishes and she'd have to be blind not to know what's going on in that nuthouse . 59483_65710
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL conj|and
+	pro:sub|she~mod|genmod v|have inf|to cop|be adj|blind neg|not inf|to
+	v|know pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|that
+	n|+n|nut+n|house .
+*INV:	mhm &=laughs okay . 65710_67780
+%mor:	co|yes co|okay .
+@End

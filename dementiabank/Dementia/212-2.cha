@@ -1,0 +1,81 @@
+@UTF8
+@PID:	11312/t-00002553-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|85;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	212-2c, audio
+*INV:	I want you to tell me everything that you see going on in this picture . 0_4773
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|this n|picture .
+*INV:	everything that you see happening there . 4773_6852
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	adv|there .
+*PAR:	yeah, alright . [+ exc] 6852_7846
+%mor:	co|yeah cm|cm adj|alright .
+*PAR:	the girl is reaching up for a cookie . 7846_11116
+%mor:	det|the n|girl aux|be&3S part|reach-PRESP adv|up prep|for det|a
+	n|cookie .
+*PAR:	the youngster's getting the cookie out of the cupboard . 11116_15254
+%mor:	det|the n|youngster~aux|be&3S part|get-PRESP det|the n|cookie
+	adv|out prep|of det|the n|cupboard .
+*PAR:	the cookie is in the pan [: jar] [* s:r-rep] &uh [/] pan [: jar]
+	[* s:r] . 15254_18615
+%mor:	det|the n|cookie cop|be&3S prep|in det|the n|jar n|jar .
+*PAR:	<the &uh bench [: stool] [* s:r-ret] or> [//] the stool that he's
+	standin(g) on is falling . 18615_24482
+%mor:	det|the n|stool rel|that pro:sub|he~aux|be&3S part|stand-PRESP
+	adv|on aux|be&3S part|fall-PRESP .
+*PAR:	the door to the cookie cupboard is open . 24482_29033
+%mor:	det|the n|door prep|to det|the n|cookie n|cupboard aux|be&3S
+	adv|open .
+*PAR:	the lady is washing dishes . 29033_31400
+%mor:	det|the n|lady aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	she has a dish cloth in her hand . 31400_34010
+%mor:	pro:sub|she v|have&3S det|a n|dish n|cloth prep|in pro:poss:det|her
+	n|hand .
+*PAR:	the &uh sink is runnin(g) over . 34010_36600
+%mor:	det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	the spigot is &um not shut off . 36600_40171
+%mor:	det|the n|spigot aux|be&3S neg|not v|shut&ZERO adv|off .
+*PAR:	there's two handles and neither one is shut off . 40171_43235
+%mor:	pro:exist|there~cop|be&3S det:num|two n|handle-PL coord|and
+	qn|neither pro:indef|one aux|be&3S part|shut&PASTP adv|off .
+*PAR:	there's [//] &um and it's fallin(g) on the floor . 43235_46533
+%mor:	conj|and pro|it~aux|be&3S part|fall-PRESP prep|on det|the n|floor .
+*PAR:	the [//] there's two cups and a dish <on the table [: counter+top]
+	[* s:r-ret]> [//] on the &uh top [: counter+top] [* s:r-ret] [//]
+	cabinet+tops [: counter+tops] [* s:r] . 46533_57399
+%mor:	pro:exist|there~cop|be&3S det:num|two n|cup-PL coord|and det|a
+	n|dish prep|on det|the n|+n|counter+n|top-PL .
+*PAR:	there's curtains . 57399_61866
+%mor:	pro:exist|there~aux|be&3S n|curtain-PL .
+*PAR:	there's &uh two windows . 61866_64745
+%mor:	pro:exist|there~cop|be&3S det:num|two n|window-PL .
+*PAR:	at least there's a window with two &uh panes showing, partial the others . 64745_71594
+%mor:	prep|at n|least pro:exist|there~cop|be&3S det|a n|window prep|with
+	det:num|two n|pane-PL part|show-PRESP cm|cm adj|partial det|the
+	n:pt|others .
+*PAR:	and it looks like a scenery outside like a [/] a walk and some bushes and things . 71594_77848
+%mor:	conj|and pro|it v|look-3S prep|like det|a n|scenery adv|outside
+	prep|like det|a n|walk coord|and qn|some n|bush-PL coord|and
+	n|thing-PL .
+*PAR:	and some bushes in front of the [//] (.) some kind of a building . [+ gram] 77848_83497
+%mor:	conj|and qn|some n|bush-PL prep|in n|front prep|of qn|some n|kind
+	prep|of det|a n|building .
+*PAR:	she has on an apron, (.) shoes . 83497_89227
+%mor:	pro:sub|she aux|have&3S prep|on det|a n|apron cm|cm n|shoe-PL .
+*PAR:	and <the child> [//] the young girl has shoes and stockings on and the boy has stockings on and shoes . 89227_95295
+%mor:	conj|and det|the adj|young n|girl aux|have&3S n|shoe-PL coord|and
+	n:gerund|stock-PRESP-PL adv|on coord|and det|the n|boy aux|have&3S
+	n:gerund|stock-PRESP-PL adv|on coord|and n|shoe-PL .
+*PAR:	and &uh (.) the cabinet has two [/] two three four five doors to it . 95295_105910
+%mor:	conj|and det|the n|cabinet v|have&3S det:num|two det:num|three
+	det:num|four det:num|five n|door-PL prep|to pro|it .
+*INV:	okay good . 105910_106873
+%mor:	co|okay adj|good .
+*INV:	thanks . 106873_107699
+%mor:	co|thanks .
+@End

@@ -1,0 +1,66 @@
+@UTF8
+@PID:	11312/t-00002664-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	492-0c, audio
+*INV:	what I'm gonna [: going to] do now is I'm gonna [: going to] show you a picture . 0_3814
+%mor:	pro:wh|what pro:sub|I~aux|be&1S part|go-PRESP inf|to v|do adv|now
+	cop|be&3S pro:sub|I~aux|be&1S part|go-PRESP inf|to v|show pro|you
+	det|a n|picture .
+*INV:	now in the picture there are some things going on, there's some action taking place . 4545_9309
+%mor:	adv|now prep|in det|the n|picture adv|there cop|be&PRES qn|some
+	n|thing-PL part|go-PRESP adv|on cm|cm pro:exist|there~cop|be&3S
+	qn|some n|action part|take-PRESP n|place .
+*INV:	what I want you to do is look at the picture and tell me anything at all that you see going on . 9309_15583
+%mor:	pro:wh|what pro:sub|I v|want pro|you inf|to v|do cop|be&3S n|look
+	prep|at det|the n|picture coord|and v|tell pro:obj|me
+	pro:indef|anything prep|at qn|all pro:dem|that pro|you v|see
+	n:gerund|go-PRESP adv|on .
+*INV:	can you tell me anything that you see going on in the picture ? 15583_26606
+%mor:	mod|can pro|you v|tell pro:obj|me pro:indef|anything rel|that
+	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	oh yes quite a_lot . [+ exc] 26606_28174
+%mor:	co|oh co|yes adv|quite adv|a_lot .
+*INV:	okay go ahead . 28174_29031
+%mor:	co|okay v|go adv|ahead .
+*PAR:	the kid's tryin(g) to get the &uh cookie jar down and he's gonna [: going to]  fall down off the ladder or the stool whatever it is . 29558_37665
+%mor:	det|the n|kid~aux|be&3S part|try-PRESP inf|to v|get det|the
+	n|cookie n|jar adv|down coord|and pro:sub|he~aux|be&3S part|go-PRESP
+	inf|to v|fall adv|down prep|off det|the n|ladder coord|or det|the
+	n|stool pro:wh|whatever pro|it cop|be&3S .
+*PAR:	and she's tryin(g) to get it &f &o out of his hand . 37665_41353
+%mor:	conj|and pro:sub|she~aux|be&3S part|try-PRESP inf|to v|get pro|it
+	adv|out prep|of pro:poss:det|his n|hand .
+*PAR:	and she's got little &so &s &uh socks on . 41353_45593
+%mor:	conj|and pro:sub|she~mod|do&3S v|get&PAST adj|little n|sock-PL
+	adv|on .
+*PAR:	and the mother is drying the dishes and the water's sloppin(g) all over the floor . 45593_52094
+%mor:	conj|and det|the n|mother aux|be&3S part|dry-PRESP det|the
+	n|dish-PL coord|and det|the n|water~aux|be&3S part|slop-PRESP
+	adv|all prep|over det|the n|floor .
+*PAR:	and there is a garden outside it looks like . 51703_56248
+%mor:	conj|and pro:exist|there cop|be&3S det|a n|garden prep|outside
+	pro|it v|look-3S prep|like .
+*PAR:	and there's drapes <or &uh not drapes> [//] whatever you call them that's &o over the window . 56248_64761
+%mor:	conj|and pro:exist|there~cop|be&3S v|drape-3S pro:wh|whatever
+	pro|you v|call pro:obj|them rel|that~aux|be&3S prep|over det|the
+	n|window .
+*PAR:	and there's dishes over here . 64761_68993
+%mor:	conj|and pro:exist|there~cop|be&3S n|dish-PL prep|over pro:dem|here
+	.
+*PAR:	and this looks like cabinets where the water is flowing over . 68993_75592
+%mor:	conj|and det|this n|look-PL prep|like n|cabinet-PL rel|where
+	det|the n|water aux|be&3S part|flow-PRESP adv|over .
+*PAR:	and somebody's gonna [: going to] fall down off <that ladder [: stool] [* s:r-ret] or> [//] that &su stool or whatever it is . 75592_83638
+%mor:	conj|and pro:indef|somebody~aux|be&3S part|go-PRESP inf|to v|fall
+	adv|down prep|off det|that n|stool coord|or pro:wh|whatever pro|it
+	cop|be&3S .
+*PAR:	and the little girl has little shoes and socks on . 83638_88899
+%mor:	conj|and det|the adj|little n|girl aux|have&3S adj|little n|shoe-PL
+	coord|and v|sock-3S adv|on .
+*INV:	okay good . 88899_91793
+%mor:	co|okay adj|good .
+@End

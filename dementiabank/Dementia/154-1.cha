@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/t-00002518-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|62;|male|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	154-1c, audio
+*INV:	what do you see going on in that picture ? 0_2350
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|that n|picture ?
+*PAR:	(.) this &uh boy is getting &uh cookies out of this jar . 2350_9822
+%mor:	det|this n|boy aux|be&3S part|get-PRESP n|cookie-PL adv|out prep|of
+	det|this n|jar .
+*INV:	okay . 9822_10928
+%mor:	co|okay .
+*INV:	(..) anything else ? 10928_17030
+%mor:	pro:indef|anything post|else ?
+*INV:	(.) what else do you see going on there ? 17030_22910
+%mor:	pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP prep|on
+	pro:dem|there ?
+*PAR:	(..) well why [/] why [//] <they must> [//] they [/] they must have put [/] put something <in the> [x 3] &uh <in the> [//] &uh (.) in somethin(g) over here . [+ es] 22910_41625
+%mor:	co|well pro:sub|they mod|must v|have v|put&ZERO pro:indef|something
+	prep|in det|the adv|in pro:indef|something prep|over pro:dem|here .
+*INV:	anything else ? 41625_44028
+%mor:	pro:indef|anything post|else ?
+*PAR:	www . [+ exc] 44028_65351
+%exp:	tape appears to stop and start, nothing intelligible
+*INV:	anything else you see going on over there ? 65351_69865
+%mor:	pro:indef|anything post|else pro|you v|see n:gerund|go-PRESP adv|on
+	prep|over pro:dem|there ?
+*INV:	(...) is that it ? 69865_85304
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	no <you've gotta> [//] <you gotta  get the> [//] &g you gotta  get the [/] &uh the &uh thing <out o(f) the> [/] &uh out o(f) the &uh +... 85304_97504
+%mor:	co|no pro|you mod:aux|gotta v|get det|the n|thing adv|out prep|of
+	det|the +...
+*INV:	(..) is that it ? 97504_105957
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	(.) yeah I guess so . [+ exc] 105957_111215
+%mor:	co|yeah pro:sub|I v|guess adv|so .
+*INV:	okay . 111215_113424
+%mor:	co|okay .
+@End

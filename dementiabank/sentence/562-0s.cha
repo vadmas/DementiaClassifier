@@ -1,0 +1,84 @@
+@UTF8
+@PID:	11312/t-00016686-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|85;|female|ProbableAD||Participant|11||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	562-0s, audio
+*INV:	pencil@q . 0_1588
+%mor:	meta|pencil .
+*PAR:	the pencil needs sharpened &=laughs . 1588_5160
+%mor:	det|the n|pencil v|need-3S part|sharpen-PASTP .
+*INV:	okay . 5160_6195
+%mor:	co|okay .
+*INV:	(.) how_(a)bout tree@q ? 6195_13012
+%mor:	adv:wh|how_about meta|tree ?
+*PAR:	tree@q . [+ exc] 13012_13713
+%mor:	meta|tree .
+*INV:	can you give me a short simple sentence using the word tree@q ? 13713_16886
+%mor:	mod|can pro|you v|give pro:obj|me det|a adj|short adj|simple
+	n|sentence part|use-PRESP det|the n|word meta|tree ?
+*PAR:	(.) oh ‡ (.) the leaves fall off the tree &=laughs . 16886_27800
+%mor:	co|oh beg|beg det|the n|leaf-PL v|fall prep|off det|the n|tree .
+*INV:	+< okay . 27600_28451
+%mor:	co|okay .
+*INV:	now I'm gonna give you two words . 28451_34675
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	don't worry about the order that I give them to you . 34675_37000
+%mor:	mod|do~neg|not v|worry prep|about det|the n|order rel|that
+	pro:sub|I v|give pro:obj|them prep|to pro|you .
+*INV:	just use both of them in one short simple sentence . 37000_40434
+%mor:	adj|just n|use qn|both prep|of pro:obj|them adv|in pro:indef|one
+	adj|short adj|simple n|sentence .
+*INV:	child@q hospital@q . 40434_42909
+%mor:	meta|child meta|hospital .
+*PAR:	(.)  I don't know . [+ exc] 42909_48935
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	can you come up with a sentence using those words ? 48935_51323
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP det|those n|word-PL ?
+*INV:	child@q hospital@q . 51323_53089
+%mor:	meta|child meta|hospital .
+*PAR:	+< the child is in the hospital . 51907_53382
+%mor:	det|the n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	good ! 53382_54257
+%mor:	adj|good !
+*INV:	how_(a)bout cold@q winter@q ? 54257_61619
+%mor:	adv:wh|how_about meta|cold meta|winter ?
+*PAR:	weather . [+ exc] 61619_63300
+%mor:	n|weather .
+*PAR:	weather . [+ exc] 63300_64173
+%mor:	n|weather .
+*INV:	can you come up with a short simple sentence using the words cold@q
+	winter@q ? 64173_68561
+%mor:	mod|can pro|you v|come adv|up prep|with det|a adj|short adj|simple
+	n|sentence part|use-PRESP det|the n|word-PL meta|cold meta|winter ?
+*PAR:	it's been a cold winter . 68561_70117
+%mor:	pro|it~aux|be&3S cop|be&PASTP det|a adj|cold n|winter .
+*INV:	(..) now I'm gonna give you three words . 70117_77833
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	I want you to come up with a short simple sentence using the words
+	chair@q doctor@q sit@q . 77833_84482
+%mor:	pro:sub|I v|want pro|you inf|to v|come adv|up prep|with det|a
+	adj|short adj|simple n|sentence part|use-PRESP det|the n|word-PL
+	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor sat in the chair &=laughs . 84482_88217
+%mor:	det|the n|doctor v|sit&PAST prep|in det|the n|chair .
+*PAR:	are any of them right that I +..? [+ exc] 88217_92780
+%mor:	cop|be&PRES qn|any prep|of pro:obj|them adv|right adv|that
+	pro:sub|I +..?
+*INV:	you're doin(g) fine so far . 92780_94104
+%mor:	pro|you~aux|be&PRES part|do-PRESP adv|fine adv|so adv|far .
+*INV:	they're perfect . 94104_94997
+%mor:	pro:sub|they~cop|be&PRES adj|perfect .
+*PAR:	&=laughs . 94997_95227
+*INV:	now I want you to come up with a sentence using bureau@q open@q
+	drawer@q . 95527_101067
+%mor:	adv|now pro:sub|I v|want pro|you inf|to v|come adv|up prep|with
+	det|a n|sentence part|use-PRESP meta|bureau meta|open meta|drawer .
+*PAR:	the bureau &dr drawer is open &=coughs . 100498_104279
+%mor:	det|the n|bureau n|drawer cop|be&3S adj|open .
+@End

@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002604-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|62;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	283-1c, audio
+*INV:	can you tell me what's going on in the picture ? 0_1813
+%mor:	mod|can pro|you v|tell pro:obj|me pro:wh|what~aux|be&3S
+	part|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	oh sure . [+ exc] 1813_2433
+%mor:	co|oh adv|sure .
+*PAR:	the little girl's standing in the kitchen . 2433_4190
+%mor:	det|the adj|little n|girl~poss|s part|stand-PRESP prep|in det|the
+	n|kitchen .
+*PAR:	and then the little boy steps on a [/] &uh a chair [: stool] [* s:r] to get some cookies . 4190_10690
+%mor:	conj|and adv:tem|then det|the adj|little n|boy v|step-3S prep|on
+	det|a n|stool inf|to v|get qn|some n|cookie-PL .
+*PAR:	and he's about to fall down . 10690_12454
+%mor:	conj|and pro:sub|he~mod|do&3S adv|about inf|to v|fall adv|down .
+*PAR:	and his mother isn't aware of it yet . 12454_15040
+%mor:	conj|and pro:poss:det|his n|mother cop|be&3S~neg|not adj|aware
+	prep|of pro|it adv|yet .
+*PAR:	she's still washing dishes . 15040_17587
+%mor:	pro:sub|she~aux|be&3S adv|still part|wash-PRESP n|dish-PL .
+*PAR:	and then the sink ran over I guess  when she got excited . 17587_21401
+%mor:	conj|and adv:tem|then det|the n|sink v|run&PAST adv|over pro:sub|I
+	n|guess conj|when pro:sub|she aux|get&PAST part|excite-PASTP .
+*PAR:	and it's going down <on a> [//] on the &s floor in the kitchen . 21401_26200
+%mor:	conj|and pro|it~aux|be&3S part|go-PRESP adv|down prep|on det|the
+	n|floor prep|in det|the n|kitchen .
+*PAR:	and she's trying to dry the dishes . 26200_29450
+%mor:	conj|and pro:sub|she~aux|be&3S part|try-PRESP inf|to v|dry det|the
+	n|dish-PL .
+*PAR:	and she's just standing there . 29450_31143
+%mor:	conj|and pro:sub|she~aux|be&3S adv|just part|stand-PRESP adv|there
+	.
+*PAR:	she still has dishes to go I guess . 31143_33795
+%mor:	pro:sub|she adv|still aux|have&3S v|dish-3S inf|to v|go pro:sub|I
+	v|guess .
+*PAR:	and this little boy is about to fall . 33795_36050
+%mor:	conj|and det|this adj|little n|boy cop|be&3S adv|about prep|to
+	n|fall .
+*PAR:	and this little girl is smiling at him because he's going for the cookies in the cookie jar &=laughs . 36050_42519
+%mor:	conj|and det|this adj|little n|girl aux|be&3S part|smile-PRESP
+	prep|at pro:obj|him conj|because pro:sub|he~aux|be&3S part|go-PRESP
+	prep|for det|the n|cookie-PL prep|in det|the n|cookie n|jar .
+*INV:	okay good thank you . 42519_44683
+%mor:	co|okay adj|good v|thank pro|you .
+@End

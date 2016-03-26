@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00002425-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	007-1c, audio
+*INV:	www . 0_1929
+%exp:	recording prep
+*INV:	there it is . 1929_2744
+%mor:	adv|there pro|it cop|be&3S .
+*PAR:	xxx . [+ exc] 2744_6330
+*INV:	yeah . 6330_7674
+%mor:	co|yeah .
+*PAR:	can I look at it and tell you ? [+ exc] 7674_13415
+%mor:	mod|can pro:sub|I v|look prep|at pro|it coord|and v|tell pro|you ?
+*INV:	just tell me as you see it there mhm . 13415_15704
+%mor:	adv|just v|tell pro:obj|me prep|as pro|you v|see pro|it adv|there
+	co|yes .
+*PAR:	+< oh okay . [+ exc] 14815_15704
+%mor:	co|oh co|okay .
+*PAR:	well there's a girl and a boy and the boy's in the cookie jar . 15704_19000
+%mor:	co|well pro:exist|there~cop|be&3S det|a n|girl coord|and det|a
+	n|boy coord|and det|the n|boy~cop|be&3S prep|in det|the n|cookie
+	n|jar .
+*PAR:	and he's standing on a stool that's tipping over . 19000_22603
+%mor:	conj|and pro:sub|he~aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool rel|that~aux|be&3S part|tip-PRESP adv|over .
+*PAR:	and he's in the kitchen . 22603_23569
+%mor:	conj|and pro:sub|he~cop|be&3S prep|in det|the n|kitchen .
+*PAR:	and the mother's in the kitchen running the water at the sink . 23569_26495
+%mor:	conj|and det|the n|mother~cop|be&3S prep|in det|the n|kitchen
+	part|run-PRESP det|the n|water prep|at det|the n|sink .
+*PAR:	and the water's running over and it's all over the floor . 26495_29885
+%mor:	conj|and det|the n|water~aux|be&3S part|run-PRESP adv|over
+	coord|and pro|it~cop|be&3S adv|all prep|over det|the n|floor .
+*PAR:	and there are curtains at the windows . 29885_32279
+%mor:	conj|and adv|there cop|be&PRES n|curtain-PL prep|at det|the
+	n|window-PL .
+*PAR:	and there are cups and a plate on the &uh pantry . 32279_36551
+%mor:	conj|and adv|there cop|be&PRES n|cup-PL coord|and det|a n|plate
+	prep|on det|the n|pantry .
+*PAR:	and &uh &uh the [/] the [//] outside the window there's a path leading to a garage it looks like .  36551_46792
+%mor:	conj|and prep|outside det|the n|window pro:exist|there~cop|be&3S
+	det|a n|path part|lead-PRESP prep|to det|a n|garage pro|it v|look-3S
+	prep|like .
+*PAR:	and there are curtains there . 46792_48112
+%mor:	conj|and adv|there cop|be&PRES n|curtain-PL adv|there .
+*PAR:	and &uh that's about all there . [+ exc] 48112_51546
+%mor:	conj|and pro:dem|that~cop|be&3S prep|about qn|all adv|there .
+*INV:	okay . 51546_53632
+%mor:	co|okay .
+@End

@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/t-00002712-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|female|ProbableAD||Participant|18||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	648-0c, audio
+*INV:	is take a look at this picture and tell me everything that you see going on in the picture . 0_6165
+%mor:	cop|be&3S v|take det|a n|look prep|at det|this n|picture coord|and
+	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	tell me everything that you see happening . 6165_8872
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP .
+*PAR:	now ? [+ exc] 8872_11941
+%mor:	adv|now ?
+*PAR:	<the girl's> [/] &k the girl's coaxin(g) the boy for a cookie and his stool fell over and the cookie are spilled . 11941_22365
+%mor:	det|the n|girl~aux|be&3S part|coax-PRESP det|the n|boy prep|for
+	det|a n|cookie coord|and pro:poss:det|his n|stool v|fall&PAST
+	adv|over coord|and det|the n|cookie aux|be&PRES v|spill-PAST .
+*PAR:	she spilled her dishwater washin(g) dishes . 22365_30122
+%mor:	pro:sub|she v|spill-PAST pro:poss:det|her n|dishwater
+	part|wash-PRESP n|dish-PL .
+*PAR:	she's <washin(g) dishes> [//] dryin(g) them . 30122_32000
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP pro:obj|them .
+*PAR:	<that runs over> [//] the sink's runnin(g) over . 32000_35142
+%mor:	det|the n|sink~aux|be&3S part|run-PRESP adv|over .
+*PAR:	her feet &s &=laughs in the water . [+ gram] 35142_38434
+%mor:	pro:poss:det|her n|foot&PL prep|in det|the n|water .
+*PAR:	this must be a path out back . 38434_42557
+%mor:	pro:dem|this mod|must cop|be det|a n|path prep|out n|back .
+*PAR:	flowers, trees . [+ gram] 42557_46083
+%mor:	n|flower-PL cm|cm n|tree-PL .
+*PAR:	I don't know what else . [+ exc] 46083_51700
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what post|else .
+*PAR:	water on the floor . [+ gram] 51700_52907
+%mor:	n|water prep|on det|the n|floor .
+*INV:	is that everything then ? 52907_54770
+%mor:	cop|be&3S rel|that pro:indef|everything adv:tem|then ?
+*PAR:	yeah . [+ exc] 54770_55439
+%mor:	co|yeah .
+@End

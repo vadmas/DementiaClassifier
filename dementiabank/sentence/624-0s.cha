@@ -1,0 +1,54 @@
+@UTF8
+@PID:	11312/t-00016704-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|60;|female|PossibleAD||Participant|18||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	624-0s, audio
+*INV:	and hospital@q . 0_1619
+%mor:	conj|and meta|hospital .
+*INV:	put those in a brief sentence . 1619_5636
+%mor:	v|put&ZERO pro:dem|those prep|in det|a adj|brief n|sentence .
+*PAR:	well ‡ in the hospital . [+ exc] 5636_8806
+%mor:	co|well beg|beg prep|in det|the n|hospital .
+*PAR:	&uh (.) we took the child to the hospital .
+	8806_15007
+%mor:	pro:sub|we v|take&PAST det|the n|child prep|to det|the n|hospital .
+*INV:	mhm . 15007_15679
+%mor:	co|yes .
+*INV:	cold@q and winter@q . 15679_18290
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	I don't like the cold winter . 18290_22835
+%mor:	pro:sub|I mod|do~neg|not v|like det|the adj|cold n|winter .
+*INV:	me neither . 22835_24064
+%mor:	pro:obj|me adv|neither .
+*INV:	(..) I'm going to give you three words now . 24064_37492
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL adv|now .
+*INV:	still make up a sentence using the three words . 37492_40328
+%mor:	adv|still v|make prep|up det|a n|sentence part|use-PRESP det|the
+	det:num|three n|word-PL .
+*INV:	chair@q doctor@q and sit@q . 40328_44203
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	(..) I sat in the chair at the doctor's . 44203_56281
+%mor:	pro:sub|I v|sit&PAST prep|in det|the n|chair prep|at det|the
+	n|doctor~poss|s .
+*INV:	mhm . 56281_57106
+%mor:	co|yes .
+*INV:	(.) bureau@q open@q and drawer@q . 57106_65230
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	(.) &=whispers bureau@q open@q drawer@q . [+ exc] 65230_73774
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	&uh what am I supposed to tell you ? [+ exc] 73774_77556
+%mor:	adv|what aux|be&1S pro:sub|I v|suppose-PAST inf|to v|tell pro|you ?
+*INV:	make up a sentence using those three words . 77556_79959
+%mor:	v|make prep|up det|a n|sentence part|use-PRESP det|those
+	det:num|three n|word-PL .
+*INV:	bureau@q open@q and drawer@q . 79959_83018
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	(.) I cleaned the bureau drawer . 83018_88637
+%mor:	pro:sub|I v|clean-PAST det|the n|bureau n|drawer .
+*INV:	mhm . 88637_89447
+%mor:	co|yes .
+@End

@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00002439-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|80;|male|ProbableAD||Participant|3||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	023-2c, audio
+*INV:	what do you see going on here ? 0_1231
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP prep|on
+	pro:dem|here ?
+*INV:	just look at this picture and tell me what you see going on . 1231_4389
+%mor:	adv|just v|look prep|at det|this n|picture coord|and v|tell
+	pro:obj|me pro:wh|what pro|you v|see n:gerund|go-PRESP adv|on .
+*PAR:	well you see <the little> [/] the little boy stealing cookies . 4389_8800
+%mor:	co|well pro|you v|see det|the adj|little n|boy part|steal-PRESP
+	n|cookie-PL .
+*INV:	uhhuh . 8800_10100
+%mor:	co|uhhuh .
+*PAR:	and &uh the under [* s:uk] girl is going to pick (th)em up . 10100_16650
+%mor:	conj|and det|the prep|under n|girl aux|be&3S part|go-PRESP inf|to
+	v|pick pro:obj|them adv|up .
+*PAR:	I think she is . [+ exc] 16650_18339
+%mor:	pro:sub|I v|think pro:sub|she cop|be&3S .
+*PAR:	because he is gonna [: going to] take a whole damn fall . 18339_24800
+%mor:	conj|because pro:sub|he aux|be&3S part|go-PRESP inf|to v|take det|a
+	adj|whole n|damn n|fall .
+*PAR:	and this girl +...  24800_36600
+%mor:	coord|and det|this n|girl +...
+*PAR:	you gotta find something here . [+ exc] 36600_38600
+%mor:	pro|you mod:aux|gotta v|find pro:indef|something adv|here .
+*INV:	yeah what else do you see ? 38600_49000
+%mor:	co|yeah pro:wh|what post|else v|do pro|you v|see ?
+*PAR:	well the cookie jar is gonna [: going to] get smashed . 49000_53413
+%mor:	co|well det|the n|cookie n|jar aux|be&3S part|go-PRESP inf|to
+	aux|get part|smash-PASTP .
+*PAR:	if that little girl don't xxx . [+ jar]  53413_58130
+%mor:	conj|if det|that adj|little n|girl mod|do~neg|not .
+*PAR:	and the woman is already gettin(g) it (.) from somethin(g) . [+ es] 58130_69700
+%mor:	conj|and det|the n|woman aux|be&3S adv|already n:gerund|get-PRESP
+	pro|it prep|from pro:indef|something .
+*INV:	anything else ? 69700_71100
+%mor:	pro:indef|anything post|else ?
+*INV:	whats going on right here ? 71100_73000
+%mor:	n:pt|whats part|go-PRESP adv|on adv|right adv|here ?
+*PAR:	what ? [+ exc] 73000_73450
+%mor:	pro:wh|what ?
+*INV:	what do you see going on over here ? 73450_75200
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on prep|over
+	pro:dem|here ?
+*INV:	anything ? 75300_77200
+%mor:	pro:indef|anything ?
+*PAR:	yeah she's [/] (.) she's in an [//] warm water . 77300_87200
+%mor:	co|yeah pro:sub|she~cop|be&3S adv|in adj|warm n|water .
+*PAR:	and it's on [x 3] also . 87300_93000
+%mor:	conj|and pro|it~cop|be&3S adv|on adv|also .
+*PAR:	and over there is cookies off the right xxx . 93000_104500
+%mor:	conj|and adv|over adv|there cop|be&3S n|cookie-PL prep|off det|the
+	adj|right .
+*INV:	is that all ? 104500_110400
+%mor:	cop|be&3S adv|that adv|all ?
+*PAR:	yeah that's about all I can see . [+ exc] 110400_112413
+%mor:	co|yeah pro:dem|that~cop|be&3S adv|about adv|all pro:sub|I mod|can
+	v|see .
+*INV:	okay . 112413_113426
+%mor:	co|okay .
+@End

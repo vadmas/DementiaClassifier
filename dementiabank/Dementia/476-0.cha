@@ -1,0 +1,71 @@
+@UTF8
+@PID:	11312/t-00002661-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|female|PossibleAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	476-0c, audio
+*INV:	you see going on in the picture . 950_3409
+%mor:	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	&=clears:throat &hm the woman of the house is drying the dishes . 3409_10011
+%mor:	det|the n|woman prep|of det|the n|house aux|be&3S part|dry-PRESP
+	det|the n|dish-PL .
+*PAR:	her sink is overflowing . 10011_12842
+%mor:	pro:poss:det|her n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	the boy's stool is tipping . 12842_16670
+%mor:	det|the n|boy~poss|s n|stool aux|be&3S part|tip-PRESP .
+*PAR:	he's taking cookies out of a jar . 16670_19253
+%mor:	pro:sub|he~aux|be&3S part|take-PRESP n|cookie-PL adv|out prep|of
+	det|a n|jar .
+*PAR:	he's handing one to his sister . 19253_22522
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP det:num|one prep|to
+	pro:poss:det|his n|sister .
+*PAR:	and <she is> [//] oh she's already dried some dishes right here I guess . 22522_30912
+%mor:	conj|and co|oh pro:sub|she~cop|be&3S adv|already v|dry-PAST qn|some
+	n|dish-PL adv|right adv|here pro:sub|I v|guess .
+*PAR:	well what is this hon(ey) ? [+ exc] 30912_31677
+%mor:	co|well pro:wh|what cop|be&3S det|this n|honey ?
+*PAR:	I [/] I can't make that out . [+ exc] 31677_32591
+%mor:	pro:sub|I mod|can~neg|not v|make rel|that adv|out .
+*PAR:	it look like a +... [+ exc] 32591_33778
+%mor:	pro|it v|look rel|like det|a +...
+*INV:	all you need to tell me is the action . 33778_35407
+%mor:	qn|all pro|you v|need inf|to v|tell pro:obj|me aux|be&3S det|the
+	n|action .
+*PAR:	oh action . [+ exc] 35407_35972
+%mor:	co|oh n|action .
+*PAR:	oh I'm sorry . [+ exc] 35972_36804
+%mor:	co|oh pro:sub|I~cop|be&1S adj|sorry .
+*INV:	+< anything going on . 36500_38120
+%mor:	pro:indef|anything part|go-PRESP adv|on .
+*PAR:	she's dryin(g) the dishes . 38120_39192
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	she's standin(g) in water <well that's> [/] &ac if that's action . 39677_45107
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in n|water conj|if
+	pro:dem|that~cop|be&3S n|action .
+*INV:	okay . 44932_46786
+%mor:	co|okay .
+*PAR:	and the door is open where the cookies are . 46786_52188
+%mor:	conj|and det|the n|door aux|be&3S adv|open rel|where det|the
+	n|cookie-PL cop|be&PRES .
+*PAR:	they all have their shoes on &=chuckles . 52188_58286
+%mor:	pro:sub|they post|all v|have pro:poss:det|their n|shoe-PL adv|on .
+*PAR:	oh she's got an apron on &uh over her dress . 58286_61681
+%mor:	co|oh pro:sub|she~aux|be&3S part|get&PASTP det|a n|apron adv|on
+	prep|over pro:poss:det|her n|dress .
+*PAR:	kind of homely girl isn't she ? [+ exc] 61681_63919
+%mor:	n|kind prep|of adj|home&dn-LY n|girl cop|be&3S~neg|not pro:sub|she
+	?
+*PAR:	she's not doin(g) much she's just got her hand like &=grunt . 63919_69227
+%mor:	pro:sub|she~aux|be&3S neg|not part|do-PRESP qn|much
+	pro:sub|she~aux|be&3S adv|just v|get&PAST pro:poss:det|her n|hand
+	prep|like .
+*PAR:	&uh &d how many did I get wrong ? [+ exc] 69227_70490
+%mor:	adv:wh|how qn|many mod|do&PAST pro:sub|I v|get adj|wrong ?
+*INV:	no that's fine, you did fine . 70490_71871
+%mor:	co|no pro:dem|that~cop|be&3S adj|fine cm|cm pro|you v|do&PAST
+	adv|fine .
+*PAR:	okay . [+ exc] 71871_73227
+%mor:	co|okay .
+@End
