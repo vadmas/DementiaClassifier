@@ -1,0 +1,1 @@
+grep 'PAR:' 001-0.cha | sed -e 's/\*PAR://g' -e 's/\[+\ exc\]//g' -e 's/\[\/\/\]//g' -e 's/[0-9]*_[0-9]*//g' -e 's/\[\/\]//g' -e 's/<//g' -e 's/>//g' -e 's/&//g' -e 's/\[[^][]*\]//g' -e 's/\+/\ /g' -e  's/^[ \t]*//' -e 's/\ \.\ /\./g' -e 's/      //g' -e 's/\@[a-z]//g' -e 's/\=clears\ throat//g' -e 's/\=clears\:throat//g'| tr -d '()'

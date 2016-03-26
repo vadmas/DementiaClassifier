@@ -1,0 +1,1 @@
+- For optima concatenated all text without adding sentence breaks
