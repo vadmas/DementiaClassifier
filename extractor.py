@@ -82,6 +82,63 @@ def build_tree(parse_tree):
     return root_node
 
 
+def get_height_of_tree(tree_node):
+    depth = 0
+    for children in tree_node.children:
+        depth += get_height_of_tree(children)
+    return depth
+
+
+def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
+    curr_type = tree_node.type
+    count = 0
+    if prev_type == parent_type and curr_type == child_type:
+        count = 1
+    for children in tree_node.children:
+        count += get_count_of_parent_child(child_type, parent_type, children, curr_type)
+    return count
+
+
+def get_NP_2_PRP(tree_node):
+    return get_count_of_parent_child('PRP', 'NP', tree_node)
+
+
+def get_ADVP_2_RB(tree_node):
+    return get_count_of_parent_child('ADVP', 'RP', tree_node)
+
+
+def get_NP_2_DTNN(tree_node):
+    return get_count_of_parent_child('NP', 'DT_NN', tree_node)
+
+
+def get_VP_2_AUXVP(tree_node):
+    return get_count_of_parent_child('VP', 'AUX_VP', tree_node)
+
+
+def get_VP_2_VBG(tree_node):
+    return get_count_of_parent_child('VP', 'VBG', tree_node)
+
+
+def get_VP_2_VBGPP(tree_node):
+    return get_count_of_parent_child('VP', 'VBG_PP', tree_node)
+
+
+def get_VP_2_AUXADJP(tree_node):
+    return get_count_of_parent_child('VP', 'AUX_ADJP', tree_node)
+
+
+def get_VP_2_AUX(tree_node):
+    return get_count_of_parent_child('VP', 'AUX', tree_node)
+
+
+def get_VP_2_VBDNP(tree_node):
+    return get_count_of_parent_child('VP', 'VBD_NP', tree_node)
+
+
+def get_INTJ_2_UH(tree_node):
+    return get_count_of_parent_child('INTJ', 'UH', tree_node)
+
+
 if __name__ == '__main__':
     thread = start_stanford_server() # Start the server
     tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')
