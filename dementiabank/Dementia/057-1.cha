@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/t-00002469-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|24||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	057-1c, audio
+*PAR:	you ready ? [+ exc] 0_1225
+%mor:	pro|you v|ready ?
+*INV:	mhm . 1225_1891
+%mor:	co|yes .
+*PAR:	the little girl's goin(g) “sh@o” . 1891_5382
+%mor:	det|the adj|little n|girl~poss|s part|go-PRESP bq|bq on|sh eq|eq .
+*PAR:	and she's also &uh reaching up to get a &uh cookie .5382_10660
+%mor:	conj|and pro:sub|she~aux|be&3S adv|also part|reach-PRESP adv|up
+	inf|to v|get det|a n|cookie .
+*PAR:	and the [/] &l the little boy is reaching for a cookie .10660_16046
+%mor:	conj|and det|the adj|little n|boy aux|be&3S part|reach-PRESP
+	prep|for det|a n|cookie .
+*PAR:	and <he's goin(g) to> [//] his [//] the [/] &s <the chair [: stool] [* s:r-ret]> [//] the [/] &sta &uh the stool is tiltin(g) .16046_25401
+%mor:	conj|and det|the n|stool aux|be&3S part|tilt-PRESP .
+*PAR:	and he's holding a [/] &uh a cookie in his &uh left hand .25401_32592
+%mor:	conj|and pro:sub|he~aux|be&3S part|hold-PRESP det|a n|cookie
+	prep|in pro:poss:det|his n|left n|hand .
+*PAR:	and &uh the mother's drying dishes .32592_38568
+%mor:	conj|and det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and &uh <the water> [//] the dish water is on and it's pourin(g) over onto the floor .38568_46618
+%mor:	conj|and det|the n|dish n|water aux|be&3S adv|on coord|and
+	pro|it~aux|be&3S part|pour-PRESP adv|over prep|onto det|the n|floor
+	.
+*PAR:	and &uh (.) the curtains are blowing .46618_56871
+%mor:	conj|and det|the n|curtain-PL aux|be&PRES part|blow-PRESP .
+*PAR:	the [/] the window's up .56871_58444
+%mor:	det|the n|window~aux|be&3S adv|up .
+*PAR:	&ee let me see . [+ exc] 58444_63861
+%mor:	v|let&ZERO pro:obj|me v|see .
+*PAR:	(..) she's dryin(g) the dishes .63861_70653
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	I don't know whether I said that or not . [+ exc] 70653_72345
+%mor:	pro:sub|I mod|do~neg|not v|know conj|whether pro:sub|I v|say&PAST
+	adv|that coord|or neg|not .
+*PAR:	(...) I can't see any other &uh +...  [+ exc] 72345_98000
+%mor:	pro:sub|I mod|can~neg|not v|see qn|any qn|other +...
+*PAR:	xxx the leaves are blowing on the trees .98000_101777
+%mor:	det|the n|leave-PL aux|be&PRES part|blow-PRESP prep|on det|the
+	n|tree-PL .
+*INV:	(..) okay that's good .101777_112469
+%mor:	co|okay pro:dem|that~cop|be&3S adj|good .
+@End

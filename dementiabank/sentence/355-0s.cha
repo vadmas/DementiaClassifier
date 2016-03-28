@@ -1,0 +1,114 @@
+@Font:	CAfont:13:0
+@UTF8
+@PID:	11312/t-00016649-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|85;|female|ProbableAD||Participant|24||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	355-0s, audio
+*INV:	I'm gonna &sh +//. 0_743
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to +//.
+*PAR:	for example I give you the word table@q something
+	like +"/. 743_2752
+%mor:	prep|for n|example pro:sub|I v|give pro|you det|the n|word
+	meta|table pro:indef|something prep|like +"/.
+*PAR:	+" your dinner is on the table . 2752_4529
+%mor:	pro:poss:det|your n|dinner cop|be&3S prep|on det|the n|table .
+*INV:	okay ‡ how (a)bout pencil@q . 4529_6366
+%mor:	co|okay beg|beg adv|how prep|about meta|pencil .
+*INV:	can you give me a short simple sentence using the word pencil@q ? 6366_9542
+%mor:	mod|can pro|you v|give pro:obj|me det|a adj|short adj|simple
+	n|sentence part|use-PRESP det|the n|word meta|pencil ?
+*PAR:	of_course . [+ exc] 9242_9658
+%mor:	co|of_course .
+*PAR:	a &k pencil is something you write with ! 9658_11982
+%mor:	det|a n|pencil aux|be&3S pro:indef|something pro|you v|write
+	prep|with !
+*INV:	(..) tree@q . 11982_18709
+%mor:	meta|tree .
+*PAR:	the tree is very &uh green [//] &uh beautiful . 18709_22769
+%mor:	det|the n|tree aux|be&3S adv|very adj|beautiful .
+*PAR:	<want me> [//] is that's what you want me to do ? 22769_24200
+%mor:	aux|be&3S pro:dem|that~cop|be&3S pro:wh|what pro|you v|want
+	pro:obj|me inf|to v|do ?
+*INV:	+< mhm . 24100_25096
+%mor:	co|yes .
+*INV:	now +/. 25096_25860
+%mor:	adv|now +/.
+*PAR:	+< some trees are very beautiful . [+ exc] 25097_27209
+%mor:	qn|some n|tree-PL cop|be&PRES adv|very adj|beautiful .
+*INV:	(o)kay ‡ now I'm going to give you two words . 27209_29996
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	I don't want you to worry about the order that I give them to you
+	in . 29996_33103
+%mor:	pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry prep|about
+	det|the n|order rel|that pro:sub|I v|give pro:obj|them prep|to
+	pro|you adv|in .
+*INV:	I just want you to use both of them in one short simple sentence
+	. 33103_36185
+%mor:	pro:sub|I adv|just v|want pro|you inf|to v|use qn|both prep|of
+	pro:obj|them adv|in pro:indef|one adj|short adj|simple n|sentence .
+*INV:	child@q hospital@q . 36185_38490
+%mor:	meta|child meta|hospital .
+*PAR:	a child (.) is admitted to the hospital . 38490_44059
+%mor:	det|a n|child aux|be&3S part|admit-PASTP prep|to det|the n|hospital
+	.
+*PAR:	is that what you want ? [+ exc] 44059_45809
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|you v|want ?
+*INV:	okay . 45809_46283
+%mor:	co|okay .
+*PAR:	okay . [+ exc] 46280_47661
+%mor:	co|okay .
+*INV:	cold@q winter@q . 47686_49492
+%mor:	meta|cold meta|winter .
+*PAR:	some winters are very cold (.) some aren't . 49492_54006
+%mor:	qn|some n|winter-PL cop|be&PRES adv|very adv|cold qn|some
+	aux|be&PRES~neg|not .
+*INV:	now I'm gonna give you three words . 54006_57073
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	and I want you to worry about the order that I give them to
+	you in . 57073_60495
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|worry prep|about det|the
+	n|order rel|that pro:sub|I v|give pro:obj|them prep|to pro|you
+	adv|in .
+*INV:	just use all three of them in one sentence . 60495_62857
+%mor:	adj|just n|use adv|all det:num|three prep|of pro:obj|them prep|in
+	det:num|one n|sentence .
+*PAR:	+< okay . [+ exc] 62757_63349
+%mor:	co|okay .
+*INV:	chair@q doctor@q sit@q . 63349_66105
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	the doctor sits on a chair . 66105_68572
+%mor:	det|the n|doctor v|sit-3S prep|on det|a n|chair .
+*PAR:	&=laughs does that make sense ? [+ exc] 68572_72696
+%mor:	mod|do&3S adv|that v|make n|sense ?
+*INV:	mhm . 72696_73563
+%mor:	co|yes .
+*INV:	bureau@q open@q drawer@q . 73563_76729
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	a bureau@q open@q drawer@q ? [+ exc] 76729_78738
+%mor:	det|a meta|bureau meta|open meta|drawer ?
+*INV:	mhm . 78738_79364
+%mor:	co|yes .
+*PAR:	you want me &uh in a sentence ? 79364_81081
+%mor:	pro|you v|want pro:obj|me prep|in det|a n|sentence ?
+*INV:	+< I want a short simple sentence using the words bureau@q open@q
+	drawer@q . 80481_84447
+%mor:	pro:sub|I v|want det|a adj|short adj|simple n|sentence
+	part|use-PRESP det|the n|word-PL meta|bureau meta|open meta|drawer .
+*PAR:	oh &uh &bur &uh +... [+ exc] 84447_86704
+%mor:	co|oh +...
+*PAR:	drawer (.) in the bureau is [/] &of is often open . 86704_90984
+%mor:	n|drawer prep|in det|the n|bureau aux|be&3S adv|often adj|open .
+*PAR:	that make sense ? [+ exc] 90984_93149
+%mor:	rel|that v|make n|sense ?
+*INV:	mhm . 93149_93564
+%mor:	co|yes .
+*PAR:	&=laughs oh . [+ exc] 93564_97328
+%mor:	co|oh .
+*INV:	okay . 97328_98187
+%mor:	co|okay .
+@End

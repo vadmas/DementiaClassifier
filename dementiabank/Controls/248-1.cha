@@ -1,0 +1,56 @@
+@UTF8
+@PID:	11312/t-00002366-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|51;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	248-1c, audio
+*INV:	here's the picture . 0_814
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	well [x 3] . [+ exc] 814_5600
+%mor:	co|well .
+*PAR:	we got a faucet turned on and water's overflowing from the sink onto the floor . 5600_13558
+%mor:	pro:sub|we v|get&PAST det|a n|faucet v|turn-PAST adv|on coord|and
+	n|water~aux|be&3S over#part|flow-PRESP prep|from det|the n|sink
+	prep|onto det|the n|floor .
+*PAR:	grass is growing on the outside, trees are growing . 13558_21229
+%mor:	n|grass aux|be&3S part|grow-PRESP prep|on det|the adj|outside cm|cm
+	n|tree-PL aux|be&PRES part|grow-PRESP .
+*PAR:	no indication that wind is coming in the window (.) or that the window's open so we can't say that it might be open because it might not be .  [+ gram] 21229_33072
+%mor:	qn|no n|indication det|that n|wind aux|be&3S part|come-PRESP
+	prep|in det|the n|window coord|or rel|that det|the
+	n|window~aux|be&3S adv|open conj|so pro:sub|we mod|can~neg|not v|say
+	rel|that pro|it mod|might cop|be adj|open conj|because pro|it
+	mod|might neg|not cop|be .
+*PAR:	and it looks like there's a mother there who's washing or drying dishes . 33072_39065
+%mor:	conj|and pro|it v|look-3S rel|like pro:exist|there~cop|be&3S det|a
+	n|mother adv|there rel|who~aux|be&3S part|wash-PRESP coord|or
+	part|dry-PRESP n|dish-PL .
+*PAR:	and &uh she's standing in the water . 39065_42440
+%mor:	conj|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the
+	n|water .
+*PAR:	and Johnny over there is trying to take some cookies out of the cookie jar and he's &uh falling off his little stool . 42440_54535
+%mor:	conj|and n:prop|Johnny adv|over adv|there cop|be&3S part|try-PRESP
+	inf|to v|take qn|some n|cookie-PL adv|out prep|of det|the n|cookie
+	n|jar coord|and pro:sub|he~aux|be&3S part|fall-PRESP prep|off
+	pro:poss:det|his adj|little n|stool .
+*PAR:	and he's handing a cookie while he's falling to his sister I suppose (.) who's reaching up to get it  . 54535_65257
+%mor:	conj|and pro:sub|he~aux|be&3S part|hand-PRESP det|a n|cookie
+	conj|while pro:sub|he~aux|be&3S part|fall-PRESP prep|to
+	pro:poss:det|his n|sister pro:sub|I v|suppose pro:wh|who~aux|be&3S
+	part|reach-PRESP adv|up inf|to v|get pro|it .
+*PAR:	and looks like she's also putting a finger in her nose . 65257_68884
+%mor:	conj|and v|look-3S rel|like pro:sub|she~aux|be&3S adv|also
+	part|put-PRESP det|a n|finger prep|in pro:poss:det|her n|nose .
+*PAR:	but maybe she's not . [+ gram] 68884_72231
+%mor:	conj|but adv|maybe pro:sub|she~aux|be&3S neg|not .
+*PAR:	I think that's about all the action . [+ exc] 72231_79969
+%mor:	pro:sub|I v|think pro:dem|that~mod|do&3S prep|about qn|all det|the
+	n|action .
+*INV:	okay good . 79969_80775
+%mor:	co|okay adj|good .
+*PAR:	Johnny of course is reaching into the cookie jar . 80775_83919
+%mor:	n:prop|Johnny prep|of n|course aux|be&3S part|reach-PRESP prep|into
+	det|the n|cookie n|jar .
+@End

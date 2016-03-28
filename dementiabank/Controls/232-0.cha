@@ -1,0 +1,66 @@
+@UTF8
+@PID:	11312/t-00002355-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	232-0c, audio
+*INV:	here is the picture . 0_1325
+%mor:	pro:exist|here cop|be&3S det|the n|picture .
+*PAR:	alright . [+ exc] 1325_4436
+%mor:	co|alright .
+*PAR:	&w <well like> [//] you want me tell you that <reaching up> [//] the &g little girl's reaching up . 4436_11798
+%mor:	pro|you v|want pro:obj|me v|tell pro|you rel|that det|the
+	adj|little n|girl~poss|s part|reach-PRESP adv|up .
+*PAR:	and the boy is &uh on a cookie jar giving his sister a cookie and reaching up for another cookie . 11798_18300
+%mor:	conj|and det|the n|boy aux|be&3S prep|on det|a n|cookie n|jar
+	part|give-PRESP pro:poss:det|his n|sister det|a n|cookie coord|and
+	part|reach-PRESP adv|up prep|for qn|another n|cookie .
+*PAR:	and his &uh stool is tipping over . 18300_21385
+%mor:	conj|and pro:poss:det|his n|stool aux|be&3S part|tip-PRESP adv|over
+	.
+*PAR:	and the water's running out o(f) the sink . 21385_24408
+%mor:	conj|and det|the n|water~aux|be&3S part|run-PRESP adv|out prep|of
+	det|the n|sink .
+*PAR:	the mother is drying the dishes . 24408_26212
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	and &uh she is standing in a pool of water . 26212_29650
+%mor:	conj|and pro:sub|she aux|be&3S part|stand-PRESP prep|in det|a
+	n|pool prep|of n|water .
+*PAR:	and &uh (..) the girl's putting her finger to her lips to probably say not to make any noise so mother wouldn't hear . 29650_49416
+%mor:	conj|and det|the n|girl~aux|be&3S part|put-PRESP pro:poss:det|her
+	n|finger prep|to pro:poss:det|her n|lip-PL inf|to adj|probable-Y
+	co|say neg|not inf|to v|make qn|any n|noise adv|so n|mother
+	mod|will&COND~neg|not v|hear .
+*PAR:	and &uh that's [//] &ab what else would you want to know on that ? [+ exc] 49416_58332
+%mor:	coord|and pro:wh|what post|else mod|will&COND pro|you v|want inf|to
+	v|know prep|on pro:dem|that ?
+*PAR:	there's a cup and so there's no action there . 58332_59995
+%mor:	pro:exist|there~cop|be&3S det|a n|cup coord|and adv|so
+	pro:exist|there~cop|be&3S qn|no n|action adv|there .
+*PAR:	this is just layin(g) there . 59995_60955
+%mor:	pro:dem|this cop|be&3S adv|just part|lay-PRESP adv|there .
+*PAR:	you meant just where the action is . [+ exc] 60955_62500
+%mor:	pro|you v|mean&PAST adv|just adv:wh|where det|the n|action
+	cop|be&3S .
+*INV:	+< right +/. 62200_62931
+%mor:	co|right +/.
+*PAR:	I think that's about it . [+ exc] 62931_64329
+%mor:	pro:sub|I v|think pro:dem|that~cop|be&3S adv|about pro|it .
+*PAR:	&th &m the mother's her drying the dishes . 64329_66650
+%mor:	det|the n|mother~poss|s pro:obj|her part|dry-PRESP det|the
+	n|dish-PL .
+*INV:	okay . 66650_67500
+%mor:	co|okay .
+*PAR:	+< did I say that before ? [+ exc] 67100_68254
+%mor:	mod|do&PAST pro:sub|I v|say rel|that adv|before ?
+*INV:	mhm . 68254_69345
+%mor:	co|yes .
+*PAR:	the water is running over . 69345_70858
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|over .
+*PAR:	and that's about it . [+ exc] 70858_73455
+%mor:	conj|and pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay good . 73655_74277
+%mor:	co|okay adj|good .
+@End

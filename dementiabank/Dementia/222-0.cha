@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00002568-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|61;|female|ProbableAD||Participant|18||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	222-0c, audio
+*INV:	what I want you to do is to tell me all of the action that you see going on in this picture . 0_4592
+%mor:	pro:wh|what pro:sub|I v|want pro|you inf|to v|do cop|be&3S inf|to
+	v|tell pro:obj|me adv|all prep|of det|the n|action rel|that pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|this n|picture .
+*PAR:	well this &uh (.) lady is <taking care of her> [//] &um (.) washing a_lot of stuff . 4592_19399
+%mor:	co|well det|this n|lady aux|be&3S part|wash-PRESP adv|a_lot prep|of
+	n|stuff .
+*PAR:	but the water is goin(g) down [/] down [/] &s down here . 19399_25767
+%mor:	conj|but det|the n|water aux|be&3S part|go-PRESP adv|down adv|here
+	.
+*INV:	okay . 25767_26498
+%mor:	co|okay .
+*PAR:	+< instead of its goin(g) down in (th)ere it's comin(g) out . 25800_28624
+%mor:	adv|instead prep|of pro:poss:det|its part|go-PRESP adv|down prep|in
+	pro:dem|there pro|it~aux|be&3S part|come-PRESP adv|out .
+*INV:	okay . 28624_29743
+%mor:	co|okay .
+*PAR:	and &uh <the little> [//] &b the boy (.) is getting the cookies . 29744_37399
+%mor:	conj|and det|the n|boy aux|be&3S part|get-PRESP det|the n|cookie-PL
+	.
+*PAR:	and the girl is wanting the cookies . 37399_42675
+%mor:	conj|and det|the n|girl aux|be&3S part|want-PRESP det|the
+	n|cookie-PL .
+*PAR:	and the way he's puttin(g) it on there she [: he] [* s:r-ret] [//] he's gonna [: going to] fall . 42675_51285
+%mor:	conj|and det|the n|way pro:sub|he~aux|be&3S part|put-PRESP pro|it
+	prep|on pro:dem|there pro:sub|he~aux|be&3S part|go-PRESP prep|to
+	n|fall .
+*INV:	okay . 51285_53500
+%mor:	co|okay .
+*PAR:	+< yeah (be)cause that's crooked . [+ gram]  53000_54398
+%mor:	co|yeah conj|because pro:dem|that~cop|be&3S adj|crooked .
+*INV:	uhhuh . 54379_55158
+%mor:	co|uhhuh .
+*INV:	(..) can you see anything else ? 55158_70240
+%mor:	mod|can pro|you v|see pro:indef|anything post|else ?
+*INV:	any more action going on in the picture ? 70240_73959
+%mor:	qn|any qn|more n|action part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	&uh I see that all the water coming down through from outside . [+ gram] 73959_80562
+%mor:	pro:sub|I v|see rel|that qn|all det|the n|water part|come-PRESP
+	adv|down adv|through prep|from adv|outside .
+*PAR:	instead of it going down through there it's coming out (.) <all over the> [//] all over here . 80562_86332
+%mor:	adv|instead prep|of pro|it part|go-PRESP adv|down adv|through
+	adv|there pro|it~aux|be&3S part|come-PRESP adv|out adv|all prep|over
+	pro:dem|here .
+*INV:	+< mhm . 84000_85000
+%mor:	co|yes .
+*INV:	mhm . 86332_87513
+%mor:	co|yes .
+*INV:	okay . 87513_89142
+%mor:	co|okay .
+*INV:	good that's fine . 89142_91022
+%mor:	adj|good pro:dem|that~cop|be&3S adj|fine .
+*PAR:	yeah because water's all comin(g) down through here . [+ gram] 91022_93681
+%mor:	co|yeah conj|because n|water~mod|do&3S adv|all part|come-PRESP
+	adv|down adv|through adv|here .
+*INV:	uhhuh okay . 93681_94895
+%mor:	co|uhhuh co|okay .
+@End

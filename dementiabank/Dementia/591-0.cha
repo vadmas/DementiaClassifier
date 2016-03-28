@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/t-00002695-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	591-0c, audio
+*INV:	is take a look at that picture . 0_1923
+%mor:	cop|be&3S v|take det|a n|look prep|at det|that n|picture .
+*INV:	take a look at that picture and tell me everything that you see happening in that picture . 1923_7627
+%mor:	v|take det|a n|look prep|at det|that n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture .
+*PAR:	(.) what do +/? [+ exc] 7627_12250
+%mor:	adv|what v|do +/?
+*INV:	+< tell me everything that's going on in that picture +/. 12073_14700
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that~aux|be&3S
+	part|go-PRESP adv|on prep|in det|that n|picture +/.
+*PAR:	mhm [/] mhm . [+ exc] 14700_16000
+%mor:	co|yes .
+*INV:	+< everything that's happening there . 14701_16600
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP adv|there
+	.
+*PAR:	do you want them crossed out or just say it out loud ? [+ exc] 16600_18896
+%mor:	mod|do pro|you v|want pro:obj|them v|cross-PAST adv|out coord|or
+	adv|just v|say pro|it adv|out adj|loud ?
+*INV:	+< no just say it out loud what you see happening . 18200_21153
+%mor:	co|no adv|just v|say pro|it adv|out adj|loud pro:wh|what pro|you
+	v|see n:gerund|happen-PRESP .
+*PAR:	+< okay &uh the little boy's climbing the &cri cookie jar . 20100_25653
+%mor:	co|okay det|the adj|little n|boy~poss|s part|climb-PRESP det|the
+	n|cookie n|jar .
+*PAR:	&uh <he has> [//] the little boy has [/] has cookies [//] a cookie in his hand that he got by climbing the step ladder which is ready to fall . 25653_42334
+%mor:	det|the adj|little n|boy aux|have&3S det|a n|cookie prep|in
+	pro:poss:det|his n|hand rel|that pro:sub|he v|get&PAST adv|by
+	part|climb-PRESP det|the n|step n|ladder rel|which cop|be&3S
+	adj|ready inf|to v|fall .
+*PAR:	the sister is asking for &uh something to eat .  42334_47550
+%mor:	det|the n|sister aux|be&3S part|ask-PRESP prep|for
+	pro:indef|something inf|to v|eat .
+*PAR:	she has started little and wants some more . 47550_50506
+%mor:	pro:sub|she aux|have&3S part|start-PASTP adj|little coord|and
+	v|want-3S qn|some pro:indef|more .
+*PAR:	&uh let's see now . [+ exc] 50506_54304
+%mor:	v|let~pro:obj|us v|see adv|now .
+*PAR:	<the mother> [/] the mother has &s &s a small mess in the kitchen &=laughs <lucky it's> [/] lucky it's small . 54304_65101
+%mor:	det|the n|mother aux|have&3S det|a adj|small n|mess prep|in det|the
+	n|kitchen adj|luck&dn-Y pro|it~cop|be&3S adj|small .
+*PAR:	&uh the mother is now <washing and &dr no yeah> [//]  she's washing and drying the dishes in the kitchen . 65101_72697
+%mor:	det|the n|mother aux|be&3S adv|now pro:sub|she~aux|be&3S
+	part|wash-PRESP coord|and part|dry-PRESP det|the n|dish-PL prep|in
+	det|the n|kitchen .
+*PAR:	her water has spilled over terribly bad . 72697_77989
+%mor:	pro:poss:det|her n|water aux|have&3S v|spill-PAST adv|over
+	adv|terrible&dadj-LY adj|bad .
+*PAR:	and looks like sister's back to try for some more cookies . 77989_88231
+%mor:	conj|and v|look-3S rel|like n|sister~aux|be&3S adv|back inf|to
+	v|try prep|for qn|some qn|more n|cookie-PL .
+*INV:	okay good . 88231_90940
+%mor:	co|okay adj|good .
+*PAR:	okay . [+ exc] 90940_91856
+%mor:	co|okay .
+@End

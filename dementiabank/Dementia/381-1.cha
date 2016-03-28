@@ -1,0 +1,40 @@
+@UTF8
+@PID:	11312/t-00002648-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|female|ProbableAD||Participant|14||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	381-1c, audio
+*INV:	tell me what you see going on in the picture . 0_3317
+%mor:	v|tell pro:obj|me pro:wh|what pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|the n|picture .
+*PAR:	well the boy is in the cookie jar .  3317_5511
+%mor:	co|well det|the n|boy aux|be&3S prep|in det|the n|cookie n|jar .
+*PAR:	<and the> [//] &da and his sister is trying to &uh take it from him . 5511_10366
+%mor:	conj|and pro:poss:det|his n|sister aux|be&3S part|try-PRESP inf|to
+	v|take pro|it prep|from pro:obj|him .
+*PAR:	and he's &uh on a stool going like this . 10366_13510
+%mor:	conj|and pro:sub|he~cop|be&3S prep|on det|a n|stool part|go-PRESP
+	prep|like pro:dem|this .
+*PAR:	and &uh then there's &uh &l &uh &s a female over here with a plate in her hand that &=clears:throat she's dryin(g) dishes . 13371_24764
+%mor:	conj|and adv:tem|then pro:exist|there~cop|be&3S det|a n|female
+	adv|over adv|here prep|with det|a n|plate prep|in pro:poss:det|her
+	n|hand rel|that pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	<water or> [//] the [/] &uh &s: the [/] &s: (.) the water went &ov overboard on this one <on the> [//] &m on this &s &si sink . 24764_39000
+%mor:	det|the n|water v|go&PAST adv|overboard prep|on det|this
+	pro:indef|one prep|on det|this n|sink .
+*PAR:	it's on the floor . 39000_40995
+%mor:	pro|it~cop|be&3S adv|on det|the n|floor .
+*PAR:	and the boy's &uh cookin(g) [//] &uh gettin(g) cookies and his chair [: stool] [* s:r] (i)s wobblin(g) .40995_49322
+%mor:	conj|and det|the n|boy~aux|be&3S part|get-PRESP n|cookie-PL
+	coord|and pro:poss:det|his n|stool aux|be&3S part|wobble-PRESP .
+*INV:	okay . 49322_50910
+%mor:	co|okay .
+*INV:	okay ? 50910_53698
+%mor:	co|okay ?
+*PAR:	right here see . [+ exc] 53698_55190
+%mor:	adv|right adv|here v|see .
+*INV:	okay, good, thank you . 55252_56668
+%mor:	co|okay cm|cm adj|good cm|cm v|thank pro|you .
+@End

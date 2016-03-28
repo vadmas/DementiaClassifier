@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/t-00002645-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	368-0c, audio
+*PAR:	(..) you mean like the woman doing the dishes and the water running <out of the> [//] in the sink . 0_11078
+%mor:	pro|you v|mean prep|like det|the n|woman part|do-PRESP det|the
+	n|dish-PL coord|and det|the n|water part|run-PRESP prep|in det|the
+	n|sink .
+*INV:	+< mhm .  7000_7997
+%mor:	co|yes .
+*PAR:	little boy is gettin(g) in the cookie jar . 11078_13538
+%mor:	adj|little n|boy aux|be&3S part|get-PRESP prep|in det|the n|cookie
+	n|jar .
+*PAR:	the s:tool is falling over . 13538_17378
+%mor:	det|the n|stool aux|be&3S part|fall-PRESP adv|over .
+*PAR:	little girl wants one . 17378_19655
+%mor:	adj|little n|girl v|want-3S pro:indef|one .
+*PAR:	hmhmm no .  [+ exc] 19655_21767
+%mor:	co|no co|no .
+*PAR:	the dishes sittin(g) on the sink . [+ gram] 21767_25126
+%mor:	det|the n|dish-PL part|sit-PRESP prep|on det|the n|sink .
+*PAR:	and the window . [+ gram] 25126_28335
+%mor:	coord|and det|the n|window .
+*PAR:	the grass and stuff outside . [+ gram] 28335_32173
+%mor:	det|the n|grass coord|and n|stuff adv|outside .
+*PAR:	(..) the woman has an apron on . 32063_37085
+%mor:	det|the n|woman aux|have&3S det|a n|apron adv|on .
+*PAR:	I don't know where everything +... [+ exc] 37085_41838
+%mor:	pro:sub|I mod|do~neg|not v|know adv:wh|where pro:indef|everything
+	+...
+*INV:	(.) just tell me when you're finished . 41838_48600
+%mor:	adv|just v|tell pro:obj|me conj|when pro|you~cop|be&PRES
+	part|finish-PASTP .
+*PAR:	I don't see anything else on that . [+ exc] 48600_50513
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything post|else prep|on
+	pro:dem|that .
+*INV:	+< okay that's fine . 50068_51191
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

@@ -1,0 +1,90 @@
+@UTF8
+@PID:	11312/t-00016598-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|11||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	220-1s, audio
+*INV:	pencil@q . 0_931
+%mor:	meta|pencil .
+*INV:	can you use that in a sentence for me ? 931_3329
+%mor:	mod|can pro|you v|use pro:dem|that prep|in det|a n|sentence
+	prep|for pro:obj|me ?
+*INV:	pencil@q ? 3329_4625
+%mor:	meta|pencil ?
+*PAR:	(...) oh ‡ I thought you were going to do them . [+ exc] 4625_13620
+%mor:	co|oh beg|beg pro:sub|I v|think&PAST pro|you aux|be&PAST
+	part|go-PRESP inf|to v|do pro:obj|them .
+*INV:	okay ‡ now want you to do them . 13620_15350
+%mor:	co|okay beg|beg adv|now v|want pro|you inf|to v|do pro:obj|them .
+*INV:	I gave you the example now it's your turn . 15350_18032
+%mor:	pro:sub|I v|give&PAST pro|you det|the n|example adv|now
+	pro|it~cop|be&3S pro:poss:det|your n|turn .
+*INV:	if I gave you the word table@q I would come up with a sentence like
+	+"/. 18032_22293
+%mor:	conj|if pro:sub|I v|give&PAST pro|you det|the n|word meta|table
+	pro:sub|I mod|will&COND v|come adv|up prep|with det|a n|sentence
+	prep|like +"/.
+*PAR:	+" your dinner is on the table . 22293_24234
+%mor:	pro:poss:det|your n|dinner cop|be&3S prep|on det|the n|table .
+*PAR:	yeah ‡ mhm . [+ exc] 24234_25398
+%mor:	co|yeah beg|beg co|yes .
+*INV:	+< now your word is pencil@q . 24498_26400
+%mor:	adv|now pro:poss:det|your n|word aux|be&3S meta|pencil .
+*INV:	I want you to come up with a sentence using the word pencil@q . 26400_30055
+%mor:	pro:sub|I v|want pro|you inf|to v|come adv|up prep|with det|a
+	n|sentence part|use-PRESP det|the n|word meta|pencil .
+*PAR:	I gave you one before . [+ exc] 30055_32180
+%mor:	pro:sub|I v|give&PAST pro|you pro:indef|one adv|before .
+*INV:	no ‡ I want a sentence . 32180_34285
+%mor:	co|no beg|beg pro:sub|I v|want det|a n|sentence .
+*PAR:	sentence . [+ exc] 34285_35246
+%mor:	n|sentence .
+*INV:	can you say something ? 35246_36217
+%mor:	mod|can pro|you v|say pro:indef|something ?
+*INV:	a sentence that has the word pencil@q in it ? 36217_39065
+%mor:	det|a n|sentence rel|that v|have&3S det|the n|word meta|pencil
+	prep|in pro|it ?
+*INV:	(..) remember how I gave you +//? 39065_47546
+%mor:	v|remember adv:wh|how pro:sub|I v|give&PAST pro|you +//?
+*INV:	<I used> [//] for me the word was table@q . 47546_50309
+%mor:	prep|for pro:obj|me det|the n|word cop|be&PAST&13S meta|table .
+*INV:	and I said +/. 50309_51200
+%mor:	conj|and pro:sub|I v|say&PAST +/.
+*INV:	+" the dinner is on the table . 51200_53525
+%mor:	det|the n|dinner cop|be&3S prep|on det|the n|table .
+*PAR:	+< on the table . [+ exc] 52200_53751
+%mor:	prep|on det|the n|table .
+*PAR:	yeah . [+ exc] 53751_54100
+%mor:	co|yeah .
+*INV:	well ‡ I want you to say something with pencil@q . 54100_57107
+%mor:	co|well beg|beg pro:sub|I v|want pro|you inf|to v|say
+	pro:indef|something prep|with meta|pencil .
+*PAR:	well ‡ I can say the same thing . [+ exc] 57107_59515
+%mor:	co|well beg|beg pro:sub|I mod|can v|say det|the adj|same n|thing .
+*PAR:	the dinner is on the table . [+ exc] 59515_61215
+%mor:	det|the n|dinner cop|be&3S prep|on det|the n|table .
+*INV:	but you have to use the word pencil@q instead of table@q . 61215_64062
+%mor:	conj|but pro|you v|have inf|to v|use det|the n|word meta|pencil
+	adv|instead prep|of meta|table .
+*PAR:	+< xxx „ yeah . [+ exc] 63400_64444
+%mor:	end|end co|yeah .
+*PAR:	a pencil@q . [+ exc] 64444_65000
+%mor:	det|a meta|pencil .
+*PAR:	yeah . [+ exc] 65000_66000
+%mor:	co|yeah .
+*INV:	+< so ‡ what can you say ? 65600_67391
+%mor:	co|so beg|beg pro:wh|what mod|can pro|you v|say ?
+*INV:	how can you say it ? 67391_68917
+%mor:	adv:wh|how mod|can pro|you v|say pro|it ?
+*INV:	(..) can you come up with a sentence using that word ? 68917_79876
+%mor:	mod|can pro|you v|come adv|up prep|with det|a n|sentence
+	part|use-PRESP rel|that n|word ?
+*INV:	pencil@q . 79876_81176
+%mor:	meta|pencil .
+*PAR:	hm .  [+ exc] 81176_83254
+%mor:	co|hm .
+*INV:	(.) okay . 83254_86846
+%mor:	co|okay .
+@End

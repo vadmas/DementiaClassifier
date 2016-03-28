@@ -1,0 +1,43 @@
+@UTF8
+@PID:	11312/t-00002626-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|male|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	344-0c, audio
+*INV:	going on in the picture ? 0_2335
+%mor:	part|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	well <the guy's gettin(g) in the> [//] &coo the boy's gettin(g) in the cookie jar . 2335_6490
+%mor:	co|well det|the n|boy~aux|be&3S part|get-PRESP prep|in det|the
+	n|cookie n|jar .
+*PAR:	and he's &har standing on a stool that is falling over . 6490_12100
+%mor:	conj|and pro:sub|he~aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool rel|that aux|be&3S part|fall-PRESP adv|over .
+*PAR:	and his &uh sister maybe is &uh telling him to be quiet so his mother won't see him . 12100_21291
+%mor:	conj|and pro:poss:det|his n|sister adv|maybe aux|be&3S
+	part|tell-PRESP pro:obj|him inf|to cop|be adj|quiet co|so
+	pro:poss:det|his n|mother mod|will~neg|not v|see pro:obj|him .
+*PAR:	&uh in the meantime &uh the &uh sink is running over on to the floor and she's dryin(g) dishes . 21291_29619
+%mor:	prep|in det|the n|meantime det|the n|sink aux|be&3S part|run-PRESP
+	prep|over adv|on prep|to det|the n|floor coord|and
+	pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and &um (..) <I don't> [//] there's somethin(g) going on outside the window . 29619_38800
+%mor:	coord|and pro:exist|there~cop|be&3S pro:indef|something
+	part|go-PRESP adv|on adj|outside det|the n|window .
+*PAR:	I don't know just what it is . [+ exc]  38800_40544
+%mor:	pro:sub|I mod|do~neg|not v|know adv|just pro:wh|what pro|it
+	cop|be&3S .
+*PAR:	(.) she's dryin(g) dishes but &uh I don't get the connection between the picture outside . 40544_49740
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL conj|but pro:sub|I
+	mod|do~neg|not v|get det|the n|connection prep|between det|the
+	n|picture adv|outside .
+*PAR:	I guess she's havin(g) her [/] her problems and they're havin(g) theirs .  49740_54394
+%mor:	pro:sub|I v|guess pro:sub|she~aux|be&3S part|have-PRESP
+	pro:poss:det|her n|problem-PL conj|and pro:sub|they~aux|be&PRES
+	part|have-PRESP pro:poss|theirs .
+*INV:	(..) okay ? 54394_58536
+%mor:	co|okay ?
+*INV:	(..) okay good . 58536_62225
+%mor:	co|okay adj|good .
+@End

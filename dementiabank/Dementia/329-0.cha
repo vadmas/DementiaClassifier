@@ -1,0 +1,104 @@
+@UTF8
+@PID:	11312/t-00002615-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	329-0c, audio
+*PAR:	let's go . [+ exc] 0_2004
+%mor:	v|let~pro:obj|us v|go .
+*INV:	you can go . 2004_2897
+%mor:	pro|you mod|can v|go .
+*PAR:	just tell you what the &uh +... [+ exc] 2897_4589
+%mor:	adv|just v|tell pro|you pro:wh|what det|the +...
+*INV:	right . 4589_5389
+%mor:	co|right .
+*PAR:	+< uhhuh . [+ exc] 4600_5389
+%mor:	co|uhhuh .
+*PAR:	(.) you ready ? [+ exc] 5389_9118
+%mor:	pro|you v|ready ?
+*INV:	mhm .9118_10119
+%mor:	co|yes .
+*PAR:	I don't know what you mean by everything going on . [+ exc] 10119_13300
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro|you v|mean prep|by
+	pro:indef|everything part|go-PRESP adv|on .
+*PAR:	the kid's snitchin(g) the cookies . 13300_14883
+%mor:	det|the n|kid~aux|be&3S part|snitch-PRESP det|the n|cookie-PL .
+*INV:	okay . 14883_15580
+%mor:	co|okay .
+*PAR:	the little girl I think is tellin(g) the little boy to be quiet because she's got her finger up to her mouth . 15580_24770
+%mor:	det|the adj|little n|girl pro:sub|I v|think aux|be&3S
+	part|tell-PRESP det|the adj|little n|boy inf|to cop|be n|quiet
+	conj|because pro:sub|she~aux|be&3S part|get&PASTP pro:poss:det|her
+	n|finger adv|up prep|to pro:poss:det|her n|mouth .
+*INV:	+< okay . 24270_25308
+%mor:	co|okay .
+*PAR:	mommy's kinda [: kind_of] sloppy with the dishwater &=laughs .25308_30447
+%mor:	n|mommy~cop|be&3S adv|kind_of adj|slop&dn-Y prep|with det|the
+	n|dishwater .
+*PAR:	it's running out of the sink .30447_34555
+%mor:	pro|it~aux|be&3S part|run-PRESP adv|out prep|of det|the n|sink .
+*PAR:	two cups, a saucer, plate . [+ gram] 34555_37868
+%mor:	det:num|two n|cup-PL cm|cm det|a n|saucer cm|cm n|plate .
+*PAR:	(.) &=whistles (...) the mommy's standing in the water . 37868_52373
+%mor:	det|the n|mommy~aux|be&3S part|stand-PRESP prep|in det|the n|water
+	.
+*PAR:	<is that the> [//] is one of the things you want ? [+ exc] 52373_57755
+%mor:	aux|be&3S pro:indef|one prep|of det|the n|thing-PL pro|you v|want ?
+*INV:	mhm . 57755_58444
+%mor:	co|yes .
+*PAR:	anything you find, oh okay . [+ exc] 58444_60825
+%mor:	pro:indef|anything pro|you v|find cm|cm co|oh co|okay .
+*PAR:	the kid's just about ready to let go there and &s fall on his back or his head (.) off the ladder [: stool] [* s:r] .60825_70397
+%mor:	det|the n|kid~aux|be&3S adj|just adv|about adj|ready inf|to
+	v|let&ZERO v|go adv|there coord|and n|fall prep|on pro:poss:det|his
+	n|back coord|or pro:poss:det|his n|head prep|off det|the n|stool .
+*PAR:	(..) &hm (.) the little girl looks okay xxx reachin(g) up for the cookie .70397_86099
+%mor:	det|the adj|little n|girl v|look-3S adj|okay part|reach-PRESP
+	adv|up prep|for det|the n|cookie .
+*PAR:	is that what you want to know like reaching up for the cookie or somethin(g) ? [+ exc] 86099_90200
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|you v|want inf|to v|know
+	co|like part|reach-PRESP adv|up prep|for det|the n|cookie coord|or
+	pro:indef|something ?
+*INV:	+< mhm . 89400_90200
+%mor:	co|yes .
+*PAR:	oh, okay . [+ exc] 90200_90650
+%mor:	co|oh cm|cm adj|okay .
+*PAR:	reachin(g) up for the cookie . [+ gram] 90650_91969
+%mor:	part|reach-PRESP adv|up prep|for det|the n|cookie .
+*INV:	anything else ? 91969_93515
+%mor:	pro:indef|anything post|else ?
+*PAR:	+< that the kid brother is donating to her cause  . [+ gram] 92400_97300
+%mor:	rel|that det|the n|kid n|brother aux|be&3S part|donate-PRESP
+	prep|to pro:poss:det|her n|cause .
+*PAR:	&uh I did say the sink's overflowing didn't I ? [+ exc] 97300_101828
+%mor:	pro:sub|I v|do&PAST v|say det|the n|sink~aux|be&3S
+	over#part|flow-PRESP mod|do&PAST~neg|not pro:sub|I ?
+*INV:	okay . 101828_102909
+%mor:	co|okay .
+*PAR:	(.) &hm &hm (..) I don't see much more than that other than the kid's falling off of a stool . 102909_117300
+%mor:	pro:sub|I mod|do~neg|not v|see adv|much qn|more prep|than det|that
+	qn|other prep|than det|the n|kid~aux|be&3S part|fall-PRESP adv|off
+	prep|of det|a n|stool .
+*INV:	+< okay . 114587_115400
+%mor:	co|okay .
+*PAR:	he's &uh getting into the cookie jar which he hadn't ought_to do .117300_121553
+%mor:	pro:sub|he~aux|be&3S part|get-PRESP prep|into det|the n|cookie
+	n|jar rel|which pro:sub|he aux|have&PAST~neg|not mod:aux|ought_to
+	v|do .
+*PAR:	well maybe he could . [+ exc] 121553_122634
+%mor:	adv|well adv|maybe pro:sub|he mod|could .
+*PAR:	that's alright . [+ exc] 122634_123300
+%mor:	pro:dem|that~cop|be&3S adj|alright .
+*PAR:	I've done it myself .  [+ exc] 123300_124381
+%mor:	pro:sub|I~aux|have part|do&PASTP pro|it pro:refl|myself .
+*INV:	+< okay . 125178_125844
+%mor:	co|okay .
+*INV:	that's good .125844_126505
+%mor:	pro:dem|that~cop|be&3S adj|good .
+*PAR:	+< it's this one here ?  [+ exc]  126123_127304
+%mor:	pro|it~cop|be&3S det|this pro:indef|one adv|here ?
+*PAR:	just like me, yeah . [+ exc]  127304_128836
+%mor:	adv|just prep|like pro:obj|me cm|cm co|yeah .
+@End

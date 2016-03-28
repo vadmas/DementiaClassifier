@@ -1,0 +1,44 @@
+@UTF8
+@PID:	11312/t-00002563-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|70;|female|ProbableAD||Participant|11||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	220-1c, audio
+*INV:	picture +. 0_700
+%mor:	n|picture +.
+*INV:	what's going on in that picture ? 700_2225
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|that
+	n|picture ?
+*INV:	tell me all the action in the picture . 2444_4701
+%mor:	v|tell pro:obj|me adv|all det|the n|action prep|in det|the
+	n|picture .
+*PAR:	well the mother has water spillin(g) all over the floor for one thing . 4701_9731
+%mor:	co|well det|the n|mother aux|have&3S n|water part|spill-PRESP
+	adv|all prep|over det|the n|floor prep|for pro:indef|one n|thing .
+*INV:	+< mhm . 9031_10478
+%mor:	co|yes .
+*PAR:	then she's startin(g) to dry the dishes . 10478_12935
+%mor:	adv:tem|then pro:sub|she~aux|be&3S part|start-PRESP inf|to v|dry
+	det|the n|dish-PL .
+*PAR:	and then she's looking out the window . 12935_16209
+%mor:	conj|and adv:tem|then pro:sub|she~aux|be&3S part|look-PRESP
+	prep|out det|the n|window .
+*PAR:	and &uh the little girl's there and the little boy and he almost is fallin(g) off the stool . 16209_25827
+%mor:	conj|and det|the adj|little n|girl~mod|do&3S adv|there coord|and
+	det|the adj|little n|boy coord|and pro:sub|he adv|almost aux|be&3S
+	part|fall-PRESP prep|off det|the n|stool .
+*PAR:	but he didn't so +... 25827_27890
+%mor:	conj|but pro:sub|he mod|do&PAST~neg|not adv|so +...
+*PAR:	he [/] &d he survived anyway huh ? 27890_30057
+%mor:	pro:sub|he v|survive-PAST adv|anyway co|huh ?
+*INV:	mhm . 30057_30960
+%mor:	co|yes .
+*INV:	is that all the action ? 30960_32142
+%mor:	cop|be&3S rel|that qn|all det|the n|action ?
+*PAR:	yeah [/] yeah on this paper yeah . [+ exc] 32142_34250
+%mor:	co|yeah prep|on det|this n|paper co|yeah .
+*INV:	+< okay thank you +/. 34050_35974
+%mor:	co|okay v|thank pro|you +/.
+@End

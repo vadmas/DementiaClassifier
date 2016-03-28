@@ -1,0 +1,74 @@
+@UTF8
+@PID:	11312/t-00002534-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	181-1c, audio
+*INV:	now I'm going to show you a picture . 0_2194
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|show pro|you
+	det|a n|picture .
+*INV:	this picture has a_lot_of action going on in it . 2194_5453
+%mor:	det|this n|picture aux|have&3S qn|a_lot_of n|action part|go-PRESP
+	adv|on prep|in pro|it .
+*INV:	what I'm gonna [: going to] have you do, is while the recorder's on, I want you to tell me all of the action you see going on in the picture . 5453_12335
+%mor:	pro:wh|what pro:sub|I~aux|be&1S part|go-PRESP inf|to v|have pro|you
+	v|do cm|cm aux|be&3S conj|while det|the n|record&dv-AGT~poss|s
+	adv|on cm|cm pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	adv|all prep|of det|the n|action pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|the n|picture .
+*INV:	tell me all the action . 12335_13750
+%mor:	v|tell pro:obj|me adv|all det|the n|action .
+*INV:	tell me all the action in that picture . 13750_19602
+%mor:	v|tell pro:obj|me adv|all det|the n|action prep|in det|that
+	n|picture .
+*PAR:	a little boy is gettin(g) himself some cookies out o(f) the jar . 19602_23094
+%mor:	det|a adj|little n|boy aux|be&3S part|get-PRESP pro:refl|himself
+	qn|some n|cookie-PL adv|out prep|of det|the n|jar .
+*PAR:	and the &s stool is turnin(g) over on him (.) that he's standing on . 23094_27000
+%mor:	conj|and det|the n|stool aux|be&3S part|turn-PRESP adv|over prep|on
+	pro:obj|him rel|that pro:sub|he~aux|be&3S part|stand-PRESP adv|on .
+*PAR:	he's handing the little girl some cookies out of the jar . 27000_30574
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP det|the adj|little n|girl
+	qn|some n|cookie-PL adv|out prep|of det|the n|jar .
+*PAR:	is that it ? [+ exc] 30574_33018
+%mor:	cop|be&3S rel|that pro|it ?
+*INV:	tell me all the action you see . 33018_35629
+%mor:	v|tell pro:obj|me adv|all det|the n|action pro|you v|see .
+*PAR:	and [//] well that's in the first one . 35629_39369
+%mor:	co|well pro:dem|that~cop|be&3S adv|in det|the adj|first
+	pro:indef|one .
+*PAR:	he's handing the little girl cookies out of the cookie jar . 39369_42878
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP det|the adj|little n|girl
+	n|cookie-PL adv|out prep|of det|the n|cookie n|jar .
+*PAR:	and he's on a stool and it's turning over . 42878_44739
+%mor:	conj|and pro:sub|he~cop|be&3S prep|on det|a n|stool coord|and
+	pro|it~aux|be&3S part|turn-PRESP adv|over .
+*PAR:	and he's handing her some cookies . 44739_47017
+%mor:	conj|and pro:sub|he~aux|be&3S part|hand-PRESP pro:obj|her qn|some
+	n|cookie-PL .
+*PAR:	and in the second picture the little girl &uh looks as though she's drying dishes . 47017_52137
+%mor:	conj|and prep|in det|the n|second n|picture det|the adj|little
+	n|girl n|look-PL conj|as conj|though pro:sub|she~aux|be&3S
+	part|dry-PRESP n|dish-PL .
+*INV:	okay . 52137_54081
+%mor:	co|okay .
+*PAR:	+< and &uh <oh let me think> [//] the sink is running over on the floor . 53681_57706
+%mor:	conj|and det|the n|sink aux|be&3S part|run-PRESP adv|over prep|on
+	det|the n|floor .
+*PAR:	she has the spigots on . 57706_58803
+%mor:	pro:sub|she v|have&3S det|the n|spigot-PL adv|on .
+*INV:	okay . 58803_61646
+%mor:	co|okay .
+*PAR:	a nice view from the window . [+ gram] 61646_66684
+%mor:	det|a adj|nice n|view prep|from det|the n|window .
+*INV:	okay . 66684_72951
+%mor:	co|okay .
+*PAR:	+< <is that> [/] is that it ? [+ exc] 72451_73500
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	that's it . [+ exc] 73500_74114
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	okay, that's fine . 74114_75294
+%mor:	co|okay cm|cm pro:dem|that~cop|be&3S adj|fine .
+@End

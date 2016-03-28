@@ -1,0 +1,69 @@
+@UTF8
+@PID:	11312/t-00016666-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|75;|female|PossibleAD||Participant|22||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	465-0s, audio
+*INV:	pencil@q . 0_965
+%mor:	meta|pencil .
+*PAR:	pen@q ? [+ exc] 965_1776
+%mor:	meta|pen ?
+*INV:	pencil@q . 1776_2506
+%mor:	meta|pencil .
+*INV:	can you use that in a short sentence for me ? 2506_6257
+%mor:	mod|can pro|you v|use pro:dem|that prep|in det|a adj|short
+	n|sentence prep|for pro:obj|me ?
+*INV:	the word pencil@q ? 6257_8343
+%mor:	det|the n|word meta|pencil ?
+*PAR:	you use a pencil for writing . 8343_9711
+%mor:	pro|you v|use det|a n|pencil prep|for n:gerund|write-PRESP .
+*INV:	okay . 9711_10506
+%mor:	co|okay .
+*INV:	(..) &=clears:throat how_(a)bout tree ? 10506_18459
+%mor:	adv:wh|how_about n|tree ?
+*INV:	(..) can you use that in a short sentence for me ? 18459_26627
+%mor:	mod|can pro|you v|use pro:dem|that prep|in det|a adj|short
+	n|sentence prep|for pro:obj|me ?
+*PAR:	(..) I can't think of the song now . [+ exc] 26627_34613
+%mor:	pro:sub|I mod|can~neg|not v|think prep|of det|the n|song adv|now .
+*PAR:	there is nothing lovely as tree or something like that . 34613_40045
+%mor:	pro:exist|there cop|be&3S pro:indef|nothing adj|love&dn-LY prep|as
+	n|tree coord|or pro:indef|something prep|like pro:dem|that .
+*INV:	+< okay . 37413_38219
+%mor:	co|okay .
+*INV:	(..) now I'm gonna give you two words and gonna ask you
+	to use them both for me in a sentence . 40045_50036
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL coord|and part|go-PRESP~inf|to v|ask pro|you
+	inf|to v|use pro:obj|them qn|both prep|for pro:obj|me prep|in det|a
+	n|sentence .
+*INV:	child@q and hospital@q . 50036_53787
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	the child went the hospital . 53787_56637
+%mor:	det|the n|child v|go&PAST det|the n|hospital .
+*INV:	(..) cold@q winter@q . 56637_65866
+%mor:	meta|cold meta|winter .
+*PAR:	I don't like winter (be)cause o(f) cold &=laughs . 65866_69779
+%mor:	pro:sub|I mod|do~neg|not v|like n|winter conj|because prep|of
+	adj|cold .
+*INV:	okay ‡ now I'm gonna give you three words . 69779_75230
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	use all three in a sentence for me . 75230_78238
+%mor:	n|use adv|all det:num|three prep|in det|a n|sentence prep|for
+	pro:obj|me .
+*INV:	chair@q doctor@q sit@q . 78238_82846
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	you sit on a chair when you go to see the doctor . 82846_86938
+%mor:	pro|you v|sit prep|on det|a n|chair conj|when pro|you v|go inf|to
+	v|see det|the n|doctor .
+*INV:	(...) bureau@q open@q drawer@q . 86938_105270
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	bureau@q open@q drawer@q ? [+ exc]  105270_107388
+%mor:	meta|bureau meta|open meta|drawer ?
+*PAR:	you go to the bureau to open the drawer . 107388_113955
+%mor:	pro|you v|go prep|to det|the n|bureau inf|to v|open det|the
+	n|drawer .
+@End

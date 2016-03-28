@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/t-00002610-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	310-0c, audio
+*INV:	I'd like you to tell me all the action that you see going on in that picture . 794_5357
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|tell pro:obj|me
+	adv|all det|the n|action rel|that pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|that n|picture .
+*PAR:	(.) well the boy's climbing a [/] &la a stool . 5357_12390
+%mor:	co|well det|the n|boy~aux|be&3S part|climb-PRESP det|a n|stool .
+*PAR:	and it's gonna [: going to] upset . 12390_13305
+%mor:	conj|and pro|it~aux|be&3S part|go-PRESP prep|to adj|upset .
+*PAR:	he's tryin(g) to get a cookie . 13305_15177
+%mor:	pro:sub|he~aux|be&3S part|try-PRESP inf|to v|get det|a n|cookie .
+*PAR:	and the sink is runnin(g) over . 15177_17589
+%mor:	conj|and det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	the mother's dryin(g) a dish . 17589_20000
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	(.) and the little girl is reachin(g) up for a cookie . 20000_25339
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|reach-PRESP
+	adv|up prep|for det|a n|cookie .
+*INV:	(..) anything else ? 25339_34007
+%mor:	pro:indef|anything post|else ?
+*INV:	(..) is there anything else going on in that picture ? 34007_52916
+%mor:	cop|be&3S adv|there pro:indef|anything post|else part|go-PRESP
+	adv|on prep|in det|that n|picture ?
+*PAR:	hmhmm . [+ exc] 52916_55110
+%mor:	co|no .
+*PAR:	xxx the mother over there she's doing the dishes . 55110_58580
+%mor:	det|the n|mother prep|over pro:dem|there pro:sub|she~aux|be&3S
+	part|do-PRESP det|the n|dish-PL .
+*PAR:	and the sink's runnin(g) xxx . 58580_60574
+%mor:	conj|and det|the n|sink~aux|be&3S part|run-PRESP .
+*PAR:	the boy's getting the cookies . 60574_62190
+%mor:	det|the n|boy~aux|be&3S part|get-PRESP det|the n|cookie-PL .
+*PAR:	stool's on that step xxx . [+ jar] 62190_65913
+%mor:	n|stool~cop|be&3S prep|on det|that n|step .
+*PAR:	&=sighs window's open . [+ gram] 65913_68839
+%mor:	n|window~cop|be&3S adv|open .
+*PAR:	maybe the wind is blowing in . 68839_70409
+%mor:	adv|maybe det|the n|wind aux|be&3S part|blow-PRESP adv|in .
+*INV:	okay . 70409_72556
+%mor:	co|okay .
+*INV:	(..) okay . 72556_81353
+%mor:	co|okay .
+@End

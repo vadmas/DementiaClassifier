@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00016560-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	134-1s, audio
+*INV:	use the word pencil@q in a short complete sentence . 0_4779
+%mor:	v|use det|the n|word meta|pencil prep|in det|a adj|short
+	adj|complete n|sentence .
+*PAR:	I like to write with a pencil . 4779_11130
+%mor:	pro:sub|I v|like inf|to v|write prep|with det|a n|pencil .
+*INV:	okay . 11130_12095
+%mor:	co|okay .
+*INV:	tree@q  . 12095_21728
+%mor:	meta|tree .
+*INV:	use the word tree@q in a brief simple sentence . 21728_24593
+%mor:	v|use det|the n|word meta|tree prep|in det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	the tree has lots of leaves on it . 24593_31627
+%mor:	det|the n|tree aux|have&3S n|lot-PL prep|of n|leaf-PL prep|on
+	pro|it .
+*INV:	(..) okay ‡ now I'm gonna give you two words . 31627_42633
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	I'd like you to use both of them in the same sentence „ okay . 42633_46335
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|use qn|both prep|of
+	pro:obj|them prep|in det|the adj|same n|sentence end|end co|okay .
+*INV:	child@q and hospital@q . 46335_49386
+%mor:	meta|child coord|and meta|hospital .
+*PAR:	they took the child to the hospital . 49386_56031
+%mor:	pro:sub|they v|take&PAST det|the n|child prep|to det|the n|hospital
+	.
+*INV:	cold@q and winter@q . 56031_70613
+%mor:	meta|cold coord|and meta|winter .
+*PAR:	(..) it's cold in the winter . 70613_84012
+%mor:	pro|it~cop|be&3S adv|cold prep|in det|the n|winter .
+*INV:	okay . 84012_92248
+%mor:	co|okay .
+*INV:	now ‡ I want you to use three words . 92248_94477
+%mor:	adv|now beg|beg pro:sub|I v|want pro|you inf|to v|use det:num|three
+	n|word-PL .
+*INV:	I'm gonna give you three words . 94477_95557
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	use them all in the same sentence . 95557_97296
+%mor:	v|use pro:obj|them post|all prep|in det|the adj|same n|sentence .
+*INV:	<chair@q doctor@q and sit@q> [/] chair@q doctor@q and sit@q . 97296_105071
+%mor:	meta|chair meta|doctor coord|and meta|sit .
+*PAR:	the doctor sat in the chair . 105071_108914
+%mor:	det|the n|doctor v|sit&PAST prep|in det|the n|chair .
+*INV:	okay . 108914_116991
+%mor:	co|okay .
+*INV:	bureau@q open@q and drawer@q . 116991_121864
+%mor:	meta|bureau meta|open coord|and meta|drawer .
+*PAR:	they left the bureau drawer open . 121864_127591
+%mor:	pro:sub|they v|leave&PAST det|the n|bureau n|drawer adj|open .
+@End

@@ -1,0 +1,62 @@
+@UTF8
+@PID:	11312/t-00002381-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|47;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	275-0c, audio
+*INV:	I have a picture for you now that has a_lot_of action going on in it . 0_4141
+%mor:	pro:sub|I v|have det|a n|picture prep|for pro|you adv|now rel|that
+	v|have&3S qn|a_lot_of n|action part|go-PRESP adv|on prep|in pro|it .
+*INV:	what I'd like you to do is to tell me all the action you see going on in the picture . 4141_8700
+%mor:	pro:wh|what pro:sub|I~mod|genmod prep|like pro|you inf|to v|do
+	cop|be&3S inf|to v|tell pro:obj|me adv|all det|the n|action pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	and here's the picture . 8700_11959
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	let's see . [+ exc] 11959_14419
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	the boy's takin(g) the cookies out of the cookie jar . 14419_17131
+%mor:	det|the n|boy~aux|be&3S part|take-PRESP det|the n|cookie-PL adv|out
+	prep|of det|the n|cookie n|jar .
+*PAR:	and the girl is reaching to get the cookie . 17131_19274
+%mor:	conj|and det|the n|girl aux|be&3S part|reach-PRESP inf|to v|get
+	det|the n|cookie .
+*PAR:	and the boy is falling off the stool . 19274_22533
+%mor:	conj|and det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the
+	n|stool .
+*PAR:	&uh mother is drying the dishes while the water spills over the sink . 22554_28499
+%mor:	n|mother aux|be&3S part|dry-PRESP det|the n|dish-PL conj|while
+	det|the n|water v|spill-3S prep|over det|the n|sink .
+*PAR:	&uh it looks like the wind's blowing the curtain there . 28499_32406
+%mor:	pro|it v|look-3S prep|like det|the n|wind~aux|be&3S part|blow-PRESP
+	det|the n|curtain adv|there .
+*PAR:	(.) she's [//] the mother is stepping out of the water . 32406_38956
+%mor:	det|the n|mother aux|be&3S part|step-PRESP adv|out prep|of det|the
+	n|water .
+*PAR:	(..) I guess that's about it . [+ exc] 38956_46780
+%mor:	pro:sub|I n|guess rel|that~aux|be&3S prep|about pro|it .
+*INV:	okay +/. 46780_47761
+%mor:	co|okay +/.
+*PAR:	the boy is handing the girl a cookie too . 47061_49390
+%mor:	det|the n|boy aux|be&3S part|hand-PRESP det|the n|girl det|a
+	n|cookie post|too .
+*PAR:	I don't know if I've said that . [+ exc] 49390_50372
+%mor:	pro:sub|I mod|do~neg|not v|know conj|if pro:sub|I~aux|have
+	part|say&PASTP rel|that .
+*PAR:	and she's reaching for it . 50372_52031
+%mor:	conj|and pro:sub|she~aux|be&3S part|reach-PRESP prep|for pro|it .
+*PAR:	the boy is &um I don't want to say falling off the stool &=laughs or stepping off as it's moving, I +... 52031_60012
+%mor:	det|the n|boy cop|be&3S pro:sub|I mod|do~neg|not v|want inf|to
+	v|say n:gerund|fall-PRESP prep|off det|the n|stool coord|or
+	part|step-PRESP adv|off adv|as pro|it~aux|be&3S part|move-PRESP
+	cm|cm pro:sub|I +...
+*INV:	&=laughs . 60012_61026
+*PAR:	+< &=laughs okay . [+ exc] 60312_62440
+%mor:	co|okay .
+*PAR:	xxx I think that's it . [+ exc] 62440_64936
+%mor:	pro:sub|I v|think pro:dem|that~cop|be&3S pro|it .
+*INV:	okay good . 64936_66769
+%mor:	co|okay adj|good .
+@End

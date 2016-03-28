@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002517-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|61;|male|ProbableAD||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	154-0c, audio
+*INV:	and here's the picture . 0_3176
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	&uh the boy is taking cookies out and givin(g) them to the girl . 3176_12141
+%mor:	det|the n|boy aux|be&3S part|take-PRESP n|cookie-PL adv|out
+	coord|and part|give-PRESP pro:obj|them prep|to det|the n|girl .
+*PAR:	it looks like she's puttin(g) one in her mouth . 12141_16613
+%mor:	pro|it v|look-3S rel|like pro:sub|she~aux|be&3S part|put-PRESP
+	det:num|one prep|in pro:poss:det|her n|mouth .
+*PAR:	and the mother has the water running out of the sink and it's going down on the floor . 16613_22932
+%mor:	conj|and det|the n|mother aux|have&3S det|the n|water
+	part|run-PRESP adv|out prep|of det|the n|sink coord|and
+	pro|it~aux|be&3S part|go-PRESP adv|down prep|on det|the n|floor .
+*PAR:	and she's drying dishes with the curtain &=laughs . 22932_30148
+%mor:	conj|and pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL prep|with
+	det|the n|curtain .
+*INV:	can you think of anything else ? 30148_37121
+%mor:	mod|can pro|you v|think prep|of pro:indef|anything post|else ?
+*PAR:	well no <I guess she> [/] I guess she maybe she does <have the> [//] <have a> [/] <have a> [/] have a &uh +... 37121_50777
+%mor:	co|well co|no pro:sub|I v|guess pro:sub|she adv|maybe pro:sub|she
+	mod|do&3S v|have det|a +...
+*PAR:	it looks like a duck's mop &=laughs . 50777_57900
+%mor:	pro|it v|look-3S prep|like det|a n|duck~poss|s n|mop .
+*PAR:	duck's head . [+ gram] 57900_59006
+%mor:	n|duck~poss|s n|head .
+*PAR:	she's a very sloppy housekeeper . 59006_65648
+%mor:	pro:sub|she~aux|be&3S det|a adv|very adj|slop&dn-Y n|housekeeper .
+*INV:	&=laughs . 65648_66505
+*PAR:	+< &=laughs I bet you're not that sloppy . [+ exc] 65705_69503
+%mor:	pro:sub|I v|bet&ZERO pro|you~aux|be&PRES neg|not rel|that
+	adj|slop&dn-Y .
+*INV:	ah I hope not ! 69503_71328
+%mor:	co|ah pro:sub|I v|hope neg|not !
+*INV:	can you see anything else goin(g) on in the picture ? 71328_77321
+%mor:	mod|can pro|you v|see pro:indef|anything post|else part|go-PRESP
+	adv|on prep|in det|the n|picture ?
+*PAR:	well <he's gonna [: going to]> [//] &s he [/] he's on two [/] two feet <of the> [/] <of the third> [/] of the third one's up [/] up in the air . [+ cir] 77321_91484
+%mor:	co|well pro:sub|he~cop|be&3S prep|on det:num|two n|foot&PL prep|of
+	det|the adj|third pro:indef|one~aux|be&3S adv|up prep|in det|the
+	n|air .
+*INV:	okay . 91484_92634
+%mor:	co|okay .
+*INV:	anything else ? 92634_100868
+%mor:	pro:indef|anything post|else ?
+*PAR:	copyright nineteen seventy two by Lee_A +... [+ exc] 100868_106955
+%mor:	n|copyright det:num|nineteen det:num|seventy det:num|two prep|by
+	n:prop|Lee_A +...
+*INV:	okay . 106955_109052
+%mor:	co|okay .
+*PAR:	and &=laughs . [+ exc] 109052_112603
+%mor:	conj|and .
+*INV:	okay good . 112602_113506
+%mor:	co|okay adj|good .
+@End

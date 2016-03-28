@@ -1,0 +1,35 @@
+@UTF8
+@PID:	11312/t-00002367-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|52;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	248-2c, audio
+*PAR:	well let's see . [+ exc] 0_1600
+%mor:	co|well v|let~pro:obj|us v|see .
+*PAR:	we have the water coming out of the spigot and the sink is stopped up and the water is going on the floor . 1600_8296
+%mor:	pro:sub|we v|have det|the n|water part|come-PRESP adv|out prep|of
+	det|the n|spigot coord|and det|the n|sink aux|be&3S part|stop-PASTP
+	adv|up coord|and det|the n|water aux|be&3S part|go-PRESP prep|on
+	det|the n|floor .
+*PAR:	apparently the mother is drying a dish . 8296_13417
+%mor:	adv|apparent&dadj-LY det|the n|mother aux|be&3S part|dry-PRESP
+	det|a n|dish .
+*PAR:	we have the boy standing on a stool trying to get cookies out of the cookie jar and <handing them to> [/] &uh handing them to his sister probably . 13417_26305
+%mor:	pro:sub|we v|have det|the n|boy part|stand-PRESP prep|on det|a
+	n|stool part|try-PRESP inf|to v|get n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar coord|and part|hand-PRESP pro:obj|them
+	prep|to pro:poss:det|his n|sister adv|probable&dadj-LY .
+*PAR:	and he's about to fall as the stool is tipping over . 26305_31875
+%mor:	conj|and pro:sub|he~mod|do&3S adv|about inf|to v|fall prep|as
+	det|the n|stool aux|be&3S part|tip-PRESP adv|over .
+*PAR:	and the grass is growing and [//] &uh probably . 31875_37162
+%mor:	conj|and det|the n|grass aux|be&3S part|grow-PRESP
+	adv|probable&dadj-LY .
+*PAR:	but I guess that's about the action . [+ exc] 37162_39177
+%mor:	conj|but pro:sub|I v|guess rel|that~aux|be&3S prep|about det|the
+	n|action .
+*INV:	okay . 39177_40499
+%mor:	co|okay .
+@End

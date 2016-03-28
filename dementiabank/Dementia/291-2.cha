@@ -1,0 +1,42 @@
+@UTF8
+@PID:	11312/t-00002607-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|female|ProbableAD||Participant|18||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	291-2c, audio
+*INV:	okay good . 0_997
+%mor:	co|okay adj|good .
+*INV:	the picture . 997_1829
+%mor:	det|the n|picture .
+*INV:	all that you see going in the picture . 1829_3451
+%mor:	qn|all pro:dem|that pro|you v|see n:gerund|go-PRESP prep|in det|the
+	n|picture .
+*PAR:	alright . [+ exc] 3451_4701
+%mor:	co|alright .
+*INV:	(.) can you tell me +/? 4701_6695
+%mor:	mod|can pro|you v|tell pro:obj|me +/?
+*PAR:	+< oh . [+ exc] 6485_6835
+%mor:	co|oh .
+*PAR:	the &uh boy's in the cookie jar (.) handing a cookie to his sister . 6835_13608
+%mor:	det|the n|boy~cop|be&3S prep|in det|the n|cookie n|jar
+	part|hand-PRESP det|a n|cookie prep|to pro:poss:det|his n|sister .
+*PAR:	(.) mother is drying dishes . 13608_19454
+%mor:	n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	her sink is spilling over . 19454_22494
+%mor:	pro:poss:det|her n|sink aux|be&3S part|spill-PRESP adv|over .
+*INV:	(...) any [//] &oth anything else you see going on in the pic(ture) +/? 22494_32105
+%mor:	pro:indef|anything post|else pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|the n|picture +/?
+*PAR:	+< the stool the boy is on is tilting . 32005_35348
+%mor:	det|the n|stool det|the n|boy cop|be&3S adv|on aux|be&3S
+	part|tilt-PRESP .
+*PAR:	I said the sink's running over I think . 35348_40222
+%mor:	pro:sub|I v|say&PAST det|the n|sink~aux|be&3S part|run-PRESP
+	adv|over pro:sub|I v|think .
+*PAR:	(..) yeah . [+ exc] 40222_49805
+%mor:	co|yeah .
+*INV:	okay that's fine . 49805_51303
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

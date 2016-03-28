@@ -1,0 +1,26 @@
+@UTF8
+@PID:	11312/t-00002388-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|female|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	295-1c, audio
+*PAR:	&uh this boy is about to fall off o(f) the stool . 0_3957
+%mor:	det|this n|boy cop|be&3S adv|about prep|to n|fall adv|off prep|of
+	det|the n|stool .
+*PAR:	the mother is &uh washing dishes and the water's spilling over on the &uh (.) kitchen floor . 3957_12857
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	det|the n|water~aux|be&3S part|spill-PRESP adv|over prep|on det|the
+	n|kitchen n|floor .
+*PAR:	the wind is blowing the curtains . 12826_15114
+%mor:	det|the n|wind aux|be&3S part|blow-PRESP det|the n|curtain-PL .
+*PAR:	the little girl is laughing at her brother who's taking a cookie out of the cookie jar . 15114_20622
+%mor:	det|the adj|little n|girl aux|be&3S part|laugh-PRESP prep|at
+	pro:poss:det|her n|brother rel|who~aux|be&3S part|take-PRESP det|a
+	n|cookie adv|out prep|of det|the n|cookie n|jar .
+*PAR:	think that's it . [+ exc] 20622_24498
+%mor:	v|think pro:dem|that~cop|be&3S pro|it .
+*INV:	okay . 24498_25308
+%mor:	co|okay .
+@End

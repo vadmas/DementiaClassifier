@@ -1,0 +1,55 @@
+@UTF8
+@PID:	11312/t-00002292-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	137-3c, audio
+*INV:	now I'd like you to look at this picture and tell me everything that you see going on . 0_6895
+%mor:	adv|now pro:sub|I~mod|genmod v|like pro|you inf|to v|look prep|at
+	det|this n|picture coord|and v|tell pro:obj|me pro:indef|everything
+	rel|that pro|you v|see n:gerund|go-PRESP adv|on .
+*INV:	everything that you see happening here . 6895_9137
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	adv|here .
+*PAR:	okay . [+ exc] 9137_10583
+%mor:	co|okay .
+*PAR:	little boy is crawling up to get in the cookie jar and is ready to fall off of that stool . 10583_17183
+%mor:	adj|little n|boy aux|be&3S part|crawl-PRESP adv|up inf|to v|get
+	prep|in det|the n|cookie n|jar coord|and cop|be&3S adj|ready inf|to
+	v|fall adv|off prep|of det|that n|stool .
+*PAR:	the little sister's hand waiting for her cookie . [+ gram] 17183_20559
+%mor:	det|the adj|little n|sister~poss|s n|hand part|wait-PRESP prep|for
+	pro:obj|her n|cookie .
+*PAR:	and mommy doesn't know anything about it . 20559_23074
+%mor:	conj|and n|mommy mod|do&3S~neg|not v|know pro:indef|anything
+	prep|about pro|it .
+*PAR:	in fact she's thinking about something else because the water's running out onto her feet . 23074_31488
+%mor:	prep|in n|fact pro:sub|she~aux|be&3S part|think-PRESP prep|about
+	pro:indef|something post|else conj|because det|the n|water~aux|be&3S
+	part|run-PRESP adv|out prep|onto pro:poss:det|her n|foot&PL .
+*PAR:	and she doesn't seem to be aware of it . 31488_35535
+%mor:	conj|and pro:sub|she mod|do&3S~neg|not v|seem inf|to cop|be
+	adj|aware prep|of pro|it .
+*PAR:	and <she's washing &di well she's drying> [//] looks like she's drying dishes (.) but forgot to turn the faucet off .  [+ gram] 35535_43951
+%mor:	coord|and v|look-3S rel|like pro:sub|she~aux|be&3S part|dry-PRESP
+	n|dish-PL conj|but v|forget&PAST inf|to v|turn det|the n|faucet
+	adv|off .
+*PAR:	is that right ? [+ exc] 43951_44979
+%mor:	cop|be&3S rel|that n|right ?
+*INV:	mhm . 44979_45554
+%mor:	co|yes .
+*INV:	is that everything ? 45554_47780
+%mor:	cop|be&3S rel|that pro:indef|everything ?
+*PAR:	well then the [//] she's standing by the window where she can look out into the yard where there's grass and the end of the house . 47780_58770
+%mor:	co|well adv:tem|then pro:sub|she~aux|be&3S part|stand-PRESP prep|by
+	det|the n|window rel|where pro:sub|she mod|can v|look adv|out
+	prep|into det|the n|yard rel|where pro:exist|there~cop|be&3S n|grass
+	coord|and det|the n|end prep|of det|the n|house .
+*PAR:	and there are cabinets, kitchen cabinets there . 58770_64439
+%mor:	conj|and adv|there cop|be&PRES n|cabinet-PL cm|cm n|kitchen
+	n|cabinet-PL adv|there .
+*INV:	okay that's . 64439_65437
+%mor:	co|okay pro:dem|that~cop|be&3S .
+@End

@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002296-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|51;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	139-1c, audio
+*INV:	tell me anything that you see going on in that picture . 0_3798
+%mor:	v|tell pro:obj|me pro:indef|anything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	okay she's washing dishes . 3798_6097
+%mor:	co|okay pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	the sink is running over . 6097_8609
+%mor:	det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	&uh the boy is falling off the &uh stool . 8609_13388
+%mor:	det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the n|stool .
+*PAR:	he's getting cookies . 13388_14898
+%mor:	pro:sub|he~aux|be&3S part|get-PRESP n|cookie-PL .
+*PAR:	the girl is reaching for a cookie . 14898_20156
+%mor:	det|the n|girl aux|be&3S part|reach-PRESP prep|for det|a n|cookie .
+*INV:	anything else ? 20156_25157
+%mor:	pro:indef|anything post|else ?
+*PAR:	the girl is telling him to be quiet . 25157_32469
+%mor:	det|the n|girl aux|be&3S part|tell-PRESP pro:obj|him inf|to cop|be
+	adj|quiet .
+*INV:	is that it ? 32469_42450
+%mor:	cop|be&3S rel|that pro|it ?
+*PAR:	mhm . [+ exc] 42450_43503
+%mor:	co|yes .
+*INV:	okay . 43503_44106
+%mor:	co|okay .
+@End

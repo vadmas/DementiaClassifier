@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/t-00002673-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|75;|female|PossibleAD||Participant|10||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	511-0c, audio
+*INV:	I'd like for you to look at this picture and tell me everything you see happening in that picture . 0_7200
+%mor:	pro:sub|I~mod|genmod co|like prep|for pro|you inf|to v|look prep|at
+	det|this n|picture coord|and v|tell pro:obj|me pro:indef|everything
+	pro|you v|see n:gerund|happen-PRESP prep|in det|that n|picture .
+*INV:	all of the action . 7200_8872
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	(.) well I need to read it . [+ exc] 8872_15176
+%mor:	co|well pro:sub|I v|need inf|to v|read&ZERO pro|it .
+*INV:	just tell me all of the action you see happening in that picture . 15176_19968
+%mor:	adv|just v|tell pro:obj|me adv|all prep|of det|the n|action pro|you
+	v|see n:gerund|happen-PRESP prep|in det|that n|picture .
+*PAR:	+< tell you . [+ exc] [+ gram] 17600_18500
+%mor:	v|tell pro|you .
+*PAR:	well that's the boy . 20637_23251
+%mor:	co|well pro:dem|that~cop|be&3S det|the n|boy .
+*PAR:	(.) he wants the cookies . 23251_29290
+%mor:	pro:sub|he v|want-3S det|the n|cookie-PL .
+*PAR:	and this must be the mother . 29290_33201
+%mor:	conj|and pro:dem|this mod|must cop|be det|the n|mother .
+*PAR:	is that all ? [+ exc] 33201_36108
+%mor:	cop|be&3S adv|that adv|all ?
+*INV:	mhm . 36108_36946
+%mor:	co|yes .
+*INV:	can you see any more action happening in that picture ? 36946_40344
+%mor:	mod|can pro|you v|see qn|any adv|more n|action part|happen-PRESP
+	prep|in det|that n|picture ?
+*PAR:	&uh the little girl's helpin(g) . 40344_43219
+%mor:	det|the adj|little n|girl~poss|s part|help-PRESP .
+*PAR:	(.) and he's fallin(g) over . 43219_49228
+%mor:	conj|and pro:sub|he~aux|be&3S part|fall-PRESP adv|over .
+*PAR:	well I don't know . [+ exc] 49228_56776
+%mor:	co|well pro:sub|I mod|do~neg|not v|know .
+*INV:	okay is that it ? 56776_57848
+%mor:	co|okay cop|be&3S rel|that pro|it ?
+*INV:	do you wanna [: want to] look at one more time to see if there's anything else you can see ? 57848_61100
+%mor:	mod|do pro|you v|want inf|to v|look prep|at det:num|one qn|more
+	n|time inf|to v|see conj|if pro:exist|there~cop|be&3S
+	pro:indef|anything post|else pro|you mod|can v|see ?
+*PAR:	+< &hm (.) and that's the mother . 58000_62000
+%mor:	conj|and pro:dem|that~cop|be&3S det|the n|mother .
+*INV:	okay . 62225_62894
+%mor:	co|okay .
+*PAR:	(.) and I don't think she knows what they're up to . 62894_69450
+%mor:	conj|and pro:sub|I mod|do~neg|not v|think pro:sub|she v|know-3S
+	pro:wh|what pro:sub|they~aux|be&PRES adv|up prep|to .
+*INV:	okay . 69450_70271
+%mor:	co|okay .
+*INV:	thanks . 70271_71828
+%mor:	co|thanks .
+@End

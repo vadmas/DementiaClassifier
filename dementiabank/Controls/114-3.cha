@@ -1,0 +1,33 @@
+@UTF8
+@PID:	11312/t-00002266-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	114-3c, audio
+*INV:	you can start now . 0_1463
+%mor:	pro|you mod|can v|start adv|now .
+*PAR:	there has to be action . [+ exc] 1463_3292
+%mor:	pro:exist|there aux|have&3S inf|to cop|be n|action .
+*PAR:	oh <the stool> [//] the boy is falling off the stool . 3292_6739
+%mor:	co|oh det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the
+	n|stool .
+*PAR:	&uh the lady is drying dishes . 6739_10866
+%mor:	det|the n|lady aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	the water is running out of the sink . 10866_15830
+%mor:	det|the n|water aux|be&3S part|run-PRESP adv|out prep|of det|the
+	n|sink .
+*PAR:	&uh &hm (...) I don't know what else they would want . [+ exc] 15830_37820
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what post|else pro:sub|they
+	mod|will&COND v|want .
+*INV:	just tell me when you think that you've told me everything that you see going on in the picture . 37820_42616
+%mor:	adv|just v|tell pro:obj|me conj|when pro|you v|think rel|that
+	pro|you~aux|have part|tell&PASTP pro:obj|me pro:indef|everything
+	rel|that pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the
+	n|picture .
+*PAR:	that's about all I can see . [+ exc] 42616_47371
+%mor:	pro:dem|that~cop|be&3S adv|about adv|all pro:sub|I mod|can v|see .
+*PAR:	those three things . [+ exc]  [+ gram] 47371_48684
+%mor:	det|those det:num|three n|thing-PL .
+@End

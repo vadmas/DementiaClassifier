@@ -1,0 +1,41 @@
+@UTF8
+@PID:	11312/t-00002368-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|50;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	255-0c, audio
+*PAR:	you mean just detail everything I see ? [+ exc] 0_2444
+%mor:	pro|you v|mean adj|just n|detail pro:indef|everything pro:sub|I
+	v|see ?
+*INV:	just everything that you see happening there . 2444_4608
+%mor:	adv|just pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP adv|there .
+*PAR:	well I see &uh a little boy standing on a stool . 4608_8390
+%mor:	co|well pro:sub|I v|see det|a adj|little n|boy part|stand-PRESP
+	prep|on det|a n|stool .
+*PAR:	and the stool fallin(g) over . 8390_9550
+%mor:	conj|and det|the n|stool part|fall-PRESP adv|over .
+*PAR:	he's up in the cupboard grabbin(g) cookies and a little girl standing down there waiting to get some cookies off of him . 9550_17847
+%mor:	pro:sub|he~cop|be&3S prep|up prep|in det|the n|cupboard
+	part|grab-PRESP n|cookie-PL coord|and det|a adj|little n|girl
+	part|stand-PRESP adv|down adv|there part|wait-PRESP inf|to v|get
+	qn|some n|cookie-PL adv|off prep|of pro:obj|him .
+*PAR:	I guess their mother's standing there doing dishes at the sink and the water's overflowing and running onto the floor . 17847_26438
+%mor:	pro:sub|I v|guess pro:poss:det|their n|mother~aux|be&3S
+	part|stand-PRESP adv|there part|do-PRESP n|dish-PL prep|at det|the
+	n|sink coord|and det|the n|water~aux|be&3S over#part|flow-PRESP
+	coord|and part|run-PRESP prep|onto det|the n|floor .
+*PAR:	she's wiping a dish off . 26180_29312
+%mor:	pro:sub|she~aux|be&3S part|wipe-PRESP det|a n|dish adv|off .
+*PAR:	just staring out the window I guess . [+ gram]  29312_31939
+%mor:	adv|just part|stare-PRESP prep|out det|the n|window pro:sub|I
+	v|guess .
+*PAR:	this is what I see . [+ exc] 31939_35675
+%mor:	pro:dem|this cop|be&3S pro:wh|what pro:sub|I v|see .
+*INV:	okay . 35675_39955
+%mor:	co|okay .
+*INV:	okay . 39955_47348
+%mor:	co|okay .
+@End

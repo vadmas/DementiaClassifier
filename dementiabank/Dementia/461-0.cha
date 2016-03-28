@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/t-00002652-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|85;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	461-0c, audio
+*INV:	and there's the picture . 0_3082
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	cookie jar . [+ gram] 3082_10259
+%mor:	n|cookie n|jar .
+*PAR:	the boy and a girl and the ladder . [+ gram] 10259_13386
+%mor:	det|the n|boy coord|and det|a n|girl coord|and det|the n|ladder .
+*PAR:	the &uh cabinet . [+ gram] 13386_18539
+%mor:	det|the n|cabinet .
+*PAR:	and the other cabinet with the sink in it <or with the> [//] yes . [+ gram] 18539_25883
+%mor:	conj|and det|the qn|other n|cabinet prep|with det|the n|sink
+	prep|in pro|it co|yes .
+*PAR:	the water coming out . [+ gram]  25883_28233
+%mor:	det|the n|water part|come-PRESP adv|out .
+*PAR:	the sink . [+ gram]  28233_30428
+%mor:	det|the n|sink .
+*PAR:	the dishes on the cabinet . [+ gram]  30428_33244
+%mor:	det|the n|dish-PL prep|on det|the n|cabinet .
+*PAR:	the lady drying dishes . [+ gram]  33244_36107
+%mor:	det|the n|lady part|dry-PRESP n|dish-PL .
+*PAR:	the window . [+ gram]  36107_37199
+%mor:	det|the n|window .
+*PAR:	and you can see the trees outside the window . 37199_41263
+%mor:	conj|and pro|you mod|can v|see det|the n|tree-PL prep|outside
+	det|the n|window .
+*PAR:	the curtains on the window . [+ gram] 41263_45073
+%mor:	det|the n|curtain-PL prep|on det|the n|window .
+*INV:	you see anything else going on in our picture ? 51774_54926
+%mor:	pro|you v|see pro:indef|anything post|else part|go-PRESP adv|on
+	prep|in pro:poss:det|our n|picture ?
+*PAR:	the water . [+ gram]  54926_55904
+%mor:	det|the n|water .
+*PAR:	spilling over in the sink . [+ gram]  55904_59499
+%mor:	part|spill-PRESP adv|over prep|in det|the n|sink .
+*PAR:	I guess I mentioned the boy getting the cookies out of the jar . 59499_66799
+%mor:	pro:sub|I v|guess pro:sub|I v|mention-PAST det|the n|boy
+	part|get-PRESP det|the n|cookie-PL adv|out prep|of det|the n|jar .
+*INV:	anything else going on over here ? 66799_76821
+%mor:	pro:indef|anything post|else part|go-PRESP adv|on prep|over
+	pro:dem|here ?
+*PAR:	oh yeah the ladder's tipping over . 76821_80700
+%mor:	co|oh co|yeah det|the n|ladder~aux|be&3S part|tip-PRESP adv|over .
+*PAR:	the boy's on the ladder and the ladder's tipping over . 80700_84310
+%mor:	det|the n|boy~cop|be&3S prep|on det|the n|ladder coord|and det|the
+	n|ladder~aux|be&3S part|tip-PRESP adv|over .
+*PAR:	and the girl's reaching to get a cookie . 84310_87420
+%mor:	conj|and det|the n|girl~aux|be&3S part|reach-PRESP inf|to v|get
+	det|a n|cookie .
+*PAR:	and &uh the water's flowing down on the floor . 87420_93941
+%mor:	conj|and det|the n|water~aux|be&3S part|flow-PRESP adv|down prep|on
+	det|the n|floor .
+*PAR:	you can see the grass out on the lawn . 93941_103344
+%mor:	pro|you mod|can v|see det|the n|grass adv|out prep|on det|the
+	n|lawn .
+*INV:	okay . 103344_109380
+%mor:	co|okay .
+@End

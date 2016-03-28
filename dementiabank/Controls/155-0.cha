@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/t-00002314-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|59;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	155-0c, audio
+*PAR:	well I see the sink overflowin(g) . 0_5117
+%mor:	co|well pro:sub|I v|see det|the n|sink over#part|flow-PRESP .
+*PAR:	the mother is doing the dishes . 5117_7503
+%mor:	det|the n|mother aux|be&3S part|do-PRESP det|the n|dish-PL .
+*PAR:	<the children are> [//] the boy is up on the &s stool . 7503_15923
+%mor:	det|the n|boy cop|be&3S adv|up prep|on det|the n|stool .
+*PAR:	and the stool's falling over but he's grabbing cookies out of the cookie jar . 15923_20235
+%mor:	conj|and det|the n|stool~aux|be&3S part|fall-PRESP adv|over
+	conj|but pro:sub|he~aux|be&3S part|grab-PRESP n|cookie-PL adv|out
+	prep|of det|the n|cookie n|jar .
+*PAR:	and the girl is reaching up for a cookie . 20235_26489
+%mor:	conj|and det|the n|girl aux|be&3S part|reach-PRESP adv|up prep|for
+	det|a n|cookie .
+*PAR:	the window seems to be open xxx . 26489_35035
+%mor:	det|the n|window v|seem-3S inf|to cop|be adj|open .
+*PAR:	and the woman is standing in water . 35035_37540
+%mor:	conj|and det|the n|woman aux|be&3S part|stand-PRESP prep|in n|water
+	.
+*PAR:	and the cookie jar lid is off [//] falling off . 37540_50910
+%mor:	conj|and det|the n|cookie n|jar n|lid aux|be&3S part|fall-PRESP
+	adv|off .
+*INV:	that's all ? 50910_59253
+%mor:	pro:dem|that~cop|be&3S pro:indef|all ?
+*PAR:	the water's runnin(g) . 59253_63144
+%mor:	det|the n|water~aux|be&3S part|run-PRESP .
+@End

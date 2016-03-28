@@ -1,0 +1,46 @@
+@UTF8
+@PID:	11312/t-00002452-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|63;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	035-1c, audio
+*INV:	now there it is . 0_1463
+%mor:	adv|now adv|there pro|it cop|be&3S .
+*PAR:	(.) alright . [+ exc] 1463_4190
+%mor:	co|alright .
+*PAR:	&uh the little girl &s wants cookie . [+ gram] 4190_8812
+%mor:	det|the adj|little n|girl v|want-3S n|cookie .
+*PAR:	the boy is getting her one but <the &s stool is going to> [//] he's going to fall off the stool .  8812_16000
+%mor:	det|the n|boy aux|be&3S part|get-PRESP pro:poss:det|her
+	pro:indef|one conj|but pro:sub|he~aux|be&3S part|go-PRESP inf|to
+	v|fall prep|off det|the n|stool .
+*PAR:	it's tilty [: tilting] [* p:n] . 16000_17824
+%mor:	pro|it~aux|be&3S part|tilt-PRESP .
+*PAR:	&uh the mother is doing the dishes . 17824_23860
+%mor:	det|the n|mother aux|be&3S part|do-PRESP det|the n|dish-PL .
+*PAR:	and unfortunately the sink is overflowing on the floor &=laughs . 23860_29895
+%mor:	conj|and un#adv|fortunate&dadj-LY det|the n|sink aux|be&3S
+	over#part|flow-PRESP prep|on det|the n|floor .
+*PAR:	it's wet . 29895_31441
+%mor:	pro|it~aux|be&3S part|wet&PASTP .
+*PAR:	xxx . [+ exc] 31441_36097
+*PAR:	xxx . [+ exc] 36097_38741
+*PAR:	(..) the little &b +...  38741_45555
+%mor:	det|the adj|little +...
+*PAR:	oh that's his feet . 45555_48125
+%mor:	co|oh pro:dem|that~cop|be&3S pro:poss:det|his n|foot&PL .
+*PAR:	I thought there was something around the little boy's foot or <at least> [/] at least just <one part of> [//] one foot [/] foot (.) on top of the other . 48125_59936
+%mor:	pro:sub|I v|think&PAST adv|there cop|be&PAST&13S
+	pro:indef|something prep|around det|the adj|little n|boy~poss|s
+	n|foot coord|or prep|at n|least adv|just det:num|one n|foot prep|on
+	n|top prep|of det|the qn|other .
+*PAR:	the little girl I [/] I don't whether she's laughing or asking for the cookie or saying “shh” so mother doesn't hear them &=laughs . 59936_74082
+%mor:	det|the adj|little n|girl pro:sub|I mod|do~neg|not conj|whether
+	pro:sub|she~aux|be&3S part|laugh-PRESP coord|or part|ask-PRESP
+	prep|for det|the n|cookie coord|or part|say-PRESP bq|bq co|shh eq|eq
+	co|so n|mother mod|do&3S~neg|not v|hear pro:obj|them .
+*INV:	okay . 74082_78733
+%mor:	co|okay .
+@End

@@ -1,0 +1,129 @@
+@UTF8
+@PID:	11312/t-00016658-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|75;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	362-1s, audio
+*INV:	alright ‡ put it into a brief simple sentence for me . 0_3506
+%mor:	co|alright beg|beg v|put&ZERO pro|it prep|into det|a adj|brief
+	adj|simple n|sentence prep|for pro:obj|me .
+*PAR:	okay . [+ exc] 3506_3994
+%mor:	co|okay .
+*INV:	alright . 3994_4907
+%mor:	co|alright .
+*INV:	the first word is table@q . 4907_6892
+%mor:	det|the adj|first n|word aux|be&3S meta|table .
+*PAR:	table@q ? [+ exc] 6892_8350
+%mor:	meta|table ?
+*INV:	mhm . 8350_9033
+%mor:	co|yes .
+*PAR:	<you write> [//] you eat with a dish on a table . 9033_12295
+%mor:	pro|you v|eat prep|with det|a n|dish prep|on det|a n|table .
+*INV:	okay . 12295_13433
+%mor:	co|okay .
+*INV:	pencil@q . 13433_14722
+%mor:	meta|pencil .
+*PAR:	pencil write . [+ exc] 14722_16570
+%mor:	n|pencil v|write .
+*PAR:	you write (.) letters or whatever it is . [+ exc] 16570_19105
+%mor:	pro|you v|write n|letter-PL coord|or pro:wh|whatever pro|it
+	cop|be&3S .
+*INV:	xxx +/. 19105_20499
+%mor:	+/.
+*PAR:	+< is Diane here did you say ? [+ exc] 19866_21253
+%mor:	cop|be&3S n:prop|Diane adv|here mod|do&PAST pro|you v|say ?
+*PAR:	where is she ? [+ exc] 21253_21787
+%mor:	adv:wh|where cop|be&3S pro:sub|she ?
+*INV:	+< yeah ‡ Diane's out in the lobby waiting for us . 21287_23946
+%mor:	co|yeah beg|beg n:prop|Diane~poss|s adv|out prep|in det|the n|lobby
+	part|wait-PRESP prep|for pro:obj|us .
+*INV:	can you give me a complete sentence using the word pencil@q ? 23946_28335
+%mor:	mod|can pro|you v|give pro:obj|me det|a adj|complete n|sentence
+	part|use-PRESP det|the n|word meta|pencil ?
+*INV:	pencil@q . 28335_30857
+%mor:	meta|pencil .
+*PAR:	+< like a pencil ? [+ exc] 30556_31449
+%mor:	prep|like det|a n|pencil ?
+*PAR:	I'm writing <wit [: with] a> [//] with a pencil . 31449_35015
+%mor:	pro:sub|I~aux|be&1S part|write-PRESP prep|with det|a n|pencil .
+*INV:	good . 35015_35334
+%mor:	adj|good .
+*INV:	how_(a)bout the word tree@q . 35334_37410
+%mor:	adv:wh|how_about det|the n|word meta|tree .
+*PAR:	tree@q ? [+ exc] 37410_38391
+%mor:	meta|tree ?
+*INV:	mhm . 38391_39266
+%mor:	co|yes .
+*PAR:	I like trees . 39266_40838
+%mor:	pro:sub|I v|like n|tree-PL .
+*INV:	okay . 40838_41724
+%mor:	co|okay .
+*PAR:	I like trees . [+ exc] 41724_44544
+%mor:	pro:sub|I v|like n|tree-PL .
+*INV:	+< now I'm going to give you two words <and I want>
+	[//] and I still want you to give me a brief simple sentence . 43543_48417
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|two n|word-PL coord|and pro:sub|I adv|still v|want pro|you
+	inf|to v|give pro:obj|me det|a adj|brief adj|simple n|sentence .
+*INV:	okay +/. 48417_49725
+%mor:	co|okay +/.
+*PAR:	+< what simple sentence ? [+ exc] 48651_50494
+%mor:	pro:wh|what adj|simple n|sentence ?
+*INV:	give me a word . 50494_51402
+%mor:	v|give pro:obj|me det|a n|word .
+*INV:	<I'm gonna give> [/] I'm gonna give you two words and I want you
+	to give me a brief simple sentence . 51402_56058
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you det:num|two
+	n|word-PL coord|and pro:sub|I v|want pro|you inf|to v|give
+	pro:obj|me det|a adj|brief adj|simple n|sentence .
+*PAR:	go ahead . [+ exc] 56058_56818
+%mor:	v|go adv|ahead .
+*INV:	child@q hospital@q . 56818_59154
+%mor:	meta|child meta|hospital .
+*PAR:	child is born in a hospital . 59154_61874
+%mor:	n|child cop|be&3S adj|born prep|in det|a n|hospital .
+*INV:	okay . 61874_62561
+%mor:	co|okay .
+*INV:	cold@q winter@q . 62561_65083
+%mor:	meta|cold meta|winter .
+*PAR:	cold  winter it's freezing . 65083_69178
+%mor:	adj|cold n|winter pro|it~aux|be&3S part|freeze-PRESP .
+*PAR:	right ? [+ exc] 69178_70513
+%mor:	co|right ?
+*INV:	mhm . 70513_71309
+%mor:	co|yes .
+*INV:	now I'm going to give you three words and I still want you to give
+	me a brief simple sentence „ okay . 71309_80160
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL coord|and pro:sub|I adv|still v|want pro|you
+	inf|to v|give pro:obj|me det|a adj|brief adj|simple n|sentence
+	end|end co|okay .
+*PAR:	+< what xxx ? [+ exc] 79900_80943
+%mor:	pro:wh|what ?
+*INV:	chair@q doctor@q sit@q . 80943_84710
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	<get the> [/] get the chair for the doctor . 84710_87928
+%mor:	v|get det|the n|chair prep|for det|the n|doctor .
+*INV:	okay . 87928_89675
+%mor:	co|okay .
+*INV:	bureau@q open@q drawer@q . 89675_94127
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	bureau@q open@q door@q ? [+ exc] 94127_97474
+%mor:	meta|bureau meta|open meta|door ?
+*INV:	drawer . 97474_99018
+%mor:	n|drawer .
+*PAR:	+< your door is open . [+ exc] 98179_99471
+%mor:	pro:poss:det|your n|door cop|be&3S adj|open .
+*PAR:	drawer . [+ exc] 99471_100246
+%mor:	n|drawer .
+*INV:	mhm . 100246_100821
+%mor:	co|yes .
+*PAR:	the drawer is open . 100821_103111
+%mor:	det|the n|drawer cop|be&3S adj|open .
+*INV:	okay . 103111_105000
+%mor:	co|okay .
+*PAR:	is she out there ? [+ exc] 105000_1060900
+%mor:	cop|be&3S pro:sub|she adv|out adv|there ?
+@End

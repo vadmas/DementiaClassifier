@@ -1,0 +1,92 @@
+@UTF8
+@PID:	11312/t-00002586-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|female|ProbableAD||Participant|10||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	257-2c, audio
+*INV:	okay let's try something different okay ? 0_2475
+%mor:	co|okay v|let~pro:obj|us v|try pro:indef|something adj|different
+	adj|okay ?
+*INV:	tell me what you see in that picture . 2475_6232
+%mor:	v|tell pro:obj|me pro:wh|what pro|you v|see prep|in det|that
+	n|picture .
+*PAR:	oh there's a cookie jar and a youngster with a <I don't know what he got> [//] cookie jar . 6232_13316
+%mor:	co|oh pro:exist|there~cop|be&3S det|a n|cookie n|jar coord|and
+	det|a n|youngster prep|with det|a n|cookie n|jar .
+*PAR:	and the boy has a shirt with a cookie &j jar too I guess . 13316_20997
+%mor:	conj|and det|the co|boy aux|have&3S det|a n|shirt prep|with det|a
+	n|cookie n|jar adv|too pro:sub|I v|guess .
+*PAR:	the girl has one too a jar  . 20997_24654
+%mor:	det|the n|girl v|have&3S det:num|one adv|too det|a n|jar .
+*PAR:	an(d) that's the stool . 24654_29493
+%mor:	conj|and pro:dem|that~cop|be&3S det|the n|stool .
+*PAR:	and this is &uh with a kitchen thing &k dishes .  [+ gram] 29493_35300
+%mor:	conj|and pro:dem|this cop|be&3S prep|with det|a n|kitchen n|thing
+	n|dish-PL .
+*PAR:	and this is water somebody spilled . 35300_39223
+%mor:	conj|and pro:dem|this cop|be&3S v|water pro:indef|somebody
+	v|spill-PAST .
+*PAR:	(.) this is some more junk . [+ es] 39223_43695
+%mor:	pro:dem|this cop|be&3S qn|some qn|more n|junk .
+*PAR:	what do you call this ? [+ exc] 43695_44959
+%mor:	pro:wh|what mod|do pro|you v|call pro:dem|this ?
+*PAR:	I don't know . [+ exc] 44959_45488
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	I guess it's another for the (.) &=sighs +... 45488_50791
+%mor:	pro:sub|I v|guess pro|it~aux|be&3S qn|another prep|for det|the +...
+*PAR:	I don't know what's hɑɹ@u [: x@n] [* n:uk] in there . [+ jar] [+ exc] 50591_52387
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what~aux|be&3S neo|x prep|in
+	pro:dem|there .
+*PAR:	the tent@u [: x@n] [* n:uk] very interesting . [+ jar] 52387_55735
+%mor:	det|the neo|x adv|very part|interest-PRESP .
+*INV:	what's going over here Missus Last_Name ? 55735_60000
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP prep|over pro:dem|here
+	n:prop|Missus n:prop|Last_Name ?
+*INV:	what do you see going on over there ? 60000_61491
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on prep|over
+	pro:dem|there ?
+*PAR:	+< oh &k (.) I don't know . [+ exc] 61000_63079
+%mor:	co|oh pro:sub|I mod|do~neg|not v|know .
+*PAR:	she's looking at it . [+ es] 63079_64076
+%mor:	pro:sub|she~aux|be&3S part|look-PRESP prep|at pro|it .
+*PAR:	I don't know what . [+ exc] 64076_65800
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what .
+*PAR:	that the kid's gonna [: going to] fall off the stool .  [+ gram] 65800_68100
+%mor:	rel|that det|the n|kid~aux|be&3S part|go-PRESP inf|to v|fall
+	prep|off det|the n|stool .
+*PAR:	I hope he does . [+ exc] 68100_69387
+%mor:	pro:sub|I v|hope pro:sub|he v|do&3S .
+*PAR:	(.) dumb kids . [+ exc] [+ gram] 69387_72138
+%mor:	adj|dumb n|kid-PL .
+*INV:	what else is going on over here ? 72138_77027
+%mor:	pro:wh|what post|else aux|be&3S part|go-PRESP adv|on prep|over
+	pro:dem|here ?
+*PAR:	oh they're in the cookie jar . 77027_79036
+%mor:	co|oh pro:sub|they~cop|be&PRES prep|in det|the n|cookie n|jar .
+*INV:	over here . 79036_80308
+%mor:	prep|over pro:dem|here .
+*INV:	can you look over here now ? 80308_81831
+%mor:	mod|can pro|you v|look prep|over pro:dem|here adv|now ?
+*INV:	what do you see going on over here ? 81831_83910
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on prep|over
+	pro:dem|here ?
+*PAR:	oh what are they doing ? [+ exc] 83910_85190
+%mor:	co|oh adv|what aux|be&PRES pro:sub|they part|do-PRESP ?
+*PAR:	I don't know . [+ exc] 85190_85800
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	they're spillin(g) somethin(g) good and (.) much . [+ gram] 85800_89772
+%mor:	pro:sub|they~aux|be&PRES part|spill-PRESP pro:indef|something
+	adj|good coord|and qn|much .
+*PAR:	it's [//] they're doing the dishes . 89772_91531
+%mor:	pro:sub|they~aux|be&PRES part|do-PRESP det|the n|dish-PL .
+*PAR:	(.) dishes they are . [+ gram] 91531_96604
+%mor:	n|dish-PL pro:sub|they cop|be&PRES .
+*PAR:	the boy's tryin(g) to fall off the stool and she's tryin(g) to get the dishes all &a done . 96604_103716
+%mor:	det|the n|boy~aux|be&3S part|try-PRESP prep|to n|fall prep|off
+	det|the n|stool coord|and pro:sub|she~aux|be&3S part|try-PRESP
+	inf|to v|get det|the n|dish-PL adv|all part|do&PASTP .
+*INV:	(.) okay . 103716_108061
+%mor:	co|okay .
+@End

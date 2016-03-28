@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002436-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|male|MCI||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	016-4c, audio
+*INV:	is take a look at this picture and tell me everything that you see going on . 0_3876
+%mor:	cop|be&3S v|take det|a n|look prep|at det|this n|picture coord|and
+	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on .
+*INV:	everything that you see happening in this picture . 3876_6802
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|this n|picture .
+*PAR:	well the little girl wants the cookie that the <guy's steal> [//] &k kid is stealing from the cookie jar with the lid off . 6802_14300
+%mor:	co|well det|the adj|little n|girl v|want-3S det|the n|cookie
+	rel|that det|the n|kid aux|be&3S part|steal-PRESP prep|from det|the
+	n|cookie n|jar prep|with det|the n|lid adv|off .
+*PAR:	and he's tripping [: tipping] [* p:w] off the stool . 14300_17262
+%mor:	conj|and pro:sub|he~aux|be&3S part|tip-PRESP prep|off det|the
+	n|stool .
+*PAR:	the water's overflowing in the sink .17262_19534
+%mor:	det|the n|water~aux|be&3S over#part|flow-PRESP prep|in det|the
+	n|sink .
+*PAR:	&w woman is drying dishes . [+ gram] 19534_23469
+%mor:	n|woman aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	&uh there's a hedge outside and all the letters are upside down .23469_30956
+%mor:	pro:exist|there~cop|be&3S det|a n|hedge adv|outside coord|and
+	qn|all det|the n|letter-PL cop|be&PRES adv|upside adv|down .
+*PAR:	and &uh there's a plate and a (.) cup on the kitchen cabinet .30956_41088
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|plate coord|and det|a
+	n|cup prep|on det|the n|kitchen n|cabinet .
+*PAR:	and a &uh +... 41088_43400
+%mor:	conj|and det|a +...
+*PAR:	oh whatcha [: what do you] call that ? [+ exc] 43400_45480
+%mor:	co|oh pro:wh|what mod|do pro|you v|call pro:dem|that ?
+*PAR:	and &uh the drapes &a and a sash window . [+ gram] 45480_51409
+%mor:	conj|and det|the v|drape-3S coord|and det|a n|sash n|window .
+*PAR:	and a window on the adjacent &uh part of the building . [+ gram] 51409_57790
+%mor:	conj|and det|a n|window prep|on det|the adj|adjacent n|part prep|of
+	det|the n|building .
+*PAR:	&uh there's a path through the lawn . 57790_61773
+%mor:	pro:exist|there~cop|be&3S det|a n|path adj|through det|the n|lawn .
+*PAR:	&uh <she's stepping> [//] the woman is stepping in the water with slippers or &sh &sh sandals or somethin(g) .61773_72479
+%mor:	det|the n|woman aux|be&3S part|step-PRESP prep|in det|the n|water
+	prep|with n|slipper-PL coord|or n|sandal-PL coord|or
+	pro:indef|something .
+*PAR:	&uh (.) that [//] that's about it . [+ exc] 72479_79249
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+@End

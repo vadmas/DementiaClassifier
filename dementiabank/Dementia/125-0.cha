@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002508-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|male|ProbableAD||Participant|10||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	125-0c, audio
+*PAR:	cookie jar .  [+ exc] 0_2256
+%mor:	n|cookie n|jar .
+*INV:	mhm . 2256_3147
+%mor:	co|yes .
+*INV:	(..) what's happening (.) in the picture ? 3147_18852
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|in det|the n|picture ?
+*PAR:	cookie jar . [+ gram] 18852_20365
+%mor:	n|cookie n|jar .
+*INV:	okay . 20365_21778
+%mor:	co|okay .
+*INV:	what's happening over here ? 21778_28035
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|over pro:dem|here ?
+*PAR:	(..) plate .  [+ gram]  28035_39257
+%mor:	n|plate .
+*PAR:	(..) did I say a cookie jar ? [+ exc]  39257_53655
+%mor:	mod|do&PAST pro:sub|I v|say det|a n|cookie n|jar ?
+*INV:	mhm . 53655_53886
+%mor:	co|yes .
+*PAR:	(w)ell I'll give it xxx . [+ exc] 53886_55590
+%mor:	co|well pro:sub|I~mod|will v|give pro|it .
+*INV:	&=coughs . 55590_61451
+*INV:	what's happening to this ? 61451_64127
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|to pro:dem|this ?
+*PAR:	foot+stool .  [+ gram] 64127_67784
+%mor:	n|+n|foot+n|stool .
+*INV:	what's it doing ? 67784_70416
+%mor:	pro:wh|what~aux|be&3S pro|it part|do-PRESP ?
+*PAR:	&uh they're raidin(g) a cookie &s jar here . 70416_75458
+%mor:	pro:sub|they~aux|be&PRES part|raid-PRESP det|a n|cookie n|jar
+	adv|here .
+*INV:	and what's this woman doing ? 75458_81995
+%mor:	conj|and pro:wh|what~aux|be&3S det|this n|woman part|do-PRESP ?
+*PAR:	<this one is> [//] &uh &uh she's cleaning a plate . 81995_88997
+%mor:	pro:sub|she~aux|be&3S part|clean-PRESP det|a n|plate .
+*INV:	and what's happening here ? 88997_98072
+%mor:	conj|and rel|what~mod|do&3S part|happen-PRESP adv|here ?
+*PAR:	this here one ? [+ exc] 98072_100141
+%mor:	det|this adv|here pro:indef|one ?
+*INV:	(...) is that everything ? 100141_124764
+%mor:	cop|be&3S rel|that pro:indef|everything ?
+*PAR:	she drops a plate I guess . 124764_127471
+%mor:	pro:sub|she v|drop-3S det|a n|plate pro:sub|I v|guess .
+*INV:	(..) is that everything now ? 127471_136217
+%mor:	cop|be&3S rel|that pro:indef|everything adv|now ?
+*PAR:	you could do what ? [+ exc] 136217_139143
+%mor:	pro|you mod|could v|do pro:wh|what ?
+*INV:	<is tha(t)> [/] is that everything you see ? 139143_141945
+%mor:	cop|be&3S rel|that pro:indef|everything pro|you v|see ?
+*PAR:	uhhuh . [+ exc] 141945_142554
+%mor:	co|uhhuh .
+*INV:	good . 142554_143564
+%mor:	adj|good .
+@End

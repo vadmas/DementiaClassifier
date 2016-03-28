@@ -1,0 +1,89 @@
+@UTF8
+@PID:	11312/t-00002681-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	539-0c, audio
+*INV:	can you tell me what you see going on in the picture ? 0_2466
+%mor:	mod|can pro|you v|tell pro:obj|me pro:wh|what pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	&=clears:throat well the little girl waving at somebody . 2466_8164
+%mor:	co|well det|the adj|little n|girl part|wave-PRESP prep|at
+	pro:indef|somebody .
+*INV:	okay . 8164_8597
+%mor:	co|okay .
+*PAR:	no <it &sh &sh she's waving &uh not waving> [//] she's just looking at the [//] somebody painting [* s:uk] . 8597_14754
+%mor:	co|no pro:sub|she~cop|be&3S adv|just part|look-PRESP prep|at
+	pro:indef|somebody part|paint-PRESP .
+*PAR:	and he's on +//. 14754_18807
+%mor:	conj|and pro:sub|he~cop|be&3S prep|on +//.
+*PAR:	oh you want me to tell you all of the xxx ? [+ exc] 18807_20540
+%mor:	co|oh pro|you v|want pro:obj|me inf|to v|tell pro|you adv|all
+	prep|of det|the ?
+*INV:	mhm . 20540_20800
+%mor:	co|yes .
+*PAR:	(a)nd he's on &uh &=laughs +... 20800_27365
+%mor:	conj|and pro:sub|he~cop|be&3S prep|on +...
+*PAR:	oh <I know how> [//] I know what it is . [+ exc] 27365_29800
+%mor:	co|oh pro:sub|I v|know pro:wh|what pro|it cop|be&3S .
+*PAR:	why can't I say it ? [+ exc] 29800_31166
+%mor:	adv:wh|why mod|can~neg|not pro:sub|I v|say pro|it ?
+*PAR:	he's on &uh a ladder . 31166_32833
+%mor:	pro:sub|he~cop|be&3S prep|on det|a n|ladder .
+*PAR:	and &uh what she sees on there &hm ? 32833_39300
+%mor:	conj|and pro:wh|what pro:sub|she v|see-3S prep|on pro:dem|there ?
+*PAR:	and she sees <her mother washing> [//] &pro &uh &p &po possibly her
+	mother <washing her table [: dishes] [* s:r-ret] or> [//] drying her
+	dishes . 39259_49496
+%mor:	conj|and pro:sub|she v|see-3S adv|possible&dadj-LY pro:poss:det|her
+	n|mother part|dry-PRESP pro:poss:det|her n|dish-PL .
+*PAR:	and the &uh +... 49496_58100
+%mor:	conj|and det|the +...
+*PAR:	&um I don't know . [+ exc] 58100_59650
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	anything else you see going on in the picture ? 59650_61906
+%mor:	pro:indef|anything post|else pro|you v|see n:gerund|go-PRESP adv|on
+	prep|in det|the n|picture ?
+*INV:	what else do you see going on over here ? 61906_68700
+%mor:	pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP adv|on
+	prep|over pro:dem|here ?
+*PAR:	well the man's <on the> [/] &uh on the ladder [: stool] [* s:r] . 68813_72657
+%mor:	co|well det|the n|man~cop|be&3S prep|on det|the n|stool .
+*PAR:	and there's a cookie jar up there . 72657_74990
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|cookie n|jar prep|up
+	pro:dem|there .
+*PAR:	and &uh the little girl is looking up at him and <whispering or> [//] holding her &ha finger up as if to say +"/. 74990_81704
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|look-PRESP adv|up
+	prep|at pro:obj|him coord|and part|hold-PRESP pro:poss:det|her
+	n|finger adv|up adv|as conj|if prep|to v|say +"/.
+*PAR:	+" don't tell them up tear [* s:uk]  . 81704_83100
+%mor:	mod|do~neg|not v|tell pro:obj|them prep|up n|tear .
+*INV:	okay anything else you see going on over there ? 83500_86005
+%mor:	co|okay pro:indef|anything post|else pro|you v|see
+	n:gerund|go-PRESP adv|on prep|over pro:dem|there ?
+*INV:	anything else happening here ? 86005_87500
+%mor:	pro:indef|anything post|else part|happen-PRESP adv|here ?
+*PAR:	well he's up on the &uh ladder [: stool] [* s:r] and <he's going> [//] <he's cutting a piece off the cookie or not a piece> [//] he's taking some of the out of the cookie jar . [+ gram] 87500_96952
+%mor:	co|well pro:sub|he~cop|be&3S prep|up prep|on det|the n|stool
+	coord|and pro:sub|he~aux|be&3S part|take-PRESP qn|some prep|of
+	det|the adv|out prep|of det|the n|cookie n|jar .
+*INV:	okay what else do you see going on over here ? 96952_99300
+%mor:	co|okay pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP
+	adv|on prep|over pro:dem|here ?
+*PAR:	and &uh well the woman is drying dishes . 99300_105332
+%mor:	conj|and co|well det|the n|woman aux|be&3S part|dry-PRESP n|dish-PL
+	.
+*PAR:	and &uh <the water is> [/] &uh the water is &w &w &ps well &uh I was gonna [: going to] say it's spilling or &g falling out or what ? 105332_116062
+%mor:	conj|and det|the n|water aux|be&3S adv|well pro:sub|I
+	aux|be&PAST&13S part|go-PRESP inf|to v|say pro|it~aux|be&3S
+	part|spill-PRESP coord|or part|fall-PRESP adv|out coord|or
+	pro:wh|what ?
+*PAR:	the water's running . 116062_118045
+%mor:	det|the n|water~aux|be&3S part|run-PRESP .
+*INV:	okay . 118045_119362
+%mor:	co|okay .
+*PAR:	okay good . [+ exc] 119362_120966
+%mor:	co|okay adj|good .
+@End

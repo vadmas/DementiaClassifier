@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/t-00002618-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	334-1c, audio
+*INV:	I want you to take a look at this picture here . 0_2535
+%mor:	pro:sub|I v|want pro|you inf|to v|take det|a n|look prep|at
+	det|this n|picture adv|here .
+*INV:	I want you to tell me everything that's going on in that picture . 2535_7052
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on prep|in
+	det|that n|picture .
+*INV:	everything that you see happening in that picture . 7052_9606
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*PAR:	well the boy is reaching kɜ˞@u [: for] [* p:n] &s some &uh cookies .9606_15833
+%mor:	co|well det|the n|boy aux|be&3S part|reach-PRESP prep|for qn|some
+	n|cookie-PL .
+*PAR:	and they're in a jar in a cupboard . 15833_17700
+%mor:	conj|and pro:sub|they~aux|be&PRES prep|in det|a n|jar prep|in det|a
+	n|cupboard .
+*PAR:	and the stool is breaking [* s:uk] down . 17700_19643
+%mor:	conj|and det|the n|stool aux|be&3S part|break-PRESP adv|down .
+*PAR:	and the girl is &uh waiting to be handed one o(f) the cookies . 19643_24185
+%mor:	conj|and det|the n|girl aux|be&3S part|wait-PRESP inf|to cop|be
+	adj|handed pro:indef|one prep|of det|the n|cookie-PL .
+*PAR:	he's in the cupboard &k trying to get a cookies out of the jar and &uh his stool is toppling over . [+ gram] 24185_31356
+%mor:	pro:sub|he~cop|be&3S prep|in det|the n|cupboard part|try-PRESP
+	inf|to v|get det|a n|cookie-PL adv|out prep|of det|the n|jar
+	coord|and pro:poss:det|his n|stool aux|be&3S part|topple-PRESP
+	adv|over .
+*PAR:	and &uh I don't think she realizes he's falling over, she's reaching for a cookie . 31356_37571
+%mor:	conj|and pro:sub|I mod|do~neg|not v|think pro:sub|she v|realize-3S
+	pro:sub|he~aux|be&3S part|fall-PRESP adv|over cm|cm
+	pro:sub|she~aux|be&3S part|reach-PRESP prep|for det|a n|cookie .
+*PAR:	and here <the dish water> [//] the water in the sink is <flowing off into the> [//] making a puddle on the floor . 37571_44849
+%mor:	conj|and adv|here det|the n|water prep|in det|the n|sink aux|be&3S
+	part|make-PRESP det|a n|puddle prep|on det|the n|floor .
+*PAR:	and the woman is going to step in it or is stepping in it . 44849_47455
+%mor:	conj|and det|the n|woman aux|be&3S part|go-PRESP inf|to v|step
+	prep|in pro|it coord|or aux|be&3S part|step-PRESP prep|in pro|it .
+*PAR:	and &uh what's wrong did you say hm ? [+ exc] 47455_51330
+%mor:	conj|and pro:wh|what~cop|be&3S adj|wrong mod|do&PAST pro|you v|say
+	co|hm ?
+*INV:	everything that's happening . 51330_52590
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP .
+*PAR:	and she's trying to dry dishes and the [//] &um (.) she's got the curtain mixed up with the dish that she's drying I think .  52590_60247
+%mor:	conj|and pro:sub|she~aux|be&3S part|try-PRESP inf|to adj|dry
+	n|dish-PL coord|and pro:sub|she~aux|be&3S part|get&PASTP det|the
+	n|curtain v|mix-PAST adv|up prep|with det|the n|dish rel|that
+	pro:sub|she~aux|be&3S part|dry-PRESP pro:sub|I v|think .
+*PAR:	and &uh (.) I don't have my glasses on &um +... [+ exc] 60247_73009
+%mor:	conj|and pro:sub|I mod|do~neg|not v|have pro:poss:det|my n|glass-PL
+	adv|on +...
+*PAR:	oh <the water's> [/] the water's running out of the sink .73009_75892
+%mor:	co|oh det|the n|water~aux|be&3S part|run-PRESP adv|out prep|of
+	det|the n|sink .
+*PAR:	and &uh there's something happening in the yard .75892_78850
+%mor:	conj|and pro:exist|there~cop|be&3S pro:indef|something
+	part|happen-PRESP prep|in det|the n|yard .
+*PAR:	I can't see it but +/. [+ exc] 78850_80000
+%mor:	pro:sub|I mod|can~neg|not v|see pro|it conj|but +/.
+*INV:	+< okay . 79500_80414
+%mor:	co|okay .
+*INV:	that's good . 80414_82566
+%mor:	pro:dem|that~cop|be&3S adj|good .
+@End

@@ -1,0 +1,61 @@
+@UTF8
+@PID:	11312/t-00002668-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|ProbableAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	497-1c, audio
+*INV:	look at this picture . 0_1387
+%mor:	v|look prep|at det|this n|picture .
+*INV:	tell me everything that you see happening in that picture . 1387_5040
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture .
+*INV:	what's going on there ? 5040_6661
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP prep|on pro:dem|there ?
+*PAR:	well the &m mother's washing the dishes [//] &d &uh drying the dishes . 6661_10554
+%mor:	co|well det|the n|mother~aux|be&3S part|wash-PRESP det|the
+	part|dry-PRESP det|the n|dish-PL .
+*PAR:	and the &k the two little kids are &i <in the> [//] in a cupboard . 10554_14111
+%mor:	conj|and det|the det|the det:num|two adj|little n|kid-PL
+	cop|be&PRES prep|in det|a n|cupboard .
+*PAR:	they're tryin(g) to get the [/] the [/] <the &uh cookie> [//] <little cookies> [//] the cookies . 14111_18771
+%mor:	pro:sub|they~aux|be&PRES part|try-PRESP inf|to v|get det|the
+	n|cookie-PL .
+*INV:	anything else going on ? 18771_21550
+%mor:	pro:indef|anything post|else part|go-PRESP adv|on ?
+*PAR:	yeah the [/] &w &uh the &w &uh water's &sp spreadin(g) over [//] all over the floor . 21550_25742
+%mor:	co|yeah det|the n|water~aux|be&3S part|spread-PRESP adv|all
+	prep|over det|the n|floor .
+*PAR:	(.) is that supposed +//? [+ exc] 25742_28300
+%mor:	cop|be&3S rel|that v|suppose-PAST +//?
+*PAR:	and what else ? [+ exc] 28300_28751
+%mor:	conj|and pro:wh|what post|else ?
+*INV:	+< mhm . 28400_28951
+%mor:	co|yes .
+*PAR:	what else ? [+ exc] 28951_29582
+%mor:	pro:wh|what post|else ?
+*INV:	is there anything else ? 29400_30863
+%mor:	cop|be&3S adv|there pro:indef|anything post|else ?
+*PAR:	&uh <the see (.) the> [//] &uh let's see . [+ exc] 30863_37400
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	the [/] &la the &w woman's lookin(g) out the window too . 37400_39496
+%mor:	det|the n|woman~aux|be&3S part|look-PRESP prep|out det|the n|window
+	post|too .
+*INV:	mhm . 39496_40027
+%mor:	co|yes .
+*PAR:	+< you_know she's got this thing and then <with the> [/] <with the> [//] tryin(g) to wash and &w dishes with them . [+ gram] 39788_44683
+%mor:	co|you_know pro:sub|she~aux|be&3S v|get&PAST det|this n|thing
+	coord|and adv:tem|then part|try-PRESP inf|to v|wash coord|and
+	n|dish-PL prep|with pro:obj|them .
+*PAR:	let's see . [+ exc] 44683_46286
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	(.) <they spill it> [//] <they spill> [//] &uh water spilled <over it> [//] over the thing . [+ es] 46286_53588
+%mor:	n|water v|spill-PAST prep|over det|the n|thing .
+*INV:	+< okay .  52400_53114
+%mor:	co|okay .
+*PAR:	okay ? [+ exc] 53588_54560
+%mor:	co|okay ?
+*INV:	good . 54560_55361
+%mor:	adj|good .
+@End

@@ -1,0 +1,76 @@
+@UTF8
+@PID:	11312/t-00002352-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|Control||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	227-1c, audio
+*INV:	I want you to take a look at this picture and I want you to tell me everything that's happening there . 0_4530
+%mor:	pro:sub|I v|want pro|you inf|to v|take det|a n|look prep|at
+	det|this n|picture coord|and pro:sub|I v|want pro|you inf|to v|tell
+	pro:obj|me pro:indef|everything rel|that~aux|be&3S part|happen-PRESP
+	adv|there .
+*INV:	everything that's going on in that picture . 4530_6645
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on
+	prep|in det|that n|picture .
+*PAR:	okay is there a number of things ? [+ exc] 6645_11998
+%mor:	co|okay cop|be&3S adv|there det|a n|number prep|of n|thing-PL ?
+*PAR:	I mean &eh &eh do I have to come up with a certain amount ? [+ exc] 11998_14242
+%mor:	pro:sub|I v|mean mod|do pro:sub|I v|have inf|to v|come adv|up
+	prep|with det|a adj|certain n|amount ?
+*INV:	no . 14242_15000
+%mor:	co|no .
+*PAR:	oh okay [>] . [+ exc] 15000_15897
+%mor:	co|oh co|okay .
+*INV:	just [<] whatever you see happening there . 15250_17200
+%mor:	adv|just det:wh|whatever pro|you co|see n:gerund|happen-PRESP
+	adv|there .
+*PAR:	okay [>] . [+ exc] 17200_17947
+%mor:	co|okay .
+*PAR:	number one the boy is stealing some cookies and he's falling over from the chair [: stool] [* s:r] that's (.) not setting straight . 17947_26056
+%mor:	n|number pro:indef|one det|the n|boy aux|be&3S part|steal-PRESP
+	qn|some n|cookie-PL coord|and pro:sub|he~aux|be&3S part|fall-PRESP
+	adv|over prep|from det|the n|stool pro:dem|that~mod|do&3S neg|not
+	part|set-PRESP n|straight .
+*PAR:	and the sink is overflowing . 26056_27490
+%mor:	conj|and det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	you wanna [: want to] know everything that's wrong with the picture or &eh +..? [+ exc] 27490_30623
+%mor:	pro|you v|want inf|to v|know pro:indef|everything
+	pro:dem|that~mod|do&3S adj|wrong prep|with det|the n|picture
+	coord|or +..?
+*INV:	everything that's happening xxx [>] . 30323_32286
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP .
+*PAR:	everything [<] that's happening . [+ exc] 31448_32312
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP .
+*INV:	mhm . 32312_32892
+%mor:	co|yes .
+*PAR:	okay . [+ exc] 32412_32892
+%mor:	co|okay .
+*PAR:	it looks like it's a nice summer day outside . 32892_35192
+%mor:	pro|it v|look-3S rel|like pro|it~cop|be&3S det|a adj|nice n|summer
+	n|day adv|outside .
+*PAR:	and the lady's dryin(g) the dishes . 35192_38075
+%mor:	conj|and det|the n|lady~aux|be&3S part|dry-PRESP det|the n|dish-PL
+	.
+*PAR:	and &uh everything that's happening . [+ exc] 38075_41664
+%mor:	conj|and pro:indef|everything rel|that~aux|be&3S part|happen-PRESP
+	.
+*PAR:	and she's standing in the water . 41664_45428
+%mor:	conj|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the
+	n|water .
+*PAR:	better get out o(f) there &=laughs .  [+ gram] 45428_47221
+%mor:	adv|good&CP v|get adv|out prep|of adv|there .
+*PAR:	(..) the girl seems to be giggling . 47221_55115
+%mor:	det|the n|girl v|seem-3S inf|to aux|be part|giggle-PRESP .
+*PAR:	looks like &uh the mother is a little p_o'd [: pissed off] . 55115_58819
+%mor:	v|look-3S prep|like det|the n|mother cop|be&3S det|a adj|little
+	part|piss-PASTP adv|off .
+*PAR:	and &uh (.) that's about all I can see . [+ exc] 58819_68775
+%mor:	conj|and pro:dem|that~cop|be&3S adv|about adv|all pro:sub|I mod|can
+	v|see .
+*INV:	okay fine . 68775_69945
+%mor:	co|okay adv|fine .
+*INV:	that's good thank you very much . 69945_71607
+%mor:	pro:dem|that~cop|be&3S adj|good v|thank pro|you adv|very qn|much .
+@End

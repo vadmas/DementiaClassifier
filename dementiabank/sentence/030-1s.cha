@@ -1,0 +1,88 @@
+@UTF8
+@PID:	11312/t-00017016-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|MCI||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	030-1s, audio
+*INV:	okey_doke(y) . 0_3097
+%mor:	co|okey_dokey .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*INV:	the first word is pencil@q . 3097_6941
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+%gra:	1|3|DET 2|3|MOD 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
+*PAR:	I have a pencil before me . 6941_10538
+%mor:	pro:sub|I v|have det|a n|pencil prep|before pro:obj|me .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|2|PUNCT
+*INV:	tree@q . 10538_14041
+%mor:	meta|tree .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAR:	there's a tree in my yard . 14041_20423
+%mor:	pro:exist|there~cop|be&3S det|a n|tree prep|in pro:poss:det|my
+	n|yard .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|7|MOD 7|5|POBJ 8|2|PUNCT
+*INV:	now I'm gonna give you two words . 20481_22738
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+%gra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|XCOMP 7|6|OBJ 8|9|QUANT
+	9|6|OBJ 10|4|PUNCT
+*INV:	and I want you to use both words in one brief simple sentence . 22738_26006
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL
+	prep|in pro:indef|one adj|brief adj|simple n|sentence .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|INF 6|3|XCOMP 7|8|QUANT 8|6|OBJ
+	9|6|JCT 10|9|POBJ 11|13|MOD 12|13|MOD 13|6|OBJ 14|3|PUNCT
+*INV:	and you don't need to worry about the order . 26006_28264
+%mor:	conj|and pro|you mod|do~neg|not v|need inf|to v|worry prep|about
+	det|the n|order .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|7|INF 7|5|XCOMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|5|PUNCT
+*INV:	child@q hospital@q . 28264_30817
+%mor:	meta|child meta|hospital .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|1|PUNCT
+*PAR:	my child was taken to the emergency room in the hospital . 30817_37072
+%mor:	pro:poss:det|my n|child aux|be&PAST&13S part|take&PASTP prep|to
+	det|the n|emergency n|room prep|in det|the n|hospital .
+%gra:	1|2|MOD 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|8|NJCT 10|11|DET 11|9|POBJ 12|4|PUNCT
+*INV:	cold@q winter@q . 37072_45119
+%mor:	meta|cold meta|winter .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|1|PUNCT
+*PAR:	in the winter we have cold days . 45119_51375
+%mor:	prep|in det|the n|winter pro:sub|we v|have n|cold n|day-PL .
+%gra:	1|5|LINK 2|3|DET 3|1|POBJ 4|5|SUBJ 5|0|ROOT 6|7|MOD 7|5|OBJ 8|5|PUNCT
+*INV:	now three words and again one simple sentence and don't worry
+	about the order . 51375_59733
+%mor:	adv|now det:num|three n|word-PL coord|and adv|again pro:indef|one
+	adj|simple n|sentence coord|and mod|do~neg|not v|worry prep|about
+	det|the n|order .
+%gra:	1|3|JCT 2|3|QUANT 3|0|INCROOT 4|3|CONJ 5|6|JCT 6|4|COORD 7|8|MOD
+	8|6|CMOD 9|12|LINK 10|12|AUX 11|10|NEG 12|8|CJCT 13|12|JCT 14|15|DET
+	15|13|POBJ 16|3|PUNCT
+*INV:	chair@q doctor@q sit@q . 59733_63546
+%mor:	meta|chair meta|doctor meta|sit .
+%gra:	1|0|INCROOT 2|1|INCROOT 3|2|INCROOT 4|3|PUNCT
+*PAR:	I sit in the chair in my doctor's office . 63546_76014
+%mor:	pro:sub|I v|sit prep|in det|the n|chair prep|in pro:poss:det|my
+	n|doctor~poss|s n|office .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|JCT 7|8|MOD 8|10|MOD
+	9|8|POSS 10|6|POBJ 11|2|PUNCT
+*PAR:	xxx .  [+ exc] 76014_77928
+*PAR:	is that all ? [+ exc]  77928_79328
+%mor:	cop|be&3S adv|that adv|all ?
+%gra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*INV:	that's okay . 78177_79125
+%mor:	pro:dem|that~cop|be&3S adj|okay .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*INV:	bureau@q open@q drawer@q . 80664_86533
+%mor:	meta|bureau meta|open meta|drawer .
+%gra:	1|0|INCROOT 2|1|INCROOT 3|2|INCROOT 4|3|PUNCT
+*PAR:	the drawer in my bureau is never open . 86533_94751
+%mor:	det|the n|drawer prep|in pro:poss:det|my n|bureau aux|be&3S
+	adv|never adj|open .
+%gra:	1|2|DET 2|8|SUBJ 3|2|NJCT 4|5|MOD 5|3|POBJ 6|8|AUX 7|8|JCT 8|0|ROOT
+	9|8|PUNCT
+*INV:	okay . 94751_102110
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

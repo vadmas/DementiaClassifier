@@ -1,0 +1,175 @@
+@UTF8
+@PID:	11312/t-00016567-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|54;|male|ProbableAD||Participant|24||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	164-1s, audio, missing
+*INV:	okay ‡ good . 0_1168
+%mor:	co|okay beg|beg adj|good .
+*INV:	first one is pencil@q . 1168_3394
+%mor:	adv|first pro:indef|one cop|be&3S meta|pencil .
+*PAR:	I broke my pencil . 3394_6973
+%mor:	pro:sub|I v|break&PAST pro:poss:det|my n|pencil .
+*INV:	okay . 6973_8280
+%mor:	co|okay .
+*INV:	tree@q . 8280_13012
+%mor:	meta|tree .
+*PAR:	<the tree> [/] the tree has &b blown down . 13012_18101
+%mor:	det|the n|tree aux|have&3S part|blow&PASTP adv|down .
+*INV:	okay . 18101_20187
+%mor:	co|okay .
+*INV:	now ‡ I'm gonna give you two words . 20187_23454
+%mor:	adv|now beg|beg pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give
+	pro|you det:num|two n|word-PL .
+*INV:	I don't want you to worry about the order that you use the two
+	words . 23454_26919
+%mor:	pro:sub|I mod|do~neg|not v|want pro|you inf|to v|worry prep|about
+	det|the n|order rel|that pro|you v|use det|the det:num|two n|word-PL
+	.
+*INV:	but just use both of them in one sentence . 26919_29456
+%mor:	conj|but adj|just n|use qn|both prep|of pro:obj|them prep|in
+	det:num|one n|sentence .
+*INV:	okay . 29456_30319
+%mor:	co|okay .
+*INV:	here's the first two child@q hospital@q . 30319_33448
+%mor:	pro:exist|here~cop|be&3S det|the adj|first det:num|two meta|child
+	meta|hospital .
+*PAR:	my boy is in the hospital . 33448_38863
+%mor:	pro:poss:det|my n|boy cop|be&3S prep|in det|the n|hospital .
+*INV:	okay . 38863_40234
+%mor:	co|okay .
+*INV:	cold@q winter@q . 40234_47518
+%mor:	meta|cold meta|winter .
+*PAR:	last winter was very cold . 47518_52761
+%mor:	adj|last n|winter cop|be&PAST&13S adv|very adv|cold .
+*INV:	I think it was &=laughs +/. 52761_55080
+%mor:	pro:sub|I v|think pro|it cop|be&PAST&13S +/.
+*PAR:	+< it was . [+ exc] 54080_55780
+%mor:	pro|it cop|be&PAST&13S .
+*PAR:	I thought we was gettin(g) it  .   [+ exc] 55780_59735
+%mor:	pro:sub|I v|think&PAST pro:sub|we aux|be&PAST&13S
+	n:gerund|get-PRESP pro|it .
+*PAR:	you_know a couple years ago <we have> [//] it's  +... 59735_62572
+%mor:	co|you_know det|a n|couple n|year-PL adv|ago pro|it~cop|be&3S +...
+*PAR:	Christmas, remember, we didn't have any &s snow or nothin(g) .
+	[+ exc] 62572_65324
+%mor:	n:prop|Christmas cm|cm v|remember cm|cm pro:sub|we
+	mod|do&PAST~neg|not v|have qn|any n|snow coord|or pro:indef|nothing
+	.
+*INV:	no ‡ that was about four [//] three years ago . 65324_68048
+%mor:	co|no beg|beg pro:dem|that cop|be&PAST&13S prep|about det:num|three
+	n|year-PL adv|ago .
+*INV:	I got a winter [//] brand new winter coat  . 68048_69791
+%mor:	pro:sub|I v|get&PAST det|a adj|brand adj|new n|winter n|coat .
+*INV:	and wore it Christmas day and it was so hot &=laughs . 69791_71731
+%mor:	coord|and v|wear&PAST pro|it n:prop|Christmas n|day coord|and
+	pro|it cop|be&PAST&13S adv|so adj|hot .
+*PAR:	yeah . [+ exc] 71731_72809
+%mor:	co|yeah .
+*PAR:	I thought you_know it was gonna turn you_know like it +... [+ exc] 72809_76780
+%mor:	pro:sub|I v|think&PAST co|you_know pro|it aux|be&PAST&13S
+	part|go-PRESP~inf|to v|turn co|you_know prep|like pro|it +...
+*PAR:	sometimes (.) it's comin(g) . 76780_79763
+%mor:	adv|sometimes pro|it~cop|be&3S part|come-PRESP .
+*PAR:	it's +...  [+ exc] 79763_80423
+%mor:	pro|it~cop|be&3S +...
+*INV:	the seasons are supposed to change ? 80423_82073
+%mor:	det|the n|season-PL aux|be&PRES v|suppose-PAST inf|to v|change ?
+*PAR:	yeah . [+ exc] 82073_82688
+%mor:	co|yeah .
+*INV:	that's what they say . 82688_83838
+%mor:	pro:dem|that~cop|be&3S pro:wh|what pro:sub|they v|say .
+*INV:	but don't you think that like our winters are lastin(g) . 83838_86856
+%mor:	conj|but mod|do~neg|not pro|you v|think pro:dem|that co|like
+	pro:poss:det|our v|winter-3S aux|be&PRES part|last-PRESP .
+*INV:	like even December this year wasn't real bad . 86856_90327
+%mor:	prep|like adj|even n:prop|December det|this n|year
+	cop|be&PAST&13S~neg|not adj|real adj|bad .
+*INV:	but February [//] January February and even into March . 90327_94148
+%mor:	conj|but n:prop|January n:prop|February coord|and adv|even
+	prep|into n:prop|March .
+*INV:	even into April we were havin(g) some cold weather . 94148_96509
+%mor:	adv|even prep|into n:prop|April pro:sub|we aux|be&PAST
+	part|have-PRESP qn|some adj|cold n|weather .
+*PAR:	yeah . [+ exc] 96509_97217
+%mor:	co|yeah .
+*INV:	it wasn't until later that we were startin(g) to get warm . 97217_99387
+%mor:	pro|it cop|be&PAST&13S~neg|not prep|until adv|later rel|that
+	pro:sub|we aux|be&PAST part|start-PRESP inf|to v|get adj|warm .
+*INV:	so ‡ I don't know maybe they are slowly just chipped a little bit
+	   you „ know . 99387_105167
+%mor:	co|so beg|beg pro:sub|I mod|do~neg|not v|know adv|maybe
+	pro:sub|they aux|be&PRES adv|slow&dadj-LY adv|just v|chip-PAST det|a
+	adj|little n|bit pro|you end|end v|know .
+*INV:	December used to always be cold . 105167_106723
+%mor:	n:prop|December v|use-PAST inf|to adv|always cop|be adv|cold .
+*INV:	and it wasn't that cold this year we had real nice weather . 106723_109370
+%mor:	coord|and pro|it cop|be&PAST&13S~neg|not det|that adj|cold det|this
+	n|year pro:sub|we v|have&PAST adj|real adj|nice n|weather .
+*PAR:	I think at Christmas time it was .[+ exc] 109370_111982
+%mor:	pro:sub|I v|think prep|at n:prop|Christmas v|time pro|it
+	cop|be&PAST&13S .
+*INV:	it was beginning to by the end of the December „ yeah . 111982_115541
+%mor:	pro|it aux|be&PAST&13S part|begin-PRESP inf|to prep|by det|the
+	n|end prep|of det|the n:prop|December end|end co|yeah .
+*INV:	at Christmas time . 115541_116917
+%mor:	prep|at n:prop|Christmas n|time .
+*INV:	gettin(g) colder ? 116917_118101
+%mor:	part|get-PRESP adj|cold-CP ?
+*INV:	no ? 118101_120606
+%mor:	co|no ?
+*PAR:	+< no ‡ <I think we> [//] I think when we went to midnight services .
+	  [+ exc] 119106_125198
+%mor:	co|no beg|beg pro:sub|I v|think conj|when pro:sub|we v|go&PAST
+	prep|to mid#n|night&dn n|service-PL .
+*INV:	it wasn't cold ? 125198_126539
+%mor:	pro|it cop|be&PAST&13S~neg|not n|cold ?
+*PAR:	no . [+ exc] 126539_127199
+%mor:	co|no .
+*INV:	yeah ‡ see . 127199_128227
+%mor:	co|yeah beg|beg v|see .
+*INV:	and that December's usually cold snowin(g) and real cold out . 128227_132760
+%mor:	coord|and pro:dem|that n:prop|December~aux|be&3S adv|usual&dadj-LY
+	adv|cold part|snow-PRESP coord|and adj|real n|cold adv|out .
+*INV:	maybe they are changin(g) . 132760_134734
+%mor:	adv|maybe pro:sub|they aux|be&PRES part|change-PRESP .
+*INV:	it's supposed to happen . 134734_135871
+%mor:	pro|it~aux|be&3S part|suppose-PASTP inf|to v|happen .
+*INV:	someday we'll be sittin(g) here in the middle of August freezin(g)
+	to death &=laughs . 135871_140968
+%mor:	adv:tem|someday pro:sub|we~mod|will aux|be part|sit-PRESP adv|here
+	prep|in det|the n|middle prep|of n:prop|August part|freeze-PRESP
+	prep|to n|death .
+*INV:	okay ‡ now I'm gonna give you three words . 140968_144103
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	okay ‡ now again I don't want you to worry about the order that I
+	give you the three words . 144103_147582
+%mor:	co|okay beg|beg adv|now adv|again pro:sub|I mod|do~neg|not v|want
+	pro|you inf|to v|worry prep|about det|the n|order rel|that pro:sub|I
+	v|give pro|you det|the det:num|three n|word-PL .
+*INV:	just use all three of them in one sentence . 147582_150659
+%mor:	adj|just n|use adv|all det:num|three prep|of pro:obj|them prep|in
+	det:num|one n|sentence .
+*INV:	here's the first three . 150659_152240
+%mor:	pro:exist|here~cop|be&3S det|the adj|first det:num|three .
+*INV:	chair@q doctor@q sit@q . 152240_155984
+%mor:	meta|chair meta|doctor meta|sit .
+*INV:	okay . 155984_158092
+%mor:	co|okay .
+*PAR:	I sat in the doctor's chair . 158092_160210
+%mor:	pro:sub|I v|sit&PAST prep|in det|the n|doctor~poss|s n|chair .
+*INV:	okay . 160210_165876
+%mor:	co|okay .
+*INV:	bureau@q open@q drawer@q . 165876_170195
+%mor:	meta|bureau meta|open meta|drawer .
+*INV:	all three of them in a sentence . 170195_176139
+%mor:	adv|all det:num|three prep|of pro:obj|them prep|in det|a n|sentence
+	.
+*PAR:	the bureau drawer is open . 176139_181538
+%mor:	det|the n|bureau n|drawer cop|be&3S adj|open .
+*INV:	okay . 181538_182408
+%mor:	co|okay .
+@End

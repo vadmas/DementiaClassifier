@@ -1,0 +1,35 @@
+@UTF8
+@PID:	11312/t-00002379-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|55;|male|Control||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	274-1c, audio
+*INV:	you see going on in this picture ? 0_2382
+%mor:	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|this n|picture ?
+*PAR:	(.) well the mother's &uh doing the dishes and allowing the sink <to run> [/] &o run over . 2382_14288
+%mor:	co|well det|the n|mother~aux|be&3S part|do-PRESP det|the n|dish-PL
+	coord|and part|allow-PRESP det|the n|sink v|run adv|over .
+*PAR:	<the kids or> [//] the boy's in the cookie jar . 14288_18259
+%mor:	det|the n|boy~cop|be&3S prep|in det|the n|cookie n|jar .
+*PAR:	and the stand [: stool] [* s:r] that he's standing on is tilting over . [+ cir] 18259_22319
+%mor:	conj|and det|the n|stool rel|that pro:sub|he~aux|be&3S
+	part|stand-PRESP adv|on aux|be&3S part|tilt-PRESP adv|over .
+*PAR:	and &uh I don't know what the girl is doing . [+ exc] 22319_28481
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know pro:wh|what det|the n|girl
+	aux|be&3S part|do-PRESP .
+*PAR:	gonna [: going to] tell on him or do something .  [+ gram] 28481_30428
+%mor:	part|go-PRESP inf|to v|tell prep|on pro:obj|him coord|or v|do
+	pro:indef|something .
+*PAR:	and then there's some people out here behind the garage . 30428_35751
+%mor:	conj|and adv:tem|then pro:exist|there~cop|be&3S qn|some n|person&PL
+	adv|out adv|here adv|behind det|the n|garage .
+*PAR:	I don't know what they are doing . [+ exc] 35751_37297
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro:sub|they
+	aux|be&PRES part|do-PRESP .
+*PAR:	do you see them ? [+ exc] 37297_38026
+%mor:	mod|do pro|you v|see pro:obj|them ?
+*INV:	mhm . 38026_39068
+%mor:	co|yes .
+@End

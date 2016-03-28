@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/t-00002392-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	297-1c, audio
+*PAR:	well, there's a kid stealin(g) cookies from the cookie jar and his stool's about to topple over . 0_9572
+%mor:	co|well cm|cm pro:exist|there~cop|be&3S det|a n|kid
+	part|steal-PRESP n|cookie-PL prep|from det|the n|cookie n|jar
+	coord|and pro:poss:det|his n|stool~aux|be&3S adv|about inf|to
+	v|topple adv|over .
+*PAR:	his [/] his sister's asking for one . 9572_14910
+%mor:	pro:poss:det|his n|sister~aux|be&3S part|ask-PRESP prep|for
+	pro:indef|one .
+*PAR:	the cookie jar is open of course the cupboard's open . 14910_19143
+%mor:	det|the n|cookie n|jar aux|be&3S adv|open prep|of n|course det|the
+	n|cupboard~aux|be&3S adv|open .
+*PAR:	the mother's drying dishes the sink is overflowin(g) . 19143_24764
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL det|the n|sink
+	aux|be&3S over#part|flow-PRESP .
+*PAR:	there are some dishes on the side board . 24764_28684
+%mor:	adv|there cop|be&PRES qn|some n|dish-PL prep|on det|the adj|side
+	n|board .
+*PAR:	window's open . [+ gram] 28684_30990
+%mor:	n|window~cop|be&3S adv|open .
+*PAR:	I don't know what else you want . [+ exc] 30990_38193
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what post|else pro|you
+	v|want .
+*PAR:	there are curtains in the window  . 38193_39656
+%mor:	adv|there cop|be&PRES n|curtain-PL prep|in det|the n|window .
+*PAR:	I don't know if there's any +/. [+ exc] 39656_41000
+%mor:	pro:sub|I mod|do~neg|not v|know conj|if pro:exist|there~cop|be&3S
+	qn|any +/.
+@End

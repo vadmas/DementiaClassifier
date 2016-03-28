@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002494-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|88;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	091-0c, audio
+*PAR:	&mm dishes are being dried . 0_2942
+%mor:	n|dish-PL cop|be&PRES aux|be-PRESP part|dry-PASTP .
+*INV:	mhm . 2942_3954
+%mor:	co|yes .
+*PAR:	an(d) the child is getting some cookies out of the jar . 3954_7458
+%mor:	conj|and det|the n|child aux|be&3S part|get-PRESP qn|some
+	n|cookie-PL adv|out prep|of det|the n|jar .
+*PAR:	<the> [/] the &uh <plant stand> [//] or the stand [: stool] [* s:r] he's on is [//] looks as though it's crooked . 7458_14789
+%mor:	det|the conj|or det|the n|stool pro:sub|he~cop|be&3S prep|on
+	n|look-PL conj|as adv|though pro|it~cop|be&3S adj|crooked .
+*PAR:	an(d) the water's going over (.) <in the sink> [//] from the sink . 14789_19875
+%mor:	conj|and det|the n|water~aux|be&3S part|go-PRESP adv|over prep|from
+	det|the n|sink .
+*PAR:	is that all ? [+ exc] 19875_27284
+%mor:	cop|be&3S adv|that adv|all ?
+*INV:	anything else that you see ? 27284_29712
+%mor:	pro:indef|anything post|else pro:dem|that pro|you v|see ?
+*PAR:	and then the boy was getting the cookies out of the jar and the cover is off . 29806_43360
+%mor:	conj|and adv:tem|then det|the n|boy aux|be&PAST&13S part|get-PRESP
+	det|the n|cookie-PL adv|out prep|of det|the n|jar coord|and det|the
+	n|cover cop|be&3S adv|off .
+*INV:	okay . 43360_43850
+%mor:	co|okay .
+*PAR:	but she [: he] [* s:r-ret] [//] he's giving her a cookie and the
+	stool is turning over and the water in the sink is <boiling
+	[: flowing] [* s:r-ret] over or> [//] flowing over . 43850_52560
+%mor:	conj|but pro:sub|he~aux|be&3S part|give-PRESP pro:obj|her det|a
+	n|cookie coord|and det|the n|stool aux|be&3S part|turn-PRESP
+	adv|over coord|and det|the n|water prep|in det|the n|sink aux|be&3S
+	part|flow-PRESP adv|over .
+*INV:	mhm . 52560_54085
+%mor:	co|yes .
+*PAR:	an(d) she's drying dishes . 53697_55952
+%mor:	conj|and pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*INV:	okay . 55952_58987
+%mor:	co|okay .
+*INV:	thank you . 58987_60000
+%mor:	v|thank pro|you .
+@End

@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/t-00002380-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|56;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	274-2c, audio
+*INV:	what you see happening in that picture . 0_2323
+%mor:	pro:wh|what pro|you v|see n:gerund|happen-PRESP prep|in det|that
+	n|picture .
+*INV:	everything that's going on in there . 2323_4467
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on
+	prep|in pro:dem|there .
+*PAR:	&=tapping well this happens to be a kitchen . 4467_9075
+%mor:	co|well pro:dem|this v|happen-3S inf|to cop|be det|a n|kitchen .
+*PAR:	and the mother of the house is washing the dishes . 9075_12222
+%mor:	conj|and det|the n|mother prep|of det|the n|house aux|be&3S
+	part|wash-PRESP det|the n|dish-PL .
+*PAR:	and the water is overflowing from the sink onto the floor . 12222_17136
+%mor:	conj|and det|the n|water aux|be&3S over#part|flow-PRESP prep|from
+	det|the n|sink prep|onto det|the n|floor .
+*PAR:	and the &uh two children evidently a brother and a sister are &uh getting cookies out of the cookie jar which is on the second shelf of the upper cupboard . 17136_27060
+%mor:	conj|and det|the det:num|two n|child&PL adv|evident&dadj-LY det|a
+	n|brother coord|and det|a n|sister aux|be&PRES part|get-PRESP
+	n|cookie-PL adv|out prep|of det|the n|cookie n|jar rel|which
+	cop|be&3S prep|on det|the adj|second n|shelf prep|of det|the
+	adj|upper n|cupboard .
+*PAR:	and &uh he's standing on a three legged stool and is losing its balance and about to fall on the floor . 27060_34009
+%mor:	conj|and pro:sub|he~aux|be&3S part|stand-PRESP prep|on det|a
+	det:num|three adj|legged n|stool coord|and aux|be&3S part|lose-PRESP
+	pro:poss:det|its n|balance coord|and adv|about inf|to v|fall prep|on
+	det|the n|floor .
+*INV:	okay good . 34009_38586
+%mor:	co|okay adj|good .
+@End

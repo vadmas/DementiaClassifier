@@ -1,0 +1,48 @@
+@UTF8
+@PID:	11312/t-00002424-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|55;|male|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	005-2c, audio
+*INV:	okay and there's the picture . 0_1972
+%mor:	co|okay coord|and pro:exist|there~cop|be&3S det|the n|picture .
+*INV:	tell me all the action . 1972_3792
+%mor:	v|tell pro:obj|me adv|all det|the n|action .
+*PAR:	okay he's fallin(g) off a chair [: stool] [* s:r] . 3792_11362
+%mor:	co|okay pro:sub|he~aux|be&3S part|fall-PRESP prep|off det|a n|stool
+	.
+*INV:	mhm . 11360_12811
+%mor:	co|yes .
+*INV:	anything else ? 12811_21892
+%mor:	pro:indef|anything post|else ?
+*PAR:	she's &uh running the water over . 21800_24345
+%mor:	pro:sub|she~aux|be&3S part|run-PRESP det|the n|water adv|over .
+*INV:	okay . 24345_27459
+%mor:	co|okay .
+*PAR:	can't see anything else . [+ exc] 27459_36808
+%mor:	mod|can~neg|not v|see pro:indef|anything post|else .
+*INV:	okay anymore action ? 36808_38583
+%mor:	co|okay adv|anymore n|action ?
+*PAR:	no . [+ exc] 38583_39532
+%mor:	co|no .
+*INV:	okay . 39532_40403
+%mor:	co|okay .
+*PAR:	+< okay . [+ exc] 40103_41000
+%mor:	co|okay .
+*INV:	pardon me ? 41000_41560
+%mor:	v|pardon pro:obj|me ?
+*PAR:	she's [/] she's step in the water . [+ gram] 41560_43485
+%mor:	pro:sub|she~aux|be&3S n|step prep|in det|the n|water .
+*INV:	okay . 43485_44870
+%mor:	co|okay .
+*INV:	anything else ? 44870_50581
+%mor:	pro:indef|anything post|else ?
+*PAR:	no . [+ exc] 50581_52316
+%mor:	co|no .
+*INV:	okay . 52316_53185
+%mor:	co|okay .
+*INV:	okay Mister Last_Name . 53185_54597
+%mor:	co|okay n:prop|Mister n:prop|Last_Name .
+@End

@@ -1,0 +1,63 @@
+@UTF8
+@PID:	11312/t-00002732-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|77;|male|PossibleAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	711-0c, audio
+*INV:	I want you to take a look at this picture here and tell me everything that you see happening in that picture . 0_6230
+%mor:	pro:sub|I v|want pro|you inf|to v|take det|a n|look prep|at
+	det|this n|picture adv|here coord|and v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*PAR:	oh you want me to tell you . [+ exc] 6230_7611
+%mor:	co|oh pro|you v|want pro:obj|me inf|to v|tell pro|you .
+*INV:	+< yeah just tell me everything that you see going on in that picture . 6911_10666
+%mor:	co|yeah adv|just v|tell pro:obj|me pro:indef|everything rel|that
+	pro|you v|see n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	the mother and her two children . [+ gram] 10666_12738
+%mor:	det|the n|mother coord|and pro:poss:det|her det:num|two n|child&PL
+	.
+*PAR:	and the children are getting in the cookie jar . 12738_15777
+%mor:	conj|and det|the n|child&PL aux|be&PRES part|get-PRESP prep|in
+	det|the n|cookie n|jar .
+*PAR:	and she's doing the dishes and spilling the water . 15777_18337
+%mor:	conj|and pro:sub|she~aux|be&3S part|do-PRESP det|the n|dish-PL
+	coord|and part|spill-PRESP det|the n|water .
+*PAR:	and she had the spigot on and she didn't know it perhaps . 18337_21278
+%mor:	conj|and pro:sub|she v|have&PAST det|the n|spigot adv|on coord|and
+	pro:sub|she mod|do&PAST~neg|not v|know pro|it adv|perhaps .
+*PAR:	&=coughs pardon me . [+ exc] 21278_24022
+%mor:	v|pardon pro:obj|me .
+*PAR:	and they're looking out into the garden from the kitchen window . 24022_28700
+%mor:	conj|and pro:sub|they~aux|be&PRES part|look-PRESP adv|out prep|into
+	det|the n|garden prep|from det|the n|kitchen n|window .
+*PAR:	it's open . 28700_29407
+%mor:	pro|it~cop|be&3S adj|open .
+*PAR:	and the &uh cookies must be pretty good they're eating . 29407_34179
+%mor:	conj|and det|the n|cookie-PL mod|must cop|be adv|pretty adj|good
+	pro:sub|they~aux|be&PRES part|eat-PRESP .
+*PAR:	<the tair [: chair] [* p:w-ret]> [//] &uh the chair [: stool] [* s:r] is &t &uh tilting and he's gonna [: going to] fall off . 34179_38652
+%mor:	det|the n|stool aux|be&3S part|tilt-PRESP coord|and
+	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|fall adv|off .
+*PAR:	and &uh <the lady> [//] the mother's splashing her shoes and stockings all up overflowing the water . 38652_46598
+%mor:	conj|and det|the n|mother~aux|be&3S part|splash-PRESP
+	pro:poss:det|her n|shoe-PL coord|and n:gerund|stock-PRESP-PL adv|all
+	adv|up over#part|flow-PRESP det|the n|water .
+*PAR:	and there's &um &uh a window and curtains on the window . 46598_53855
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|window coord|and
+	n|curtain-PL prep|on det|the n|window .
+*PAR:	and I can see some trees outside there . 53855_56155
+%mor:	conj|and pro:sub|I mod|can v|see qn|some n|tree-PL adv|outside
+	adv|there .
+*PAR:	and [/] and there's dishes that &h had been washed and she's dryin(g) them . 56155_61600
+%mor:	conj|and pro:exist|there~cop|be&3S v|dish-3S rel|that aux|have&PAST
+	aux|be&PASTP part|wash-PASTP coord|and pro:sub|she~aux|be&3S
+	part|dry-PRESP pro:obj|them .
+*PAR:	and there's some shrub out there and +... 61600_64718
+%mor:	conj|and pro:exist|there~cop|be&3S qn|some n|shrub adv|out
+	adv|there coord|and +...
+*INV:	okay very good . 64718_67311
+%mor:	co|okay adv|very adj|good .
+@End

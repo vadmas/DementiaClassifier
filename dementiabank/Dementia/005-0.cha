@@ -1,0 +1,38 @@
+@UTF8
+@PID:	11312/t-00002423-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|53;|male|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	005-0c, audio
+*INV:	this is the picture . 0_2288
+%mor:	pro:dem|this cop|be&3S det|the n|picture .
+*INV:	just tell me what's happening in the picture . 2288_6536
+%mor:	adv|just v|tell pro:obj|me pro:wh|what~aux|be&3S part|happen-PRESP
+	prep|in det|the n|picture .
+*PAR:	the boy is slipping off the stool . 6536_10303
+%mor:	det|the n|boy aux|be&3S part|slip-PRESP prep|off det|the n|stool .
+*PAR:	he's trying to steal cookie . 10303_14086
+%mor:	pro:sub|he~aux|be&3S part|try-PRESP inf|to v|steal n|cookie .
+*PAR:	the mother is &uh working at the sink with the water running over . 14086_20422
+%mor:	det|the n|mother aux|be&3S part|work-PRESP prep|at det|the n|sink
+	prep|with det|the n|water part|run-PRESP adv|over .
+*PAR:	she's [//] &uh the little girl is &uh saying +"/. 20422_29244
+%mor:	det|the adj|little n|girl aux|be&3S part|say-PRESP +"/.
+*PAR:	+" shh . 29244_32468
+%mor:	co|shh .
+*PAR:	&uh the mother don't hear . 32468_37649
+%mor:	det|the n|mother mod|do~neg|not v|hear .
+*PAR:	did I tell [//] say the sink was running over ? 37649_43985
+%mor:	mod|do&PAST pro:sub|I v|say det|the n|sink aux|be&PAST&13S
+	part|run-PRESP adv|over ?
+*INV:	okay mhm you did . 43985_47470
+%mor:	co|okay co|yes pro|you v|do&PAST .
+*PAR:	mother's drying the dishes . 47470_58784
+%mor:	n|mother~aux|be&3S part|dry-PRESP det|the n|dish-PL .
+*PAR:	(...) I don't see anything else . 58784_80743
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything post|else .
+*INV:	okay that's fine . 80743_82597
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

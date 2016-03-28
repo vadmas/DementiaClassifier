@@ -1,0 +1,65 @@
+@UTF8
+@PID:	11312/t-00016524-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|56;|female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	049-0s, audio
+*INV:	www . 0_5283
+%exp:	setting up tape recorder
+*PAR:	I have green pencil . 5283_7384
+%mor:	pro:sub|I v|have n|green n|pencil .
+*INV:	the next word is tree@q . 7384_13096
+%mor:	det|the adj|next n|word aux|be&3S meta|tree .
+*PAR:	&uh the trees have gone to sleep for the winter . 13096_16486
+%mor:	det|the n|tree-PL v|have part|go&PASTP inf|to v|sleep prep|for
+	det|the n|winter .
+*INV:	(..) I can't write very fast .  16486_25825
+%mor:	pro:sub|I mod|can~neg|not v|write adv|very adv|fast .
+*INV:	I'm practising .  25825_26981
+%mor:	pro:sub|I~aux|be&1S part|practise-PRESP .
+*INV:	www . 26981_38828
+%exp:	tape cuts out for a bit .
+*PAR:	&um do you want me to say children's hospital ? [+ exc] 38838_41774
+%mor:	mod|do pro|you v|want pro:obj|me inf|to v|say n|child&PL~poss|s
+	n|hospital ?
+*INV:	&uh well no those two words +/. 41774_44033
+%mor:	co|well co|no det|those det:num|two n|word-PL +/.
+*PAR:	+< <you want a> [/] &sent you want a xxx +/. [+ exc] 43205_45448
+%mor:	pro|you v|want det|a +/.
+*INV:	+<  a sentence using those two words . 44748_46678
+%mor:	det|a n|sentence part|use-PRESP det|those det:num|two n|word-PL .
+*PAR:	can you say that again ? [+ exc] 46678_47828
+%mor:	mod|can pro|you v|say rel|that adv|again ?
+*INV:	child@q hospital@q . 47828_50079
+%mor:	meta|child meta|hospital .
+*PAR:	child is in the hospital . 50079_51486
+%mor:	n|child cop|be&3S prep|in det|the n|hospital .
+*INV:	cold@q winter@q . 51486_57788
+%mor:	meta|cold meta|winter .
+*PAR:	&um it's going to be a cold winter . 57788_60761
+%mor:	pro|it~aux|be&3S part|go-PRESP inf|to cop|be det|a adj|cold
+	n|winter .
+*INV:	(..) three words now . 60761_68654
+%mor:	det:num|three n|word-PL adv|now .
+*INV:	again one sentence . 68654_69804
+%mor:	adv|again pro:indef|one n|sentence .
+*INV:	and in any order . 69804_70710
+%mor:	conj|and prep|in qn|any n|order .
+*INV:	chair@q doctor@q sit@q . 70710_74737
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	&uh the doctor came into the office to sit . 74737_80464
+%mor:	det|the n|doctor v|come&PAST prep|into det|the n|office inf|to
+	v|sit .
+*INV:	(..) okay . 80464_89678
+%mor:	co|okay .
+*INV:	three words again . 89678_90910
+%mor:	det:num|three n|word-PL adv|again .
+*INV:	same idea . 90910_91998
+%mor:	adj|same n|idea .
+*INV:	bureau@q open@q drawer@q . 91998_95361
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	open the bureau drawer . 95361_98675
+%mor:	v|open det|the n|bureau n|drawer .
+@End

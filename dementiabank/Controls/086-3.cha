@@ -1,0 +1,66 @@
+@UTF8
+@PID:	11312/t-00002241-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	086-3c, audio
+*INV:	to look at this picture and tell me everything you see going on in this picture . 0_5203
+%mor:	inf|to v|look prep|at det|this n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|this n|picture .
+*PAR:	&mhm +/. [+ exc] 1763_2544
+%mor:	+/.
+*INV:	tell me everything you see happening .    5203_7082
+%mor:	v|tell pro:obj|me pro:indef|everything pro|you v|see
+	n:gerund|happen-PRESP .
+*PAR:	well a little boy has gotten up to get cookies . 7082_10500
+%mor:	co|well det|a adj|little n|boy aux|have&3S part|get&PASTP adv|up
+	inf|to v|get n|cookie-PL .
+*PAR:	he's giving his sister one but in the meantime he's falling off the chair [: stool] [* s:r] . 10500_15344
+%mor:	pro:sub|he~aux|be&3S part|give-PRESP pro:poss:det|his n|sister
+	det:num|one conj|but prep|in det|the n|meantime pro:sub|he~aux|be&3S
+	part|fall-PRESP prep|off det|the n|stool .
+*PAR:	she's reaching out for the cookie . 15344_17223
+%mor:	pro:sub|she~aux|be&3S part|reach-PRESP adv|out prep|for det|the
+	n|cookie .
+*PAR:	the lid's off the cookie jar so he's in there . 17223_20316
+%mor:	det|the n|lid~cop|be&3S prep|off det|the n|cookie v|jar conj|so
+	pro:sub|he~cop|be&3S prep|in pro:dem|there .
+*PAR:	and the mother is washing the dishes but she's letting the sink run over . 20316_24812
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP det|the
+	n|dish-PL conj|but pro:sub|she~aux|be&3S part|let-PRESP det|the
+	n|sink v|run adv|over .
+*PAR:	she has more dishes to do I think . 24812_27804
+%mor:	pro:sub|she aux|have&3S qn|more n|dish-PL prep|to v|do pro:sub|I
+	v|think .
+*PAR:	maybe not .  [+ gram]  27804_28569
+%mor:	adv|maybe neg|not .
+*PAR:	maybe they're clean . 28569_30032
+%mor:	adv|maybe pro:sub|they~cop|be&PRES adj|clean .
+*PAR:	and outside the window it's a lovely day . 30032_34937
+%mor:	conj|and prep|outside det|the n|window pro|it~cop|be&3S det|a
+	adj|love&dn-LY n|day .
+*PAR:	and everything has leaves on it so it must be summer . 34937_38030
+%mor:	coord|and pro:indef|everything v|have&3S n|leave-PL prep|on pro|it
+	conj|so pro|it mod|must cop|be n|summer .
+*PAR:	and &um I guess that's about it . [+ exc] 38030_44460
+%mor:	conj|and pro:sub|I n|guess rel|that~aux|be&3S prep|about pro|it .
+*PAR:	do you want to know about their clothes or anything ? [+ exc] 44260_46460
+%mor:	mod|do pro|you v|want inf|to v|know prep|about pro:poss:det|their
+	n:pt|clothes coord|or pro:indef|anything ?
+*INV:	+< &hmhmm . 46060_46643
+*INV:	just what's happening . [+ exc] 46643_47442
+%mor:	adv|just pro:wh|what~aux|be&3S part|happen-PRESP .
+*PAR:	+< no that's it .  [+ exc] 46742_47422
+%mor:	co|no pro:dem|that~cop|be&3S pro|it .
+*PAR:	that's all . [+ exc] 47442_48673
+%mor:	pro:dem|that~cop|be&3S pro:indef|all .
+*INV:	+< okay . 47842_48273
+%mor:	co|okay .
+*INV:	thank you . 48673_49139
+%mor:	v|thank pro|you .
+*PAR:	mhm . [+ exc] 49139_49964
+%mor:	co|yes .
+@End

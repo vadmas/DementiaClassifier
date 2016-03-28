@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/t-00002516-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|male|ProbableAD||Participant|10||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	148-0c, audio
+*PAR:	well <the table [: stool] [* s:r-ret]> [//] the seat [: stool] [* s:r] is falling . 0_4016
+%mor:	co|well det|the n|stool aux|be&3S part|fall-PRESP .
+*PAR:	the sink is running over . 4016_8825
+%mor:	det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	the girl's reaching for a cookie . 8825_13496
+%mor:	det|the n|girl~aux|be&3S part|reach-PRESP prep|for det|a n|cookie .
+*PAR:	the mom is dryin(g) a dish . 13496_18818
+%mor:	det|the n|mom aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	&hm &hm cup and saucers there . [+ gram] 18818_24795
+%mor:	n|cup coord|and n|saucer-PL adv|there .
+*PAR:	(..) yeah that's about all that +//. [+ exc] 24795_36111
+%mor:	co|yeah pro:dem|that~cop|be&3S prep|about qn|all pro:dem|that +//.
+*PAR:	I <didn't hit> [//] did this and then I did that . [+ exc] 36111_38102
+%mor:	pro:sub|I v|do&PAST det|this conj|and adv:tem|then pro:sub|I
+	v|do&PAST rel|that .
+*INV:	can you see anything else ? 38102_46770
+%mor:	mod|can pro|you v|see pro:indef|anything post|else ?
+*PAR:	&hm well yeah here's some outside (.) the window . [+ es] 46770_52935
+%mor:	co|well co|yeah pro:exist|here~cop|be&3S qn|some prep|outside
+	det|the n|window .
+*PAR:	&uh a garden I guess . [+ gram] 52935_58299
+%mor:	det|a n|garden pro:sub|I v|guess .
+*INV:	okay . 58299_60093
+%mor:	co|okay .
+*INV:	(..) okay ? 60093_70633
+%mor:	co|okay ?
+*INV:	good . 70633_71112
+%mor:	adj|good .
+@End

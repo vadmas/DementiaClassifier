@@ -1,0 +1,27 @@
+@UTF8
+@PID:	11312/t-00002596-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|80;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	271-2c, audio
+*INV:	tell me what's going on in the picture . 0_1947
+%mor:	v|tell pro:obj|me pro:wh|what~aux|be&3S part|go-PRESP adv|on
+	prep|in det|the n|picture .
+*PAR:	(..)  the little boy is in the cookie jar and standing on a stool that's falling out from under him . 1947_15673
+%mor:	det|the adj|little n|boy aux|be&3S prep|in det|the n|cookie n|jar
+	coord|and part|stand-PRESP prep|on det|a n|stool rel|that~aux|be&3S
+	part|fall-PRESP adv|out prep|from adv|under pro:obj|him .
+*PAR:	(.) and the mother has [//] (.) is washing dishes in the kitchen sink but she doesn't have the plug in and she's having a flood . 15673_27596
+%mor:	conj|and det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL
+	prep|in det|the n|kitchen n|sink conj|but pro:sub|she
+	mod|do&3S~neg|not v|have det|the n|plug adv|in coord|and
+	pro:sub|she~aux|be&3S part|have-PRESP det|a n|flood .
+*INV:	(..) okay . 27596_35395
+%mor:	co|okay .
+*PAR:	that's it . [+ exc] 35395_36692
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	okay . 36692_39000
+%mor:	co|okay .
+@End

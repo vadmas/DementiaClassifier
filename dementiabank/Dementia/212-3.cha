@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00002554-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|86;|male|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	212-3c, audio
+*INV:	take a look at this picture . 0_1591
+%mor:	v|take det|a n|look prep|at det|this n|picture .
+*PAR:	mhm . [+ exc] 1591_3973
+%mor:	co|yes .
+*INV:	I want you to tell me everything you see going on in that picture . 3704_6724
+%mor:	pro:sub|I v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|everything pro|you v|see n:gerund|go-PRESP adv|on prep|in
+	det|that n|picture .
+*INV:	everything that's happening there . 6724_8109
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP adv|there
+	.
+*PAR:	the stool [//] the boy's on the stool reaching for the cookie jar . 8343_12625
+%mor:	det|the det|the n|boy~cop|be&3S prep|on det|the n|stool
+	part|reach-PRESP prep|for det|the n|cookie n|jar .
+*PAR:	the girl's reaching up for a cookie . 12625_14635
+%mor:	det|the n|girl~aux|be&3S part|reach-PRESP adv|up prep|for det|a
+	n|cookie .
+*PAR:	the stool is falling . 14635_16113
+%mor:	det|the n|stool aux|be&3S part|fall-PRESP .
+*PAR:	the lady is washin(g) dishes . 16113_20426
+%mor:	det|the n|lady aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	the water's overrun in the sink . 20426_23211
+%mor:	det|the n|water~aux|be&3S over#part|run&PASTP prep|in det|the
+	n|sink .
+*PAR:	a [//] &uh you can see through the window the curtains are pulled back . 23211_28578
+%mor:	pro|you mod|can v|see prep|through det|the n|window det|the
+	n|curtain-PL aux|be&PRES part|pull-PASTP adv|back .
+*PAR:	there's a walk+way . 28578_31648
+%mor:	pro:exist|there~cop|be&3S det|a n|+n|walk+n|way .
+*PAR:	&uh windows in another part of the house . [+ gram] 31648_35039
+%mor:	n|window-PL prep|in qn|another n|part prep|of det|the n|house .
+*PAR:	&uh everguhuhgreens [: evergreens] [* d:sw] around, and grass . [+ gram] 35039_39460
+%mor:	n|evergreen-PL adv|around cm|cm coord|and n|grass .
+*PAR:	cup and a saucer and a plate on the &uh +... 39460_46947
+%mor:	n|cup coord|and det|a n|saucer coord|and det|a n|plate prep|on
+	det|the +...
+*PAR:	under the doors to the cabinet . [+ gram] 46947_52282
+%mor:	prep|under det|the n|door-PL prep|to det|the n|cabinet .
+*PAR:	double door and a sɪŋkəl@u [: single] [* p:n] door +/. [+ gram] 52282_54834
+%mor:	adj|double n|door coord|and det|a n|single n|door +/.
+*INV:	+< everything that's happening . 54434_55565
+%mor:	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP .
+*PAR:	oh happening ? [+ exc] 55565_56796
+%mor:	co|oh part|happen-PRESP ?
+*PAR:	the water's splashin(g) on the floor . 56796_58663
+%mor:	det|the n|water~aux|be&3S part|splash-PRESP prep|on det|the n|floor
+	.
+*PAR:	the [x 2] boy is falling . 58743_63037
+%mor:	det|the n|boy aux|be&3S part|fall-PRESP .
+*PAR:	the girl is reaching . 63037_64253
+%mor:	det|the n|girl aux|be&3S part|reach-PRESP .
+*PAR:	&uh the lady's washin(g) the dishes . 64253_67442
+%mor:	det|the n|lady~aux|be&3S part|wash-PRESP det|the n|dish-PL .
+*PAR:	she's &uh gettin(g) her shoe wet . 67503_70942
+%mor:	pro:sub|she~aux|be&3S part|get-PRESP pro:poss:det|her n|shoe
+	part|wet&PASTP .
+*INV:	(.) okay . 70942_74739
+%mor:	co|okay .
+@End

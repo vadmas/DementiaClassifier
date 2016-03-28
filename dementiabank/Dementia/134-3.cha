@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002513-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	134-3c, audio
+*INV:	this is the last thing we have to do today . 0_2360
+%mor:	pro:dem|this cop|be&3S det|the adj|last n|thing pro:sub|we v|have
+	inf|to v|do adv:tem|today .
+*INV:	I'd like for you to take a look at this picture +/. 2360_6018
+%mor:	pro:sub|I~mod|genmod co|like prep|for pro|you inf|to v|take det|a
+	n|look prep|at det|this n|picture +/.
+*PAR:	mhm . [+ exc] 6018_6749
+%mor:	co|yes .
+*INV:	+, and tell me everything that you see going on in that picture, everything that's happening there . 6749_11409
+%mor:	coord|and v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|that n|picture cm|cm
+	pro:indef|everything rel|that~aux|be&3S part|happen-PRESP adv|there
+	.
+*PAR:	oh . [+ exc] 11409_12306
+%mor:	co|oh .
+*PAR:	well there's &uh a boy on [/] on the &uh +... 12306_22222
+%mor:	co|well pro:exist|there~cop|be&3S det|a n|boy prep|on det|the +...
+*PAR:	I forget what you call that  . [+ exc] 22222_24313
+%mor:	pro:sub|I v|forget pro:wh|what pro|you v|call pro:dem|that .
+*PAR:	on a stool I guess <tryin(g) to> [//] climbed up &t to get some cookies out o(f) the cupboard . [+ gram] 24313_31500
+%mor:	prep|on det|a n|stool pro:sub|I v|guess v|climb-PAST adv|up inf|to
+	v|get qn|some n|cookie-PL adv|out prep|of det|the n|cupboard .
+*PAR:	and his sister was standing there waiting for one . 31500_35842
+%mor:	conj|and pro:poss:det|his n|sister aux|be&PAST&13S part|stand-PRESP
+	adv|there part|wait-PRESP prep|for pro:indef|one .
+*PAR:	and then over here the lady was washing the dishes in [/] in the sink with the water in it spilt [: spilled] all on the floor . 35842_48637
+%mor:	conj|and adv:tem|then adv|over adv|here det|the n|lady
+	aux|be&PAST&13S part|wash-PRESP det|the n|dish-PL prep|in det|the
+	n|sink prep|with det|the n|water prep|in pro|it v|spill-PAST adv|all
+	prep|on det|the n|floor .
+*INV:	(...) okay ? 48637_58493
+%mor:	co|okay ?
+*PAR:	mhm . [+ exc] 58493_59307
+%mor:	co|yes .
+*PAR:	that's it . [+ exc] 59307_59577
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	good . 59577_60577
+%mor:	adj|good .
+@End

@@ -1,0 +1,65 @@
+@UTF8
+@PID:	11312/t-00002592-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|female|ProbableAD||Participant|13||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	269-1c, audio
+*INV:	okay I just want you to tell me anything +/. 0_2097
+%mor:	co|okay pro:sub|I adv|just v|want pro|you inf|to v|tell pro:obj|me
+	pro:indef|anything +/.
+*INV:	you could just tell me . 2097_3194
+%mor:	pro|you mod|could adv|just v|tell pro:obj|me .
+*PAR:	oh I see . [+ exc] 3194_3991
+%mor:	co|oh pro:sub|I v|see .
+*INV:	+< anything you see going on . 3291_4550
+%mor:	pro:indef|anything pro|you v|see n:gerund|go-PRESP adv|on .
+*PAR:	&uh well the &uh kitchen sink is &uh that they'd [/] they'd <kept the> [//] kept it &g all going and [/] and &uh it went <over on the> [//] &um (.) &o off [/] off the sink . [+ gram] 4550_20422
+%mor:	co|well det|the n|kitchen n|sink cop|be&3S rel|that
+	pro:sub|they~mod|genmod v|keep&PAST pro|it adv|all part|go-PRESP
+	coord|and pro|it v|go&PAST prep|off det|the n|sink .
+*INV:	okay . 20422_21512
+%mor:	co|okay .
+*PAR:	+< <they didn't> [/] they didn't &s turn [/] turn it off quick enough . 20500_23922
+%mor:	pro:sub|they mod|do&PAST~neg|not v|turn pro|it adv|off adv|quick
+	adv|enough .
+*PAR:	and then there's &uh dishes and &uh a stool that's going to be very &f fast &uh getting to be &uh a whole bunch of (th)em frickin(g) cookies . [+ gram] 23922_41057
+%mor:	conj|and adv:tem|then pro:exist|there~cop|be&3S n|dish-PL coord|and
+	det|a n|stool rel|that~aux|be&3S part|go-PRESP inf|to cop|be
+	adv|very adv|fast part|get-PRESP inf|to cop|be det|a adj|whole
+	n|bunch prep|of pro:obj|them adj|fricking n|cookie-PL .
+*INV:	okay . 41057_42425
+%mor:	co|okay .
+*PAR:	<that's my> [//] that's about my &=laughs <my nephew> [//] my &uh &=clears:throat grandson . [+ exc] 42425_51422
+%mor:	pro:dem|that~cop|be&3S prep|about pro:poss:det|my pro:poss:det|my
+	grand#n|son .
+*INV:	okay is there anything else you see going on in there ? 51422_54332
+%mor:	co|okay cop|be&3S adv|there pro:indef|anything post|else pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in pro:dem|there ?
+*PAR:	cookie jar . [+ gram] 54332_60733
+%mor:	n|cookie n|jar .
+*PAR:	and the [//] I suppose it's his sister . 60733_63292
+%mor:	conj|and pro:sub|I v|suppose pro|it~cop|be&3S pro:poss:det|his
+	n|sister .
+*PAR:	it has to be his sister doesn't it ? [+ exc] 63292_65039
+%mor:	pro|it aux|have&3S inf|to cop|be pro:poss:det|his n|sister
+	mod|do&3S~neg|not pro|it ?
+*INV:	okay . 65039_66020
+%mor:	co|okay .
+*PAR:	to &uh &uh up [/] up on that stool . [+ gram] 66020_70440
+%mor:	inf|to prep|up prep|on det|that n|stool .
+*PAR:	and she's making fun of him . 70440_73632
+%mor:	conj|and pro:sub|she~aux|be&3S n:gerund|make-PRESP adj|fun prep|of
+	pro:obj|him .
+*PAR:	and this water's coming down that splashing all over the place . 73632_82581
+%mor:	conj|and det|this n|water~aux|be&3S part|come-PRESP prep|down
+	det|that part|splash-PRESP adv|all prep|over det|the n|place .
+*INV:	okay anything else ? 82581_87383
+%mor:	co|okay pro:indef|anything post|else ?
+*PAR:	&um (.) I don't +... [+ exc] 87383_95336
+%mor:	pro:sub|I mod|do~neg|not +...
+*PAR:	it depends on how many cookies are in that cookie jar apparently . [+ gram] 95336_98796
+%mor:	pro|it v|depend-3S prep|on adv:wh|how qn|many n|cookie-PL
+	cop|be&PRES prep|in det|that n|cookie n|jar adv|apparent&dadj-LY .
+@End

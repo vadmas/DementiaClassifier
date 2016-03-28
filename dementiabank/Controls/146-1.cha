@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00002310-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|73;|male|Control||Participant|28||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	146-1c, audio
+*INV:	tell me everything that you see going on in the picture . 0_2459
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	just tell me what's happening there . 2459_4717
+%mor:	adv|just v|tell pro:obj|me pro:wh|what~aux|be&3S part|happen-PRESP
+	adv|there .
+*PAR:	well &uh for one thing this boy's on the stool gettin(g) cookies . 4717_9587
+%mor:	co|well prep|for pro:indef|one n|thing det|this n|boy~cop|be&3S
+	prep|on det|the n|stool part|get-PRESP n|cookie-PL .
+*PAR:	and his stool's (a)bout to fall . 9587_11769
+%mor:	conj|and pro:poss:det|his n|stool~aux|be&3S adv|about prep|to
+	n|fall .
+*PAR:	and [/] and the little girl's reaching for some cookies . 11769_14945
+%mor:	conj|and det|the adj|little n|girl~mod|do&3S part|reach-PRESP
+	prep|for qn|some n|cookie-PL .
+*PAR:	she got her finger in her mouth . 14945_16936
+%mor:	pro:sub|she v|get&PAST pro:poss:det|her n|finger prep|in
+	pro:poss:det|her n|mouth .
+*PAR:	&um the mother's dryin(g) dishes and water's runnin(g) over . 16936_22116
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL coord|and
+	n|water~aux|be&3S part|run-PRESP adv|over .
+*PAR:	<she got her> [//] &pl yeah and she dryin(g) dishes water's runnin(g) over . 22116_24714
+%mor:	co|yeah coord|and pro:sub|she part|dry-PRESP n|dish-PL
+	n|water~aux|be&3S part|run-PRESP adv|over .
+*PAR:	she's standin(g) in water . 24714_25758
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in n|water .
+*PAR:	there's a sink there . 25758_27580
+%mor:	pro:exist|there~cop|be&3S det|a n|sink adv|there .
+*PAR:	plate and a cup . [+ gram] 27580_30287
+%mor:	n|plate coord|and det|a n|cup .
+*PAR:	outside you can see outside there the [/] the walk+way and hedges, a window, tree . 30287_38193
+%mor:	out#v|side pro|you mod|can v|see adv|outside adv|there det|the
+	n|+n|walk+n|way coord|and n|hedge-PL cm|cm det|a n|window cm|cm
+	n|tree .
+*PAR:	and &uh <outside the> [//] &cup the cookie jar would have to be in the cupboard . 38193_44139
+%mor:	conj|and det|the n|cookie n|jar mod|will&COND v|have inf|to cop|be
+	prep|in det|the n|cupboard .
+*PAR:	and there's a <what you call it> [//] the counter on in the kitchen .  [+ gram]  44139_50131
+%mor:	conj|and pro:exist|there~cop|be&3S det|a det|the n|counter adv|on
+	prep|in det|the n|kitchen .
+*PAR:	that's [//] and the curtains .  [+ gram] 50131_52144
+%mor:	conj|and det|the n|curtain-PL .
+*INV:	mhm . 52144_52775
+%mor:	co|yes .
+*PAR:	and the window .  [+ gram] 52775_53776
+%mor:	coord|and det|the n|window .
+*INV:	okay ? 53776_54707
+%mor:	co|okay ?
+*INV:	great . 54707_56170
+%mor:	adj|great .
+@End

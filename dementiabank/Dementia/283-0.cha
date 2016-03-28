@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/t-00002603-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|61;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	283-0c, audio
+*INV:	tell me everything that you see going on in the picture . 0_2510
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	well a youngster got up on his stool and he's tryin(g) to get into the cookie jar . 2000_6360
+%mor:	co|well det|a n|youngster v|get&PAST adv|up prep|on
+	pro:poss:det|his n|stool coord|and pro:sub|he~aux|be&3S
+	part|try-PRESP inf|to v|get prep|into det|the n|cookie n|jar .
+*PAR:	and the little girl is already waiting for the cookies so she's standing there with her hand out . 6360_10510
+%mor:	conj|and det|the adj|little n|girl aux|be&3S adv|already
+	part|wait-PRESP prep|for det|the n|cookie-PL conj|so
+	pro:sub|she~aux|be&3S part|stand-PRESP adv|there prep|with
+	pro:poss:det|her n|hand adv|out .
+*PAR:	oh my . [+ exc] 10510_12150
+%mor:	co|oh pro:poss:det|my .
+*PAR:	and mother is very busy . 12150_13400
+%mor:	conj|and n|mother aux|be&3S adv|very adj|busy .
+*PAR:	oy ! [+ exc] 13400_13640
+%mor:	co|oy !
+*PAR:	she forgot to look at the spigots . 13640_15834
+%mor:	pro:sub|she v|forget&PAST inf|to v|look prep|at det|the n|spigot-PL
+	.
+*PAR:	they're still open . 15834_16850
+%mor:	pro:sub|they~cop|be&PRES adv|still adv|open .
+*PAR:	and the water is pouring from the sink . 16850_18800
+%mor:	conj|and det|the n|water aux|be&3S part|pour-PRESP prep|from
+	det|the n|sink .
+*PAR:	and she's looking at it like it's +"/. 18800_20573
+%mor:	conj|and pro:sub|she~aux|be&3S part|look-PRESP prep|at pro|it
+	rel|like pro|it~cop|be&3S +"/.
+*PAR:	+" what am I gonna [: going to] do now ? 20573_21850
+%mor:	adv|what aux|be&1S pro:sub|I part|go-PRESP inf|to v|do adv|now ?
+*PAR:	and there's some dishes <on the> [/] &t on the countertop . 21850_24920
+%mor:	conj|and pro:exist|there~cop|be&3S qn|some n|dish-PL prep|on
+	det|the n|+n|counter+n|top .
+*PAR:	and you can see out into the yard . 24920_27349
+%mor:	conj|and pro|you mod|can v|see adv|out prep|into det|the n|yard .
+*PAR:	the curtains are nice . 27349_28895
+%mor:	det|the n|curtain-PL cop|be&PRES adj|nice .
+*PAR:	this little boy is on tilt though . 28895_30700
+%mor:	det|this adj|little n|boy cop|be&3S prep|on n|tilt adv|though .
+*PAR:	that little stool is going to fall . 30700_32919
+%mor:	det|that adj|little n|stool aux|be&3S part|go-PRESP prep|to n|fall
+	.
+*PAR:	she has her dish in her hand that she's drying . 32919_36060
+%mor:	pro:sub|she v|have&3S pro:poss:det|her n|dish prep|in
+	pro:poss:det|her n|hand rel|that pro:sub|she~aux|be&3S
+	part|dry-PRESP .
+*PAR:	and she looks a_little perplexed +"/. 36060_38700
+%mor:	conj|and pro:sub|she v|look-3S adv|a_little part|perplex-PASTP
+	+"/.
+*PAR:	+" &hm what am I gonna [: going to] do with all this water on the floor ?  38700_41601
+%mor:	pro:wh|what aux|be&1S pro:sub|I part|go-PRESP inf|to v|do
+	prep|with qn|all det|this n|water prep|on det|the n|floor ?
+*PAR:	&hm (.) and there that [//] you can see there's another house next door evidently . 41601_48811
+%mor:	conj|and adv|there pro|you mod|can v|see pro:exist|there~cop|be&3S
+	qn|another n|house adj|next n|door adv|evident&dadj-LY .
+*PAR:	looks like a house in the tree back there beyond the house . 48811_53135
+%mor:	v|look-3S prep|like det|a n|house prep|in det|the n|tree adv|back
+	adv|there prep|beyond det|the n|house .
+*INV:	okay . 53135_54286
+%mor:	co|okay .
+@End

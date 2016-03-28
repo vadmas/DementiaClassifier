@@ -1,0 +1,69 @@
+@UTF8
+@PID:	11312/t-00002329-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|Control||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	172-0c, audio
+*INV:	okay and here's the picture . 0_1932
+%mor:	co|okay coord|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	okay mother is drying the dishes but the water is flowing out over the sink onto the floor . 1932_9759
+%mor:	co|okay n|mother aux|be&3S part|dry-PRESP det|the n|dish-PL
+	conj|but det|the n|water aux|be&3S part|flow-PRESP adv|out prep|over
+	det|the n|sink prep|onto det|the n|floor .
+*PAR:	&uh it's a pretty day outside . 9759_13324
+%mor:	pro|it~cop|be&3S det|a adj|pretty n|day adv|outside .
+*PAR:	there's lots of flowers . 13324_14801
+%mor:	pro:exist|there~aux|be&3S n|lot-PL prep|of n|flower-PL .
+*PAR:	there are three dishes left to wash and dry I guess . 14801_20282
+%mor:	adv|there cop|be&PRES det:num|three n|dish-PL v|leave&PAST prep|to
+	n|wash coord|and v|dry pro:sub|I v|guess .
+*PAR:	she's standing in the water . 20282_22132
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|the n|water .
+*PAR:	looks dangerous .  [+ gram] 22132_24007
+%mor:	v|look-3S adj|dangerous .
+*PAR:	the children &i are getting into the cookie jar . 24007_27135
+%mor:	det|the n|child&PL aux|be&PRES part|get-PRESP prep|into det|the
+	n|cookie n|jar .
+*PAR:	the boy's up there on the stool and it's almost falling over . 27135_30199
+%mor:	det|the n|boy~cop|be&3S prep|up pro:dem|there adv|on det|the
+	n|stool coord|and pro|it~cop|be&3S adv|almost part|fall-PRESP
+	adv|over .
+*PAR:	he's got one cookie in his hand .  30199_31655
+%mor:	pro:sub|he~aux|be&3S part|get&PASTP pro:indef|one n|cookie prep|in
+	pro:poss:det|his n|hand .
+*PAR:	he's handing it to the little girl and he's getting another one out of the cookie jar in the cupboard . 31655_37108
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP pro|it prep|to det|the
+	adj|little n|girl coord|and pro:sub|he~aux|be&3S part|get-PRESP
+	qn|another pro:indef|one adv|out prep|of det|the n|cookie n|jar
+	prep|in det|the n|cupboard .
+*PAR:	(.) did you say action that's going on ? [+ exc] 37108_44445
+%mor:	v|do&PAST pro|you v|say n|action rel|that~aux|be&3S part|go-PRESP
+	adv|on ?
+*INV:	uhhuh . 44445_45357
+%mor:	co|uhhuh .
+*PAR:	&uh the little girl is [//] kinda [: kind_of] has her hand up to +... 45357_52555
+%mor:	det|the adj|little n|girl adv|kind_of aux|have&3S pro:poss:det|her
+	n|hand adv|up prep|to +...
+*PAR:	looks like she's telling him either to be quiet or she's laughing &=laughs . [+ gram] 52555_55814
+%mor:	v|look-3S rel|like pro:sub|she~aux|be&3S part|tell-PRESP
+	pro:obj|him adv|either inf|to cop|be n|quiet coord|or
+	pro:sub|she~aux|be&3S part|laugh-PRESP .
+*INV:	&=laughs . 55814_56545
+*PAR:	the mother doesn't seem to be paying much attention . 56545_59637
+%mor:	det|the n|mother mod|do&3S~neg|not v|seem inf|to aux|be
+	part|pay-PRESP qn|much n|attention .
+*PAR:	she looks like she's looking out the window . 59637_61790
+%mor:	pro:sub|she v|look-3S rel|like pro:sub|she~aux|be&3S
+	part|look-PRESP prep|out det|the n|window .
+*PAR:	the water is splashing onto the floor . 61790_67113
+%mor:	det|the n|water aux|be&3S part|splash-PRESP prep|onto det|the
+	n|floor .
+*INV:	okay . 67113_69463
+%mor:	co|okay .
+*PAR:	that's it . [+ exc] 69463_70149
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	good . 70149_70696
+%mor:	adj|good .
+@End

@@ -1,0 +1,132 @@
+@UTF8
+@PID:	11312/t-00016620-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|72;|female|ProbableAD||Participant|17||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	269-0s, audio
+*INV:	pencil@q . 0_2500
+%mor:	meta|pencil .
+*INV:	use the word pencil@q in a brief simple sentence . 2500_5400
+%mor:	v|use det|the n|word meta|pencil prep|in det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	I prefer to use a pencil@q so that I can erase it &=laughs . 5400_10508
+%mor:	pro:sub|I v|prefer inf|to v|use det|a meta|pencil adv|so rel|that
+	pro:sub|I mod|can v|erase pro|it .
+*INV:	(..) tree@q . 10508_18444
+%mor:	meta|tree .
+*PAR:	&uh (.) tree@q . [+ exc] 18444_23000
+%mor:	meta|tree .
+*PAR:	that is a (.) weeping willow tree . 23000_26117
+%mor:	rel|that cop|be&3S det|a part|weep-PRESP n|willow n|tree .
+*INV:	(..) okay ‡ now I'm gonna give you two words . 26117_35720
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	I'd like you to put both of the words in the same sentence . 35720_38400
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|put&ZERO qn|both
+	prep|of det|the n|word-PL prep|in det|the adj|same n|sentence .
+*INV:	and you don't have to worry about the order . 38400_40500
+%mor:	conj|and pro|you mod|do~neg|not v|have inf|to v|worry prep|about
+	det|the n|order .
+*INV:	child@q and hospital@q . 40500_43392
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	&uh my son was [//] had crossed eyes so he went to the hospital <to
+	get the (.) &uh situation> [//] to [/] to &ha be worked on . 43392_58908
+%mor:	pro:poss:det|my n|son v|have&PAST part|cross-PASTP n|eye-PL co|so
+	pro:sub|he v|go&PAST prep|to det|the n|hospital inf|to aux|be
+	part|work-PASTP adv|on .
+*PAR:	(.) he's the one that's bringing me down here &=laughs . [+ exc] 58908_68014
+%mor:	pro:sub|he~aux|be&3S det|the pro:indef|one rel|that~aux|be&3S
+	part|bring-PRESP pro:obj|me adv|down adv|here .
+*INV:	okay ‡ cold@q and winter@q . 68014_73553
+%mor:	co|okay beg|beg meta|cold conj|and meta|winter .
+*PAR:	those are &uh +... [+ exc] 73553_77814
+%mor:	pro:dem|those cop|be&PRES +...
+*PAR:	in one sentence you [/] you want it ? [+ exc] 77814_80786
+%mor:	prep|in det:num|one n|sentence pro|you v|want pro|it ?
+*INV:	+< right . 80000_81000
+%mor:	co|right .
+*PAR:	cold@q and winter@q . [+ exc] 80786_81773
+%mor:	meta|cold conj|and meta|winter .
+*INV:	+< cold and winter in one sentence . 81100_83000
+%mor:	adv|cold coord|and n|winter prep|in det:num|one n|sentence .
+*PAR:	+< it is cold in the winter but the last &uh two or three weeks &=laughs I thought it was winter
+	&=laughs . 82600_89724
+%mor:	pro|it cop|be&3S adv|cold prep|in det|the n|winter conj|but det|the
+	adj|last det:num|two coord|or det:num|three n|week-PL pro:sub|I
+	v|think&PAST pro|it cop|be&PAST&13S n|winter .
+*PAR:	wasn't that horrible when it +/? [+ exc] 89724_91100
+%mor:	cop|be&PAST&13S~neg|not det|that adj|horrible conj|when pro|it +/?
+*INV:	+< yeah ‡ it was . 90800_91500
+%mor:	co|yeah beg|beg pro|it cop|be&PAST&13S .
+*INV:	<it's been> [//] it's [/] (.) it's our punishment for having such
+	nice weather in April probably . 91500_100000
+%mor:	pro|it~cop|be&3S pro:poss:det|our n|punishment prep|for
+	part|have-PRESP qn|such adj|nice n|weather prep|in n:prop|April
+	adv|probable&dadj-LY .
+*PAR:	+< xxx . [+ exc]  92000_93567
+*PAR:	+< &uh &i &i +/.  [+ exc] 93567_95971
+%mor:	+/.
+*PAR:	+< uhhuh ‡ ‡ yes ‡ I suppose .  [+ exc] 98000_101146
+%mor:	co|uhhuh beg|beg beg|beg co|yes beg|beg pro:sub|I v|suppose .
+*INV:	okay ‡ now I'm gonna give you three words . 101146_103700
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	and I'd like you to put all three words in the same sentence for me
+	. 103700_107000
+%mor:	conj|and pro:sub|I~mod|genmod v|like pro|you inf|to v|put&ZERO
+	adv|all det:num|three n|word-PL prep|in det|the adj|same n|sentence
+	prep|for pro:obj|me .
+*INV:	chair@q doctor@q and sit@q . 107000_112400
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	&uh the &uh chair@q +... [+ exc] 112400_117500
+%mor:	det|the meta|chair +...
+*PAR:	well ‡ let's see . [+ exc] 117500_118545
+%mor:	co|well beg|beg v|let~pro:obj|us v|see .
+*PAR:	chair@q doctor@q and sit@q . [+ exc] 118545_121500
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*INV:	mhm . 121500_122200
+%mor:	co|yes .
+*PAR:	<when then doctor sat down> [//] &uh when the doctor was [//] came
+	and he sat down in the rocking chair to [/] &uh to &uh tell [//]
+	talk to &uh whoever it was that was sick <about &uh having (.) xxx>
+	[//] about +... [+ exc] 122200_146200
+%mor:	conj|when det|the n|doctor v|come&PAST coord|and pro:sub|he
+	v|sit&PAST adv|down prep|in det|the part|rock-PRESP n|chair prep|to
+	n|talk prep|to pro:wh|whoever pro|it cop|be&PAST&13S pro:dem|that
+	cop|be&PAST&13S adj|sick prep|about +...
+*PAR:	let's see . [+ exc] 146200_147822
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	maybe I should start over . [+ exc] 147822_149486
+%mor:	adv|maybe pro:sub|I mod|should v|start adv|over .
+*PAR:	that was too long &=laughs . [+ exc] 149486_151667
+%mor:	pro:dem|that cop|be&PAST&13S adv|too adj|long .
+*PAR:	when the doctor came he sat in the rocking chair to &uh talk about
+	the situation in the sick person . 151667_163600
+%mor:	conj|when det|the n|doctor v|come&PAST pro:sub|he v|sit&PAST
+	prep|in det|the part|rock-PRESP n|chair inf|to v|talk prep|about
+	det|the n|situation prep|in det|the adj|sick n|person .
+*INV:	okay . 163600_166000
+%mor:	co|okay .
+*INV:	okay ‡ now I'm gonna give you three words again . 166000_168900
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to
+	v|give pro|you det:num|three n|word-PL adv|again .
+*INV:	I'd like you to put all three in the same sentence . 168900_171306
+%mor:	pro:sub|I~mod|genmod v|like pro|you inf|to v|put&ZERO adv|all
+	det:num|three prep|in det|the adj|same n|sentence .
+*INV:	bureau@q open@q and drawer@q . 171306_175300
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	that drawer is hard to open &uh in [/] &uh in that bureau .
+	175300_181874
+%mor:	det|that n|drawer aux|be&3S adv|hard inf|to v|open prep|in det|that
+	n|bureau .
+*PAR:	we've got to get it &=laughs loosened up &=laughs or something such
+	. [+ exc] 181874_185671
+%mor:	pro:sub|we~aux|have part|get&PASTP inf|to v|get pro|it
+	v|loosen-PAST adv|up coord|or pro:indef|something qn|such .
+*PAR:	oh ‡ I lost this eraser . [+ exc] 185671_188547
+%mor:	co|oh beg|beg pro:sub|I v|lose&PAST det|this n|erase&dv-AGT .
+*PAR:	you don't want that lost . [+ exc] 188547_191914
+%mor:	pro|you mod|do~neg|not v|want rel|that v|lose&PAST .
+@End

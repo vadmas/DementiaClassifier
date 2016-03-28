@@ -1,0 +1,57 @@
+@UTF8
+@PID:	11312/t-00002231-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|57;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	071-1c, audio
+*INV:	there it is . 0_825
+%mor:	adv|there pro|it cop|be&3S .
+*PAR:	okay . [+ exc] 825_1807
+%mor:	co|okay .
+*PAR:	&uh fellow falling off a stool . [+ gram] 1807_3613
+%mor:	n|fellow part|fall-PRESP prep|off det|a n|stool .
+*PAR:	also taking cookies from the cupboard . [+ gram] 3613_6211
+%mor:	adv|also part|take-PRESP n|cookie-PL prep|from det|the n|cupboard .
+*PAR:	&uh sister standing . [+ gram] 6211_8996
+%mor:	n|sister part|stand-PRESP .
+*PAR:	outstretched hand . [+ gram] 8996_9822
+%mor:	out#part|stretch-PASTP n|hand .
+*PAR:	oh, okay . [+ exc] 9822_10900
+%mor:	co|oh cm|cm adj|okay .
+*PAR:	water running out of the sink . [+ gram] 10900_12100
+%mor:	n|water part|run-PRESP adv|out prep|of det|the n|sink .
+*PAR:	&uh woman drying dish . [+ gram] 12100_15192
+%mor:	n|woman part|dry-PRESP n|dish .
+*PAR:	&uh (.) <the water> [//] got the water . [+ exc] 15192_20500
+%mor:	v|get&PAST det|the n|water .
+*PAR:	I don't see anything happening  outside . 20500_22022
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything part|happen-PRESP
+	adv|outside .
+*PAR:	&uh do [/] do you want like the window's open that sort of thing ? [+ exc]  22022_25481
+%mor:	mod|do pro|you v|want co|like det|the n|window~aux|be&3S adv|open
+	det|that n|sort prep|of n|thing ?
+*PAR:	<is that> [/] is that +..? 25481_26123
+%mor:	cop|be&3S pro:dem|that +..?
+*PAR:	no, you don't want that .  [+ exc] 26123_26954
+%mor:	co|no cm|cm pro|you mod|do~neg|not v|want pro:dem|that .
+*PAR:	just action +//? [+ exc] 26954_27768
+%mor:	adv|just n|action +//?
+*INV:	+< no, just what you see happening, the action in the picture . 27123_29527
+%mor:	co|no cm|cm adv|just pro:wh|what pro|you v|see
+	n:gerund|happen-PRESP cm|cm det|the n|action prep|in det|the
+	n|picture .
+*PAR:	xxx oh . [+ exc] 28200_29696
+%mor:	co|oh .
+*PAR:	okay . [+ exc] 29696_30972
+%mor:	co|okay .
+*PAR:	that's it .  [+ exc] 30972_31453
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*INV:	okay . 31453_32369
+%mor:	co|okay .
+*PAR:	+< I didn't see any other action .  [+ exc] 32222_33619
+%mor:	pro:sub|I mod|do&PAST~neg|not v|see qn|any qn|other n|action .
+*INV:	mhm . 33619_33822
+%mor:	co|yes .
+@End

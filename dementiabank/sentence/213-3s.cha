@@ -1,0 +1,84 @@
+@UTF8
+@PID:	11312/t-00016595-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	213-3s, audio
+*INV:	now I'm going to give you a word . 0_3657
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det|a n|word .
+*INV:	and I want you to put the word into a brief simple sentence . 3657_7612
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|put&ZERO det|the n|word
+	prep|into det|a adj|brief adj|simple n|sentence .
+*INV:	okay ? 7612_8646
+%mor:	co|okay ?
+*PAR:	mhm . [+ exc] 8636_9183
+%mor:	co|yes .
+*INV:	let's practice . 9183_10196
+%mor:	v|let~pro:obj|us v|practice .
+*INV:	the first word is table@q . 10196_12001
+%mor:	det|the adj|first n|word aux|be&3S meta|table .
+*PAR:	where is the table ? 12001_13588
+%mor:	adv:wh|where cop|be&3S det|the n|table ?
+*INV:	okay ‡ alright . 13588_15891
+%mor:	co|okay beg|beg co|alright .
+*INV:	the next word is penci@q . 15891_19034
+%mor:	det|the adj|next n|word aux|be&3S meta|penci .
+*PAR:	please sharpen my pencil . 19034_21011
+%mor:	co|please v|sharpen pro:poss:det|my n|pencil .
+*INV:	(..) okay ‡ the next word is tree@q . 21011_31548
+%mor:	co|okay beg|beg det|the adj|next n|word aux|be&3S meta|tree .
+*PAR:	it's a beautiful tree . 31548_35191
+%mor:	pro|it~cop|be&3S det|a adj|beautiful n|tree .
+*INV:	(..) okay ‡ now I'm going to give you two words and I still want you
+	to give me a brief simple sentence . 35191_45554
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|two n|word-PL coord|and pro:sub|I adv|still
+	v|want pro|you inf|to v|give pro:obj|me det|a adj|brief adj|simple
+	n|sentence .
+*INV:	don't worry about the word order . 45554_47379
+%mor:	mod|do~neg|not v|worry prep|about det|the n|word n|order .
+*INV:	(o)kay ? 47379_49166
+%mor:	co|okay ?
+*INV:	child@q hospital@q . 49166_51625
+%mor:	meta|child meta|hospital .
+*PAR:	where's the child hospital ? 51625_55173
+%mor:	adv:wh|where~cop|be&3S det|the n|child n|hospital ?
+*PAR:	(.) &i is that what you want ? [+ exc] 55173_61248
+%mor:	cop|be&3S pro:dem|that pro:wh|what pro|you v|want ?
+*INV:	+< yeah . 61148_62467
+%mor:	co|yeah .
+*PAR:	where's the children's hospital ? [+ exc] 62467_63700
+%mor:	adv:wh|where~cop|be&3S det|the n|child&PL~poss|s n|hospital ?
+*INV:	okay ‡ that's good . 63700_64626
+%mor:	co|okay beg|beg pro:dem|that~cop|be&3S adj|good .
+*INV:	cold@q winter@q . 64626_70468
+%mor:	meta|cold meta|winter .
+*PAR:	do you expect a cold winter ? 70468_73210
+%mor:	mod|do pro|you v|expect det|a adj|cold n|winter ?
+*INV:	(..) now I'm going to give you three words and I still want you to
+	give me a brief simple sentence . 73210_85693
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL coord|and pro:sub|I adv|still v|want pro|you
+	inf|to v|give pro:obj|me det|a adj|brief adj|simple n|sentence .
+*INV:	(o)kay ‡ chair@q doctor@q sit@q . 85693_90859
+%mor:	co|okay beg|beg meta|chair meta|doctor meta|sit .
+*PAR:	please sit in the doctor's chair . 90859_94876
+%mor:	co|please v|sit prep|in det|the n|doctor~poss|s n|chair .
+*PAR:	(.) <am I> [//] what do you want ? [+ exc] 94876_101000
+%mor:	pro:wh|what mod|do pro|you v|want ?
+*PAR:	something else from me ? [+ exc] 101000_101690
+%mor:	pro:indef|something post|else prep|from pro:obj|me ?
+*INV:	+< no ‡ that's fine . 101690_102564
+%mor:	co|no beg|beg pro:dem|that~cop|be&3S adj|fine .
+*INV:	that's fine . 102564_104322
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+*INV:	(o)kay . 104322_106438
+%mor:	co|okay .
+*INV:	bureau@q open@q drawer@q . 106438_109893
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	please close the bureau's drawer . 109893_112400
+%mor:	co|please v|close det|the n|bureau~poss|s n|drawer .
+@End

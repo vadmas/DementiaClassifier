@@ -1,0 +1,37 @@
+@UTF8
+@PID:	11312/t-00002605-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|67;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	289-2c, audio
+*INV:	in the picture . 0_895
+%mor:	prep|in det|the n|picture .
+*PAR:	wahoo ho ho . [+ exc] 895_3450
+%mor:	co|wahoo co|ho co|ho .
+*PAR:	well it's kind of a calamity isn't it &=laughs ? [+ exc] 3450_8825
+%mor:	co|well pro|it~cop|be&3S n|kind prep|of det|a n|calamity
+	cop|be&3S~neg|not pro|it ?
+*PAR:	the &uh mother just is +... 8825_13045
+%mor:	det|the n|mother adv|just cop|be&3S +...
+*PAR:	I assume this is the mother . 13045_14883
+%mor:	pro:sub|I v|assume pro:dem|this cop|be&3S det|the n|mother .
+*PAR:	and she's [//] washing [//] trying to wash the dishes and the water's overflowing . 14883_18819
+%mor:	conj|and part|try-PRESP inf|to v|wash det|the n|dish-PL coord|and
+	det|the n|water~aux|be&3S over#part|flow-PRESP .
+*PAR:	and &uh the little boy's trying to get cookies out of the cookie jar on top of the &c cupboard . 18819_27200
+%mor:	conj|and det|the adj|little n|boy~mod|do&3S part|try-PRESP inf|to
+	v|get n|cookie-PL adv|out prep|of det|the n|cookie n|jar prep|on
+	n|top prep|of det|the n|cupboard .
+*PAR:	and his stool is getting away &f under him . 27200_30759
+%mor:	conj|and pro:poss:det|his n|stool aux|be&3S part|get-PRESP adv|away
+	prep|under pro:obj|him .
+*PAR:	and she help [//] keeps holding her hand up waiting for another cookie . 30759_33898
+%mor:	conj|and pro:sub|she v|keep-3S part|hold-PRESP pro:poss:det|her
+	n|hand adv|up part|wait-PRESP prep|for qn|another n|cookie .
+*INV:	mhm . 33898_35450
+%mor:	co|yes .
+*INV:	(...) okay that's good . 35450_45867
+%mor:	co|okay pro:dem|that~cop|be&3S adj|good .
+@End

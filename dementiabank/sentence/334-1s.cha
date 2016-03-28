@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/t-00016637-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|20||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	334-1s, audio
+*INV:	how_(a)bout pencil@q ? 0_3309
+%mor:	adv:wh|how_about meta|pencil ?
+*PAR:	we write with a pencil . 3309_5515
+%mor:	pro:sub|we v|write prep|with det|a n|pencil .
+*INV:	tree@q ? 5515_6769
+%mor:	meta|tree ?
+*PAR:	the birds made their nest in a tree . 6769_9939
+%mor:	det|the n|bird-PL v|make&PAST pro:poss:det|their n|nest prep|in
+	det|a n|tree .
+*INV:	now I'm going to give you two words . 9939_11785
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	and I want to put them in a brief simple sentence . 11785_14560
+%mor:	conj|and pro:sub|I v|want inf|to v|put&ZERO pro:obj|them prep|in
+	det|a adj|brief adj|simple n|sentence .
+*INV:	doesn't matter what order you use them in . 14560_16742
+%mor:	mod|do&3S~neg|not v|matter pro:wh|what n|order pro|you v|use
+	pro:obj|them adv|in .
+*INV:	child@q and hospital@q . 16742_19076
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	they took their child to the hospital . 19076_21944
+%mor:	pro:sub|they v|take&PAST pro:poss:det|their n|child prep|to det|the
+	n|hospital .
+*INV:	cold@q and winter@q . 21944_24417
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	winter brings a_lot_of cold weather . 24417_27145
+%mor:	n|winter v|bring-3S qn|a_lot_of adj|cold n|weather .
+*INV:	okay ‡ now I'm going to give you three words . 27145_29550
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|three n|word-PL .
+*INV:	same thing . 29550_30361
+%mor:	adj|same n|thing .
+*INV:	chair@q doctor@q and sit@q . 30361_33763
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	we sat on a chair when we went to the doctor . 33763_39545
+%mor:	pro:sub|we v|sit&PAST prep|on det|a n|chair conj|when pro:sub|we
+	v|go&PAST prep|to det|the n|doctor .
+*PAR:	oh ‡ wait . [+ exc] 39545_39900
+%mor:	co|oh beg|beg co|wait .
+*PAR:	oh ‡ sit . [+ exc] 39900_40446
+%mor:	co|oh beg|beg v|sit .
+*PAR:	I said sat@q instead of sit@q +/. [+ exc] 40446_43569
+%mor:	pro:sub|I v|say&PAST meta|sat adv|instead prep|of meta|sit +/.
+*INV:	+< that's okay +/. 43002_43803
+%mor:	pro:dem|that~cop|be&3S adj|okay +/.
+*PAR:	+< xxx . [+ exc] 43803_45649
+*INV:	+< how_(a)bout bureau@q open@q and drawer@q ? 44400_47929
+%mor:	adv:wh|how_about meta|bureau meta|open conj|and meta|drawer ?
+*PAR:	open the bureau drawer and you'll find your clothes . 47929_51888
+%mor:	v|open det|the n|bureau n|drawer coord|and pro|you~mod|will v|find
+	pro:poss:det|your n:pt|clothes .
+*INV:	+< good . 50200_50815
+%mor:	adj|good .
+*INV:	good . 50815_52116
+%mor:	adj|good .
+@End

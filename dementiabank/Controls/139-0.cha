@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00002295-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|50;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	139-0c, audio
+*INV:	and that's the picture . 0_1629
+%mor:	conj|and pro:dem|that~cop|be&3S det|the n|picture .
+*PAR:	alright . [+ exc] 1629_4805
+%mor:	co|alright .
+*PAR:	I see the little boy taking cookies out of the cookie jar and handing them to a little girl . 4805_11704
+%mor:	pro:sub|I v|see det|the adj|little n|boy part|take-PRESP
+	n|cookie-PL adv|out prep|of det|the n|cookie n|jar coord|and
+	part|hand-PRESP pro:obj|them prep|to det|a adj|little n|girl .
+*PAR:	he is falling over on the stool . 11704_14231
+%mor:	pro:sub|he aux|be&3S part|fall-PRESP adv|over prep|on det|the
+	n|stool .
+*PAR:	she is telling him to be quiet . 14231_16675
+%mor:	pro:sub|she aux|be&3S part|tell-PRESP pro:obj|him inf|to cop|be
+	adj|quiet .
+*PAR:	&uh the mother is drying the dishes and the water is spilling out of the sink . 16675_25261
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP det|the n|dish-PL
+	coord|and det|the n|water aux|be&3S part|spill-PRESP adv|out prep|of
+	det|the n|sink .
+*PAR:	the window is opened it looks like . 25261_30053
+%mor:	det|the n|window aux|be&3S part|open-PASTP pro|it v|look-3S
+	prep|like .
+*PAR:	she is drying a dish . 30053_34376
+%mor:	pro:sub|she aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	she is standing in a puddle of water . 34376_36636
+%mor:	pro:sub|she aux|be&3S part|stand-PRESP prep|in det|a n|puddle
+	prep|of n|water .
+*PAR:	(...) that's all that I see . [+ exc] 36636_58746
+%mor:	pro:dem|that~cop|be&3S adv|all adv|that pro:sub|I v|see .
+*PAR:	&uh <action I mean> [//] you want something unusual out of the picture . [+ exc] 58746_64888
+%mor:	pro|you v|want pro:indef|something un#adj|usual adv|out prep|of
+	det|the n|picture .
+*PAR:	do you want cabinets dishes two cups a dish ? [+ exc] 64888_67611
+%mor:	mod|do pro|you v|want n|cabinet-PL v|dish-3S det:num|two n|cup-PL
+	det|a n|dish ?
+*INV:	no that's not necessary . 67611_69157
+%mor:	co|no pro:dem|that~cop|be&3S neg|not adj|necessary .
+*PAR:	no ? [+ exc] 69157_69700
+%mor:	co|no ?
+*INV:	+< it's what you see happening, things that are going on in the picture . 69199_72246
+%mor:	pro|it~aux|be&3S pro:wh|what pro|you v|see n:gerund|happen-PRESP
+	cm|cm n|thing-PL rel|that aux|be&PRES part|go-PRESP adv|on prep|in
+	det|the n|picture .
+*PAR:	+< okay, yeah . [+ exc] 70200_72000
+%mor:	co|okay cm|cm co|yeah .
+*PAR:	okay . [+ exc] 72246_74440
+%mor:	co|okay .
+*PAR:	I don't see anything outside . [+ exc] 74440_78052
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything adv|outside .
+*INV:	okay . 78052_79158
+%mor:	co|okay .
+@End

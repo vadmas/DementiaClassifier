@@ -1,0 +1,78 @@
+@UTF8
+@PID:	11312/t-00002665-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	493-0c, audio
+*PAR:	<where do you> [/] where do you mean in the picture ? [+ exc] 0_7565
+%mor:	adv:wh|where mod|do pro|you v|mean prep|in det|the n|picture ?
+*INV:	here's the picture . 7565_8706
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	tell me everything you see going on in that picture . 8706_11200
+%mor:	v|tell pro:obj|me pro:indef|everything pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|that n|picture .
+*PAR:	oh I see . [+ exc] 11201_12172
+%mor:	co|oh pro:sub|I v|see .
+*PAR:	you want me tell you now ? [+ gram] [+ exc] 12172_13350
+%mor:	pro|you v|want pro:obj|me v|tell pro|you adv|now ?
+*INV:	mhm . 13500_14180
+%mor:	co|yes .
+*PAR:	well the kids are up there at the cookie jar . 14180_17152
+%mor:	co|well det|the n|kid-PL cop|be&PRES prep|up adv|there prep|at
+	det|the n|cookie n|jar .
+*PAR:	they're gettin(g) cookies and she's dryin(g) dishes . 17152_20588
+%mor:	pro:sub|they~aux|be&PRES part|get-PRESP n|cookie-PL coord|and
+	pro:sub|she~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and &uh she's got her curtains all fixed up on the windows . 20588_28636
+%mor:	conj|and pro:sub|she~aux|be&3S part|get&PASTP pro:poss:det|her
+	n|curtain-PL adv|all part|fix-PASTP adv|up prep|on det|the
+	n|window-PL .
+*PAR:	and the kid is almost upset on that stool . 28636_32935
+%mor:	conj|and det|the n|kid aux|be&3S adv|almost adj|upset prep|on
+	det|that n|stool .
+*PAR:	I don't know how he could stand like that and get a picture taken . [+ exc] 32935_38708
+%mor:	pro:sub|I mod|do~neg|not v|know adv:wh|how pro:sub|he mod|could
+	v|stand prep|like pro:dem|that coord|and v|get det|a n|picture
+	part|take&PASTP .
+*INV:	okay . 38708_39860
+%mor:	co|okay .
+*PAR:	she's got an apron on . 39860_42413
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP det|a n|apron adv|on .
+*PAR:	cabinets here . [+ gram] 42413_44651
+%mor:	n|cabinet-PL adv|here .
+*INV:	can you see anything else going on here ?
+%mor:	mod|can pro|you v|see pro:indef|anything post|else part|go-PRESP
+	prep|on pro:dem|here ?
+*PAR:	it seemed like there's water &spl splattered over . 48296_51900
+%mor:	pro|it v|seem-PAST co|like pro:exist|there~cop|be&3S n|water
+	v|splatter-PAST adv|over .
+*PAR:	isn't that out o(f)  the sink ? [+ exc] 51900_53200
+%mor:	cop|be&3S~neg|not pro:dem|that adv|out prep|of det|the n|sink ?
+*INV:	&k okay . 53100_54200
+%mor:	co|okay .
+*PAR:	+< isn't that water ? [+ exc] 53333_54489
+%mor:	cop|be&3S~neg|not pro:dem|that v|water ?
+*PAR:	and &uh I see a big plate and couple saucers like . 54489_60915
+%mor:	conj|and pro:sub|I v|see det|a adj|big n|plate coord|and n|couple
+	n|saucer-PL prep|like .
+*PAR:	and I don't know about the curtains . 60915_64738
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know prep|about det|the
+	n|curtain-PL .
+*PAR:	the curtains got different [//] something made there . [+ es] 64738_70580
+%mor:	det|the n|curtain-PL v|get&PAST pro:indef|something v|make&PAST
+	adv|there .
+*PAR:	she must have one of those double aprons back and front is it . [+ gram] 70580_76557
+%mor:	pro:sub|she mod|must v|have det:num|one prep|of det|those
+	adj|double n|apron-PL adv|back coord|and v|front aux|be&3S pro|it .
+*PAR:	and the kids are at the cookie jar . 76557_79343
+%mor:	conj|and det|the n|kid-PL cop|be&PRES prep|at det|the n|cookie
+	n|jar .
+*INV:	okay ? 79343_82050
+%mor:	co|okay ?
+*PAR:	yeah . [+ exc] 82222_83001
+%mor:	co|yeah .
+*INV:	okay . 83001_83600
+%mor:	co|okay .
+@End

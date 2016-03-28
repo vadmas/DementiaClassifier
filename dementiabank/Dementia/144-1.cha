@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00002515-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	144-1c, audio
+*INV:	look at that picture and tell me what you see going on . 0_3567
+%mor:	v|look prep|at det|that n|picture coord|and v|tell pro:obj|me
+	pro:wh|what pro|you v|see n:gerund|go-PRESP adv|on .
+*PAR:	an average home that looks very much like ours at many times . [+ gram] 3567_8311
+%mor:	det|a n|average n|home rel|that v|look-3S adv|very qn|much
+	prep|like pro:poss|ours prep|at qn|many n|time-PL .
+*PAR:	<and the mother is> [//] well she's spilling her water which is not very good but she's doing [//] washing dishes and drying them . 8311_17400
+%mor:	co|well pro:sub|she~aux|be&3S part|spill-PRESP pro:poss:det|her
+	n|water rel|which cop|be&3S neg|not adv|very adj|good conj|but
+	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL coord|and
+	part|dry-PRESP pro:obj|them .
+*PAR:	and one of the children upset the cookie jar . 17400_19828
+%mor:	coord|and det:num|one prep|of det|the n|child&PL v|upset det|the
+	n|cookie n|jar .
+*PAR:	and that's an [: a] [* f:p] very average thing to go in [: on] [* s:r] in a home . 19828_23454
+%mor:	conj|and pro:dem|that~cop|be&3S det|a adv|very adj|average n|thing
+	inf|to v|go adv|on prep|in det|a n|home .
+*PAR:	our home <is a very> [/] it's a very active family . [+ exc] 23454_29043
+%mor:	pro:poss:det|our n|home pro|it~cop|be&3S det|a adv|very adj|active
+	n|family .
+*PAR:	and so that it makes it kinda [: kind_of] hard at our house sometime because &uh there's <a_lot_of> [//] &ac like I said a_lot_of activity . [+ exc] 29043_37430
+%mor:	conj|and co|so pro:dem|that pro|it v|make-3S pro|it adv|kind_of
+	adv|hard prep|at pro:poss:det|our n|house adv|sometime conj|because
+	pro:exist|there~cop|be&3S rel|like pro:sub|I v|say&PAST qn|a_lot_of
+	n|activity .
+*INV:	okay you see anything else going on over here ? 37430_41757
+%mor:	co|okay pro|you v|see pro:indef|anything post|else part|go-PRESP
+	adv|on prep|over pro:dem|here ?
+*PAR:	well the poor girl is spillin(g) the water on her feet . 41757_45000
+%mor:	co|well det|the adj|poor n|girl aux|be&3S part|spill-PRESP det|the
+	n|water prep|on pro:poss:det|her n|foot&PL .
+*PAR:	it's gonna [: going to] be &k wet but then she'll have to struggle with that . 45000_48402
+%mor:	pro|it~aux|be&3S part|go-PRESP inf|to cop|be adj|wet conj|but
+	adv:tem|then pro:sub|she~mod|will v|have inf|to v|struggle prep|with
+	pro:dem|that .
+*PAR:	also there are a few more dishes left that didn't get finished . 48402_52697
+%mor:	adv|also pro:dem|there cop|be&PRES det|a qn|few qn|more n|dish-PL
+	adj|left adv|that mod|do&PAST~neg|not v|get part|finish-PASTP .
+*PAR:	this has to be the dishes . 52697_55200
+%mor:	pro:dem|this aux|have&3S inf|to cop|be det|the n|dish-PL .
+*PAR:	and how that little boy fell off that stool I don't know but he did . 55200_59468
+%mor:	coord|and adv:wh|how det|that adj|little n|boy v|fall&PAST prep|off
+	det|that n|stool pro:sub|I mod|do~neg|not v|know conj|but pro:sub|he
+	v|do&PAST .
+*INV:	anything else ? 59468_64432
+%mor:	pro:indef|anything post|else ?
+*PAR:	no . [+ exc] 64432_65432
+%mor:	co|no .
+*INV:	okay . 65432_70070
+%mor:	co|okay .
+@End

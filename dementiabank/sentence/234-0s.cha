@@ -1,0 +1,176 @@
+@UTF8
+@PID:	11312/t-00016606-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|male|Vascular||Participant|16||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	234-0s, audio, missing
+*INV:	the first word is pencil@q . 0_3208
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*PAR:	the first word is pencil@q . [+ exc] 3208_5993
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*INV:	can you use the word in pencil@q in a sentence ? 5993_8826
+%mor:	mod|can pro|you v|use det|the n|word prep|in meta|pencil prep|in
+	det|a n|sentence ?
+*PAR:	&=clears:throat utilization <of a> [/] of a pencil in order to &=clears:throat predict the future (.) gives those who
+	are about to +/. [+ exc] 8826_19750
+%mor:	n|utilization prep|of det|a n|pencil prep|in n|order inf|to
+	v|predict det|the n|future v|give-3S det|those rel|who cop|be&PRES
+	adv|about prep|to +/.
+*INV:	okay ‡ hold on . 19750_20637
+%mor:	co|okay beg|beg v|hold adv|on .
+*PAR:	oh ‡ hell ‡ I'll [//] we'll just &=laughs +... [+ exc] 20637_24297
+%mor:	co|oh beg|beg co|hell beg|beg pro:sub|we~mod|will adv|just +...
+*INV:	sorry ‡ you've got “utilization of a pencil in order to predict the
+	future gives those (..) who” what ? 24297_37308
+%mor:	co|sorry beg|beg pro|you~aux|have part|get&PASTP bq|bq
+	n|utilization prep|of det|a n|pencil prep|in n|order inf|to
+	v|predict det|the n|future v|give-3S det|those rel|who eq|eq
+	pro:wh|what ?
+*PAR:	would you read that all over again . [+ exc] 37308_39350
+%mor:	mod|will&COND pro|you v|read&ZERO det|that adv|all adv|over
+	adv|again .
+*PAR:	I don't know . [+ exc] 39350_39899
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	+< okay ‡ let me give you the word again . 39799_41556
+%mor:	co|okay beg|beg v|let&ZERO pro:obj|me v|give pro|you det|the n|word
+	adv|again .
+*INV:	the word is pencil@q . 41556_43019
+%mor:	det|the n|word aux|be&3S meta|pencil .
+*PAR:	pencil@q ? [+ exc] 43019_43982
+%mor:	meta|pencil ?
+*INV:	+< use [//] yeah ‡ use the word pencil@q in a brief simple sentence
+	. 43650_47818
+%mor:	co|yeah beg|beg v|use det|the n|word meta|pencil prep|in det|a
+	adj|brief adj|simple n|sentence .
+*PAR:	mhm . [+ exc] 47818_48355
+%mor:	co|yes .
+*PAR:	you want me to put it into another sentence ? [+ exc]
+	48355_52364
+%mor:	pro|you v|want pro:obj|me inf|to v|put&ZERO pro|it prep|into
+	qn|another n|sentence ?
+*INV:	+< yeah . 52064_52390
+%mor:	co|yeah .
+*PAR:	in other words . [+ exc] 52364_53168
+%mor:	prep|in qn|other n|word-PL .
+*INV:	mhm . 53168_53851
+%mor:	co|yes .
+*PAR:	&=clears:throat the pencil is [/] is very much a necessity in
+	keeping good books . 53851_61440
+%mor:	det|the n|pencil aux|be&3S adv|very adv|much det|a n|necessity
+	prep|in part|keep-PRESP adj|good n|book-PL .
+*INV:	(..) now then ‡ use the word tree@q . 61440_74641
+%mor:	adv|now adv:tem|then beg|beg v|use det|the n|word meta|tree .
+*PAR:	trim . [+ exc] 74641_76097
+%mor:	adj|trim .
+*INV:	tree@q . 76097_76991
+%mor:	meta|tree .
+*PAR:	tree@q . [+ exc] 76991_77676
+%mor:	meta|tree .
+*INV:	in a brief simple sentence . 77676_79243
+%mor:	prep|in det|a adj|brief adj|simple n|sentence .
+*INV:	the word tree@q . 79243_80288
+%mor:	det|the n|word meta|tree .
+*PAR:	&=clears:throat that's what Joyce_Kilmer said +"/. [+ exc] 80288_83809
+%mor:	pro:dem|that~cop|be&3S pro:wh|what n:prop|Joyce_Kilmer v|say&PAST
+	+"/.
+*PAR:	+" I think that I shall never see a poem lovely as a tree, poems are
+	written by fools like me but only god can make a tree . 83809_95600
+%mor:	pro:sub|I v|think rel|that pro:sub|I mod|shall adv|never v|see
+	det|a n|poem adj|love&dn-LY prep|as det|a n|tree cm|cm n|poem-PL
+	aux|be&PRES part|write&PASTP prep|by n|fool-PL prep|like pro:obj|me
+	conj|but qn|only n|god mod|can v|make det|a n|tree .
+*INV:	okay . 95600_98245
+%mor:	co|okay .
+*INV:	now +/. 98245_99132
+%mor:	adv|now +/.
+*PAR:	+< wasn't that good ? [+ exc] 98480_99680
+%mor:	cop|be&PAST&13S~neg|not det|that adj|good ?
+*INV:	that was very nice . 99680_101207
+%mor:	pro:dem|that cop|be&PAST&13S adv|very adj|nice .
+*INV:	now ‡ I'm gonna give you two words . 101207_103150
+%mor:	adv|now beg|beg pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give
+	pro|you det:num|two n|word-PL .
+*INV:	and I want you to use both words in one brief simple sentence . 103150_109272
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL
+	prep|in pro:indef|one adj|brief adj|simple n|sentence .
+*INV:	the words are child@q hospital@q . 109272_113659
+%mor:	det|the n|word-PL aux|be&PRES meta|child meta|hospital .
+*PAR:	child@q hospital@q . [+ exc] 113659_115075
+%mor:	meta|child meta|hospital .
+*INV:	+< mhm . 115075_115791
+%mor:	co|yes .
+*PAR:	I was talkin(g) to Ben the other day and he had to take his child to
+	the hospital .  115791_121581
+%mor:	pro:sub|I aux|be&PAST&13S part|talk-PRESP prep|to n:prop|Ben
+	det|the qn|other n|day coord|and pro:sub|he v|have&PAST inf|to
+	v|take pro:poss:det|his n|child prep|to det|the n|hospital .
+*INV:	okay ‡ now then ‡ I'm gonna to give you two more words . 121581_125100
+%mor:	co|okay beg|beg adv|now adv:tem|then beg|beg pro:sub|I~aux|be&1S
+	part|go-PRESP~inf|to inf|to v|give pro|you det:num|two adv|more
+	n|word-PL .
+*INV:	use both these words in one brief simple sentence . 125100_130315
+%mor:	v|use qn|both det|these n|word-PL prep|in pro:indef|one adj|brief
+	adj|simple n|sentence .
+*INV:	cold@q winter@q . 130315_132987
+%mor:	meta|cold meta|winter .
+*PAR:	&=clears:throat sure a cold winter . 132987_136929
+%mor:	adj|sure det|a adj|cold n|winter .
+*INV:	sorry ? 136929_137832
+%mor:	co|sorry ?
+*PAR:	sure a cold winter . [+ exc] 137832_139850
+%mor:	adj|sure det|a adj|cold n|winter .
+*INV:	sure a cold winter . 139780_141200
+%mor:	adj|sure det|a adj|cold n|winter .
+*INV:	now ‡ I'm gonna give you three words . 141200_146202
+%mor:	adv|now beg|beg pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give
+	pro|you det:num|three n|word-PL .
+*INV:	and I want you to use all three words in one brief simple sentence .
+	146202_150793
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use adv|all
+	det:num|three n|word-PL prep|in pro:indef|one adj|brief adj|simple
+	n|sentence .
+*INV:	and you don't need to worry about the order . 150793_152830
+%mor:	conj|and pro|you mod|do~neg|not v|need inf|to v|worry prep|about
+	det|the n|order .
+*INV:	chair@q . 152830_155148
+%mor:	meta|chair .
+*PAR:	Chaz@q ? [+ exc] 155148_156303
+%mor:	meta|Chaz ?
+*INV:	chair@q . 156303_156987
+%mor:	meta|chair .
+*PAR:	oh ‡ a chair@q . [+ exc] 156987_158061
+%mor:	co|oh beg|beg det|a meta|chair .
+*INV:	doctor@q +/. 158061_159092
+%mor:	meta|doctor +/.
+*PAR:	chair@q doctor@q . [+ exc] 159092_160267
+%mor:	meta|chair meta|doctor .
+*INV:	sit@q . 160267_161175
+%mor:	meta|sit .
+*PAR:	&=clears:throat . [+ exc] 161175_162773
+*INV:	sit@q . 162773_163807
+%mor:	meta|sit .
+*INV:	okay . 163807_165206
+%mor:	co|okay .
+*PAR:	the doctor put the sick in the chair . 165206_169703
+%mor:	det|the n|doctor v|put&ZERO det|the n|sick prep|in det|the n|chair
+	.
+*PAR:	did I get all of (th)em ? [+ exc] 169703_173954
+%mor:	mod|do&PAST pro:sub|I v|get qn|all prep|of pro:obj|them ?
+*INV:	mhm . 173954_174871
+%mor:	co|yes .
+*INV:	now then ‡ bureau@q open@q drawer@q . 174871_183056
+%mor:	adv|now adv:tem|then beg|beg meta|bureau meta|open meta|drawer .
+*PAR:	the house was ransacked, the drawer of the bureau was opened .
+	183056_190837
+%mor:	det|the n|house aux|be&PAST&13S part|ransack-PASTP cm|cm det|the
+	n|drawer prep|of det|the n|bureau aux|be&PAST&13S part|open-PASTP .
+*PAR:	(.) I got all three of (th)em „ didn't I ? [+ exc] 190837_195040
+%mor:	pro:sub|I v|get&PAST adv|all det:num|three prep|of pro:obj|them
+	end|end mod|do&PAST~neg|not pro:sub|I ?
+*INV:	mhm . 195040_195850
+%mor:	co|yes .
+*INV:	(..) okay . 195850_202945
+%mor:	co|okay .
+@End

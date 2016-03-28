@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002217-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|67;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	052-0c, audio
+*INV:	that's the picture . 0_2460
+%mor:	pro:dem|that~cop|be&3S det|the n|picture .
+*PAR:	a boy is taking &uh  cookies from the cookie jar giving one to his sister . 2460_8778
+%mor:	det|a n|boy aux|be&3S part|take-PRESP n|cookie-PL prep|from det|the
+	n|cookie n|jar part|give-PRESP det:num|one prep|to pro:poss:det|his
+	n|sister .
+*PAR:	he's also falling off the stool he is on . 8778_11522
+%mor:	pro:sub|he~aux|be&3S adv|also part|fall-PRESP prep|off det|the
+	n|stool pro:sub|he cop|be&3S adv|on .
+*PAR:	the mother is washing dishes . 11522_14064
+%mor:	det|the n|mother aux|be&3S part|wash-PRESP n|dish-PL .
+*PAR:	she's letting the sink overflow . 14064_16275
+%mor:	pro:sub|she~aux|be&3S part|let-PRESP det|the n|sink over#v|flow .
+*PAR:	it's getting all over the floor . 16275_19689
+%mor:	pro|it~aux|be&3S part|get-PRESP adv|all prep|over det|the n|floor .
+*PAR:	I see nothing further . [+ exc] 19689_25495
+%mor:	pro:sub|I v|see pro:indef|nothing adv|further .
+*PAR:	(...) the girl is saying be quiet <if that> [/] if that counts . 25495_38039
+%mor:	det|the n|girl aux|be&3S part|say-PRESP aux|be n|quiet conj|if
+	adv|that v|count-3S .
+*INV:	+< okay . 36539_37536
+%mor:	co|okay .
+*INV:	mhm . 37536_38285
+%mor:	co|yes .
+*INV:	that's fine . 38285_39648
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+*PAR:	I don't know what the mother gets by standing in all the water . [+ exc] 39648_46400
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what det|the n|mother
+	v|get-3S adv|by part|stand-PRESP prep|in qn|all det|the n|water .
+*PAR:	I don't think that's very important . [+ exc] 46400_49616
+%mor:	pro:sub|I mod|do~neg|not v|think rel|that~aux|be&3S adv|very
+	adj|important .
+*PAR:	that's all I see . [+ exc] 49616_50655
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:sub|I v|see .
+*INV:	okay thank you . 50655_51909
+%mor:	co|okay v|thank pro|you .
+*PAR:	+< <what have> [/] what have I missed ? [+ exc] 51209_53650
+%mor:	pro:wh|what v|have pro:sub|I v|miss-PAST ?
+@End

@@ -1,0 +1,51 @@
+@UTF8
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|female|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	310-0s, audio
+*INV:	use the word pencil@q in a brief simple sentence . 0_11100
+%mor:	v|use det|the n|word meta|pencil prep|in det|a adj|brief adj|simple
+	n|sentence .
+*PAR:	I need a pencil . 11100_13892
+%mor:	pro:sub|I v|need det|a n|pencil .
+*INV:	(..) tree@q . 13892_19128
+%mor:	meta|tree .
+*PAR:	(..) I have a tree in my yard . 19128_25695
+%mor:	pro:sub|I v|have det|a n|tree prep|in pro:poss:det|my n|yard .
+*INV:	(...) I'm going to give you two words . 25695_36357
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you det:num|two
+	n|word-PL .
+*INV:	child@q and hospital@q . 36357_38365
+%mor:	meta|child coord|and meta|hospital .
+*INV:	can you put them into the same sentence ? 38365_41076
+%mor:	mod|can pro|you v|put&ZERO pro:obj|them prep|into det|the adj|same
+	n|sentence ?
+*PAR:	my child is in the hospital . 41076_43188
+%mor:	pro:poss:det|my n|child cop|be&3S prep|in det|the n|hospital .
+*PAR:	(..) xxx . [+ exc] 43188_50400
+*INV:	&=laughs that's right it is .  50200_52200
+%mor:	pro:dem|that~cop|be&3S adj|right pro|it cop|be&3S .
+*INV:	cold@q and winter@q . 52200_54815
+%mor:	meta|cold coord|and meta|winter .
+*PAR:	I get very cold in the winter . 54815_59886
+%mor:	pro:sub|I aux|get adv|very adv|cold prep|in det|the n|winter .
+*INV:	(..) okay . 59886_69875
+%mor:	co|okay .
+*INV:	now I'm gonna give you three words and I'd like you to
+	use all three in the same sentence . 69875_74875
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL coord|and pro:sub|I~mod|genmod v|like
+	pro|you prep|to n|use adv|all det:num|three prep|in det|the adj|same
+	n|sentence .
+*INV:	chair@q doctor@q and sit@q . 74875_81459
+%mor:	meta|chair meta|doctor coord|and meta|sit .
+*PAR:	I sit in the chair and for the doctor . 81459_89349
+%mor:	pro:sub|I v|sit prep|in det|the n|chair coord|and conj|for det|the
+	n|doctor .
+*INV:	(..) okay ‡ bureau@q open@q and drawer@q . 89349_103205
+%mor:	co|okay beg|beg meta|bureau meta|open coord|and meta|drawer .
+*PAR:	(..) I left the bureau drawer open . 103205_112353
+%mor:	pro:sub|I v|leave&PAST det|the n|bureau n|drawer adj|open .
+@End

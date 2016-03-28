@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/t-00002396-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|57;|female|Control||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	302-0c, audio
+@Comment:	overlapping audio
+*INV:	just tell me all of the action . 0_1963
+%mor:	adv|just v|tell pro:obj|me adv|all prep|of det|the n|action .
+*PAR:	little girl with her finger to her lips . [+ gram] 1963_7624
+%mor:	adj|little n|girl prep|with pro:poss:det|her n|finger prep|to
+	pro:poss:det|her n|lip-PL .
+*PAR:	the boy on the stool . [+ gram] 7624_11845
+%mor:	det|the n|boy prep|on det|the n|stool .
+*PAR:	stool tipping over . [+ gram] 11845_15783
+%mor:	n|stool part|tip-PRESP adv|over .
+*PAR:	getting cookies out of the cookie jar . [+ gram] 15783_21012
+%mor:	part|get-PRESP n|cookie-PL adv|out prep|of det|the n|cookie n|jar .
+*PAR:	&uh mother washing dishes . [+ gram] 21012_25898
+%mor:	n|mother part|wash-PRESP n|dish-PL .
+*PAR:	water running . [+ gram] 25898_28871
+%mor:	n|water part|run-PRESP .
+*PAR:	sink overflowing . [+ gram] 28871_32125
+%mor:	n|sink over#part|flow-PRESP .
+*PAR:	xxx those curtains are blowing or not . 32125_38318
+%mor:	det|those n|curtain-PL aux|be&PRES part|blow-PRESP coord|or neg|not
+	.
+*PAR:	(..) that's about it . [+ exc] 38318_47485
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay good . 47485_48372
+%mor:	co|okay adj|good .
+@End

@@ -1,0 +1,45 @@
+@UTF8
+@PID:	11312/t-00002588-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|MCI||Participant|26||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	260-2c, audio
+*INV:	I'd like for you to take a look at this picture . 0_2897
+%mor:	pro:sub|I~mod|genmod co|like prep|for pro|you inf|to v|take det|a
+	n|look prep|at det|this n|picture .
+*INV:	take a look at that picture and tell me everything that you see happening in that picture . 2897_7800
+%mor:	v|take det|a n|look prep|at det|that n|picture coord|and v|tell
+	pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|happen-PRESP prep|in det|that n|picture .
+*INV:	everything's that going on there . 7800_10334
+%mor:	pro:indef|everything~aux|be&3S adv|that part|go-PRESP prep|on
+	pro:dem|there .
+*PAR:	the boy's in the cookie jar but the stool is lopsided . 10334_21522
+%mor:	det|the n|boy~cop|be&3S prep|in det|the n|cookie n|jar conj|but
+	det|the n|stool cop|be&3S adj|lopsided .
+*PAR:	he couldn't be standing like that . 21522_23641
+%mor:	pro:sub|he mod|could~neg|not aux|be part|stand-PRESP prep|like
+	pro:dem|that .
+*PAR:	on a stool on two legs . [+ gram] 23641_26348
+%mor:	prep|on det|a n|stool prep|on det:num|two n|leg-PL .
+*PAR:	and the mother's lettin(g) the water run over the sink . 26348_33788
+%mor:	conj|and det|the n|mother~aux|be&3S part|let-PRESP det|the n|water
+	v|run prep|over det|the n|sink .
+*PAR:	(...) well I assume she's already washed the plate that she's drying . 33788_53800
+%mor:	co|well pro:sub|I v|assume pro:sub|she~aux|be&3S adv|already
+	v|wash-PAST det|the n|plate rel|that pro:sub|she~aux|be&3S
+	part|dry-PRESP .
+*PAR:	I don't know what else she is &=laughs . [+ exc] 53800_55700
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what post|else pro:sub|she
+	cop|be&3S .
+*PAR:	whether that would be mistake or not . [+ gram]  [+ exc] 55700_61028
+%mor:	conj|whether pro:dem|that mod|will&COND cop|be n|mistake coord|or
+	neg|not .
+*PAR:	(..) that's about all I can see there . [+ exc] 61028_70455
+%mor:	pro:dem|that~cop|be&3S adv|about adv|all pro:sub|I mod|can v|see
+	adv|there .
+*INV:	okay that's fine . 70455_72822
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

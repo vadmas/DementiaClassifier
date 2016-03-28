@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/t-00002531-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|55;|female|ProbableAD||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	178-0c, audio
+*INV:	just tell me all of the action that you see going on in the picture . 0_3845
+%mor:	adv|just v|tell pro:obj|me adv|all prep|of det|the n|action
+	rel|that pro|you v|see n:gerund|go-PRESP adv|on prep|in det|the
+	n|picture .
+*PAR:	&uh (.) the boy is to get in the cookie jar . 3845_17792
+%mor:	det|the n|boy cop|be&3S inf|to v|get prep|in det|the n|cookie n|jar
+	.
+*PAR:	and he's fallin(g) over . 17792_20543
+%mor:	conj|and pro:sub|he~aux|be&3S part|fall-PRESP adv|over .
+*PAR:	and the girl is &k <handing I_mean (.) &uh handing his> [//] holding up his [: her] [* s:r] hand .  20543_41260
+%mor:	conj|and det|the n|girl aux|be&3S part|hold-PRESP prep|up
+	pro:poss:det|her n|hand .
+*PAR:	and &uh the sink is runnin(g) over . 41260_48340
+%mor:	conj|and det|the n|sink aux|be&3S part|run-PRESP adv|over .
+*PAR:	and the <cookie jar> [//] &uh mother is dryin(g) dishes  . 48340_53700
+%mor:	conj|and det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	and [/] and &um +...  53700_75117
+%mor:	conj|and +...
+*INV:	can you think of anything else that's going on ? 75117_78255
+%mor:	mod|can pro|you v|think prep|of pro:indef|anything post|else
+	rel|that~aux|be&3S part|go-PRESP adv|on ?
+*INV:	(..) is there any more action ? 78255_89365
+%mor:	cop|be&3S adv|there qn|any adv|more n|action ?
+*INV:	no ? 95219_96743
+%mor:	co|no ?
+*INV:	(...) okay that's fine . 96743_121566
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

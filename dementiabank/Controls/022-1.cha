@@ -1,0 +1,34 @@
+@UTF8
+@PID:	11312/t-00002201-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|80;|female|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	022-1c, audio
+*INV:	xxx . 0_1560
+*PAR:	I see a little boy on a stool trying to reach the cookie jar . 1560_7000
+%mor:	pro:sub|I v|see det|a adj|little n|boy prep|on det|a n|stool
+	part|try-PRESP inf|to v|reach det|the n|cookie n|jar .
+*PAR:	he's got one in his hand that to his little sister . [+ gram] 7068_10400
+%mor:	pro:sub|he~aux|be&3S part|get&PASTP pro:indef|one prep|in
+	pro:poss:det|his n|hand rel|that prep|to pro:poss:det|his adj|little
+	n|sister .
+*PAR:	and the stool is falling over tipping . 10460_14085
+%mor:	conj|and det|the n|stool aux|be&3S part|fall-PRESP adv|over
+	part|tip-PRESP .
+*PAR:	and <the lady is> [//] (gue)ss mama is standin(g) by the sink washin(g) dishes . 14085_23035
+%mor:	conj|and n|guess n|mama aux|be&3S part|stand-PRESP prep|by det|the
+	n|sink part|wash-PRESP n|dish-PL .
+*PAR:	and the water's running over on the floor . 23035_25696
+%mor:	conj|and det|the n|water~aux|be&3S part|run-PRESP adv|over prep|on
+	det|the n|floor .
+*PAR:	and outside you can see the walk and the shrubbery . 25696_31812
+%mor:	coord|and out#v|side pro|you mod|can v|see det|the n|walk coord|and
+	det|the n|shrubbery .
+*PAR:	and there's some dishes setting on the counter . 31812_37945
+%mor:	conj|and pro:exist|there~cop|be&3S qn|some n|dish-PL part|set-PRESP
+	prep|on det|the n|counter .
+*PAR:	and that's all I see . [+ exc] 37945_39890
+%mor:	conj|and pro:dem|that~cop|be&3S pro:indef|all pro:sub|I v|see .
+@End

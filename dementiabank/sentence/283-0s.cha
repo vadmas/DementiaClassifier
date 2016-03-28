@@ -1,0 +1,94 @@
+@UTF8
+@PID:	11312/t-00016626-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|61;|female|ProbableAD||Participant|23||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	283-0s, audio
+*PAR:	mhm . [+ exc] 0_1090
+%mor:	co|yes .
+*INV:	the first word is pencil@q . 1090_3628
+%mor:	det|the adj|first n|word aux|be&3S meta|pencil .
+*PAR:	you can write a note . 3628_5200
+%mor:	pro|you mod|can v|write det|a n|note .
+*INV:	&=clears:throat . 5200_9000
+*INV:	tree@q . 9000_10273
+%mor:	meta|tree .
+*PAR:	&uh the tree has (.) leaves . 10273_14803
+%mor:	det|the n|tree aux|have&3S n|leaf-PL .
+*PAR:	they're about to fall down . [+ exc] 14803_16157
+%mor:	pro:sub|they~aux|be&PRES adv|about inf|to v|fall adv|down .
+*INV:	(..) okay ‡ now I'm going to give you two words . 16157_25245
+%mor:	co|okay beg|beg adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to
+	v|give pro|you det:num|two n|word-PL .
+*INV:	and I want you to use both words . 25145_27080
+%mor:	conj|and pro:sub|I v|want pro|you inf|to v|use qn|both n|word-PL .
+*PAR:	+< mhm . [+ exc] 25245_25883
+%mor:	co|yes .
+*PAR:	together . [+ exc] 27080_27432
+%mor:	adv|together .
+*INV:	in one sentence . 27432_28927
+%mor:	prep|in det:num|one n|sentence .
+*PAR:	+< mhm . [+ exc] 28227_29051
+%mor:	co|yes .
+*INV:	you don't need to worry about the order . 29051_30704
+%mor:	pro|you mod|do~neg|not v|need inf|to v|worry prep|about det|the
+	n|order .
+*PAR:	mhm . [+ exc] 30704_31127
+%mor:	co|yes .
+*INV:	the first two words are child@q hospital@q . 31127_35269
+%mor:	det|the n|first det:num|two n|word-PL aux|be&PRES meta|child
+	meta|hospital .
+*PAR:	&uh the child was rushed to the hospital . 35269_39735
+%mor:	det|the n|child aux|be&PAST&13S part|rush-PASTP prep|to det|the
+	n|hospital .
+*INV:	(..) cold@q winter@q . 39735_48249
+%mor:	meta|cold meta|winter .
+*PAR:	it [//] during a cold winter you stay at home and don't go out unless
+	you're needed . 48249_55378
+%mor:	prep|during det|a adj|cold n|winter pro|you v|stay prep|at n|home
+	coord|and mod|do~neg|not v|go adv|out conj|unless
+	pro|you~aux|be&PRES part|need-PASTP .
+*PAR:	&=coughs . [+ exc] 55378_58660
+*INV:	(..) now I'm going to give you three words . 58660_70579
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|three n|word-PL .
+*PAR:	mhm . [+ exc] 70579_70845
+%mor:	co|yes .
+*INV:	and I want you to use all three words . 70845_73538
+%mor:	conj|and pro:sub|I v|want pro|you prep|to n|use adv|all
+	det:num|three n|word-PL .
+*PAR:	+< mhm . [+ exc] 72850_73440
+%mor:	co|yes .
+*INV:	in one brief simple sentence . 73440_75200
+%mor:	prep|in det:num|one adj|brief adj|simple n|sentence .
+*PAR:	+< okay . [+ exc] 75200_75466
+%mor:	co|okay .
+*INV:	you don't need to worry about the order . 75466_77631
+%mor:	pro|you mod|do~neg|not v|need inf|to v|worry prep|about det|the
+	n|order .
+*PAR:	+< mhm . [+ exc] 77039_77834
+%mor:	co|yes .
+*INV:	chair@q [/] chair@q . 77834_81222
+%mor:	meta|chair .
+*PAR:	oh ‡ yes  uhhuh . [+ exc] 81222_82857
+%mor:	co|oh beg|beg co|yes co|uhhuh .
+*INV:	doctor@q . 82857_83566
+%mor:	meta|doctor .
+*PAR:	+< mhm . [+ exc] 83566_84259
+%mor:	co|yes .
+*INV:	sit@q . 84259_85816
+%mor:	meta|sit .
+*PAR:	(.) &hm we had to sit in a chair before the doctor came . 85100_90781
+%mor:	pro:sub|we v|have&PAST inf|to v|sit prep|in det|a n|chair
+	prep|before det|the n|doctor v|come&PAST .
+*INV:	(...) bureau@q open@q . 90781_104372
+%mor:	meta|bureau meta|open .
+*INV:	drawer@q . 104372_105426
+%mor:	meta|drawer .
+*PAR:	mhm . [+ exc] 105426_106344
+%mor:	co|yes .
+*PAR:	somebody opened the bureau drawer . 106344_109444
+%mor:	pro:indef|somebody v|open-PAST det|the n|bureau n|drawer .
+@End

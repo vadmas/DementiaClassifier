@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00002261-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|49;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	113-2c, audio
+*INV:	okay and there's the picture . 0_1713
+%mor:	co|okay coord|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	okay ? [+ exc] 1713_4767
+%mor:	co|okay ?
+*INV:	mhm .4767_5182
+%mor:	co|yes .
+*PAR:	it's a mother washing dishes . 5182_7626
+%mor:	pro|it~cop|be&3S det|a n|mother part|wash-PRESP n|dish-PL .
+*PAR:	she's left the water on . 7626_8892
+%mor:	pro:sub|she~aux|be&3S part|leave&PASTP det|the n|water adv|on .
+*PAR:	the water is running on the floor .8892_10505
+%mor:	det|the n|water aux|be&3S part|run-PRESP prep|on det|the n|floor .
+*PAR:	&um there's a child reaching for cookies .10505_15204
+%mor:	pro:exist|there~cop|be&3S det|a n|child part|reach-PRESP prep|for
+	n|cookie-PL .
+*PAR:	he's handing a cookie to it looks like his sister .15204_18477
+%mor:	pro:sub|he~aux|be&3S part|hand-PRESP det|a n|cookie prep|to pro|it
+	v|look-3S prep|like pro:poss:det|his n|sister .
+*PAR:	he's on a stool that's falling over .18477_20847
+%mor:	pro:sub|he~cop|be&3S prep|on det|a n|stool rel|that~aux|be&3S
+	part|fall-PRESP adv|over .
+*PAR:	the wind's blowing .20847_22703
+%mor:	det|the n|wind~aux|be&3S part|blow-PRESP .
+*PAR:	the curtains are waving .22703_25388
+%mor:	det|the n|curtain-PL aux|be&PRES part|wave-PRESP .
+*PAR:	&uh (.) the mother's looking out the window instead of at the boy .25388_33291
+%mor:	det|the n|mother~aux|be&3S part|look-PRESP prep|out det|the
+	n|window adv|instead prep|of prep|at det|the n|boy .
+*PAR:	the girl's hungry and she's pointing to her mouth .33291_36499
+%mor:	det|the n|girl~poss|s adj|hungry coord|and pro:sub|she~aux|be&3S
+	part|point-PRESP prep|to pro:poss:det|her n|mouth .
+*PAR:	she's got her hand upraised .36499_38490
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP pro:poss:det|her n|hand
+	up#v|raise-PAST .
+*PAR:	the [/] the floor's gonna [: going to] be soaked with the water . 38540_42731
+%mor:	det|the n|floor~aux|be&3S part|go-PRESP inf|to aux|be
+	part|soak-PASTP prep|with det|the n|water .
+*PAR:	the mother's gonna [: going to] have wet shoes .42731_44147
+%mor:	det|the n|mother~aux|be&3S part|go-PRESP inf|to v|have adj|wet
+	n|shoe-PL .
+*PAR:	it's running into her shoes .44147_45710
+%mor:	pro|it~aux|be&3S part|run-PRESP prep|into pro:poss:det|her
+	n|shoe-PL .
+*PAR:	and that's about all I can see . [+ exc] 45710_50903
+%mor:	conj|and pro:dem|that~cop|be&3S adv|about adv|all pro:sub|I mod|can
+	v|see .
+*PAR:	the door's open <for the> [//] to the cupboard .50903_52932
+%mor:	det|the n|door~aux|be&3S adv|open prep|to det|the n|cupboard .
+*INV:	okay good .52932_57399
+%mor:	co|okay adj|good .
+@End

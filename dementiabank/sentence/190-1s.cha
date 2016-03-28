@@ -1,0 +1,50 @@
+@UTF8
+@PID:	11312/t-00016583-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|69;|male|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	190-1s, audio
+*INV:	pencil@q . 0_4687
+%mor:	meta|pencil .
+*PAR:	I wrote a letter with the pencil . 4687_10461
+%mor:	pro:sub|I v|write&PAST det|a n|letter prep|with det|the n|pencil .
+*INV:	(..) tree@q . 10461_19548
+%mor:	meta|tree .
+*PAR:	(.) tree is growing in the backyard . 19548_30490
+%mor:	n|tree aux|be&3S part|grow-PRESP prep|in det|the n|+n|back+n|yard .
+*INV:	okay . 30490_39488
+%mor:	co|okay .
+*INV:	I'm gonna give you two words . 39488_41034
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you det:num|two
+	n|word-PL .
+*INV:	I want you to use them both for me in a sentence . 41034_43314
+%mor:	pro:sub|I v|want pro|you inf|to v|use pro:obj|them qn|both prep|for
+	pro:obj|me prep|in det|a n|sentence .
+*INV:	child@q and hospital@q . 43314_47034
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	the child was hurt and sent to the hospital . 47034_51600
+%mor:	det|the n|child aux|be&PAST&13S v|hurt&ZERO coord|and v|send&PAST
+	prep|to det|the n|hospital .
+*INV:	(..) cold@q and winter@q . 51600_64527
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	it is always cold in the winter . 64527_69000
+%mor:	pro|it cop|be&3S adv|always adv|cold prep|in det|the n|winter .
+*INV:	I'm gonna give you three words . 69000_81500
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|three n|word-PL .
+*INV:	I want you to use them all for me in a sentence . 81500_83600
+%mor:	pro:sub|I v|want pro|you inf|to v|use pro:obj|them post|all
+	prep|for pro:obj|me prep|in det|a n|sentence .
+*INV:	chair@q doctor@q sit@q . 83600_88012
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	I sit in the chair when I went to see the doctor . 88012_96680
+%mor:	pro:sub|I v|sit prep|in det|the n|chair conj|when pro:sub|I
+	v|go&PAST inf|to v|see det|the n|doctor .
+*INV:	(...) bureau@q open@q drawer@q . 96680_114251
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	(..) I went to the bureau and I opened the door . 114251_131605
+%mor:	pro:sub|I v|go&PAST prep|to det|the n|bureau coord|and pro:sub|I
+	v|open-PAST det|the n|door .
+@End

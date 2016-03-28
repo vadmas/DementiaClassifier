@@ -1,0 +1,62 @@
+@UTF8
+@PID:	11312/t-00002178-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	002-0c, audio
+*PAR:	the scene is <in the> [/] in the kitchen . 0_5703
+%mor:	det|the n|scene cop|be&3S prep|in det|the n|kitchen .
+*PAR:	the mother is wiping dishes and the water is running on the floor . 5703_11898
+%mor:	det|the n|mother aux|be&3S part|wipe-PRESP n|dish-PL coord|and
+	det|the n|water aux|be&3S part|run-PRESP prep|on det|the n|floor .
+*PAR:	<a child is tryin(g) to get> [//] a boy is tryin(g) to get cookies outta [: out of] a jar and he's about to tip over on a stool . 11898_18497
+%mor:	det|a n|boy aux|be&3S part|try-PRESP inf|to v|get n|cookie-PL
+	adv|out prep|of det|a n|jar coord|and pro:sub|he~mod|do&3S adv|about
+	inf|to v|tip adv|over prep|on det|a n|stool .
+*PAR:	&uh the little girl is reacting to his falling . 18497_23800
+%mor:	det|the adj|little n|girl aux|be&3S part|react-PRESP prep|to
+	pro:poss:det|his part|fall-PRESP .
+*PAR:	&uh it seems to be summer out . 23800_26826
+%mor:	pro|it v|seem-3S inf|to cop|be n|summer adv|out .
+*PAR:	the window is open . 26826_28272
+%mor:	det|the n|window aux|be&3S adv|open .
+*PAR:	the curtains are blowing . 28272_30651
+%mor:	det|the n|curtain-PL aux|be&PRES part|blow-PRESP .
+*PAR:	it must be a gentle breeze . 30651_31847
+%mor:	pro|it mod|must cop|be det|a adj|gentle n|breeze .
+*PAR:	there's grass outside in the garden . 31847_33941
+%mor:	pro:exist|there~cop|be&3S n|grass adv|outside prep|in det|the
+	n|garden .
+*PAR:	&uh mother's finished certain of the [/] the dishes . 33941_37965
+%mor:	n|mother~poss|s part|finish-PASTP adj|certain prep|of det|the
+	n|dish-PL .
+*PAR:	kitchen's very tidy . [+ gram] 37965_40360
+%mor:	n|kitchen~cop|be&3S adv|very adj|tidy .
+*PAR:	the mother seems to have nothing in the house to eat except cookies in the cookie jar . 40360_44549
+%mor:	det|the n|mother v|seem-3S inf|to v|have pro:indef|nothing prep|in
+	det|the n|house inf|to v|eat prep|except n|cookie-PL prep|in det|the
+	n|cookie n|jar .
+*PAR:	&uh the children look to be almost about the same size . 44549_49769
+%mor:	det|the n|child&PL v|look inf|to cop|be adv|almost prep|about
+	det|the adj|same n|size .
+*PAR:	perhaps they're twins . 49769_51311
+%mor:	adv|perhaps pro:sub|they~aux|be&PRES n|twin-PL .
+*PAR:	they're dressed for summer warm weather . 51311_54269
+%mor:	pro:sub|they~aux|be&PRES part|dress-PASTP prep|for n|summer
+	adj|warm n|weather .
+*PAR:	&um you want more ? [+ exc] 54269_56500
+%mor:	pro|you v|want adv|more ?
+*INV:	+< no that's fine . 56092_57571
+%mor:	co|no pro:dem|that~cop|be&3S adj|fine .
+*PAR:	+< the mother's in a short sleeve dress . 56501_59249
+%mor:	det|the n|mother~cop|be&3S prep|in det|a adj|short n|sleeve n|dress
+	.
+*INV:	+< that's great .  58200_59463
+%mor:	pro:dem|that~cop|be&3S adj|great .
+*PAR:	+< I'll have to say it's warm . [+ exc]   59249_60346
+%mor:	pro:sub|I~mod|will v|have inf|to v|say pro|it~aux|be&3S adj|warm .
+*INV:	okay good . [+ exc] 60346_61694
+%mor:	co|okay adj|good .
+@End

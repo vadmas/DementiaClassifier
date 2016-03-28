@@ -1,0 +1,74 @@
+@UTF8
+@PID:	11312/t-00002298-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	140-0c, audio
+*INV:	there is the picture . 0_1325
+%mor:	pro:exist|there cop|be&3S det|the n|picture .
+*PAR:	doesn't matter where you start then right ? [+ exc] 1325_5800
+%mor:	mod|do&3S~neg|not n|matter rel|where pro|you v|start adv:tem|then
+	n|right ?
+*INV:	+< nope . 5250_6086
+%mor:	co|nope .
+*PAR:	alright . [+ exc] 6086_7000
+%mor:	co|alright .
+*PAR:	there's &uh a little boy on a &uh step+stool which is tilted and he's getting some cookies . 7000_16750
+%mor:	pro:exist|there~cop|be&3S det|a adj|little n|boy prep|on det|a
+	n|+n|step+n|stool pro:wh|which aux|be&3S part|tilt-PASTP coord|and
+	pro:sub|he~aux|be&3S part|get-PRESP qn|some n|cookie-PL .
+*PAR:	now do you want descriptive as far as the cookie lids or [/] or how they are or just the actions +/? [+ exc] 16750_22498
+%mor:	adv|now v|do pro|you v|want adj|descriptive prep|as adv|far conj|as
+	det|the n|cookie n|lid-PL coord|or adv:wh|how pro:sub|they
+	cop|be&PRES coord|or adv|just det|the n|action-PL +/?
+*INV:	+< just the action . 22298_23212
+%mor:	adv|just det|the n|action .
+*PAR:	+< just the action . [+ exc] 22912_23900
+%mor:	adv|just det|the n|action .
+*PAR:	okay and looks like he's trying to hand a cookie to his sister . 23900_27481
+%mor:	co|okay coord|and v|look-3S rel|like pro:sub|he~aux|be&3S
+	part|try-PRESP inf|to v|hand det|a n|cookie prep|to pro:poss:det|his
+	n|sister .
+*PAR:	she kind_of has her finger up towards her mouth or something like she might be giggling . 27481_35634
+%mor:	pro:sub|she adv|kind_of aux|have&3S pro:poss:det|her n|finger
+	adv|up prep|towards pro:poss:det|her n|mouth coord|or
+	pro:indef|something prep|like pro:sub|she mod|might aux|be
+	part|giggle-PRESP .
+*PAR:	&uh the mother's drying dishes but the water is overflowing onto the floor . 35634_43058
+%mor:	det|the n|mother~aux|be&3S part|dry-PRESP n|dish-PL conj|but
+	det|the n|water aux|be&3S over#part|flow-PRESP prep|onto det|the
+	n|floor .
+*PAR:	(.) &uh (..) I don't know, <the silk [: sink] [* pw-ret]> [//] the sink looks like it's almost tilted . 43058_53345
+%mor:	pro:sub|I mod|do~neg|not v|know cm|cm det|the n|sink v|look-3S
+	rel|like pro|it~cop|be&3S adv|almost part|tilt-PASTP .
+*PAR:	(..) now we should call the [/] &uh the [/] &sau the cup and the saucers . 53345_61026
+%mor:	adv|now pro:sub|we mod|should v|call det|the n|cup coord|and
+	det|the n|saucer-PL .
+*PAR:	that's not action right is it ? [+ exc] 61026_62451
+%mor:	pro:dem|that~cop|be&3S neg|not n|action adv|right cop|be&3S pro|it
+	?
+*INV:	no you don't need to mention those . 62451_64020
+%mor:	co|no pro|you mod|do~neg|not v|need inf|to v|mention pro:dem|those
+	.
+*PAR:	+< &uh the breeze might be blowing . 63520_65360
+%mor:	det|the n|breeze mod|might aux|be part|blow-PRESP .
+*PAR:	the curtains look like they might be +... 65360_67663
+%mor:	det|the n|curtain-PL v|look rel|like pro:sub|they mod|might cop|be
+	+...
+*PAR:	(.) any other action . [+ exc] 67663_75040
+%mor:	qn|any qn|other n|action .
+*PAR:	I don't see anything else . [+ exc] 75040_78682
+%mor:	pro:sub|I mod|do~neg|not v|see pro:indef|anything post|else .
+*PAR:	I just see into the outdoors but I don't see anything moving . 78682_81550
+%mor:	pro:sub|I adv|just v|see prep|into det|the n|outdoors conj|but
+	pro:sub|I mod|do~neg|not v|see pro:indef|anything part|move-PRESP .
+*INV:	&hm okay . 81500_82414
+%mor:	co|okay .
+*PAR:	+< that's about it I guess . [+ exc] 82014_83226
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it pro:sub|I v|guess .
+*INV:	+< a little bit  xxx  . 82726_84114
+%mor:	det|a adj|little n|bit .
+*PAR:	+< &=laughs . [+ exc] 83426_84444
+@End

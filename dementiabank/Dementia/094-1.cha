@@ -1,0 +1,67 @@
+@UTF8
+@PID:	11312/t-00002497-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|74;|female|ProbableAD||Participant|24||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	094-1c, audio
+*INV:	okay here's the picture . 0_2554
+%mor:	co|okay pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	just tell me all of the action +/. 2554_4266
+%mor:	adv|just v|tell pro:obj|me adv|all prep|of det|the n|action +/.
+*PAR:	+< and I will tell you what's &g +/. [+ exc] 3266_4951
+%mor:	conj|and pro:sub|I mod|will v|tell pro|you pro:wh|what~aux|be&3S
+	+/.
+*INV:	what's going on in the picture ? 4951_6676
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	oh boy . [+ exc] 6676_7773
+%mor:	co|oh n|boy .
+*PAR:	well the little boy is reaching for a cookie . 7773_13161
+%mor:	co|well det|the adj|little n|boy aux|be&3S part|reach-PRESP
+	prep|for det|a n|cookie .
+*PAR:	and his &s stool is fallin(g) over . 13161_15520
+%mor:	conj|and pro:poss:det|his n|stool aux|be&3S part|fall-PRESP
+	adv|over .
+*INV:	mhm . 15520_16185
+%mor:	co|yes .
+*PAR:	and the little girl is beggin(g) him to give her one . 16185_20825
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|beg-PRESP
+	pro:obj|him inf|to v|give pro:poss:det|her pro:indef|one .
+*PAR:	and she's pointin(g) to her mouth . 20825_25425
+%mor:	conj|and pro:sub|she~aux|be&3S part|point-PRESP prep|to
+	pro:poss:det|her n|mouth .
+*PAR:	she wants to eat it . 25425_26427
+%mor:	pro:sub|she v|want-3S inf|to v|eat pro|it .
+*PAR:	&uh their mama is doin(g) the dishes . 26427_30896
+%mor:	pro:poss:det|their n|mama aux|be&3S part|do-PRESP det|the n|dish-PL
+	.
+*PAR:	the water's runnin(g) over the sink . 30896_36326
+%mor:	det|the n|water~aux|be&3S part|run-PRESP prep|over det|the n|sink .
+*PAR:	that's a mess . 36326_39112
+%mor:	pro:dem|that~cop|be&3S det|a n|mess .
+*INV:	hm . 39112_40000
+%mor:	co|hm .
+*PAR:	and then she's not even lookin(g) at them . 40000_44388
+%mor:	conj|and adv:tem|then pro:sub|she~aux|be&3S neg|not adv|even
+	part|look-PRESP prep|at pro:obj|them .
+*PAR:	dryin(g) dishes . [+ gram]  44388_48046
+%mor:	part|dry-PRESP n|dish-PL .
+*PAR:	I think she's lookin(g) out the window . 48046_52325
+%mor:	pro:sub|I v|think pro:sub|she~aux|be&3S part|look-PRESP prep|out
+	det|the n|window .
+*PAR:	it's a nice yard out there . 52325_55095
+%mor:	pro|it~cop|be&3S det|a adj|nice n|yard adv|out adv|there .
+*PAR:	two cups and [/] and a dish finished . [+ gram] 55095_60403
+%mor:	det:num|two n|cup-PL coord|and det|a n|dish v|finish-PAST .
+*INV:	www .  60403_67780
+*PAR:	xxx anything else ? [+ exc] 67780_70738
+%mor:	pro:indef|anything post|else ?
+*INV:	no that looks pretty good . 70738_72607
+%mor:	co|no adv|that n|look-PL adv|pretty adj|good .
+*INV:	okay ? 72607_74958
+%mor:	co|okay ?
+*INV:	okay good . 74958_75968
+%mor:	co|okay adj|good .
+@End

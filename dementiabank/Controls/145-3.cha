@@ -1,0 +1,72 @@
+@UTF8
+@PID:	11312/t-00002309-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	145-3c, audio
+*INV:	but I want you to take a look at that picture and tell me everything that you see happening in that picture . 0_5046
+%mor:	conj|but pro:sub|I v|want pro|you inf|to v|take det|a n|look
+	prep|at det|that n|picture coord|and v|tell pro:obj|me
+	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|that n|picture .
+*INV:	everything that's going on . 5046_6630
+%mor:	pro:indef|everything rel|that~aux|be&3S part|go-PRESP adv|on .
+*PAR:	alright . [+ exc] 6630_8186
+%mor:	co|alright .
+*PAR:	starting from left to right the little girl is reaching for a cookie while she's making some kind of a signal with her hand to her lip . 8186_17600
+%mor:	part|start-PRESP prep|from v|leave&PAST prep|to n|right det|the
+	adj|little n|girl aux|be&3S part|reach-PRESP prep|for det|a n|cookie
+	conj|while pro:sub|she~aux|be&3S part|make-PRESP qn|some n|kind
+	prep|of det|a n|signal prep|with pro:poss:det|her n|hand prep|to
+	pro:poss:det|her n|lip .
+*PAR:	it looks like <lip reading I mean> [//] &uh signing . 17600_20744
+%mor:	pro|it v|look-3S prep|like n:gerund|sign-PRESP .
+*PAR:	the boy is reaching too far for the cookies and is tipping the stool and is about to have an accident . 20744_28375
+%mor:	det|the n|boy aux|be&3S part|reach-PRESP adv|too adv|far prep|for
+	det|the n|cookie-PL coord|and aux|be&3S part|tip-PRESP det|the
+	n|stool coord|and cop|be&3S adv|about inf|to v|have det|a n|accident
+	.
+*PAR:	<he's handing> [//] he's reaching for a cookie with his right hand and handing a cookie with his left hand to the little girl . 28375_36233
+%mor:	pro:sub|he~aux|be&3S part|reach-PRESP prep|for det|a n|cookie
+	prep|with pro:poss:det|his n|right n|hand coord|and part|hand-PRESP
+	det|a n|cookie prep|with pro:poss:det|his n|left n|hand prep|to
+	det|the adj|little n|girl .
+*PAR:	&uh proceeding to the right the woman obviously their mother is drying a dish while she's neglecting to notice that the sink is overflowing because the faucet is running and the stopper's in the sink . 36233_51359
+%mor:	part|proceed-PRESP prep|to det|the adj|right det|the n|woman
+	adv|obvious&dadj-LY pro:poss:det|their n|mother aux|be&3S
+	part|dry-PRESP det|a n|dish conj|while pro:sub|she~aux|be&3S
+	part|neglect-PRESP prep|to n|notice rel|that det|the n|sink
+	aux|be&3S over#part|flow-PRESP conj|because det|the n|faucet
+	aux|be&3S part|run-PRESP coord|and det|the n|stop&dv-AGT~poss|s
+	prep|in det|the n|sink .
+*PAR:	it's making a mess on the floor and she's standing in the mess, the water . 51359_56636
+%mor:	pro|it~aux|be&3S part|make-PRESP det|a n|mess prep|on det|the
+	n|floor coord|and pro:sub|she~aux|be&3S part|stand-PRESP prep|in
+	det|the n|mess cm|cm det|the n|water .
+*PAR:	&um there are plants growing . 56636_61028
+%mor:	adv|there cop|be&PRES n|plant-PL part|grow-PRESP .
+*PAR:	there's grass growing . 61028_62306
+%mor:	pro:exist|there~cop|be&3S n|grass part|grow-PRESP .
+*PAR:	there's a tree with leaves .  62306_63951
+%mor:	pro:exist|there~cop|be&3S det|a n|tree prep|with n|leave-PL .
+*PAR:	&uh you want action ? [+ exc] 63951_67005
+%mor:	pro|you v|want n|action ?
+*INV:	mhm . 67005_67780
+%mor:	co|yes .
+*PAR:	well can [//] you want to know that there are two cups on the counter and things like that ? [+ exc] 67780_74082
+%mor:	co|well pro|you v|want inf|to v|know rel|that adv|there cop|be&PRES
+	det:num|two n|cup-PL prep|on det|the n|counter coord|and n|thing-PL
+	prep|like pro:dem|that ?
+*INV:	+< no . 73000_74860
+%mor:	co|no .
+*PAR:	no . [+ exc] 74082_74348
+%mor:	co|no .
+*PAR:	alright . [+ exc] 74860_75576
+%mor:	co|alright .
+*INV:	that's about it . 75576_76305
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*PAR:	+< that's about it huh +/. [+ exc] 76205_77149
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it co|huh +/.
+@End

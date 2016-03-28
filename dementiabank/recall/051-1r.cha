@@ -1,0 +1,25 @@
+@Font:	Arial:16:0
+@UTF8
+@PID:	11312/t-00016286-1
+@Color words:	%xdf: 1 65535 0 0 
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|66;|female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	051-1r, audio
+*PAR:	www .
+%exp:	random conversation .
+*INV:	just tell me every [//] what you have and you_know what
+	you can remember about .
+*PAR:	well I remember they went camping .
+*INV:	okay .
+*PAR:	<it was> [//] &uh I don't remember the names of the two (.) men .
+*PAR:	&uh (...) something with the weather .
+*PAR:	&uh (...) they hadn't been [//] &n seen each_other for awhile .
+*INV:	mhm .
+*PAR:	&uh for quite a while .
+*PAR:	that's all I remember .
+*INV:	do you think that's it ?
+*INV:	okay .
+@End

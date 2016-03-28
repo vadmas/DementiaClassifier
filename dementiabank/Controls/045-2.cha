@@ -1,0 +1,58 @@
+@UTF8
+@PID:	11312/t-00002215-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	045-2c, audio
+*PAR:	what's going on ? [+ exc] 0_6300
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on ?
+*PAR:	okay . [+ exc] 6300_7497
+%mor:	co|okay .
+*PAR:	&uh mother's &uh drying dishes . 7497_10772
+%mor:	n|mother~aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	sink is overflowing .  [+ gram] 10772_12670
+%mor:	n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	son is &uh falling off a stool .  [+ gram] 12670_16546
+%mor:	n|son aux|be&3S part|fall-PRESP prep|off det|a n|stool .
+*PAR:	son is &uh raiding the cookie jar .  [+ gram] 16546_20935
+%mor:	n|son aux|be&3S part|raid-PRESP det|the n|cookie n|jar .
+*PAR:	&uh sister is &uh laughing at her brother .  [+ gram] 20935_26055
+%mor:	n|sister aux|be&3S part|laugh-PRESP prep|at pro:poss:det|her
+	n|brother .
+*PAR:	and she's reaching for a cookie . 26055_28615
+%mor:	conj|and pro:sub|she~aux|be&3S part|reach-PRESP prep|for det|a
+	n|cookie .
+*PAR:	and &uh the window is open . 28615_34201
+%mor:	conj|and det|the n|window aux|be&3S adv|open .
+*PAR:	&uh <the cup> [//] two cups and &uh a dish on the counter top .  [+ gram] 34201_39609
+%mor:	det:num|two n|cup-PL coord|and det|a n|dish prep|on det|the
+	n|counter n|top .
+*PAR:	and <the picture I mean> [//]  the window <has two> [//] has a pair of drapes or curtains . 39609_51378
+%mor:	conj|and det|the n|window v|have&3S det|a n|pair prep|of v|drape-3S
+	coord|or n|curtain-PL .
+*PAR:	single basin sink .  [+ gram] 51378_58549
+%mor:	n|single n|basin n|sink .
+*PAR:	&uh there's [/] &uh (.) there's a tree on the outside view of the kitchen . 58549_72324
+%mor:	pro:exist|there~cop|be&3S det|a n|tree prep|on det|the adj|outside
+	n|view prep|of det|the n|kitchen .
+*PAR:	and the l@l section of the house appears to be outside the view and there's a pathway <between them> [//] between the two .   72324_85957
+%mor:	conj|and det|the n:let|l n|section prep|of det|the n|house
+	v|appear-3S inf|to cop|be prep|outside det|the n|view coord|and
+	pro:exist|there~cop|be&3S det|a n|pathway prep|between det|the
+	det:num|two .
+*PAR:	there are hedges also, the tree side . 85957_95592
+%mor:	adv|there cop|be&PRES v|hedge-3S adv|also cm|cm det|the n|tree
+	n|side .
+*PAR:	that's it . [+ exc] 95592_97571
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*PAR:	no the mother's wearin(g) an apron . 97571_99949
+%mor:	qn|no det|the n|mother~aux|be&3S part|wear-PRESP det|a n|apron .
+*INV:	okay . 99949_101412
+%mor:	co|okay .
+*PAR:	and water's splashin(g) . 101412_106898
+%mor:	coord|and n|water~aux|be&3S part|splash-PRESP .
+*PAR:	okay . [+ exc] 106898_107589
+%mor:	co|okay .
+@End

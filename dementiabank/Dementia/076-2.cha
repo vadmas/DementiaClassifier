@@ -1,0 +1,119 @@
+@UTF8
+@PID:	11312/t-00002487-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|ProbableAD||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	076-2c, audio
+*INV:	tell me all the action you see going on in the picture . 0_3259
+%mor:	v|tell pro:obj|me adv|all det|the n|action pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	oh my . [+ exc] 3259_4140
+%mor:	co|oh pro:poss:det|my .
+*PAR:	you mean how much or just &t the ones ? [+ exc]  4140_6133
+%mor:	pro|you v|mean adv|how adv|much coord|or adv|just det|the
+	pro:indef|one-PL ?
+*INV:	+< just tell me all the action . 5703_7232
+%mor:	adv|just v|tell pro:obj|me adv|all det|the n|action .
+*INV:	tell me what's going on . 7232_8397
+%mor:	v|tell pro:obj|me pro:wh|what~aux|be&3S part|go-PRESP adv|on .
+*PAR:	+< oh . [+ exc] 8200_8700
+%mor:	co|oh .
+*PAR:	there's [//] the sink is overflowing while she's wiping &uh &uh &k &uh a plate and not looking &=laughs . 8700_15845
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP conj|while
+	pro:sub|she~aux|be&3S part|wipe-PRESP det|a n|plate coord|and
+	neg|not part|look-PRESP .
+*INV:	mhm . 15845_16826
+%mor:	co|yes .
+*PAR:	the little boy is hungry . 16826_18190
+%mor:	det|the adj|little n|boy cop|be&3S adj|hungry .
+*PAR:	he wants to get some cookies . 18190_19537
+%mor:	pro:sub|he v|want-3S inf|to v|get qn|some n|cookie-PL .
+*PAR:	and he's standing on &uh &um a stool . 19537_22500
+%mor:	conj|and pro:sub|he~aux|be&3S part|stand-PRESP prep|on det|a
+	n|stool .
+*PAR:	and it's tipping over . 22500_24157
+%mor:	conj|and pro|it~aux|be&3S part|tip-PRESP adv|over .
+*PAR:	and I don't know whether he's gonna [: going to] bring the cookie jar with him or what &=laughs .  24157_28074
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know conj|whether
+	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|bring det|the n|cookie
+	n|jar prep|with pro:obj|him coord|or pro:wh|what .
+*PAR:	and the little girl is &um &uh holding up her hand wanting some . 28074_34626
+%mor:	conj|and det|the adj|little n|girl aux|be&3S part|hold-PRESP
+	prep|up pro:poss:det|her n|hand part|want-PRESP qn|some .
+*PAR:	and he's gonna [: going to] give to him [: her] [* s:r] . 34626_35800
+%mor:	conj|and pro:sub|he~aux|be&3S part|go-PRESP inf|to v|give prep|to
+	pro:obj|her .
+*PAR:	but &uh I don't know if she has a finger to her mouth but +... 35800_39300
+%mor:	conj|but pro:sub|I mod|do~neg|not v|know conj|if pro:sub|she
+	v|have&3S det|a n|finger prep|to pro:poss:det|her n|mouth conj|but
+	+...
+*PAR:	and she knows that he's gonna [: going to] be tipping over it looks like to me . 39300_42492
+%mor:	conj|and pro:sub|she v|know-3S rel|that pro:sub|he~aux|be&3S
+	part|go-PRESP inf|to aux|be part|tip-PRESP prep|over pro|it
+	n|look-PL co|like prep|to pro:obj|me .
+*INV:	uhhuh . 42492_43573
+%mor:	co|uhhuh .
+*PAR:	or maybe she's just not noticing it and making her mouth get ready for this good cookie . 43573_49881
+%mor:	conj|or adv|maybe pro:sub|she~aux|be&3S adv|just neg|not
+	part|notice-PRESP pro|it coord|and part|make-PRESP pro:poss:det|her
+	n|mouth v|get v|ready prep|for det|this adj|good n|cookie .
+*PAR:	I don't know which way it is for the little girl . [+ exc]  49881_51977
+%mor:	pro:sub|I mod|do~neg|not v|know det:wh|which n|way pro|it cop|be&3S
+	prep|for det|the adj|little n|girl .
+*PAR:	(be)cause she's smiling . [+ gram] 51977_53333
+%mor:	conj|because pro:sub|she~aux|be&3S part|smile-PRESP .
+*PAR:	I think if she saw him falling over she'd do something to [/] to help him so he wouldn't get hurt . 53333_58673
+%mor:	pro:sub|I v|think conj|if pro:sub|she v|see&PAST pro:obj|him
+	part|fall-PRESP adv|over pro:sub|she~mod|genmod v|do
+	pro:indef|something inf|to v|help pro:obj|him conj|so pro:sub|he
+	mod|will&COND~neg|not v|get n|hurt .
+*PAR:	I_mean she'd grab it or something . 58673_60374
+%mor:	co|I_mean pro:sub|she~mod|genmod v|grab pro|it coord|or
+	pro:indef|something .
+*INV:	+< mhm . 60000_60462
+%mor:	co|yes .
+*PAR:	but she's just looking up at him you_know lookin(g) up at those good cookies and waitin(g) for them to come to her hand . 60462_66129
+%mor:	conj|but pro:sub|she~aux|be&3S adv|just part|look-PRESP adv|up
+	prep|at pro:obj|him co|you_know part|look-PRESP adv|up prep|at
+	det|those adj|good n|cookie-PL coord|and part|wait-PRESP prep|for
+	pro:obj|them inf|to v|come prep|to pro:poss:det|her n|hand .
+*PAR:	but this little finger in her mouth is +... 66129_69579
+%mor:	conj|but det|this adj|little n|finger prep|in pro:poss:det|her
+	n|mouth cop|be&3S +...
+*PAR:	&uh I'm not quite sure what it means . [+ exc] 69579_71718
+%mor:	pro:sub|I~cop|be&1S neg|not adv|quite adj|sure pro:wh|what pro|it
+	v|mean-3S .
+*PAR:	I think it means that it's gonna [: going to] be good &=laughs . 71718_73913
+%mor:	pro:sub|I v|think pro|it v|mean-3S adv|that pro|it~mod|do&3S
+	part|go-PRESP inf|to cop|be adj|good .
+*INV:	+< mhm probably . 73323_74845
+%mor:	co|yes adv|probable&dadj-LY .
+*PAR:	yeah . [+ exc]  74845_75450
+%mor:	co|yeah .
+*INV:	okay . 75450_76557
+%mor:	co|okay .
+*PAR:	and &uh I don't know whether the mother knows this is wet yet &=laughs . 76557_80140
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know conj|whether det|the
+	n|mother v|know-3S pro:dem|this cop|be&3S adj|wet adv|yet .
+*INV:	she's gonna [: going to]  find out isn't she ? 80140_82195
+%mor:	pro:sub|she~aux|be&3S part|go-PRESP inf|to v|find prep|out
+	cop|be&3S~neg|not pro:sub|she ?
+*PAR:	+< she's thinking something else I think .  81700_83446
+%mor:	pro:sub|she~aux|be&3S part|think-PRESP pro:indef|something
+	post|else pro:sub|I v|think .
+*PAR:	I don't know what it is .  [+ exc] 83446_84960
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro|it cop|be&3S .
+*PAR:	+" <what are> [//] what's [//] what are we going to have for lunch ? 84960_87700
+%mor:	adv|what aux|be&PRES pro:sub|we part|go-PRESP inf|to v|have
+	prep|for n|lunch ?
+*PAR:	or [/] &=laughs or she's got something in her mind (be)cause certainly she'd see this if she didn't hear it  . 87700_88133
+%mor:	conj|or pro:sub|she~mod|do&3S v|get&PAST pro:indef|something
+	prep|in pro:poss:det|her n|mind conj|because adv|certain&dadj-LY
+	pro:sub|she~mod|genmod co|see det|this conj|if pro:sub|she
+	mod|do&PAST~neg|not v|hear pro|it .
+*INV:	okay . 93350_94765
+%mor:	co|okay .
+*PAR:	+< &=laughs . [+ exc]  93939_95065
+@End

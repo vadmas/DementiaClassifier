@@ -1,0 +1,51 @@
+@UTF8
+@PID:	11312/t-00002287-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|58;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	132-0c, audio
+*INV:	there we go . 0_1147
+%mor:	adv|there pro:sub|we v|go .
+*PAR:	that's it . [+ exc] 1147_1838
+%mor:	pro:dem|that~cop|be&3S pro|it .
+*PAR:	(o)kay the boy is in the cookie jar and giving them to his sister . 1838_7346
+%mor:	co|okay det|the n|boy aux|be&3S prep|in det|the n|cookie n|jar
+	coord|and part|give-PRESP pro:obj|them prep|to pro:poss:det|his
+	n|sister .
+*PAR:	mother's washing the dishes . 7346_10000
+%mor:	n|mother~aux|be&3S part|wash-PRESP det|the n|dish-PL .
+*PAR:	the water's overflowing in the sink . 10000_12545
+%mor:	det|the n|water~aux|be&3S over#part|flow-PRESP prep|in det|the
+	n|sink .
+*PAR:	the boy is falling off the stool . 12545_15876
+%mor:	det|the n|boy aux|be&3S part|fall-PRESP prep|off det|the n|stool .
+*PAR:	&uh the girl is eating a cookie asking for another . 15876_21276
+%mor:	det|the n|girl aux|be&3S part|eat-PRESP det|a n|cookie
+	part|ask-PRESP prep|for qn|another .
+*PAR:	&uh the cover's off the cookie jar .  21276_26276
+%mor:	det|the n|cover~cop|be&3S prep|off det|the n|cookie n|jar .
+*PAR:	door to the cabinet is open .  [+ gram] 26276_27927
+%mor:	n|door prep|to det|the n|cabinet aux|be&3S adv|open .
+*PAR:	&uh the window outside is open . 27927_31503
+%mor:	det|the n|window adv|outside cop|be&3S adv|open .
+*PAR:	the yard .  [+ gram] 31503_32607
+%mor:	det|the n|yard .
+*PAR:	the mother is impervious of what's going on . 32607_37496
+%mor:	det|the n|mother cop|be&3S adj|impervious prep|of
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on .
+*PAR:	she's unconscious just standing in the water and wiping the dishes . 37496_43362
+%mor:	pro:sub|she~aux|be&3S n|unconscious adv|just part|stand-PRESP
+	prep|in det|the n|water coord|and part|wipe-PRESP det|the n|dish-PL
+	.
+*PAR:	(.) that's about it . [+ exc] 43362_49212
+%mor:	pro:dem|that~cop|be&3S adv|about pro|it .
+*INV:	okay . 49212_50365
+%mor:	co|okay .
+*PAR:	the wind might be blowing near the curtain . 50365_53150
+%mor:	det|the n|wind mod|might aux|be part|blow-PRESP prep|near det|the
+	n|curtain .
+*INV:	okey_dok(ey) . 53150_57309
+%mor:	co|okey_dokey .
+@End

@@ -1,0 +1,70 @@
+@UTF8
+@PID:	11312/t-00002233-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||male|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	071-3c, audio
+*INV:	this picture . 0_853
+%mor:	det|this n|picture .
+*PAR:	is it action if she has a finger in her nose here ? [+ exc] 853_4145
+%mor:	aux|be&3S pro|it n|action conj|if pro:sub|she v|have&3S det|a
+	n|finger prep|in pro:poss:det|her n|nose adv|here ?
+*INV:	&laughs okay . 4145_5264
+%mor:	co|okay .
+*PAR:	+< no .  [+ exc] 4864_5364
+%mor:	co|no .
+*PAR:	but anyway +... [+ exc] 5364_6868
+%mor:	conj|but adv|anyway +...
+*PAR:	&uh the boy's taking cookies out of the cookie jar . 6868_11353
+%mor:	det|the n|boy~aux|be&3S part|take-PRESP n|cookie-PL adv|out prep|of
+	det|the n|cookie n|jar .
+*PAR:	he's about to fall off of the stool . 11353_13697
+%mor:	pro:sub|he~mod|do&3S adv|about inf|to v|fall adv|off prep|of
+	det|the n|stool .
+*PAR:	&uh mother's drying dishes at the sink . 13697_17198
+%mor:	n|mother~aux|be&3S part|dry-PRESP n|dish-PL prep|at det|the n|sink
+	.
+*PAR:	oh little girl's reaching up . 17198_19359
+%mor:	co|oh adj|little n|girl~mod|do&3S part|reach-PRESP adv|up .
+*PAR:	I don't know if that was one . [+ exc] 19359_20177
+%mor:	pro:sub|I mod|do~neg|not v|know conj|if pro:dem|that
+	aux|be&PAST&13S pro:indef|one .
+*PAR:	she's reaching up like this . 20177_21653
+%mor:	pro:sub|she~aux|be&3S part|reach-PRESP adv|up prep|like
+	pro:dem|this .
+*PAR:	&uh the curtains are being blown by the wind coming in through the open window . [+ exc] 21653_27285
+%mor:	det|the n|curtain-PL aux|be&PRES part|be-PRESP part|blow&PASTP
+	prep|by det|the n|wind part|come-PRESP adv|in prep|through det|the
+	adj|open n|window .
+*INV:	+< &=coughs . 22538_23875
+*PAR:	&uh there seems to be water running onto the floor from the sink . 27285_31377
+%mor:	adv|there v|seem-3S inf|to cop|be n|water part|run-PRESP prep|onto
+	det|the n|floor prep|from det|the n|sink .
+*PAR:	&uh is it action when mother's standing in the water &=laughs ? [+ exc] 31377_37082
+%mor:	aux|be&3S pro|it n|action conj|when n|mother~aux|be&3S
+	part|stand-PRESP prep|in det|the n|water ?
+*INV:	okay . 37082_38000
+%mor:	co|okay .
+*PAR:	&uh we're drying the dishes . 38000_42443
+%mor:	pro:sub|we~aux|be&PRES part|dry-PRESP det|the n|dish-PL .
+*PAR:	we've [//] we're already done that . [+ exc] [+ gram] 42443_43859
+%mor:	pro:sub|we~cop|be&PRES adv|already part|do&PASTP adv|that .
+*PAR:	&uh that [//] &uh doesn't seem to be more +//. [+ exc] 43859_47100
+%mor:	mod|do&3S~neg|not v|seem inf|to cop|be pro:indef|more +//.
+*PAR:	oh he's <handing cookie> [/] handing cookie to girl . [+ gram] 47100_48963
+%mor:	co|oh pro:sub|he~aux|be&3S part|hand-PRESP n|cookie prep|to n|girl
+	.
+*PAR:	girl reaching up for cookie . [+ gram] 48963_50271
+%mor:	n|girl part|reach-PRESP adv|up prep|for n|cookie .
+*PAR:	&uh mother's daydreaming or she would stop all this . 50271_54054
+%mor:	n|mother~aux|be&3S n|+n|day+n|dreaming coord|or pro:sub|she
+	mod|will&COND v|stop adv|all det|this .
+*INV:	&=laughs . 54054_55668
+*INV:	okay that's fine . 55668_60323
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+*PAR:	+< that's about all there is . [+ exc] 60023_61854
+%mor:	pro:dem|that~cop|be&3S prep|about qn|all pro:exist|there cop|be&3S
+	.
+@End

@@ -1,0 +1,72 @@
+@UTF8
+@PID:	11312/t-00002542-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|64;|male|ProbableAD||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	184-1c, audio
+*INV:	okay . 0_1281
+%mor:	co|okay .
+*INV:	all of the action . 1281_3209
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	okay, I see a boy in the cookie jar . 3209_8329
+%mor:	co|okay cm|cm pro:sub|I v|see det|a n|boy prep|in det|the n|cookie
+	n|jar .
+*PAR:	I see he has the lid off . 8329_10258
+%mor:	pro:sub|I v|see pro:sub|he v|have&3S det|the n|lid adv|off .
+*PAR:	I see that he is standing on a three legged stool and he's about to depart from that three legged stool . 10258_19851
+%mor:	pro:sub|I v|see rel|that pro:sub|he cop|be&3S part|stand-PRESP
+	prep|on det|a det:num|three adj|legged n|stool coord|and
+	pro:sub|he~mod|do&3S adv|about inf|to v|depart prep|from det|that
+	det:num|three adj|legged n|stool .
+*PAR:	he has one cookie in his hand, handin(g) it down to his sister and she's reaching up for it . 19851_25619
+%mor:	pro:sub|he v|have&3S det:num|one n|cookie prep|in pro:poss:det|his
+	n|hand cm|cm part|hand-PRESP pro|it adv|down prep|to
+	pro:poss:det|his n|sister coord|and pro:sub|she~aux|be&3S
+	part|reach-PRESP adv|up prep|for pro|it .
+*PAR:	and I think she's indicating to the boy to keep still so his mother doesn't hear what's going on . 25619_34297
+%mor:	conj|and pro:sub|I v|think pro:sub|she~aux|be&3S
+	part|indicate-PRESP prep|to det|the n|boy inf|to v|keep adv|still
+	co|so pro:poss:det|his n|mother mod|do&3S~neg|not v|hear
+	pro:wh|what~aux|be&3S part|go-PRESP adv|on .
+*PAR:	I see the mother . 34297_37671
+%mor:	pro:sub|I v|see det|the n|mother .
+*PAR:	&uh I guess she's drying the dishes and she's not paying attention because she's &uh leavin(g) the sink run over and it's spillin(g) all over the floor . 37671_51586
+%mor:	pro:sub|I v|guess pro:sub|she~aux|be&3S part|dry-PRESP det|the
+	n|dish-PL coord|and pro:sub|she~aux|be&3S neg|not part|pay-PRESP
+	n|attention conj|because pro:sub|she~aux|be&3S part|leave-PRESP
+	det|the n|sink v|run adv|over coord|and pro|it~aux|be&3S
+	part|spill-PRESP adv|all prep|over det|the n|floor .
+*PAR:	and she must not be conscious because she's standing in it and doesn't know it . 51586_55045
+%mor:	conj|and pro:sub|she mod|must neg|not cop|be adj|conscious
+	conj|because pro:sub|she~aux|be&3S part|stand-PRESP prep|in pro|it
+	coord|and mod|do&3S~neg|not v|know pro|it .
+*PAR:	&um &sh <I think she must> [//] I think she's probably lookin(g) out the window as I take the second look . 55045_62093
+%mor:	pro:sub|I v|think pro:sub|she~aux|be&3S adv|probable&dadj-LY
+	part|look-PRESP prep|out det|the n|window conj|as pro:sub|I v|take
+	det|the n|second co|look .
+*PAR:	and I see apparently a couple dirty dishes on the table+top . 62093_68593
+%mor:	conj|and pro:sub|I v|see adv|apparent&dadj-LY det|a n|couple
+	adj|dirt&dn-Y n|dish-PL prep|on det|the n|+n|table+n|top .
+*PAR:	I see the cupboards . 68593_72782
+%mor:	pro:sub|I v|see det|the n|cupboard-PL .
+*PAR:	&uh I don't know whether they all have knobs on them or not . 72782_76439
+%mor:	pro:sub|I mod|do~neg|not v|know conj|whether pro:sub|they post|all
+	v|have n|knob-PL prep|on pro:obj|them coord|or neg|not .
+*PAR:	doesn't look like the two where the boy and the girl are have knobs on the cupboard door . 76439_83305
+%mor:	mod|do&3S~neg|not v|look rel|like det|the det:num|two rel|where
+	det|the n|boy coord|and det|the n|girl aux|be&PRES v|have n|knob-PL
+	prep|on det|the n|cupboard n|door .
+*PAR:	and I see outside . 83305_86081
+%mor:	conj|and pro:sub|I v|see adv|outside .
+*PAR:	I see &uh apparently it's a tree, some shrubbery and some hedges . 86081_90920
+%mor:	pro:sub|I v|see adv|apparent&dadj-LY pro|it~cop|be&3S det|a n|tree
+	cm|cm qn|some n|shrubbery coord|and qn|some n|hedge-PL .
+*INV:	okay ? 90920_93912
+%mor:	co|okay ?
+*PAR:	about it ? [+ exc] 93912_95559
+%mor:	prep|about pro|it ?
+*INV:	okay good . 95559_96922
+%mor:	co|okay adj|good .
+@End

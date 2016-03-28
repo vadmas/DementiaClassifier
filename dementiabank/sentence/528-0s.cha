@@ -1,0 +1,62 @@
+@UTF8
+@PID:	11312/t-00016681-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|67;|male|MCI||Participant|27||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	528-0s, audio
+*INV:	pencil@q . 0_2387
+%mor:	meta|pencil .
+*PAR:	write with the pencil . 2387_3900
+%mor:	v|write prep|with det|the n|pencil .
+*INV:	tree@q . 3900_5156
+%mor:	meta|tree .
+*PAR:	cut the tree down . 5156_7324
+%mor:	v|cut&ZERO det|the n|tree adv|down .
+*INV:	(...) now I'm going to give you two words . 7324_16424
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	I still want you to use them in a sentence and it doesn't matter
+	their order . 16424_20623
+%mor:	pro:sub|I adv|still v|want pro|you inf|to v|use pro:obj|them
+	prep|in det|a n|sentence coord|and pro|it mod|do&3S~neg|not v|matter
+	pro:poss:det|their n|order .
+*INV:	child@q and hospital@q . 20623_23103
+%mor:	meta|child conj|and meta|hospital .
+*PAR:	child's in the hospital . 23103_25607
+%mor:	n|child~cop|be&3S prep|in det|the n|hospital .
+*INV:	(..) cold@q and winter@q . 25607_34091
+%mor:	meta|cold conj|and meta|winter .
+*PAR:	winter is cold . 34091_36970
+%mor:	n|winter aux|be&3S adv|cold .
+*INV:	now ‡ I'm going to give you three words so I still want you to use
+	them in a sentence and it doesn't matter their order . 36970_45393
+%mor:	adv|now beg|beg pro:sub|I~aux|be&1S part|go-PRESP inf|to v|give
+	pro|you det:num|three n|word-PL conj|so pro:sub|I adv|still v|want
+	pro|you inf|to v|use pro:obj|them prep|in det|a n|sentence coord|and
+	pro|it mod|do&3S~neg|not v|matter pro:poss:det|their n|order .
+*INV:	chair@q doctor@q and sit@q . 45393_48623
+%mor:	meta|chair meta|doctor conj|and meta|sit .
+*PAR:	doctor sits in the chair . 48623_50504
+%mor:	n|doctor v|sit-3S prep|in det|the n|chair .
+*PAR:	sit in it . [+ exc] 50504_52811
+%mor:	v|sit prep|in pro|it .
+*PAR:	oh brother . [+ exc] 52811_53934
+%mor:	co|oh n|brother .
+*INV:	+< it doesn't matter . 52934_54000
+%mor:	pro|it mod|do&3S~neg|not v|matter .
+*INV:	that's fine . 54000_54894
+%mor:	pro:dem|that~cop|be&3S adj|fine .
+*INV:	it's any form of the word . 54894_56060
+%mor:	pro|it~aux|be&3S qn|any n|form prep|of det|the n|word .
+*INV:	that's okay . 56060_56811
+%mor:	pro:dem|that~cop|be&3S adj|okay .
+*INV:	bureau@q open@q and drawer@q . 56811_64857
+%mor:	meta|bureau meta|open conj|and meta|drawer .
+*PAR:	the drawer in the bureau was open . 64857_67847
+%mor:	det|the n|drawer prep|in det|the n|bureau cop|be&PAST&13S adj|open
+	.
+*INV:	(...) okay . 67847_90000
+%mor:	co|okay .
+@End

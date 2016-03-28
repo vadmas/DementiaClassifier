@@ -1,0 +1,88 @@
+@UTF8
+@PID:	11312/t-00002581-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|60;|female|ProbableAD||Participant|12||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	247-0c, audio
+*INV:	what's happening in that picture ? 0_1963
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|in det|that n|picture
+	?
+*INV:	(.) what's happening there ? 1963_9650
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP adv|there ?
+*PAR:	(.) she's preparing a meal . 9650_16996
+%mor:	pro:sub|she~aux|be&3S part|prepare-PRESP det|a n|meal .
+*INV:	okay . 16996_18678
+%mor:	co|okay .
+*INV:	(.) what else is going on ? 18678_28996
+%mor:	pro:wh|what post|else aux|be&3S part|go-PRESP adv|on ?
+*PAR:	I'm going to have to quit reading this because this [/] this is shining on this xxx +/. [+ exc] 28996_36222
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|have inf|to v|quit&ZERO
+	part|read-PRESP pro:dem|this conj|because det|this aux|be&3S
+	part|shine-PRESP prep|on pro:dem|this +/.
+*INV:	okay let me lift it up a little bit . 35502_37058
+%mor:	co|okay v|let&ZERO pro:obj|me v|lift pro|it prep|up det|a
+	adj|little n|bit .
+*PAR:	getting my xxx . [+ exc] 36789_37777
+%mor:	part|get-PRESP co|my .
+*INV:	mhm, does that help ? 37777_39141
+%mor:	co|yes cm|cm mod|do&3S pro:dem|that co|help ?
+*PAR:	xxx . [+ exc] 39141_42980
+*INV:	what's going on there ? 39221_46226
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP prep|on pro:dem|there ?
+*PAR:	xxx . [+ exc] 46226_60300
+*INV:	you don't have to read it just look at the picture . 60300_62923
+%mor:	pro|you mod|do~neg|not v|have inf|to v|read&ZERO pro|it adv|just
+	v|look prep|at det|the n|picture .
+*PAR:	this [/] this string is not on this is it ? [+ exc] 62923_67361
+%mor:	det|this n|string aux|be&3S neg|not prep|on pro:dem|this cop|be&3S
+	pro|it ?
+*PAR:	yes . [+ exc] 67361_68152
+%mor:	co|yes .
+*INV:	can you see ? 68152_69353
+%mor:	mod|can pro|you v|see ?
+*INV:	what's going on here ? 69353_71158
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP prep|on pro:dem|here ?
+*PAR:	they're reaching up for a cookie in cookie jar . [+ gram] 71158_77026
+%mor:	pro:sub|they~aux|be&PRES part|reach-PRESP adv|up prep|for det|a
+	n|cookie prep|in n|cookie n|jar .
+*INV:	uhhuh . 77026_77646
+%mor:	co|uhhuh .
+*PAR:	and they're cooking a turkey dinner I guess .  77646_85000
+%mor:	conj|and pro:sub|they~aux|be&PRES part|cook-PRESP det|a n|turkey
+	n|dinner pro:sub|I v|guess .
+*INV:	pardon ? 85000_85430
+%mor:	co|pardon ?
+*PAR:	cooking a turkey dinner .   [+ gram] 85430_87249
+%mor:	part|cook-PRESP det|a n|turkey n|dinner .
+*INV:	okay . 87249_88340
+%mor:	co|okay .
+*INV:	(.) anything else ? 88340_103576
+%mor:	pro:indef|anything post|else ?
+*INV:	what's happening over here ? 103576_105407
+%mor:	pro:wh|what~aux|be&3S part|happen-PRESP prep|over pro:dem|here ?
+*PAR:	she's doing the dishes . 105407_106783
+%mor:	pro:sub|she~aux|be&3S part|do-PRESP det|the n|dish-PL .
+*INV:	mhm, what else is happening ? 106783_108415
+%mor:	co|yes cm|cm pro:wh|what post|else aux|be&3S part|happen-PRESP ?
+*PAR:	(.) this little boy might fall off of that stool he's on . 108415_121112
+%mor:	det|this adj|little n|boy mod|might v|fall adv|off prep|of det|that
+	n|stool pro:sub|he~cop|be&3S prep|on .
+*INV:	okay . 121112_121987
+%mor:	co|okay .
+*PAR:	and the water's splashing out all over the floor and she doesn't know it . 121987_127871
+%mor:	conj|and det|the n|water~aux|be&3S part|splash-PRESP adv|out
+	adv|all prep|over det|the n|floor coord|and pro:sub|she
+	mod|do&3S~neg|not v|know pro|it .
+*INV:	mhm . 127871_128806
+%mor:	co|yes .
+*PAR:	<and the boy might> [//] he's looking for the cookie jar and he might bang his head on the (.) thing by the door . [+ cir] 128806_141346
+%mor:	pro:sub|he~aux|be&3S part|look-PRESP prep|for det|the n|cookie
+	n|jar coord|and pro:sub|he mod|might v|bang pro:poss:det|his n|head
+	prep|on det|the n|thing prep|by det|the n|door .
+*INV:	(.) okay very good . 141346_155667
+%mor:	co|okay adv|very adj|good .
+*INV:	thank you . 155667_157145
+%mor:	v|thank pro|you .
+@End

@@ -1,0 +1,36 @@
+@UTF8
+@PID:	11312/t-00002659-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|83;|female|ProbableAD||Participant|21||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	472-0c, audio
+*INV:	here's the picture . 0_2413
+%mor:	pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	can you tell me everything you see going on in the picture ? 2413_11179
+%mor:	mod|can pro|you v|tell pro:obj|me pro:indef|everything pro|you
+	v|see n:gerund|go-PRESP adv|on prep|in det|the n|picture ?
+*PAR:	yeah she's spilling the water on the floor and he's falling off the
+	[/] <the chair [: stool] [* s:r-ret] &uh the stand [: stool]
+	[* s:r-ret] or> [//]  a seat or  +... 11179_24988
+%mor:	co|yeah pro:sub|she~aux|be&3S part|spill-PRESP det|the n|water
+	prep|on det|the n|floor coord|and pro:sub|he~aux|be&3S
+	part|fall-PRESP prep|off det|a n|seat coord|or +...
+*INV:	anything else ? 24988_28624
+%mor:	pro:indef|anything post|else ?
+*PAR:	(..) the spigot's goin(g) and &uh (..) he's reaching out for the cookies and she's reaching for the cookies and +... 28624_63249
+%mor:	det|the n|spigot~aux|be&3S part|go-PRESP coord|and
+	pro:sub|he~aux|be&3S part|reach-PRESP adv|out prep|for det|the
+	n|cookie-PL coord|and pro:sub|she~aux|be&3S part|reach-PRESP
+	prep|for det|the n|cookie-PL coord|and +...
+*PAR:	she got the window open I guess . 63249_78800
+%mor:	pro:sub|she v|get&PAST det|the n|window adj|open pro:sub|I v|guess
+	.
+*PAR:	I don't know . [+ exc] 78800_81306
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	okay . 81306_82738
+%mor:	co|okay .
+*INV:	good . 82738_88481
+%mor:	adj|good .
+@End

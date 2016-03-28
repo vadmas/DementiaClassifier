@@ -1,0 +1,30 @@
+@UTF8
+@PID:	11312/t-00002321-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|56;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	166-0c, audio
+*INV:	okay why don't you start with the woman again ? 0_4655
+%mor:	co|okay adv:wh|why mod|do~neg|not pro|you v|start prep|with det|the
+	n|woman adv|again ?
+*INV:	woman's wiping dishes . 4655_8218
+%mor:	n|woman~aux|be&3S part|wipe-PRESP n|dish-PL .
+*PAR:	the woman is wiping the dishes . 8218_10578
+%mor:	det|the n|woman aux|be&3S part|wipe-PRESP det|the n|dish-PL .
+*PAR:	she's standing in a puddle of water . 10578_12624
+%mor:	pro:sub|she~aux|be&3S part|stand-PRESP prep|in det|a n|puddle
+	prep|of n|water .
+*PAR:	if that's action I don't know . [+ exc] 12624_14250
+%mor:	conj|if pro:dem|that~cop|be&3S n|action pro:sub|I mod|do~neg|not
+	v|know .
+*PAR:	the sink is overflowing . 14250_16480
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	(.) doesn't seem to be anything going on outside that I can tell in the picture . 16480_29400
+%mor:	mod|do&3S~neg|not v|seem inf|to cop|be pro:indef|anything
+	part|go-PRESP adv|on adv|outside rel|that pro:sub|I mod|can v|tell
+	prep|in det|the n|picture .
+*INV:	okay good . 29400_32919
+%mor:	co|okay adj|good .
+@End

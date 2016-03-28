@@ -1,0 +1,214 @@
+@UTF8
+@PID:	11312/t-00016662-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|76;|female|ProbableAD||Participant|14||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	381-1s, audio
+*INV:	good . 0_1121
+%mor:	adj|good .
+*INV:	pencil@q . 1121_3285
+%mor:	meta|pencil .
+*PAR:	pencil@q . [+ exc] 3285_4484
+%mor:	meta|pencil .
+*INV:	mhm . 4484_5232
+%mor:	co|yes .
+*PAR:	&=clears:throat to &uh sharpen scissors . [+ exc] 5232_8048
+%mor:	inf|to v|sharpen n|scissors .
+*PAR:	I_mean ‡ oh [/] oh ‡ don't mind me . [+ exc] 8048_10678
+%mor:	co|I_mean beg|beg co|oh beg|beg mod|do~neg|not v|mind pro:obj|me .
+*INV:	+< take your time . 8900_10678
+%mor:	v|take pro:poss:det|your n|time .
+*INV:	give me a short simple sentence using the word pencil@q . 10678_13713
+%mor:	v|give pro:obj|me art|a adj|short adj|simple n|sentence
+	part|use-PRESP art|the n|word meta|pencil .
+*PAR:	you need a pencil to write . 13713_19020
+%mor:	pro|you v|need art|a n|pencil inf|to v|write .
+*INV:	mhm . 19020_19705
+%mor:	co|yes .
+*PAR:	pencil or an [/] ah ink pad pen . [+ exc] 19705_23643
+%mor:	n|pencil coord|or co|ah n|ink n|pad n|pen .
+*INV:	(.) how_(a)bout tree@q ? 24047_29636
+%mor:	adv:wh|how_about meta|tree ?
+*INV:	can you give me a short simple sentence using the word tree@q ? 29636_32749
+%mor:	mod|can pro|you v|give pro:obj|me art|a adj|short adj|simple
+	n|sentence part|use-PRESP art|the n|word meta|tree ?
+*PAR:	tree@q ? [+ exc] 32749_33527
+%mor:	meta|tree ?
+*INV:	tree@q . 33527_34149
+%mor:	meta|tree .
+*PAR:	tree@q . [+ exc] 34149_34997
+%mor:	meta|tree .
+*PAR:	<for food> [//] for [//] &uh <what for> [//] &f what do you &s +...
+	[+ exc] 34997_41928
+%mor:	pro:wh|what mod|do pro|you +...
+*PAR:	shit . [+ exc] 41928_42729
+%mor:	n|shit .
+*PAR:	oh . [+ exc] 42729_45678
+%mor:	co|oh .
+*INV:	just come up with any sentence at all . 45614_47749
+%mor:	adv|just v|come adv|up prep|with qn|any n|sentence prep|at
+	pro:indef|all .
+*PAR:	+< just left me &=fingers:snaps like that . [+ exc] 46789_48255
+%mor:	adv|just v|leave&PAST pro:obj|me prep|like pro:dem|that .
+*INV:	+< okay ‡ think of another one . 48004_49142
+%mor:	co|okay beg|beg v|think prep|of qn|another pro:indef|one .
+*INV:	another sentence using the word tree@q . 49142_51468
+%mor:	qn|another n|sentence part|use-PRESP art|the n|word meta|tree .
+*PAR:	tree@q . [+ exc] 51468_53089
+%mor:	meta|tree .
+*PAR:	Christmas tree . [+ exc] 53089_54410
+%mor:	n:prop|Christmas n|tree .
+*INV:	you need to come up with a sentence using the word tree@q . 54410_58007
+%mor:	pro|you v|need inf|to v|come adv|up prep|with art|a n|sentence
+	part|use-PRESP art|the n|word meta|tree .
+*PAR:	+< oh . [+ exc] 56789_57346
+%mor:	co|oh .
+*INV:	can you come up with a short simple sentence using the word tree@q ?
+	58457_63796
+%mor:	mod|can pro|you v|come adv|up prep|with art|a adj|short adj|simple
+	n|sentence part|use-PRESP art|the n|word meta|tree ?
+*PAR:	for fruit [/] (.) fruit on the trees . [+ exc] 63796_70879
+%mor:	prep|for n|fruit prep|on art|the n|tree-PL .
+*INV:	can you come up with a sentence using the word tree@q ? 70879_76676
+%mor:	mod|can pro|you v|come adv|up prep|with art|a n|sentence
+	part|use-PRESP art|the n|word meta|tree ?
+*PAR:	that's what I'm trying to do . [+ exc] 76677_77991
+%mor:	pro:dem|that~cop|be&3S pro:wh|what pro:sub|I~aux|be&1S
+	part|try-PRESP inf|to v|do .
+*INV:	<any sentence at all> [/] any sentence at all using the word tree@q
+	. 77991_88276
+%mor:	qn|any n|sentence prep|at adv|all part|use-PRESP art|the n|word
+	meta|tree .
+*PAR:	the trees give [/] give you a_lot_of shade (.) and food [//] fruit . 88276_97429
+%mor:	art|the n|tree-PL v|give pro|you qn|a_lot_of n|shade coord|and
+	n|fruit .
+*INV:	+< good . 93802_94533
+%mor:	adj|good .
+*INV:	okay . 97429_98520
+%mor:	co|okay .
+*INV:	(..) now I'm gonna give you two words . 98520_106878
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|give pro|you
+	det:num|two n|word-PL .
+*INV:	don't worry about the order that I give them to you in . 106878_109571
+%mor:	mod|do~neg|not v|worry prep|about art|the n|order rel|that
+	pro:sub|I v|give pro:obj|them prep|to pro|you adv|in .
+*PAR:	okay  . [+ exc] 109571_110210
+%mor:	co|okay .
+*INV:	+< just use both of them in one short simple sentence . 110209_112995
+%mor:	adj|just n|use qn|both prep|of pro:obj|them prep|in det:num|one
+	adj|short adj|simple n|sentence .
+*INV:	child@q hospital@q . 113040_115342
+%mor:	meta|child meta|hospital .
+*INV:	can you come up with a sentence using the word child@q and
+	hospital@q ? 115342_120868
+%mor:	mod|can pro|you v|come adv|up prep|with art|a n|sentence
+	part|use-PRESP art|the n|word meta|child coord|and meta|hospital ?
+*PAR:	the [/] the child was in an accident and was sent to the hospital . 120868_128292
+%mor:	art|the n|child cop|be&PAST&13S prep|in art|a n|accident coord|and
+	aux|be&PAST&13S part|send&PASTP prep|to art|the n|hospital .
+*INV:	mhm ‡ good . 128292_129367
+%mor:	co|yes beg|beg adj|good .
+*INV:	how_(a)bout cold@q +/. 129367_136867
+%mor:	adv:wh|how_about meta|cold +/.
+*PAR:	+< cold@q +/. 136366_137445
+%mor:	meta|cold +/.
+*INV:	+, winter@q . 136444_137373
+%mor:	meta|winter .
+*PAR:	cold@q winter@q . [+ exc] 137373_138406
+%mor:	meta|cold meta|winter .
+*INV:	use those in a sentence . 138406_140259
+%mor:	v|use pro:dem|those prep|in art|a n|sentence .
+*PAR:	&=sighs (.) well ‡ you should <have a_lot_of> [//] have
+	warm clothing (.) to take care of that [/] that you don't have in
+	the clothes . [+ exc] 140259_160353
+%mor:	co|well beg|beg pro|you mod|should v|have adj|warm part|cloth-PRESP
+	inf|to v|take n|care prep|of pro:dem|that pro|you mod|do~neg|not
+	v|have prep|in art|the n:pt|clothes .
+*INV:	okay ‡ you want to give me a short simple sentence using the words
+	cold@q and winter@q . 160353_166888
+%mor:	co|okay beg|beg pro|you v|want inf|to v|give pro:obj|me art|a
+	adj|short adj|simple n|sentence part|use-PRESP art|the n|word-PL
+	meta|cold coord|and meta|winter .
+*INV:	can you come up with a short simple sentence using the word cold@q
+	winter@q ? 166888_172679
+%mor:	mod|can pro|you v|come adv|up prep|with art|a adj|short adj|simple
+	n|sentence part|use-PRESP art|the n|word meta|cold meta|winter ?
+*PAR:	the winter cold &=clears:throat . [+ exc] 172679_175605
+%mor:	art|the n|winter n|cold .
+*INV:	I'm sorry . 175605_176139
+%mor:	pro:sub|I~cop|be&1S adj|sorry .
+*INV:	can you say that again ? 176139_177079
+%mor:	mod|can pro|you v|say rel|that adv|again ?
+*PAR:	the winter cold . 177079_178096
+%mor:	art|the n|winter n|cold .
+*INV:	how_(a)bout three words now . 178485_184227
+%mor:	adv:wh|how_about det:num|three n|word-PL adv|now .
+*INV:	don't worry about the order that I give them to you in . 184227_186452
+%mor:	mod|do~neg|not v|worry prep|about art|the n|order rel|that
+	pro:sub|I v|give pro:obj|them prep|to pro|you adv|in .
+*INV:	just use all three of them in one short simple sentence . 186452_189751
+%mor:	adj|just n|use adv|all det:num|three prep|of pro:obj|them prep|in
+	det:num|one adj|short adj|simple n|sentence .
+*INV:	chair@q doctor@q sit@q . 189751_193596
+%mor:	meta|chair meta|doctor meta|sit .
+*INV:	come up with a sentence using the word chair@q doctor@q and sit@q . 193596_199000
+%mor:	v|come adv|up prep|with art|a n|sentence part|use-PRESP art|the
+	n|word meta|chair meta|doctor coord|and meta|sit .
+*PAR:	you go <to the doctor> [//] to [/] to the doctor's office and
+	&=clears:throat . [+ exc] 199000_203960
+%mor:	pro|you v|go prep|to art|the n|doctor~poss|s n|office coord|and .
+*PAR:	and what else was it ? [+ exc] 203960_205875
+%mor:	coord|and pro:wh|what post|else cop|be&PAST&13S pro|it ?
+*INV:	chair@q doctor@q sit@q . 205875_208000
+%mor:	meta|chair meta|doctor meta|sit .
+*PAR:	+< the chair . [+ exc] 207061_207583
+%mor:	art|the n|chair .
+*PAR:	the chair at the doctor's office . [+ exc] 208000_210264
+%mor:	art|the n|chair prep|at art|the n|doctor~poss|s n|office .
+*INV:	you need to give me a sentence . 210264_212848
+%mor:	pro|you v|need inf|to v|give pro:obj|me art|a n|sentence .
+*INV:	a short simple sentence using those words . 212848_216194
+%mor:	art|a adj|short adj|simple n|sentence part|use-PRESP det|those
+	n|word-PL .
+*INV:	chair@q doctor@q sit@q . 216194_218340
+%mor:	meta|chair meta|doctor meta|sit .
+*INV:	(.) can you come up with a sentence using +/. 218340_225266
+%mor:	mod|can pro|you v|come adv|up prep|with art|a n|sentence
+	part|use-PRESP +/.
+*PAR:	+< I'm trying to think of it . [+ exc] 223900_225061
+%mor:	pro:sub|I~aux|be&1S part|try-PRESP inf|to v|think prep|of pro|it .
+*INV:	okay . 225061_226340
+%mor:	co|okay .
+*PAR:	(..) oh ‡ gee . [+ exc] 226340_234962
+%mor:	co|oh beg|beg co|gee .
+*INV:	let me give you one more to try . 234962_237998
+%mor:	v|let&ZERO pro:obj|me v|give pro|you det:num|one adv|more inf|to
+	v|try .
+*INV:	bureau@q +//. 237998_239664
+%mor:	meta|bureau +//.
+*INV:	I have you hooked up to the microphone . 239664_241733
+%mor:	pro:sub|I v|have pro|you v|hook-PAST adv|up prep|to art|the
+	n|microphone .
+*PAR:	+< oh ‡ I see . [+ exc] 240500_241464
+%mor:	co|oh beg|beg pro:sub|I v|see .
+*INV:	bureau@q  open@q drawer@q . 241733_245800
+%mor:	meta|bureau meta|open meta|drawer .
+*PAR:	+< bureau@q . [+ exc] 243026_243804
+%mor:	meta|bureau .
+*INV:	can you come up with a sentence using the words bureau@q open@q
+	drawer@q ? 245800_250955
+%mor:	mod|can pro|you v|come adv|up prep|with art|a n|sentence
+	part|use-PRESP art|the n|word-PL meta|bureau meta|open meta|drawer ?
+*PAR:	yeah . [+ exc] 250955_251400
+%mor:	co|yeah .
+*PAR:	be sure to close <the doors> [//] the drawers when you're
+	through with <xxx you're gettin(g)> [/] whatever you're getting
+	in there . 251400_256400
+%mor:	cop|be adj|sure inf|to v|close art|the n|drawer-PL conj|when
+	pro|you~cop|be&PRES adj|through prep|with pro:wh|whatever
+	pro|you~aux|be&PRES part|get-PRESP prep|in pro:dem|there .
+*INV:	okay . 256400_259585
+%mor:	co|okay .
+@End

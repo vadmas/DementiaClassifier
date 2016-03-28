@@ -1,0 +1,118 @@
+@UTF8
+@PID:	11312/t-00002597-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|84;|female|ProbableAD||Participant|18||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	276-0c, audio
+*PAR:	where's +/? [+ exc]  0_450
+%mor:	adv:wh|where~cop|be&3S +/?
+*INV:	+< right here's the picture . 0_1284
+%mor:	adv|right pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	oh . [+ exc]  1284_2500
+%mor:	co|oh .
+*INV:	+< all of the action . 1700_2957
+%mor:	pro:indef|all prep|of det|the n|action .
+*PAR:	(.) and what am I supposed to do ? [+ exc] 2957_7700
+%mor:	conj|and adv|what aux|be&1S pro:sub|I adj|supposed inf|to v|do ?
+*INV:	tell me all of the action you see going on in the picture . 7700_11969
+%mor:	v|tell pro:obj|me adv|all prep|of det|the n|action pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	oh but I don't have to watch this ? [+ exc] 11969_14895
+%mor:	co|oh conj|but pro:sub|I mod|do~neg|not v|have inf|to v|watch
+	pro:dem|this ?
+*INV:	+< no, hmhmm . 14464_15317
+%mor:	co|no cm|cm co|no .
+*PAR:	+< oh . [+ exc] 15017_15892
+%mor:	co|oh .
+*PAR:	(..) &=laughs . [+ exc] 15892_20444
+*INV:	can you tell me the action ? 20444_22213
+%mor:	mod|can pro|you v|tell pro:obj|me det|the n|action ?
+*INV:	what's going on in the picture ? 22213_24995
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	&uh well now wait . [+ exc]  24995_28020
+%mor:	co|well adv|now v|wait .
+*PAR:	oh gee . [+ exc] 28020_29697
+%mor:	co|oh co|gee .
+*PAR:	they're busy aren't they ? [+ exc] 29697_31974
+%mor:	pro:sub|they~cop|be&PRES adj|busy aux|be&PRES~neg|not pro:sub|they
+	?
+*INV:	yeah . 31974_33156
+%mor:	co|yeah .
+*PAR:	&=laughs . [+ exc] 33156_35333
+*PAR:	well they're busy up there after the cookie jar . 35333_41013
+%mor:	co|well pro:sub|they~cop|be&PRES adj|busy prep|up pro:dem|there
+	prep|after det|the n|cookie n|jar .
+*INV:	okay . 41013_42200
+%mor:	co|okay .
+*PAR:	(.) and they're reaching something up to it I think there, this one . [+ es]  42200_49136
+%mor:	conj|and pro:sub|they~aux|be&PRES part|reach-PRESP
+	pro:indef|something prep|up prep|to pro|it pro:sub|I v|think
+	adv|there cm|cm det|this pro:indef|one .
+*PAR:	&=laughs . [+ exc] 49136_55000
+*INV:	what else ? 55000_58770
+%mor:	pro:wh|what post|else ?
+*PAR:	what else dug [* s:uk] over here ? [+ exc] [+ jar] 58770_61694
+%mor:	pro:wh|what post|else v|dig&PAST prep|over pro:dem|here ?
+*INV:	tell me all the action in the whole picture . 61694_63857
+%mor:	v|tell pro:obj|me adv|all det|the n|action prep|in det|the
+	adj|whole n|picture .
+*PAR:	+< does this +/? [+ exc] 61999_62800
+%mor:	mod|do&3S pro:dem|this +/?
+*PAR:	oh . [+ exc] 63857_64792
+%mor:	co|oh .
+*PAR:	(.) looks to me like she might be washin(g) dishes (.) here . 64792_73594
+%mor:	v|look-3S prep|to pro:obj|me prep|like pro:sub|she mod|might aux|be
+	part|wash-PRESP n|dish-PL adv|here .
+*INV:	okay . 73594_74850
+%mor:	co|okay .
+*PAR:	+< looks like she's dryin(g) a plate . 74150_75920
+%mor:	v|look-3S rel|like pro:sub|she~aux|be&3S part|dry-PRESP det|a
+	n|plate .
+*PAR:	(.) &=laughs and there's [//] it looks like she had a wreck here wɪs@u [: with] [* p:n] (th)is spill . 75920_85023
+%mor:	conj|and pro|it v|look-3S rel|like pro:sub|she v|have&PAST det|a
+	n|wreck adv|here prep|with det|this v|spill .
+*PAR:	(.) and here's some dishes waiting to be washed . 85023_91606
+%mor:	conj|and pro:exist|here~cop|be&3S qn|some n|dish-PL part|wait-PRESP
+	inf|to aux|be part|wash-PASTP .
+*PAR:	mhm . [+ exc] 91606_92106
+%mor:	co|yes .
+*PAR:	(.) and there's a cupboard . 92106_95483
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|cupboard .
+*PAR:	&=laughs . [+ exc] 95483_100000
+*PAR:	(.) oh over here too ? [+ exc] 100000_106111
+%mor:	co|oh prep|over pro:dem|here post|too ?
+*INV:	anything you see going on . 106111_108258
+%mor:	pro:indef|anything pro|you v|see n:gerund|go-PRESP adv|on .
+*PAR:	+< oh . [+ exc] 108000_108993
+%mor:	co|oh .
+*PAR:	did I mention the one that's up <by for this cookie jar or> [//] to put some things up in the cookie jar ? [+ exc] 108993_114766
+%mor:	mod|do&PAST pro:sub|I v|mention det|the pro:indef|one
+	pro:dem|that~mod|do&3S adv|up inf|to v|put&ZERO qn|some n|thing-PL
+	adv|up prep|in det|the n|cookie n|jar ?
+*PAR:	oh there's one &a [/] one after it and then another one . [+ es] 114766_119276
+%mor:	co|oh pro:exist|there~cop|be&3S det:num|one pro:indef|one
+	prep|after pro|it coord|and adv:tem|then qn|another pro:indef|one .
+*PAR:	(.) and that one looks like he might gonna [: going to] take a spill . [+ gram] 119276_125939
+%mor:	conj|and rel|that pro:indef|one v|look-3S rel|like pro:sub|he
+	mod|might part|go-PRESP inf|to v|take det|a v|spill .
+*INV:	okay . 125939_128617
+%mor:	co|okay .
+*INV:	(.) okay good . 128617_133100
+%mor:	co|okay adj|good .
+*PAR:	+< xxx good ? [+ exc] 132100_134096
+%mor:	adj|good ?
+*INV:	mhm . 134096_135047
+%mor:	co|yes .
+*PAR:	+< really ? [+ exc] 134547_135375
+%mor:	adv|real&dadj-LY ?
+*INV:	really ! 135375_136300
+%mor:	adv|real&dadj-LY !
+*PAR:	here it looks like a cupboard to put something in down here too . 136300_138800
+%mor:	adv|here pro|it v|look-3S prep|like det|a n|cupboard inf|to
+	v|put&ZERO pro:indef|something adv|in adv|down adv|here post|too .
+*INV:	uhhuh, okay . 138800_140854
+%mor:	co|uhhuh cm|cm adj|okay .
+@End

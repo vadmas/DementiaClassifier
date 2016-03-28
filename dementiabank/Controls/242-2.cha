@@ -1,0 +1,85 @@
+@UTF8
+@PID:	11312/t-00002359-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|65;|male|Control||Participant|29||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	242-2c, audio
+@Comment:	overlapping audio
+*PAR:	we'll start with the girl . 0_2560
+%mor:	pro:sub|we~mod|will v|start prep|with det|the n|girl .
+*PAR:	she's going to the +//. 2560_4439
+%mor:	pro:sub|she~aux|be&3S part|go-PRESP prep|to det|the +//.
+*PAR:	he steal a cookie .  [+ gram] 4439_5333
+%mor:	pro:sub|he v|steal det|a n|cookie .
+*PAR:	<her brother is>[/] her brother is taking cookies out of a jar . 5333_8965
+%mor:	pro:poss:det|her n|brother aux|be&3S part|take-PRESP n|cookie-PL
+	adv|out prep|of det|a n|jar .
+*PAR:	and he got careless . 8965_11393
+%mor:	conj|and pro:sub|he v|get&PAST adj|care&dn-LESS .
+*PAR:	she's askin(g) him for one . 11393_13588
+%mor:	pro:sub|she~aux|be&3S part|ask-PRESP pro:obj|him prep|for
+	pro:indef|one .
+*PAR:	so he's handin(g) one down to her . 13588_16189
+%mor:	co|so pro:sub|he~aux|be&3S part|hand-PRESP det:num|one adv|down
+	prep|to pro:obj|her .
+*PAR:	in the meantime he is gettin(g) reading to fall <off of a> [/] off of a stool, a three legged stool . 16089_22366
+%mor:	prep|in det|the n|meantime pro:sub|he aux|be&3S part|get-PRESP
+	part|read-PRESP inf|to v|fall adv|off prep|of det|a n|stool cm|cm
+	det|a det:num|three adj|legged n|stool .
+*PAR:	and the mother's not payin(g) much attention . 22366_24160
+%mor:	conj|and det|the n|mother~aux|be&3S neg|not part|pay-PRESP qn|much
+	n|attention .
+*PAR:	she's lookin(g) out the window . 24160_26165
+%mor:	pro:sub|she~aux|be&3S part|look-PRESP prep|out det|the n|window .
+*PAR:	and in looking out the window why she's lettin(g) her sink run over and the water's splashin(g) on the floor all over her . 26165_35673
+%mor:	conj|and adv|in part|look-PRESP prep|out det|the n|window
+	adv:wh|why pro:sub|she~aux|be&3S part|let-PRESP pro:poss:det|her
+	n|sink v|run adv|over coord|and det|the n|water~aux|be&3S
+	part|splash-PRESP prep|on det|the n|floor adv|all prep|over
+	pro:obj|her .
+*PAR:	and &uh what else  ? [+ exc] 35673_38533
+%mor:	conj|and pro:wh|what post|else ?
+*PAR:	the outside looks alright . 38533_41459
+%mor:	det|the adj|outside n|look-PL adj|alright .
+*PAR:	there's more here . [+ exc] 41459_44867
+%mor:	pro:exist|there~cop|be&3S adv|more adv|here .
+*PAR:	<she's drying> [/] she's drying a dish . 44867_48046
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	and (.) she has two cups and a plate on the table . 48046_53804
+%mor:	conj|and pro:sub|she v|have&3S det:num|two n|cup-PL coord|and det|a
+	n|plate prep|on det|the n|table .
+*PAR:	well I did say she was lettin(g) the &uh water run over the sink down onto the floor, splashin(g) onto her feet . 53804_62815
+%mor:	co|well pro:sub|I v|do&PAST v|say pro:sub|she aux|be&PAST&13S
+	part|let-PRESP det|the n|water v|run prep|over det|the n|sink
+	adv|down prep|onto det|the n|floor cm|cm part|splash-PRESP prep|onto
+	pro:poss:det|her n|foot&PL .
+*PAR:	oh boy . [+ exc] 62815_64557
+%mor:	co|oh n|boy .
+*PAR:	then there's an angle here that is incomplete <of the> [/] &s of the corner where the &uh wall comes together . 64557_73256
+%mor:	adv:tem|then pro:exist|there~cop|be&3S det|a n|angle adv|here
+	rel|that cop|be&3S in#adj|complete prep|of det|the n|corner
+	rel|where det|the n|wall v|come-3S adv|together .
+*PAR:	&hm let's see what else . [+ exc] 73256_76913
+%mor:	v|let~pro:obj|us v|see pro:wh|what post|else .
+*PAR:	&uh let's see . [+ exc] 76913_80700
+%mor:	v|let~pro:obj|us v|see .
+*PAR:	the [//] &ta there's a plate, two [/] &sau two cups . 80700_84354
+%mor:	pro:exist|there~cop|be&3S det|a n|plate cm|cm det:num|two n|cup-PL
+	.
+*PAR:	oh &sh I did say she's lettin(g) the water run over the sink didn't I ? [+ exc] 84353_88558
+%mor:	co|oh pro:sub|I v|do&PAST co|say pro:sub|she~aux|be&3S
+	part|let-PRESP det|the n|water v|run prep|over det|the n|sink
+	mod|do&PAST~neg|not pro:sub|I ?
+*PAR:	yes . [+ exc] 88558_89000
+%mor:	co|yes .
+*INV:	mhm . 89000_90278
+%mor:	co|yes .
+*PAR:	now she (i)s [//] seems to be looking out the window while she's drying her dish . 90278_94633
+%mor:	adv|now pro:sub|she v|seem-3S inf|to aux|be part|look-PRESP
+	prep|out det|the n|window conj|while pro:sub|she~aux|be&3S
+	part|dry-PRESP pro:poss:det|her n|dish .
+*PAR:	how (a)bout that ? [+ exc] 94633_100000
+%mor:	adv:wh|how adv|about rel|that ?
+@End

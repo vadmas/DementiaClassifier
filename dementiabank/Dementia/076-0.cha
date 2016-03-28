@@ -1,0 +1,80 @@
+@UTF8
+@PID:	11312/t-00002486-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|68;|female|ProbableAD||Participant|25||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	076-0c, audio
+*INV:	what's going on in the picture ? 0_1853
+%mor:	pro:wh|what~aux|be&3S part|go-PRESP adv|on prep|in det|the
+	n|picture ?
+*PAR:	&uh well the children are climbing up and he's about to fall . 1853_7950
+%mor:	co|well det|the n|child&PL aux|be&PRES part|climb-PRESP adv|up
+	coord|and pro:sub|he~mod|do&3S adv|about inf|to v|fall .
+*PAR:	and he's getting cookies . 7950_9462
+%mor:	conj|and pro:sub|he~aux|be&3S part|get-PRESP n|cookie-PL .
+*PAR:	and she's &uh telling him to sh@o be quiet so mother <won't hear it> [//] won't hear him getting up there . 9462_16623
+%mor:	conj|and pro:sub|she~aux|be&3S part|tell-PRESP pro:obj|him prep|to
+	on|sh cop|be adj|quiet co|so n|mother mod|will~neg|not v|hear
+	pro:obj|him part|get-PRESP prep|up pro:dem|there .
+*PAR:	and &uh he's handing a cookie down to her . 16623_22725
+%mor:	conj|and pro:sub|he~aux|be&3S part|hand-PRESP det|a n|cookie
+	adv|down prep|to pro:obj|her .
+*PAR:	she's washing the dishes . 22725_24021
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP det|the n|dish-PL .
+*PAR:	and &uh (.) for some reason she must have been upset about something because &uh she is letting the water run out all over the place . 24021_32844
+%mor:	conj|and prep|for qn|some n|reason pro:sub|she mod|must aux|have
+	aux|be&PASTP n|upset prep|about pro:indef|something conj|because
+	pro:sub|she aux|be&3S part|let-PRESP det|the n|water v|run adv|out
+	adv|all prep|over det|the n|place .
+*PAR:	<whether she's> [//] &up I can't believe she's upset about the kids (be)cause she hasn't seen them . 32844_37296
+%mor:	pro:sub|I mod|can~neg|not v|believe pro:sub|she~aux|be&3S n|upset
+	prep|about det|the n|kid-PL conj|because pro:sub|she
+	aux|have&3S~neg|not part|see&PASTP pro:obj|them .
+*PAR:	maybe she did turn and look at them and &=laughs then go back to the dishes . 37296_41463
+%mor:	adv|maybe pro:sub|she v|do&PAST n|turn coord|and v|look prep|at
+	pro:obj|them coord|and adv:tem|then v|go adv|back prep|to det|the
+	n|dish-PL .
+*INV:	&=laughs . 41463_42360
+*PAR:	in other words it's &uh  +... 42360_47800
+%mor:	prep|in qn|other n|word-PL pro|it~mod|do&3S +...
+*PAR:	&uh she [/] she's deciding that if she did see them she's deciding that she's going to let them go ahead with it . 47800_53447
+%mor:	pro:sub|she~aux|be&3S part|decide-PRESP det|that conj|if
+	pro:sub|she v|do&PAST v|see pro:obj|them pro:sub|she~aux|be&3S
+	part|decide-PRESP rel|that pro:sub|she~aux|be&3S part|go-PRESP
+	inf|to v|let&ZERO pro:obj|them v|go adv|ahead prep|with pro|it .
+*PAR:	but I don't think she would have let them go ahead if she saw the little boy falling . 53447_57086
+%mor:	conj|but pro:sub|I mod|do~neg|not v|think pro:sub|she mod|will&COND
+	v|have v|let&ZERO pro:obj|them v|go adv|ahead conj|if pro:sub|she
+	v|see&PAST det|the adj|little n|boy part|fall-PRESP .
+*PAR:	I think she would have turned . 57086_58564
+%mor:	pro:sub|I v|think pro:sub|she mod|will&COND aux|have
+	part|turn-PASTP .
+*PAR:	maybe dropped her dish &=laughs . 58564_60915
+%mor:	adv|maybe v|drop-PAST pro:poss:det|her n|dish .
+*PAR:	but she would have gotten hold of him and saved him from being harmed in the fall . 60915_66073
+%mor:	conj|but pro:sub|she mod|will&COND v|have part|get&PASTP n|hold
+	prep|of pro:obj|him coord|and v|save-PAST pro:obj|him prep|from
+	n|being v|harm-PAST prep|in det|the n|fall .
+*PAR:	and he might just pull all the cookie jar with him when he falls too &=laughs . 66073_69881
+%mor:	conj|and pro:sub|he mod|might adv|just v|pull qn|all det|the
+	n|cookie n|jar prep|with pro:obj|him conj|when pro:sub|he v|fall-3S
+	post|too .
+*INV:	&=laughs . 69881_70299
+*PAR:	and with the water on the floor and the cookie jar on the floor &=laughs it would be a sad +/.  70299_74773
+%mor:	conj|and prep|with det|the n|water prep|on det|the n|floor
+	coord|and det|the n|cookie n|jar prep|on det|the n|floor pro|it
+	mod|will&COND cop|be det|a adj|sad +/.
+*INV:	+< bad . 74773_75291
+%mor:	adj|bad .
+*PAR:	+, threesome but [//] and the kitchen would be a mess . 75291_78383
+%mor:	n|threesome coord|and det|the n|kitchen mod|will&COND cop|be det|a
+	n|mess .
+*INV:	mhm . 78383_79447
+%mor:	co|yes .
+*INV:	okay ? 79447_80660
+%mor:	co|okay ?
+*INV:	great ! 80660_81475
+%mor:	adj|great !
+@End

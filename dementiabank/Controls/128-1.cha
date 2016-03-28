@@ -1,0 +1,79 @@
+@UTF8
+@PID:	11312/t-00002280-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|71;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	128-1c, audio
+*INV:	and here's the picture . 0_2354
+%mor:	conj|and pro:exist|here~cop|be&3S det|the n|picture .
+*PAR:	oh I remember this one . [+ exc] 2354_4914
+%mor:	co|oh pro:sub|I v|remember det|this pro:indef|one .
+*PAR:	okay . [+ exc] 4914_5463
+%mor:	co|okay .
+*PAR:	the mom's doing the dishes and looking out the window . 5463_8159
+%mor:	det|the n|mom~aux|be&3S part|do-PRESP det|the n|dish-PL coord|and
+	part|look-PRESP prep|out det|the n|window .
+*PAR:	and she must be really interested in what she sees out there because the sink is running over, the water is splashing on the floor, she's paying no attention to it . 8159_17418
+%mor:	conj|and pro:sub|she mod|must cop|be adv|real&dadj-LY
+	v|interest-PAST prep|in pro:wh|what pro:sub|she v|see-3S adv|out
+	adv|there conj|because det|the n|sink aux|be&3S part|run-PRESP
+	adv|over cm|cm det|the n|water aux|be&3S part|splash-PRESP prep|on
+	det|the n|floor cm|cm pro:sub|she~aux|be&3S part|pay-PRESP qn|no
+	n|attention prep|to pro|it .
+*PAR:	and meantime behind her the kids are getting up on the stool and getting into the cookie jar <which is> [/] which is on the second shelf of the cupboard . 17418_24595
+%mor:	coord|and n|meantime adv|behind pro:obj|her det|the n|kid-PL
+	aux|be&PRES part|get-PRESP prep|up prep|on det|the n|stool coord|and
+	part|get-PRESP prep|into det|the n|cookie n|jar rel|which cop|be&3S
+	prep|on det|the adj|second n|shelf prep|of det|the n|cupboard .
+*PAR:	the left hand side of the cupboard door is open . 24595_26911
+%mor:	det|the n|left n|hand n|side prep|of det|the n|cupboard n|door
+	aux|be&3S adv|open .
+*PAR:	&uh the little girl has her finger on her lips &uh &s telling him to shush but he's losing his balance and he's about to fall on the floor which will really cause a real upset in there . 26911_39312
+%mor:	det|the adj|little n|girl aux|have&3S pro:poss:det|her n|finger
+	prep|on pro:poss:det|her n|lip-PL part|tell-PRESP pro:obj|him inf|to
+	v|shush conj|but pro:sub|he~aux|be&3S part|lose-PRESP
+	pro:poss:det|his n|balance coord|and pro:sub|he~mod|do&3S adv|about
+	inf|to v|fall prep|on det|the n|floor rel|which mod|will
+	adv|real&dadj-LY v|cause det|a adj|real n|upset prep|in
+	pro:dem|there .
+*PAR:	and &uh action [/] action . [+ exc] 39312_42421
+%mor:	coord|and n|action .
+*PAR:	the water running .  [+ gram] 42421_43152
+%mor:	det|the n|water part|run-PRESP .
+*PAR:	the mama's drying a dish . 43152_44669
+%mor:	det|the n|mama~aux|be&3S part|dry-PRESP det|a n|dish .
+*PAR:	that's what she's doing and looking out the window . 44669_49324
+%mor:	pro:dem|that~cop|be&3S pro:wh|what pro:sub|she~aux|be&3S
+	part|do-PRESP coord|and part|look-PRESP prep|out det|the n|window .
+*PAR:	little boy has taken one cookie out of the cookie jar and is about to hand it to the little girl who is reaching up her hand for it . 49324_59848
+%mor:	adj|little n|boy aux|have&3S part|take&PASTP det:num|one n|cookie
+	adv|out prep|of det|the n|cookie n|jar coord|and cop|be&3S adv|about
+	inf|to v|hand pro|it prep|to det|the adj|little n|girl rel|who
+	aux|be&3S part|reach-PRESP prep|up pro:poss:det|her n|hand prep|for
+	pro|it .
+*PAR:	and he is reaching into the cookie jar for another cookie . 59848_62928
+%mor:	conj|and pro:sub|he aux|be&3S part|reach-PRESP prep|into det|the
+	n|cookie n|jar prep|for qn|another n|cookie .
+*PAR:	and action [/] action . [+ exc] 62928_69046
+%mor:	coord|and n|action .
+*PAR:	well the curtains are blowing in the breeze . 69046_76728
+%mor:	co|well det|the n|curtain-PL aux|be&PRES part|blow-PRESP prep|in
+	det|the n|breeze .
+*PAR:	I guess that's an action . [+ exc] 76728_77740
+%mor:	pro:sub|I n|guess pro:dem|that~mod|do&3S det|a n|action .
+*PAR:	it looks as though they are . 77740_78939
+%mor:	pro|it v|look-3S conj|as adv|though pro:sub|they cop|be&PRES .
+*PAR:	&um no action as far as I can see out the window . 78939_85222
+%mor:	qn|no n|action prep|as adv|far conj|as pro:sub|I mod|can v|see
+	prep|out det|the n|window .
+*PAR:	the window's open (.) which implies an action earlier . 85222_91109
+%mor:	det|the n|window~aux|be&3S adv|open rel|which v|imply-3S det|a
+	n|action adj|early-CP .
+*PAR:	I can't see any more action in it . [+ exc] 91109_94407
+%mor:	pro:sub|I mod|can~neg|not v|see qn|any adv|more n|action prep|in
+	pro|it .
+*INV:	okay good . 94407_96011
+%mor:	co|okay adj|good .
+@End

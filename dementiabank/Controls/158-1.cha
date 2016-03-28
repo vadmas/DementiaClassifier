@@ -1,0 +1,60 @@
+@UTF8
+@PID:	11312/t-00002318-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|79;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	158-1c, audio
+*INV:	and that's the picture . 0_2351
+%mor:	conj|and pro:dem|that~cop|be&3S det|the n|picture .
+*PAR:	climbing .  [+ gram] 2351_3877
+%mor:	part|climb-PRESP .
+*PAR:	dish washing .  [+ gram] 3877_5574
+%mor:	n|dish part|wash-PRESP .
+*PAR:	pointing .  [+ gram] 5574_7009
+%mor:	part|point-PRESP .
+*PAR:	stealing cookies .  [+ gram] 7009_10218
+%mor:	part|steal-PRESP n|cookie-PL .
+*PAR:	the wind is blowing outside . 10218_12662
+%mor:	det|the n|wind aux|be&3S part|blow-PRESP adv|outside .
+*PAR:	you can see the grass moving a little bit . 12662_14150
+%mor:	pro|you mod|can v|see det|the n|grass part|move-PRESP det|a
+	adj|little n|bit .
+*PAR:	the water is flowing . 14150_15571
+%mor:	det|the n|water aux|be&3S part|flow-PRESP .
+*PAR:	and the &uh stool is &um &um &t &uh tipping . 15571_22155
+%mor:	conj|and det|the n|stool aux|be&3S part|tip-PRESP .
+*PAR:	cupboard door is open . [+ gram]  22155_24549
+%mor:	n|cupboard n|door aux|be&3S adv|open .
+*PAR:	curtains are apart but that's not an action .  [+ gram] 24549_28410
+%mor:	n|curtain-PL cop|be&PRES adv|apart conj|but pro:dem|that~cop|be&3S
+	neg|not det|a n|action .
+*PAR:	there's someone washing the dishes . 28410_31414
+%mor:	pro:exist|there~cop|be&3S pro:indef|someone part|wash-PRESP det|the
+	n|dish-PL .
+*PAR:	stepping . [+ gram]  31414_36700
+%mor:	part|step-PRESP .
+*PAR:	and the two of them are &ste stepping . 36700_39537
+%mor:	conj|and det|the det:num|two prep|of pro:obj|them aux|be&PRES
+	part|step-PRESP .
+*PAR:	motion of the hands .  [+ gram] 39537_46300
+%mor:	n|motion prep|of det|the n|hand-PL .
+*PAR:	&uh point [/] &uh pointing in the motion on the &uh lips . 46300_50294
+%mor:	part|point-PRESP prep|in det|the n|motion prep|on det|the n|lip-PL
+	.
+*PAR:	and reaching .  [+ gram] 50294_51911
+%mor:	coord|and part|reach-PRESP .
+*PAR:	the cookie jar lid is falling . 51911_54930
+%mor:	det|the n|cookie n|jar n|lid aux|be&3S part|fall-PRESP .
+*PAR:	the door is opened . 54930_56859
+%mor:	det|the n|door aux|be&3S part|open-PASTP .
+*PAR:	the sink is overflowing but I said the water was flowing . 56859_63086
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP conj|but pro:sub|I
+	v|say&PAST det|the n|water aux|be&PAST&13S part|flow-PRESP .
+*PAR:	it's coming out of the faucet and the xxx splashing . 63086_67365
+%mor:	pro|it~aux|be&3S part|come-PRESP adv|out prep|of det|the n|faucet
+	coord|and det|the part|splash-PRESP .
+*INV:	okay that's fine . 67365_71663
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

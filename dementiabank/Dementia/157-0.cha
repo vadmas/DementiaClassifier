@@ -1,0 +1,64 @@
+@UTF8
+@PID:	11312/t-00002519-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|83;|male|ProbableAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	157-0c, audio
+*INV:	okay now here's the picture . 0_1147
+%mor:	co|okay adv|now pro:exist|here~cop|be&3S det|the n|picture .
+*INV:	you tell me all of the actions . 1147_2860
+%mor:	pro|you v|tell pro:obj|me pro:indef|all prep|of det|the n|action-PL
+	.
+*PAR:	actions going on . [+ exc] [+ gram] 2860_4323
+%mor:	n|action-PL part|go-PRESP adv|on .
+*INV:	right . 4323_4989
+%mor:	co|right .
+*PAR:	(..) this one's a little boy falling off a stool . 4989_16511
+%mor:	det|this pro:indef|one~aux|be&3S det|a adj|little n|boy
+	part|fall-PRESP prep|off det|a n|stool .
+*PAR:	little girl's holding her hand up telling him one time . 16511_18887
+%mor:	adj|little n|girl~mod|do&3S part|hold-PRESP pro:poss:det|her n|hand
+	adv|up part|tell-PRESP pro:obj|him pro:indef|one n|time .
+*PAR:	this girl's washing the dishes . 18887_20168
+%mor:	det|this n|girl~aux|be&3S part|wash-PRESP det|the n|dish-PL .
+*PAR:	I don't seem to know where she got the dish . 20168_22910
+%mor:	pro:sub|I mod|do~neg|not v|seem inf|to v|know adv:wh|where
+	pro:sub|she v|get&PAST det|the n|dish .
+*PAR:	+" I just picked it up  . 22910_23824
+%mor:	pro:sub|I adv|just v|pick-PAST pro|it adv|up .
+*PAR:	said she +". 23824_24456
+%mor:	v|say&PAST pro:sub|she +".
+*PAR:	oh she's broken a dish back there . 24456_26567
+%mor:	co|oh pro:sub|she~aux|be&3S part|break&PASTP det|a n|dish adv|back
+	adv|there .
+*PAR:	this thing fell down off of there . 26567_28845
+%mor:	det|this n|thing v|fall&PAST adv|down adv|off prep|of pro:dem|there
+	.
+*INV:	(..) something else ? 28845_39368
+%mor:	pro:indef|something post|else ?
+*PAR:	(..) well I_mean the wash [: water] [* s:r] is running . 39368_46500
+%mor:	co|well co|I_mean det|the n|water aux|be&3S part|run-PRESP .
+*PAR:	it's running over on the floor . 46500_47882
+%mor:	pro|it~aux|be&3S part|run-PRESP adv|over prep|on det|the n|floor .
+*PAR:	she's got a couple plates waiting here for her . 47882_55645
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP det|a n|couple n|plate-PL
+	part|wait-PRESP adv|here prep|for pro:obj|her .
+*PAR:	and the &uh window shows the scene outside that you can't see from here at all . 55645_63791
+%mor:	conj|and det|the n|window v|show-3S det|the n|scene adv|outside
+	rel|that pro|you mod|can~neg|not v|see prep|from adv|here prep|at
+	pro:indef|all .
+*INV:	mhm . 63791_64887
+%mor:	co|yes .
+*INV:	okay . 64887_68794
+%mor:	co|okay .
+*PAR:	and there's a little boy and a little girl here just a little xxx . 68794_72002
+%mor:	conj|and pro:exist|there~cop|be&3S det|a adj|little n|boy coord|and
+	det|a adj|little n|girl adv|here adv|just det|a adj|little .
+*PAR:	xxx . [+ exc] 72002_73465
+*INV:	okay . 73465_76308
+%mor:	co|okay .
+*INV:	that's fine, thank you . 76308_82259
+%mor:	pro:dem|that~cop|be&3S adj|fine cm|cm v|thank pro|you .
+@End

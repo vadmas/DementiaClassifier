@@ -1,0 +1,97 @@
+@UTF8
+@PID:	11312/t-00002657-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|male|ProbableAD||Participant|24||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	470-1c, audio
+*INV:	xxx . 0_765
+*INV:	what I'd like you to do right now +/. 765_2522
+%mor:	pro:wh|what pro:sub|I~mod|genmod v|like pro|you inf|to v|do
+	adv|right adv|now +/.
+*PAR:	+< I can go around and find em [: them] for you . [+ exc] 1400_4063
+%mor:	pro:sub|I mod|can v|go adv|around coord|and v|find pro:obj|them
+	prep|for pro|you .
+*INV:	okay . 4063_4551
+%mor:	co|okay .
+*INV:	what I'd like you to do +/? 4551_5993
+%mor:	pro:wh|what pro:sub|I~mod|genmod v|like pro|you inf|to v|do +/?
+*PAR:	+< what do you want here ? [+ exc] 5193_6508
+%mor:	pro:wh|what mod|do pro|you v|want adv|here ?
+*INV:	+, is to take a look at this picture and tell me everything that you see happening . 6508_10290
+%mor:	cop|be&3S inf|to v|take det|a n|look prep|at det|this n|picture
+	coord|and v|tell pro:obj|me pro:indef|everything rel|that pro|you
+	v|see n:gerund|happen-PRESP .
+*INV:	everything that you see going on . 10290_12579
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP
+	adv|on .
+*PAR:	everything what ? [+ exc] 12579_13557
+%mor:	pro:indef|everything pro:wh|what ?
+*INV:	everything that you see happening in this picture . 13557_16264
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|happen-PRESP
+	prep|in det|this n|picture .
+*PAR:	mhm . [+ exc] 16264_16830
+%mor:	co|yes .
+*INV:	+< everything that you see going on . 16530_18110
+%mor:	pro:indef|everything rel|that pro|you v|see n:gerund|go-PRESP
+	adv|on .
+*INV:	just tell me . 18110_19034
+%mor:	adv|just v|tell pro:obj|me .
+*INV:	everything you see happening . 19034_21323
+%mor:	pro:indef|everything pro|you v|see n:gerund|happen-PRESP .
+*PAR:	what could happen ? [+ exc] 21323_23114
+%mor:	pro:wh|what mod|could v|happen ?
+*INV:	what is happening .23114_24729
+%mor:	pro:wh|what aux|be&3S part|happen-PRESP .
+*INV:	tell me . 24729_25432
+%mor:	v|tell pro:obj|me .
+*PAR:	+< what is happening ? [+ exc] 24932_25962
+%mor:	pro:wh|what aux|be&3S part|happen-PRESP ?
+*INV:	tell me what you +/. 25962_26661
+%mor:	v|tell pro:obj|me pro:wh|what pro|you +/.
+*PAR:	he's stealin(g) cookies . 26561_27955
+%mor:	pro:sub|he~aux|be&3S part|steal-PRESP n|cookie-PL .
+*INV:	okay . 27955_28899
+%mor:	co|okay .
+*PAR:	she's helpin(g) him . 28899_33635
+%mor:	pro:sub|she~aux|be&3S part|help-PRESP pro:obj|him .
+*PAR:	the mother is &wa dryin(g) dishes . 33635_37042
+%mor:	det|the n|mother aux|be&3S part|dry-PRESP n|dish-PL .
+*PAR:	she's washin(g) [/] &d washin(g) . 37042_38555
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP .
+*PAR:	the water is runnin(g) xxx . 38334_42147
+%mor:	det|the n|water aux|be&3S part|run-PRESP .
+*PAR:	he's gonna [: going to] fall off that chair [: stool] [* s:r] . 42147_44857
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|fall prep|off det|that
+	n|stool .
+*PAR:	he's gonna [: going to] break his leg . 44857_46974
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP inf|to v|break pro:poss:det|his
+	n|leg .
+*PAR:	&=laughs look at it . [+ exc] 46971_49324
+%mor:	v|look prep|at pro|it .
+*INV:	mhm . 49324_50138
+%mor:	co|yes .
+*PAR:	I wanna [: want to] kill ya [: you] . [+ exc] 50138_52533
+%mor:	pro:sub|I v|want inf|to v|kill pro|you .
+*PAR:	ah ! [+ exc] 52533_55626
+%mor:	co|ah !
+*PAR:	he's doin(g) the wrong thing though . 55626_58470
+%mor:	pro:sub|he~aux|be&3S part|do-PRESP det|the adj|wrong n|thing
+	adv|though .
+*PAR:	&=laughs she's &s got her hand out there and he's tryin(g) to give her something or he's gonna [: going to] fall of that chair [: stool] [* s:r] . 58470_65501
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP pro:poss:det|her n|hand
+	adv|out adv|there coord|and pro:sub|he~aux|be&3S part|try-PRESP
+	inf|to v|give pro:obj|her pro:indef|something coord|or
+	pro:sub|he~aux|be&3S part|go-PRESP prep|to n|fall prep|of det|that
+	n|stool .
+*PAR:	he'll be [/] be picking that up pieces . [+ gram] 65501_67499
+%mor:	pro:sub|he~mod|will cop|be n:gerund|pick-PRESP adv|that prep|up
+	n|piece-PL .
+*PAR:	what else you want ? [+ exc] 67499_70068
+%mor:	pro:wh|what post|else pro|you v|want ?
+*PAR:	that's all that's goin(g) on that's all that I see . [+ exc] 70068_73616
+%mor:	pro:dem|that~cop|be&3S pro:indef|all rel|that~aux|be&3S
+	part|go-PRESP prep|on pro:dem|that~mod|do&3S adv|all adv|that
+	pro:sub|I v|see .
+@End

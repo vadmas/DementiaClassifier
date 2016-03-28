@@ -1,0 +1,108 @@
+@UTF8
+@PID:	11312/t-00002632-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|81;|female|ProbableAD||Participant|15||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	350-1c, audio
+*INV:	tell me what you see going on in the picture . 0_2251
+%mor:	v|tell pro:obj|me pro:wh|what pro|you v|see n:gerund|go-PRESP
+	adv|on prep|in det|the n|picture .
+*PAR:	oh this ? [+ exc] 2251_3163
+%mor:	co|oh pro:dem|this ?
+*INV:	mhm . 3163_3700
+%mor:	co|yes .
+*PAR:	there's a little boy . 3700_4750
+%mor:	pro:exist|there~cop|be&3S det|a adj|little n|boy .
+*PAR:	he's getting some cookies <out of the cookies [: jar] [* s:per-ret] I_mean> [//] out of the jar . 4750_9821
+%mor:	pro:sub|he~aux|be&3S part|get-PRESP qn|some n|cookie-PL adv|out
+	prep|of det|the n|jar .
+*PAR:	(.) and he's givin(g) his little sister something . 9821_15470
+%mor:	conj|and pro:sub|he~aux|be&3S part|give-PRESP pro:poss:det|his
+	adj|little n|sister pro:indef|something .
+*INV:	(o)kay . 15470_17061
+%mor:	co|okay .
+*PAR:	I don't know what it is . [+ exc] 17061_19146
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what pro|it cop|be&3S .
+*PAR:	and one of the girls is washing the dishes and drying them . 19146_23454
+%mor:	coord|and det:num|one prep|of det|the n|girl-PL aux|be&3S
+	part|wash-PRESP det|the n|dish-PL coord|and part|dry-PRESP
+	pro:obj|them .
+*PAR:	(..) and the cookie jar is out there . 23454_29415
+%mor:	conj|and det|the n|cookie n|jar cop|be&3S adv|out adv|there .
+*PAR:	so that's pretty nice . [+ exc] 29415_32091
+%mor:	co|so pro:dem|that~cop|be&3S adv|pretty adj|nice .
+*INV:	oh can you tell me what else you see going on over here ? 32012_34806
+%mor:	co|oh mod|can pro|you v|tell pro:obj|me pro:wh|what post|else
+	pro|you v|see n:gerund|go-PRESP adv|on prep|over pro:dem|here ?
+*INV:	what else do you see going on in +/? 34806_36535
+%mor:	pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP prep|on
+	adv|in +/?
+*PAR:	+< the little boy is <up on the foot stool I_mean> [//] up [/] up on the &uh +... 35858_39498
+%mor:	det|the adj|little n|boy cop|be&3S adv|up prep|on det|the +...
+*PAR:	what do you call that stool ? [+ exc] 39498_40450
+%mor:	pro:wh|what mod|do pro|you v|call det|that n|stool ?
+*PAR:	that's big [//] too big for a foot stool . 40450_42370
+%mor:	pro:dem|that~cop|be&3S adv|too adj|big prep|for det|a n|foot
+	n|stool .
+*INV:	okay . 42370_43464
+%mor:	co|okay .
+*PAR:	(..) see the xxx +/.  [+ exc] 43464_45277
+%mor:	v|see det|the +/.
+*INV:	<I see> [/] I see it . 44661_45818
+%mor:	pro:sub|I v|see pro|it .
+*INV:	yes . 45818_46250
+%mor:	co|yes .
+*PAR:	uhhuh . [+ exc] 46250_47249
+%mor:	co|uhhuh .
+*INV:	what else do you see going +/? 47577_48371
+%mor:	pro:wh|what post|else v|do pro|you v|see n:gerund|go-PRESP +/?
+*PAR:	+< he's up there getting a &uh <what's he getting down> [//] cookie jar . 48371_52028
+%mor:	pro:sub|he~cop|be&3S prep|up pro:dem|there part|get-PRESP det|a
+	n|cookie n|jar .
+*PAR:	see ? [+ exc] 51922_53000
+%mor:	v|see ?
+*PAR:	he's getting the cookie jar down . 53000_54877
+%mor:	pro:sub|he~aux|be&3S part|get-PRESP det|the n|cookie n|jar adv|down
+	.
+*PAR:	he's givin(g) it to his sister . 54877_56495
+%mor:	pro:sub|he~aux|be&3S part|give-PRESP pro|it prep|to
+	pro:poss:det|his n|sister .
+*INV:	what do you see going on over here ? 56495_59515
+%mor:	pro:wh|what mod|do pro|you v|see n:gerund|go-PRESP adv|on prep|over
+	pro:dem|here ?
+*PAR:	what is she doing ? [+ exc]  59515_60500
+%mor:	pro:wh|what cop|be&3S pro:sub|she part|do-PRESP ?
+*PAR:	she's washing dishes (.) right there . 60500_63219
+%mor:	pro:sub|she~aux|be&3S part|wash-PRESP n|dish-PL adv|right adv|there
+	.
+*INV:	anything else that you can see going on ? 63219_65494
+%mor:	pro:indef|anything post|else pro:dem|that pro|you mod|can v|see
+	n:gerund|go-PRESP adv|on ?
+*PAR:	I see the water (.) spilling over . 65494_67950
+%mor:	pro:sub|I v|see det|the n|water part|spill-PRESP adv|over .
+*PAR:	see the sink ? [+ exc] 67950_68780
+%mor:	v|see det|the n|sink ?
+*INV:	okay . 68841_69729
+%mor:	co|okay .
+*PAR:	+< the [//] uhhuh that's going down . 69066_72755
+%mor:	co|uhhuh pro:dem|that~aux|be&3S part|go-PRESP adv|down .
+*PAR:	and there's [/] &uh (..) there's a saucer and a cup . 72755_81321
+%mor:	conj|and pro:exist|there~cop|be&3S det|a n|saucer coord|and det|a
+	n|cup .
+*PAR:	&i is that a commode in there ? [+ exc] 81321_84794
+%mor:	cop|be&3S rel|that det|a n|commode prep|in pro:dem|there ?
+*PAR:	it looks like it right there .  [+ exc] 84794_87338
+%mor:	pro|it v|look-3S prep|like pro|it adv|right adv|there .
+*INV:	I don't know . 87338_88717
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	+< maybe that's &uh +...  [+ exc] 87888_88888
+%mor:	adv|maybe pro:dem|that~mod|do&3S +...
+*PAR:	I don't know . [+ exc] 88888_89958
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*INV:	okay . 89958_91049
+%mor:	co|okay .
+*INV:	(..) okay . 91049_93121
+%mor:	co|okay .
+@End

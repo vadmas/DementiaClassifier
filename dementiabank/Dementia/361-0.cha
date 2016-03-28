@@ -1,0 +1,45 @@
+@UTF8
+@PID:	11312/t-00002642-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|78;|female|PossibleAD||Participant|19||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	361-0c, audio
+*INV:	just tell me everything you see going on in the picture . 0_2976
+%mor:	adv|just v|tell pro:obj|me pro:indef|everything pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	&=sighs the boy is snitching cookies . 2976_7198
+%mor:	det|the n|boy aux|be&3S part|snitch-PRESP n|cookie-PL .
+*PAR:	the sister's laughin(g) . 7198_9122
+%mor:	det|the n|sister~aux|be&3S part|laugh-PRESP .
+*PAR:	the [/] the <bench [: stool] [* s:r-ret] he> [//] &uh stool he's on is [/] is slanted . 9122_15900
+%mor:	det|the n|stool pro:sub|he~cop|be&3S prep|on aux|be&3S
+	part|slant-PASTP .
+*PAR:	&uh (.) oh <the mother then did> [//] the water &s spilled over in the sink (.) on [/] &t on to the floor . 15900_28000
+%mor:	co|oh det|the n|water v|spill-PAST adv|over prep|in det|the n|sink
+	adv|on prep|to det|the n|floor .
+*PAR:	and (.) there's dishes on the +... 28000_32675
+%mor:	conj|and pro:exist|there~cop|be&3S n|dish-PL prep|on det|the +...
+*PAR:	she's dryin(g) &uh a plate . 32675_35408
+%mor:	pro:sub|she~aux|be&3S part|dry-PRESP det|a n|plate .
+*PAR:	curtains . [+ gram] 35408_39549
+%mor:	n|curtain-PL .
+*PAR:	&uh a good view just +... 39549_45743
+%mor:	det|a adj|good n|view adv|just +...
+*PAR:	(..) and the +... 45743_46947
+%mor:	conj|and det|the +...
+*INV:	okay . 46947_47500
+%mor:	co|okay .
+*INV:	anything else ? 47500_50068
+%mor:	pro:indef|anything post|else ?
+*PAR:	(.) well &uh you can see the [/] &uh I guess the backyard  . 50068_58518
+%mor:	co|well pro|you mod|can v|see pro:sub|I v|guess det|the
+	n|+n|back+n|yard .
+*PAR:	and &uh (..) &d (.) I don't know if that would be a part of the house or a garage or &uh &th the walk . 58518_74766
+%mor:	conj|and pro:sub|I mod|do~neg|not v|know conj|if pro:dem|that
+	mod|will&COND cop|be det|a n|part prep|of det|the n|house coord|or
+	det|a n|garage coord|or det|the n|walk .
+*INV:	(..) okay that's fine . 74766_87095
+%mor:	co|okay pro:dem|that~cop|be&3S adj|fine .
+@End

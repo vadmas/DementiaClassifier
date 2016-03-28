@@ -1,0 +1,47 @@
+@UTF8
+@PID:	11312/t-00002271-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR||female|Control||Participant|||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	118-3c, audio
+*INV:	okay I'm gonna [: going to] leave the tape recorder on . 0_2194
+%mor:	co|okay pro:sub|I~aux|be&1S part|go-PRESP inf|to v|leave det|the
+	n|tape n|record&dv-AGT prep|on .
+*INV:	and I'm gonna [: going to] show you a picture . 2194_3923
+%mor:	conj|and pro:sub|I~aux|be&1S part|go-PRESP inf|to v|show pro|you
+	det|a n|picture .
+*INV:	has a_lot_of action going on in it . 3923_6202
+%mor:	v|have&3S qn|a_lot_of n|action part|go-PRESP adv|on prep|in pro|it
+	.
+*INV:	<everything that you> [//] tell me everything that you see going on in the picture . 6202_10142
+%mor:	v|tell pro:obj|me pro:indef|everything rel|that pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*INV:	(.) and there's the picture . 10142_13434
+%mor:	conj|and pro:exist|there~cop|be&3S det|the n|picture .
+*PAR:	&uh &ha there's a little boy's takin(g) a cookie out o(f) the &c cookie jar and givin(g) it to his sister . 13434_24100
+%mor:	pro:exist|there~cop|be&3S det|a adj|little n|boy~poss|s
+	part|take-PRESP det|a n|cookie adv|out prep|of det|the n|cookie
+	n|jar coord|and part|give-PRESP pro|it prep|to pro:poss:det|his
+	n|sister .
+*PAR:	and the [/] the stool that he's standin(g) on is gonna [: going to] fall . 24100_28040
+%mor:	conj|and det|the n|stool rel|that pro:sub|he~aux|be&3S
+	part|stand-PRESP adv|on aux|be&3S part|go-PRESP prep|to n|fall .
+*PAR:	and the [/] the mother's back is turned . 28040_31599
+%mor:	conj|and det|the n|mother~aux|be&3S adv|back aux|be&3S
+	part|turn-PASTP .
+*PAR:	and she's the water is overflowin(g) in the sink . 31599_35905
+%mor:	conj|and pro:sub|she~aux|be&3S det|the n|water aux|be&3S
+	over#part|flow-PRESP prep|in det|the n|sink .
+*PAR:	and &uh she's wipin(g) the dish . 35905_39095
+%mor:	conj|and pro:sub|she~aux|be&3S part|wipe-PRESP det|the n|dish .
+*PAR:	and &uh (.) the [/] &wi the window's open . 39095_47059
+%mor:	conj|and det|the n|window~aux|be&3S adv|open .
+*PAR:	and she's probably lookin(g) out the window and missin(g) the water &f overflowin(g) . 47059_52810
+%mor:	conj|and pro:sub|she~aux|be&3S adv|probable&dadj-LY part|look-PRESP
+	prep|out det|the n|window coord|and part|miss-PRESP det|the n|water
+	over#part|flow-PRESP .
+*INV:	okay . 52810_54540
+%mor:	co|okay .
+@End

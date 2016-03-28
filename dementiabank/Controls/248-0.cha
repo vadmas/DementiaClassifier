@@ -1,0 +1,59 @@
+@UTF8
+@PID:	11312/t-00002365-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|50;|male|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	248-0c, audio
+*INV:	just tell me all the action you see going on in the picture . 0_2941
+%mor:	adv|just v|tell pro:obj|me adv|all det|the n|action pro|you v|see
+	n:gerund|go-PRESP adv|on prep|in det|the n|picture .
+*PAR:	well my goodness here ! [+ exc] 2941_8358
+%mor:	co|well pro:poss:det|my n|good&dadj-NESS adv|here !
+*PAR:	little boy's about to fall off a chair [: stool] [* s:r] while he's reachin(g) for some cookies . [+ gram]  8358_13182
+%mor:	adj|little n|boy~mod|do&3S adv|about inf|to v|fall prep|off det|a
+	n|stool conj|while pro:sub|he~aux|be&3S part|reach-PRESP prep|for
+	qn|some n|cookie-PL .
+*PAR:	and he's handing some cookies to his sister apparently . 13182_16623
+%mor:	conj|and pro:sub|he~aux|be&3S part|hand-PRESP qn|some n|cookie-PL
+	prep|to pro:poss:det|his n|sister adv|apparent&dadj-LY .
+*PAR:	and the mother &o is over here . 16623_21263
+%mor:	conj|and det|the n|mother cop|be&3S prep|over pro:dem|here .
+*PAR:	probably the mother . [+ gram] 21263_22975
+%mor:	adv|probable&dadj-LY det|the n|mother .
+*PAR:	wiping a plate . [+ gram] 22975_25432
+%mor:	part|wipe-PRESP det|a n|plate .
+*PAR:	filling dishes . [+ gram] 25432_27268
+%mor:	part|fill-PRESP n|dish-PL .
+*PAR:	and meanwhile the water's overflowing out of the sink and dropping on the floor and she's standing in water . 27268_32467
+%mor:	conj|and adv|meanwhile det|the n|water~aux|be&3S
+	over#part|flow-PRESP adv|out prep|of det|the n|sink coord|and
+	part|drop-PRESP prep|on det|the n|floor coord|and
+	pro:sub|she~aux|be&3S part|stand-PRESP prep|in n|water .
+*PAR:	which doesn't make sense, does it ? [+ exc] [+ gram] 32467_34676
+%mor:	rel|which mod|do&3S~neg|not v|make n|sense cm|cm mod|do&3S pro|it ?
+*INV:	&=laughs . 34676_36637
+*PAR:	I don't see any birds on the windowsills . 36637_39625
+%mor:	pro:sub|I mod|do~neg|not v|see qn|any n|bird-PL prep|on det|the
+	n|+n|window+n|sill-PL .
+*PAR:	no action outside so that looks like that's about all the action . [+ exc] 39625_45961
+%mor:	qn|no n|action adv|outside adv|so adv|that v|look-3S rel|like
+	pro:dem|that~mod|do&3S prep|about qn|all det|the n|action .
+*PAR:	girl's reaching up for a cookie . [+ gram] 45961_52075
+%mor:	n|girl~aux|be&3S part|reach-PRESP adv|up prep|for det|a n|cookie .
+*PAR:	she's got her finger up her nose or to [//] touching her nose for some reason . 52075_57133
+%mor:	pro:sub|she~aux|be&3S part|get&PASTP pro:poss:det|her n|finger
+	prep|up pro:poss:det|her n|nose coord|or part|touch-PRESP
+	pro:poss:det|her n|nose prep|for qn|some n|reason .
+*PAR:	can't tell if the grass is growing sorry . [+ exc] 57133_69556
+%mor:	mod|can~neg|not v|tell conj|if det|the n|grass aux|be&3S
+	part|grow-PRESP adj|sorry .
+*INV:	&=laughs oh come on can't you see it growing &laughs ? 69556_72619
+%mor:	co|oh v|come adv|on mod|can~neg|not pro|you v|see pro|it
+	part|grow-PRESP ?
+*PAR:	+< no [/] no . [+ exc] 72019_73353
+%mor:	co|no .
+*INV:	okay good . 73353_75173
+%mor:	co|okay adj|good .
+@End

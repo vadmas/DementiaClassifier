@@ -1,0 +1,45 @@
+@UTF8
+@PID:	11312/t-00002319-1
+@Begin
+@Languages:	eng
+@Participants:	PAR Participant, INV Investigator
+@ID:	eng|UPMC|PAR|80;|female|Control||Participant|30||
+@ID:	eng|UPMC|INV|||||Investigator|||
+@Media:	158-2c, audio
+*PAR:	washing dishes .  [+ gram] 0_3840
+%mor:	part|wash-PRESP n|dish-PL .
+*PAR:	climbing stool . [+ gram]  3840_5403
+%mor:	part|climb-PRESP n|stool .
+*PAR:	falling off the stool .  [+ gram] 5403_6693
+%mor:	part|fall-PRESP prep|off det|the n|stool .
+*PAR:	getting into the cookie jar . [+ gram]  6693_8208
+%mor:	part|get-PRESP prep|into det|the n|cookie n|jar .
+*PAR:	and the little girl &o on a thing . [+ gram]  8208_10552
+%mor:	conj|and det|the adj|little n|girl prep|on det|a n|thing .
+*PAR:	yeah putting her &uh finger up there . 10552_13180
+%mor:	co|yeah part|put-PRESP pro:poss:det|her n|finger prep|up
+	pro:dem|there .
+*PAR:	I don't know . [+ exc] 13180_13650
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	she won't tell . 13650_14374
+%mor:	pro:sub|she mod|will~neg|not v|tell .
+*PAR:	I don't know . [+ exc] 14374_15174
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*PAR:	outside &uh there's &uh grass growing . 15174_19518
+%mor:	adv|outside pro:exist|there~cop|be&3S n|grass part|grow-PRESP .
+*PAR:	<you will> [//] &uh <dish water's washing or is > [//] &uh the sink is overflowing . 19518_25805
+%mor:	det|the n|sink aux|be&3S over#part|flow-PRESP .
+*PAR:	and &uh the dishes aren't all together done . 25805_30102
+%mor:	conj|and det|the n|dish-PL aux|be&PRES~neg|not adv|all adv|together
+	part|do&PASTP .
+*PAR:	the floor is getting wet . 30102_32396
+%mor:	det|the n|floor aux|be&3S part|get-PRESP part|wet&PASTP .
+*PAR:	I can't see +//. [+ exc] 32396_36587
+%mor:	pro:sub|I mod|can~neg|not v|see +//.
+*PAR:	a cookie jar is open and the &uh cupboard door is open . 36587_41307
+%mor:	det|a n|cookie n|jar cop|be&3S adj|open coord|and det|the
+	n|cupboard n|door aux|be&3S adv|open .
+*PAR:	there's no handle on the &uh cupboard doors down here . 41307_45835
+%mor:	pro:exist|there~cop|be&3S qn|no n|handle prep|on det|the n|cupboard
+	n|door-PL adv|down adv|here .
+@End

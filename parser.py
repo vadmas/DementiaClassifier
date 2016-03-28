@@ -1,10 +1,45 @@
+import os
+import fnmatch
+import nltk
+
 # takes a long string and cleans it up and converts it into a vector to be extracted
+# NOTE: Significant preprocessing was done by sed - make sure to run this script on preprocessed text
 
-# Input will be this format
-# ['alright', 'there', "'s", 'um', 'a', 'young', 'boy', 'that', "'s", 'getting', 'a', 'cookie', 'jar', '.', 'and', 'it', 'he', "'s", 'uh', 'in', 'bad', 'shape', 'because', 'uh', 'the', 'thing', 'is', 'falling', 'over', '.', 'and', 'in', 'the', 'picture', 'the', 'mother', 'is', 'washing', 'dishes', 'and', 'does', "n't", 'see', 'it', '.', 'and', 'so', 'is', 'the', 'the', 'water', 'is', 'overflowing', 'in', 'the', 'sink', '.', 'and', 'the', 'dishes', 'might', 'get', 'falled', 'over', 'if', 'you', 'do', "n't", 'fell', 'fall', 'over', 'there', 'there', 'if', 'you', 'do', "n't", 'get', 'it', '.', 'and', 'it', 'there', 'it', "'s", 'a', 'picture', 'of', 'a', 'kitchen', 'window', '.', 'and', 'the', 'curtains', 'are', 'very', 'uh', 'distinct', '.', 'but', 'the', 'water', 'is', 'flow', 'still', 'flowing']
+def parseOptima(filepath):
+	if os.path.exists(filepath):
+		parsed_data = []
+		for subdir, dirs, files in os.walk(filepath):
+			for file in fnmatch.filter(files, '*.txt'):
+				f  = open(os.path.join(subdir, file), 'r')
+				id = file.replace('.txt','')
+				sentence = ''
+				for line in f.readlines():
+					if 'P:' in line:
+						sentence += line.replace('P:','').replace('\r\n',' ').replace('\n','')
+					# id signals beginning of new experiment, 
+					# push sentence and clear
+					if id in line:
+						tokenized = nltk.word_tokenize(sentence)
+						if tokenized:
+							parsed_data.append(tokenized)
+						sentence = ''
+
+		return parsed_data
+	else:
+		raise IOError("File not found: " + filepath + " does not exist")
 
 
-def getParsedWords():
-	parsed = [['alright', 'there', "'s", 'um', 'a', 'young', 'boy', 'that', "'s", 'getting', 'a', 'cookie', 'jar', '.', 'and', 'it', 'he', "'s", 'uh', 'in', 'bad', 'shape', 'because', 'uh', 'the', 'thing', 'is', 'falling', 'over', '.', 'and', 'in', 'the', 'picture', 'the', 'mother', 'is', 'washing', 'dishes', 'and', 'does', "n't", 'see', 'it', '.', 'and', 'so', 'is', 'the', 'the', 'water', 'is', 'overflowing', 'in', 'the', 'sink', '.', 'and', 'the', 'dishes', 'might', 'get', 'falled', 'over', 'if', 'you', 'do', "n't", 'fell', 'fall', 'over', 'there', 'there', 'if', 'you', 'do', "n't", 'get', 'it', '.', 'and', 'it', 'there', 'it', "'s", 'a', 'picture', 'of', 'a', 'kitchen', 'window', '.', 'and', 'the', 'curtains', 'are', 'very', 'uh', 'distinct', '.', 'but', 'the', 'water', 'is', 'flow', 'still', 'flowing'],
-				['alright', 'there', "'s", 'um', 'a', 'young', 'boy', 'that', "'s", 'getting', 'a', 'cookie', 'jar', '.', 'and', 'it', 'he', "'s", 'uh', 'in', 'bad', 'shape', 'because', 'uh', 'the', 'thing', 'is', 'falling', 'over', '.', 'and', 'in', 'the', 'picture', 'the', 'mother', 'is', 'washing', 'dishes', 'and', 'does', "n't", 'see', 'it', '.', 'and', 'so', 'is', 'the', 'the', 'water', 'is', 'overflowing', 'in', 'the', 'sink', '.', 'and', 'the', 'dishes', 'might', 'get', 'falled', 'over', 'if', 'you', 'do', "n't", 'fell', 'fall', 'over', 'there', 'there', 'if', 'you', 'do', "n't", 'get', 'it', '.', 'and', 'it', 'there', 'it', "'s", 'a', 'picture', 'of', 'a', 'kitchen', 'window', '.', 'and', 'the', 'curtains', 'are', 'very', 'uh', 'distinct', '.', 'but', 'the', 'water', 'is', 'flow', 'still', 'flowing']]
-	return parsed
+def parseDementiaBank(filepath):
+	if os.path.exists(filepath):
+		parsed_data = []
+		for subdir, dirs, files in os.walk(filepath):
+			for file in fnmatch.filter(files, '*.txt'):
+				f = open(os.path.join(subdir, file), 'r')
+				raw = f.read(); f.close()
+				raw = raw.decode('utf-8').strip()
+				tokenized = nltk.word_tokenize(raw)
+				parsed_data.append(tokenized)
+		return parsed_data
+	else:
+		raise IOError("File not found: " + filepath + " does not exist")
+
