@@ -232,9 +232,59 @@ def getHonoreStatistic(nlp_obj):
 
 	return (100*math.log(words))/(1-words_occuring_once/word_types)
 
+#input: NLP object for one paragrah
+#returns: Mean word length
+def getMeanWordLength(nlp_obj):
 
-def 
+
+	tokens = nlp_obj['tokens']
+
+	word_length = [len(word) for word in tokens]
+
+	return sum(word_length)/len(tokens)
+
+#input: NLP object for one paragrah
+#returns: number of NID words (length > 2) in paragraph
+def getNumberOfNID(nlp_obj):
+
+	pos_tag = nlp_obj['pos_tag']
+
+	foreign_words = [word_pos for word_pos if len(word_pos[0]) > 2 and word_pos[1] == 'FW' ]
+
+	return len(foreign_words)
+
+#input: NLP object for one paragraph
+#returns: normalized number of "uh" and "um"
+def getDisfluencyFrequency(nlp_obj):
+
+	tokens = nlp_obj['tokens']
+
+	um_uh_words = [word for word in tokens if word == 'um' or word == 'uh']
+
+	return len(um_uh_words)/len(tokens)
 
 
+#input: NLP object for one paragraph
+#returns: Get total number of words excluding NID and filled pauses
+def getTotalNumberOfWords(nlp_obj):
+
+	tokens = nlp_obj['tokens']
+	pos_tag = nlp_obj['pos_tag']
+
+	foreign_words = [word_pos for word_pos if word_pos[1] == 'FW' ]
+	um_uh_words = [word for word in tokens if word == 'um' or word == 'uh']
+
+	return len(tokens) - len(foreign_words) - len(um_uh_words)
+
+#input: NLP object for one paragraph
+#returns: Returns mean length of sentence w.r.t. number of words
+def getMeanLengthOfSentence(nlp_obj):
+
+	raw_text = nlp_obj['raw']
+	tokens = nlp_obj['tokens']
+	n_sentences = len(nltk.tokenize.sent_tokenize(raw_text))
+	n_words = len(tokens)
+
+	return n_sentences/n_words
 
 
