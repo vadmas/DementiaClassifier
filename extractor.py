@@ -41,14 +41,17 @@ def start_stanford_server(port = 9000):
     return stanfordServerThread
 
 
-def get_parse_tree(sentence, port = 9000):
+def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
     r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data = sentence)
     json_obj = r.json()
-    tree = json_obj['sentences'][0]['parse']
-    return tree
+    sentences = len(json_obj['sentences'])
+    trees = []
+    for sentence in sentences:
+        trees = json_obj['sentences'][sentence]['parse']
+    return trees
 
 
 def build_tree(parse_tree):

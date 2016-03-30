@@ -68,8 +68,10 @@ venv/
 .DS_Store
 
 #data
-data/
-dementiabank/
+data
 
 #stanford
 stanford/
+
+#Syntactic Complexity Analyzer
+Syntactic Complexity Analyzer
