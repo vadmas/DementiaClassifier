@@ -3,12 +3,13 @@ import subprocess
 import threading
 import requests
 import re
+import csv
 
 
 class tree_node():
 
-    def __init__(self, type):
-        self.type = type
+    def __init__(self, key):
+        self.key = key
         self.children = []
 
     def addChild(self, node):
@@ -53,8 +54,8 @@ def get_parse_tree(sentence, port = 9000):
 def build_tree(parse_tree):
     node_stack = []
     build_node = False
-    node_type = ''
-    root_node = None
+    node_type  = ''
+    root_node  = None
     for ch in parse_tree:
         # If we encounter a ( character, start building a node
         if ch == '(':
@@ -90,7 +91,8 @@ def get_height_of_tree(tree_node):
 
 
 def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
-    curr_type = tree_node.type
+    print (type(tree_node))
+    curr_type = tree_node.key
     count = 0
     if prev_type == parent_type and curr_type == child_type:
         count = 1
@@ -138,10 +140,14 @@ def get_VP_2_VBDNP(tree_node):
 def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
-
-if __name__ == '__main__':
+if __name__ == '__main__':    
+    print "Starting server"
     thread = start_stanford_server() # Start the server
-    tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')
-    build_tree(tree)
-    thread.stop_server()
-    #build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    try:
+        tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')
+        root = build_tree(tree)
+        print get_VP_2_AUX(tree_node)
+        build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    finally:
+        print "Stopping server"
+        thread.stop_server()
