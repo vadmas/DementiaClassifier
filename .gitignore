@@ -68,7 +68,8 @@ venv/
 .DS_Store
 
 #data
-data
+data/
+dementiabank/
 
 #stanford
 stanford/
