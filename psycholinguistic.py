@@ -323,6 +323,3 @@ def binaryIUActionWomanUnconcerned(sent):
 def binaryIUActionWomanIndifferent(sent):
     pass
 
-
-
-if __name__ == '__main__':
