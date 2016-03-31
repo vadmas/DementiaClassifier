@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # Must start server by from commandline using:
     # java -Xmx4g -cp "stanford/stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
     # ------------------------   
-    
+    # thread = start_stanford_server() # Start the server
     tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')[0]
     root = build_tree(tree)
     print "get_ADVP_2_RB : " + str(get_ADVP_2_RB(root))
