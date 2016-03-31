@@ -1,1 +1,9 @@
 - For optima concatenated all text without adding sentence breaks
+- For imagability, familarity, and concreteness we used data from here: http://www.psych.rl.ac.uk/MRC_Psych_Db.html
+- imagability, familarity, and concreteness scores currently use 0 for unrecognized words (do we want to use some small non-zero number?)
+    - Currently normalizing by by total number of words in sentence
+    - Currently including stopwords but maybe should take them out first?
+- Age of acquisition words come from this paper:
+    + http://crr.ugent.be/papers/Kuperman%20et%20al%20AoA%20ratings.pdf
+    + 
+- Fraser paper kept utterances separate but we have collapsed all utterences into one paragraph. Should change 

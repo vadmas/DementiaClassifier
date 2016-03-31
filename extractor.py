@@ -3,12 +3,13 @@ import subprocess
 import threading
 import requests
 #import analyzeFolder
+import re
 
 
 class tree_node():
 
-    def __init__(self, type):
-        self.type = type
+    def __init__(self, key):
+        self.key = key
         self.children = []
 
     def addChild(self, node):
@@ -25,9 +26,10 @@ class StanfordServerThread(threading.Thread):
         threading.Thread.__init__(self)
 
     def run(self):
-        server_cmd = ['java', '-Xmx4g', '-cp', 'stanford/stanford-corenlp-full-2015-12-09/*',
+        server_cmd = ['java', '-Xmx4g', '-cp', '\"stanford/stanford-corenlp-full-2015-12-09/*\"',
                       'edu.stanford.nlp.pipeline.StanfordCoreNLPServer', '-port', str(self.port)]
         self.p = subprocess.Popen(server_cmd)
+        # self.p = subprocess.call(server_cmd)
 
     def stop_server(self):
         self.p.kill()
@@ -46,18 +48,18 @@ def get_parse_tree(sentences, port = 9000):
     #re.sub(pattern, '', raw)
     r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
     json_obj = r.json()
-    sentences = len(json_obj['sentences'])
+    sentences = json_obj['sentences']
     trees = []
-    for sentence in range(0,sentences):
-        trees.append(json_obj['sentences'][sentence]['parse'])
+    for sentence in sentences:
+        trees.append(sentence['parse'])
     return trees
 
 
 def build_tree(parse_tree):
     node_stack = []
     build_node = False
-    node_type = ''
-    root_node = None
+    node_type  = ''
+    root_node  = None
     for ch in parse_tree:
         # If we encounter a ( character, start building a node
         if ch == '(':
@@ -81,7 +83,7 @@ def build_tree(parse_tree):
             continue
         if build_node:
             node_type = node_type + ch
-            continue
+            continue    
     return root_node
 
 
@@ -93,7 +95,8 @@ def get_height_of_tree(tree_node):
 
 
 def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
-    curr_type = tree_node.type
+    print tree_node.key
+    curr_type = tree_node.key
     count = 0
     if prev_type == parent_type and curr_type == child_type:
         count = 1
@@ -152,3 +155,22 @@ if __name__ == '__main__':
     node = build_tree(trees[0])
     thread.stop_server()
     #build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    # print "Starting server"
+    # thread = start_stanford_server() # Start the server
+    # try:
+    #     tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')
+    #     root = build_tree(tree)
+    #     print get_VP_2_AUX(tree_node)
+    #     build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    # except Exception as e:
+    #     print(e)
+    # finally:
+    #     print "Stopping server"
+    #     thread.stop_server()
+
+
+    # ------------------------   
+    # Must start server by from commandline using:
+    # java -Xmx4g -cp "stanford/stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
+    # ------------------------   
+
