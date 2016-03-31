@@ -2,8 +2,8 @@ import nltk
 import subprocess
 import threading
 import requests
+#import analyzeFolder
 import re
-import csv
 
 
 class tree_node():
@@ -46,7 +46,7 @@ def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
-    r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data = sentences)
+    r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
     json_obj = r.json()
     sentences = json_obj['sentences']
     trees = []
@@ -144,7 +144,17 @@ def get_VP_2_VBDNP(tree_node):
 def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
-if __name__ == '__main__':    
+
+#def get_MLS_MLC_MLT(folder_path):
+
+
+
+if __name__ == '__main__':
+    thread = start_stanford_server() # Start the server
+    trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
+    node = build_tree(trees[0])
+    thread.stop_server()
+    #build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
     # print "Starting server"
     # thread = start_stanford_server() # Start the server
     # try:
@@ -163,9 +173,3 @@ if __name__ == '__main__':
     # Must start server by from commandline using:
     # java -Xmx4g -cp "stanford/stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
     # ------------------------   
-    # thread = start_stanford_server() # Start the server
-    tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')[0]
-    root = build_tree(tree)
-    print "get_ADVP_2_RB : " + str(get_ADVP_2_RB(root))
-
-    # build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
