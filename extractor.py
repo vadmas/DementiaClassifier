@@ -2,7 +2,7 @@ import nltk
 import subprocess
 import threading
 import requests
-import re
+#import analyzeFolder
 
 
 class tree_node():
@@ -44,12 +44,12 @@ def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
-    r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data = sentence)
+    r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
     json_obj = r.json()
     sentences = len(json_obj['sentences'])
     trees = []
-    for sentence in sentences:
-        trees = json_obj['sentences'][sentence]['parse']
+    for sentence in range(0,sentences):
+        trees.append(json_obj['sentences'][sentence]['parse'])
     return trees
 
 
@@ -142,9 +142,13 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
 
+#def get_MLS_MLC_MLT(folder_path):
+
+
+
 if __name__ == '__main__':
     thread = start_stanford_server() # Start the server
-    tree = get_parse_tree('The quick brown fox jumped over the lazy dog.')
-    build_tree(tree)
+    trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
+    node = build_tree(trees[0])
     thread.stop_server()
     #build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
