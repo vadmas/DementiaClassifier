@@ -1,23 +1,37 @@
+# Use cPickle if available 
+try:
+	import cPickle as pickle
+except:
+	import pickle
 import parser
+import os
 
 # constants 
 DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control' 
 DEMENTIABANK_DEMENTIA_DIR = 'data/processed/dbank/dementia'
 OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control' 
 OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia' 
+PICKLE_DIR 			      = 'data/pickles/' 
+
+#Check pickle first, use parser if pickle doesn't exist
+def get_data(picklename, raw_files_directory):
+	if os.path.exists(PICKLE_DIR + picklename):
+		print "Pickle found at: " + PICKLE_DIR + picklename
+		with open(PICKLE_DIR + picklename, 'rb') as handle:
+			data = pickle.load(handle)
+	else:
+		print "Pickle not found, beginning parse."
+		data = parser.parse(raw_files_directory)
+		with open(PICKLE_DIR + picklename, 'wb') as handle:
+			pickle.dump(data, handle)	
+	return data
 
 if __name__ == '__main__':
-	
-	# 1. parse arguments
-	# 2. Call parser to make list of strings
-	# 3. Call extractor to make list of features
-	# 4. Make arff file
-	# 5. export / call weka to train
-	
-	dbank_control  = parser.parse(DEMENTIABANK_CONTROL_DIR)
-	dbank_dem      = parser.parse(DEMENTIABANK_DEMENTIA_DIR)
-	optima_control = parser.parse(OPTIMA_CONTROL_DIR)
-	optima_dem     = parser.parse(OPTIMA_DEMENTIA_DIR)
+
+	dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+	dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
+	optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
+	optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
 	
 	print "DBank Control: "  + str(len(dbank_control))
 	print "DBank Dem: " 	 + str(len(dbank_dem))

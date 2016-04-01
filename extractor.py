@@ -37,25 +37,10 @@ class StanfordServerThread(threading.Thread):
         self.p.kill()
 
 
-
 def start_stanford_server(port = 9000):
     stanfordServerThread = StanfordServerThread()
     stanfordServerThread.start()
     return stanfordServerThread
-
-
-def get_parse_tree(sentences, port = 9000):
-    #raw = sentence['raw']
-    #pattern = '[a-zA-Z]*=\\s'
-    #re.sub(pattern, '', raw)
-    r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
-    json_obj = r.json()
-    sentences = json_obj['sentences']
-    trees = []
-    for sentence in sentences:
-        trees.append(sentence['parse'])
-    return trees
-
 
 def build_tree(parse_tree):
     node_stack = []
@@ -199,4 +184,3 @@ if __name__ == '__main__':
     # Must start server by from commandline using:
     # java -Xmx4g -cp "stanford/stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000
     # ------------------------   
-
