@@ -2,14 +2,16 @@ import nltk
 import subprocess
 import threading
 import requests
-#import analyzeFolder
 import re
+
+import SCA.L2SCA.analyzeFolder as af
 
 
 class tree_node():
 
-    def __init__(self, key):
+    def __init__(self, key, phrase=None):
         self.key = key
+        self.phrase = phrase
         self.children = []
 
     def addChild(self, node):
@@ -26,7 +28,7 @@ class StanfordServerThread(threading.Thread):
         threading.Thread.__init__(self)
 
     def run(self):
-        server_cmd = ['java', '-Xmx4g', '-cp', '\"stanford/stanford-corenlp-full-2015-12-09/*\"',
+        server_cmd = ['java', '-Xmx4g', '-cp', '\'stanford/stanford-corenlp-full-2015-12-09/*\'',
                       'edu.stanford.nlp.pipeline.StanfordCoreNLPServer', '-port', str(self.port)]
         self.p = subprocess.Popen(server_cmd)
         # self.p = subprocess.call(server_cmd)
@@ -58,30 +60,51 @@ def get_parse_tree(sentences, port = 9000):
 def build_tree(parse_tree):
     node_stack = []
     build_node = False
-    node_type  = ''
-    root_node  = None
+    node_type  = None
+    phrase = None
+    root_node = None
+    encounter_leaf = False
     for ch in parse_tree:
         # If we encounter a ( character, start building a node
         if ch == '(':
+            if node_type:
+                # Finished building node
+                node_type = node_type.strip()
+                new_node = tree_node(node_type)
+                node_stack.append(new_node)
+            # Reset
+            encounter_leaf = False
             build_node = True
+            node_type = None
+            phrase = None
             continue
-        if ch.isspace() and build_node:
-            # Finished building node
-            node = tree_node(node_type)
-            node_stack.append(node)
-            build_node = False
-            node_type = ''
+        if ch.isspace():
+            encounter_leaf = True
             continue
         if ch == ')':
             # pop from the stack and add it to the children for the node before it
+            if phrase:
+                new_node = tree_node(node_type, phrase)
+                node_stack.append(new_node)
             popped_node = node_stack.pop()
             if len(node_stack) > 0:
                 parent = node_stack[-1]
                 parent.addChild(popped_node)
             else:
                 root_node = popped_node
+            phrase = None
+            node_type = None
+            build_node = False
+            encounter_leaf = False
+            continue
+        if encounter_leaf and build_node:
+            if not phrase:
+                phrase = ''
+            phrase += ch
             continue
         if build_node:
+            if not node_type:
+                node_type = ''
             node_type = node_type + ch
             continue    
     return root_node
@@ -148,13 +171,13 @@ def get_INTJ_2_UH(tree_node):
 #def get_MLS_MLC_MLT(folder_path):
 
 
-
 if __name__ == '__main__':
-    thread = start_stanford_server() # Start the server
-    trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
-    node = build_tree(trees[0])
-    thread.stop_server()
-    #build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    #thread = start_stanford_server() # Start the server
+    #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
+    #node = build_tree(trees[0])
+    #thread.stop_server()
+
+    root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
     # print "Starting server"
     # thread = start_stanford_server() # Start the server
     # try:
