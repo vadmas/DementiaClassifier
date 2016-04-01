@@ -7,3 +7,4 @@
     + http://crr.ugent.be/papers/Kuperman%20et%20al%20AoA%20ratings.pdf
     + 
 - Fraser paper kept utterances separate but we have collapsed all utterences into one paragraph. Should change 
+- In the feature 'Phrase type rate' we use non-embedded counts of phrase types but the paper doesn't say which version is used
