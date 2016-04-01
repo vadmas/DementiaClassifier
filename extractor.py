@@ -168,7 +168,9 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
 
-#def get_MLS_MLC_MLT(folder_path):
+def get_structure_features(input_folder, output_folder):
+    
+    af.process_directory(input_folder, output_folder)
 
 
 if __name__ == '__main__':
@@ -177,7 +179,8 @@ if __name__ == '__main__':
     #node = build_tree(trees[0])
     #thread.stop_server()
 
-    root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    #root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
+    get_structure_features('input_SCA_dir')
     # print "Starting server"
     # thread = start_stanford_server() # Start the server
     # try:
