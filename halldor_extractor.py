@@ -2,6 +2,16 @@
 
 import nltk
 from collections import defaultdict
+import parser
+
+"""
+=============================================================
+
+HELPER FUNCTIONS
+
+=============================================================
+"""
+
 
 #input: tokenized string
 #returns: dictionary of frequencies for each type of word from the tokenized string
@@ -23,6 +33,133 @@ def pos_tag(tokens):
 	pos_freq['SUM'] = len(tokens)
 
 	return pos_freq
+
+
+#input: NLP object for one paragraph
+#returns: Returns length of phrases in utterance w.r.t. number of words
+def getPhraseLength(nlp_obj, phrase_type):
+    
+    def count(node, multiplier):
+
+		#its a word!
+		if node.phrase:
+			return multiplier*len(node.phrase)
+
+		phrase_length = 0 
+		if node.key == phrase_type:
+			for child in root.children:
+				phrase_length += count(child, multiplier+1)
+
+		return phrase_length
+
+	
+	#build the syntactic tree
+	root = build_tree(nlp_obj['parse_tree'])
+	
+
+	node = root
+	Phrase_length = 0
+
+	if root.key == phrase_type:
+		multiplier = 1
+	else:
+		multiplier = 0
+
+		for child in node.children:
+			Phrase_length = count(child, 0)
+
+
+
+	return  Phrase_length
+
+
+#input: NLP object for one paragraph
+#returns: Returns count of phrases in utterance with embedded phrases of the 
+# same type included in the calculation
+def getPhraseCountEmbedded(nlp_obj, phrase_type):
+    
+    def count(node):
+
+    	phrase_count = 0
+
+    	if node.key == phrase_type:
+    		phrase_count +=1
+
+
+		#its a word!
+		if node.phrase:
+			return phrase_count
+ 
+		
+		for child in node.children:
+			phrase_count += count(child)
+
+		return phrase_count
+
+	
+	#build the syntactic tree
+	root = build_tree(nlp_obj['parse_tree'])
+	
+
+	node = root
+	Phrase_count = 0
+
+	if root.key == phrase_type:
+		Phrase_count += 1
+		
+
+	for child in root.children:
+		Phrase_count += count(child)
+
+
+
+	return  Phrase_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns count of phrases in utterance so only the largest phrase parent counts
+# but not its children
+def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
+        
+    def count(node):
+    	
+    	#We've hit our phrase type and can backtrac
+    	if node.key == phrase_type:
+    		return 1
+
+    	else:
+			
+			#its a word!
+			if node.phrase:
+				return 0
+ 
+			phrase_count = 0
+			
+			for child in node.children:
+				phrase_count += count(child)
+
+			return phrase_count
+
+	
+	#build the syntactic tree
+	root = build_tree(nlp_obj['parse_tree'])
+	
+
+	node = root
+	Phrase_count = 0
+
+	if root.key == phrase_type:
+		Phrase_count += 1
+		
+
+	for child in root.children:
+		Phrase_count += count(child)
+
+
+
+	return  Phrase_count
+
+
 
 """
 =============================================================
@@ -286,5 +423,136 @@ def getMeanLengthOfSentence(nlp_obj):
 	n_words = len(tokens)
 
 	return n_sentences/n_words
+
+#input: NLP object for one paragraph
+#returns: Returns proportion of noun phrases in utterance w.r.t. number of words
+def getNPProportion(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	return getPhraseLength(nlp_obj, 'NP')/word_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns proportion of verb phrases in utterance w.r.t. number of words
+def getVPProportion(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	return getPhraseLength(nlp_obj, 'VP')/word_count
+
+#input: NLP object for one paragraph
+#returns: Returns proportion of preposition phrases in utterance w.r.t. number of words
+def getNPProportion(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	return getPhraseLength(nlp_obj, 'PP')/word_count
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of noun phrases in utterance w.r.t. number of noun phrases
+#This is embedded so subphrases are also counted
+def getAvgNPTypeLengthEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'NP')
+
+	phrase_count = getPhraseCountEmbedded(nlp_obj, 'NP')
+
+	return phrase_length/phrase_count
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of verb phrases in utterance w.r.t. number of verb phrases
+#This is embedded so subphrases are also counted
+def getAvgVPTypeLengthEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'VP')
+
+	phrase_count = getPhraseCountEmbedded(nlp_obj, 'VP')
+
+	return phrase_length/phrase_count
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of prepositional phrases in utterance w.r.t. number of prepositional phrases
+#This is embedded so subphrases are also counted
+def getAvgPPTypeLengthEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'PP')
+
+	phrase_count = getPhraseCountEmbedded(nlp_obj, 'PP')
+
+	return phrase_length/phrase_count
+
+
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of noun phrases in utterance w.r.t. number of noun phrases
+#This is non-embedded so only the largest phrase type is counted
+def getAvgNPTypeLengthNonEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'NP')
+
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
+
+	return phrase_length/phrase_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of verb phrases in utterance w.r.t. number of verb phrases
+#This is non-embedded so only the largest phrase type is counted
+def getAvgVPTypeLengthNonEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'VP')
+
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	return phrase_length/phrase_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns average length (in words) of prepositional phrases in utterance w.r.t. number of prepositional phrases
+#This is non-embedded so only the largest phrase type is counted
+def getAvgPPTypeLengthNonEmbedded(nlp_obj):
+
+	#phrase length in words summed up
+	phrase_length = getPhraseLength(nlp_obj, 'PP')
+
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	return phrase_length/phrase_count
+
+#input: NLP object for one paragraph
+#returns: Returns number of noun phrases divided by the number of words in the sentence
+#ATTENTION we use the nonembbeded count here
+def getNPTypeRate(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
+
+	return phrase_count/word_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns number of verb phrases divided by the number of words in the sentence
+#ATTENTION we use the nonembbeded count here
+def getVPTypeRate(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	return phrase_count/word_count
+
+
+#input: NLP object for one paragraph
+#returns: Returns number of prepositional phrases  divided by the number of words in the sentence
+#ATTENTION we use the nonembbeded count here
+def getPPTypeRate(nlp_obj):
+
+	word_count = len(nlp_obj['tokens'])
+	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'PP')
+
+	return phrase_count/word_count
+
 
 
