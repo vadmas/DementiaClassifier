@@ -4,7 +4,7 @@ import threading
 import requests
 import re
 
-import SCA.L2SCA.analyzeFolder as af
+# import SCA.L2SCA.analyzeFolder as af
 
 
 class tree_node():
@@ -103,7 +103,6 @@ def get_height_of_tree(tree_node):
 
 
 def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
-    print tree_node.key
     curr_type = tree_node.key
     count = 0
     if prev_type == parent_type and curr_type == child_type:

@@ -26,14 +26,15 @@ def get_data(picklename, raw_files_directory):
 			pickle.dump(data, handle)	
 	return data
 
+
 if __name__ == '__main__':
 
-	dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
-	dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
-	optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
-	optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
-	
-	print "DBank Control: "  + str(len(dbank_control))
-	print "DBank Dem: " 	 + str(len(dbank_dem))
-	print "Optima Control: " + str(len(optima_control))
-	print "Optima Dem: "	 + str(len(optima_dem))
+	# dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+	# dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
+	# optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
+	# optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
+
+	# print "DBank Control: "  + str(len(dbank_control))
+	# print "DBank Dem: " 	 + str(len(dbank_dem))
+	# print "Optima Control: " + str(len(optima_control))
+	# print "Optima Dem: "	 + str(len(optima_dem))

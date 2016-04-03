@@ -18,7 +18,7 @@ import nltk
 # 	],
 # ]
 
-def _get_parse_tree(sentences, port = 9000):
+def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
@@ -58,7 +58,7 @@ def _processUtterance(uttr):
 			pos_freq[wordtype] += 1
 	#store the sum of frequencies in the hashmap
 	pos_freq['SUM'] = len(tokens)
-	parse_tree = _get_parse_tree(uttr)
+	parse_tree = get_parse_tree(uttr)
 	datum = {"pos": tagged_words, "raw": uttr, "token": tokens, "pos_freq":pos_freq, "parse_tree":parse_tree}	
 	return datum
 
