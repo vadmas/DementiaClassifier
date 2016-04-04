@@ -3,6 +3,8 @@ import subprocess
 import threading
 import requests
 import re
+import os
+import Driver as dvr
 
 import SCA.L2SCA.analyzeFolder as af
 
@@ -41,6 +43,7 @@ def start_stanford_server(port = 9000):
     stanfordServerThread = StanfordServerThread()
     stanfordServerThread.start()
     return stanfordServerThread
+
 
 def build_tree(parse_tree):
     node_stack = []
@@ -102,7 +105,7 @@ def get_height_of_tree(tree_node):
     return depth
 
 
-def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
+def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type=None):
     print tree_node.key
     curr_type = tree_node.key
     count = 0
@@ -153,10 +156,14 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
 
-def get_structure_features(input_folder, output_folder):
-    
-    af.process_directory(input_folder, output_folder)
+def get_structure_features(samples):
+    tmp_file = ('sample_file.txt','w+')
+    raw_text = ''
+    for sample in samples:
+        raw_text += sample['raw']
 
+
+    
 
 if __name__ == '__main__':
     #thread = start_stanford_server() # Start the server
@@ -165,7 +172,11 @@ if __name__ == '__main__':
     #thread.stop_server()
 
     #root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
-    get_structure_features('input_SCA_dir')
+    # process dbank control
+    build_structure_input_folder('input_SCA_dir')
+	#get_structure_features('stanford/processed/dbank/control', 'dbank/control_SCA')
+    # process dbank dementia
+    #get_structure_features('stanford/processed/dbank/dementia', 'dbank/dementia_SCA')
     # print "Starting server"
     # thread = start_stanford_server() # Start the server
     # try:

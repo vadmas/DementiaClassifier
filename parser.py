@@ -43,10 +43,23 @@ def _isValid(inputString):
 	else:
 		return True
 
+import unicodedata, re
+
+# or equivalently and much more efficiently
+control_chars = ''.join(map(unichr, range(0,32) + range(127,160)))
+control_char_re = re.compile('[%s]' % re.escape(control_chars))
+
+def remove_control_chars(s):
+	return control_char_re.sub('',s)
+
+def remove_control_chars(s):
+    return control_char_re.sub('', s)
+
 def _processUtterance(uttr):
 	uttr = uttr.decode('utf-8').strip()
 	# Remove non ascii
 	uttr = re.sub(r'[^\x00-\x7f]',r'', uttr)
+
 	tokens = nltk.word_tokenize(uttr)
 	tagged_words = nltk.pos_tag(tokens)
 	#Get the frequency of every type
@@ -63,6 +76,8 @@ def _processUtterance(uttr):
 	return datum
 
 # Extract data from optima directory
+
+
 def parse(filepath):
 	if os.path.exists(filepath):
 		parsed_data = []
