@@ -4,7 +4,7 @@ import re
 import csv
 import requests
 from bs4 import BeautifulSoup
-from nltk.tree import *
+from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
 
@@ -16,10 +16,12 @@ FEATURE_DATA_PATH = 'data/feature_data/'
 
 # Made global so files only need to be read once
 psycholinguistic_scores = {}
+SUBTL_cached_scores = {}
 
 #-----------Global Tools--------------
 #remove punctuation, lowercase, stem
 stemmer = nltk.PorterStemmer()
+stop = stopwords.words('english')
 def stem_tokens(tokens):
     return [stemmer.stem(item) for item in tokens]
 #-------------------------------------
@@ -48,24 +50,20 @@ CUPBOARD  =  ['cupboard']
 DISHES    =  ['dishes']
 CURTAINS  =  ['curtains','curtain']
 
-
-
-
 #================================================
-#--------------Parse Tree Methods---------------
+#-------------------Tools------------------------
 #================================================
+def getAllWordsFromInterview(interview):
+	words = []
+	for uttr in interview: 
+		words += uttr["token"]
+	return words
 
-# For action unit to be present, the subject and action (eg. 'boy' and 'fall') 
-# must be tagged together in the utterance
-# Input: NLTK.Tree, subject list, verb list
-def check_action_unit(tree, subjs, verbs):
-	stemmed_subjs = [stemmer.stem(s) for s in subjs]
-	stemmed_verbs = [stemmer.stem(s) for s in verbs]
-	subj_found, verb_found = False, False
-	for pos in tree.pos():
-		if stemmer.stem(pos[0]) in stemmed_subjs and pos[1] in NOUN_POS_TAGS: subj_found = True
-		if stemmer.stem(pos[0]) in stemmed_verbs and pos[1] in VERB_POS_TAGS: verb_found = True
-	return subj_found and verb_found
+def getAllNonStopWordsFromInterview(interview):
+	words = []
+	for uttr in interview: 
+		words += [w for w in uttr["token"] if w not in stop]
+	return words
 
 #================================================
 #-----------Psycholinguistic features------------
@@ -78,51 +76,65 @@ def _load_scores(name):
 	if name not in FEATURE_DATA_LIST:
 		raise ValueError("name must be one of: " + str(FEATURE_DATA_LIST))
 	with open(FEATURE_DATA_PATH+name) as file:
-		d = {word.lower():score for (score, word) in [line.strip().split(" ") for line in file]}
-		psycholinguistic[name] = d
+		d = {word.lower():float(score) for (score, word) in [line.strip().split(" ") for line in file]}
+		psycholinguistic_scores[name] = d
 
-# Input: Sent is a sentence dictionary, measure is one of "familiarity", "concreteness", "imagability", or 'aoa'
+# Input: Interview is a list of utterance dictionaries, measure is one of "familiarity", "concreteness", "imagability", or 'aoa'
 # Output: PsycholinguisticScore for a given measure 
-def getPsycholinguisticScore(sent, measure):
+def getPsycholinguisticScore(interview, measure):
 	if measure not in FEATURE_DATA_LIST:
 		raise ValueError("name must be one of: " + str(FEATURE_DATA_LIST))
-	if not psycholinguistic[measure]: 
+	if measure not in psycholinguistic_scores: 
 		_load_scores(measure)
 	score = 0
-	for w in sent['token']:
-		if w.lower() in psycholinguistic[measure]:
-			score += psycholinguistic[measure][w.lower]
-	return score/len(sent['token'])
+	allwords = getAllNonStopWordsFromInterview(interview)
+	for w in allwords:
+		if w.lower() in psycholinguistic_scores[measure]:
+			score += psycholinguistic_scores[measure][w.lower()]
+	return score / len(allwords)
 	 
 # Input: list of words
 # Output: scores for each word
-# Notes: This gets the SUBTL frequency count for a word from 
-# 'SubtlexUS: American Word Frequencies'
-# http://subtlexus.lexique.org/moteur2/index.php
-# Improvements: Should add caching here to remove repeated calls 
-def getSUBTLWordScores(wordlist):
-	url = 'http://subtlexus.lexique.org/moteur2/simple.php'
-	encoded_words = '\n'.join(wordlist)
-	params = {'database':'subtlexus', 'mots':encoded_words}
-	r = requests.get(url, params=params)
-	vals = []
-	table = BeautifulSoup(r.content,"html.parser")
-	for row in table.findAll("tr"):
-		cells = row.findAll("td")
-		row = [c.findAll(text=True) for c in cells[:10]]
-		vals.append(row)
-	return vals
+# Notes: This gets the SUBTL frequency count for a word from http://subtlexus.lexique.org/moteur2/index.php
+def _getSUBTLWordScoresFromURL(wordlist):
+	unknown_words = [w for w in wordlist if w not in SUBTL_cached_scores]
+	# Load into cache all unknown words
+	if unknown_words:
+		url = 'http://subtlexus.lexique.org/moteur2/simple.php'
+		encoded_words = '\n'.join(unknown_words)
+		params = {'database':'subtlexus', 'mots':encoded_words}
+		r = requests.get(url, params=params)
+		rows = []
+		table = BeautifulSoup(r.content,"html.parser")
+		# Parse datatable to get SUBTLwf scores
+		for row in table.findAll("tr"):
+			cells = row.findAll("td")
+			row = [c.findAll(text=True)[0] for c in cells[:10]]
+			rows.append(row)
+		# Fill dictionary, ignore header row 
+		for row in rows[1:]:
+			SUBTL_cached_scores[row[0]] = float(row[5])
+
+	# Read the scores for each word
+	# (Ignores words which don't have score)
+	return [SUBTL_cached_scores[w] for w in wordlist if w in SUBTL_cached_scores]
+
+def getSUBTLWordScores(interview):
+	allwords = getAllNonStopWordsFromInterview(interview)
+	scores = _getSUBTLWordScoresFromURL(allwords)
+	return sum(scores) / len(allwords)
 
 # Input: Sent is a sentence dictionary,
 # Output: Normalized count of light verbs
-def getLightVerbCount(sent):
-	light_verbs = 0
-	total_verbs = 0
-	for w in sent['pos']:
-		if w[0].lower in LIGHT_VERBS: 
-			light_verbs += 1 
-		if w[1] in VERB_POS_TAGS:
-			total_verbs += 1
+def getLightVerbCount(interview):
+	light_verbs = 0.0
+	total_verbs = 0.0
+	for uttr in interview:
+		for w in uttr['pos']:
+			if w[0].lower in LIGHT_VERBS: 
+				light_verbs += 1 
+			if w[1] in VERB_POS_TAGS:
+				total_verbs += 1
 	return light_verbs/total_verbs
 
 #================================================
@@ -139,42 +151,35 @@ def getLightVerbCount(sent):
 # Subjects (3)
 #-------------
 
+def keywordIUSubjectBoy(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in BOY]
+	return len(keywords)
 
-def keywordIUSubjectBoy(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in BOY:
-			count +=1
-	return count
-
-def binaryIUSubjectBoy(sent):
-	count = keywordIUSubjectBoy(sent)
+def binaryIUSubjectBoy(interview):
+	count = keywordIUSubjectBoy(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUSubjectGirl(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in GIRL:
-			count +=1
-	return count
+def keywordIUSubjectGirl(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in GIRL]
+	return len(keywords)
 
-def binaryIUSubjectGirl(sent):
-	count = keywordIUSubjectGirl(sent)
+def binaryIUSubjectGirl(interview):
+	count = keywordIUSubjectGirl(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUSubjectWoman(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in WOMAN:
-			count +=1
-	return count
+def keywordIUSubjectWoman(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in WOMAN]
+	return len(keywords)
 
-def binaryIUSubjectWoman(sent):
-	count = keywordIUSubjectWoman(sent)
+def binaryIUSubjectWoman(interview):
+	count = keywordIUSubjectWoman(interview)
 	return 0 if count == 0 else 1
 
 
@@ -183,28 +188,24 @@ def binaryIUSubjectWoman(sent):
 #-------------
 
 
-def keywordIUPlaceKitchen(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in KITCHEN:
-			count +=1
-	return count
+def keywordIUPlaceKitchen(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in KITCHEN]
+	return len(keywords)
 
-def binaryIUPlaceKitchen(sent):
-	count = keywordIUPlaceKitchen(sent)
+def binaryIUPlaceKitchen(interview):
+	count = keywordIUPlaceKitchen(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUPlaceExterior(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in EXTERIOR:
-			count +=1
-	return count
+def keywordIUPlaceExterior(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in EXTERIOR]
+	return len(keywords)
 
-def binaryIUPlaceExterior(sent):
-	count = keywordIUPlaceExterior(sent)
+def binaryIUPlaceExterior(interview):
+	count = keywordIUPlaceExterior(interview)
 	return 0 if count == 0 else 1
 
 
@@ -213,145 +214,123 @@ def binaryIUPlaceExterior(sent):
 #-------------
 
 
-def keywordIUObjectCookie(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in COOKIE:
-			count +=1
-	return count
+def keywordIUObjectCookie(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in COOKIE]
+	return len(keywords)
 
-def binaryIUObjectCookie(sent):
-	count = keywordIUObjectCookie(sent)
+def binaryIUObjectCookie(interview):
+	count = keywordIUObjectCookie(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectJar(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in JAR:
-			count +=1
-	return count
+def keywordIUObjectJar(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in JAR]
+	return len(keywords)
 
-def binaryIUObjectJar(sent):
-	count = keywordIUObjectJar(sent)
+def binaryIUObjectJar(interview):
+	count = keywordIUObjectJar(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectStool(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in STOOL:
-			count +=1
-	return count
+def keywordIUObjectStool(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in STOOL]
+	return len(keywords)
 
-def binaryIUObjectStool(sent):
-	count = keywordIUObjectStool(sent)
+def binaryIUObjectStool(interview):
+	count = keywordIUObjectStool(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectSink(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in SINK:
-			count +=1
-	return count
+def keywordIUObjectSink(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in SINK]
+	return len(keywords)
 
-def binaryIUObjectSink(sent):
-	count = keywordIUObjectSink(sent)
+def binaryIUObjectSink(interview):
+	count = keywordIUObjectSink(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectPlate(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in PLATE:
-			count +=1
-	return count
+def keywordIUObjectPlate(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in PLATE]
+	return len(keywords)
 
-def binaryIUObjectPlate(sent):
-	count = keywordIUObjectPlate(sent)
+def binaryIUObjectPlate(interview):
+	count = keywordIUObjectPlate(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectDishcloth(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in DISHCLOTH:
-			count +=1
-	return count
+def keywordIUObjectDishcloth(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in DISHCLOTH]
+	return len(keywords)
 
-def binaryIUObjectDishcloth(sent):
-	count = keywordIUObjectDishcloth(sent)
+def binaryIUObjectDishcloth(interview):
+	count = keywordIUObjectDishcloth(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectWater(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in WATER:
-			count +=1
-	return count
+def keywordIUObjectWater(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in WATER]
+	return len(keywords)
 
-def binaryIUObjectWater(sent):
-	count = keywordIUObjectWater(sent)
+def binaryIUObjectWater(interview):
+	count = keywordIUObjectWater(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectWindow(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in WINDOW:
-			count +=1
-	return count
+def keywordIUObjectWindow(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in WINDOW]
+	return len(keywords)
 
-def binaryIUObjectWindow(sent):
-	count = keywordIUObjectWindow(sent)
+def binaryIUObjectWindow(interview):
+	count = keywordIUObjectWindow(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectCupboard(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in CUPBOARD:
-			count +=1
-	return count
+def keywordIUObjectCupboard(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in CUPBOARD]
+	return len(keywords)
 
-def binaryIUObjectCupboard(sent):
-	count = keywordIUObjectCupboard(sent)
+def binaryIUObjectCupboard(interview):
+	count = keywordIUObjectCupboard(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectDishes(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in DISHES:
-			count +=1
-	return count
+def keywordIUObjectDishes(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in DISHES]
+	return len(keywords)
 
-def binaryIUObjectDishes(sent):
-	count = keywordIUObjectDishes(sent)
+def binaryIUObjectDishes(interview):
+	count = keywordIUObjectDishes(interview)
 	return 0 if count == 0 else 1
 
 #-----
 
-def keywordIUObjectCurtains(sent):
-	count = 0
-	for w in sent['token']:
-		if w.lower() in CURTAINS:
-			count +=1
-	return count
+def keywordIUObjectCurtains(interview):
+	words = getAllWordsFromInterview(interview)
+	keywords = [w for w in words if w in CURTAINS]
+	return len(keywords)
 
-def binaryIUObjectCurtains(sent):
-	count = keywordIUObjectCurtains(sent)
+def binaryIUObjectCurtains(interview):
+	count = keywordIUObjectCurtains(interview)
 	return 0 if count == 0 else 1
 
 
@@ -359,37 +338,62 @@ def binaryIUObjectCurtains(sent):
 # Actions (7)
 #-------------
 
+# For action unit to be present, the subject and action (eg. 'boy' and 'fall') 
+# must be tagged together in the utterance
+# Input: POSTags, subject list, verb list
+def check_action_unit(pos_tags, subjs, verbs):
+	stemmed_subjs = [stemmer.stem(s) for s in subjs]
+	stemmed_verbs = [stemmer.stem(s) for s in verbs]
+	subj_found, verb_found = False, False
+	for pos in pos_tags:
+		if stemmer.stem(pos[0]) in stemmed_subjs and pos[1] in NOUN_POS_TAGS: subj_found = True
+		if stemmer.stem(pos[0]) in stemmed_verbs and pos[1] in VERB_POS_TAGS: verb_found = True
+	return subj_found and verb_found
+
+
 #boy taking or stealing
-def binaryIUActionBoyTaking(tree):
-	return check_action_unit(Tree.fromstring(tree),BOY,['take', 'steal'])
+def binaryIUActionBoyTaking(interview):
+	for uttr in interview:
+		if(check_action_unit(uttr['pos'],BOY,['take', 'steal'])):
+			return True
+	return False
 
 # boy or stool falling
-def binaryIUActionStoolFalling(tree):
-	return check_action_unit(Tree.fromstring(tree),BOY+['stool'],['falling'])
+def binaryIUActionStoolFalling(interview):
+	for uttr in interview:
+		if(check_action_unit(uttr['pos'],BOY+['stool'],['falling'])):
+			return True
+	return False
 
 # Woman drying or washing dishes/plate
-def binaryIUActionWomanDryingWashing(tree):
-	return check_action_unit(Tree.fromstring(tree), WOMAN+['dish','plate'], ['wash','dry'])
+def binaryIUActionWomanDryingWashing(interview):
+	for uttr in interview:
+		if(check_action_unit(uttr['pos'],WOMAN+['dish','plate'], ['wash','dry'])):
+			return True
+	return False
 
 # Water overflowing or spilling
-def binaryIUActionWaterOverflowing(tree):
-	return check_action_unit(Tree.fromstring(tree),['water','tap','sink'],['overflow', 'spill'])
+def binaryIUActionWaterOverflowing(interview):
+	for uttr in interview:
+		if(check_action_unit(uttr['pos'],['water','tap','sink'],['overflow', 'spill'])):
+			return True
+	return False
 
 #??????????????????????????????
 #How to define 'action?'
 #??????????????????????????????
 
 # #action performed by the girl,
-# def binaryIUActionGirl(tree):
-# 	return check_action_unit(Tree.fromstring(tree),GIRL,['asking','reaching','helping'])
+# def binaryIUActionGirl(interview):
+# 	return check_action_unit(Tree.interview(tree),GIRL,['asking','reaching','helping'])
 
 # #woman unconcerned by the overflowing,
-# def binaryIUActionWomanUnconcerned(tree):
-# 	return check_action_unit(Tree.fromstring(tree),WOMAN,['unconcerned'])
+# def binaryIUActionWomanUnconcerned(interview):
+# 	return check_action_unit(Tree.fromstring(interview),WOMAN,['unconcerned'])
 
 # #woman indifferent to the children. 
-# def binaryIUActionWomanIndifferent(tree):
-# 	return check_action_unit(Tree.fromstring(tree),['stool'],['falling'])
+# def binaryIUActionWomanIndifferent(interview):
+# 	return check_action_unit(Tree.fromstring(interview),['stool'],['falling'])
 
 
 #-------------------------------------
@@ -403,8 +407,8 @@ def normalize(text):
 #returns: (float) similarity 
 def cosine_sim(text1, text2):
 	vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')	# Punctuation remover
-    tfidf = vectorizer.fit_transform([text1, text2])
-    return ((tfidf * tfidf.T).A)[0,1]
+	tfidf = vectorizer.fit_transform([text1, text2])
+	return ((tfidf * tfidf.T).A)[0,1]
 
 #input: list of raw utterances
 #returns: list of cosine similarity between all pairs
@@ -412,7 +416,7 @@ def compare_all_utterances(uttrs):
 	similarities = []
 	for i in range(len(uttrs)):
 		for j in range(i+1,len(uttrs)):
-			similarities.append(cosine_sim(uttrs[i],uttrs[j]))
+			similarities.append(cosine_sim(uttrs[i]['raw'],uttrs[j]['raw']))
 	return similarities
 
 #input: list of raw utterances
@@ -433,6 +437,65 @@ def proportion_below_threshold(uttrs,thresh):
 	valid = [s for s in similarities if s <= thresh]
 	return len(valid)/float(len(similarities))
 
+#input: list of interview utterances stored as [ [{},{},{}], [{},{},{}] ]
+#returns: list of features for each interview
+def extract_features(data):
+	feature_set = []
+	for datum in data:
+		features = []
+		features.append(getPsycholinguisticScore(datum,'familiarity'))
+		features.append(getPsycholinguisticScore(datum,'concreteness'))
+		features.append(getPsycholinguisticScore(datum,'imagability'))
+		features.append(getPsycholinguisticScore(datum,'aoa'))
+		features.append(getSUBTLWordScores(datum))
+		features.append(getLightVerbCount(datum))
+		features.append(keywordIUSubjectBoy(datum))		  #Boy IU
+		features.append(binaryIUSubjectBoy(datum))
+		features.append(keywordIUSubjectGirl(datum))	  #Girl IU
+		features.append(binaryIUSubjectGirl(datum))
+		features.append(keywordIUSubjectWoman(datum))     #Woman IU
+		features.append(binaryIUSubjectWoman(datum))
+		features.append(keywordIUPlaceKitchen(datum))	  #Kitchen IU
+		features.append(binaryIUPlaceKitchen(datum))
+		features.append(keywordIUPlaceExterior(datum))	  #Exterior IU
+		features.append(binaryIUPlaceExterior(datum))
+		features.append(keywordIUObjectCookie(datum))	  #Cookie IU
+		features.append(binaryIUObjectCookie(datum))
+		features.append(keywordIUObjectJar(datum))		  #Jar IU
+		features.append(binaryIUObjectJar(datum))
+		features.append(keywordIUObjectStool(datum))	  #Stool IU
+		features.append(binaryIUObjectStool(datum))
+		features.append(keywordIUObjectSink(datum))		  #Sink IU
+		features.append(binaryIUObjectSink(datum))
+		features.append(keywordIUObjectPlate(datum))	  #Plate IU
+		features.append(binaryIUObjectPlate(datum))
+		features.append(keywordIUObjectDishcloth(datum))  #Dishcloth IU
+		features.append(binaryIUObjectDishcloth(datum))
+		features.append(keywordIUObjectWater(datum))	  #Water IU
+		features.append(binaryIUObjectWater(datum))
+		features.append(keywordIUObjectWindow(datum))	  #Window IU
+		features.append(binaryIUObjectWindow(datum))
+		features.append(keywordIUObjectCupboard(datum))	  #Cupboard IU
+		features.append(binaryIUObjectCupboard(datum))
+		features.append(keywordIUObjectDishes(datum))	  #Dishes IU
+		features.append(binaryIUObjectDishes(datum))
+		features.append(keywordIUObjectCurtains(datum))   #Curtains IU
+		features.append(binaryIUObjectCurtains(datum))
+		features.append(binaryIUActionBoyTaking(datum))	  #Boy taking IU
+		features.append(binaryIUActionStoolFalling(datum))#Stool falling taking IU
+		features.append(binaryIUActionWomanDryingWashing(datum))
+		features.append(binaryIUActionWaterOverflowing(datum))
+		features.append(binaryIUActionWaterOverflowing(datum))
+		features.append(binaryIUActionWaterOverflowing(datum))
+		features.append(binaryIUActionWaterOverflowing(datum))
+		features.append(avg_cos_dist(datum))
+		features.append(min_cos_dist(datum))
+		features.append(proportion_below_threshold(datum,0))
+		features.append(proportion_below_threshold(datum,0.3))
+		features.append(proportion_below_threshold(datum,0.5))
+		# Append feature vector to set
+		feature_set.append(features)
+	return feature_set
 
 #------------------------------------------------
 # For testing

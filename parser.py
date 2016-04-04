@@ -8,13 +8,13 @@ import nltk
 
 # Data structure
 # data = [
-# 	[	{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]}, <--single utterance
-# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]},
-# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]},
+# 	[	{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]}, <--single utterance
+# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]},
+# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]},
 # 	],													  <--List of all utterances made during interview
-# 	[	{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]},
-# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]},
-# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[]},
+# 	[	{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]},
+# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]},
+# 		{'pos':[], 'raw':[], 'tokens':[], 'pos_freq':[], 'parse_tree':[]},
 # 	],
 # ]
 

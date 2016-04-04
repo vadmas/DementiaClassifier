@@ -5,6 +5,7 @@ except:
 	import pickle
 import parser
 import os
+import psycholinguistic 
 
 # constants 
 DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control' 
@@ -29,10 +30,11 @@ def get_data(picklename, raw_files_directory):
 
 if __name__ == '__main__':
 
-	# dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+	dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
 	# dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
 	# optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
 	# optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
+	print psycholinguistic.extract_features(dbank_control)
 
 	# print "DBank Control: "  + str(len(dbank_control))
 	# print "DBank Dem: " 	 + str(len(dbank_dem))
