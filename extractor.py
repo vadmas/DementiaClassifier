@@ -3,6 +3,8 @@ import subprocess
 import threading
 import requests
 import re
+import os
+import SCA.L2SCA.analyzeText as at
 
 # import SCA.L2SCA.analyzeFolder as af
 
@@ -41,6 +43,7 @@ def start_stanford_server(port = 9000):
     stanfordServerThread = StanfordServerThread()
     stanfordServerThread.start()
     return stanfordServerThread
+
 
 def build_tree(parse_tree):
     node_stack = []
@@ -152,19 +155,39 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('INTJ', 'UH', tree_node)
 
 
-def get_structure_features(input_folder, output_folder):
-    
-    af.process_directory(input_folder, output_folder)
+def get_structure_features(sample):
+    # Make a temporary file for writing to
+    tmp_file = open('sample_file.txt','w+')
+    raw_text = ''
+    for utterance in sample:
+        raw_text += utterance['raw']
+    tmp_file.write(raw_text)
+    tmp_file.close()
+    output_file = open('sample_output.txt', 'w')
+    at.analyze_file(tmp_file.name, output_file)
+    analyzed_file = open(output_file.name, 'r')
+    headers = analyzed_file.readline().split(',')[1:] # Headers
+    data = analyzed_file.readline().split(',')[1:] # actual data
+    features = dict(zip(headers,data))
+    return features
 
 
 if __name__ == '__main__':
+    test_sample = [{'raw':'The big dog ate the fox.'},{'raw':'The orange kitten exploded.'},{'raw':'Glass cut through his veins.'},{'raw':'He shoved a stick up his asshole'}]
+    features = get_structure_features(test_sample)
+    for k,v in features.iteritems():
+        print 'feature: ' + str(k) + ' value: ' + str(v)
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
     #node = build_tree(trees[0])
     #thread.stop_server()
 
     #root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
-    get_structure_features('input_SCA_dir')
+    # process dbank control
+
+	#get_structure_features('stanford/processed/dbank/control', 'dbank/control_SCA')
+    # process dbank dementia
+    #get_structure_features('stanford/processed/dbank/dementia', 'dbank/dementia_SCA')
     # print "Starting server"
     # thread = start_stanford_server() # Start the server
     # try:
