@@ -399,17 +399,24 @@ def binaryIUActionWaterOverflowing(interview):
 #-------------------------------------
 # Cosine Similarity Between Utterances
 #-------------------------------------
+def not_only_stopwords(text):
+	unstopped = [w for w in normalize(text) if w not in stop]
+	return len(unstopped) != 0 
+
 def normalize(text):
 	remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
 	return stem_tokens(nltk.word_tokenize(text.lower().translate(remove_punctuation_map)))
 
 #input: two strings 
 #returns: (float) similarity 
+#Note: returns zero if one string consists only of stopwords
 def cosine_sim(text1, text2):
-	vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')	# Punctuation remover
-	tfidf = vectorizer.fit_transform([text1, text2])
-	return ((tfidf * tfidf.T).A)[0,1]
-
+	if not_only_stopwords(text1) and not_only_stopwords(text2):
+		vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')	# Punctuation remover
+		tfidf = vectorizer.fit_transform([text1, text2])
+		return ((tfidf * tfidf.T).A)[0,1]
+	else:
+		return 0
 #input: list of raw utterances
 #returns: list of cosine similarity between all pairs
 def compare_all_utterances(uttrs):
@@ -439,9 +446,10 @@ def proportion_below_threshold(uttrs,thresh):
 
 #input: list of interview utterances stored as [ [{},{},{}], [{},{},{}] ]
 #returns: list of features for each interview
-def extract_features(data):
+def get_all_features(data):
 	feature_set = []
-	for datum in data:
+	for idx, datum in enumerate(data):
+		print "Extracting psycholinguistic features for:", idx
 		features = []
 		features.append(getPsycholinguisticScore(datum,'familiarity'))
 		features.append(getPsycholinguisticScore(datum,'concreteness'))
@@ -449,40 +457,58 @@ def extract_features(data):
 		features.append(getPsycholinguisticScore(datum,'aoa'))
 		features.append(getSUBTLWordScores(datum))
 		features.append(getLightVerbCount(datum))
-		features.append(keywordIUSubjectBoy(datum))		  #Boy IU
+		features.append(keywordIUSubjectBoy(datum))		  
+		#Boy IU
 		features.append(binaryIUSubjectBoy(datum))
-		features.append(keywordIUSubjectGirl(datum))	  #Girl IU
+		features.append(keywordIUSubjectGirl(datum))	  
+		#Girl IU
 		features.append(binaryIUSubjectGirl(datum))
-		features.append(keywordIUSubjectWoman(datum))     #Woman IU
+		features.append(keywordIUSubjectWoman(datum))     
+		#Woman IU
 		features.append(binaryIUSubjectWoman(datum))
-		features.append(keywordIUPlaceKitchen(datum))	  #Kitchen IU
+		features.append(keywordIUPlaceKitchen(datum))	  
+		#Kitchen IU
 		features.append(binaryIUPlaceKitchen(datum))
-		features.append(keywordIUPlaceExterior(datum))	  #Exterior IU
+		features.append(keywordIUPlaceExterior(datum))	  
+		#Exterior IU
 		features.append(binaryIUPlaceExterior(datum))
-		features.append(keywordIUObjectCookie(datum))	  #Cookie IU
+		features.append(keywordIUObjectCookie(datum))	  
+		#Cookie IU
 		features.append(binaryIUObjectCookie(datum))
-		features.append(keywordIUObjectJar(datum))		  #Jar IU
+		features.append(keywordIUObjectJar(datum))		  
+		#Jar IU
 		features.append(binaryIUObjectJar(datum))
-		features.append(keywordIUObjectStool(datum))	  #Stool IU
+		features.append(keywordIUObjectStool(datum))	  
+		#Stool IU
 		features.append(binaryIUObjectStool(datum))
-		features.append(keywordIUObjectSink(datum))		  #Sink IU
+		features.append(keywordIUObjectSink(datum))		  
+		#Sink IU
 		features.append(binaryIUObjectSink(datum))
-		features.append(keywordIUObjectPlate(datum))	  #Plate IU
+		features.append(keywordIUObjectPlate(datum))	  
+		#Plate IU
 		features.append(binaryIUObjectPlate(datum))
-		features.append(keywordIUObjectDishcloth(datum))  #Dishcloth IU
+		features.append(keywordIUObjectDishcloth(datum))  
+		#Dishcloth IU
 		features.append(binaryIUObjectDishcloth(datum))
-		features.append(keywordIUObjectWater(datum))	  #Water IU
+		features.append(keywordIUObjectWater(datum))	  
+		#Water IU
 		features.append(binaryIUObjectWater(datum))
-		features.append(keywordIUObjectWindow(datum))	  #Window IU
+		features.append(keywordIUObjectWindow(datum))	  
+		#Window IU
 		features.append(binaryIUObjectWindow(datum))
-		features.append(keywordIUObjectCupboard(datum))	  #Cupboard IU
+		features.append(keywordIUObjectCupboard(datum))	  
+		#Cupboard IU
 		features.append(binaryIUObjectCupboard(datum))
-		features.append(keywordIUObjectDishes(datum))	  #Dishes IU
+		features.append(keywordIUObjectDishes(datum))	  
+		#Dishes IU
 		features.append(binaryIUObjectDishes(datum))
-		features.append(keywordIUObjectCurtains(datum))   #Curtains IU
+		features.append(keywordIUObjectCurtains(datum))   
+		#Curtains IU
 		features.append(binaryIUObjectCurtains(datum))
-		features.append(binaryIUActionBoyTaking(datum))	  #Boy taking IU
-		features.append(binaryIUActionStoolFalling(datum))#Stool falling taking IU
+		features.append(binaryIUActionBoyTaking(datum))	  
+		#Boy taking IU
+		features.append(binaryIUActionStoolFalling(datum))
+		#Stool falling taking IU
 		features.append(binaryIUActionWomanDryingWashing(datum))
 		features.append(binaryIUActionWaterOverflowing(datum))
 		features.append(binaryIUActionWaterOverflowing(datum))
@@ -493,6 +519,7 @@ def extract_features(data):
 		features.append(proportion_below_threshold(datum,0))
 		features.append(proportion_below_threshold(datum,0.3))
 		features.append(proportion_below_threshold(datum,0.5))
+		
 		# Append feature vector to set
 		feature_set.append(features)
 	return feature_set
