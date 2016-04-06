@@ -4,26 +4,18 @@ try:
 except:
     import pickle
 import parser
-import parser_copy
 import os
-import psycholinguistic 
-import pos_syntactic_extractor 
-
-
+from FeatureExtractor import parser 
+# from FeatureExtractor import pos_phrases 
+from FeatureExtractor import pos_syntactic 
+from FeatureExtractor import psycholinguistic 
 
 # constants
-# DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
-# DEMENTIABANK_DEMENTIA_DIR = 'data/processed/dbank/dementia'
-# OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
-# OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia'
-# PICKLE_DIR 			      = 'data/pickles/'
-
-DEMENTIABANK_CONTROL_DIR  = 'stanford/processed/dbank/control'
-DEMENTIABANK_DEMENTIA_DIR = 'stanford/processed/dbank/dementia'
-OPTIMA_CONTROL_DIR        = 'stanford/processed/optima/nometa/control'
-OPTIMA_DEMENTIA_DIR       = 'stanford/processed/optima/nometa/dementia'
+DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
+DEMENTIABANK_DEMENTIA_DIR = 'data/processed/dbank/dementia'
+OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
+OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia'
 PICKLE_DIR 			      = 'data/pickles/'
-
 
 #Check pickle first, use parser if pickle doesn't exist
 def get_data(picklename, raw_files_directory):
@@ -33,7 +25,7 @@ def get_data(picklename, raw_files_directory):
             data = pickle.load(handle)
     else:
         print "Pickle not found, beginning parse."
-        data = parser_copy.parse(raw_files_directory)
+        data = parser.parse(raw_files_directory)
         with open(PICKLE_DIR + picklename, 'wb') as handle:
             pickle.dump(data, handle)
     return data
@@ -47,10 +39,13 @@ def get_all_pickles():
     return dbank_control, dbank_dem, optima_control, optima_dem
 
 if __name__ == '__main__':
-    # dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
-    dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
 
-    pos_syntactic_extractor.get_structure_features(dbank_control)
+    # f1 = phrases.get_all_features(dbank_control)
+    f2 = psycholinguistic.get_all_features(dbank_control)
+    f3 = syntactic.get_all_features(dbank_control)
+
+    # pos_syntactic_extractor.get_structure_features(dbank_control)
     # psycholinguistic.get_all_features(dbank_control)
 
     # print "DBank Control: "  + str(len(dbank_control))

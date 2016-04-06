@@ -7,9 +7,7 @@ from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
-
 import parser
-import extractor
 
 # Global psycholinguistic data structures
 FEATURE_DATA_PATH = 'data/feature_data/' 
@@ -412,9 +410,16 @@ def normalize(text):
 #Note: returns zero if one string consists only of stopwords
 def cosine_sim(text1, text2):
 	if not_only_stopwords(text1) and not_only_stopwords(text2):
-		vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')	# Punctuation remover
-		tfidf = vectorizer.fit_transform([text1, text2])
-		return ((tfidf * tfidf.T).A)[0,1]
+		# Tfid raises error if text contain only stopwords. Their stopword set is different 
+		# than ours so add try/catch block for strange cases
+		try:
+			vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words='english')	# Punctuation remover
+			tfidf = vectorizer.fit_transform([text1, text2])
+			return ((tfidf * tfidf.T).A)[0,1]
+		except ValueError, e:
+			print "Error:", e
+			print 'Returning 0 for cos_sim between: "', text1, '" and: "', text2, '"'
+			return 0
 	else:
 		return 0
 #input: list of raw utterances
@@ -523,22 +528,3 @@ def get_all_features(data):
 		# Append feature vector to set
 		feature_set.append(features)
 	return feature_set
-
-#------------------------------------------------
-# For testing
-#------------------------------------------------
-
-# if __name__ == '__main__':
-# 	s0 = "this little boy here is taking cookies "
-# 	s1 = " This is a second sentence "
-# 	s2 = "This. Sentence has punctuation!"
-# 	s3 = "And this sentsce has spelling mistkaes"
-# 	s4 = "this little boy here is also taking cookies "
-# 	s5  = "An elephant fish pork monkey"
-# 	l = [s0, s1, s2, s3, s4, s5]
-# 	print 'avg_cos_dist', avg_cos_dist(l)
-# 	print 'min_cos_dist', min_cos_dist(l)
-# 	print 'proportion_below_threshold', proportion_below_threshold(l,0)
-# 	print 'proportion_below_threshold', proportion_below_threshold(l,0.3)
-# 	print 'proportion_below_threshold', proportion_below_threshold(l,0.5)
-# 	# # print avg_cos_dist(l)
