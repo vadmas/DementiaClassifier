@@ -7,8 +7,11 @@ import parser
 import parser_copy
 import os
 import psycholinguistic 
+import pos_syntactic_extractor 
 
-# # constants
+
+
+# constants
 # DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
 # DEMENTIABANK_DEMENTIA_DIR = 'data/processed/dbank/dementia'
 # OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
@@ -44,8 +47,13 @@ def get_all_pickles():
     return dbank_control, dbank_dem, optima_control, optima_dem
 
 if __name__ == '__main__':
-    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
-    print "DBank Control: "  + str(len(dbank_control))
-    print "DBank Dem: " 	 + str(len(dbank_dem))
-    print "Optima Control: " + str(len(optima_control))
-    print "Optima Dem: "	 + str(len(optima_dem))
+    # dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
+    dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+
+    pos_syntactic_extractor.get_structure_features(dbank_control)
+    # psycholinguistic.get_all_features(dbank_control)
+
+    # print "DBank Control: "  + str(len(dbank_control))
+    # print "DBank Dem: " 	 + str(len(dbank_dem))
+    # print "Optima Control: " + str(len(optima_control))
+    # print "Optima Dem: "	 + str(len(optima_dem))
