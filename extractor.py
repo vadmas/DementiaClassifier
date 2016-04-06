@@ -5,6 +5,7 @@ import requests
 import re
 import os
 import SCA.L2SCA.analyzeText as at
+import Driver as dvr
 
 # import SCA.L2SCA.analyzeFolder as af
 
@@ -174,14 +175,15 @@ def get_structure_features(sample):
 
 
 
+
 if __name__ == '__main__':
-    test_sample = [{'raw':'The big dog ate the fox.'},{'raw':'The orange kitten exploded.'},{'raw':'Glass cut through his veins.'},{'raw':'He shoved a stick up his asshole'}]
-    features = get_structure_features(test_sample)
-    for k,v in features.iteritems():
-        print 'feature: ' + str(k) + ' value: ' + str(v)
+    #test_sample = [{'raw':'The big dog ate the fox.'},{'raw':'The orange kitten exploded.'},{'raw':'Glass cut through his veins.'},{'raw':'He shoved a stick up his asshole'}]
+    #features = get_structure_features(test_sample)
+    #for k,v in features.iteritems():
+    #    print 'feature: ' + str(k) + ' value: ' + str(v)
+
     #thread = start_stanford_server() # Start the server
-    #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
-    #node = build_tree(trees[0])
+    dvr.get_all_pickles()
     #thread.stop_server()
 
     #root = build_tree('u(ROOT\n  (S\n    (NP (DT The) (JJ quick) (JJ brown) (NN fox))\n    (VP (VBD jumped)\n      (PP (IN over)\n        (NP (DT the) (JJ lazy) (NN dog))))\n    (. .)))')
