@@ -1,8 +1,6 @@
 # takes in a list of string and turns them into a list of features 
-
 import nltk
 from collections import defaultdict
-import parser
 
 """
 =============================================================
@@ -13,33 +11,33 @@ HELPER FUNCTIONS
 """
 
 
-#input: tokenized string
-#returns: dictionary of frequencies for each type of word from the tokenized string
-def pos_tag(tokens):
+# #input: tokenized string
+# #returns: dictionary of frequencies for each type of word from the tokenized string
+# def pos_tag(tokens):
 
-	#get pos tags
-	tagged_words = nltk.pos_tag(tokens)
+# 	#get pos tags
+# 	tagged_words = nltk.pos_tag(tokens)
 	
-	#Get the frequency of every type
-	pos_freq = defaultdict()
-	for word, wordtype in tagged_words:
+# 	#Get the frequency of every type
+# 	pos_freq = defaultdict()
+# 	for word, wordtype in tagged_words:
 
-		if wordtype not in pos_freq:
-			pos_freq[wordtype] = 1
-		else:
-			pos_freq[wordtype] += 1
+# 		if wordtype not in pos_freq:
+# 			pos_freq[wordtype] = 1
+# 		else:
+# 			pos_freq[wordtype] += 1
 
-	#store the sum of frequencies in the hashmap
-	pos_freq['SUM'] = len(tokens)
+# 	#store the sum of frequencies in the hashmap
+# 	pos_freq['SUM'] = len(tokens)
 
-	return pos_freq
+# 	return pos_freq
 
 
 #input: NLP object for one paragraph
 #returns: Returns length of phrases in utterance w.r.t. number of words
 def getPhraseLength(nlp_obj, phrase_type):
-    
-    def count(node, multiplier):
+	
+	def count(node, multiplier):
 
 		#its a word!
 		if node.phrase:
@@ -77,13 +75,13 @@ def getPhraseLength(nlp_obj, phrase_type):
 #returns: Returns count of phrases in utterance with embedded phrases of the 
 # same type included in the calculation
 def getPhraseCountEmbedded(nlp_obj, phrase_type):
-    
-    def count(node):
+	
+	def count(node):
 
-    	phrase_count = 0
+		phrase_count = 0
 
-    	if node.key == phrase_type:
-    		phrase_count +=1
+		if node.key == phrase_type:
+			phrase_count +=1
 
 
 		#its a word!
@@ -120,14 +118,14 @@ def getPhraseCountEmbedded(nlp_obj, phrase_type):
 #returns: Returns count of phrases in utterance so only the largest phrase parent counts
 # but not its children
 def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
-        
-    def count(node):
-    	
-    	#We've hit our phrase type and can backtrac
-    	if node.key == phrase_type:
-    		return 1
+		
+	def count(node):
+		
+		#We've hit our phrase type and can backtrac
+		if node.key == phrase_type:
+			return 1
 
-    	else:
+		else:
 			
 			#its a word!
 			if node.phrase:
@@ -315,19 +313,19 @@ def getMATTR(nlp_obj):
 
 	moving_ttr = list([uniq/window])
 
-	for i in range(window,total_len) 
+	for i in range(window,total_len): 
 
 		word_to_remove = nlp_obj['tokens'][i-window]
 		words_table[word_to_remove] -= 1
 		
-		words_table[word_to_remove] is 0:
+		if words_table[word_to_remove] == 0:
 
 			uniq -= 1
 
 		next_word =  nlp_obj['tokens'][i]
 		words_table[next_word] += 1
 
-		words_table[next_word] is 1:
+		if words_table[next_word] == 1:
 
 			uniq += 1
 
