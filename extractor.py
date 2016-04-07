@@ -175,7 +175,6 @@ def get_structure_features(sample):
 
 
 
-
 if __name__ == '__main__':
     #test_sample = [{'raw':'The big dog ate the fox.'},{'raw':'The orange kitten exploded.'},{'raw':'Glass cut through his veins.'},{'raw':'He shoved a stick up his asshole'}]
     #features = get_structure_features(test_sample)
