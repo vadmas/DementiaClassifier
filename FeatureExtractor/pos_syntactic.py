@@ -5,9 +5,12 @@ import requests
 import re
 import os
 import SCA.L2SCA.analyzeText as at
-
 # import SCA.L2SCA.analyzeFolder as af
 
+try:
+    import cPickle as pickle
+except:
+    import pickle
 
 class tree_node():
 
@@ -99,63 +102,77 @@ def build_tree(parse_tree):
 
 
 def get_height_of_tree(tree_node):
-    depth = 0
+
+    depths = [0]
     for children in tree_node.children:
-        depth += get_height_of_tree(children)
-    return depth
+        depths.append(get_height_of_tree(children))
+    depths = map(lambda x: x+1, depths)
+    return max(depths)
 
 
-def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type = None):
+def get_count_of_parent_child(child_type, parent_type, tree_node, prev_type=None):
     curr_type = tree_node.key
     count = 0
     if prev_type == parent_type and curr_type == child_type:
         count = 1
-    for children in tree_node.children:
-        count += get_count_of_parent_child(child_type, parent_type, children, curr_type)
+    for child in tree_node.children:
+        count += get_count_of_parent_child(child_type, parent_type, child, curr_type)
     return count
 
+
+def get_count_of_parent_children(child_types, parent_type, tree_node):
+    count = 0
+    curr_type = tree_node.key
+    if not len(tree_node.children):
+        return count
+    curr_children = [child.key for child in tree_node.children]
+    if curr_type == parent_type and set(child_types).issubset(set(curr_children)):
+        count = 1
+    for child in tree_node.children:
+        count += get_count_of_parent_children(child_types, parent_type, child)
+    return count
 
 def get_NP_2_PRP(tree_node):
     return get_count_of_parent_child('PRP', 'NP', tree_node)
 
 
 def get_ADVP_2_RB(tree_node):
-    return get_count_of_parent_child('ADVP', 'RP', tree_node)
+    return get_count_of_parent_child('RP', 'ADVP', tree_node)
 
 
 def get_NP_2_DTNN(tree_node):
-    return get_count_of_parent_child('NP', 'DT_NN', tree_node)
+    return get_count_of_parent_children(['DT','NN'], 'NP', tree_node)
 
 
 def get_VP_2_AUXVP(tree_node):
-    return get_count_of_parent_child('VP', 'AUX_VP', tree_node)
+    return get_count_of_parent_child(['AUX', 'VP'], 'VP', tree_node)
 
 
 def get_VP_2_VBG(tree_node):
-    return get_count_of_parent_child('VP', 'VBG', tree_node)
+    return get_count_of_parent_child('VBG', 'VP', tree_node)
 
 
 def get_VP_2_VBGPP(tree_node):
-    return get_count_of_parent_child('VP', 'VBG_PP', tree_node)
+    return get_count_of_parent_child(['VBG', 'PP'], 'VP', tree_node)
 
 
 def get_VP_2_AUXADJP(tree_node):
-    return get_count_of_parent_child('VP', 'AUX_ADJP', tree_node)
+    return get_count_of_parent_child(['AUX', 'ADJP'], 'VP', tree_node)
 
 
 def get_VP_2_AUX(tree_node):
-    return get_count_of_parent_child('VP', 'AUX', tree_node)
+    return get_count_of_parent_child('AUX', 'VP', tree_node)
 
 
 def get_VP_2_VBDNP(tree_node):
-    return get_count_of_parent_child('VP', 'VBD_NP', tree_node)
+    return get_count_of_parent_child(['VBD', 'NP'], 'VP', tree_node)
 
 
 def get_INTJ_2_UH(tree_node):
-    return get_count_of_parent_child('INTJ', 'UH', tree_node)
+    return get_count_of_parent_child('UH', 'INTJ', tree_node)
 
 
-def get_all_features(data):
+def get_all_symantics_features(data):
     # Make a temporary file for writing to
     feature_set = []
     for sample in data:
@@ -175,11 +192,47 @@ def get_all_features(data):
     return feature_set
 
 
+def get_all_tree_features(data):
+    feature_set = []
+    for sample in data:
+        features = {
+            'tree_height': 0,
+            'NP->PRP': 0,
+            'ADVP->RB': 0,
+            'NP->DT_NN': 0,
+            'NP->AUX_VP': 0,
+            'VP->VBG': 0,
+            'VP->VBG_PP': 0,
+            'VP->AUX_ADJP': 0,
+            'VP->AUX': 0,
+            'VP->VBD_NP': 0,
+            'INTJ->UH': 0,
+        }
+        for utterance in sample:
+            parse_tree = utterance['parse_tree'][0]
+            root_node = build_tree(parse_tree)
+            features['tree_height'] += get_height_of_tree(root_node)
+            features['NP->PRP'] += get_NP_2_PRP(root_node)
+            features['ADVP->RB'] += get_ADVP_2_RB(root_node)
+            features['NP->DT_NN'] += get_NP_2_DTNN(root_node)
+            features['NP->AUX_VP'] += get_VP_2_AUXVP(root_node)
+            features['VP->VBG'] += get_VP_2_VBG(root_node)
+            features['VP->VBG_PP'] += get_VP_2_VBGPP(root_node)
+            features['VP->AUX_ADJP'] += get_VP_2_AUXADJP(root_node)
+            features['VP->AUX'] += get_VP_2_AUX(root_node)
+            features['VP->VBD_NP'] += get_VP_2_VBDNP(root_node)
+            features['INTJ->UH'] += get_INTJ_2_UH(root_node)
+        features['avg_tree_height'] = features['tree_height'] / float(len(sample))
+        feature_set.append(features)
+    return feature_set
+
 if __name__ == '__main__':
-    test_sample = [{'raw':'The big dog ate the fox.'},{'raw':'The orange kitten exploded.'},{'raw':'Glass cut through his veins.'},{'raw':'He shoved a stick up his asshole'}]
-    features = get_structure_features(test_sample)
-    for k,v in features.iteritems():
-        print 'feature: ' + str(k) + ' value: ' + str(v)
+
+    with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
+       control = pickle.load(handle)
+    test_set = control[1:10]
+    test_feature_set = get_all_tree_features(test_set)
+
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
     #node = build_tree(trees[0])

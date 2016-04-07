@@ -5,17 +5,10 @@ except:
     import pickle
 import parser
 import os
-<<<<<<< HEAD
-import psycholinguistic 
-#import pos_syntactic_extractor
-
-
-=======
 from FeatureExtractor import parser 
 # from FeatureExtractor import pos_phrases 
 from FeatureExtractor import pos_syntactic 
-from FeatureExtractor import psycholinguistic 
->>>>>>> db74685b0be430113c3352f3949b7206118ae057
+#from FeatureExtractor import psycholinguistic
 
 # constants
 DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
@@ -39,8 +32,8 @@ def get_data(picklename, raw_files_directory):
 
 
 def get_all_pickles():
-    #dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
-    #dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
+    dbank_control  = get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+    dbank_dem      = get_data('dbank_dem.pickle',DEMENTIABANK_DEMENTIA_DIR)
     optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
     optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
     return dbank_control, dbank_dem, optima_control, optima_dem
@@ -48,6 +41,9 @@ def get_all_pickles():
 
 def get_dbank_control():
     return get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+
+def get_dbank_dem():
+    return get_data('dbank_dem.pickle', DEMENTIABANK_DEMENTIA_DIR)
 
 if __name__ == '__main__':
     #dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
