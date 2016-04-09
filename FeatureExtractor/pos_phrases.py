@@ -3,6 +3,7 @@ from __future__ import division
 import nltk
 from collections import defaultdict
 from collections import Counter
+from pos_syntactic import build_tree
 import math
 
 
@@ -35,8 +36,7 @@ def getPhraseLength(nlp_obj, phrase_type):
 
 	
 	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
-	
+	root = build_tree(nlp_obj['parse_tree'][0])	
 
 	node = root
 	Phrase_length = 0
@@ -79,7 +79,7 @@ def getPhraseCountEmbedded(nlp_obj, phrase_type):
 
 	
 	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
+	root = build_tree(nlp_obj['parse_tree'][0])
 	
 
 	node = root
@@ -123,7 +123,7 @@ def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
 
 	
 	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
+	root = build_tree(nlp_obj['parse_tree'][0])
 	
 
 	node = root
@@ -482,6 +482,11 @@ def getMeanLengthOfSentence(nlp_obj):
 def getNPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
+
 	return getPhraseLength(nlp_obj, 'NP')/word_count
 
 
@@ -490,6 +495,9 @@ def getNPProportion(nlp_obj):
 def getVPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+		#Prevent crash
+	if word_count == 0:
+		return 0
 	return getPhraseLength(nlp_obj, 'VP')/word_count
 
 #input: NLP object for one paragraph
@@ -497,6 +505,9 @@ def getVPProportion(nlp_obj):
 def getPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+	#Prevent crash
+	if word_count == 0:
+		return 0
 	return getPhraseLength(nlp_obj, 'PP')/word_count
 
 #input: NLP object for one paragraph
@@ -508,6 +519,10 @@ def getAvgNPTypeLengthEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'NP')
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'NP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -521,6 +536,10 @@ def getAvgVPTypeLengthEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'VP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 #input: NLP object for one paragraph
@@ -532,6 +551,10 @@ def getAvgPPTypeLengthEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'PP')
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'PP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -547,6 +570,10 @@ def getAvgNPTypeLengthNonEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 
@@ -559,6 +586,10 @@ def getAvgVPTypeLengthNonEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'VP')
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -573,6 +604,10 @@ def getAvgPPTypeLengthNonEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 #input: NLP object for one paragraph
@@ -580,8 +615,12 @@ def getAvgPPTypeLengthNonEmbedded(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getNPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -591,8 +630,12 @@ def getNPTypeRate(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getVPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -602,8 +645,12 @@ def getVPTypeRate(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getPPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'PP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -616,6 +663,7 @@ def get_all_features(interview):
 
 
 
+	
 	#POS counts
 	features.append(sum([getNumNouns(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getNumVerbs(utterance) for utterance in interview])/len(interview))
