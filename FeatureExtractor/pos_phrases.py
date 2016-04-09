@@ -1,6 +1,10 @@
 # takes in a list of string and turns them into a list of features 
+from __future__ import division
 import nltk
 from collections import defaultdict
+from collections import Counter
+import math
+
 
 """
 =============================================================
@@ -10,27 +14,6 @@ HELPER FUNCTIONS
 =============================================================
 """
 
-
-# #input: tokenized string
-# #returns: dictionary of frequencies for each type of word from the tokenized string
-# def pos_tag(tokens):
-
-# 	#get pos tags
-# 	tagged_words = nltk.pos_tag(tokens)
-	
-# 	#Get the frequency of every type
-# 	pos_freq = defaultdict()
-# 	for word, wordtype in tagged_words:
-
-# 		if wordtype not in pos_freq:
-# 			pos_freq[wordtype] = 1
-# 		else:
-# 			pos_freq[wordtype] += 1
-
-# 	#store the sum of frequencies in the hashmap
-# 	pos_freq['SUM'] = len(tokens)
-
-# 	return pos_freq
 
 
 #input: NLP object for one paragraph
@@ -168,12 +151,18 @@ WORD TYPE COUNTS
 """
 
 
+
+
 #input: NLP object for one paragraph
 #returns: number of normalized nouns in text
 def getNumNouns(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/pos_freq['SUM']
+
 
 
 #input: NLP object for one paragraph
@@ -181,6 +170,8 @@ def getNumNouns(nlp_obj):
 def getNumVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 
@@ -189,6 +180,8 @@ def getNumVerbs(nlp_obj):
 def getNumInflectedVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
@@ -196,6 +189,8 @@ def getNumInflectedVerbs(nlp_obj):
 def getNumDeterminers(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['DT'] + pos_freq['PDT'] + pos_freq['WDT'] )/pos_freq['SUM']
 
 
@@ -204,6 +199,8 @@ def getNumDeterminers(nlp_obj):
 def getNumAdverbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['RB'] + pos_freq['RBR'] + pos_freq['RBS'] + pos_freq['WRB'] )/pos_freq['SUM']
 
 
@@ -212,12 +209,17 @@ def getNumAdverbs(nlp_obj):
 def getNumAdjectives(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['JJ'] + pos_freq['JJR'] + pos_freq['JJS'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
 #returns: number of normalized interjections in text
 def getNumInterjections(nlp_obj):
 
+	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	pos_freq = nlp_obj['pos_freq']
 	return  (pos_freq['UH'])/pos_freq['SUM']  
 
@@ -228,6 +230,8 @@ def getNumInterjections(nlp_obj):
 def getNumSubordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['IN'])/pos_freq['SUM']  
 
 
@@ -237,6 +241,8 @@ def getNumSubordinateConjunctions(nlp_obj):
 def getNumCoordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['CC'])/pos_freq['SUM']  
 
 
@@ -257,6 +263,9 @@ def getRatioVerb(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 
+	if pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'] == 0:
+		return 0
+
 	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/(pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])
 
 
@@ -268,6 +277,9 @@ def getRatioNoun(nlp_obj):
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
 	num_verbs = pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ']
 
+	if num_nouns + num_verbs == 0:
+		return 0
+
 	return  num_nouns/(num_nouns + num_verbs)
 
 
@@ -278,15 +290,23 @@ def getRatioPronoun(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
+
+	if num_nouns == 0:
+		return 0
+
 	num_pronouns = pos_freq['PRP'] + pos_freq['PRP$'] + pos_freq['PRP'] + pos_freq['WHP'] + pos_freq['WP$']
 
-	return  num_nouns/(num_nouns + num_verbs)
+
+	return  num_pronouns/num_nouns
 
 
 #input: NLP object for one paragraph
 #returns: ratio of coordinate- to subordinate conjunctions in the paragraph
-def getRatioPronoun(nlp_obj):
+def getRatioCoordinate(nlp_obj):
 
+	pos_freq = nlp_obj['pos_freq']
+	if pos_freq['IN'] == 0:
+		return 0
 
 	return  pos_freq['CC']/pos_freq['IN']
 
@@ -295,8 +315,11 @@ def getRatioPronoun(nlp_obj):
 #returns: ratio of  types to tokens
 def getTTR(nlp_obj):
 
-	num_types = len(set(nlp_obj(['tokens'])))
-	num_words = len(nlp_obj['tokens'])
+	num_types = len(set(nlp_obj['token']))
+	num_words = len(nlp_obj['token'])
+
+	if num_words == 0:
+		return 0
 
 	return num_types/num_words
 
@@ -306,23 +329,23 @@ def getTTR(nlp_obj):
 def getMATTR(nlp_obj):
 
 	window = 20
-	total_len = len(nlp_obj['tokens'])
+	total_len = len(nlp_obj['token'])
 
-	words_table = Counter(nlp_obj['tokens'][0:window])
+	words_table = Counter(nlp_obj['token'][0:window])
 	uniq = len(set(words_table))
 
 	moving_ttr = list([uniq/window])
 
 	for i in range(window,total_len): 
 
-		word_to_remove = nlp_obj['tokens'][i-window]
+		word_to_remove = nlp_obj['token'][i-window]
 		words_table[word_to_remove] -= 1
 		
 		if words_table[word_to_remove] == 0:
 
 			uniq -= 1
 
-		next_word =  nlp_obj['tokens'][i]
+		next_word =  nlp_obj['token'][i]
 		words_table[next_word] += 1
 
 		if words_table[next_word] == 1:
@@ -343,38 +366,52 @@ def getMATTR(nlp_obj):
 def getBrunetIndex(nlp_obj):
 
 	#number of word types
-	word_types = len(set(nlp_obj['tokens']))
+	word_types = len(set(nlp_obj['token']))
 
 	#number of words
-	words = len(nlp_obj['tokens'])
+	words = len(nlp_obj['token'])
 
 	#Brunet's index
-	return words^(word_types*-0.165)
+	return words**(word_types*-0.165)
 
 #input: NLP object for one paragrah
 #returns: Honore statistic for that paragraph
 def getHonoreStatistic(nlp_obj):
 
 	#number of word types
-	word_types = len(set(nlp_obj['tokens']))
+	word_types = len(set(nlp_obj['token']))
 
 	#number of words
-	words = len(nlp_obj['tokens'])
+	words = len(nlp_obj['token'])
 
-	words_table = Counter(nlp_obj['tokens'])
+	words_table = Counter(nlp_obj['token'])
 
-	words_occuring_once = [word for word in nlp_obj['tokens'] if words_table[word] == 1]
+	words_occuring_once = len([word for word in nlp_obj['token'] if words_table[word] == 1])
+
+	#unlikely case
+	if word_types == 0:
+		return 0 
+
+
+	if words_occuring_once/word_types == 1:
+		return 0
 
 	return (100*math.log(words))/(1-words_occuring_once/word_types)
+
+
 
 #input: NLP object for one paragrah
 #returns: Mean word length
 def getMeanWordLength(nlp_obj):
 
 
-	tokens = nlp_obj['tokens']
+	tokens = nlp_obj['token']
 
 	word_length = [len(word) for word in tokens]
+
+	#Just to prevent crash
+	if len(tokens) == 0:
+		return 0
 
 	return sum(word_length)/len(tokens)
 
@@ -382,9 +419,9 @@ def getMeanWordLength(nlp_obj):
 #returns: number of NID words (length > 2) in paragraph
 def getNumberOfNID(nlp_obj):
 
-	pos_tag = nlp_obj['pos_tag']
+	pos_tag = nlp_obj['pos']
 
-	foreign_words = [word_pos for word_pos if len(word_pos[0]) > 2 and word_pos[1] == 'FW' ]
+	foreign_words = [word_pos for word_pos in pos_tag if len(word_pos[0]) > 2 and word_pos[1] == 'FW' ]
 
 	return len(foreign_words)
 
@@ -392,9 +429,13 @@ def getNumberOfNID(nlp_obj):
 #returns: normalized number of "uh" and "um"
 def getDisfluencyFrequency(nlp_obj):
 
-	tokens = nlp_obj['tokens']
+	tokens = nlp_obj['token']
 
 	um_uh_words = [word for word in tokens if word == 'um' or word == 'uh']
+
+	#just to prevent crash
+	if len(tokens) == 0:
+		return 0
 
 	return len(um_uh_words)/len(tokens)
 
@@ -403,10 +444,10 @@ def getDisfluencyFrequency(nlp_obj):
 #returns: Get total number of words excluding NID and filled pauses
 def getTotalNumberOfWords(nlp_obj):
 
-	tokens = nlp_obj['tokens']
-	pos_tag = nlp_obj['pos_tag']
+	tokens = nlp_obj['token']
+	pos_tag = nlp_obj['pos']
 
-	foreign_words = [word_pos for word_pos if word_pos[1] == 'FW' ]
+	foreign_words = [word_pos for word_pos in pos_tag if word_pos[1] == 'FW' ]
 	um_uh_words = [word for word in tokens if word == 'um' or word == 'uh']
 
 	return len(tokens) - len(foreign_words) - len(um_uh_words)
@@ -416,17 +457,31 @@ def getTotalNumberOfWords(nlp_obj):
 def getMeanLengthOfSentence(nlp_obj):
 
 	raw_text = nlp_obj['raw']
-	tokens = nlp_obj['tokens']
+	tokens = nlp_obj['token']
 	n_sentences = len(nltk.tokenize.sent_tokenize(raw_text))
 	n_words = len(tokens)
 
+	#just to prevent crash
+	if n_words == 0:
+		return 0
+
 	return n_sentences/n_words
+
+"""
+
+======================================================
+
+ PHRASE TYPE FEATURES
+
+======================================================
+
+"""
 
 #input: NLP object for one paragraph
 #returns: Returns proportion of noun phrases in utterance w.r.t. number of words
 def getNPProportion(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	return getPhraseLength(nlp_obj, 'NP')/word_count
 
 
@@ -434,14 +489,14 @@ def getNPProportion(nlp_obj):
 #returns: Returns proportion of verb phrases in utterance w.r.t. number of words
 def getVPProportion(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	return getPhraseLength(nlp_obj, 'VP')/word_count
 
 #input: NLP object for one paragraph
 #returns: Returns proportion of preposition phrases in utterance w.r.t. number of words
-def getNPProportion(nlp_obj):
+def getPProportion(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	return getPhraseLength(nlp_obj, 'PP')/word_count
 
 #input: NLP object for one paragraph
@@ -551,6 +606,80 @@ def getPPTypeRate(nlp_obj):
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'PP')
 
 	return phrase_count/word_count
+
+
+#input: list of  utterances for one interview stored as [{},{},{}]
+#returns: list of features for  interview
+def get_all_features(interview):
+		
+	features = []
+
+
+
+	#POS counts
+	features.append(sum([getNumNouns(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumVerbs(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumInflectedVerbs(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumDeterminers(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumAdverbs(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumAdjectives(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumSubordinateConjunctions(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumInterjections(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNumCoordinateConjunctions(utterance) for utterance in interview])/len(interview))
+	
+	#POS ratios
+	features.append(sum([getRatioNoun(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getRatioVerb(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getRatioPronoun(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getRatioCoordinate(utterance) for utterance in interview])/len(interview))
+
+	#Weird statistics
+	features.append(sum([getTTR(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getMATTR(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getBrunetIndex(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getHonoreStatistic(utterance) for utterance in interview])/len(interview))
+
+
+ 	#Summary statistics
+ 	features.append(sum([getMeanWordLength(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getMeanLengthOfSentence(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getTotalNumberOfWords(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getDisfluencyFrequency(utterance) for utterance in interview])/len(interview))
+ 	features.append(sum([getNumberOfNID(utterance) for utterance in interview])/len(interview))
+
+ 	#Phrase features
+ 	features.append(sum([getNPProportion(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getVPProportion(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getPProportion(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgNPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgNPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgVPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgVPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgPPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getAvgPPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getNPTypeRate(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getVPTypeRate(utterance) for utterance in interview])/len(interview))
+	features.append(sum([getPPTypeRate(utterance) for utterance in interview])/len(interview))
+
+
+
+	
+	return features
+
+
+# For testing
+#------------------------------------------------
+
+# if __name__ == '__main__':
+# 	s0 = "this little boy here is taking cookies "
+# 	s1 = " This is a second sentence "
+# 	s2 = "This. Sentence has punctuation!"
+# 	s3 = "And this sentsce has spelling mistkaes"
+# 	s4 = "this little boy here is also taking cookies "
+# 	s5  = "An elephant fish pork monkey"
+# 	l = [s0, s1, s2, s3, s4, s5]
+# 	print 'avg_cos_dist', avg_cos_dist(l)
+# 	print 'proportion_below_threshold', proportion_below_threshold(l,0)
 
 
 
