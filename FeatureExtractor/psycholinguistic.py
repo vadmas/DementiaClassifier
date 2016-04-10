@@ -537,4 +537,3 @@ def get_all_features(data):
 		# Append feature vector to set
 		feature_set.append(features)
 	return feature_set
-
