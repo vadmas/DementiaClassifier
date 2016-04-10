@@ -38,6 +38,7 @@ def get_all_pickles():
     optima_dem     = get_data('optima_dem.pickle',OPTIMA_DEMENTIA_DIR)
     return dbank_control, dbank_dem, optima_control, optima_dem
 
+
 if __name__ == '__main__':
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
 

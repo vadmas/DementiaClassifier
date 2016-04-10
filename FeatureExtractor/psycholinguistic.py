@@ -54,13 +54,13 @@ CURTAINS  =  ['curtains','curtain']
 def getAllWordsFromInterview(interview):
 	words = []
 	for uttr in interview: 
-		words += uttr["token"]
+		words += [word.lower() for word in uttr["token"] if word.isalpha()]
 	return words
 
 def getAllNonStopWordsFromInterview(interview):
 	words = []
 	for uttr in interview: 
-		words += [w for w in uttr["token"] if w not in stop]
+		words += [word.lower() for word in uttr["token"] if word.isalpha() and word not in stop]
 	return words
 
 #================================================
@@ -85,17 +85,21 @@ def getPsycholinguisticScore(interview, measure):
 	if measure not in psycholinguistic_scores: 
 		_load_scores(measure)
 	score = 0
+	validwords = 1
 	allwords = getAllNonStopWordsFromInterview(interview)
 	for w in allwords:
 		if w.lower() in psycholinguistic_scores[measure]:
 			score += psycholinguistic_scores[measure][w.lower()]
-	return score / len(allwords)
+			validwords += 1
+	# Only normalize by words present in dict
+	return score / validwords
 	 
 # Input: list of words
 # Output: scores for each word
 # Notes: This gets the SUBTL frequency count for a word from http://subtlexus.lexique.org/moteur2/index.php
 def _getSUBTLWordScoresFromURL(wordlist):
-	unknown_words = [w for w in wordlist if w not in SUBTL_cached_scores]
+	# Use set so words are unique
+	unknown_words = set([w.lower() for w in wordlist if w not in SUBTL_cached_scores])
 	# Load into cache all unknown words
 	if unknown_words:
 		url = 'http://subtlexus.lexique.org/moteur2/simple.php'
@@ -112,6 +116,11 @@ def _getSUBTLWordScoresFromURL(wordlist):
 		# Fill dictionary, ignore header row 
 		for row in rows[1:]:
 			SUBTL_cached_scores[row[0]] = float(row[5])
+			unknown_words.remove(row[0])
+		# Words remaining in unknown words don't have SUBTL word scores. 
+		# Add them to dict with score of 0 to prevent redundant calls to 
+		for word in unknown_words:
+			SUBTL_cached_scores[word] = 0
 
 	# Read the scores for each word
 	# (Ignores words which don't have score)
@@ -122,14 +131,14 @@ def getSUBTLWordScores(interview):
 	scores = _getSUBTLWordScoresFromURL(allwords)
 	return sum(scores) / len(allwords)
 
-# Input: Sent is a sentence dictionary,
+# Input: Interview is a list of utterance
 # Output: Normalized count of light verbs
 def getLightVerbCount(interview):
 	light_verbs = 0.0
 	total_verbs = 0.0
 	for uttr in interview:
-		for w in uttr['pos']:
-			if w[0].lower in LIGHT_VERBS: 
+		for w in uttr['pos']:			
+			if w[0].lower() in LIGHT_VERBS: 
 				light_verbs += 1 
 			if w[1] in VERB_POS_TAGS:
 				total_verbs += 1
@@ -528,3 +537,4 @@ def get_all_features(data):
 		# Append feature vector to set
 		feature_set.append(features)
 	return feature_set
+
