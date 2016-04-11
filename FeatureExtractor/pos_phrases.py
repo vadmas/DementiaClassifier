@@ -25,29 +25,35 @@ def getPhraseLength(nlp_obj, phrase_type):
 
 		#its a word!
 		if node.phrase:
-			return multiplier*len(node.phrase)
+			
+			return multiplier*len(node.phrase.split(' '))
 
 		phrase_length = 0 
+		
 		if node.key == phrase_type:
-			for child in root.children:
-				phrase_length += count(child, multiplier+1)
+			multiplier += 1
 
+		for child in node.children:
+			phrase_length += count(child, multiplier)
+				
+		
+		
 		return phrase_length
 
-	
+
 	#build the syntactic tree
 	root = build_tree(nlp_obj['parse_tree'][0])	
 
 	node = root
 	Phrase_length = 0
+	multiplier = 0
 
 	if root.key == phrase_type:
-		multiplier = 1
-	else:
-		multiplier = 0
+		multiplier +=1
 
-		for child in node.children:
-			Phrase_length = count(child, 0)
+
+	for child in node.children:
+		Phrase_length = count(child, multiplier)
 
 
 
@@ -263,10 +269,8 @@ def getRatioVerb(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 
-	if pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'] == 0:
-		return 0
 
-	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/(pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])
+	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/(pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ']+1)
 
 
 #input: NLP object for one paragraph
@@ -277,10 +281,8 @@ def getRatioNoun(nlp_obj):
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
 	num_verbs = pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ']
 
-	if num_nouns + num_verbs == 0:
-		return 0
 
-	return  num_nouns/(num_nouns + num_verbs)
+	return  num_nouns/(num_nouns + num_verbs+1)
 
 
 
@@ -291,13 +293,11 @@ def getRatioPronoun(nlp_obj):
 	pos_freq = nlp_obj['pos_freq']
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
 
-	if num_nouns == 0:
-		return 0
 
 	num_pronouns = pos_freq['PRP'] + pos_freq['PRP$'] + pos_freq['PRP'] + pos_freq['WHP'] + pos_freq['WP$']
 
 
-	return  num_pronouns/num_nouns
+	return  num_pronouns/(num_nouns+1)
 
 
 #input: NLP object for one paragraph
@@ -305,10 +305,9 @@ def getRatioPronoun(nlp_obj):
 def getRatioCoordinate(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['IN'] == 0:
-		return 0
 
-	return  pos_freq['CC']/pos_freq['IN']
+
+	return  pos_freq['CC']/(pos_freq['IN']+1)
 
 
 #input: NLP object for one paragraph
@@ -317,9 +316,6 @@ def getTTR(nlp_obj):
 
 	num_types = len(set(nlp_obj['token']))
 	num_words = len(nlp_obj['token'])
-
-	if num_words == 0:
-		return 0
 
 	return num_types/num_words
 
@@ -390,13 +386,13 @@ def getHonoreStatistic(nlp_obj):
 
 	#unlikely case
 	if word_types == 0:
-		return 0 
+		return  0
 
 
 	if words_occuring_once/word_types == 1:
-		return 0
+		return (100*math.log(words))/(2-words_occuring_once/word_types)
 
-	return (100*math.log(words))/(1-words_occuring_once/word_types)
+	return (100*math.log(words))/(1-words_occuring_once/(word_types))
 
 
 
@@ -495,7 +491,8 @@ def getNPProportion(nlp_obj):
 def getVPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
-		#Prevent crash
+	
+	#Prevent crash
 	if word_count == 0:
 		return 0
 	return getPhraseLength(nlp_obj, 'VP')/word_count
@@ -505,6 +502,7 @@ def getVPProportion(nlp_obj):
 def getPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+	
 	#Prevent crash
 	if word_count == 0:
 		return 0
