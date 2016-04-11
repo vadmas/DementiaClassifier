@@ -3,7 +3,7 @@ import re
 import requests
 import nltk
 from collections import defaultdict
-
+import unicodedata
 
 # takes a long string and cleans it up and converts it into a vector to be extracted
 # NOTE: Significant preprocessing was done by sed - make sure to run this script on preprocessed text
@@ -20,29 +20,36 @@ from collections import defaultdict
 # 	],
 # ]
 
-import unicodedata, re
+# constants
+PARSER_MAX_LENGTH = 50
+
 
 # or equivalently and much more efficiently
 control_chars = ''.join(map(unichr, range(0,32) + range(127,160)))
 control_char_re = re.compile('[%s]' % re.escape(control_chars))
 
+def split_string_by_words(sen,n):
+	tokens = sen.split()
+	return [" ".join(tokens[(i)*n:(i+1)*n]) for i in range(len(tokens)/n + 1)]
 
 def remove_control_chars(s):
 	return control_char_re.sub('',s)
 	
-def get_parse_tree(sentences, port = 9000):
+#Input: Sentence to parse
+#Output: Parse tree
+def get_stanford_parse(sentence, port = 9000):
 	#raw = sentence['raw']
 	#pattern = '[a-zA-Z]*=\\s'
 	#re.sub(pattern, '', raw)
-	re.sub(r'[^\x00-\x7f]',r'', sentences)
-	sentences = remove_control_chars(sentences)
-	r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
+	re.sub(r'[^\x00-\x7f]',r'', sentence)
+	sentence = remove_control_chars(sentence)
+	r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentence)
 	json_obj = r.json()
-	sentences = json_obj['sentences']
-	trees = []
-	for sentence in sentences:
-		trees.append(sentence['parse'])
-	return trees
+	return json_obj['sentences'][0]
+	# trees = []
+	# for sentence in sentence:
+	# 	trees.append(sentence['parse'])
+	# return trees
 
 def _isValid(inputString):
 
@@ -72,13 +79,17 @@ def _processUtterance(uttr):
 			pos_freq[wordtype] += 1
 	#store the sum of frequencies in the hashmap
 	pos_freq['SUM'] = len(tokens)
-	parse_tree = get_parse_tree(uttr)
-	datum = {"pos": tagged_words, "raw": uttr, "token": tokens, "pos_freq":pos_freq, "parse_tree":parse_tree}
+	pt_list = []
+	bt_list = []
+	for u in split_string_by_words(uttr, PARSER_MAX_LENGTH):
+		if u is not "":
+			stan_parse = get_stanford_parse(u)
+			pt_list.append(stan_parse["parse"])
+			bt_list.append(stan_parse["basic-dependencies"])
+	datum = {"pos": tagged_words, "raw": uttr, "token": tokens, "pos_freq":pos_freq, "parse_tree":pt_list, "basic_dependencies":bt_list}
 	return datum
 
-# Extract data from optima directory
-
-
+# Extract data from optima/dbank directory
 def parse(filepath):
 	if os.path.exists(filepath):
 		parsed_data = []
@@ -91,3 +102,4 @@ def parse(filepath):
 		return parsed_data
 	else:
 		raise IOError("File not found: " + filepath + " does not exist")
+
