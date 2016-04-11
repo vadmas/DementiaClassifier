@@ -23,15 +23,17 @@ def getPhraseLength(nlp_obj, phrase_type):
 	
 	def count(node, multiplier):
 
+		if node.key == phrase_type:
+			multiplier += 1
+
 		#its a word!
 		if node.phrase:
-			
+		
 			return multiplier*len(node.phrase.split(' '))
 
 		phrase_length = 0 
 		
-		if node.key == phrase_type:
-			multiplier += 1
+		
 
 		for child in node.children:
 			phrase_length += count(child, multiplier)
@@ -42,18 +44,21 @@ def getPhraseLength(nlp_obj, phrase_type):
 
 
 	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'][0])	
 
-	node = root
+
 	Phrase_length = 0
-	multiplier = 0
 
-	if root.key == phrase_type:
-		multiplier +=1
+	for tree in nlp_obj['parse_tree']:
+		
+		root = build_tree(tree)
+		multiplier = 0
+
+		if root.key == phrase_type:
+			multiplier +=1
 
 
-	for child in node.children:
-		Phrase_length = count(child, multiplier)
+		for child in root.children:
+			Phrase_length = count(child, multiplier)
 
 
 
@@ -83,20 +88,19 @@ def getPhraseCountEmbedded(nlp_obj, phrase_type):
 
 		return phrase_count
 
-	
-	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'][0])
-	
-
-	node = root
 	Phrase_count = 0
-
-	if root.key == phrase_type:
-		Phrase_count += 1
+	for tree in nlp_obj['parse_tree']:
+		#build the syntactic tree
+		root = build_tree(tree)
+		
 		
 
-	for child in root.children:
-		Phrase_count += count(child)
+		if root.key == phrase_type:
+			Phrase_count += 1
+			
+
+		for child in root.children:
+			Phrase_count += count(child)
 
 
 
@@ -127,20 +131,20 @@ def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
 
 			return phrase_count
 
-	
-	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'][0])
-	
-
-	node = root
 	Phrase_count = 0
+	#build the syntactic tree
+	for tree in nlp_obj['parse_tree']:
+	
 
-	if root.key == phrase_type:
-		Phrase_count += 1
+		root = build_tree(tree)
 		
 
-	for child in root.children:
-		Phrase_count += count(child)
+		if root.key == phrase_type:
+			Phrase_count += 1
+			
+
+		for child in root.children:
+			Phrase_count += count(child)
 
 
 
@@ -165,7 +169,8 @@ def getNumNouns(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/pos_freq['SUM']
 
 
@@ -175,7 +180,8 @@ def getNumNouns(nlp_obj):
 def getNumVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 
@@ -184,7 +190,8 @@ def getNumVerbs(nlp_obj):
 def getNumInflectedVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
@@ -192,7 +199,8 @@ def getNumInflectedVerbs(nlp_obj):
 def getNumDeterminers(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['DT'] + pos_freq['PDT'] + pos_freq['WDT'] )/pos_freq['SUM']
 
 
@@ -201,7 +209,8 @@ def getNumDeterminers(nlp_obj):
 def getNumAdverbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['RB'] + pos_freq['RBR'] + pos_freq['RBS'] + pos_freq['WRB'] )/pos_freq['SUM']
 
 
@@ -210,7 +219,8 @@ def getNumAdverbs(nlp_obj):
 def getNumAdjectives(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['JJ'] + pos_freq['JJR'] + pos_freq['JJS'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
@@ -218,7 +228,8 @@ def getNumAdjectives(nlp_obj):
 def getNumInterjections(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	pos_freq = nlp_obj['pos_freq']
 	return  (pos_freq['UH'])/pos_freq['SUM']  
 
@@ -229,7 +240,8 @@ def getNumInterjections(nlp_obj):
 def getNumSubordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['IN'])/pos_freq['SUM']  
 
 
@@ -239,7 +251,8 @@ def getNumSubordinateConjunctions(nlp_obj):
 def getNumCoordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	
+	if pos_freq['SUM'] == 0:
+		return 0
 	return  (pos_freq['CC'])/pos_freq['SUM']  
 
 
@@ -650,9 +663,6 @@ def get_all_features(interview):
 		
 	features = []
 
-
-
-	
 	#POS counts
 	features.append(sum([getNumNouns(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getNumVerbs(utterance) for utterance in interview])/len(interview))
@@ -697,7 +707,6 @@ def get_all_features(interview):
 	features.append(sum([getNPTypeRate(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getVPTypeRate(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getPPTypeRate(utterance) for utterance in interview])/len(interview))
-
 
 
 	
