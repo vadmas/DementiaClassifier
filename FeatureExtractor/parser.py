@@ -2,6 +2,8 @@ import os
 import re
 import requests
 import nltk
+from collections import defaultdict
+
 
 # takes a long string and cleans it up and converts it into a vector to be extracted
 # NOTE: Significant preprocessing was done by sed - make sure to run this script on preprocessed text
@@ -18,11 +20,15 @@ import nltk
 # 	],
 # ]
 
+
+import unicodedata, re
+
 def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
     re.sub(r'[^\x00-\x7f]',r'', sentences)
+    sentences = remove_control_chars(sentences)
     r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentences)
     json_obj = r.json()
     sentences = json_obj['sentences']
@@ -30,6 +36,7 @@ def get_parse_tree(sentences, port = 9000):
     for sentence in sentences:
         trees.append(sentence['parse'])
     return trees
+
 
 def _isValid(inputString):
 
@@ -43,25 +50,15 @@ def _isValid(inputString):
     else:
         return True
 
-import unicodedata, re
-
-# or equivalently and much more efficiently
-control_chars = ''.join(map(unichr, range(0,32) + range(127,160)))
-control_char_re = re.compile('[%s]' % re.escape(control_chars))
-
-def remove_control_chars(s):
-    return control_char_re.sub('',s)
-
 
 def _processUtterance(uttr):
     uttr = uttr.decode('utf-8').strip()
     # Remove non ascii
     uttr = re.sub(r'[^\x00-\x7f]',r'', uttr)
-
     tokens = nltk.word_tokenize(uttr)
     tagged_words = nltk.pos_tag(tokens)
     #Get the frequency of every type
-    pos_freq = {}
+    pos_freq = defaultdict(int)
     for word, wordtype in tagged_words:
         if wordtype not in pos_freq:
             pos_freq[wordtype] = 1
