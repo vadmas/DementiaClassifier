@@ -1,9 +1,3 @@
-import nltk
-import subprocess
-import threading
-import requests
-import re
-import os
 import SCA.L2SCA.analyzeText as at
 # import SCA.L2SCA.analyzeFolder as af
 
@@ -11,6 +5,7 @@ try:
     import cPickle as pickle
 except:
     import pickle
+
 
 class tree_node():
 
@@ -69,9 +64,6 @@ def build_tree(parse_tree):
             node_type = None
             phrase = None
             continue
-        if ch.isspace():
-            encounter_leaf = True
-            continue
         if ch == ')':
             # pop from the stack and add it to the children for the node before it
             if phrase:
@@ -92,6 +84,9 @@ def build_tree(parse_tree):
             if not phrase:
                 phrase = ''
             phrase += ch
+            continue
+        if ch.isspace():
+            encounter_leaf = True
             continue
         if build_node:
             if not node_type:
@@ -192,24 +187,23 @@ def get_all_symantics_features(data):
     return feature_set
 
 
-def get_all_tree_features(data):
-    feature_set = []
-    for sample in data:
-        features = {
-            'tree_height': 0,
-            'NP->PRP': 0,
-            'ADVP->RB': 0,
-            'NP->DT_NN': 0,
-            'NP->AUX_VP': 0,
-            'VP->VBG': 0,
-            'VP->VBG_PP': 0,
-            'VP->AUX_ADJP': 0,
-            'VP->AUX': 0,
-            'VP->VBD_NP': 0,
-            'INTJ->UH': 0,
-        }
-        for utterance in sample:
-            parse_tree = utterance['parse_tree'][0]
+def get_all_tree_features(sample):
+    features = {
+        'tree_height': 0,
+        'NP->PRP': 0,
+        'ADVP->RB': 0,
+        'NP->DT_NN': 0,
+        'NP->AUX_VP': 0,
+        'VP->VBG': 0,
+        'VP->VBG_PP': 0,
+        'VP->AUX_ADJP': 0,
+        'VP->AUX': 0,
+        'VP->VBD_NP': 0,
+        'INTJ->UH': 0,
+    }
+    for utterance in sample:
+        for tree in range(0, len(utterance['parse_tree'])):
+            parse_tree = utterance['parse_tree'][tree]
             root_node = build_tree(parse_tree)
             features['tree_height'] += get_height_of_tree(root_node)
             features['NP->PRP'] += get_NP_2_PRP(root_node)
@@ -222,16 +216,35 @@ def get_all_tree_features(data):
             features['VP->AUX'] += get_VP_2_AUX(root_node)
             features['VP->VBD_NP'] += get_VP_2_VBDNP(root_node)
             features['INTJ->UH'] += get_INTJ_2_UH(root_node)
-        features['avg_tree_height'] = features['tree_height'] / float(len(sample))
-        feature_set.append(features)
-    return feature_set
 
-if __name__ == '__main__':
+    #================ DIVIDING BY NUMBER OF UTTERANCES ===============#
+    for k,v in features.iteritems():
+        features[k] /= float(len(sample))
 
-    with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
-       control = pickle.load(handle)
-    test_set = control[1:10]
-    test_feature_set = get_all_tree_features(test_set)
+    return features
+
+
+def print_tree(root_node):
+    queue = []
+    queue.append(root_node)
+
+    while len(queue) != 0:
+        node = queue.pop(0) # POP first element
+        print("current node = " + node.key)
+        if node.phrase:
+            print("phrase = " + node.phrase)
+        for child in node.children:
+            queue.append(child)
+
+
+# if __name__ == '__main__':
+#     trees = ps.get_parse_tree("My friends and I went to New York City for a weekend.")
+#     node = build_tree(trees[0])
+#     print_tree(node)
+    #with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
+    #   control = pickle.load(handle)
+    #test_set = control[1:10]
+    #test_feature_set = get_all_tree_features(test_set)
 
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')

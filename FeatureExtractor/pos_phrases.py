@@ -3,6 +3,7 @@ from __future__ import division
 import nltk
 from collections import defaultdict
 from collections import Counter
+from pos_syntactic import build_tree
 import math
 
 
@@ -22,32 +23,42 @@ def getPhraseLength(nlp_obj, phrase_type):
 	
 	def count(node, multiplier):
 
+		if node.key == phrase_type:
+			multiplier += 1
+
 		#its a word!
 		if node.phrase:
-			return multiplier*len(node.phrase)
+		
+			return multiplier*len(node.phrase.split(' '))
 
 		phrase_length = 0 
-		if node.key == phrase_type:
-			for child in root.children:
-				phrase_length += count(child, multiplier+1)
-
-		return phrase_length
-
-	
-	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
-	
-
-	node = root
-	Phrase_length = 0
-
-	if root.key == phrase_type:
-		multiplier = 1
-	else:
-		multiplier = 0
+		
+		
 
 		for child in node.children:
-			Phrase_length = count(child, 0)
+			phrase_length += count(child, multiplier)
+				
+		
+		
+		return phrase_length
+
+
+	#build the syntactic tree
+
+
+	Phrase_length = 0
+
+	for tree in nlp_obj['parse_tree']:
+		
+		root = build_tree(tree)
+		multiplier = 0
+
+		if root.key == phrase_type:
+			multiplier +=1
+
+
+		for child in root.children:
+			Phrase_length = count(child, multiplier)
 
 
 
@@ -77,20 +88,19 @@ def getPhraseCountEmbedded(nlp_obj, phrase_type):
 
 		return phrase_count
 
-	
-	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
-	
-
-	node = root
 	Phrase_count = 0
-
-	if root.key == phrase_type:
-		Phrase_count += 1
+	for tree in nlp_obj['parse_tree']:
+		#build the syntactic tree
+		root = build_tree(tree)
+		
 		
 
-	for child in root.children:
-		Phrase_count += count(child)
+		if root.key == phrase_type:
+			Phrase_count += 1
+			
+
+		for child in root.children:
+			Phrase_count += count(child)
 
 
 
@@ -121,20 +131,20 @@ def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
 
 			return phrase_count
 
-	
-	#build the syntactic tree
-	root = build_tree(nlp_obj['parse_tree'])
-	
-
-	node = root
 	Phrase_count = 0
+	#build the syntactic tree
+	for tree in nlp_obj['parse_tree']:
+	
 
-	if root.key == phrase_type:
-		Phrase_count += 1
+		root = build_tree(tree)
 		
 
-	for child in root.children:
-		Phrase_count += count(child)
+		if root.key == phrase_type:
+			Phrase_count += 1
+			
+
+		for child in root.children:
+			Phrase_count += count(child)
 
 
 
@@ -263,10 +273,8 @@ def getRatioVerb(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 
-	if pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'] == 0:
-		return 0
 
-	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/(pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])
+	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/(pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ']+1)
 
 
 #input: NLP object for one paragraph
@@ -277,10 +285,8 @@ def getRatioNoun(nlp_obj):
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
 	num_verbs = pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ']
 
-	if num_nouns + num_verbs == 0:
-		return 0
 
-	return  num_nouns/(num_nouns + num_verbs)
+	return  num_nouns/(num_nouns + num_verbs+1)
 
 
 
@@ -291,13 +297,11 @@ def getRatioPronoun(nlp_obj):
 	pos_freq = nlp_obj['pos_freq']
 	num_nouns = pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS']
 
-	if num_nouns == 0:
-		return 0
 
 	num_pronouns = pos_freq['PRP'] + pos_freq['PRP$'] + pos_freq['PRP'] + pos_freq['WHP'] + pos_freq['WP$']
 
 
-	return  num_pronouns/num_nouns
+	return  num_pronouns/(num_nouns+1)
 
 
 #input: NLP object for one paragraph
@@ -305,10 +309,9 @@ def getRatioPronoun(nlp_obj):
 def getRatioCoordinate(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['IN'] == 0:
-		return 0
 
-	return  pos_freq['CC']/pos_freq['IN']
+
+	return  pos_freq['CC']/(pos_freq['IN']+1)
 
 
 #input: NLP object for one paragraph
@@ -317,9 +320,6 @@ def getTTR(nlp_obj):
 
 	num_types = len(set(nlp_obj['token']))
 	num_words = len(nlp_obj['token'])
-
-	if num_words == 0:
-		return 0
 
 	return num_types/num_words
 
@@ -390,13 +390,13 @@ def getHonoreStatistic(nlp_obj):
 
 	#unlikely case
 	if word_types == 0:
-		return 0 
+		return  0
 
 
 	if words_occuring_once/word_types == 1:
-		return 0
+		return (100*math.log(words))/(2-words_occuring_once/word_types)
 
-	return (100*math.log(words))/(1-words_occuring_once/word_types)
+	return (100*math.log(words))/(1-words_occuring_once/(word_types))
 
 
 
@@ -482,6 +482,11 @@ def getMeanLengthOfSentence(nlp_obj):
 def getNPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
+
 	return getPhraseLength(nlp_obj, 'NP')/word_count
 
 
@@ -490,6 +495,10 @@ def getNPProportion(nlp_obj):
 def getVPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+	
+	#Prevent crash
+	if word_count == 0:
+		return 0
 	return getPhraseLength(nlp_obj, 'VP')/word_count
 
 #input: NLP object for one paragraph
@@ -497,6 +506,10 @@ def getVPProportion(nlp_obj):
 def getPProportion(nlp_obj):
 
 	word_count = len(nlp_obj['token'])
+	
+	#Prevent crash
+	if word_count == 0:
+		return 0
 	return getPhraseLength(nlp_obj, 'PP')/word_count
 
 #input: NLP object for one paragraph
@@ -508,6 +521,10 @@ def getAvgNPTypeLengthEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'NP')
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'NP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -521,6 +538,10 @@ def getAvgVPTypeLengthEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'VP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 #input: NLP object for one paragraph
@@ -532,6 +553,10 @@ def getAvgPPTypeLengthEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'PP')
 
 	phrase_count = getPhraseCountEmbedded(nlp_obj, 'PP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -547,6 +572,10 @@ def getAvgNPTypeLengthNonEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 
@@ -559,6 +588,10 @@ def getAvgVPTypeLengthNonEmbedded(nlp_obj):
 	phrase_length = getPhraseLength(nlp_obj, 'VP')
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
 
 	return phrase_length/phrase_count
 
@@ -573,6 +606,10 @@ def getAvgPPTypeLengthNonEmbedded(nlp_obj):
 
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
 
+	#Prevent crash
+	if phrase_count == 0:
+		return 0
+
 	return phrase_length/phrase_count
 
 #input: NLP object for one paragraph
@@ -580,8 +617,12 @@ def getAvgPPTypeLengthNonEmbedded(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getNPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'NP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -591,8 +632,12 @@ def getNPTypeRate(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getVPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'VP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -602,8 +647,12 @@ def getVPTypeRate(nlp_obj):
 #ATTENTION we use the nonembbeded count here
 def getPPTypeRate(nlp_obj):
 
-	word_count = len(nlp_obj['tokens'])
+	word_count = len(nlp_obj['token'])
 	phrase_count = getPhraseCountNonEmbedded(nlp_obj, 'PP')
+
+	#Prevent crash
+	if word_count == 0:
+		return 0
 
 	return phrase_count/word_count
 
@@ -613,8 +662,6 @@ def getPPTypeRate(nlp_obj):
 def get_all_features(interview):
 		
 	features = []
-
-
 
 	#POS counts
 	features.append(sum([getNumNouns(utterance) for utterance in interview])/len(interview))
@@ -660,7 +707,6 @@ def get_all_features(interview):
 	features.append(sum([getNPTypeRate(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getVPTypeRate(utterance) for utterance in interview])/len(interview))
 	features.append(sum([getPPTypeRate(utterance) for utterance in interview])/len(interview))
-
 
 
 	
