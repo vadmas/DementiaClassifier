@@ -187,26 +187,25 @@ def get_all_symantics_features(data):
     return feature_set
 
 
-def get_all_tree_features(data):
-    feature_set = []
-    for sample in data:
-        features = {
-            'tree_height': 0,
-            'NP->PRP': 0,
-            'ADVP->RB': 0,
-            'NP->DT_NN': 0,
-            'NP->AUX_VP': 0,
-            'VP->VBG': 0,
-            'VP->VBG_PP': 0,
-            'VP->AUX_ADJP': 0,
-            'VP->AUX': 0,
-            'VP->VBD_NP': 0,
-            'INTJ->UH': 0,
-        }
-        for utterance in sample:
-            parse_tree = utterance['parse_tree'][0]
+def get_all_tree_features(sample):
+    features = {
+        'tree_height': 0,
+        'NP->PRP': 0,
+        'ADVP->RB': 0,
+        'NP->DT_NN': 0,
+        'NP->AUX_VP': 0,
+        'VP->VBG': 0,
+        'VP->VBG_PP': 0,
+        'VP->AUX_ADJP': 0,
+        'VP->AUX': 0,
+        'VP->VBD_NP': 0,
+        'INTJ->UH': 0,
+    }
+    for utterance in sample:
+        for tree in range(0, len(utterance['parse_tree'])):
+            parse_tree = utterance['parse_tree'][tree]
             root_node = build_tree(parse_tree)
-            features['tree_height'] += get_height_of_tree(root_node)
+            features['tree_height'] += get_height_of_t  ree(root_node)
             features['NP->PRP'] += get_NP_2_PRP(root_node)
             features['ADVP->RB'] += get_ADVP_2_RB(root_node)
             features['NP->DT_NN'] += get_NP_2_DTNN(root_node)
@@ -218,11 +217,11 @@ def get_all_tree_features(data):
             features['VP->VBD_NP'] += get_VP_2_VBDNP(root_node)
             features['INTJ->UH'] += get_INTJ_2_UH(root_node)
 
-        #================ DIVIDING BY NUMBER OF UTTERANCES ===============#
-        for k,v in features.iteritems():
-            features[k] /= float(len(sample))
-        feature_set.append(features)
-    return feature_set
+    #================ DIVIDING BY NUMBER OF UTTERANCES ===============#
+    for k,v in features.iteritems():
+        features[k] /= float(len(sample))
+
+    return features
 
 
 def print_tree(root_node):
