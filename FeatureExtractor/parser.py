@@ -23,6 +23,15 @@ from collections import defaultdict
 
 import unicodedata, re
 
+# or equivalently and much more efficiently
+control_chars = ''.join(map(unichr, range(0,32) + range(127,160)))
+control_char_re = re.compile('[%s]' % re.escape(control_chars))
+
+
+def remove_control_chars(s):
+	return control_char_re.sub('',s)
+
+
 def get_parse_tree(sentences, port = 9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
@@ -85,3 +94,11 @@ def parse(filepath):
         return parsed_data
     else:
         raise IOError("File not found: " + filepath + " does not exist")
+
+
+if __name__ == "__main__":
+    import pos_syntactic as ps
+    trees = get_parse_tree("My friends and I went to New York City for a weekend.")
+    root_node = ps.build_tree(trees[0])
+    ps.print_tree(root_node)
+
