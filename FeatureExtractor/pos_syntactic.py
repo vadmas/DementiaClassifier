@@ -205,7 +205,7 @@ def get_all_tree_features(sample):
         for tree in range(0, len(utterance['parse_tree'])):
             parse_tree = utterance['parse_tree'][tree]
             root_node = build_tree(parse_tree)
-            features['tree_height'] += get_height_of_t  ree(root_node)
+            features['tree_height'] += get_height_of_tree(root_node)
             features['NP->PRP'] += get_NP_2_PRP(root_node)
             features['ADVP->RB'] += get_ADVP_2_RB(root_node)
             features['NP->DT_NN'] += get_NP_2_DTNN(root_node)
