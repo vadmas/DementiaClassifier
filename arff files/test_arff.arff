@@ -1,0 +1,11 @@
+@RELATION "test_arff"
+
+@ATTRIBUTE feature4 string
+@ATTRIBUTE feature2 numeric
+@ATTRIBUTE feature3 string
+@ATTRIBUTE feature1 numeric
+@ATTRIBUTE class {Control, Dementia} 
+@DATA
+anything,10,something,2,label1
+anything,10,something,2,label2
+anything,10,something,2,label1
