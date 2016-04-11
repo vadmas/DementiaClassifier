@@ -1,4 +1,3 @@
-import parser
 import SCA.L2SCA.analyzeText as at
 # import SCA.L2SCA.analyzeFolder as af
 
@@ -6,6 +5,7 @@ try:
     import cPickle as pickle
 except:
     import pickle
+
 
 class tree_node():
 
@@ -238,10 +238,10 @@ def print_tree(root_node):
             queue.append(child)
 
 
-if __name__ == '__main__':
-    trees = parser.get_parse_tree("My friends and I went to New York City for a weekend.")
-    node = build_tree(trees[0])
-    print_tree(node)
+# if __name__ == '__main__':
+#     trees = ps.get_parse_tree("My friends and I went to New York City for a weekend.")
+#     node = build_tree(trees[0])
+#     print_tree(node)
     #with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
     #   control = pickle.load(handle)
     #test_set = control[1:10]
