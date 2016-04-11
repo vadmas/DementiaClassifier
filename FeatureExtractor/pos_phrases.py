@@ -165,8 +165,7 @@ def getNumNouns(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
 
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['NN'] + pos_freq['NNP'] + pos_freq['NNS']+ pos_freq['NNPS'])/pos_freq['SUM']
 
 
@@ -176,8 +175,7 @@ def getNumNouns(nlp_obj):
 def getNumVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['VB'] + pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 
@@ -186,8 +184,7 @@ def getNumVerbs(nlp_obj):
 def getNumInflectedVerbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['VBD'] + pos_freq['VBG'] + pos_freq['VBN'] + pos_freq['VBP'] + pos_freq['VBZ'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
@@ -195,8 +192,7 @@ def getNumInflectedVerbs(nlp_obj):
 def getNumDeterminers(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['DT'] + pos_freq['PDT'] + pos_freq['WDT'] )/pos_freq['SUM']
 
 
@@ -205,8 +201,7 @@ def getNumDeterminers(nlp_obj):
 def getNumAdverbs(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['RB'] + pos_freq['RBR'] + pos_freq['RBS'] + pos_freq['WRB'] )/pos_freq['SUM']
 
 
@@ -215,8 +210,7 @@ def getNumAdverbs(nlp_obj):
 def getNumAdjectives(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['JJ'] + pos_freq['JJR'] + pos_freq['JJS'])/pos_freq['SUM']
 
 #input: NLP object for one paragraph
@@ -224,8 +218,7 @@ def getNumAdjectives(nlp_obj):
 def getNumInterjections(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	pos_freq = nlp_obj['pos_freq']
 	return  (pos_freq['UH'])/pos_freq['SUM']  
 
@@ -236,8 +229,7 @@ def getNumInterjections(nlp_obj):
 def getNumSubordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['IN'])/pos_freq['SUM']  
 
 
@@ -247,8 +239,7 @@ def getNumSubordinateConjunctions(nlp_obj):
 def getNumCoordinateConjunctions(nlp_obj):
 
 	pos_freq = nlp_obj['pos_freq']
-	if pos_freq['SUM'] == 0:
-		return 0
+	
 	return  (pos_freq['CC'])/pos_freq['SUM']  
 
 
