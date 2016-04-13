@@ -6,9 +6,9 @@ except:
 import parser
 import os
 from FeatureExtractor import parser 
-# from FeatureExtractor import pos_phrases 
+from FeatureExtractor import pos_phrases 
 from FeatureExtractor import pos_syntactic 
-#from FeatureExtractor import psycholinguistic
+from FeatureExtractor import psycholinguistic
 
 # constants
 DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
@@ -50,17 +50,17 @@ def get_dbank_control():
 def get_dbank_dem():
     return get_data('dbank_dem.pickle', DEMENTIABANK_DEMENTIA_DIR)
 
+def extract_features(data):
+    feature_set = []
+    for idx, interview in enumerate(data):
+        print "Extracting features for interview: ", idx
+        feat_dict  = pos_phrases.get_all(interview)
+        feat_dict.update(pos_syntactic.get_all(interview))
+        feat_dict.update(psycholinguistic.get_all(interview))
+        feature_set.append(feat_dict)
+    return feature_set
+
 if __name__ == '__main__':
-    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
-    # data = parser.parse(TEST_DIR)
-    # f1 = phrases.get_all_features(dbank_control)
-    # f2 = psycholinguistic.get_all_features(dbank_control)
-    # f3 = syntactic.get_all_features(dbank_control)
+    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()zx
+    feature_vec = extract_features(dbank_control)
 
-    # pos_syntactic_extractor.get_structure_features(dbank_control)
-    # psycholinguistic.get_all_features(dbank_control)
-
-    # print "DBank Control: "  + str(len(dbank_control))
-    # print "DBank Dem: " 	 + str(len(dbank_dem))
-    # print "Optima Control: " + str(len(optima_control))
-    # print "Optima Dem: "	 + str(len(optima_dem))

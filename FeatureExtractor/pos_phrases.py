@@ -659,59 +659,54 @@ def getPPTypeRate(nlp_obj):
 
 #input: list of  utterances for one interview stored as [{},{},{}]
 #returns: list of features for  interview
-def get_all_features(interview):
-		
-	features = []
-
+def get_all(interview):
+	features = {}
 	#POS counts
-	features.append(sum([getNumNouns(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumVerbs(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumInflectedVerbs(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumDeterminers(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumAdverbs(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumAdjectives(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumSubordinateConjunctions(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumInterjections(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNumCoordinateConjunctions(utterance) for utterance in interview])/len(interview))
+	features["NumNouns"] = sum([getNumNouns(utterance) for utterance in interview])/len(interview)
+	features["NumVerbs"] = sum([getNumVerbs(utterance) for utterance in interview])/len(interview)
+	features["NumAdverbs"] = sum([getNumAdverbs(utterance) for utterance in interview])/len(interview)
+	features["NumAdjectives"] = sum([getNumAdjectives(utterance) for utterance in interview])/len(interview)
+	features["NumDeterminers"] = sum([getNumDeterminers(utterance) for utterance in interview])/len(interview)
+	features["NumInterjections"] = sum([getNumInterjections(utterance) for utterance in interview])/len(interview)
+	features["NumInflectedVerbs"] = sum([getNumInflectedVerbs(utterance) for utterance in interview])/len(interview)
+	features["NumCoordinateConjunctions"] = sum([getNumCoordinateConjunctions(utterance) for utterance in interview])/len(interview)
+	features["NumSubordinateConjunctions"] = sum([getNumSubordinateConjunctions(utterance) for utterance in interview])/len(interview)
 	
 	#POS ratios
-	features.append(sum([getRatioNoun(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getRatioVerb(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getRatioPronoun(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getRatioCoordinate(utterance) for utterance in interview])/len(interview))
+	features["RatioNoun"] = sum([getRatioNoun(utterance) for utterance in interview])/len(interview)
+	features["RatioVerb"] = sum([getRatioVerb(utterance) for utterance in interview])/len(interview)
+	features["RatioPronoun"] = sum([getRatioPronoun(utterance) for utterance in interview])/len(interview)
+	features["RatioCoordinate"] = sum([getRatioCoordinate(utterance) for utterance in interview])/len(interview)
 
 	#Weird statistics
-	features.append(sum([getTTR(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getMATTR(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getBrunetIndex(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getHonoreStatistic(utterance) for utterance in interview])/len(interview))
+	features["TTR"] = sum([getTTR(utterance) for utterance in interview])/len(interview)
+ 	features["MATTR"] = sum([getMATTR(utterance) for utterance in interview])/len(interview)
+ 	features["BrunetIndex"] = sum([getBrunetIndex(utterance) for utterance in interview])/len(interview)
+ 	features["HonoreStatistic"] = sum([getHonoreStatistic(utterance) for utterance in interview])/len(interview)
 
 
  	#Summary statistics
- 	features.append(sum([getMeanWordLength(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getMeanLengthOfSentence(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getTotalNumberOfWords(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getDisfluencyFrequency(utterance) for utterance in interview])/len(interview))
- 	features.append(sum([getNumberOfNID(utterance) for utterance in interview])/len(interview))
+ 	features["NumberOfNID"] = sum([getNumberOfNID(utterance) for utterance in interview])/len(interview)
+ 	features["MeanWordLength"] = sum([getMeanWordLength(utterance) for utterance in interview])/len(interview)
+ 	features["TotalNumberOfWords"] = sum([getTotalNumberOfWords(utterance) for utterance in interview])/len(interview)
+ 	features["DisfluencyFrequency"] = sum([getDisfluencyFrequency(utterance) for utterance in interview])/len(interview)
+ 	features["MeanLengthOfSentence"] = sum([getMeanLengthOfSentence(utterance) for utterance in interview])/len(interview)
 
  	#Phrase features
- 	features.append(sum([getNPProportion(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getVPProportion(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getPProportion(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgNPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgNPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgVPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgVPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgPPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getAvgPPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getNPTypeRate(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getVPTypeRate(utterance) for utterance in interview])/len(interview))
-	features.append(sum([getPPTypeRate(utterance) for utterance in interview])/len(interview))
-
-
+	features["NPTypeRate"] = sum([getNPTypeRate(utterance) for utterance in interview])/len(interview)
+	features["VPTypeRate"] = sum([getVPTypeRate(utterance) for utterance in interview])/len(interview)
+	features["PPTypeRate"] = sum([getPPTypeRate(utterance) for utterance in interview])/len(interview)
+	features["PProportion"] = sum([getPProportion(utterance) for utterance in interview])/len(interview)
+ 	features["NPProportion"] = sum([getNPProportion(utterance) for utterance in interview])/len(interview)
+	features["VPProportion"] = sum([getVPProportion(utterance) for utterance in interview])/len(interview)
+	features["AvgNPTypeLengthEmbedded"] = sum([getAvgNPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview)
+	features["AvgVPTypeLengthEmbedded"] = sum([getAvgVPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview)
+	features["AvgPPTypeLengthEmbedded"] = sum([getAvgPPTypeLengthEmbedded(utterance) for utterance in interview])/len(interview)
+	features["AvgPPTypeLengthNonEmbedded"] = sum([getAvgPPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview)
+	features["AvgNPTypeLengthNonEmbedded"] = sum([getAvgNPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview)
+	features["AvgVPTypeLengthNonEmbedded"] = sum([getAvgVPTypeLengthNonEmbedded(utterance) for utterance in interview])/len(interview)
 	
 	return features
-
 
 # For testing
 #------------------------------------------------
@@ -726,6 +721,3 @@ def get_all_features(interview):
 # 	l = [s0, s1, s2, s3, s4, s5]
 # 	print 'avg_cos_dist', avg_cos_dist(l)
 # 	print 'proportion_below_threshold', proportion_below_threshold(l,0)
-
-
-
