@@ -34,9 +34,19 @@ def make_arff_file(file_name, samples, labels):
 
 
 def get_attribute_from_variable(var):
-    type_name = type(var).__name__
-    return attribute_dict[type_name]
 
+    if is_number(var):
+        return "numeric"
+    else:
+        return "str"
+
+
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
 
 if __name__ == "__main__":
     test_samples = [
