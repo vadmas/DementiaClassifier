@@ -131,7 +131,6 @@ if __name__ == '__main__':
     print 'VP to AUX_VP: ' + str(ps.get_VP_2_AUXVP(root_node,dependents))
 
 
-=======
 import os
 import re
 import requests
@@ -276,6 +275,4 @@ if __name__ == "__main__":
     trees = get_parse_tree("My friends and I went to New York City for a weekend.")
     root_node = ps.build_tree(trees[0])
     ps.print_tree(root_node)
->>>>>>> 492f5cd51c7ca1a47cf77115b9d69df3e2668c8b
 
->>>>>>> 77d7499de6d94be3e142e32f3c348d5b9669ba5b
