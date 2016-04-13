@@ -64,11 +64,9 @@ def _isValid(inputString):
         return True
 
 def _processUtterance(uttr):
-<<<<<<< HEAD
 	uttr = uttr.decode('utf-8').strip()
 	# Remove non ascii
 	uttr = re.sub(r'[^\x00-\x7f]',r'', uttr)
-
 	tokens = nltk.word_tokenize(uttr)
 	tagged_words = nltk.pos_tag(tokens)
 	#Get the frequency of every type
@@ -89,29 +87,10 @@ def _processUtterance(uttr):
 			bt_list.append(stan_parse["basic-dependencies"])
 	datum = {"pos": tagged_words, "raw": uttr, "token": tokens, "pos_freq":pos_freq, "parse_tree":pt_list, "basic_dependencies":bt_list}
 	return datum
-=======
-    uttr = uttr.decode('utf-8').strip()
-    # Remove non ascii
-    uttr = re.sub(r'[^\x00-\x7f]',r'', uttr)
-    tokens = nltk.word_tokenize(uttr)
-    tagged_words = nltk.pos_tag(tokens)
-    #Get the frequency of every type
-    pos_freq = defaultdict(int)
-    for word, wordtype in tagged_words:
-        if wordtype not in pos_freq:
-            pos_freq[wordtype] = 1
-        else:
-            pos_freq[wordtype] += 1
-    #store the sum of frequencies in the hashmap
-    pos_freq['SUM'] = len(tokens)
-    parse_tree = get_parse_tree(uttr)
-    datum = {"pos": tagged_words, "raw": uttr, "token": tokens, "pos_freq":pos_freq, "parse_tree":parse_tree}
-    return datum
->>>>>>> 492f5cd51c7ca1a47cf77115b9d69df3e2668c8b
+
 
 # Extract data from optima/dbank directory
 def parse(filepath):
-<<<<<<< HEAD
 	if os.path.exists(filepath):
 		parsed_data = []
 		for filename in os.listdir(filepath):
@@ -123,24 +102,11 @@ def parse(filepath):
 		return parsed_data
 	else:
 		raise IOError("File not found: " + filepath + " does not exist")
-=======
-    if os.path.exists(filepath):
-        parsed_data = []
-        for filename in os.listdir(filepath):
-            if filename.endswith(".txt"):
-                with open(os.path.join(filepath, filename)) as file:
-                    print "Parsing: " + file.name
-                    session_utterances = [_processUtterance(line) for line in file if _isValid(line)]
-                    parsed_data.append(session_utterances) # Add session
-        return parsed_data
-    else:
-        raise IOError("File not found: " + filepath + " does not exist")
 
 
-if __name__ == "__main__":
-    import pos_syntactic as ps
-    trees = get_parse_tree("My friends and I went to New York City for a weekend.")
-    root_node = ps.build_tree(trees[0])
-    ps.print_tree(root_node)
->>>>>>> 492f5cd51c7ca1a47cf77115b9d69df3e2668c8b
+# if __name__ == "__main__":
+#     import pos_syntactic as ps
+#     trees = get_parse_tree("My friends and I went to New York City for a weekend.")
+#     root_node = ps.build_tree(trees[0])
+#     ps.print_tree(root_node)
 
