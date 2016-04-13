@@ -237,7 +237,6 @@ def get_number_of_nodes_in_tree(root_node):
     return count
 
 
-
 def get_all_tree_features(sample):
     features = {
         'tree_height': 0,
@@ -278,6 +277,12 @@ def get_all_tree_features(sample):
         features[k] /= float(total_nodes)
 
     return features
+
+
+def get_all(interview):
+    feature_dict = get_all_syntactics_features(interview)
+    feature_dict.update(get_all_tree_features(interview))
+    return feature_dict
 
 
 def print_tree(root_node):
