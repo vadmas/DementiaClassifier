@@ -29,10 +29,10 @@ control_char_re = re.compile('[%s]' % re.escape(control_chars))
 
 
 def remove_control_chars(s):
-	return control_char_re.sub('',s)
+    return control_char_re.sub('',s)
 
 
-def get_parse_tree(sentences, port = 9000):
+def get_parse_tree(sentences, port=9000):
     #raw = sentence['raw']
     #pattern = '[a-zA-Z]*=\\s'
     #re.sub(pattern, '', raw)
@@ -46,6 +46,24 @@ def get_parse_tree(sentences, port = 9000):
         trees.append(sentence['parse'])
     return trees
 
+
+def get_parse_tree_with_dependencies(sentences, port=9000):
+    re.sub(r'[^\x00-\x7f]', r'', sentences)
+    sentences = remove_control_chars(sentences)
+    r = requests.post(
+        'http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}',
+        data=sentences)
+    json_obj = r.json()
+    sentences = json_obj['sentences']
+    data = []
+    for sentence in sentences:
+        data.append(
+            {
+                'tree': sentence['parse'],
+                'dependencies': sentence['basic-dependencies']
+            }
+        )
+    return data
 
 def _isValid(inputString):
 
@@ -95,10 +113,20 @@ def parse(filepath):
     else:
         raise IOError("File not found: " + filepath + " does not exist")
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     import pos_syntactic as ps
-    trees = get_parse_tree("My friends and I went to New York City for a weekend.")
-    root_node = ps.build_tree(trees[0])
-    ps.print_tree(root_node)
+    # ---- Testing VP to AUX
+    data = get_parse_tree_with_dependencies("She is the boss.", port=9000)
+    tree = data[0]['tree']
+    dependencies = data[0]['dependencies']
+    root_node = ps.build_tree(tree)
+    print 'VP to AUX: ' + str(ps.get_VP_2_AUX(root_node, dependencies))
+
+    # ---- Testing VP to AUX_VP
+    data = get_parse_tree_with_dependencies("You shall not pass.", port=9000)
+    tree = data[0]['tree']
+    dependents = ps.get_aux_dependency_dependent(data[0]['dependencies'])
+    root_node = ps.build_tree(tree)
+    print 'VP to AUX_VP: ' + str(ps.get_VP_2_AUXVP(root_node,dependents))
+
 

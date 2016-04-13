@@ -6,6 +6,13 @@ try:
 except:
     import pickle
 
+auxiliary_dependencies = frozenset([
+    'auxpass',
+    'cop',
+    'aux',
+    'xcomp'
+])
+
 
 class tree_node():
 
@@ -127,6 +134,7 @@ def get_count_of_parent_children(child_types, parent_type, tree_node):
         count += get_count_of_parent_children(child_types, parent_type, child)
     return count
 
+
 def get_NP_2_PRP(tree_node):
     return get_count_of_parent_child('PRP', 'NP', tree_node)
 
@@ -139,10 +147,6 @@ def get_NP_2_DTNN(tree_node):
     return get_count_of_parent_children(['DT','NN'], 'NP', tree_node)
 
 
-def get_VP_2_AUXVP(tree_node):
-    return get_count_of_parent_child(['AUX', 'VP'], 'VP', tree_node)
-
-
 def get_VP_2_VBG(tree_node):
     return get_count_of_parent_child('VBG', 'VP', tree_node)
 
@@ -151,12 +155,52 @@ def get_VP_2_VBGPP(tree_node):
     return get_count_of_parent_child(['VBG', 'PP'], 'VP', tree_node)
 
 
-def get_VP_2_AUXADJP(tree_node):
-    return get_count_of_parent_child(['AUX', 'ADJP'], 'VP', tree_node)
+def get_VP_2_AUXVP(tree_node, dependents):
+    return get_VP_to_aux_and_more(tree_node, "VP", dependents)
 
 
-def get_VP_2_AUX(tree_node):
-    return get_count_of_parent_child('AUX', 'VP', tree_node)
+def get_VP_2_AUXADJP(tree_node, dependents):
+    return get_VP_to_aux_and_more(tree_node, "ADJP", dependents)
+
+
+def get_VP_to_aux_and_more(tree_node, sibling_to_check, dependents):
+    count = 0
+    if tree_node.key == 'VP':
+        # Check children phrase to see if it is inside the aux dependencies
+        child_keys = []
+        aux_present = False
+        for child in tree_node.children:
+            if child.phrase:  # If child phrase exists
+                if child.phrase in dependents:
+                    aux_present = True
+            child_keys.append(child.key)
+        # Check for condition
+        if aux_present:
+            child_keys = set(child_keys)
+            if sibling_to_check in child_keys:
+                count += 1
+    for child in tree_node.children:
+        count += get_VP_to_aux_and_more(child, sibling_to_check, dependents)
+
+    return count
+
+
+def get_aux_dependency_dependent(dependencies):
+    dependents_list = []
+    for dependency in dependencies:
+        if dependency['dep'] in auxiliary_dependencies:
+            dependents_list.append(dependency['dependentGloss'])
+    return dependents_list
+
+
+def get_VP_2_AUX(dependencies):
+    # return number of aux dependencies
+    # ----------- ASSUMING that aux dependencies always have a VP as a parent node
+    count = 0
+    for dependency in dependencies:
+        if dependency['dep'] in auxiliary_dependencies:
+            count += 1
+    return count
 
 
 def get_VP_2_VBDNP(tree_node):
@@ -167,24 +211,31 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('UH', 'INTJ', tree_node)
 
 
-def get_all_symantics_features(data):
+def get_all_syntactics_features(sample):
     # Make a temporary file for writing to
-    feature_set = []
-    for sample in data:
-        tmp_file = open('sample_file.txt','w+')
-        raw_text = ''
-        for utterance in sample:
-            raw_text += utterance['raw']
-        tmp_file.write(raw_text)
-        tmp_file.close()
-        output_file = open('sample_output.txt', 'w')
-        at.analyze_file(tmp_file.name, output_file)
-        analyzed_file = open(output_file.name, 'r')
-        headers = analyzed_file.readline().split(',')[1:] # Headers
-        data = analyzed_file.readline().split(',')[1:] # actual data
-        features = dict(zip(headers,data))
-        feature_set.append(features)
-    return feature_set
+    tmp_file = open('sample_file.txt','w+')
+    raw_text = ''
+    for utterance in sample:
+        raw_text += utterance['raw']
+    tmp_file.write(raw_text)
+    tmp_file.close()
+    output_file = open('sample_output.txt', 'w')
+    at.analyze_file(tmp_file.name, output_file)
+    analyzed_file = open(output_file.name, 'r')
+    headers = analyzed_file.readline().split(',')[1:] # Headers
+    data = analyzed_file.readline().split(',')[1:] # actual data
+    features = dict(zip(headers,data))
+    return features
+
+
+def get_number_of_nodes_in_tree(root_node):
+    if len(root_node.children) == 0:
+        return 1
+    count = 1
+    for child in root_node.children:
+        count += get_number_of_nodes_in_tree(child)
+    return count
+
 
 
 def get_all_tree_features(sample):
@@ -193,7 +244,7 @@ def get_all_tree_features(sample):
         'NP->PRP': 0,
         'ADVP->RB': 0,
         'NP->DT_NN': 0,
-        'NP->AUX_VP': 0,
+        'VP->AUX_VP': 0,
         'VP->VBG': 0,
         'VP->VBG_PP': 0,
         'VP->AUX_ADJP': 0,
@@ -201,25 +252,30 @@ def get_all_tree_features(sample):
         'VP->VBD_NP': 0,
         'INTJ->UH': 0,
     }
+    total_nodes = 0
     for utterance in sample:
         for tree in range(0, len(utterance['parse_tree'])):
             parse_tree = utterance['parse_tree'][tree]
             root_node = build_tree(parse_tree)
+            total_nodes += get_number_of_nodes_in_tree(root_node)
             features['tree_height'] += get_height_of_tree(root_node)
             features['NP->PRP'] += get_NP_2_PRP(root_node)
             features['ADVP->RB'] += get_ADVP_2_RB(root_node)
             features['NP->DT_NN'] += get_NP_2_DTNN(root_node)
-            features['NP->AUX_VP'] += get_VP_2_AUXVP(root_node)
             features['VP->VBG'] += get_VP_2_VBG(root_node)
             features['VP->VBG_PP'] += get_VP_2_VBGPP(root_node)
-            features['VP->AUX_ADJP'] += get_VP_2_AUXADJP(root_node)
-            features['VP->AUX'] += get_VP_2_AUX(root_node)
             features['VP->VBD_NP'] += get_VP_2_VBDNP(root_node)
             features['INTJ->UH'] += get_INTJ_2_UH(root_node)
+            # Needs special love
+            dependencies = utterance['basic_dependencies'][tree]
+            features['VP->AUX'] += get_VP_2_AUX(dependencies)
+            dependents = get_aux_dependency_dependent(dependencies)
+            features['VP->AUX_VP'] += get_VP_2_AUXVP(root_node,dependents)
+            features['VP->AUX_ADJP'] += get_VP_2_AUXADJP(root_node,dependents)
 
-    #================ DIVIDING BY NUMBER OF UTTERANCES ===============#
+    #================ DIVIDING BY NUMBER OF total nodes in the sample ===============#
     for k,v in features.iteritems():
-        features[k] /= float(len(sample))
+        features[k] /= float(total_nodes)
 
     return features
 
@@ -237,14 +293,11 @@ def print_tree(root_node):
             queue.append(child)
 
 
-# if __name__ == '__main__':
-#     trees = ps.get_parse_tree("My friends and I went to New York City for a weekend.")
-#     node = build_tree(trees[0])
-#     print_tree(node)
-    #with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
-    #   control = pickle.load(handle)
-    #test_set = control[1:10]
-    #test_feature_set = get_all_tree_features(test_set)
+#if __name__ == '__main__':
+    # with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
+    #    control = pickle.load(handle)
+    # test_set = control[1:]
+    # test_feature_set = get_all_tree_features(test_set)
 
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')

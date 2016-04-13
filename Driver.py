@@ -7,8 +7,9 @@ import parser
 import os
 from FeatureExtractor import parser 
 # from FeatureExtractor import pos_phrases 
-from FeatureExtractor import pos_syntactic 
-#from FeatureExtractor import psycholinguistic
+from FeatureExtractor import pos_syntactic as syntactic
+# from FeatureExtractor import psycholinguistic
+import WEKAFormatter as wf
 
 # constants
 DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
@@ -42,15 +43,49 @@ def get_all_pickles():
 def get_dbank_control():
     return get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
 
+
 def get_dbank_dem():
     return get_data('dbank_dem.pickle', DEMENTIABANK_DEMENTIA_DIR)
+
+
 
 if __name__ == '__main__':
     #dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
 
+    dbank_control = get_dbank_control()
+    dbank_dementia = get_dbank_dem()
+
     # f1 = phrases.get_all_features(dbank_control)
-    f2 = psycholinguistic.get_all_features(dbank_control)
-    f3 = syntactic.get_all_features(dbank_control)
+    #f2 = psycholinguistic.get_all_features(dbank_control)
+
+    control_feature_set = []
+    control_labels = []
+    for sample in dbank_control:
+        tree_features_control = syntactic.get_all_tree_features(sample)
+        # ------------- UNIX
+        #syntactic_features_control = syntactic.get_all_syntactics_features(sample)
+        #features = tree_features_control.update(syntactic_features_control)
+        #control_feature_set.append(features)
+
+        # ------------- WINDOWS
+        control_feature_set.append(tree_features_control)
+        control_labels.append("Control")
+
+    dementia_feature_set = []
+    dementia_labels = []
+    for sample in dbank_dementia:
+        tree_features_dementia = syntactic.get_all_tree_features(sample)
+        # ---------- UNIX
+        #syntactic_features_dementia = syntactic.get_all_syntactics_features(sample)
+        #features = tree_features_dementia.update(syntactic_features_dementia)
+        #dementia_feature_set.append(features)
+        # ---------- WINDOWS
+        dementia_feature_set.append(tree_features_dementia)
+        dementia_labels.append("Dementia")
+
+    wf.make_arff_file("Dementia Bank", control_feature_set.extend(dementia_feature_set), control_labels.extend(dementia_labels))
+
+
 
     # pos_syntactic_extractor.get_structure_features(dbank_control)
     # psycholinguistic.get_all_features(dbank_control)
