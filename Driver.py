@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Use cPickle if available
 try:
     import cPickle as pickle
@@ -64,6 +65,4 @@ if __name__ == '__main__':
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
     import pdb; pdb.set_trace()
     feature_vec = extract_features(dbank_control)
-
-
 

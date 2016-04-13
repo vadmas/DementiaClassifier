@@ -134,14 +134,14 @@ def getPhraseCountNonEmbedded(nlp_obj, phrase_type):
 	Phrase_count = 0
 	#build the syntactic tree
 	for tree in nlp_obj['parse_tree']:
-	
+
 
 		root = build_tree(tree)
-		
+
 
 		if root.key == phrase_type:
 			Phrase_count += 1
-			
+
 
 		for child in root.children:
 			Phrase_count += count(child)
@@ -721,6 +721,3 @@ def get_all(interview):
 # 	l = [s0, s1, s2, s3, s4, s5]
 # 	print 'avg_cos_dist', avg_cos_dist(l)
 # 	print 'proportion_below_threshold', proportion_below_threshold(l,0)
-
-
-

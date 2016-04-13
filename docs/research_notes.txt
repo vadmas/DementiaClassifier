@@ -13,3 +13,5 @@
 - Cosine similarity between utterances returns zero if one string consists only of stopwords
 - In the feature 'Phrase type rate' we use non-embedded counts of phrase types but the paper doesn't say which version is used
 - Please delete 255EG_363a_7.txt in data/processed/optima/nometa/control and run the parser to create the pickles again
+
+- Each utterance contains a multiple trees. Normalize tree features by number of nodes in each tree or normalize by total number of nodes in the utterance? We chose the latter.
