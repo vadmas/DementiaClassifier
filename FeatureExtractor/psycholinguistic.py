@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import nltk
 import requests
 import re

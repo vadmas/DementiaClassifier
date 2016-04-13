@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Use cPickle if available
 try:
     import cPickle as pickle
@@ -62,7 +61,6 @@ def extract_features(data):
     return feature_set
 
 if __name__ == '__main__':
-    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
-    import pdb; pdb.set_trace()
+    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()zx
     feature_vec = extract_features(dbank_control)
 
