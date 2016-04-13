@@ -24,6 +24,9 @@ IJAMOB_DIR                = 'data/processed/optima/nometa/dementia'
 PICKLE_DIR                = 'data/pickles/'
 TEST_DIR                  = 'data/test/'
 
+#Output Directory
+OUTPUT_DIR="FeatureVecs/"
+
 #Check pickle first, use parser if pickle doesn't exist
 def get_data(picklename, raw_files_directory):
     if os.path.exists(PICKLE_DIR + picklename):
@@ -61,6 +64,24 @@ def extract_features(data):
     return feature_set
 
 if __name__ == '__main__':
-    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()zx
-    feature_vec = extract_features(dbank_control)
+    
+    # Check if feature vector pickles exist - if so use them, if not parse
+    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
+    
+    dbank_control_vec  = extract_features(dbank_control)
+    dbank_dem_vec      = extract_features(dbank_dem)
+    optima_control_vec = extract_features(optima_control)
+    optima_dem_vec     = extract_features(optima_dem)
+    
+    #Pickle for WEKAFormatter
+    with open(OUTPUT_DIR + "dbank_control_vec" 'wb') as handle:
+            pickle.dump(data, handle)
 
+    with open(OUTPUT_DIR + "dbank_dem_vec" 'wb') as handle:
+            pickle.dump(data, handle)
+
+    with open(OUTPUT_DIR + "optima_control_vec" 'wb') as handle:
+            pickle.dump(data, handle)
+
+    with open(OUTPUT_DIR + "optima_dem_vec" 'wb') as handle:
+            pickle.dump(data, handle)
