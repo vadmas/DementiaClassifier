@@ -1,4 +1,5 @@
 ARFF_DIR = 'arff files/'
+FEATURES_DIR = '/'
 
 
 attribute_dict = {
@@ -6,6 +7,35 @@ attribute_dict = {
     'float': 'numeric',
     'long': 'numeric',
     'str': 'string'
+}
+
+
+# ------------------------
+# Fill these in the corresponding key names you guys use
+# ------------------------
+
+feature_dict = {
+    "Pronoun:noun ratio": "",
+    "NP->PRP": "NP->PRP",
+    "Frequency": "",
+    "Adverbs": "",
+    "ADVP->RB": "",
+    "Verb Frequency": "",
+    "Nouns": "",
+    "Word Length": "",
+    "NP->DT_NN": "NP->DT_NN",
+    "Honore's statistic": "",
+    "Inflected verbs": "",
+    "Average cosine distance": "",
+    "Skewness(MFCC 1)": "",
+    "Skewness(MFCC 2)": "",
+    "Kurtosis(MFCC 5)": "",
+    "Kurtosis(VEL(MFCC 3))": "",
+    "Phonation rate": "",
+    "Skewness(MFCC 8)": "",
+
+
+
 }
 
 

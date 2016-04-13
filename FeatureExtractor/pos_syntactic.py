@@ -211,6 +211,10 @@ def get_INTJ_2_UH(tree_node):
     return get_count_of_parent_child('UH', 'INTJ', tree_node)
 
 
+def get_ROOT_2_FRAG(tree_node):
+    return get_count_of_parent_child('FRAG', 'ROOT', tree_node)
+
+
 def get_all_syntactics_features(sample):
     # Make a temporary file for writing to
     tmp_file = open('sample_file.txt','w+')
@@ -250,6 +254,7 @@ def get_all_tree_features(sample):
         'VP->AUX': 0,
         'VP->VBD_NP': 0,
         'INTJ->UH': 0,
+        'ROOT->FRAG': 0
     }
     total_nodes = 0
     for utterance in sample:
@@ -265,6 +270,7 @@ def get_all_tree_features(sample):
             features['VP->VBG_PP'] += get_VP_2_VBGPP(root_node)
             features['VP->VBD_NP'] += get_VP_2_VBDNP(root_node)
             features['INTJ->UH'] += get_INTJ_2_UH(root_node)
+            features['ROOT->FRAG'] += get_ROOT_2_FRAG(root_node)
             # Needs special love
             dependencies = utterance['basic_dependencies'][tree]
             features['VP->AUX'] += get_VP_2_AUX(dependencies)
@@ -298,11 +304,13 @@ def print_tree(root_node):
             queue.append(child)
 
 
-#if __name__ == '__main__':
-    # with open('../data/pickles/dbank_control.pickle', 'rb') as handle:
-    #    control = pickle.load(handle)
-    # test_set = control[1:]
-    # test_feature_set = get_all_tree_features(test_set)
+if __name__ == '__main__':
+    with open('../stanford/processed/pickles/dbank_control.pickle', 'rb') as handle:
+        control = pickle.load(handle)
+    test_set = control[1:]
+    features = []
+    for interview in test_set:
+        features.append(get_all_tree_features(interview))
 
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
