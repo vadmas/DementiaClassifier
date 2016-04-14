@@ -72,19 +72,19 @@ if __name__ == '__main__':
     # # Load and pickle dementiabank control
     # dbank_control_vec = extract_features(dbank_control)
     # with open(OUTPUT_DIR + "dbank_control_vec.pickle" 'wb') as handle:
-    #         pickle.dump(data, handle)
+    #         pickle.dump(dbank_control_vec, handle)
 
     # # Load and pickle dementiabank dementia
     # dbank_dem_vec = extract_features(dbank_dem)
     # with open(OUTPUT_DIR + "dbank_dem_vec.pickle" 'wb') as handle:
-    #     pickle.dump(data, handle)
+    #     pickle.dump(dbank_dem_vec, handle)
 
-    # # Load and pickle optima control
+    # Load and pickle optima control
     # optima_control_vec = extract_features(optima_control)
-    # with open(OUTPUT_DIR + "optima_control_vec" 'wb') as handle:
-    #         pickle.dump(data, handle)
+    # with open(OUTPUT_DIR + "optima_control_vec.pickle" 'wb') as handle:
+    #         pickle.dump(optima_control_vec, handle)
     
     # # Load and pickle optima dementia
     # optima_dem_vec = extract_features(optima_dem)
-    # with open(OUTPUT_DIR + "optima_dem_vec" 'wb') as handle:
-    #         pickle.dump(data, handle)
+    # with open(OUTPUT_DIR + "optima_dem_vec.pickle" 'wb') as handle:
+    #         pickle.dump(optima_dem_vec, handle)
