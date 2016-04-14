@@ -129,7 +129,7 @@ def _getSUBTLWordScoresFromURL(wordlist):
 def getSUBTLWordScores(interview):
 	allwords = getAllNonStopWordsFromInterview(interview)
 	scores = _getSUBTLWordScoresFromURL(allwords)
-	return sum(scores) / len(allwords)
+	return 0 if len(allwords) == 0 else sum(scores)/len(allwords)
 
 # Input: Interview is a list of utterance
 # Output: Normalized count of light verbs
