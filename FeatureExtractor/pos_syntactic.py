@@ -334,7 +334,7 @@ def get_all_CFG_features(sample):
 def get_all(interview):
     feature_dict = get_all_syntactics_features(interview)
     feature_dict.update(get_all_tree_features(interview))
-    # feature_dict.update(get_CFG_counts(interview))
+    feature_dict.update(get_CFG_counts(interview))
     return feature_dict
 
 
