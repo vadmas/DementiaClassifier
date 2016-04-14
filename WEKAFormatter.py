@@ -15,6 +15,9 @@ attribute_dict = {
 # ------------------------
 
 feature_dict = {
+    # PARSE TREE FEATURES
+    # PSYCHOLINGUISTIC FEATURES
+    # POS FEATURES
     "Pronoun:noun ratio": "",
     "NP->PRP": "NP->PRP",
     "Frequency": "",
@@ -33,6 +36,13 @@ feature_dict = {
     "Kurtosis(VEL(MFCC 3))": "",
     "Phonation rate": "",
     "Skewness(MFCC 8)": "",
+    "Verbs": "",
+    "VP rate": "",
+    "VP->AUX_VP": "VP->AUX_VP",
+    "VP->VBG": "VP->VBG",
+    "Key word: window": "",
+    "Info unit: window": "",
+
 
 
 

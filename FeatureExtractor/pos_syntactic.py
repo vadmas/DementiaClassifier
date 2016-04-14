@@ -241,6 +241,15 @@ def get_number_of_nodes_in_tree(root_node):
     return count
 
 
+def get_CFG_counts(root_node, dict):
+    if dict.has_key(root_node.key):
+        dict[root_node.key] += 1
+    if len(root_node.children) > 0:  # Child leaf
+        for child in root_node.children:
+            dict = get_CFG_counts(child, dict)
+    return dict
+
+
 def get_all_tree_features(sample):
     features = {
         'tree_height': 0,
@@ -285,9 +294,47 @@ def get_all_tree_features(sample):
     return features
 
 
+def get_all_CFG_features(sample):
+    total_nodes = 0
+    CFG_counts = {
+        "ADJP": 0,
+        "ADVP": 0,
+        "CONJP": 0,
+        "FRAG": 0,
+        "INTJ": 0,
+        "LST": 0,
+        "NAC": 0,
+        "NP": 0,
+        "NX": 0,
+        "PP": 0,
+        "PRN": 0,
+        "PRT": 0,
+        "QP": 0,
+        "RRC": 0,
+        "UCP": 0,
+        "VP": 0,
+        "WHADJP": 0,
+        "WHAVP": 0,
+        "WHNP": 0,
+        "WHPP": 0,
+        "X": 0
+    }
+    for utterance in sample:
+        for tree in range(0, len(utterance['parse_tree'])):
+            parse_tree = utterance['parse_tree'][tree]
+            root_node = build_tree(parse_tree)
+            total_nodes += get_number_of_nodes_in_tree(root_node)
+            CFG_counts = get_CFG_counts(root_node, CFG_counts)
+    # ---- Normalize by total number of constituents in the sample
+    for k,v in CFG_counts.iteritems():
+        CFG_counts[k] /= float(total_nodes)
+    return CFG_counts
+
+
 def get_all(interview):
     feature_dict = get_all_syntactics_features(interview)
     feature_dict.update(get_all_tree_features(interview))
+    feature_dict.update(get_CFG_counts(interview))
     return feature_dict
 
 
@@ -310,7 +357,7 @@ if __name__ == '__main__':
     test_set = control[1:]
     features = []
     for interview in test_set:
-        features.append(get_all_tree_features(interview))
+        features.append(get_all_CFG_features(interview))
 
     #thread = start_stanford_server() # Start the server
     #trees = get_parse_tree('The quick brown fox jumped over the lazy dog. I wore the black hat to school.')
