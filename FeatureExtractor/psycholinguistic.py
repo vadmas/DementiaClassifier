@@ -434,7 +434,8 @@ def cosine_sim(text1, text2):
 #input: list of raw utterances
 #returns: list of cosine similarity between all pairs
 def compare_all_utterances(uttrs):
-	similarities = []
+	# Start with non-empty set 
+	similarities = [0]
 	for i in range(len(uttrs)):
 		for j in range(i+1,len(uttrs)):
 			similarities.append(cosine_sim(uttrs[i]['raw'],uttrs[j]['raw']))

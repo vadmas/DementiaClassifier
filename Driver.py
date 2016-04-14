@@ -17,10 +17,11 @@ OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
 OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia'
 
 #Welcome To Our World text file
-WTOW_DIR                  = 'data/processed/optima/nometa/dementia'
+WTOW_DIR                  = 'data/processed/wtow'
 
 #It's Just a Matter Of Balance text file
-IJAMOB_DIR                = 'data/processed/optima/nometa/dementia'
+IJAMOB_DIR                = 'data/processed/ijamob'
+
 PICKLE_DIR                = 'data/pickles/'
 TEST_DIR                  = 'data/test/'
 
@@ -67,21 +68,23 @@ if __name__ == '__main__':
     
     # Check if feature vector pickles exist - if so use them, if not parse
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
+
+    # # Load and pickle dementiabank control
+    # dbank_control_vec = extract_features(dbank_control)
+    # with open(OUTPUT_DIR + "dbank_control_vec.pickle" 'wb') as handle:
+    #         pickle.dump(data, handle)
+
+    # # Load and pickle dementiabank dementia
+    # dbank_dem_vec = extract_features(dbank_dem)
+    # with open(OUTPUT_DIR + "dbank_dem_vec.pickle" 'wb') as handle:
+    #     pickle.dump(data, handle)
+
+    # # Load and pickle optima control
+    # optima_control_vec = extract_features(optima_control)
+    # with open(OUTPUT_DIR + "optima_control_vec" 'wb') as handle:
+    #         pickle.dump(data, handle)
     
-    dbank_control_vec  = extract_features(dbank_control)
-    dbank_dem_vec      = extract_features(dbank_dem)
-    optima_control_vec = extract_features(optima_control)
-    optima_dem_vec     = extract_features(optima_dem)
-    
-    #Pickle for WEKAFormatter
-    with open(OUTPUT_DIR + "dbank_control_vec" 'wb') as handle:
-            pickle.dump(data, handle)
-
-    with open(OUTPUT_DIR + "dbank_dem_vec" 'wb') as handle:
-            pickle.dump(data, handle)
-
-    with open(OUTPUT_DIR + "optima_control_vec" 'wb') as handle:
-            pickle.dump(data, handle)
-
-    with open(OUTPUT_DIR + "optima_dem_vec" 'wb') as handle:
-            pickle.dump(data, handle)
+    # # Load and pickle optima dementia
+    # optima_dem_vec = extract_features(optima_dem)
+    # with open(OUTPUT_DIR + "optima_dem_vec" 'wb') as handle:
+    #         pickle.dump(data, handle)

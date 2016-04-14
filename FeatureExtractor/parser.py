@@ -43,6 +43,7 @@ def get_stanford_parse(sentence, port = 9000):
     #re.sub(pattern, '', raw)
     re.sub(r'[^\x00-\x7f]',r'', sentence)
     sentence = remove_control_chars(sentence)
+    import pdb; pdb.set_trace()
     r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentence)
     json_obj = r.json()
     return json_obj['sentences'][0]
@@ -90,6 +91,19 @@ def _processUtterance(uttr):
 
 # Extract data from optima/dbank directory
 def parse(filepath):
+    if os.path.exists(filepath):
+        parsed_data = []
+        for filename in os.listdir(filepath):
+            if filename.endswith(".txt"):
+                with open(os.path.join(filepath, filename)) as file:
+                    print "Parsing: " + file.name
+                    session_utterances = [_processUtterance(line) for line in file if _isValid(line)]
+                    parsed_data.append(session_utterances) # Add session
+        return parsed_data
+    else:
+        raise IOError("File not found: " + filepath + " does not exist")
+
+def parse_book(filepath):
     if os.path.exists(filepath):
         parsed_data = []
         for filename in os.listdir(filepath):
