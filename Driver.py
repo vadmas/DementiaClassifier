@@ -22,7 +22,8 @@ WTOW_DIR                  = 'data/processed/wtow'
 #It's Just a Matter Of Balance text file
 IJAMOB_DIR                = 'data/processed/ijamob'
 
-PICKLE_DIR                = 'data/pickles/'
+#PICKLE_DIR                = 'data/pickles/'
+PICKLE_DIR                 = 'stanford/processed/pickles/'
 TEST_DIR                  = 'data/test/'
 
 #Output Directory
@@ -69,22 +70,22 @@ if __name__ == '__main__':
     # Check if feature vector pickles exist - if so use them, if not parse
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
 
-    # # Load and pickle dementiabank control
-    # dbank_control_vec = extract_features(dbank_control)
-    # with open(OUTPUT_DIR + "dbank_control_vec.pickle" 'wb') as handle:
-    #         pickle.dump(dbank_control_vec, handle)
+    # Load and pickle dementiabank control
+    dbank_control_vec = extract_features(dbank_control)
+    with open(OUTPUT_DIR + "dbank_control_vec.pickle", 'wb') as handle:
+            pickle.dump(dbank_control_vec, handle)
 
-    # # Load and pickle dementiabank dementia
-    # dbank_dem_vec = extract_features(dbank_dem)
-    # with open(OUTPUT_DIR + "dbank_dem_vec.pickle" 'wb') as handle:
-    #     pickle.dump(dbank_dem_vec, handle)
+    # Load and pickle dementiabank dementia
+    dbank_dem_vec = extract_features(dbank_dem)
+    with open(OUTPUT_DIR + "dbank_dem_vec.pickle", 'wb') as handle:
+        pickle.dump(dbank_dem_vec, handle)
 
     # Load and pickle optima control
     # optima_control_vec = extract_features(optima_control)
-    # with open(OUTPUT_DIR + "optima_control_vec.pickle" 'wb') as handle:
+    # with open(OUTPUT_DIR + "optima_control_vec.pickle", 'wb') as handle:
     #         pickle.dump(optima_control_vec, handle)
     
     # # Load and pickle optima dementia
     # optima_dem_vec = extract_features(optima_dem)
-    # with open(OUTPUT_DIR + "optima_dem_vec.pickle" 'wb') as handle:
+    # with open(OUTPUT_DIR + "optima_dem_vec.pickle", 'wb') as handle:
     #         pickle.dump(optima_dem_vec, handle)
