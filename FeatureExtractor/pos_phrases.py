@@ -663,23 +663,7 @@ def get_all(interview):
 	features = {}
 	#POS counts
 	features["NumNouns"] = sum([getNumNouns(utterance) for utterance in interview])/len(interview)
-	features["NumVerbs"] = sum([getNumVerbs(utterance) for utterance in interview])/len(interview)
-	features["NumAdverbs"] = sum([getNumAdverbs(utterance) for utterance in interview])/len(interview)
-	features["NumAdjectives"] = sum([getNumAdjectives(utterance) for utterance in interview])/len(interview)
-	features["NumDeterminers"] = sum([getNumDeterminers(utterance) for utterance in interview])/len(interview)
-	features["NumInterjections"] = sum([getNumInterjections(utterance) for utterance in interview])/len(interview)
-	features["NumInflectedVerbs"] = sum([getNumInflectedVerbs(utterance) for utterance in interview])/len(interview)
-	features["NumCoordinateConjunctions"] = sum([getNumCoordinateConjunctions(utterance) for utterance in interview])/len(interview)
-	features["NumSubordinateConjunctions"] = sum([getNumSubordinateConjunctions(utterance) for utterance in interview])/len(interview)
-	
-	#POS ratios
-	features["RatioNoun"] = sum([getRatioNoun(utterance) for utterance in interview])/len(interview)
-	features["RatioVerb"] = sum([getRatioVerb(utterance) for utterance in interview])/len(interview)
-	features["RatioPronoun"] = sum([getRatioPronoun(utterance) for utterance in interview])/len(interview)
-	features["RatioCoordinate"] = sum([getRatioCoordinate(utterance) for utterance in interview])/len(interview)
-
-	#Weird statistics
-	features["TTR"] = sum([getTTR(utterance) for utterance in interview])/len(interview)
+	features["NumVerbs"] = sum([getNumVerbs(utterance) for utterance in interview])
  	features["MATTR"] = sum([getMATTR(utterance) for utterance in interview])/len(interview)
  	features["BrunetIndex"] = sum([getBrunetIndex(utterance) for utterance in interview])/len(interview)
  	features["HonoreStatistic"] = sum([getHonoreStatistic(utterance) for utterance in interview])/len(interview)
@@ -692,7 +676,23 @@ def get_all(interview):
  	features["DisfluencyFrequency"] = sum([getDisfluencyFrequency(utterance) for utterance in interview])/len(interview)
  	features["MeanLengthOfSentence"] = sum([getMeanLengthOfSentence(utterance) for utterance in interview])/len(interview)
 
- 	#Phrase features
+ 	#Phrase features/len(interview)
+	features["NumAdverbs"] = sum([getNumAdverbs(utterance) for utterance in interview])/len(interview)
+	features["NumAdjectives"] = sum([getNumAdjectives(utterance) for utterance in interview])/len(interview)
+	features["NumDeterminers"] = sum([getNumDeterminers(utterance) for utterance in interview])/len(interview)
+	features["NumInterjections"] = sum([getNumInterjections(utterance) for utterance in interview])/len(interview)
+	features["NumInflectedVerbs"] = sum([getNumInflectedVerbs(utterance) for utterance in interview])/len(interview)
+	features["NumCoordinateConjunctions"] = sum([getNumCoordinateConjunctions(utterance) for utterance in interview])/len(interview)
+	features["NumSubordinateConjunctions"] = sum([getNumSubordinateConjunctions(utterance) for utterance in interview])/len(interview)
+
+	#POS ratios
+	features["RatioNoun"] = sum([getRatioNoun(utterance) for utterance in interview])/len(interview)
+	features["RatioVerb"] = sum([getRatioVerb(utterance) for utterance in interview])/len(interview)
+	features["RatioPronoun"] = sum([getRatioPronoun(utterance) for utterance in interview])/len(interview)
+	features["RatioCoordinate"] = sum([getRatioCoordinate(utterance) for utterance in interview])/len(interview)
+
+	#Weird statistics
+	features["TTR"] = sum([getTTR(utterance) for utterance in interview])/len(interview)
 	features["NPTypeRate"] = sum([getNPTypeRate(utterance) for utterance in interview])/len(interview)
 	features["VPTypeRate"] = sum([getVPTypeRate(utterance) for utterance in interview])/len(interview)
 	features["PPTypeRate"] = sum([getPPTypeRate(utterance) for utterance in interview])/len(interview)

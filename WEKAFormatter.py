@@ -1,3 +1,5 @@
+from random import shuffle
+
 ARFF_DIR = 'arff files/'
 FEATURES_DIR = '/'
 
@@ -14,7 +16,7 @@ attribute_dict = {
 # Fill these in the corresponding key names you guys use
 # ------------------------
 
-feature_dict = {
+fraser_feature_dict = {
     # PARSE TREE FEATURES
     # PSYCHOLINGUISTIC FEATURES
     # POS FEATURES
@@ -22,11 +24,20 @@ feature_dict = {
     "NP->PRP": "NP->PRP",
     "Frequency": "",
     "Adverbs": "",
-    "ADVP->RB": "",
+    "ADVP->RB": "ADVP->RB",
+    "VP->VBG_PP": "VP->VBG_PP",
+    "VP->IN_S": "VP->IN_S",
+    "VP->AUX_ADJP": "VP->AUX_ADJP",
+    "VP->AUX_VP": "VP->AUX_VP",
+    "VP->VBG": "VP->VBG",
+    "VP->AUX": "VP->AUX",
+    "VP->VBD_NP": "VP->VBD_NP",
+    "INTJ->UH": "INTJ->UH",
+    "NP->DT_NN": "NP->DT_NN",
+    "Cosine cutoff: 0.5": "",
     "Verb Frequency": "",
     "Nouns": "",
     "Word Length": "",
-    "NP->DT_NN": "NP->DT_NN",
     "Honore's statistic": "",
     "Inflected verbs": "",
     "Average cosine distance": "",
@@ -38,14 +49,25 @@ feature_dict = {
     "Skewness(MFCC 8)": "",
     "Verbs": "",
     "VP rate": "",
-    "VP->AUX_VP": "VP->AUX_VP",
-    "VP->VBG": "VP->VBG",
     "Key word: window": "",
     "Info unit: window": "",
-
-
-
-
+    "KEY WORD: sink": "",
+    "KEY WORD: cookie": "",
+    "PP proportion": "",
+    "Key word: curtain": "",
+    "PP rate": "",
+    "Info unit: curtain": "",
+    "Key word: counter": "",
+    "Info unit: cookie": "",
+    "Info unit: sink" : "",
+    "Info unit: girl": "",
+    "Info unit: girl’s action": "",
+    "Info unit: dish": "",
+    "Key word: stool": "",
+    "Key word: mother": "",
+    "Info unit: stool": "",
+    "Skewness(MFCC 12)": "",
+    "Info unit: woman": "",
 }
 
 
@@ -57,6 +79,7 @@ def make_arff_file(file_name, samples, labels):
     arff_file.write('@RELATION \"' + file_name + '\"\n\n')
     # Assuming that all samples will have the same features
     # Assuming that all sample features are iterated in the same order
+    shuffle(samples) # Randomize samples
     for k,v in samples[0].iteritems():
         attribute_str = '@ATTRIBUTE '
         attribute_str += str(k) + ' ' + get_attribute_from_variable(v)
@@ -88,30 +111,15 @@ def is_number(s):
     except ValueError:
         return False
 
+
+def train_clinical_test_clinical(clinical_samples, labels):
+    # Use all the features
+    file_name = ARFF_DIR + "train_clinical_test_clinical.arff"
+    make_arff_file(file_name, clinical_samples, labels)
+
+
+
 if __name__ == "__main__":
-    test_samples = [
-        {
-            'feature1': 2,
-            'feature2': 10,
-            'feature3': 'something',
-            'feature4': 'anything'
-        },
-        {
-            'feature1': 2,
-            'feature2': 10,
-            'feature3': 'something',
-            'feature4': 'anything'
-
-        }, {
-            'feature1': 2,
-            'feature2': 10,
-            'feature3': 'something',
-            'feature4': 'anything'
-
-        }
-    ]
-    test_labels = ['label1', 'label2', 'label1']
-
-    make_arff_file('test_arff', test_samples, test_labels)
+    # Load the dementia and optima bank data sets.
 
 
