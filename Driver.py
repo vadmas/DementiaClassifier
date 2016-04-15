@@ -22,9 +22,9 @@ WTOW_DIR   = 'data/processed/wtow'
 #It's Just a Matter Of Balance text file
 IJAMOB_DIR = 'data/processed/ijamob'
 
-
-PICKLE_DIR = 'data/pickles/'
-TEST_DIR   = 'data/test/'
+#PICKLE_DIR                = 'data/pickles/'
+PICKLE_DIR                 = 'stanford/processed/pickles/'
+TEST_DIR                  = 'data/test/'
 
 #Output Directory
 OUTPUT_DIR ="FeatureVecs/"
@@ -131,14 +131,28 @@ def make_feature_vec_pickles(dataset, picklename):
     print picklename, "complete"
     print "=========================="
 
+
 # -------------End of extract feature methods -----------
 
-if __name__ == '__main__':
+# ---------------- Get feature vectors -----------------#
+
+def get_clinical_data():
+    optimal_dem = open_pickle(PICKLE_DIR + "optima_dem_feature_vector.pickle")
+    labels = ['Dementia'] * len(optimal_dem)
+    optimal_con = open_pickle(PICKLE_DIR + "optima_control_feature_vector.pickle")
+    labels.extend(["Control"] * len(optimal_con))
+    dementia_dem = open_pickle(PICKLE_DIR + "dbank_dem_feature_vector.pickle")
     
+    dementia_con = open_pickle(PICKLE_DIR + "dbank_control_feature_vector.pickle")
+
+
+
+
+if __name__ == '__main__':
+
     # # Check if feature vector pickles exist - if so use them, if not parse
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
     wtow, ijamob = get_all_book_pickles()
-    
     # Load and pickle dbank_control
     make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
 
@@ -149,10 +163,11 @@ if __name__ == '__main__':
     make_feature_vec_pickles(optima_control,"optima_control_feature_vector.pickle")
 
     # # Load and pickle optima_dem
-    # make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
+    make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
 
     # # Load and pickle wtow
     make_feature_vec_pickles(wtow, "wtow.pickle")
 
     # # Load and pickle ijamob
     make_feature_vec_pickles(ijamob, "ijamob.pickle")
+
