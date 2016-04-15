@@ -142,7 +142,7 @@ def getLightVerbCount(interview):
 				light_verbs += 1 
 			if w[1] in VERB_POS_TAGS:
 				total_verbs += 1
-	return light_verbs/total_verbs
+	return 0 if total_verbs == 0 else light_verbs/total_verbs
 
 #================================================
 #-----------Information Unit features------------
