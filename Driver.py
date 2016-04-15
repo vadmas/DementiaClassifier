@@ -29,6 +29,8 @@ TEST_DIR                  = 'data/test/'
 #Output Directory
 OUTPUT_DIR="FeatureVecs/"
 
+#Book lines / interview
+BOOK_LINES_PER_INTERVIEW = 5
 # -------------Pickle functions-----------
 def open_pickle(path):
     with open(path, 'rb') as handle:
@@ -59,12 +61,29 @@ def get_data(picklename, raw_files_directory):
         save_pickle(PICKLE_DIR + picklename,data)
     return data
 
+def get_book_data(picklename, raw_files_directory):
+    #Check pickle first, use parser if pickle doesn't exist
+    if os.path.exists(PICKLE_DIR + picklename):
+        print "Pickle found at: " + PICKLE_DIR + picklename
+        data = open_pickle(PICKLE_DIR + picklename)
+    else:
+        print "Pickle not found, beginning parse."
+        data = parser.parse_book(raw_files_directory, BOOK_LINES_PER_INTERVIEW)
+        save_pickle(PICKLE_DIR + picklename,data)
+    return data
+
 def get_all_pickles():
     dbank_control  = get_data('dbank_control.pickle', DEMENTIABANK_CONTROL_DIR)
     dbank_dem      = get_data('dbank_dem.pickle',     DEMENTIABANK_DEMENTIA_DIR)
     optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
     optima_dem     = get_data('optima_dem.pickle',    OPTIMA_DEMENTIA_DIR)
     return dbank_control, dbank_dem, optima_control, optima_dem
+
+def get_all_book_pickles():
+    wtow           = get_book_data('wtow.pickle',   WTOW_DIR)
+    ijamob         = get_book_data('ijamob.pickle', IJAMOB_DIR)
+    return wtow, ijamob
+
 
 def get_dbank_control():
     return get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
@@ -126,15 +145,22 @@ if __name__ == '__main__':
 
     # # Check if feature vector pickles exist - if so use them, if not parse
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
+    wtow, ijamob = get_all_book_pickles()
+    # Load and pickle dbank_control
+    # make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
+
+    # # Load and pickle dbank_dem
+    make_feature_vec_pickles(dbank_dem,"dbank_dem_feature_vector.pickle")
 
     # # Load and pickle dbank_control
     # make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
     #
-    # # # Load and pickle dbank_dem
-    # # make_feature_vec_pickles(dbank_control,"dbank_dem_feature_vector.pickle")
-    #
     # # Load and pickle optima_control
-    # make_feature_vec_pickles(dbank_control,"optima_control_feature_vector.pickle")
+    make_feature_vec_pickles(optima_control,"optima_control_feature_vector.pickle")
 
-    # Load and pickle optima_dem
-    make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
+    # # Load and pickle wtow
+    make_feature_vec_pickles(wtow, "wtow.pickle")
+
+    # # Load and pickle ijamob
+    make_feature_vec_pickles(ijamob, "ijamob.pickle")
+

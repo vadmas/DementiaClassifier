@@ -119,6 +119,7 @@ def parse_book(filepath, k):
 							# Clear block
 							session = []
 						else:
+							line = unicode(line, errors='ignore')
 							session.append(line)
 		return parsed_data
 	else:
