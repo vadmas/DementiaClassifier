@@ -17,17 +17,17 @@ OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
 OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia'
 
 #Welcome To Our World text file
-WTOW_DIR                  = 'data/processed/wtow'
+WTOW_DIR   = 'data/processed/wtow'
 
 #It's Just a Matter Of Balance text file
-IJAMOB_DIR                = 'data/processed/ijamob'
+IJAMOB_DIR = 'data/processed/ijamob'
 
-#PICKLE_DIR                = 'data/pickles/'
-PICKLE_DIR                 = 'stanford/processed/pickles/'
+PICKLE_DIR                = 'data/pickles/'
+#PICKLE_DIR                 = 'stanford/processed/pickles/'
 TEST_DIR                  = 'data/test/'
 
 #Output Directory
-OUTPUT_DIR="FeatureVecs/"
+OUTPUT_DIR ="FeatureVecs/"
 
 #Book lines / interview
 BOOK_LINES_PER_INTERVIEW = 5
@@ -102,42 +102,49 @@ def extract_features(data,pickle_name = None, pickle_frequency = 20):
     if pickle_name and os.path.exists(OUTPUT_DIR + pickle_name):
         print "Partial pickle found at:", OUTPUT_DIR + pickle_name
         feature_set = open_pickle(OUTPUT_DIR + pickle_name)
+
+    if len(feature_set) == len(data):
+        print pickle_name, "features loaded"
+    else:
         print "Loading and continuing from interview:", len(feature_set)
+        # Continue extracting from data[len(feature_set):] (will be zero if no pickle found)
+        for idx, interview in enumerate(data[len(feature_set):]):
+            if len(interview) == 0:
+                continue
+            print "Extracting features for interview: ", len(feature_set) + 1 
+            feat_dict  = pos_phrases.get_all(interview)
+            feat_dict.update(pos_syntactic.get_all(interview))
+            feat_dict.update(psycholinguistic.get_all(interview))
+            feature_set.append(feat_dict)
 
-    # Continue extracting from data[len(feature_set):] (will be zero if no pickle found)
-    for idx, interview in enumerate(data[len(feature_set):]):
-        if len(interview) == 0:
-            continue
-        print "Extracting features for interview: ", len(feature_set) + 1
-        feat_dict  = pos_phrases.get_all(interview)
-        feat_dict.update(pos_syntactic.get_all(interview))
-        feat_dict.update(psycholinguistic.get_all(interview))
-        feature_set.append(feat_dict)
-
-        # Save every pickle_frequency'th interview 
-        if pickle_name and idx % pickle_frequency == 0:
-            print "Saving interview feature vector up to:", len(feature_set)
-            overwrite_pickle(OUTPUT_DIR + pickle_name, feature_set)
+            # Save every pickle_frequency'th interview 
+            if pickle_name and idx % pickle_frequency == 0:
+                print "Saving interview feature vector up to:", len(feature_set)
+                overwrite_pickle(OUTPUT_DIR + pickle_name, feature_set)
     return feature_set
 
 
 def make_feature_vec_pickles(dataset, picklename):
+    print "=========================="
+    print "Making feature vector for:", picklename
     feature_vecs = extract_features(dataset,picklename,10)
     overwrite_pickle(OUTPUT_DIR + picklename, feature_vecs)
 
+    print picklename, "complete"
+    print "=========================="
 
 # -------------End of extract feature methods -----------
 
 # ---------------- Get feature vectors -----------------#
 
 def get_clinical_feature_data():
-    optimal_dem = open_pickle(PICKLE_DIR + "optima_dem_feature_vector.pickle")
+    optimal_dem = open_pickle(OUTPUT_DIR + "optima_dem_feature_vector.pickle")
     labels = ['Dementia'] * len(optimal_dem)
-    optimal_con = open_pickle(PICKLE_DIR + "optima_control_feature_vector.pickle")
+    optimal_con = open_pickle(OUTPUT_DIR + "optima_control_feature_vector.pickle")
     labels.extend(["Control"] * len(optimal_con))
-    dementia_dem = open_pickle(PICKLE_DIR + "dbank_dem_feature_vector.pickle")
+    dementia_dem = open_pickle(OUTPUT_DIR + "dbank_dem_feature_vector.pickle")
     labels.extend(["Dementia"] * len(dementia_dem))
-    dementia_con = open_pickle(PICKLE_DIR + "dbank_control_feature_vector.pickle")
+    dementia_con = open_pickle(OUTPUT_DIR + "dbank_control_feature_vector.pickle")
     labels.extend(["Control"] * len(dementia_con))
     data = []
     data.extend(optimal_dem)
@@ -157,17 +164,18 @@ if __name__ == '__main__':
     # # Check if feature vector pickles exist - if so use them, if not parse
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
     #wtow, ijamob = get_all_book_pickles()
-    # Load and pickle dbank_control
-    # make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
-
+    #
     # # Load and pickle dbank_dem
-    #make_feature_vec_pickles(dbank_dem,"dbank_dem_feature_vector.pickle")
+    # #make_feature_vec_pickles(dbank_dem,"dbank_dem_feature_vector.pickle")
+    #
+    # # Load and pickle dbank_control
+    # make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
     #
     # # Load and pickle optima_control
-    #make_feature_vec_pickles(optima_control,"optima_control_feature_vector.pickle")
-
-    # Load and pickle optima_control
-    make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
+    # make_feature_vec_pickles(optima_control,"optima_control_feature_vector.pickle")
+    #
+    # # Load and pickle optima_dem
+    # make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
 
     # # Load and pickle wtow
     # make_feature_vec_pickles(wtow, "wtow.pickle")

@@ -62,7 +62,7 @@ fraser_feature_dict = {
     "": "Info unit: cookie",
     "": "Info unit: sink",
     "": "Info unit: girl",
-    "": "Info unit: girl’s action",
+    "": "Info unit: girls action",
     "": "Info unit: dish",
     "": "Key word: stool",
     "": "Key word: mother",
@@ -74,6 +74,7 @@ fraser_feature_dict = {
 
 def make_arff_file(file_name, samples):
     arff_file_name = ARFF_DIR + file_name + ".arff"
+
     arff_file = open(arff_file_name, 'w+')
     # Write the headers
     # Write the relation
@@ -84,17 +85,19 @@ def make_arff_file(file_name, samples):
     data_unzipped = zip(*samples)
     samples = list(data_unzipped[0])
     labels = list(data_unzipped[1])
+    label_order = []
     for k,v in samples[0].iteritems():
         attribute_str = '@ATTRIBUTE '
-        attribute_str += str(k) + ' ' + get_attribute_from_variable(v)
+        attribute_str += str(k).strip() + ' ' + get_attribute_from_variable(v)
+        label_order.append(k)
         arff_file.write(attribute_str + '\n')
     arff_file.write('@ATTRIBUTE class {Control, Dementia} \n')
     # Begin writing the data
     arff_file.write('@DATA\n')
     for sample in range(0, len(samples)):
         data_str = ''
-        for k,v in samples[sample].iteritems():
-            data_str += str(v) + ','
+        for k in label_order:
+            data_str += str(samples[sample][k]).strip() + ','
         data_str += labels[sample]
         arff_file.write(data_str + '\n')
     arff_file.close()
@@ -118,13 +121,13 @@ def is_number(s):
 
 def train_clinical_test_clinical(clinical_samples):
     # Use all the features
-    file_name = ARFF_DIR + "clinical_clinical_all.arff"
+    file_name = "clinical_clinical_all"
     make_arff_file(file_name, clinical_samples)
 
 
 def train_clinical_test_clinical_fraser_features(clinical_samples):
     # Use features found in fraser
-    file_name = ARFF_DIR + "clinical_clinical_fraser.arff"
+    file_name = "clinical_clinical_fraser"
     # Comb the features in clinical_samples to match the ones in fraser
     unzipped_data = zip(*clinical_samples)
     samples = list(unzipped_data[0])
