@@ -156,6 +156,23 @@ def get_clinical_feature_data():
     return data
 
 
+def get_all_feature_data():
+    clinical_data = get_clinical_feature_data()
+    ijamob_data = open_pickle(OUTPUT_DIR + "ijamob.pickle")
+    wtow_data = open_pickle(OUTPUT_DIR + "wtow.pickle")
+    labels = ['Dementia'] * len(wtow_data)
+    labels.extend(['Control'] * len(ijamob_data))
+    non_clinical_data = []
+    non_clinical_data.extend(wtow_data)
+    non_clinical_data.extend(ijamob_data)
+    non_clinical_data = zip(non_clinical_data, labels)
+    data = []
+    data.extend(clinical_data)
+    data.extend(non_clinical_data)
+    return data
+
+
+
 if __name__ == '__main__':
 
     # # Check if feature vector pickles exist - if so use them, if not parse

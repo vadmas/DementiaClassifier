@@ -110,10 +110,18 @@ def is_number(s):
         return False
 
 
+# ----------------- TRAINING STUFFS ----------------- #
+
 def train_clinical_test_clinical(clinical_samples):
     # Use all the features
     file_name = "clinical_clinical_all"
     make_arff_file(file_name, clinical_samples)
+
+
+def train_all_test_all(all_samples):
+    # USE ALL THE FEATURES
+    file_name = "all_all_all"
+    make_arff_file(file_name, all_samples)
 
 
 def train_clinical_test_clinical_fraser_features(clinical_samples):
@@ -135,6 +143,10 @@ def train_clinical_test_clinical_fraser_features(clinical_samples):
 
 
 
+#def train_all_test_all_fraser(all_samples):
+
+
+
 
 if __name__ == "__main__":
 
@@ -142,5 +154,10 @@ if __name__ == "__main__":
     clinical_samples = dvr.get_clinical_feature_data()
     train_clinical_test_clinical(clinical_samples)
 
+    # Load the clinical and non-clinical data sets
+    all_samples = dvr.get_all_feature_data()
+    train_all_test_all(all_samples)
 
+    # Load clinical and test on clinical with fraser features
+    train_clinical_test_clinical_fraser_features(clinical_samples)
 
