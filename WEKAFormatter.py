@@ -18,12 +18,9 @@ attribute_dict = {
 # ------------------------
 
 fraser_feature_dict = {
-    # PARSE TREE FEATURES
-    # PSYCHOLINGUISTIC FEATURES
     # POS FEATURES
     "RatioPronoun": "Pronoun:noun ratio",
     "NP->PRP": "NP->PRP",
-    # "": "Frequency",
     "NumAdverbs": "Adverbs"
     "ADVP->RB": "ADVP->RB",
     "VP->VBG_PP": "VP->VBG_PP",
@@ -42,24 +39,68 @@ fraser_feature_dict = {
     "HonoreStatistic": "Honore's statistic",
     "NumInflectedVerbs": "Inflected verbs",
     "avg_cos_dist": "Average cosine distance",
-    # "": "Verbs",
     "VPTypeRate": "VP rate",
-    "keywordIUObjectWindow": "Key word: window",
-    "binaryIUObjectWindow": "Info unit: window",
-    "keywordIUObjectSink":"KEY WORD: sink",
-    "keywordIUObjectCookie": "KEY WORD: cookie",
     "PProportion": "PP proportion",
     "PPTypeRate": "PP rate",
+    # InfoUnits
+    "keywordIUObjectWindow":   "Key word: window",
+    "binaryIUObjectWindow":    "Info unit: window",
+    "keywordIUObjectSink":     "KEY WORD: sink",
+    "binaryIUSubjectSink":     "Info unit: sink",
+    "keywordIUObjectCookie":   "KEY WORD: cookie",
+    "binaryIUObjectCookie":    "Info unit: cookie",
     "keywordIUObjectCurtains": "Key word: curtain",
-    "binaryIUObjectCurtains": "Info unit: curtain",
-    "binaryIUObjectCookie" : "Info unit: cookie",
-    "binaryIUSubjectSink": "Info unit: sink",
-    "binaryIUSubjectGirl": "Info unit: girl",
-    "binaryIUObjectDishes": "Info unit: dish",
-    "keywordIUObjectStool": "Key word: stool",
-    "keywordIUSubjectWoman": "Key word: mother",
-    "binaryIUObjectStool": "Info unit: stool",
-    "binaryIUSubjectWoman": "Info unit: woman"
+    "binaryIUObjectCurtains":  "Info unit: curtain",
+    "binaryIUSubjectGirl":     "Info unit: girl",
+    "binaryIUObjectDishes":    "Info unit: dish",
+    "keywordIUObjectStool":    "Key word: stool",
+    "binaryIUObjectStool":     "Info unit: stool",
+    "keywordIUSubjectWoman":   "Key word: mother",
+    "binaryIUSubjectWoman":    "Info unit: woman",
+    # PsychoLing
+    "getFamiliarityScore":  "Familiarity",
+    "getConcretenessScore": "Concreteness",
+    "getImagabilityScore":  "Imagability",
+    "getAoaScore":          "Age of acquisition",
+    "getSUBTLWordScores":   "SUBTL Word score",
+    "getLightVerbCount":    "Light Verb Count",
+
+}
+
+fraser_feature_dict_mix = {
+    # POS FEATURES
+    "RatioPronoun": "Pronoun:noun ratio",
+    "NP->PRP": "NP->PRP",
+    "NumAdverbs": "Adverbs"
+    "ADVP->RB": "ADVP->RB",
+    "VP->VBG_PP": "VP->VBG_PP",
+    "VP->IN_S": "VP->IN_S",
+    "VP->AUX_ADJP": "VP->AUX_ADJP",
+    "VP->AUX_VP": "VP->AUX_VP",
+    "VP->VBG": "VP->VBG",
+    "VP->AUX": "VP->AUX",
+    "VP->VBD_NP": "VP->VBD_NP",
+    "INTJ->UH": "INTJ->UH",
+    "NP->DT_NN": "NP->DT_NN",
+    "proportion_below_threshold_0.5": "Cosine cutoff: 0.5",
+    "NumVerbs": "Verb Frequency",
+    "NumNouns": "Nouns",
+    "MeanWordLength": "Word Length",
+    "HonoreStatistic": "Honore's statistic",
+    "NumInflectedVerbs": "Inflected verbs",
+    "avg_cos_dist": "Average cosine distance",
+    "VPTypeRate": "VP rate",
+    "PProportion": "PP proportion",
+    "PPTypeRate": "PP rate",
+
+    # psycholing
+    "getFamiliarityScore":  "Familiarity",
+    "getConcretenessScore": "Concreteness",
+    "getImagabilityScore":  "Imagability",
+    "getAoaScore":          "Age of acquisition",
+    "getSUBTLWordScores":   "SUBTL Word score",
+    "getLightVerbCount":    "Light Verb Count",
+
 }
 
 
