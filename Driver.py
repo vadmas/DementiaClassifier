@@ -3,7 +3,6 @@ try:
     import cPickle as pickle
 except:
     import pickle
-import parser
 import os
 from FeatureExtractor import parser 
 from FeatureExtractor import pos_phrases 
@@ -22,8 +21,8 @@ WTOW_DIR   = 'data/processed/wtow'
 #It's Just a Matter Of Balance text file
 IJAMOB_DIR = 'data/processed/ijamob'
 
-#PICKLE_DIR                = 'data/pickles/'
-PICKLE_DIR                 = 'stanford/processed/pickles/'
+PICKLE_DIR                = 'data/pickles/'
+# PICKLE_DIR                 = 'stanford/processed/pickles/'
 TEST_DIR                  = 'data/test/'
 
 #Output Directory
