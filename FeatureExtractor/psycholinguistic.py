@@ -469,67 +469,66 @@ def get_all(interview):
 	feat_dict["getAoaScore"]          = getPsycholinguisticScore(interview,'aoa')
 	feat_dict["getSUBTLWordScores"]   = getSUBTLWordScores(interview)
 	feat_dict["getLightVerbCount"]    = getLightVerbCount(interview)
-	feat_dict["keywordIUSubjectBoy"]  = keywordIUSubjectBoy(interview)		 
 	
 	#Boy IU
-	feat_dict["binaryIUSubjectBoy"]   = binaryIUSubjectBoy(interview)
-	feat_dict["keywordIUSubjectGirl"] = keywordIUSubjectGirl(interview)	 
+	feat_dict["keywordIUSubjectBoy"]    = keywordIUSubjectBoy(interview)		 
+	feat_dict["binaryIUSubjectBoy"]     = binaryIUSubjectBoy(interview)
 	#Girl IU
-	feat_dict["binaryIUSubjectGirl"]   = binaryIUSubjectGirl(interview)
-	feat_dict["keywordIUSubjectWoman"] = keywordIUSubjectWoman(interview)    
+	feat_dict["keywordIUSubjectGirl"]   = keywordIUSubjectGirl(interview)	 
+	feat_dict["binaryIUSubjectGirl"]    = binaryIUSubjectGirl(interview)
 	#Woman IU
-	feat_dict["binaryIUSubjectWoman"]  = binaryIUSubjectWoman(interview)
-	feat_dict["keywordIUPlaceKitchen"] = keywordIUPlaceKitchen(interview)	 
+	feat_dict["keywordIUSubjectWoman"]  = keywordIUSubjectWoman(interview)    
+	feat_dict["binaryIUSubjectWoman"]   = binaryIUSubjectWoman(interview)
 	#Kitchen IU
+	feat_dict["keywordIUPlaceKitchen"]  = keywordIUPlaceKitchen(interview)	 
 	feat_dict["binaryIUPlaceKitchen"]   = binaryIUPlaceKitchen(interview)
-	feat_dict["keywordIUPlaceExterior"] = keywordIUPlaceExterior(interview)	 
 	#Exterior IU
-	feat_dict["binaryIUPlaceExterior"] = binaryIUPlaceExterior(interview)
-	feat_dict["keywordIUObjectCookie"] = keywordIUObjectCookie(interview)	 
+	feat_dict["keywordIUPlaceExterior"] = keywordIUPlaceExterior(interview)	 
+	feat_dict["binaryIUPlaceExterior"]  = binaryIUPlaceExterior(interview)
 	#Cookie IU
-	feat_dict["binaryIUObjectCookie"] = binaryIUObjectCookie(interview)
-	feat_dict["keywordIUObjectJar"]   = keywordIUObjectJar(interview)		 
+	feat_dict["keywordIUObjectCookie"]  = keywordIUObjectCookie(interview)	 
+	feat_dict["binaryIUObjectCookie"]   = binaryIUObjectCookie(interview)
 	#Jar IU
-	feat_dict["binaryIUObjectJar"]    = binaryIUObjectJar(interview)
-	feat_dict["keywordIUObjectStool"] = keywordIUObjectStool(interview)	 
+	feat_dict["keywordIUObjectJar"]     = keywordIUObjectJar(interview)		 
+	feat_dict["binaryIUObjectJar"]      = binaryIUObjectJar(interview)
 	#Stool IU
-	feat_dict["binaryIUObjectStool"] = binaryIUObjectStool(interview)
-	feat_dict["keywordIUObjectSink"] = keywordIUObjectSink(interview)		 
+	feat_dict["keywordIUObjectStool"]   = keywordIUObjectStool(interview)	 
+	feat_dict["binaryIUObjectStool"]    = binaryIUObjectStool(interview)
 	#Sink IU
-	feat_dict["binaryIUObjectSink"]   = binaryIUObjectSink(interview)
-	feat_dict["keywordIUObjectPlate"] = keywordIUObjectPlate(interview)	 
+	feat_dict["keywordIUObjectSink"]    = keywordIUObjectSink(interview)		 
+	feat_dict["binaryIUObjectSink"]     = binaryIUObjectSink(interview)
 	#Plate IU
-	feat_dict["binaryIUObjectPlate"]      = binaryIUObjectPlate(interview)
-	feat_dict["keywordIUObjectDishcloth"] = keywordIUObjectDishcloth(interview) 
+	feat_dict["keywordIUObjectPlate"]   = keywordIUObjectPlate(interview)	 
+	feat_dict["binaryIUObjectPlate"]    = binaryIUObjectPlate(interview)
 	#Dishcloth IU
+	feat_dict["keywordIUObjectDishcloth"] = keywordIUObjectDishcloth(interview) 
 	feat_dict["binaryIUObjectDishcloth"]  = binaryIUObjectDishcloth(interview)
-	feat_dict["keywordIUObjectWater"]     = keywordIUObjectWater(interview)	 
 	#Water IU
+	feat_dict["keywordIUObjectWater"]     = keywordIUObjectWater(interview)	 
 	feat_dict["binaryIUObjectWater"]      = binaryIUObjectWater(interview)
-	feat_dict["keywordIUObjectWindow"]    = keywordIUObjectWindow(interview)	 
 	#Window IU
+	feat_dict["keywordIUObjectWindow"]    = keywordIUObjectWindow(interview)	 
 	feat_dict["binaryIUObjectWindow"]     = binaryIUObjectWindow(interview)
-	feat_dict["keywordIUObjectCupboard"]  = keywordIUObjectCupboard(interview)	 
 	#Cupboard IU
+	feat_dict["keywordIUObjectCupboard"]  = keywordIUObjectCupboard(interview)	 
 	feat_dict["binaryIUObjectCupboard"]   = binaryIUObjectCupboard(interview)
-	feat_dict["keywordIUObjectDishes"]    = keywordIUObjectDishes(interview)	 
 	#Dishes IU
+	feat_dict["keywordIUObjectDishes"]    = keywordIUObjectDishes(interview)	 
 	feat_dict["binaryIUObjectDishes"]     = binaryIUObjectDishes(interview)
-	feat_dict["keywordIUObjectCurtains"]  = keywordIUObjectCurtains(interview)  
 	#Curtains IU
+	feat_dict["keywordIUObjectCurtains"]  = keywordIUObjectCurtains(interview)  
 	feat_dict["binaryIUObjectCurtains"]   = binaryIUObjectCurtains(interview)
-	feat_dict["binaryIUActionBoyTaking"]  = binaryIUActionBoyTaking(interview)	 
 	
 	#Boy taking IU
+	feat_dict["binaryIUActionBoyTaking"]  = binaryIUActionBoyTaking(interview)	 
 	feat_dict["binaryIUActionStoolFalling"]       = binaryIUActionStoolFalling(interview)
 	#Stool falling taking IU
 	feat_dict["binaryIUActionWomanDryingWashing"] = binaryIUActionWomanDryingWashing(interview)
+	
 	feat_dict["binaryIUActionWaterOverflowing"]   = binaryIUActionWaterOverflowing(interview)
-	feat_dict["binaryIUActionWaterOverflowing"]   = binaryIUActionWaterOverflowing(interview)
-	feat_dict["binaryIUActionWaterOverflowing"]   = binaryIUActionWaterOverflowing(interview)
-	feat_dict["binaryIUActionWaterOverflowing"]   = binaryIUActionWaterOverflowing(interview)
-	feat_dict["avg_avg_cos_dist"]                 = avg_cos_dist(interview)
-	feat_dict["min_min_cos_dist"]                 = min_cos_dist(interview)
+
+	feat_dict["avg_cos_dist"]                     = avg_cos_dist(interview)
+	feat_dict["min_cos_dist"]                     = min_cos_dist(interview)
 	feat_dict["proportion_below_threshold_0"]     = proportion_below_threshold(interview,0)
 	feat_dict["proportion_below_threshold_0.3"]   = proportion_below_threshold(interview,0.3)
 	feat_dict["proportion_below_threshold_0.5"]   = proportion_below_threshold(interview,0.5)

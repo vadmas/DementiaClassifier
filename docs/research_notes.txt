@@ -15,3 +15,4 @@
 - Please delete 255EG_363a_7.txt in data/processed/optima/nometa/control and run the parser to create the pickles again
 
 - Each utterance contains a multiple trees. Normalize tree features by number of nodes in each tree or normalize by total number of nodes in the utterance? We chose the latter.
+- How do we normalize PProportion?

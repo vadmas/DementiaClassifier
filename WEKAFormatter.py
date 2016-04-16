@@ -1,4 +1,5 @@
 from random import shuffle
+import Driver as dvr
 
 ARFF_DIR = 'arff files/'
 FEATURES_DIR = '/'
@@ -20,10 +21,10 @@ fraser_feature_dict = {
     # PARSE TREE FEATURES
     # PSYCHOLINGUISTIC FEATURES
     # POS FEATURES
-    "Pronoun:noun ratio": "",
+    "RatioPronoun": "Pronoun:noun ratio",
     "NP->PRP": "NP->PRP",
-    "Frequency": "",
-    "Adverbs": "",
+    # "": "Frequency",
+    "NumAdverbs"
     "ADVP->RB": "ADVP->RB",
     "VP->VBG_PP": "VP->VBG_PP",
     "VP->IN_S": "VP->IN_S",
@@ -34,45 +35,37 @@ fraser_feature_dict = {
     "VP->VBD_NP": "VP->VBD_NP",
     "INTJ->UH": "INTJ->UH",
     "NP->DT_NN": "NP->DT_NN",
-    "Cosine cutoff: 0.5": "",
-    "Verb Frequency": "",
-    "Nouns": "",
-    "Word Length": "",
-    "Honore's statistic": "",
-    "Inflected verbs": "",
-    "Average cosine distance": "",
-    "Skewness(MFCC 1)": "",
-    "Skewness(MFCC 2)": "",
-    "Kurtosis(MFCC 5)": "",
-    "Kurtosis(VEL(MFCC 3))": "",
-    "Phonation rate": "",
-    "Skewness(MFCC 8)": "",
-    "Verbs": "",
-    "VP rate": "",
-    "Key word: window": "",
-    "Info unit: window": "",
-    "KEY WORD: sink": "",
-    "KEY WORD: cookie": "",
-    "PP proportion": "",
-    "Key word: curtain": "",
-    "PP rate": "",
-    "Info unit: curtain": "",
-    "Key word: counter": "",
-    "Info unit: cookie": "",
-    "Info unit: sink" : "",
-    "Info unit: girl": "",
-    "Info unit: girl’s action": "",
-    "Info unit: dish": "",
-    "Key word: stool": "",
-    "Key word: mother": "",
-    "Info unit: stool": "",
-    "Skewness(MFCC 12)": "",
-    "Info unit: woman": "",
+    "proportion_below_threshold_0.5": "Cosine cutoff: 0.5",
+    "NumVerbs": "Verb Frequency",
+    "NumNouns": "Nouns",
+    "MeanWordLength": "Word Length",
+    "HonoreStatistic": "Honore's statistic",
+    "NumInflectedVerbs": "Inflected verbs",
+    "avg_cos_dist": "Average cosine distance",
+    # "": "Verbs",
+    "VPTypeRate": "VP rate",
+    "keywordIUObjectWindow": "Key word: window",
+    "binaryIUObjectWater": "Info unit: window",
+    "binaryIUObjectSink":"KEY WORD: sink",
+    "binaryIUObjectCookie": "KEY WORD: cookie",
+    "PProportion": "PP proportion",
+    "PPTypeRate": "PP rate",
+    "keywordIUObjectCurtains": "Key word: curtain",
+    "binaryIUObjectCurtains": "Info unit: curtain",
+    "binaryIUObjectCookie" : "Info unit: cookie",
+    "binaryIUSubjectGirl": "Info unit: sink",
+    "binaryIUSubjectGirl": "Info unit: girl",
+    "binaryIUObjectDishes": "Info unit: dish",
+    "keywordIUObjectStool": "Key word: stool",
+    "keywordIUSubjectWoman": "Key word: mother",
+    "binaryIUObjectStool": "Info unit: stool",
+    "binaryIUSubjectWoman": "Info unit: woman"
 }
 
 
-def make_arff_file(file_name, samples, labels):
+def make_arff_file(file_name, samples):
     arff_file_name = ARFF_DIR + file_name + ".arff"
+
     arff_file = open(arff_file_name, 'w+')
     # Write the headers
     # Write the relation
@@ -80,17 +73,22 @@ def make_arff_file(file_name, samples, labels):
     # Assuming that all samples will have the same features
     # Assuming that all sample features are iterated in the same order
     shuffle(samples) # Randomize samples
+    data_unzipped = zip(*samples)
+    samples = list(data_unzipped[0])
+    labels = list(data_unzipped[1])
+    label_order = []
     for k,v in samples[0].iteritems():
         attribute_str = '@ATTRIBUTE '
-        attribute_str += str(k) + ' ' + get_attribute_from_variable(v)
+        attribute_str += str(k).strip() + ' ' + get_attribute_from_variable(v)
+        label_order.append(k)
         arff_file.write(attribute_str + '\n')
     arff_file.write('@ATTRIBUTE class {Control, Dementia} \n')
     # Begin writing the data
     arff_file.write('@DATA\n')
     for sample in range(0, len(samples)):
         data_str = ''
-        for k,v in samples[sample].iteritems():
-            data_str += str(v) + ','
+        for k in label_order:
+            data_str += str(samples[sample][k]).strip() + ','
         data_str += labels[sample]
         arff_file.write(data_str + '\n')
     arff_file.close()
@@ -112,14 +110,37 @@ def is_number(s):
         return False
 
 
-def train_clinical_test_clinical(clinical_samples, labels):
+def train_clinical_test_clinical(clinical_samples):
     # Use all the features
-    file_name = ARFF_DIR + "train_clinical_test_clinical.arff"
-    make_arff_file(file_name, clinical_samples, labels)
+    file_name = "clinical_clinical_all"
+    make_arff_file(file_name, clinical_samples)
+
+
+def train_clinical_test_clinical_fraser_features(clinical_samples):
+    # Use features found in fraser
+    file_name = "clinical_clinical_fraser"
+    # Comb the features in clinical_samples to match the ones in fraser
+    unzipped_data = zip(*clinical_samples)
+    samples = list(unzipped_data[0])
+    labels = list(unzipped_data[1])
+    fraser_samples = []
+    for sample in samples:
+        features = {}
+        for k,v in sample.iteritems():
+            if k in fraser_feature_dict.keys():
+                features[fraser_feature_dict[k]] = v
+        fraser_samples.append(features)
+    samples = zip(fraser_samples, labels)
+    make_arff_file(file_name, samples)
+
 
 
 
 if __name__ == "__main__":
+
     # Load the dementia and optima bank data sets.
+    clinical_samples = dvr.get_clinical_feature_data()
+    train_clinical_test_clinical(clinical_samples)
+
 
 
