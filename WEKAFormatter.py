@@ -24,7 +24,7 @@ fraser_feature_dict = {
     "RatioPronoun": "Pronoun:noun ratio",
     "NP->PRP": "NP->PRP",
     # "": "Frequency",
-    "NumAdverbs"
+    "NumAdverbs": "Adverbs"
     "ADVP->RB": "ADVP->RB",
     "VP->VBG_PP": "VP->VBG_PP",
     "VP->IN_S": "VP->IN_S",
