@@ -121,7 +121,8 @@ def make_arff_file(file_name, samples):
     label_order = []
     for k,v in samples[0].iteritems():
         attribute_str = '@ATTRIBUTE '
-        attribute_str += str(k).strip() + ' ' + get_attribute_from_variable(v)
+        key = str(k).strip().replace('\'', '')
+        attribute_str += '\'' + key + '\''+ ' ' + get_attribute_from_variable(v)
         label_order.append(k)
         arff_file.write(attribute_str + '\n')
     arff_file.write('@ATTRIBUTE class {Control, Dementia} \n')
