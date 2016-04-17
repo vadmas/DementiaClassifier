@@ -1,0 +1,113 @@
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Control, Dementia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0412 * (normalized) Pronoun:noun ratio
+ +      -0.095  * (normalized) Light Verb Count
+ +      -1.3952 * (normalized) Inflected verbs
+ +      -1.2606 * (normalized) VP->AUX
+ +      -0.1633 * (normalized) Cosine cutoff: 0.5
+ +      -1.0864 * (normalized) Key word: mother
+ +      -1.8957 * (normalized) Age of acquisition
+ +      -0.0747 * (normalized) VP->AUX_VP
+ +      -0.3006 * (normalized) Info unit: girl
+ +      -0.3206 * (normalized) Info unit: woman
+ +       1.202  * (normalized) ADVP->RB
+ +      -0.9859 * (normalized) Info unit: stool
+ +       2.3955 * (normalized) Imagability
+ +       6.1196 * (normalized) Verb Frequency
+ +       0.2217 * (normalized) SUBTL Word score
+ +      -0.7167 * (normalized) Info unit: window
+ +      -0.4332 * (normalized) Nouns
+ +      -0.1219 * (normalized) Concreteness
+ +      -1.1328 * (normalized) VP->VBG
+ +       0.7337 * (normalized) NP->DT_NN
+ +      -0.1923 * (normalized) Familiarity
+ +       0.0454 * (normalized) PP rate
+ +      -0.6086 * (normalized) KEY WORD: cookie
+ +       0.2926 * (normalized) VP rate
+ +      -0.136  * (normalized) Key word: stool
+ +       0.3717 * (normalized) Info unit: dish
+ +      -0.7859 * (normalized) VP->AUX_ADJP
+ +      -0.0371 * (normalized) INTJ->UH
+ +       0.0849 * (normalized) Key word: curtain
+ +       0.5855 * (normalized) PP proportion
+ +       1.0016 * (normalized) Key word: window
+ +       1.9225 * (normalized) NP->PRP
+ +      -0.1652 * (normalized) Honores statistic
+ +      -0.0909 * (normalized) Adverbs
+ +      -0.718  * (normalized) KEY WORD: sink
+ +       0.3012 * (normalized) Info unit: cookie
+ +      -0.1129 * (normalized) Info unit: curtain
+ +      -1.5656 * (normalized) Word Length
+ +       1.7783
+
+Number of kernel evaluations: 300047 (83.451% cached)
+
+
+
+Time taken to build model: 0.57 seconds
+Time taken to test model on training data: 0.09 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         791               73.0379 %
+Incorrectly Classified Instances       292               26.9621 %
+Kappa statistic                          0.4578
+Mean absolute error                      0.2696
+Root mean squared error                  0.5193
+Relative absolute error                 53.9684 %
+Root relative squared error            103.8927 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.815    0.359    0.706      0.815    0.757      0.464    0.728     0.671     Control
+                 0.641    0.185    0.766      0.641    0.698      0.464    0.728     0.665     Dementia
+Weighted Avg.    0.730    0.275    0.735      0.730    0.728      0.464    0.728     0.668     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 454 103 |   a = Control
+ 189 337 |   b = Dementia
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         760               70.1754 %
+Incorrectly Classified Instances       323               29.8246 %
+Kappa statistic                          0.4002
+Mean absolute error                      0.2982
+Root mean squared error                  0.5461
+Relative absolute error                 59.6975 %
+Root relative squared error            109.2678 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.790    0.392    0.681      0.790    0.732      0.406    0.699     0.646     Control
+                 0.608    0.210    0.732      0.608    0.665      0.406    0.699     0.636     Dementia
+Weighted Avg.    0.702    0.303    0.706      0.702    0.699      0.406    0.699     0.641     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 440 117 |   a = Control
+ 206 320 |   b = Dementia
+

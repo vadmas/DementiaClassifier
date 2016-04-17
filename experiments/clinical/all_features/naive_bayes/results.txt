@@ -1,0 +1,882 @@
+
+Naive Bayes Classifier
+
+                                       Class
+Attribute                            Control  Dementia
+                                      (0.51)    (0.49)
+=======================================================
+NAC
+  mean                                      0         0
+  std. dev.                            0.0004    0.0004
+  weight sum                              557       526
+  precision                            0.0021    0.0021
+
+NumSubordinateConjunctions
+  mean                                 0.0873    0.0747
+  std. dev.                            0.0396    0.0342
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+MeanLengthOfSentence
+  mean                                 0.1259    0.1247
+  std. dev.                            0.1003    0.0782
+  weight sum                              557       526
+  precision                             0.001     0.001
+
+VP->AUX
+  mean                                 0.0529    0.0516
+  std. dev.                            0.0173    0.0158
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+RatioCoordinate
+  mean                                 0.2981    0.3625
+  std. dev.                            0.2923     0.293
+  weight sum                              557       526
+  precision                            0.0067    0.0067
+
+binaryIUSubjectGirl
+  mean                                 0.8312     0.749
+  std. dev.                            0.3745    0.4336
+  weight sum                              557       526
+  precision                                 1         1
+
+VP->VBG_PP
+  mean                                      0         0
+  std. dev.                            0.0017    0.0017
+  weight sum                              557       526
+  precision                              0.01      0.01
+
+PRN
+  mean                                 0.0005    0.0008
+  std. dev.                            0.0025    0.0025
+  weight sum                              557       526
+  precision                            0.0004    0.0004
+
+CN/C
+  mean                                 1.0343    0.9362
+  std. dev.                            0.6175    0.5681
+  weight sum                              557       526
+  precision                            0.0439    0.0439
+
+keywordIUObjectWindow
+  mean                                 0.6427    0.4468
+  std. dev.                            0.8785    0.9188
+  weight sum                              557       526
+  precision                                 1         1
+
+CT/T
+  mean                                 0.7151    0.6815
+  std. dev.                            0.3195     0.328
+  weight sum                              557       526
+  precision                            0.0238    0.0238
+
+VP->VBG
+  mean                                 0.0365    0.0332
+  std. dev.                            0.0146    0.0146
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+AvgPPTypeLengthNonEmbedded
+  mean                                 3.8755    3.3639
+  std. dev.                            8.8705    6.3078
+  weight sum                              557       526
+  precision                            0.2294    0.2294
+
+FRAG
+  mean                                  0.003    0.0042
+  std. dev.                            0.0055    0.0063
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+keywordIUObjectCupboard
+  mean                                 0.3591    0.2814
+  std. dev.                            0.5624    0.5657
+  weight sum                              557       526
+  precision                                 1         1
+
+keywordIUSubjectGirl
+  mean                                 1.1131    1.0494
+  std. dev.                            0.7672    0.8619
+  weight sum                              557       526
+  precision                                 1         1
+
+keywordIUObjectCurtains
+  mean                                 0.2531    0.1825
+  std. dev.                            0.5072    0.4746
+  weight sum                              557       526
+  precision                                 1         1
+
+T
+  mean                                 3.0504    3.6705
+  std. dev.                            2.5379    3.2093
+  weight sum                              557       526
+  precision                            1.5238    1.5238
+
+X
+  mean                                 0.0004    0.0005
+  std. dev.                            0.0023     0.003
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+AvgPPTypeLengthEmbedded
+  mean                                 2.0089    2.0475
+  std. dev.                            2.2022     2.134
+  weight sum                              557       526
+  precision                            0.0376    0.0376
+
+RatioVerb
+  mean                                 0.8582    0.8511
+  std. dev.                            0.3231     0.325
+  weight sum                              557       526
+  precision                            0.0037    0.0037
+
+NumDeterminers
+  mean                                 0.1359    0.1328
+  std. dev.                            0.0464    0.0428
+  weight sum                              557       526
+  precision                            0.0004    0.0004
+
+VP->AUX_ADJP
+  mean                                 0.0036    0.0026
+  std. dev.                            0.0046    0.0043
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+MATTR
+  mean                                  0.575    0.5356
+  std. dev.                            0.1879    0.1688
+  weight sum                              557       526
+  precision                             0.001     0.001
+
+getAoaScore
+  mean                                 4.4841    4.3099
+  std. dev.                            0.4811    0.4442
+  weight sum                              557       526
+  precision                            0.0056    0.0056
+
+AvgNPTypeLengthNonEmbedded
+  mean                                 5.9896    6.7603
+  std. dev.                            9.4854   11.0602
+  weight sum                              557       526
+  precision                            0.1501    0.1501
+
+T/S
+  mean                                 1.2936    1.2726
+  std. dev.                            0.6232    0.7312
+  weight sum                              557       526
+  precision                            0.1522    0.1522
+
+CP/C
+  mean                                 0.1768    0.1343
+  std. dev.                            0.3007    0.1814
+  weight sum                              557       526
+  precision                             0.028     0.028
+
+VPProportion
+  mean                                 1.0134     1.153
+  std. dev.                            0.7714    0.7524
+  weight sum                              557       526
+  precision                            0.0068    0.0068
+
+NP->PRP
+  mean                                 0.0241    0.0316
+  std. dev.                            0.0135    0.0169
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+binaryIUSubjectWoman
+  mean                                 0.8169    0.6958
+  std. dev.                            0.3868    0.4601
+  weight sum                              557       526
+  precision                                 1         1
+
+CP/T
+  mean                                 0.8187    0.6833
+  std. dev.                            1.1853    1.1072
+  weight sum                              557       526
+  precision                            0.1509    0.1509
+
+binaryIUObjectCookie
+  mean                                 0.3896    0.4639
+  std. dev.                            0.4877    0.4987
+  weight sum                              557       526
+  precision                                 1         1
+
+binaryIUActionBoyTaking
+  mean                                 0.2298    0.1483
+  std. dev.                            0.4207    0.3554
+  weight sum                              557       526
+  precision                                 1         1
+
+DC/T
+  mean                                 2.9142     2.715
+  std. dev.                            2.7843    2.8408
+  weight sum                              557       526
+  precision                            0.1681    0.1681
+
+keywordIUPlaceExterior
+  mean                                 0.4915    0.3612
+  std. dev.                            0.7978    0.7632
+  weight sum                              557       526
+  precision                              1.25      1.25
+
+proportion_below_threshold_0.3
+  mean                                 0.9844    0.9707
+  std. dev.                            0.0358    0.0489
+  weight sum                              557       526
+  precision                            0.0035    0.0035
+
+proportion_below_threshold_0.5
+  mean                                 0.9933      0.99
+  std. dev.                            0.0291    0.0288
+  weight sum                              557       526
+  precision                            0.0055    0.0055
+
+tree_height
+  mean                                 0.3389    0.3758
+  std. dev.                            0.0954    0.0972
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+keywordIUObjectWater
+  mean                                  1.026    1.1578
+  std. dev.                            0.8907    0.9802
+  weight sum                              557       526
+  precision                               1.5       1.5
+
+VP->AUX_VP
+  mean                                 0.0329    0.0318
+  std. dev.                            0.0145    0.0135
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+PP
+  mean                                 0.0352    0.0293
+  std. dev.                            0.0153    0.0148
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+PPTypeRate
+  mean                                 0.0421    0.0393
+  std. dev.                            0.0257    0.0228
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+C/T
+  mean                                 5.3481    4.9611
+  std. dev.                             4.275    4.4454
+  weight sum                              557       526
+  precision                            0.2222    0.2222
+
+binaryIUSubjectBoy
+  mean                                 0.7828    0.7452
+  std. dev.                            0.4124    0.4357
+  weight sum                              557       526
+  precision                                 1         1
+
+HonoreStatistic
+  mean                              1338.9917 1258.5441
+  std. dev.                          689.7176   685.559
+  weight sum                              557       526
+  precision                              5.02      5.02
+
+LST
+  mean                                      0         0
+  std. dev.                            0.0003    0.0002
+  weight sum                              557       526
+  precision                            0.0011    0.0011
+
+keywordIUObjectDishes
+  mean                                 0.5853    0.7833
+  std. dev.                            0.7617    0.9034
+  weight sum                              557       526
+  precision                                 1         1
+
+WHAVP
+  mean                                      0         0
+  std. dev.                            0.0017    0.0017
+  weight sum                              557       526
+  precision                              0.01      0.01
+
+NumInflectedVerbs
+  mean                                 0.1746    0.1695
+  std. dev.                            0.0505    0.0509
+  weight sum                              557       526
+  precision                            0.0004    0.0004
+
+binaryIUObjectDishcloth
+  mean                                 0.0467     0.038
+  std. dev.                            0.2109    0.1913
+  weight sum                              557       526
+  precision                                 1         1
+
+C
+  mean                                11.5078   11.6184
+  std. dev.                            6.6753    7.2576
+  weight sum                              557       526
+  precision                            1.2439    1.2439
+
+keywordIUObjectSink
+  mean                                 1.2567    0.9892
+  std. dev.                            0.9783    1.0398
+  weight sum                              557       526
+  precision                            1.1667    1.1667
+
+getConcretenessScore
+  mean                               259.8496  258.1816
+  std. dev.                          176.7745  174.1352
+  weight sum                              557       526
+  precision                              2.45      2.45
+
+min_min_cos_dist
+  mean                                      0         0
+  std. dev.                            0.0017    0.0017
+  weight sum                              557       526
+  precision                              0.01      0.01
+
+getImagabilityScore
+  mean                               480.1954   476.594
+  std. dev.                           37.1412   39.5295
+  weight sum                              557       526
+  precision                            0.5353    0.5353
+
+keywordIUPlaceKitchen
+  mean                                 0.3106    0.2129
+  std. dev.                            0.6188    0.5162
+  weight sum                              557       526
+  precision                                 1         1
+
+AvgVPTypeLengthNonEmbedded
+  mean                                18.5845   19.7283
+  std. dev.                           26.7943   29.7673
+  weight sum                              557       526
+  precision                            0.4324    0.4324
+
+S
+  mean                                  2.752    3.3329
+  std. dev.                            2.0784    2.9079
+  weight sum                              557       526
+  precision                            1.7619    1.7619
+
+W
+  mean                                94.1792   88.6318
+  std. dev.                            47.675   49.3754
+  weight sum                              557       526
+  precision                            1.7368    1.7368
+
+keywordIUObjectStool
+  mean                                 1.2154    0.9202
+  std. dev.                            0.7142    0.7808
+  weight sum                              557       526
+  precision                                 1         1
+
+binaryIUActionWaterOverflowing
+  mean                                 0.4596    0.3175
+  std. dev.                            0.4984    0.4655
+  weight sum                              557       526
+  precision                                 1         1
+
+ADVP
+  mean                                  0.012    0.0146
+  std. dev.                            0.0088    0.0109
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+avg_avg_cos_dist
+  mean                                 0.0207    0.0321
+  std. dev.                            0.0268    0.0308
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+AvgVPTypeLengthEmbedded
+  mean                                 4.2148    4.5997
+  std. dev.                            3.1586    2.7781
+  weight sum                              557       526
+  precision                            0.0303    0.0303
+
+binaryIUObjectSink
+  mean                                 0.7684    0.6084
+  std. dev.                            0.4219    0.4881
+  weight sum                              557       526
+  precision                                 1         1
+
+keywordIUSubjectBoy
+  mean                                 1.2148    1.2243
+  std. dev.                            0.8981    0.9634
+  weight sum                              557       526
+  precision                            1.1667    1.1667
+
+keywordIUObjectDishcloth
+  mean                                 0.0539    0.0418
+  std. dev.                            0.2556    0.2184
+  weight sum                              557       526
+  precision                                 1         1
+
+DC/C
+  mean                                 0.5087    0.4939
+  std. dev.                            0.2174    0.2162
+  weight sum                              557       526
+  precision                            0.0073    0.0073
+
+binaryIUObjectWindow
+  mean                                  0.456    0.2814
+  std. dev.                            0.4981    0.4497
+  weight sum                              557       526
+  precision                                 1         1
+
+binaryIUObjectWater
+  mean                                 0.6212    0.6806
+  std. dev.                            0.4851    0.4662
+  weight sum                              557       526
+  precision                                 1         1
+
+binaryIUObjectJar
+  mean                                  0.316    0.4278
+  std. dev.                            0.4649    0.4948
+  weight sum                              557       526
+  precision                                 1         1
+
+MeanWordLength
+  mean                                 3.5979    3.4537
+  std. dev.                            0.3489    0.3734
+  weight sum                              557       526
+  precision                             0.003     0.003
+
+ROOT->FRAG
+  mean                                 0.0025    0.0035
+  std. dev.                            0.0053    0.0057
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+binaryIUActionWomanDryingWashing
+  mean                                 0.7253    0.6084
+  std. dev.                            0.4464    0.4881
+  weight sum                              557       526
+  precision                                 1         1
+
+NumAdjectives
+  mean                                 0.0448    0.0395
+  std. dev.                            0.0395    0.0266
+  weight sum                              557       526
+  precision                            0.0007    0.0007
+
+VPTypeRate
+  mean                                 0.0909    0.1011
+  std. dev.                            0.0514    0.0576
+  weight sum                              557       526
+  precision                             0.001     0.001
+
+PRT
+  mean                                 0.0148    0.0127
+  std. dev.                            0.0094    0.0093
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+RRC
+  mean                                      0         0
+  std. dev.                            0.0002    0.0003
+  weight sum                              557       526
+  precision                            0.0015    0.0015
+
+NX
+  mean                                 0.0002    0.0001
+  std. dev.                            0.0015    0.0011
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+WHPP
+  mean                                 0.0001    0.0001
+  std. dev.                            0.0008    0.0009
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+NP
+  mean                                 0.1573    0.1546
+  std. dev.                             0.028    0.0279
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+keywordIUObjectCookie
+  mean                                 0.7971    0.8688
+  std. dev.                             1.188    1.1519
+  weight sum                              557       526
+  precision                                 1         1
+
+CN
+  mean                                10.8119   10.2731
+  std. dev.                            6.5851     6.369
+  weight sum                              557       526
+  precision                            1.1026    1.1026
+
+keywordIUObjectPlate
+  mean                                 0.2998      0.23
+  std. dev.                            0.5976    0.5289
+  weight sum                              557       526
+  precision                                 1         1
+
+NumVerbs
+  mean                                 0.2038     0.315
+  std. dev.                            0.0543    0.3539
+  weight sum                              557       526
+  precision                            0.0026    0.0026
+
+DisfluencyFrequency
+  mean                                 0.0188    0.0179
+  std. dev.                            0.0325    0.0219
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+binaryIUObjectPlate
+  mean                                 0.2334    0.1863
+  std. dev.                             0.423    0.3894
+  weight sum                              557       526
+  precision                                 1         1
+
+getSUBTLWordScores
+  mean                               679.7023  827.0964
+  std. dev.                          386.5076  488.0542
+  weight sum                              557       526
+  precision                              2.81      2.81
+
+CP
+  mean                                  1.526    1.3536
+  std. dev.                            1.6611    1.5783
+  weight sum                              557       526
+  precision                                 1         1
+
+CT
+  mean                                 1.8689    2.0532
+  std. dev.                            1.3355    1.6732
+  weight sum                              557       526
+  precision                                 1         1
+
+keywordIUObjectJar
+  mean                                 0.4327    0.6369
+  std. dev.                            0.7274    0.8932
+  weight sum                              557       526
+  precision                                 1         1
+
+getFamiliarityScore
+  mean                               539.2355  538.5403
+  std. dev.                           37.8287   41.0402
+  weight sum                              557       526
+  precision                            0.6069    0.6069
+
+PProportion
+  mean                                 0.1938    0.1941
+  std. dev.                            0.2316    0.1855
+  weight sum                              557       526
+  precision                            0.0028    0.0028
+
+binaryIUObjectStool
+  mean                                 0.9066     0.692
+  std. dev.                            0.2909    0.4617
+  weight sum                              557       526
+  precision                                 1         1
+
+RatioPronoun
+  mean                                 0.5298     0.668
+  std. dev.                            0.3814    0.4713
+  weight sum                              557       526
+  precision                            0.0061    0.0061
+
+NumCoordinateConjunctions
+  mean                                 0.0364    0.0456
+  std. dev.                            0.0281    0.0302
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+NumInterjections
+  mean                                 0.0082    0.0044
+  std. dev.                            0.0339    0.0153
+  weight sum                              557       526
+  precision                            0.0026    0.0026
+
+ADJP
+  mean                                 0.0073    0.0054
+  std. dev.                            0.0069    0.0061
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+DC
+  mean                                 6.0932     6.114
+  std. dev.                            4.3942    4.6864
+  weight sum                              557       526
+  precision                            1.1481    1.1481
+
+CONJP
+  mean                                 0.0001         0
+  std. dev.                            0.0007    0.0004
+  weight sum                              557       526
+  precision                            0.0008    0.0008
+
+binaryIUObjectCurtains
+  mean                                 0.2208    0.1483
+  std. dev.                            0.4148    0.3554
+  weight sum                              557       526
+  precision                                 1         1
+
+VP/T
+  mean                                 6.9566    6.4279
+  std. dev.                            5.3192    5.5618
+  weight sum                              557       526
+  precision                            0.1882    0.1882
+
+BrunetIndex
+  mean                                 0.1214    0.1092
+  std. dev.                            0.1268    0.1027
+  weight sum                              557       526
+  precision                             0.001     0.001
+
+binaryIUObjectCupboard
+  mean                                 0.3214    0.2357
+  std. dev.                             0.467    0.4245
+  weight sum                              557       526
+  precision                                 1         1
+
+keywordIUSubjectWoman
+  mean                                 1.2011    0.9411
+  std. dev.                            0.8983    0.8171
+  weight sum                              557       526
+  precision                                 1         1
+
+UCP
+  mean                                 0.0002    0.0003
+  std. dev.                            0.0013    0.0015
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+ADVP->RB
+  mean                                      0    0.0001
+  std. dev.                            0.0009    0.0013
+  weight sum                              557       526
+  precision                            0.0056    0.0056
+
+NumAdverbs
+  mean                                 0.0415    0.0436
+  std. dev.                            0.0395    0.0341
+  weight sum                              557       526
+  precision                            0.0004    0.0004
+
+binaryIUActionStoolFalling
+  mean                                 0.6445    0.3992
+  std. dev.                            0.4787    0.4897
+  weight sum                              557       526
+  precision                                 1         1
+
+binaryIUObjectDishes
+  mean                                 0.4381    0.5266
+  std. dev.                            0.4961    0.4993
+  weight sum                              557       526
+  precision                                 1         1
+
+AvgNPTypeLengthEmbedded
+  mean                                 1.8996    2.0954
+  std. dev.                            1.2084    1.0877
+  weight sum                              557       526
+  precision                            0.0092    0.0092
+
+TotalNumberOfWords
+  mean                                 32.896   20.9679
+  std. dev.                           31.2915   23.2514
+  weight sum                              557       526
+  precision                            0.3273    0.3273
+
+MLC
+  mean                                 9.1359    8.1141
+  std. dev.                            4.8439    3.7337
+  weight sum                              557       526
+  precision                            0.1233    0.1233
+
+NumNouns
+  mean                                 0.2334    0.2164
+  std. dev.                            0.0828    0.0723
+  weight sum                              557       526
+  precision                             0.001     0.001
+
+C/S
+  mean                                 6.3443    5.7691
+  std. dev.                            4.7568    4.7217
+  weight sum                              557       526
+  precision                            0.2296    0.2296
+
+NPTypeRate
+  mean                                 0.1765    0.1757
+  std. dev.                            0.0861    0.0626
+  weight sum                              557       526
+  precision                            0.0007    0.0007
+
+INTJ
+  mean                                  0.005    0.0083
+  std. dev.                            0.0169    0.0208
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+VP
+  mean                                 0.1244    0.1221
+  std. dev.                            0.0234    0.0238
+  weight sum                              557       526
+  precision                            0.0003    0.0003
+
+INTJ->UH
+  mean                                 0.0054    0.0086
+  std. dev.                             0.017     0.021
+  weight sum                              557       526
+  precision                            0.0009    0.0009
+
+binaryIUPlaceKitchen
+  mean                                 0.2496    0.1692
+  std. dev.                            0.4328    0.3749
+  weight sum                              557       526
+  precision                                 1         1
+
+NPProportion
+  mean                                 0.6147     0.694
+  std. dev.                            0.4442    0.4324
+  weight sum                              557       526
+  precision                            0.0038    0.0038
+
+MLT
+  mean                                45.4131   39.5003
+  std. dev.                           34.7026   34.8798
+  weight sum                              557       526
+  precision                            0.4605    0.4605
+
+getLightVerbCount
+  mean                                 0.0609    0.0668
+  std. dev.                            0.0542      0.07
+  weight sum                              557       526
+  precision                            0.0031    0.0031
+
+binaryIUPlaceExterior
+  mean                                 0.3088     0.211
+  std. dev.                             0.462     0.408
+  weight sum                              557       526
+  precision                                 1         1
+
+RatioNoun
+  mean                                 0.4124     0.398
+  std. dev.                            0.0946    0.0895
+  weight sum                              557       526
+  precision                            0.0008    0.0008
+
+QP
+  mean                                 0.0003    0.0003
+  std. dev.                            0.0018    0.0013
+  weight sum                              557       526
+  precision                            0.0004    0.0004
+
+MLS
+  mean                                53.9975   45.9756
+  std. dev.                           38.7906   36.9838
+  weight sum                              557       526
+  precision                            0.5049    0.5049
+
+NP->DT_NN
+  mean                                 0.0555    0.0517
+  std. dev.                            0.0178    0.0188
+  weight sum                              557       526
+  precision                            0.0002    0.0002
+
+NumberOfNID
+  mean                                      0    0.0019
+  std. dev.                            0.0556    0.0556
+  weight sum                              557       526
+  precision                            0.3333    0.3333
+
+WHADJP
+  mean                                 0.0001    0.0001
+  std. dev.                            0.0005    0.0008
+  weight sum                              557       526
+  precision                            0.0006    0.0006
+
+WHNP
+  mean                                 0.0044    0.0041
+  std. dev.                             0.005    0.0057
+  weight sum                              557       526
+  precision                            0.0001    0.0001
+
+TTR
+  mean                                 0.8497    0.8775
+  std. dev.                             0.113    0.0937
+  weight sum                              557       526
+  precision                            0.0005    0.0005
+
+VP->VBD_NP
+  mean                                      0         0
+  std. dev.                            0.0017    0.0017
+  weight sum                              557       526
+  precision                              0.01      0.01
+
+proportion_below_threshold_0
+  mean                                 0.8716     0.834
+  std. dev.                            0.1555     0.157
+  weight sum                              557       526
+  precision                            0.0033    0.0033
+
+CN/T
+  mean                                 5.3506    4.6973
+  std. dev.                            4.7399    4.5421
+  weight sum                              557       526
+  precision                            0.2254    0.2254
+
+
+
+Time taken to build model: 0.2 seconds
+Time taken to test model on training data: 0.26 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         765               70.6371 %
+Incorrectly Classified Instances       318               29.3629 %
+Kappa statistic                          0.4135
+Mean absolute error                      0.2948
+Root mean squared error                  0.5025
+Relative absolute error                 59.0083 %
+Root relative squared error            100.5313 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.679    0.264    0.731      0.679    0.704      0.415    0.779     0.746     Control
+                 0.736    0.321    0.684      0.736    0.709      0.415    0.779     0.770     Dementia
+Weighted Avg.    0.706    0.292    0.708      0.706    0.706      0.415    0.779     0.758     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 378 179 |   a = Control
+ 139 387 |   b = Dementia
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         737               68.0517 %
+Incorrectly Classified Instances       346               31.9483 %
+Kappa statistic                          0.362 
+Mean absolute error                      0.3228
+Root mean squared error                  0.5298
+Relative absolute error                 64.6219 %
+Root relative squared error            106.0091 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.650    0.287    0.706      0.650    0.677      0.363    0.738     0.686     Control
+                 0.713    0.350    0.658      0.713    0.684      0.363    0.738     0.724     Dementia
+Weighted Avg.    0.681    0.318    0.682      0.681    0.680      0.363    0.738     0.704     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 362 195 |   a = Control
+ 151 375 |   b = Dementia
+
