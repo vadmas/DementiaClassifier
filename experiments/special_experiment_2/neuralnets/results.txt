@@ -1,0 +1,520 @@
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.9410681226554742
+    Node 2    -8.710812162253458
+    Node 3    -7.526746137488474
+    Node 4    11.798667121956093
+    Node 5    13.031598010002577
+    Node 6    -3.2386712192656293
+    Node 7    -5.572574997981071
+    Node 8    -2.6164662108234595
+    Node 9    10.54604456937663
+    Node 10    -8.264768479031455
+    Node 11    -8.38644993051215
+    Node 12    -3.6754306597219903
+    Node 13    -0.7998461235105064
+    Node 14    -3.9009949947959983
+    Node 15    -11.42125659919305
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.941034745046426
+    Node 2    8.712095631224653
+    Node 3    7.527238034939081
+    Node 4    -11.799264824413982
+    Node 5    -13.032140931728705
+    Node 6    3.2385982500595367
+    Node 7    5.571903062246971
+    Node 8    2.619252414288086
+    Node 9    -10.546419918656328
+    Node 10    8.265097182253074
+    Node 11    8.386985307311155
+    Node 12    3.675895222008364
+    Node 13    0.7978383905178869
+    Node 14    3.9011597142971697
+    Node 15    11.421454547247366
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.14952359199056445
+    Attrib Pronoun:noun ratio    4.016911107970135
+    Attrib Light Verb Count    -0.044929477986282565
+    Attrib Familiarity    0.7145014878371985
+    Attrib Cosine cutoff: 0.5    -6.322485435464228
+    Attrib Inflected verbs    13.030904500153872
+    Attrib VP->AUX_VP    1.0214187182050352
+    Attrib VP->VBG_PP    0.014041754198593229
+    Attrib ADVP->RB    -0.2001641389501453
+    Attrib Imagability    -1.077462150759287
+    Attrib Verb Frequency    8.791071433981195
+    Attrib SUBTL Word score    -3.493630368322935
+    Attrib Nouns    -10.350387515406096
+    Attrib Concreteness    1.4747151999300159
+    Attrib VP->VBG    0.6946418994910373
+    Attrib VP->AUX    -8.136261871113069
+    Attrib PP rate    4.864017747689989
+    Attrib VP->AUX_ADJP    -6.917773868073166
+    Attrib VP rate    -3.128242741352352
+    Attrib NP->DT_NN    7.644262724311966
+    Attrib Age of acquisition    -1.3702924511993932
+    Attrib INTJ->UH    4.042350012456711
+    Attrib PP proportion    -2.270693462010515
+    Attrib NP->PRP    -0.9427785868906895
+    Attrib Honores statistic    0.989691371534037
+    Attrib Adverbs    -0.49921025986815176
+    Attrib VP->VBD_NP    -0.01499598808830157
+    Attrib Word Length    9.63461384539295
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.2986048865316957
+    Attrib Pronoun:noun ratio    -6.294448331332859
+    Attrib Light Verb Count    10.91934699458785
+    Attrib Familiarity    1.7312652223936194
+    Attrib Cosine cutoff: 0.5    4.245094405868948
+    Attrib Inflected verbs    0.048839812846033795
+    Attrib VP->AUX_VP    -3.202092587155177
+    Attrib VP->VBG_PP    -0.021139403844695395
+    Attrib ADVP->RB    0.17255736607676014
+    Attrib Imagability    2.5071570990016663
+    Attrib Verb Frequency    -1.982402216033029
+    Attrib SUBTL Word score    -3.8412569441094626
+    Attrib Nouns    4.270075332180931
+    Attrib Concreteness    -1.04981815173082
+    Attrib VP->VBG    -1.3181863323156404
+    Attrib VP->AUX    1.2501775947654974
+    Attrib PP rate    -6.032005561167666
+    Attrib VP->AUX_ADJP    0.2894840903889893
+    Attrib VP rate    2.1263201690403113
+    Attrib NP->DT_NN    -3.0762421336529053
+    Attrib Age of acquisition    -10.714170231443521
+    Attrib INTJ->UH    -2.4167034534292573
+    Attrib PP proportion    -0.2863137997619856
+    Attrib NP->PRP    8.916685830385648
+    Attrib Honores statistic    8.032682821599893
+    Attrib Adverbs    5.964952111017066
+    Attrib VP->VBD_NP    -0.009996762133407298
+    Attrib Word Length    6.608303412452168
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.0717609681852596
+    Attrib Pronoun:noun ratio    4.256022599145218
+    Attrib Light Verb Count    6.546594344585796
+    Attrib Familiarity    -3.236403669598467
+    Attrib Cosine cutoff: 0.5    0.1365433973200671
+    Attrib Inflected verbs    3.944130633396452
+    Attrib VP->AUX_VP    -4.474395565850684
+    Attrib VP->VBG_PP    0.022965386679088026
+    Attrib ADVP->RB    1.040265335776712
+    Attrib Imagability    -3.4040540651972755
+    Attrib Verb Frequency    -12.528876632436972
+    Attrib SUBTL Word score    -6.555482264661864
+    Attrib Nouns    -10.317014550172367
+    Attrib Concreteness    -2.7950421750022256
+    Attrib VP->VBG    5.57431589358707
+    Attrib VP->AUX    -4.060376802227319
+    Attrib PP rate    14.971798842268424
+    Attrib VP->AUX_ADJP    -0.6662594146808182
+    Attrib VP rate    4.212722813622197
+    Attrib NP->DT_NN    5.296607976511063
+    Attrib Age of acquisition    12.332974671878299
+    Attrib INTJ->UH    -3.558231200907629
+    Attrib PP proportion    -0.09322880434891284
+    Attrib NP->PRP    -4.723781136514774
+    Attrib Honores statistic    3.3674666477478565
+    Attrib Adverbs    13.295374235198327
+    Attrib VP->VBD_NP    0.026964393082829982
+    Attrib Word Length    9.043083717012399
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -5.245428269343683
+    Attrib Pronoun:noun ratio    11.407099700499769
+    Attrib Light Verb Count    4.300456117209767
+    Attrib Familiarity    4.879269452161952
+    Attrib Cosine cutoff: 0.5    -4.361701258399877
+    Attrib Inflected verbs    -6.9576655211151595
+    Attrib VP->AUX_VP    -0.09430001395815885
+    Attrib VP->VBG_PP    -0.019216101792362873
+    Attrib ADVP->RB    4.838645697297751
+    Attrib Imagability    -8.878319835515343
+    Attrib Verb Frequency    -2.0897559020029015
+    Attrib SUBTL Word score    -20.456266939140054
+    Attrib Nouns    11.232146971231295
+    Attrib Concreteness    0.8043527648342532
+    Attrib VP->VBG    -14.04613536421633
+    Attrib VP->AUX    3.6145960564904107
+    Attrib PP rate    2.8208530758178503
+    Attrib VP->AUX_ADJP    -7.5250481921357
+    Attrib VP rate    -2.282009753358332
+    Attrib NP->DT_NN    -4.252297392728807
+    Attrib Age of acquisition    15.542944197370286
+    Attrib INTJ->UH    11.847159697524813
+    Attrib PP proportion    -10.328184779001823
+    Attrib NP->PRP    5.67995136017502
+    Attrib Honores statistic    6.832787245357317
+    Attrib Adverbs    0.8713063165602671
+    Attrib VP->VBD_NP    0.03220868529280965
+    Attrib Word Length    1.3672355793977757
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -4.673953463580444
+    Attrib Pronoun:noun ratio    -7.6511232889068
+    Attrib Light Verb Count    10.428955012146885
+    Attrib Familiarity    -6.31760873225184
+    Attrib Cosine cutoff: 0.5    2.29674676333459
+    Attrib Inflected verbs    -12.193007677134355
+    Attrib VP->AUX_VP    1.1819079957162872
+    Attrib VP->VBG_PP    0.02827890389562246
+    Attrib ADVP->RB    2.206460026262428
+    Attrib Imagability    4.150740345440593
+    Attrib Verb Frequency    10.126381915243932
+    Attrib SUBTL Word score    -11.063491942364665
+    Attrib Nouns    -1.32574386117459
+    Attrib Concreteness    2.3831208635328847
+    Attrib VP->VBG    -5.097660002701354
+    Attrib VP->AUX    -5.311597600244816
+    Attrib PP rate    2.873541162465095
+    Attrib VP->AUX_ADJP    -9.29758502376972
+    Attrib VP rate    2.6252738431650404
+    Attrib NP->DT_NN    -0.846968790868137
+    Attrib Age of acquisition    -8.385645180826364
+    Attrib INTJ->UH    8.076063298275688
+    Attrib PP proportion    -1.4438427493947628
+    Attrib NP->PRP    4.384680643993622
+    Attrib Honores statistic    -0.5175286186005609
+    Attrib Adverbs    -4.131023123148093
+    Attrib VP->VBD_NP    0.013496893311561148
+    Attrib Word Length    -8.081052889649374
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    2.105180554542869
+    Attrib Pronoun:noun ratio    -0.1409348489941249
+    Attrib Light Verb Count    2.464010481051377
+    Attrib Familiarity    -0.8051329411366499
+    Attrib Cosine cutoff: 0.5    4.163872700462561
+    Attrib Inflected verbs    2.2003160268524438
+    Attrib VP->AUX_VP    5.424149587849299
+    Attrib VP->VBG_PP    0.04203196456517028
+    Attrib ADVP->RB    -3.7825710331368945
+    Attrib Imagability    -2.98372987434079
+    Attrib Verb Frequency    2.8784862340014024
+    Attrib SUBTL Word score    3.947751083423003
+    Attrib Nouns    -0.3911612265713198
+    Attrib Concreteness    -1.3361951482732983
+    Attrib VP->VBG    -4.3788563814916595
+    Attrib VP->AUX    9.424704066235897
+    Attrib PP rate    12.224095666119826
+    Attrib VP->AUX_ADJP    1.8291667774973173
+    Attrib VP rate    -1.4699981777577218
+    Attrib NP->DT_NN    6.354249858670099
+    Attrib Age of acquisition    -3.506224280809858
+    Attrib INTJ->UH    -3.0953855673507054
+    Attrib PP proportion    2.9779363806809926
+    Attrib NP->PRP    4.57411651312816
+    Attrib Honores statistic    -0.5467254644837005
+    Attrib Adverbs    1.4189568800864132
+    Attrib VP->VBD_NP    0.034356382902088256
+    Attrib Word Length    -5.182709483840592
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.7954018361062155
+    Attrib Pronoun:noun ratio    1.4717589340246116
+    Attrib Light Verb Count    -1.7513075064324497
+    Attrib Familiarity    -1.4961792665475613
+    Attrib Cosine cutoff: 0.5    -1.9071691106590498
+    Attrib Inflected verbs    -2.6389625660430838
+    Attrib VP->AUX_VP    1.2618459715726078
+    Attrib VP->VBG_PP    -0.00936785451061637
+    Attrib ADVP->RB    -2.1614811838935837
+    Attrib Imagability    -2.670185936179123
+    Attrib Verb Frequency    3.938545443974092
+    Attrib SUBTL Word score    -1.6427451233028167
+    Attrib Nouns    -0.5839634495594207
+    Attrib Concreteness    -2.653390107262065
+    Attrib VP->VBG    2.4380166851535265
+    Attrib VP->AUX    -0.03557918817656391
+    Attrib PP rate    5.184546060133822
+    Attrib VP->AUX_ADJP    -2.505283634236013
+    Attrib VP rate    1.7455479878762672
+    Attrib NP->DT_NN    -1.068395920044642
+    Attrib Age of acquisition    2.0181485629295968
+    Attrib INTJ->UH    -0.7643624049472426
+    Attrib PP proportion    1.709642278632405
+    Attrib NP->PRP    -0.0854718575134221
+    Attrib Honores statistic    -2.1861919377795624
+    Attrib Adverbs    0.04000515791729338
+    Attrib VP->VBD_NP    -0.018699835658448252
+    Attrib Word Length    -0.5433016960315927
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -2.283565729314641
+    Attrib Pronoun:noun ratio    -3.8879624915566366
+    Attrib Light Verb Count    5.577909314072954
+    Attrib Familiarity    -7.73443337830916
+    Attrib Cosine cutoff: 0.5    -8.83015224768787
+    Attrib Inflected verbs    9.873227876396644
+    Attrib VP->AUX_VP    1.312745945731514
+    Attrib VP->VBG_PP    -0.004562093275501479
+    Attrib ADVP->RB    -0.28421514648254365
+    Attrib Imagability    -12.035832075287098
+    Attrib Verb Frequency    -2.467545283654001
+    Attrib SUBTL Word score    6.264559590526576
+    Attrib Nouns    -10.087257917626557
+    Attrib Concreteness    -12.269781064682471
+    Attrib VP->VBG    6.401338936959452
+    Attrib VP->AUX    -0.053989607461689335
+    Attrib PP rate    -11.225380378447818
+    Attrib VP->AUX_ADJP    2.3668953593383995
+    Attrib VP rate    1.9272205407613863
+    Attrib NP->DT_NN    -9.701698309173292
+    Attrib Age of acquisition    8.424817296701622
+    Attrib INTJ->UH    3.8693220228960628
+    Attrib PP proportion    -7.09897519246706
+    Attrib NP->PRP    3.3611244969505787
+    Attrib Honores statistic    7.385074710175157
+    Attrib Adverbs    -1.1243631132557554
+    Attrib VP->VBD_NP    0.03929553473983251
+    Attrib Word Length    -7.652747051886229
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.04308988439327442
+    Attrib Pronoun:noun ratio    9.987579028923605
+    Attrib Light Verb Count    -2.234600390646583
+    Attrib Familiarity    1.2341264979713198
+    Attrib Cosine cutoff: 0.5    -2.835895825518183
+    Attrib Inflected verbs    -8.168777455560567
+    Attrib VP->AUX_VP    -3.7001785863578736
+    Attrib VP->VBG_PP    2.380252621650633E-4
+    Attrib ADVP->RB    -1.8814135924959394
+    Attrib Imagability    4.806716553911154
+    Attrib Verb Frequency    16.15281405570837
+    Attrib SUBTL Word score    -3.5784586538407184
+    Attrib Nouns    -8.44673544220914
+    Attrib Concreteness    -4.5515481355181375
+    Attrib VP->VBG    -2.2278934656240885
+    Attrib VP->AUX    -5.14833309493577
+    Attrib PP rate    -8.374841686285933
+    Attrib VP->AUX_ADJP    -10.563912627991224
+    Attrib VP rate    1.9015941006813324
+    Attrib NP->DT_NN    -6.699662626457963
+    Attrib Age of acquisition    -7.961331074178027
+    Attrib INTJ->UH    5.040647878546869
+    Attrib PP proportion    3.064943603076221
+    Attrib NP->PRP    20.018999497708656
+    Attrib Honores statistic    6.542174337865472
+    Attrib Adverbs    -1.337847548595962
+    Attrib VP->VBD_NP    0.024773420592453715
+    Attrib Word Length    -10.523875188478879
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -2.3505839472503327
+    Attrib Pronoun:noun ratio    1.3601665736152735
+    Attrib Light Verb Count    7.360906536484898
+    Attrib Familiarity    -0.8912757792589081
+    Attrib Cosine cutoff: 0.5    -4.053222284786161
+    Attrib Inflected verbs    11.057493736620328
+    Attrib VP->AUX_VP    4.422755789720615
+    Attrib VP->VBG_PP    0.023429153356559873
+    Attrib ADVP->RB    0.4047378126051015
+    Attrib Imagability    -0.6665724193669337
+    Attrib Verb Frequency    10.285337091259509
+    Attrib SUBTL Word score    9.144583928348657
+    Attrib Nouns    -3.0307293054997726
+    Attrib Concreteness    -7.834840654486025
+    Attrib VP->VBG    2.235144448347726
+    Attrib VP->AUX    -1.6949182804651286
+    Attrib PP rate    -2.8733179509762246
+    Attrib VP->AUX_ADJP    -7.956831114142656
+    Attrib VP rate    5.13111969234839
+    Attrib NP->DT_NN    -5.670187711480703
+    Attrib Age of acquisition    5.568472355425118
+    Attrib INTJ->UH    -1.3269828991914976
+    Attrib PP proportion    0.7756102879816232
+    Attrib NP->PRP    -5.6674048536915755
+    Attrib Honores statistic    -6.801221296888859
+    Attrib Adverbs    1.7492035554466032
+    Attrib VP->VBD_NP    0.042864409058024744
+    Attrib Word Length    0.9456215040421867
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.565674401384002
+    Attrib Pronoun:noun ratio    2.020061357298742
+    Attrib Light Verb Count    0.666283423832829
+    Attrib Familiarity    1.526302173153432
+    Attrib Cosine cutoff: 0.5    -0.2073781398004628
+    Attrib Inflected verbs    -2.27215961969358
+    Attrib VP->AUX_VP    -1.9281076157877117
+    Attrib VP->VBG_PP    -0.01994704211448002
+    Attrib ADVP->RB    -1.465048112844689
+    Attrib Imagability    -0.9180644488057899
+    Attrib Verb Frequency    0.6995408853703836
+    Attrib SUBTL Word score    -1.2092205012055475
+    Attrib Nouns    -1.1064641958179213
+    Attrib Concreteness    -0.7877148352167043
+    Attrib VP->VBG    3.4163427818055547
+    Attrib VP->AUX    1.3958756478325611
+    Attrib PP rate    0.32108932399250467
+    Attrib VP->AUX_ADJP    0.8628763588467521
+    Attrib VP rate    -0.8316883972812301
+    Attrib NP->DT_NN    -2.9907043068420593
+    Attrib Age of acquisition    0.17469497407685997
+    Attrib INTJ->UH    -2.0835882299965403
+    Attrib PP proportion    3.8259724357018046
+    Attrib NP->PRP    3.126022696680813
+    Attrib Honores statistic    0.43473041249503896
+    Attrib Adverbs    4.118923110281154
+    Attrib VP->VBD_NP    0.002272243895683368
+    Attrib Word Length    -0.9549522908300195
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.3468472423420788
+    Attrib Pronoun:noun ratio    0.9871795654834014
+    Attrib Light Verb Count    -0.4526821691005548
+    Attrib Familiarity    0.1511191898642029
+    Attrib Cosine cutoff: 0.5    -0.598069911839264
+    Attrib Inflected verbs    -0.16161584959222608
+    Attrib VP->AUX_VP    0.0760922720635279
+    Attrib VP->VBG_PP    -0.026489618656096916
+    Attrib ADVP->RB    -0.22398541204008401
+    Attrib Imagability    -0.3342802167155717
+    Attrib Verb Frequency    0.8599356058837014
+    Attrib SUBTL Word score    -1.1923499418876566
+    Attrib Nouns    -0.7323761286198833
+    Attrib Concreteness    -2.142680719489854
+    Attrib VP->VBG    1.257181531059379
+    Attrib VP->AUX    -0.017022491644025573
+    Attrib PP rate    1.021674194958502
+    Attrib VP->AUX_ADJP    -0.2679585023264129
+    Attrib VP rate    -0.3370309169607665
+    Attrib NP->DT_NN    -0.4316293934019429
+    Attrib Age of acquisition    -0.12925400359768296
+    Attrib INTJ->UH    0.7310457610410115
+    Attrib PP proportion    0.3418053924173412
+    Attrib NP->PRP    -0.3969858077101242
+    Attrib Honores statistic    0.7577011156856809
+    Attrib Adverbs    0.36535720024176555
+    Attrib VP->VBD_NP    0.027137651020276196
+    Attrib Word Length    0.4795819489196692
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.0276626263257806
+    Attrib Pronoun:noun ratio    -0.7851750500848528
+    Attrib Light Verb Count    -20.85832639673996
+    Attrib Familiarity    -13.262424632041183
+    Attrib Cosine cutoff: 0.5    -2.2001061734545813
+    Attrib Inflected verbs    0.6286147701919341
+    Attrib VP->AUX_VP    -9.709882924741501
+    Attrib VP->VBG_PP    0.010917412977921273
+    Attrib ADVP->RB    1.4468379092953012
+    Attrib Imagability    2.5162657280878626
+    Attrib Verb Frequency    12.671426997186257
+    Attrib SUBTL Word score    5.200107137660187
+    Attrib Nouns    -3.8465149710386637
+    Attrib Concreteness    -0.9303877704246549
+    Attrib VP->VBG    -11.324946870530106
+    Attrib VP->AUX    3.86268508543954
+    Attrib PP rate    -2.1673798018555694
+    Attrib VP->AUX_ADJP    5.923874884179057
+    Attrib VP rate    -11.228469496045456
+    Attrib NP->DT_NN    -2.7012565338752563
+    Attrib Age of acquisition    -1.0804342527507478
+    Attrib INTJ->UH    3.782666984745824
+    Attrib PP proportion    0.1878182966438936
+    Attrib NP->PRP    -0.21037356791560927
+    Attrib Honores statistic    -1.5821568517815667
+    Attrib Adverbs    11.452068779846723
+    Attrib VP->VBD_NP    1.467448488392739E-4
+    Attrib Word Length    -9.08295867537043
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    4.05049253558764
+    Attrib Pronoun:noun ratio    5.802704854310676
+    Attrib Light Verb Count    -10.695235409651021
+    Attrib Familiarity    -4.745909668822581
+    Attrib Cosine cutoff: 0.5    -6.565376284541018
+    Attrib Inflected verbs    -9.25042642670783
+    Attrib VP->AUX_VP    -0.09389254944158872
+    Attrib VP->VBG_PP    -0.018135149311473676
+    Attrib ADVP->RB    7.107532963744297
+    Attrib Imagability    3.4420654497283025
+    Attrib Verb Frequency    25.09670256628457
+    Attrib SUBTL Word score    0.3655439474218008
+    Attrib Nouns    1.3339089229978724
+    Attrib Concreteness    1.5921505235777733
+    Attrib VP->VBG    7.23838928696959
+    Attrib VP->AUX    -0.9658956247729846
+    Attrib PP rate    6.541244503158699
+    Attrib VP->AUX_ADJP    -9.188765793141277
+    Attrib VP rate    -10.231332375876926
+    Attrib NP->DT_NN    -1.6311089647319101
+    Attrib Age of acquisition    14.509843696032096
+    Attrib INTJ->UH    3.7364769745686566
+    Attrib PP proportion    -4.208573598772428
+    Attrib NP->PRP    1.692765393631213
+    Attrib Honores statistic    2.0465298949268336
+    Attrib Adverbs    -3.6671325549553715
+    Attrib VP->VBD_NP    0.018020574579960855
+    Attrib Word Length    -2.2405525709697005
+Class Control
+    Input
+    Node 0
+Class Dementia
+    Input
+    Node 1
+
+
+Time taken to build model: 5.3 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         899               83.0102 %
+Incorrectly Classified Instances       184               16.9898 %
+Kappa statistic                          0.6591
+Mean absolute error                      0.2116
+Root mean squared error                  0.3548
+Relative absolute error                 42.3587 %
+Root relative squared error             70.9968 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.878    0.221    0.808      0.878    0.842      0.662    0.901     0.892     Control
+                 0.779    0.122    0.858      0.779    0.817      0.662    0.901     0.905     Dementia
+Weighted Avg.    0.830    0.173    0.832      0.830    0.830      0.662    0.901     0.898     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 489  68 |   a = Control
+ 116 410 |   b = Dementia
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         700               64.6353 %
+Incorrectly Classified Instances       383               35.3647 %
+Kappa statistic                          0.2915
+Mean absolute error                      0.3615
+Root mean squared error                  0.5271
+Relative absolute error                 72.3552 %
+Root relative squared error            105.4599 %
+Total Number of Instances             1083     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.671    0.380    0.652      0.671    0.661      0.292    0.711     0.685     Control
+                 0.620    0.329    0.640      0.620    0.630      0.292    0.711     0.720     Dementia
+Weighted Avg.    0.646    0.355    0.646      0.646    0.646      0.292    0.711     0.702     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 374 183 |   a = Control
+ 200 326 |   b = Dementia
+
