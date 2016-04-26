@@ -1,0 +1,147 @@
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                      Class
+Variable                            Control
+===========================================
+Pronoun:noun ratio                   0.0952
+Light Verb Count                     1.4525
+Inflected verbs                     13.7084
+VP->AUX                              24.138
+Cosine cutoff: 0.5                  -1.6988
+Key word: mother                     0.2692
+Age of acquisition                   0.3249
+VP->AUX_VP                           -4.656
+Info unit: girl                      0.5397
+Info unit: woman                     0.3087
+ADVP->RB                         -3808.1936
+Info unit: stool                     1.0235
+Imagability                          -0.016
+Verb Frequency                     -12.3928
+SUBTL Word score                    -0.0004
+Info unit: window                    0.9203
+Nouns                               -0.5463
+Concreteness                        -0.0004
+VP->VBG                             13.4364
+NP->DT_NN                           -8.9579
+Familiarity                          0.0076
+PP rate                             -0.0847
+KEY WORD: cookie                     0.0863
+VP rate                              1.1923
+Key word: stool                      0.1922
+Info unit: dish                     -0.4251
+VP->AUX_ADJP                         7.3492
+INTJ->UH                             1.8685
+Key word: curtain                    0.0001
+PP proportion                       -0.2319
+Key word: window                    -0.2531
+NP->PRP                            -38.6165
+Honores statistic                         0
+Adverbs                             -2.4281
+KEY WORD: sink                       0.3251
+Info unit: cookie                   -0.3866
+Info unit: curtain                  -0.0141
+Word Length                          0.9784
+Intercept                           -1.1139
+
+
+Odds Ratios...
+                                      Class
+Variable                            Control
+===========================================
+Pronoun:noun ratio                   1.0999
+Light Verb Count                     4.2739
+Inflected verbs                 898462.3236
+VP->AUX               3.0408095498103855E10
+Cosine cutoff: 0.5                   0.1829
+Key word: mother                     1.3089
+Age of acquisition                   1.3839
+VP->AUX_VP                           0.0095
+Info unit: girl                      1.7156
+Info unit: woman                     1.3617
+ADVP->RB                                  0
+Info unit: stool                      2.783
+Imagability                          0.9841
+Verb Frequency                            0
+SUBTL Word score                     0.9996
+Info unit: window                    2.5101
+Nouns                                0.5791
+Concreteness                         0.9996
+VP->VBG                         684446.8636
+NP->DT_NN                            0.0001
+Familiarity                          1.0077
+PP rate                              0.9188
+KEY WORD: cookie                     1.0901
+VP rate                              3.2947
+Key word: stool                      1.2119
+Info unit: dish                      0.6537
+VP->AUX_ADJP                      1554.9066
+INTJ->UH                             6.4783
+Key word: curtain                    1.0001
+PP proportion                         0.793
+Key word: window                     0.7764
+NP->PRP                                   0
+Honores statistic                         1
+Adverbs                              0.0882
+KEY WORD: sink                       1.3841
+Info unit: cookie                    0.6794
+Info unit: curtain                    0.986
+Word Length                          2.6603
+
+
+Time taken to build model: 0.43 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         571               75.3298 %
+Incorrectly Classified Instances       187               24.6702 %
+Kappa statistic                          0.504 
+Mean absolute error                      0.335 
+Root mean squared error                  0.4095
+Relative absolute error                 67.1274 %
+Root relative squared error             81.9739 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.803    0.300    0.744      0.803    0.772      0.506    0.824     0.806     Control
+                 0.700    0.197    0.765      0.700    0.731      0.506    0.824     0.842     Dementia
+Weighted Avg.    0.753    0.251    0.754      0.753    0.752      0.506    0.824     0.823     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 317  78 |   a = Control
+ 109 254 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         237               72.9231 %
+Incorrectly Classified Instances        88               27.0769 %
+Kappa statistic                          0.4586
+Mean absolute error                      0.3494
+Root mean squared error                  0.4222
+Relative absolute error                 69.8675 %
+Root relative squared error             84.353  %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.784    0.325    0.706      0.784    0.743      0.461    0.806     0.779     Control
+                 0.675    0.216    0.759      0.675    0.714      0.461    0.806     0.808     Dementia
+Weighted Avg.    0.729    0.270    0.732      0.729    0.728      0.461    0.806     0.793     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 127  35 |   a = Control
+  53 110 |   b = Dementia
+

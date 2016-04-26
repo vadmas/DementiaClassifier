@@ -1,0 +1,109 @@
+
+Bayes Network Classifier
+Using ADTree
+#attributes=41 #classindex=40
+Network structure (nodes followed by parents)
+Pronoun:noun ratio(2): class 
+Light Verb Count(1): class 
+Inflected verbs(1): class 
+VP->AUX(1): class 
+Cosine cutoff: 0.5(1): class 
+Key word: mother(1): class 
+Age of acquisition(2): class 
+VP->AUX_VP(1): class 
+Info unit: girl(1): class 
+Info unit: woman(1): class 
+VP->VBG_PP(1): class 
+ADVP->RB(1): class 
+Info unit: stool(2): class 
+Imagability(1): class 
+Verb Frequency(2): class 
+SUBTL Word score(2): class 
+Info unit: window(2): class 
+Nouns(1): class 
+Concreteness(1): class 
+VP->VBG(1): class 
+NP->DT_NN(1): class 
+Familiarity(1): class 
+PP rate(1): class 
+KEY WORD: cookie(1): class 
+VP rate(1): class 
+Key word: stool(2): class 
+Info unit: dish(1): class 
+VP->AUX_ADJP(1): class 
+INTJ->UH(1): class 
+Key word: curtain(1): class 
+PP proportion(1): class 
+Key word: window(2): class 
+NP->PRP(2): class 
+Honores statistic(1): class 
+Adverbs(1): class 
+KEY WORD: sink(2): class 
+VP->VBD_NP(1): class 
+Info unit: cookie(1): class 
+Info unit: curtain(1): class 
+Word Length(2): class 
+class(2): 
+LogScore Bayes: -4794.936464650258
+LogScore BDeu: -4813.833369503944
+LogScore MDL: -4820.531913790932
+LogScore ENTROPY: -4744.279054856045
+LogScore AIC: -4767.279054856045
+
+
+Time taken to build model: 0.32 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         556               73.3509 %
+Incorrectly Classified Instances       202               26.6491 %
+Kappa statistic                          0.4632
+Mean absolute error                      0.3252
+Root mean squared error                  0.4464
+Relative absolute error                 65.1578 %
+Root relative squared error             89.363  %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.805    0.344    0.718      0.805    0.759      0.467    0.772     0.722     Control
+                 0.656    0.195    0.756      0.656    0.702      0.467    0.772     0.787     Dementia
+Weighted Avg.    0.734    0.273    0.736      0.734    0.732      0.467    0.772     0.753     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 318  77 |   a = Control
+ 125 238 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         229               70.4615 %
+Incorrectly Classified Instances        96               29.5385 %
+Kappa statistic                          0.4094
+Mean absolute error                      0.3367
+Root mean squared error                  0.4502
+Relative absolute error                 67.3369 %
+Root relative squared error             89.9484 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.741    0.331    0.690      0.741    0.714      0.410    0.777     0.739     Control
+                 0.669    0.259    0.722      0.669    0.694      0.410    0.777     0.795     Dementia
+Weighted Avg.    0.705    0.295    0.706      0.705    0.704      0.410    0.777     0.767     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 120  42 |   a = Control
+  54 109 |   b = Dementia
+

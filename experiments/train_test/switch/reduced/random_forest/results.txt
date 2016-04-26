@@ -1,0 +1,63 @@
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.81 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         758              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.1477
+Root mean squared error                  0.1647
+Relative absolute error                 29.5988 %
+Root relative squared error             32.9668 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Control
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Dementia
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 395   0 |   a = Control
+   0 363 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         221               68      %
+Incorrectly Classified Instances       104               32      %
+Kappa statistic                          0.3605
+Mean absolute error                      0.4051
+Root mean squared error                  0.4444
+Relative absolute error                 81.0172 %
+Root relative squared error             88.784  %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.809    0.448    0.642      0.809    0.716      0.373    0.770     0.757     Control
+                 0.552    0.191    0.744      0.552    0.634      0.373    0.770     0.790     Dementia
+Weighted Avg.    0.680    0.319    0.693      0.680    0.675      0.373    0.770     0.774     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 131  31 |   a = Control
+  73  90 |   b = Dementia
+

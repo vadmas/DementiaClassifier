@@ -1,0 +1,335 @@
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                    Class
+Variable                                          Control
+=========================================================
+NAC                                           -48473.4631
+NumSubordinateConjunctions                        14.5808
+MeanLengthOfSentence                               0.1486
+VP->AUX                                          -11.1371
+RatioCoordinate                                    1.1752
+binaryIUSubjectGirl                                0.9647
+PRN                                               74.4208
+CN/C                                               0.0318
+keywordIUObjectWindow                             -0.6608
+CT/T                                               -0.259
+VP->VBG                                           24.0901
+AvgPPTypeLengthNonEmbedded                         0.1717
+FRAG                                             -46.8887
+keywordIUObjectCupboard                           -0.4309
+keywordIUSubjectGirl                              -0.4267
+keywordIUObjectCurtains                            0.1619
+T                                                 -0.0108
+X                                                 -3.6951
+AvgPPTypeLengthEmbedded                            0.2914
+RatioVerb                                          0.0709
+NumDeterminers                                     1.7654
+VP->AUX_ADJP                                       3.7708
+MATTR                                              -1.728
+getAoaScore                                        0.5512
+AvgNPTypeLengthNonEmbedded                         0.0043
+T/S                                                -0.036
+CP/C                                               3.3233
+VPProportion                                       0.0076
+NP->PRP                                          -47.0893
+binaryIUSubjectWoman                               0.4658
+CP/T                                              -0.2608
+binaryIUObjectCookie                               -0.304
+binaryIUActionBoyTaking                            0.0028
+DC/T                                              -0.2236
+keywordIUPlaceExterior                            -1.5394
+proportion_below_threshold_0.3                     0.9582
+proportion_below_threshold_0.5                   -14.0113
+tree_height                                       -4.3025
+keywordIUObjectWater                               0.3812
+VP->AUX_VP                                        -8.5873
+PP                                                25.7746
+PPTypeRate                                        -1.6997
+C/T                                               -0.0925
+binaryIUSubjectBoy                                -0.4235
+HonoreStatistic                                   -0.0001
+LST                                              432.0163
+keywordIUObjectDishes                             -0.0204
+NumInflectedVerbs                                 18.9297
+binaryIUObjectDishcloth                           -5.3454
+C                                                  0.2808
+keywordIUObjectSink                                 0.118
+getConcretenessScore                                0.001
+getImagabilityScore                               -0.0109
+keywordIUPlaceKitchen                             -0.5333
+AvgVPTypeLengthNonEmbedded                        -0.0339
+S                                                   -0.38
+W                                                   0.003
+keywordIUObjectStool                               0.0286
+binaryIUActionWaterOverflowing                     0.4002
+ADVP                                             -10.9855
+avg_avg_cos_dist                                 -39.7886
+AvgVPTypeLengthEmbedded                            0.1772
+binaryIUObjectSink                                 0.3115
+keywordIUSubjectBoy                                0.0493
+keywordIUObjectDishcloth                           4.3266
+DC/C                                               1.8039
+binaryIUObjectWindow                               1.4047
+binaryIUObjectWater                               -0.1944
+binaryIUObjectJar                                  0.4332
+MeanWordLength                                     1.2857
+ROOT->FRAG                                        60.2615
+binaryIUActionWomanDryingWashing                   0.3569
+NumAdjectives                                     -8.6029
+VPTypeRate                                        -2.6267
+PRT                                                0.4026
+RRC                                            -2455.4852
+NX                                               216.1472
+WHPP                                             -38.8809
+NP                                                -10.716
+keywordIUObjectCookie                              0.3232
+CN                                                -0.0616
+keywordIUObjectPlate                               0.8782
+NumVerbs                                         -22.3816
+DisfluencyFrequency                                 6.296
+binaryIUObjectPlate                               -0.6143
+getSUBTLWordScores                                 0.0003
+CP                                                -0.2017
+CT                                                -0.0671
+keywordIUObjectJar                                -0.6281
+getFamiliarityScore                                0.0063
+PProportion                                       -8.3035
+binaryIUObjectStool                                1.0472
+RatioPronoun                                       0.6356
+NumCoordinateConjunctions                        -22.8917
+NumInterjections                                   3.0688
+ADJP                                              32.9545
+DC                                                -0.2485
+CONJP                                            293.9308
+binaryIUObjectCurtains                             0.0825
+VP/T                                              -0.0328
+BrunetIndex                                         4.975
+binaryIUObjectCupboard                             0.7648
+keywordIUSubjectWoman                              0.5471
+UCP                                             -196.0511
+ADVP->RB                                       -4912.6626
+NumAdverbs                                        -1.9584
+binaryIUActionStoolFalling                         0.9839
+binaryIUObjectDishes                              -0.7021
+AvgNPTypeLengthEmbedded                            -0.375
+TotalNumberOfWords                                  0.028
+MLC                                                -0.021
+NumNouns                                          -6.4588
+C/S                                                0.1054
+NPTypeRate                                         0.1037
+INTJ                                            -121.5173
+VP                                                 20.238
+INTJ->UH                                         132.7022
+binaryIUPlaceKitchen                                0.935
+NPProportion                                       0.6171
+MLT                                                0.0154
+getLightVerbCount                                  3.7043
+binaryIUPlaceExterior                               1.812
+RatioNoun                                         -0.0515
+QP                                               144.4558
+MLS                                               -0.0358
+NP->DT_NN                                         -5.3346
+NumberOfNID                                     1130.0803
+WHADJP                                          -127.0447
+WHNP                                              38.9711
+TTR                                                6.4986
+proportion_below_threshold_0                      -3.7072
+CN/T                                               0.2239
+Intercept                                          6.1613
+
+
+Odds Ratios...
+                                                    Class
+Variable                                          Control
+=========================================================
+NAC                                                     0
+NumSubordinateConjunctions                   2149634.5807
+MeanLengthOfSentence                               1.1602
+VP->AUX                                                 0
+RatioCoordinate                                    3.2389
+binaryIUSubjectGirl                                2.6239
+PRN                                 2.0919709039743866E32
+CN/C                                               1.0324
+keywordIUObjectWindow                              0.5164
+CT/T                                               0.7718
+VP->VBG                              2.898587557325211E10
+AvgPPTypeLengthNonEmbedded                         1.1874
+FRAG                                                    0
+keywordIUObjectCupboard                            0.6499
+keywordIUSubjectGirl                               0.6526
+keywordIUObjectCurtains                            1.1757
+T                                                  0.9893
+X                                                  0.0248
+AvgPPTypeLengthEmbedded                            1.3384
+RatioVerb                                          1.0734
+NumDeterminers                                     5.8437
+VP->AUX_ADJP                                      43.4137
+MATTR                                              0.1776
+getAoaScore                                        1.7354
+AvgNPTypeLengthNonEmbedded                         1.0043
+T/S                                                0.9646
+CP/C                                              27.7515
+VPProportion                                       1.0076
+NP->PRP                                                 0
+binaryIUSubjectWoman                               1.5933
+CP/T                                               0.7704
+binaryIUObjectCookie                               0.7379
+binaryIUActionBoyTaking                            1.0028
+DC/T                                               0.7997
+keywordIUPlaceExterior                             0.2145
+proportion_below_threshold_0.3                      2.607
+proportion_below_threshold_0.5                          0
+tree_height                                        0.0135
+keywordIUObjectWater                                1.464
+VP->AUX_VP                                         0.0002
+PP                                  1.5622381341721503E11
+PPTypeRate                                         0.1827
+C/T                                                0.9117
+binaryIUSubjectBoy                                 0.6547
+HonoreStatistic                                    0.9999
+LST                                 4.190847755716992E187
+keywordIUObjectDishes                              0.9798
+NumInflectedVerbs                          166365096.1241
+binaryIUObjectDishcloth                            0.0048
+C                                                  1.3242
+keywordIUObjectSink                                1.1252
+getConcretenessScore                                1.001
+getImagabilityScore                                0.9891
+keywordIUPlaceKitchen                              0.5867
+AvgVPTypeLengthNonEmbedded                         0.9667
+S                                                  0.6839
+W                                                   1.003
+keywordIUObjectStool                                1.029
+binaryIUActionWaterOverflowing                     1.4921
+ADVP                                                    0
+avg_avg_cos_dist                                        0
+AvgVPTypeLengthEmbedded                            1.1938
+binaryIUObjectSink                                 1.3654
+keywordIUSubjectBoy                                1.0506
+keywordIUObjectDishcloth                          75.6843
+DC/C                                               6.0732
+binaryIUObjectWindow                               4.0741
+binaryIUObjectWater                                0.8234
+binaryIUObjectJar                                  1.5422
+MeanWordLength                                     3.6173
+ROOT->FRAG                          1.4833387203796139E26
+binaryIUActionWomanDryingWashing                   1.4288
+NumAdjectives                                      0.0002
+VPTypeRate                                         0.0723
+PRT                                                1.4957
+RRC                                                     0
+NX                                   7.439430608341707E93
+WHPP                                                    0
+NP                                                      0
+keywordIUObjectCookie                              1.3816
+CN                                                 0.9403
+keywordIUObjectPlate                               2.4066
+NumVerbs                                                0
+DisfluencyFrequency                               542.379
+binaryIUObjectPlate                                 0.541
+getSUBTLWordScores                                 1.0003
+CP                                                 0.8174
+CT                                                 0.9351
+keywordIUObjectJar                                 0.5336
+getFamiliarityScore                                1.0063
+PProportion                                        0.0002
+binaryIUObjectStool                                2.8497
+RatioPronoun                                       1.8881
+NumCoordinateConjunctions                               0
+NumInterjections                                  21.5158
+ADJP                                2.0509214211983866E14
+DC                                                   0.78
+CONJP                                4.49279754250102E127
+binaryIUObjectCurtains                              1.086
+VP/T                                               0.9678
+BrunetIndex                                      144.7467
+binaryIUObjectCupboard                             2.1486
+keywordIUSubjectWoman                              1.7282
+UCP                                                     0
+ADVP->RB                                                0
+NumAdverbs                                         0.1411
+binaryIUActionStoolFalling                         2.6748
+binaryIUObjectDishes                               0.4955
+AvgNPTypeLengthEmbedded                            0.6873
+TotalNumberOfWords                                 1.0284
+MLC                                                0.9793
+NumNouns                                           0.0016
+C/S                                                1.1111
+NPTypeRate                                         1.1093
+INTJ                                                    0
+VP                                         615545419.4331
+INTJ->UH                             4.284024807614455E57
+binaryIUPlaceKitchen                               2.5472
+NPProportion                                       1.8536
+MLT                                                1.0155
+getLightVerbCount                                 40.6221
+binaryIUPlaceExterior                              6.1226
+RatioNoun                                          0.9498
+QP                                   5.449335925535161E62
+MLS                                                0.9649
+NP->DT_NN                                          0.0048
+NumberOfNID                                      Infinity
+WHADJP                                                  0
+WHNP                                 8.412656464670288E16
+TTR                                              664.1958
+proportion_below_threshold_0                       0.0245
+CN/T                                               1.2509
+
+
+Time taken to build model: 0.72 seconds
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         632               83.3773 %
+Incorrectly Classified Instances       126               16.6227 %
+Kappa statistic                          0.6673
+Mean absolute error                      0.2339
+Root mean squared error                  0.341 
+Relative absolute error                 46.8385 %
+Root relative squared error             68.2308 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.166    0.824      0.833    0.829      0.667    0.917     0.909     Control
+                 0.834    0.167    0.843      0.834    0.838      0.667    0.917     0.925     Dementia
+Weighted Avg.    0.834    0.166    0.834      0.834    0.834      0.667    0.917     0.918     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 305  61 |   a = Control
+  65 327 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         233               71.6923 %
+Incorrectly Classified Instances        92               28.3077 %
+Kappa statistic                          0.4198
+Mean absolute error                      0.3124
+Root mean squared error                  0.4424
+Relative absolute error                 62.1073 %
+Root relative squared error             87.9103 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.743    0.321    0.768      0.743    0.755      0.420    0.798     0.837     Control
+                 0.679    0.257    0.650      0.679    0.664      0.420    0.798     0.706     Dementia
+Weighted Avg.    0.717    0.294    0.719      0.717    0.718      0.420    0.798     0.783     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 142  49 |   a = Control
+  43  91 |   b = Dementia
+

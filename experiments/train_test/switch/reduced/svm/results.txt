@@ -1,0 +1,99 @@
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Control, Dementia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9848 * (normalized) Pronoun:noun ratio
+ +       0.1221 * (normalized) Light Verb Count
+ +      -1.6063 * (normalized) Familiarity
+ +      -0.2508 * (normalized) Cosine cutoff: 0.5
+ +      -1.5665 * (normalized) Inflected verbs
+ +      -0.301  * (normalized) VP->AUX_VP
+ +       0.574  * (normalized) ADVP->RB
+ +       0.9111 * (normalized) Imagability
+ +       5.5277 * (normalized) Verb Frequency
+ +       0.7251 * (normalized) SUBTL Word score
+ +      -1.3057 * (normalized) Nouns
+ +      -0.0138 * (normalized) Concreteness
+ +      -1.0603 * (normalized) VP->VBG
+ +      -0.8055 * (normalized) VP->AUX
+ +      -0.0872 * (normalized) PP rate
+ +      -1.3277 * (normalized) VP->AUX_ADJP
+ +       0.6531 * (normalized) VP rate
+ +      -0.5294 * (normalized) NP->DT_NN
+ +      -2.9532 * (normalized) Age of acquisition
+ +       0.553  * (normalized) INTJ->UH
+ +       0.2896 * (normalized) PP proportion
+ +       2.7687 * (normalized) NP->PRP
+ +       0.3344 * (normalized) Honores statistic
+ +      -0.4254 * (normalized) Adverbs
+ +      -1.8101 * (normalized) Word Length
+ +       4.0411
+
+Number of kernel evaluations: 39598 (72.611% cached)
+
+
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         543               71.6359 %
+Incorrectly Classified Instances       215               28.3641 %
+Kappa statistic                          0.427 
+Mean absolute error                      0.2836
+Root mean squared error                  0.5326
+Relative absolute error                 56.8292 %
+Root relative squared error            106.611  %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.820    0.397    0.692      0.820    0.751      0.435    0.712     0.662     Control
+                 0.603    0.180    0.755      0.603    0.671      0.435    0.712     0.646     Dementia
+Weighted Avg.    0.716    0.293    0.722      0.716    0.713      0.435    0.712     0.654     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 324  71 |   a = Control
+ 144 219 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         216               66.4615 %
+Incorrectly Classified Instances       109               33.5385 %
+Kappa statistic                          0.3299
+Mean absolute error                      0.3354
+Root mean squared error                  0.5791
+Relative absolute error                 67.0682 %
+Root relative squared error            115.7073 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.821    0.491    0.624      0.821    0.709      0.347    0.665     0.602     Control
+                 0.509    0.179    0.741      0.509    0.604      0.347    0.665     0.624     Dementia
+Weighted Avg.    0.665    0.334    0.683      0.665    0.656      0.347    0.665     0.613     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 133  29 |   a = Control
+  80  83 |   b = Dementia
+

@@ -1,0 +1,121 @@
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                Class
+Variable                      Control
+=====================================
+Pronoun:noun ratio             0.7044
+Light Verb Count               0.0461
+Familiarity                    0.0133
+Cosine cutoff: 0.5            -1.3958
+Inflected verbs                9.7466
+VP->AUX_VP                     0.0876
+ADVP->RB                    -186.7788
+Imagability                   -0.0067
+Verb Frequency               -10.4167
+SUBTL Word score              -0.0003
+Nouns                          0.5455
+Concreteness                  -0.0004
+VP->VBG                       11.5226
+VP->AUX                         22.55
+PP rate                       -0.5759
+VP->AUX_ADJP                   4.2414
+VP rate                        0.8678
+NP->DT_NN                      5.9425
+Age of acquisition             1.2042
+INTJ->UH                       1.8164
+PP proportion                 -0.0724
+NP->PRP                      -53.2353
+Honores statistic             -0.0002
+Adverbs                        0.2558
+Word Length                    1.0905
+Intercept                    -11.5018
+
+
+Odds Ratios...
+                                Class
+Variable                      Control
+=====================================
+Pronoun:noun ratio             2.0226
+Light Verb Count               1.0472
+Familiarity                    1.0134
+Cosine cutoff: 0.5             0.2476
+Inflected verbs            17095.8817
+VP->AUX_VP                     1.0915
+ADVP->RB                            0
+Imagability                    0.9933
+Verb Frequency                      0
+SUBTL Word score               0.9997
+Nouns                          1.7254
+Concreteness                   0.9996
+VP->VBG                   100976.5996
+VP->AUX               6213558970.9044
+PP rate                        0.5622
+VP->AUX_ADJP                  69.5074
+VP rate                        2.3816
+NP->DT_NN                     380.879
+Age of acquisition             3.3341
+INTJ->UH                       6.1497
+PP proportion                  0.9302
+NP->PRP                             0
+Honores statistic              0.9998
+Adverbs                        1.2915
+Word Length                    2.9756
+
+
+Time taken to build model: 0.29 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         553               72.9551 %
+Incorrectly Classified Instances       205               27.0449 %
+Kappa statistic                          0.4535
+Mean absolute error                      0.3727
+Root mean squared error                  0.4316
+Relative absolute error                 74.8173 %
+Root relative squared error             86.4894 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.796    0.346    0.722      0.796    0.757      0.456    0.783     0.782     Control
+                 0.654    0.204    0.740      0.654    0.694      0.456    0.783     0.790     Dementia
+Weighted Avg.    0.730    0.279    0.730      0.730    0.728      0.456    0.783     0.786     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 320  82 |   a = Control
+ 123 233 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         222               68.3077 %
+Incorrectly Classified Instances       103               31.6923 %
+Kappa statistic                          0.3689
+Mean absolute error                      0.3824
+Root mean squared error                  0.4467
+Relative absolute error                 76.2598 %
+Root relative squared error             88.9256 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.742    0.371    0.646      0.742    0.691      0.373    0.759     0.717     Control
+                 0.629    0.258    0.728      0.629    0.675      0.373    0.759     0.792     Dementia
+Weighted Avg.    0.683    0.312    0.689      0.683    0.683      0.373    0.759     0.756     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 115  40 |   a = Control
+  63 107 |   b = Dementia
+

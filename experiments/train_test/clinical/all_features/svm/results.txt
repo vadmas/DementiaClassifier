@@ -1,0 +1,204 @@
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Control, Dementia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.44   * (normalized) NAC
+ +      -0.8227 * (normalized) NumSubordinateConjunctions
+ +      -0.1654 * (normalized) MeanLengthOfSentence
+ +       0.3552 * (normalized) VP->AUX
+ +       0.2493 * (normalized) RatioCoordinate
+ +      -0.5302 * (normalized) binaryIUSubjectGirl
+ +       0.1881 * (normalized) PRN
+ +      -0.2257 * (normalized) CN/C
+ +       0.8153 * (normalized) keywordIUObjectWindow
+ +      -0.3467 * (normalized) CT/T
+ +      -0.7495 * (normalized) VP->VBG
+ +      -0.7145 * (normalized) AvgPPTypeLengthNonEmbedded
+ +       0.4569 * (normalized) FRAG
+ +       0.6015 * (normalized) keywordIUObjectCupboard
+ +       0.9413 * (normalized) keywordIUSubjectGirl
+ +       0.1071 * (normalized) keywordIUObjectCurtains
+ +       0.5894 * (normalized) T
+ +       0.2003 * (normalized) X
+ +      -0.1358 * (normalized) AvgPPTypeLengthEmbedded
+ +       0.7558 * (normalized) RatioVerb
+ +      -0.0531 * (normalized) NumDeterminers
+ +      -0.5972 * (normalized) VP->AUX_ADJP
+ +      -0.473  * (normalized) MATTR
+ +      -1.5992 * (normalized) getAoaScore
+ +       0.1201 * (normalized) AvgNPTypeLengthNonEmbedded
+ +       0.4752 * (normalized) T/S
+ +      -0.8005 * (normalized) CP/C
+ +       0.5486 * (normalized) VPProportion
+ +       1.6545 * (normalized) NP->PRP
+ +      -0.0635 * (normalized) binaryIUSubjectWoman
+ +      -0.4095 * (normalized) CP/T
+ +      -0.1331 * (normalized) binaryIUObjectCookie
+ +      -0.1131 * (normalized) binaryIUActionBoyTaking
+ +       0.6976 * (normalized) DC/T
+ +       1.3774 * (normalized) keywordIUPlaceExterior
+ +      -0.6521 * (normalized) proportion_below_threshold_0.3
+ +       0.1898 * (normalized) proportion_below_threshold_0.5
+ +       1.225  * (normalized) tree_height
+ +      -0.1611 * (normalized) keywordIUObjectWater
+ +      -0.1911 * (normalized) VP->AUX_VP
+ +      -0.6551 * (normalized) PP
+ +       0.6911 * (normalized) PPTypeRate
+ +      -0.1674 * (normalized) C/T
+ +       0.0316 * (normalized) binaryIUSubjectBoy
+ +       0.0495 * (normalized) HonoreStatistic
+ +      -0.5683 * (normalized) LST
+ +       0.3106 * (normalized) keywordIUObjectDishes
+ +      -0.1765 * (normalized) NumInflectedVerbs
+ +       0.7453 * (normalized) binaryIUObjectDishcloth
+ +      -1.0166 * (normalized) C
+ +       0.2867 * (normalized) keywordIUObjectSink
+ +      -0.1739 * (normalized) getConcretenessScore
+ +       0.8779 * (normalized) getImagabilityScore
+ +       0.1031 * (normalized) keywordIUPlaceKitchen
+ +       0.1862 * (normalized) AvgVPTypeLengthNonEmbedded
+ +       0.8332 * (normalized) S
+ +      -0.962  * (normalized) W
+ +      -0.6446 * (normalized) keywordIUObjectStool
+ +      -0.2386 * (normalized) binaryIUActionWaterOverflowing
+ +       0.4251 * (normalized) ADVP
+ +       1.3261 * (normalized) avg_avg_cos_dist
+ +      -0.1432 * (normalized) AvgVPTypeLengthEmbedded
+ +      -0.2637 * (normalized) binaryIUObjectSink
+ +       0.1084 * (normalized) keywordIUSubjectBoy
+ +      -0.6362 * (normalized) keywordIUObjectDishcloth
+ +       0.0538 * (normalized) DC/C
+ +      -0.329  * (normalized) binaryIUObjectWindow
+ +       0.1683 * (normalized) binaryIUObjectWater
+ +       0.1659 * (normalized) binaryIUObjectJar
+ +      -1.7272 * (normalized) MeanWordLength
+ +      -0.0766 * (normalized) ROOT->FRAG
+ +      -0.1863 * (normalized) binaryIUActionWomanDryingWashing
+ +       0.2799 * (normalized) NumAdjectives
+ +      -0.0822 * (normalized) VPTypeRate
+ +      -0.5837 * (normalized) PRT
+ +      -0.5597 * (normalized) NX
+ +       0.4254 * (normalized) WHPP
+ +       0.7996 * (normalized) NP
+ +      -1.0737 * (normalized) keywordIUObjectCookie
+ +      -0.6448 * (normalized) CN
+ +      -0.5529 * (normalized) keywordIUObjectPlate
+ +       4.0109 * (normalized) NumVerbs
+ +      -0.3566 * (normalized) DisfluencyFrequency
+ +       0.2454 * (normalized) binaryIUObjectPlate
+ +      -0.1221 * (normalized) getSUBTLWordScores
+ +       0.7829 * (normalized) CP
+ +       0.7571 * (normalized) CT
+ +       1.0006 * (normalized) keywordIUObjectJar
+ +      -0.8369 * (normalized) getFamiliarityScore
+ +       0.1231 * (normalized) PProportion
+ +      -0.3004 * (normalized) binaryIUObjectStool
+ +       0.1862 * (normalized) RatioPronoun
+ +       1.1829 * (normalized) NumCoordinateConjunctions
+ +      -0.4799 * (normalized) NumInterjections
+ +      -1.2074 * (normalized) ADJP
+ +       0.3609 * (normalized) DC
+ +       0.1985 * (normalized) CONJP
+ +      -0.2932 * (normalized) binaryIUObjectCurtains
+ +       0.3963 * (normalized) VP/T
+ +      -1.1922 * (normalized) BrunetIndex
+ +      -0.2377 * (normalized) binaryIUObjectCupboard
+ +      -1.5553 * (normalized) keywordIUSubjectWoman
+ +       0.8503 * (normalized) UCP
+ +       0.926  * (normalized) ADVP->RB
+ +      -0.0193 * (normalized) NumAdverbs
+ +      -0.7063 * (normalized) binaryIUActionStoolFalling
+ +       0.146  * (normalized) binaryIUObjectDishes
+ +       0.58   * (normalized) AvgNPTypeLengthEmbedded
+ +      -0.4567 * (normalized) TotalNumberOfWords
+ +      -0.2758 * (normalized) MLC
+ +       0.0468 * (normalized) NumNouns
+ +       0.2835 * (normalized) C/S
+ +       0.1224 * (normalized) NPTypeRate
+ +       0.035  * (normalized) INTJ
+ +      -0.1715 * (normalized) VP
+ +      -0.2094 * (normalized) INTJ->UH
+ +      -0.4175 * (normalized) binaryIUPlaceKitchen
+ +       0.522  * (normalized) NPProportion
+ +      -0.2931 * (normalized) MLT
+ +      -0.1649 * (normalized) getLightVerbCount
+ +      -0.5984 * (normalized) binaryIUPlaceExterior
+ +       0.7135 * (normalized) RatioNoun
+ +      -0.4438 * (normalized) QP
+ +       0.3726 * (normalized) MLS
+ +       0.95   * (normalized) NP->DT_NN
+ +       0.4819 * (normalized) WHADJP
+ +       0.051  * (normalized) WHNP
+ +      -0.1242 * (normalized) TTR
+ +      -0.7892 * (normalized) proportion_below_threshold_0
+ +      -0.4419 * (normalized) CN/T
+ +       2.6929
+
+Number of kernel evaluations: 253401 (91.256% cached)
+
+
+
+Time taken to build model: 1.19 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         608               80.2111 %
+Incorrectly Classified Instances       150               19.7889 %
+Kappa statistic                          0.6045
+Mean absolute error                      0.1979
+Root mean squared error                  0.4448
+Relative absolute error                 39.6243 %
+Root relative squared error             89.0219 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.825    0.219    0.778      0.825    0.801      0.606    0.803     0.727     Control
+                 0.781    0.175    0.827      0.781    0.803      0.606    0.803     0.759     Dementia
+Weighted Avg.    0.802    0.196    0.804      0.802    0.802      0.606    0.803     0.743     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 302  64 |   a = Control
+  86 306 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         252               77.5385 %
+Incorrectly Classified Instances        73               22.4615 %
+Kappa statistic                          0.536 
+Mean absolute error                      0.2246
+Root mean squared error                  0.4739
+Relative absolute error                 44.6551 %
+Root relative squared error             94.1691 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.812    0.276    0.807      0.812    0.809      0.536    0.768     0.766     Control
+                 0.724    0.188    0.729      0.724    0.727      0.536    0.768     0.642     Dementia
+Weighted Avg.    0.775    0.240    0.775      0.775    0.775      0.536    0.768     0.715     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 155  36 |   a = Control
+  37  97 |   b = Dementia
+

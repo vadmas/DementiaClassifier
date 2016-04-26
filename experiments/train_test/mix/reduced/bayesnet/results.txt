@@ -1,0 +1,96 @@
+
+Bayes Network Classifier
+Using ADTree
+#attributes=28 #classindex=27
+Network structure (nodes followed by parents)
+Pronoun:noun ratio(2): class 
+Light Verb Count(1): class 
+Familiarity(1): class 
+Cosine cutoff: 0.5(1): class 
+Inflected verbs(1): class 
+VP->AUX_VP(1): class 
+VP->VBG_PP(1): class 
+ADVP->RB(1): class 
+Imagability(1): class 
+Verb Frequency(2): class 
+SUBTL Word score(2): class 
+Nouns(1): class 
+Concreteness(1): class 
+VP->VBG(1): class 
+VP->AUX(1): class 
+PP rate(1): class 
+VP->AUX_ADJP(1): class 
+VP rate(2): class 
+NP->DT_NN(1): class 
+Age of acquisition(2): class 
+INTJ->UH(1): class 
+PP proportion(1): class 
+NP->PRP(2): class 
+Honores statistic(1): class 
+Adverbs(1): class 
+VP->VBD_NP(1): class 
+Word Length(2): class 
+class(2): 
+LogScore Bayes: -3232.6010812635163
+LogScore BDeu: -3244.626384352225
+LogScore MDL: -3249.6672321460806
+LogScore ENTROPY: -3199.9371067537627
+LogScore AIC: -3214.9371067537627
+
+
+Time taken to build model: 0.2 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         526               69.3931 %
+Incorrectly Classified Instances       232               30.6069 %
+Kappa statistic                          0.3834
+Mean absolute error                      0.3579
+Root mean squared error                  0.449 
+Relative absolute error                 71.8457 %
+Root relative squared error             89.9659 %
+Total Number of Instances              758     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.739    0.357    0.700      0.739    0.719      0.384    0.762     0.728     Control
+                 0.643    0.261    0.686      0.643    0.664      0.384    0.762     0.769     Dementia
+Weighted Avg.    0.694    0.312    0.694      0.694    0.693      0.384    0.762     0.747     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 297 105 |   a = Control
+ 127 229 |   b = Dementia
+
+
+=== Error on test data ===
+
+Correctly Classified Instances         225               69.2308 %
+Incorrectly Classified Instances       100               30.7692 %
+Kappa statistic                          0.3882
+Mean absolute error                      0.3719
+Root mean squared error                  0.4688
+Relative absolute error                 74.1706 %
+Root relative squared error             93.3226 %
+Total Number of Instances              325     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.768    0.376    0.650      0.768    0.704      0.394    0.730     0.647     Control
+                 0.624    0.232    0.746      0.624    0.679      0.394    0.730     0.760     Dementia
+Weighted Avg.    0.692    0.301    0.701      0.692    0.691      0.394    0.730     0.706     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 119  36 |   a = Control
+  64 106 |   b = Dementia
+
