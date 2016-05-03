@@ -1,0 +1,4 @@
+Average number of utterances per interview
+------------------------------------------
+Dementia: 3.44
+Control: 2.74

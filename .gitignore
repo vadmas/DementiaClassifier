@@ -68,7 +68,10 @@ venv/
 .DS_Store
 
 #data
-data
+#data
+
+#Weka
+weka-3-8-0/
 
 #stanford
 stanford/
