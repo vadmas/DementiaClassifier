@@ -185,43 +185,49 @@ def train_clinical_test_clinical_fraser_features(clinical_samples):
     make_arff_file(file_name, samples)
 
 
-def train_all_test_all_fraser_mix(all_samples):
-    file_name = "all_all_fraser_mix"
-    # Comb the features in clinical_samples to match the ones in fraser
-    unzipped_data = zip(*clinical_samples)
-    samples = list(unzipped_data[0])
-    labels = list(unzipped_data[1])
-    fraser_samples = []
-    for sample in samples:
-        features = {}
-        for k, v in sample.iteritems():
-            if k in fraser_feature_dict_mix.keys():
-                features[fraser_feature_dict_mix[k]] = v
-        fraser_samples.append(features)
-    samples = zip(fraser_samples, labels)
-    make_arff_file(file_name, samples)
+# def train_all_test_all_fraser_mix(all_samples):
+#     file_name = "all_all_fraser_mix"
+#     # Comb the features in clinical_samples to match the ones in fraser
+#     unzipped_data = zip(*clinical_samples)
+#     samples = list(unzipped_data[0])
+#     labels = list(unzipped_data[1])
+#     fraser_samples = []
+#     for sample in samples:
+#         features = {}
+#         for k, v in sample.iteritems():
+#             if k in fraser_feature_dict_mix.keys():
+#                 features[fraser_feature_dict_mix[k]] = v
+#         fraser_samples.append(features)
+#     samples = zip(fraser_samples, labels)
+#     make_arff_file(file_name, samples)
 
 
 
 if __name__ == "__main__":
 
-    # Load clinical data sets.
-    clinical_samples = dvr.get_clinical_feature_data()
+    op = dvr.get_optima_feature_data()
+    db = dvr.get_dementiabank_feature_data()
 
-    # Train on clinical and test on clinical with all features
-    train_clinical_test_clinical(clinical_samples)
+    make_arff_file("optima_all_features",op)
+    make_arff_file("dbank_all_features",db)
 
-    # Train on clinical and test on clinical with fraser features
-    train_clinical_test_clinical_fraser_features(clinical_samples)
+    # # Load clinical data sets.
+    # clinical_samples = dvr.get_clinical_feature_data()
 
-    # Load the clinical and non-clinical data sets
-    all_samples = dvr.get_all_feature_data()
+    # # Train on clinical and test on clinical with all features
+    # train_clinical_test_clinical(clinical_samples)
 
-    # Train on all and test on all with all features
-    train_all_test_all(all_samples)
+    # # Train on clinical and test on clinical with fraser features
+    # train_clinical_test_clinical_fraser_features(clinical_samples)
 
-    # Train on all and test on all with mix of fraser features
-    train_all_test_all_fraser_mix(all_samples)
+    # # Load the clinical and non-clinical data sets
+    # all_samples = dvr.get_all_feature_data()
+
+    # # Train on all and test on all with all features
+    # train_all_test_all(all_samples)
+
+    # # Train on all and test on all with mix of fraser features
+    # train_all_test_all_fraser_mix(all_samples)
 
 
 

@@ -152,7 +152,34 @@ def get_clinical_feature_data():
     data.extend(dementia_con)
 
     data = zip(data, labels)
+    return data
 
+
+def get_optima_feature_data():
+    optimal_dem = open_pickle(OUTPUT_DIR + "optima_dem_feature_vector.pickle")
+    labels = ['Dementia'] * len(optimal_dem)
+
+    optimal_con = open_pickle(OUTPUT_DIR + "optima_control_feature_vector.pickle")
+    labels.extend(["Control"] * len(optimal_con))
+
+    data = []
+    data.extend(optimal_dem)
+    data.extend(optimal_con)
+    data = zip(data, labels)
+    return data
+
+
+def get_dementiabank_feature_data():
+    dementia_dem = open_pickle(OUTPUT_DIR + "dbank_dem_feature_vector.pickle")
+    labels = ["Dementia"] * len(dementia_dem)
+
+    dementia_con = open_pickle(OUTPUT_DIR + "dbank_control_feature_vector.pickle")
+    labels.extend(["Control"] * len(dementia_con))
+
+    data = []
+    data.extend(dementia_dem)
+    data.extend(dementia_con)
+    data = zip(data, labels)
     return data
 
 

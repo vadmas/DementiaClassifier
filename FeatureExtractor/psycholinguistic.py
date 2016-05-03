@@ -1,13 +1,9 @@
 import nltk
 import requests
-import re
-import csv
-import requests
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
-import parser
 
 # Global psycholinguistic data structures
 FEATURE_DATA_PATH = 'data/feature_data/' 
