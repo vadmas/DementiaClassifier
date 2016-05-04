@@ -10,23 +10,23 @@ from FeatureExtractor import pos_syntactic
 from FeatureExtractor import psycholinguistic
 
 # constants
-DEMENTIABANK_CONTROL_DIR  = 'data/processed/dbank/control'
-DEMENTIABANK_DEMENTIA_DIR = 'data/processed/dbank/dementia'
-OPTIMA_CONTROL_DIR        = 'data/processed/optima/nometa/control'
-OPTIMA_DEMENTIA_DIR       = 'data/processed/optima/nometa/dementia'
+DEMENTIABANK_CONTROL_DIR  = 'data/dbank/control'
+DEMENTIABANK_DEMENTIA_DIR = 'data/dbank/dementia'
+OPTIMA_CONTROL_DIR        = 'data/optima/nometa/control'
+OPTIMA_DEMENTIA_DIR       = 'data/optima/nometa/dementia'
 
 #Welcome To Our World text file
-WTOW_DIR   = 'data/processed/wtow'
+WTOW_DIR    = 'data/wtow'
 
 #It's Just a Matter Of Balance text file
-IJAMOB_DIR = 'data/processed/ijamob'
+IJAMOB_DIR  = 'data/ijamob'
 
-PICKLE_DIR                = 'data/pickles/'
-#PICKLE_DIR                 = 'stanford/processed/pickles/'
-TEST_DIR                  = 'data/test/'
+PICKLE_DIR  = 'data/pickles/'
+#PICKLE_DIR = 'stanford/processed/pickles/'
+TEST_DIR    = 'data/test/'
 
 #Output Directory
-OUTPUT_DIR ="FeatureVecs/"
+OUTPUT_DIR = "FeatureVecs/"
 
 #Book lines / interview
 BOOK_LINES_PER_INTERVIEW = 5
@@ -203,8 +203,9 @@ def get_all_feature_data():
 if __name__ == '__main__':
 
     # # Check if feature vector pickles exist - if so use them, if not parse
+    # parser.parse(TEST_DIR)
     dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
-    wtow, ijamob = get_all_book_pickles()
+    # wtow, ijamob = get_all_book_pickles()
 
     # Load and pickle dbank_dem
     make_feature_vec_pickles(dbank_dem,"dbank_dem_feature_vector.pickle")
@@ -218,9 +219,9 @@ if __name__ == '__main__':
     # Load and pickle optima_dem
     make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
 
-    # Load and pickle wtow
-    make_feature_vec_pickles(wtow, "wtow.pickle")
+    # # Load and pickle wtow
+    # make_feature_vec_pickles(wtow, "wtow.pickle")
 
-    # Load and pickle ijamob
-    make_feature_vec_pickles(ijamob, "ijamob.pickle")
+    # # Load and pickle ijamob
+    # make_feature_vec_pickles(ijamob, "ijamob.pickle")
 

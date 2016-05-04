@@ -1,9 +1,9 @@
 import os
+import sys
 import re
 import requests
 import nltk
 from collections import defaultdict
-import unicodedata
 
 # takes a long string and cleans it up and converts it into a vector to be extracted
 # NOTE: Significant preprocessing was done by sed - make sure to run this script on preprocessed text
@@ -44,7 +44,15 @@ def get_stanford_parse(sentence, port = 9000):
 	#re.sub(pattern, '', raw)
 	re.sub(r'[^\x00-\x7f]',r'', sentence)
 	sentence = remove_control_chars(sentence)
-	r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentence)
+	try:
+		r = requests.post('http://localhost:' + str(port) + '/?properties={\"annotators\":\"parse\",\"outputFormat\":\"json\"}', data=sentence)	
+	except requests.exceptions.ConnectionError, e:
+		print "We received the following error in parser.get_stanford_parse():"
+		print e
+		print "------------------"
+		print 'Did you start the Stanford server? If not, try:\n java -Xmx4g -cp "stanford/stanford-corenlp-full-2015-12-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000'
+		print "------------------"
+		sys.exit(1)
 	json_obj = r.json()
 	return json_obj['sentences'][0]
 # trees = []

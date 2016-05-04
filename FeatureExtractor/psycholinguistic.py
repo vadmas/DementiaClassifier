@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import string
 
 # Global psycholinguistic data structures
-FEATURE_DATA_PATH = 'data/feature_data/' 
+FEATURE_DATA_PATH = 'FeatureExtractor/psycholing_scores/' 
 
 # Made global so files only need to be read once
 psycholinguistic_scores = {}
