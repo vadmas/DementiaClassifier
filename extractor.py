@@ -1,9 +1,6 @@
-import nltk
 import subprocess
 import threading
-import requests
-import re
-import os
+
 import SCA.L2SCA.analyzeText as at
 import Driver as dvr
 

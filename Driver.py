@@ -8,12 +8,26 @@ from FeatureExtractor import parser
 from FeatureExtractor import pos_phrases 
 from FeatureExtractor import pos_syntactic 
 from FeatureExtractor import psycholinguistic
+import random
 
 # constants
-DEMENTIABANK_CONTROL_DIR  = 'data/dbank/control'
-DEMENTIABANK_DEMENTIA_DIR = 'data/dbank/dementia'
-OPTIMA_CONTROL_DIR        = 'data/optima/nometa/control'
-OPTIMA_DEMENTIA_DIR       = 'data/optima/nometa/dementia'
+# Unsplit data
+DEMENTIABANK_CONTROL_DIR_ALL  = 'data/dbank/control'
+DEMENTIABANK_DEMENTIA_DIR_ALL = 'data/dbank/dementia'
+OPTIMA_CONTROL_DIR_ALL        = 'data/optima/nometa/control'
+OPTIMA_DEMENTIA_DIR_ALL       = 'data/optima/nometa/dementia'
+
+# Training data
+DEMENTIABANK_CONTROL_DIR_TRAIN  = 'data/dbank/split/train/control'
+DEMENTIABANK_DEMENTIA_DIR_TRAIN = 'data/dbank/split/train/dementia'
+OPTIMA_CONTROL_DIR_TRAIN        = 'data/optima/split/train/control'
+OPTIMA_DEMENTIA_DIR_TRAIN       = 'data/optima/split/train/dementia'
+
+# Test data
+DEMENTIABANK_CONTROL_DIR_TEST  = 'data/dbank/split/test/control'
+DEMENTIABANK_DEMENTIA_DIR_TEST = 'data/dbank/split/test/dementia'
+OPTIMA_CONTROL_DIR_TEST        = 'data/optima/split/test/control'
+OPTIMA_DEMENTIA_DIR_TEST       = 'data/optima/split/test/dementia'
 
 #Welcome To Our World text file
 WTOW_DIR    = 'data/wtow'
@@ -49,7 +63,7 @@ def overwrite_pickle(path, data):
 
 # -------------Get Data functions-----------
 
-def get_data(picklename, raw_files_directory):
+def read_file(picklename, raw_files_directory):
     #Check pickle first, use parser if pickle doesn't exist
     if os.path.exists(PICKLE_DIR + picklename):
         print "Pickle found at: " + PICKLE_DIR + picklename
@@ -71,24 +85,42 @@ def get_book_data(picklename, raw_files_directory):
         save_pickle(PICKLE_DIR + picklename,data)
     return data
 
-def get_all_pickles():
-    dbank_control  = get_data('dbank_control.pickle', DEMENTIABANK_CONTROL_DIR)
-    dbank_dem      = get_data('dbank_dem.pickle',     DEMENTIABANK_DEMENTIA_DIR)
-    optima_control = get_data('optima_control.pickle',OPTIMA_CONTROL_DIR)
-    optima_dem     = get_data('optima_dem.pickle',    OPTIMA_DEMENTIA_DIR)
-    return dbank_control, dbank_dem, optima_control, optima_dem
+#dataset = all, train, or test
+def get_data(dataset):
+    dataset = dataset.lower()
+    if dataset == 'train':
+        dbank_control_train  = read_file('dbank_control_train.pickle', DEMENTIABANK_CONTROL_DIR_TRAIN)
+        dbank_dem_train      = read_file('dbank_dem_train.pickle',     DEMENTIABANK_DEMENTIA_DIR_TRAIN)
+        optima_control_train = read_file('optima_control_train.pickle',OPTIMA_CONTROL_DIR_TRAIN)
+        optima_dem_train     = read_file('optima_dem_train.pickle',    OPTIMA_DEMENTIA_DIR_TRAIN)
+        return dbank_control_train, dbank_dem_train, optima_control_train, optima_dem_train
+    elif dataset == 'test':
+        dbank_control_test  = read_file('dbank_control_test.pickle', DEMENTIABANK_CONTROL_DIR_TEST)
+        dbank_dem_test      = read_file('dbank_dem_test.pickle',     DEMENTIABANK_DEMENTIA_DIR_TEST)
+        optima_control_test = read_file('optima_control_test.pickle',OPTIMA_CONTROL_DIR_TEST)
+        optima_dem_test     = read_file('optima_dem_test.pickle',    OPTIMA_DEMENTIA_DIR_TEST)
+        return dbank_control_test, dbank_dem_test, optima_control_test, optima_dem_test
+    elif dataset == 'all':
+        dbank_control_all  = read_file('dbank_control_all.pickle', DEMENTIABANK_CONTROL_DIR_ALL)
+        dbank_dem_all      = read_file('dbank_dem_all.pickle',     DEMENTIABANK_DEMENTIA_DIR_ALL)
+        optima_control_all = read_file('optima_control_all.pickle',OPTIMA_CONTROL_DIR_ALL)
+        optima_dem_all     = read_file('optima_dem_all.pickle',    OPTIMA_DEMENTIA_DIR_ALL)
+        return dbank_control_all, dbank_dem_all, optima_control_all, optima_dem_all
+    else:
+        print "Error in get_data(dataset): dataset must be one of 'all','train' or 'test'"
+        return 
+
 
 def get_all_book_pickles():
     wtow           = get_book_data('wtow.pickle',   WTOW_DIR)
     ijamob         = get_book_data('ijamob.pickle', IJAMOB_DIR)
     return wtow, ijamob
 
-
 def get_dbank_control():
-    return get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR)
+    return get_data('dbank_control.pickle',DEMENTIABANK_CONTROL_DIR_ALL)
 
 def get_dbank_dem():
-    return get_data('dbank_dem.pickle', DEMENTIABANK_DEMENTIA_DIR)
+    return get_data('dbank_dem.pickle', DEMENTIABANK_DEMENTIA_DIR_ALL)
 
 # -------------End Of Get Data functions-----------
 
@@ -127,8 +159,9 @@ def make_feature_vec_pickles(dataset, picklename):
     print "=========================="
     print "Making feature vector for:", picklename
     feature_vecs = extract_features(dataset,picklename,10)
+    # Make iid 
+    random.shuffle(feature_vecs)
     overwrite_pickle(OUTPUT_DIR + picklename, feature_vecs)
-
     print picklename, "complete"
     print "=========================="
 
@@ -204,20 +237,25 @@ if __name__ == '__main__':
 
     # # Check if feature vector pickles exist - if so use them, if not parse
     # parser.parse(TEST_DIR)
-    dbank_control, dbank_dem, optima_control, optima_dem = get_all_pickles()
+    dbank_control_train, dbank_dem_train, optima_control_train, optima_dem_train = get_data("train")
+    dbank_control_test,  dbank_dem_test,  optima_control_test,  optima_dem_test  = get_data("test")
     # wtow, ijamob = get_all_book_pickles()
 
     # Load and pickle dbank_dem
-    make_feature_vec_pickles(dbank_dem,"dbank_dem_feature_vector.pickle")
+    make_feature_vec_pickles(dbank_dem_train,"dbank_dem_fv_train.pickle")
+    make_feature_vec_pickles(dbank_dem_test,"dbank_dem_fv_test.pickle")
     
     # Load and pickle dbank_control
-    make_feature_vec_pickles(dbank_control,"dbank_control_feature_vector.pickle")
+    make_feature_vec_pickles(dbank_control_train,"dbank_control_fv_train.pickle")
+    make_feature_vec_pickles(dbank_control_test,"dbank_control_fv_test.pickle")
     
     # Load and pickle optima_control
-    make_feature_vec_pickles(optima_control,"optima_control_feature_vector.pickle")
+    make_feature_vec_pickles(optima_control_train,"optima_control_fv_train.pickle")
+    make_feature_vec_pickles(optima_control_test,"optima_control_fv_test.pickle")
     
     # Load and pickle optima_dem
-    make_feature_vec_pickles(optima_dem,"optima_dem_feature_vector.pickle")
+    make_feature_vec_pickles(optima_dem_train,"optima_dem_fv_train.pickle")
+    make_feature_vec_pickles(optima_dem_test,"optima_dem_fv_test.pickle")
 
     # # Load and pickle wtow
     # make_feature_vec_pickles(wtow, "wtow.pickle")

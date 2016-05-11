@@ -1,5 +1,4 @@
 import SCA.L2SCA.analyzeText as at
-# import SCA.L2SCA.analyzeFolder as af
 
 try:
     import cPickle as pickle
