@@ -160,6 +160,13 @@ def add_labels(data,label):
     data = zip(data, labels)
     return data
 
+def mix_data(d1,d2):
+    data = []
+    data.extend(d1)
+    data.extend(d2)
+    shuffle(data)
+    return data
+
 def make_arff_file(samples, file_name):
     arff_file_name = ARFF_DIR + file_name + ".arff"
 
@@ -190,61 +197,48 @@ def make_arff_file(samples, file_name):
         data_str += labels[sample]
         arff_file.write(data_str + '\n')
     arff_file.close()
+# -------------End of arff methods -----------
 
+# -------------Process from raw text files to labelled feature vector----------- 
+def from_raw_to_labeled(output_filename, input_filepath, label):
+    print "Getting raw text dictionary for: " + output_filename 
+    raw = read_file(output_filename + ".pickle", input_filepath)
+    print "Making numerical feature vector for: " + output_filename
+    feature_vector = make_feature_vec(output_filename + "_fv.pickle", raw)
+    labelled = add_labels(feature_vector,label)
+    return labelled 
 
 if __name__ == '__main__':
 
-    print ''' 
-        =============================
-        Getting raw text dictionaries
-        ============================= 
-    '''
-    dbank_control_train  = read_file('dbank_control_train.pickle', DEMENTIABANK_CONTROL_DIR_TRAIN)
-    dbank_control_test   = read_file('dbank_control_test.pickle',  DEMENTIABANK_CONTROL_DIR_TEST)
-
-    dbank_dem_train      = read_file('dbank_dem_train.pickle',     DEMENTIABANK_DEMENTIA_DIR_TRAIN)
-    dbank_dem_test       = read_file('dbank_dem_test.pickle',      DEMENTIABANK_DEMENTIA_DIR_TEST)
-
-    optima_control_train = read_file('optima_control_train.pickle',OPTIMA_CONTROL_DIR_TRAIN)
-    optima_control_test  = read_file('optima_control_test.pickle', OPTIMA_CONTROL_DIR_TEST)
-
-    optima_dem_train     = read_file('optima_dem_train.pickle',    OPTIMA_DEMENTIA_DIR_TRAIN)
-    optima_dem_test      = read_file('optima_dem_test.pickle',     OPTIMA_DEMENTIA_DIR_TEST)
-
-    print ''' 
-        =======================================
-        Turning into numerical feature vectors 
-        ======================================= 
-    '''
-    # Load and pickle dbank_dem
-    dbank_dem_train_fv      = make_feature_vec("dbank_dem_fv_train.pickle", dbank_dem_train)
-    dbank_dem_test_fv       = make_feature_vec("dbank_dem_fv_test.pickle", dbank_dem_test)
+    # Process dementiabank
+    dbank_control_train  = from_raw_to_labeled('dbank_control_train', DEMENTIABANK_CONTROL_DIR_TRAIN, "Control")
+    dbank_control_test   = from_raw_to_labeled('dbank_control_test',  DEMENTIABANK_CONTROL_DIR_TEST, "Control")
+    dbank_dem_train      = from_raw_to_labeled('dbank_dem_train',     DEMENTIABANK_DEMENTIA_DIR_TRAIN, "Dementia")
+    dbank_dem_test       = from_raw_to_labeled('dbank_dem_test',      DEMENTIABANK_DEMENTIA_DIR_TEST, "Dementia")
     
-    # Load and pickle dbank_control
-    dbank_control_train_fv  = make_feature_vec("dbank_control_fv_train.pickle", dbank_control_train)
-    dbank_control_test_fv   = make_feature_vec("dbank_control_fv_test.pickle", dbank_control_test)
-    
-    # Load and pickle optima_control
-    optima_control_train_fv = make_feature_vec("optima_control_fv_train.pickle", optima_control_train)
-    optima_control_test_fv  = make_feature_vec("optima_control_fv_test.pickle", optima_control_test)
-    
-    # Load and pickle optima_dem
-    optima_dem_train_fv     = make_feature_vec("optima_dem_fv_train.pickle", optima_dem_train)
-    optima_dem_test_fv      = make_feature_vec("optima_dem_fv_test.pickle", optima_dem_test)
-    
-    print ''' 
-        ==================
-        Making arff files 
-        ================== 
-    '''
-    make_arff_file(add_labels(dbank_dem_train_fv,"Dementia"),     "dbank_dem_train")
-    make_arff_file(add_labels(dbank_dem_test_fv, "Dementia"),     "dbank_dem_test")
-    make_arff_file(add_labels(dbank_control_train_fv,"Control"),  "dbank_control_train")
-    make_arff_file(add_labels(dbank_control_test_fv, "Control"),  "dbank_control_test")
-    make_arff_file(add_labels(optima_control_train_fv,"Control"), "optima_control_train")
-    make_arff_file(add_labels(optima_control_test_fv, "Control"), "optima_control_test")
-    make_arff_file(add_labels(optima_dem_train_fv,"Dementia"),    "optima_dem_train")
-    make_arff_file(add_labels(optima_dem_test_fv, "Dementia"),    "optima_dem_test")
+    # Process optima
+    optima_control_train = from_raw_to_labeled('optima_control_train',OPTIMA_CONTROL_DIR_TRAIN, "Control")
+    optima_control_test  = from_raw_to_labeled('optima_control_test', OPTIMA_CONTROL_DIR_TEST, "Control")
+    optima_dem_train     = from_raw_to_labeled('optima_dem_train',    OPTIMA_DEMENTIA_DIR_TRAIN, "Dementia")
+    optima_dem_test      = from_raw_to_labeled('optima_dem_test',     OPTIMA_DEMENTIA_DIR_TEST, "Dementia")
 
+    
+    # Mix dementia and control
+    dbank_test   = mix_data(dbank_control_test,dbank_dem_test) 
+    dbank_train  = mix_data(dbank_control_train,dbank_dem_train) 
+    optima_test  = mix_data(optima_control_test,optima_dem_test) 
+    optima_train = mix_data(optima_control_train,optima_dem_test) 
+    
+    # Mix optima and dbank
+    all_test     = mix_data(dbank_test,optima_test) 
+    all_train    = mix_data(dbank_train,optima_train) 
+    
+    make_arff_file(dbank_test,"dbank_test")
+    make_arff_file(dbank_train,"dbank_train")
+    make_arff_file(optima_test,"optima_test")
+    make_arff_file(optima_train,"optima_train")
+    make_arff_file(all_test,"all_test")
+    make_arff_file(all_train,"all_train")
+    
     print "Done! Arff files located at: " + ARFF_DIR
 
