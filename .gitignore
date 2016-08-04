@@ -81,6 +81,9 @@ SCA/
 
 dementiabank/
 
+#backup
+_bkup
+
 # Sample file
 sample_file.txt
 sample_output.txt
