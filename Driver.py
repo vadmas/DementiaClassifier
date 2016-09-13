@@ -1,10 +1,13 @@
 from sqlalchemy import create_engine
 import pandas as pd
 import numpy as np
+from collections import defaultdict
 from sklearn.cross_validation import LabelKFold
+from sklearn.cross_validation import KFold
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_classif
 from sklearn.metrics import f1_score
+from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
 # models
@@ -12,8 +15,29 @@ from sklearn import linear_model
 from sklearn.svm import SVC 
 from sklearn.ensemble import RandomForestClassifier
 
-
 from FeatureExtractor.fraser_feature_set import get_top_50
+
+# hide depreciation warning (sklearn)
+# ====================
+import warnings
+warnings.filterwarnings('ignore')
+# ====================
+# globals
+XTICKS = np.arange(30,150,3)
+REGULARIZATION_CONSTANT = 1
+# ------------------
+# Diagnosis keys
+# - Control
+# - MCI
+# - Memory
+# - Other
+# - PossibleAD
+# - ProbableAD
+# - Vascular
+# ------------------
+
+ALZHEIMERS = ["PossibleAD", "ProbableAD"]
+CONTROL = ['Control']
 
 # ======================
 # setup mysql connection
@@ -21,6 +45,7 @@ from FeatureExtractor.fraser_feature_set import get_top_50
 USER   = 'dementia'
 PASSWD = 'Dementia123!'
 DB     = 'dementia'
+# url = 'mysql://%s:%s@127.0.0.1/%s' % (USER, PASSWD, DB) 
 url = 'mysql://%s:%s@localhost/%s' % (USER, PASSWD, DB) 
 engine = create_engine(url)
 cnx = engine.connect()
@@ -35,44 +60,76 @@ def print_full(x):
     pd.reset_option('display.max_rows')
 
 
-# One time use to clean up sql table
-# def clean_sql():
+# # one-time use function to fix bugs in sql table
+# def update_sql():
 #     lexical = pd.read_sql_table("dbank_lexical", cnx)
-#     acoustic = pd.read_sql_table("dbank_acoustic", cnx)
-
-#     lexical['control'] = lexical['control'].astype('bool')
-#     acoustic['control'] = acoustic['control'].astype('bool')
-
-#     lexical['dementia'] = ~lexical['control']
-#     acoustic['dementia'] = ~acoustic['control']
-
-#     lexical = lexical.drop(['index', 'control'], 1)
-#     acoustic = acoustic.drop(['index', 'control'], 1)
-
-#     # Save as different name to prevent original tables from being deleted if there's an error
-#     lexical.to_sql("dbank_lexical_clean", cnx, if_exists='replace', index=False)
-#     acoustic.to_sql("dbank_acoustic_clean", cnx, if_exists='replace', index=False)
-# ------------------
+#     lexical_new = pd.read_sql_table("dbank_lexical_new", cnx)
+#     import pdb; pdb.set_trace()
+#     print "test"
 
 
-def get_data():
+def plot_results(results_arr, names_arr, xlabel, ylabel):
+
+    if len(results_arr) != len(names_arr):
+        print "error: Results and names array not same length"
+        return
+
+    means  = []
+    stdevs = []
+
+    for results in results_arr:
+        arr = np.asarray(results)
+        means.append(np.mean(arr, axis=0))
+        stdevs.append(np.std(arr, axis=0))
+
+    df_dict  = {}
+    err_dict = {}
+
+    title = "Model comparison: "
+    for i, name in enumerate(names_arr):
+        max_str = "%s max: %f" % (names_arr[i], means[i].max())
+        print max_str
+        title += max_str
+        df_dict[name] = means[i]
+        err_dict[name] = stdevs[i]
+
+    df = pd.DataFrame(df_dict)
+    df.index = XTICKS
+    plot = df.plot(yerr=err_dict, title=title)
+    plot.set_xlabel(xlabel)
+    plot.set_ylabel(ylabel)
+    plt.show()
+
+
+def get_top_pearson_features(X,y,n):
+    df = pd.DataFrame(X).apply(pd.to_numeric)
+    df['y'] = y
+    corr_coeff = df.corr()['y'].abs().sort(inplace=False, ascending=False)
+    return corr_coeff.index.values[1:n+1].astype(int)
+
+
+def get_data(lexical_table_name):
     # Read from sql
-
-    lexical  = pd.read_sql_table("dbank_lexical", cnx)
+    lexical  = pd.read_sql_table(lexical_table_name, cnx)
     acoustic = pd.read_sql_table("dbank_acoustic", cnx)
-
+    diag     = pd.read_sql_table("diagnosis", cnx)
+    
     # Merge
-    fv = pd.merge(lexical, acoustic, on=['interview', 'dementia'])
+    fv = pd.merge(lexical, acoustic, on=['interview'])
 
+    # # Remove non-AD samples
+    diag = diag[diag['diagnosis'].isin(ALZHEIMERS + CONTROL)]
+    fv = pd.merge(fv,diag)
+    
     # Randomize
     fv = fv.sample(frac=1,random_state=20)
 
     # Collect Labels 
     labels = [label[:3] for label in fv['interview']]
-
+    
     # Split 
     y = fv['dementia'].astype('bool')
-    X = fv.drop(['dementia', 'interview', 'level_0'], 1)
+    X = fv.drop(['dementia', 'interview', 'level_0', 'diagnosis'], 1)
 
     # Return
     return X, y, labels
@@ -83,185 +140,74 @@ def fraser_features(X):
     return X[fraser]
 
 
-
-def model_comparison():
-    X, y, labels = get_data()
-    rf = RandomForestClassifier(n_estimators=20)
-    svm = SVC()
-    l1 = linear_model.LogisticRegression(penalty='l1') 
-    l2 = linear_model.LogisticRegression(penalty='l2') 
-
+def evaluate_model(model, lex_name):
+    X, y, labels = get_data(lex_name)
+    
     # Split into folds using labels 
     label_kfold = LabelKFold(labels, n_folds=10)
 
-    rf_folds  = []
-    svm_folds = []
-    l1_folds  = []
-    l2_folds  = []
+    folds  = []
+    
+    # Feature analysis
+    # columns = X.columns 
+    # feat_tally = defaultdict(int)
+    # z = 0.0
 
     for train_index, test_index in label_kfold:
-        print "processing fold: %d" % (len(rf_folds) + 1)
+        print "processing fold: %d" % (len(folds) + 1)
         
         # Split
         X_train, X_test = X.values[train_index], X.values[test_index]
         y_train, y_test = y.values[train_index], y.values[test_index]
 
-        nfeat = X_train.shape[1]
-
-        rf_scores = []
-        svm_scores = []
-        l1_scores = []
-        l2_scores = []
-
-        for k in xrange(1,nfeat):
+        scores = []     
+        for k in XTICKS:
             # Perform feature selection
-            fit = SelectKBest(f_classif, k=k).fit(X_train, y_train)
-            indices = fit.get_support(indices=True)
+            # fit = SelectKBest(f_classif, k=k).fit(X_train, y_train)
+            # indices = fit.get_support(indices=True)
+
+            indices = get_top_pearson_features(X_train, y_train, k)
+            
+            # # Feature analysis
+            # for i in indices: 
+            #     feat_tally[i] += 1
+            # z += 1
 
             # Select k features 
             X_train_fs = X_train[:,indices]
             X_test_fs  = X_test[:,indices]
-
+            
             # Fit    
-            rf.fit(X_train_fs, y_train)
-            svm.fit(X_train_fs, y_train)
-            l1.fit(X_train_fs, y_train)
-            l2.fit(X_train_fs, y_train)
-
+            model.fit(X_train_fs, y_train)
+            
             # Predict
-            rf_yhat  = rf.predict(X_test_fs)           
-            svm_yhat = svm.predict(X_test_fs)           
-            l1_yhat  = l1.predict(X_test_fs)           
-            l2_yhat  = l2.predict(X_test_fs)           
+            yhat  = model.predict(X_test_fs)           
             # Save
-
-            rf_scores.append(f1_score(y_test, rf_yhat))
-            svm_scores.append(f1_score(y_test, svm_yhat))
-            l1_scores.append(f1_score(y_test, l1_yhat))
-            l2_scores.append(f1_score(y_test, l2_yhat))
-        
+            scores.append(accuracy_score(y_test, yhat))
+            
+           
         # ----- save row ----- 
-        rf_folds.append(rf_scores)
-        svm_folds.append(svm_scores)
-        l1_folds.append(l1_scores)
-        l2_folds.append(l2_scores)
+        folds.append(scores)
         # -------------------- 
 
-    rf_folds  = np.asarray(rf_folds)
-    svm_folds = np.asarray(svm_folds)
-    l1_folds  = np.asarray(l1_folds)
-    l2_folds  = np.asarray(l2_folds)
-    
-    rf_means  = np.mean(rf_folds, axis=0)
-    svm_means = np.mean(svm_folds, axis=0)
-    l1_means  = np.mean(l1_folds, axis=0)
-    l2_means  = np.mean(l2_folds, axis=0)
+    # feature_scores = [(val/z, columns[key]) for key, val in feat_tally.iteritems()]
+    # feature_scores.sort(reverse=True)
+    # for fs in feature_scores:
+    #     print "Score: %f, %s " % fs
 
-    rf_std  = np.std(rf_folds, axis=0)
-    svm_std = np.std(svm_folds, axis=0)
-    l1_std  = np.std(l1_folds, axis=0)
-    l2_std  = np.std(l2_folds, axis=0)
-
-    print "rf  max: %f " % rf_means.max()
-    print "svm max: %f " % svm_means.max()
-    print "l1  max: %f " % l1_means.max()
-    print "l2  max: %f " % l2_means.max()
-
-    title = "Model comparison, rf max: %f, svm max: %f, l1 max: %f, l2 max: %f " % (rf_means.max(), svm_means.max(), l1_means.max(), l2_means.max())
-
-    df = pd.DataFrame({"random_forest":rf_means, "SVM":svm_means, "l1 logistic regression":l1_means, "l2 logistic regression":l2_means})
-    plot = df.plot(yerr={"random_forest":rf_std, "SVM":svm_std, "l1 logistic regression":l1_std, "l2 logistic regression":l2_std,}, title=title)
-    plot.set_xlabel("# of Features")
-    plot.set_ylabel("Accuracy (F1 Score)")
-    plt.show()
-
-
-def stability_selection():
-    X, y, labels = get_data()
-    rf = RandomForestClassifier(n_estimators=20)
-    svm = SVC()
-    l1 = linear_model.LogisticRegression(penalty='l1') 
-    l2 = linear_model.LogisticRegression(penalty='l2') 
-
-    # Split into folds using labels 
-    label_kfold = LabelKFold(labels, n_folds=10)
-
-    rf_folds  = []
-    svm_folds = []
-    l1_folds  = []
-    l2_folds  = []
-
-    for train_index, test_index in label_kfold:
-        print "Processing fold: %d" % (len(rf_folds) + 1)
-        
-        # Split
-        X_train, X_test = X.values[train_index], X.values[test_index]
-        y_train, y_test = y.values[train_index], y.values[test_index]
-
-        # Perform feature selection
-        fit = linear_model.RandomizedLogisticRegression().fit(X_train, y_train)
-        indices = fit.get_support(indices=True)
-
-        # Select k features 
-        X_train_fs = X_train[:,indices]
-        X_test_fs  = X_test[:,indices]
-
-        print "# of features selected: % d" % X_train_fs.shape[1]
-
-        # Fit    
-        rf.fit(X_train_fs, y_train)
-        svm.fit(X_train_fs, y_train)
-        l1.fit(X_train_fs, y_train)
-        l2.fit(X_train_fs, y_train)
-
-        # Predict
-        rf_yhat  = rf.predict(X_test_fs)           
-        svm_yhat = svm.predict(X_test_fs)           
-        l1_yhat  = l1.predict(X_test_fs)           
-        l2_yhat  = l2.predict(X_test_fs)           
-        
-        # Save
-        rf_folds.append(f1_score(y_test, rf_yhat))
-        svm_folds.append(f1_score(y_test, svm_yhat))
-        l1_folds.append(f1_score(y_test, l1_yhat))
-        l2_folds.append(f1_score(y_test, l2_yhat))
-        
-        # # ----- save row ----- 
-        # rf_folds.append(rf_scores)
-        # svm_folds.append(svm_scores)
-        # l1_folds.append(l1_scores)
-        # l2_folds.append(l2_scores)
-        # # -------------------- 
-
-    rf_folds  = np.asarray(rf_folds)
-    svm_folds = np.asarray(svm_folds)
-    l1_folds  = np.asarray(l1_folds)
-    l2_folds  = np.asarray(l2_folds)
-    
-    rf_means  = np.mean(rf_folds, axis=0)
-    svm_means = np.mean(svm_folds, axis=0)
-    l1_means  = np.mean(l1_folds, axis=0)
-    l2_means  = np.mean(l2_folds, axis=0)
-
-    # rf_std  = np.std(rf_folds, axis=0)
-    # svm_std = np.std(svm_folds, axis=0)
-    # l1_std  = np.std(l1_folds, axis=0)
-    # l2_std  = np.std(l2_folds, axis=0)
-
-    print "rf  max: %f " % rf_means.max()
-    print "svm max: %f " % svm_means.max()
-    print "l1  max: %f " % l1_means.max()
-    print "l2  max: %f " % l2_means.max()
-
-    # title = "Model comparison, rf max: %f, svm max: %f, l1 max: %f, l2 max: %f " % (rf_means.max(), svm_means.max(), l1_means.max(), l2_means.max())
-
-    # df = pd.DataFrame({"random_forest":rf_means, "SVM":svm_means, "l1 logistic regression":l1_means, "l2 logistic regression":l2_means})
-    # plot = df.plot(yerr={"random_forest":rf_std, "SVM":svm_std, "l1 logistic regression":l1_std, "l2 logistic regression":l2_std,}, title=title)
-    # plot.set_xlabel("# of Features")
-    # plot.set_ylabel("Accuracy (F1 Score)")
-    # plt.show()
-
+    folds = np.asarray(folds)
+    return folds 
 
 
 if __name__ == '__main__':
-    stability_selection()
+    # update_sql()
+    model = linear_model.LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
+    dbank_lexical                     = evaluate_model(model, "dbank_lexical_new2")
+    dbank_lexical_sentence_disfluency = evaluate_model(model, "dbank_lexical_sentence_disfluency")
+    dbank_lexical_sentence            = evaluate_model(model, "dbank_lexical_sentence")
+    # dbank_lexical_lemmetized          = evaluate_model(model, "dbank_lexical_lemmetized")
+    
+    plot_results([dbank_lexical, dbank_lexical_sentence_disfluency,dbank_lexical_sentence,], 
+                 ["dbank_lexical", "dbank_lexical_sentence_disfluency", "dbank_lexical_sentence",],
+                  "# of Features",
+                  "Accuracy ")
