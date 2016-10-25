@@ -1,5 +1,0 @@
-# cleans the dementia bank data
-for f in */*.cha; grep 'PAR:' $f | sed -e 's/\*PAR://g' -e 's/\[+\ exc\]//g' -e 's/\[\/\/\]//g' -e 's/[0-9]*_[0-9]*//g' -e 's/\[\/\]//g' -e 's/<//g' -e 's/>//g' -e 's/&//g' -e 's/\[[^][]*\]//g' -e 's/\+/\ /g' -e  's/^[ \t]*//' -e 's/\ \.\ /\./g' -e 's/      //g' -e 's/\@[a-z]//g' -e 's/\=clears\ throat//g' -e 's/\=clears\:throat//g' -e 's/\=laughs//g' -e 's/\=coughs//g' -e 's/\=hums//g' -e 's/\=sighs//g' -e 's/\=sigh//g' -e 's/\=inhales//g' -e 's/\=noises\:thinking//g' -e 's/\=sings//g' -e 's/\=sigh//g' -e 's/\=whistles//g' -e 's/\=chuckles//g' -e 's/\=finger\:tap//g' -e 's/\=grunt//g'  -e 's/\=sniff//g' -e 's/\=mumbles//g' -e 's/\=tapping//g' -e 's/\=clears\:\ throat//g' -e 's/\=claps//g' -e 's/xxx//g' -e 's/^U^U//g' -e 's/^[ \t]*//' -e 's/^[ \t]*//' -e 's/^[ \t]*//' | tr -d '()'% > ${f:r}.scrubbed
-
-# Parses the optima files into one file/ session
-awk -v filename="${f:r}" '$0 ~ filename {x=filename "_" (++i) ".txt";}{print > x;}' $f

@@ -4,7 +4,7 @@ from FeatureExtractor import pos_phrases
 from FeatureExtractor import pos_syntactic 
 from FeatureExtractor import psycholinguistic
 from FeatureExtractor import acoustic
-from FeatureExtractor.parser import parse
+from FeatureExtractor import discourse
 
 
 # ======================
@@ -41,7 +41,7 @@ def save_lexical(data):
 
     # Save to database
     feat_df.drop('index', axis=1, inplace=True)
-    feat_df.to_sql("dbank_lexical_lemmetized", cnx, if_exists='replace', index=False)
+    feat_df.to_sql("dbank_lexical_non_numeric", cnx, if_exists='replace', index=False)
 
 
 def save_acoustic():
@@ -66,6 +66,25 @@ def save_acoustic():
     feat_df.to_sql("dbank_acoustic_lemmetized", cnx, if_exists='replace')
 
 
+def save_discourse():
+    # Extract control discourse features
+    control  = discourse.get_all("data/dbank/discourse_trees/control")
+    df_control = pd.DataFrame.from_dict(control, orient="index")
+    
+    # Extract dementia discourse features
+    dementia  = discourse.get_all("data/dbank/discourse_trees/dementia")
+    df_dementia = pd.DataFrame.from_dict(dementia, orient="index")
+    
+    # Merge dfs
+    feat_df = pd.concat([df_dementia, df_control])
+
+    # Save interview field for joins 
+    feat_df["interview"] = feat_df.index
+    feat_df['interview'] = feat_df['interview'] + 'c' # So it's consistent with sound files
+
+    # Save to sql  
+    feat_df.to_sql("dbank_discourse", cnx, if_exists='replace', index=False)
+
+
 if __name__ == '__main__':
-    data = parse(['data/dbank/dementia','data/dbank/control'])
-    save_lexical(data)
+    save_discourse()

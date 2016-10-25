@@ -70,6 +70,9 @@ venv/
 #data
 data
 
+#deadcode
+dead_code.py
+
 #Weka
 weka-3-8-0/
 

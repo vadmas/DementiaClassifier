@@ -70,18 +70,21 @@ def _isValid(inputString):
         return True
 
 
-def _preprocessData(data):
+def _sentences(data):
     # Filter non-ascii
     data = filter(lambda x: x in printable, data)
     sentences = sent_detector.tokenize(data.strip())
-    clean_sentences = []
-    for s in sentences:
-        tokens = nltk.word_tokenize(s)
-        tmp = [t for t in tokens if t.lower() not in DISFLUENCIES]
-        clean = " ".join(tmp)
-        if _isValid(clean):
-            clean_sentences.append(clean)
-    return clean_sentences
+    return sentences
+
+
+def _remove_disfluencies(uttr):
+    tokens = nltk.word_tokenize(uttr)
+    tmp = [t for t in tokens if t.lower() not in DISFLUENCIES]
+    clean = " ".join(tmp)
+    if _isValid(clean):
+        return clean
+    else:
+        return ""
 
 
 # Lemmatize 
@@ -108,7 +111,6 @@ def _clean_uttr(uttr):
 
 def _processUtterance(uttr):
     uttr = _clean_uttr(uttr)             # clean
-    uttr = _lemmetize(uttr)              # lemmetize
     tokens = nltk.word_tokenize(uttr)    # Tokenize
     tagged_words = nltk.pos_tag(tokens)  # Tag
 
@@ -141,9 +143,12 @@ def parse(filepaths):
                 if filename.endswith(".txt"):
                     with open(os.path.join(filepath, filename)) as file:
                         print "Parsing: " + filename
-                        # sentences = _preprocessData(file.read())
-                        # session_utterances = [_processUtterance(line) for line in sentences if _isValid(line)]
-                        session_utterances = [_processUtterance(line) for line in file if _isValid(line)]
+                        session_utterances = []
+                        for line in file:
+                            uttr = _clean_uttr(line)
+                            # uttr = _remove_disfluencies(uttr)
+                            if _isValid(uttr):
+                                session_utterances.append(_processUtterance(uttr))
                         parsed_data[filename] = session_utterances  # Add session
         else:
             print "Filepath not found: " + filepath
