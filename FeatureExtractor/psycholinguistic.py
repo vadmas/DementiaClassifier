@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
+from nltk.corpus import wordnet as wn
+
 
 # Global psycholinguistic data structures
 FEATURE_DATA_PATH = 'FeatureExtractor/psycholing_scores/'
@@ -28,7 +30,7 @@ VERB_POS_TAGS     = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
 NOUN_POS_TAGS     = ["NN", "NNS", "NNP", "NNPS", ]
 FEATURE_DATA_LIST = ["familiarity", "concreteness", "imagability", 'aoa']
 
-# Information Unit Words
+# Information Unit Words (old)
 BOY       = ['boy', 'son', 'brother', 'male child']
 GIRL      = ['girl', 'daughter', 'sister', 'female child']
 WOMAN     = ['woman', 'mom', 'mother', 'lady', 'parent']
@@ -45,6 +47,36 @@ WINDOW    = ['window']
 CUPBOARD  = ['cupboard']
 DISHES    = ['dishes']
 CURTAINS  = ['curtains', 'curtain']
+# Action words 
+STEAL    = ['take', 'steal', 'taking', 'stealing']
+FALL     = ['fall', 'falling', 'slip', 'slipping']
+WASH     = ['wash', 'dry', 'clean', 'washing', 'drying', 'cleaning']
+OVERFLOW = ['overflow', 'spill', 'overflowing', 'spilling']
+
+# Extended keyword set 
+BOY_EXT       = ['boy', 'son', 'brother', 'male child']
+GIRL_EXT      = ['girl', 'daughter', 'sister', 'female child']
+WOMAN_EXT     = ['woman', 'mom', 'mother', 'lady', 'parent', 'female', 'adult', 'grownup']
+KITCHEN_EXT   = ['kitchen','room']
+EXTERIOR_EXT  = ['exterior', 'outside', 'garden', 'yard','outdoors', 'backyard', 'driveway', 'path', 'tree', 'bush']
+COOKIE_EXT    = ['cookie','biscuit','cake','treat']
+JAR_EXT       = ['jar','container', 'crock', 'pot']
+STOOL_EXT     = ['stool', 'seat', 'chair', 'ladder']
+SINK_EXT      = ['sink', 'basin', 'washbasin', 'washbowl', 'washstand', 'tap']
+PLATE_EXT     = ['plate']
+DISHCLOTH_EXT = ['dishcloth', 'dishrag', 'rag', 'cloth', 'napkin', 'towel']
+WATER_EXT     = ['water', 'dishwater', 'liquid',]
+WINDOW_EXT    = ['window', 'frame', 'glass']
+CUPBOARD_EXT  = ['cupboard', 'closet', 'shelf',]
+DISHES_EXT    = ['dish', 'dishes', 'cup', 'cups', 'counter',]
+CURTAINS_EXT  = ['curtain', 'curtains', 'drape', 'drapes', 'drapery', 'drapery', 'blind', 'blinds', 'screen', 'screens']
+
+# Action words
+STEAL_EXT    = ['take', 'steal', 'taking', 'stealing']
+FALL_EXT     = ['fall', 'falling', 'slip', 'slipping']
+WASH_EXT     = ['wash', 'dry', 'clean', 'washing', 'drying', 'cleaning']
+OVERFLOW_EXT = ['overflow', 'spill', 'overflowing', 'spilling']
+
 
 # ================================================
 # -------------------Tools------------------------
@@ -380,7 +412,7 @@ def binaryIUObjectCurtains(interview):
     return 0 if count == 0 else 1
 
 
-#--------------
+#-------------
 # Actions (7)
 #-------------
 
@@ -399,56 +431,231 @@ def check_action_unit(pos_tags, subjs, verbs):
     return subj_found and verb_found
 
 
+# # boy taking or stealing
+# def binaryIUActionBoyTaking(interview):
+#     for uttr in interview:
+#         if(check_action_unit(uttr['pos'], BOY, ['take', 'steal'])):
+#             return 1
+#     return 0
+
+# # boy or stool falling
+
+
+# def binaryIUActionStoolFalling(interview):
+#     for uttr in interview:
+#         if(check_action_unit(uttr['pos'], BOY + ['stool'], ['falling'])):
+#             return 1
+#     return 0
+
+# # Woman drying or washing dishes/plate
+
+
+# def binaryIUActionWomanDryingWashing(interview):
+#     for uttr in interview:
+#         if(check_action_unit(uttr['pos'], WOMAN + ['dish', 'plate'], ['wash', 'dry'])):
+#             return 1
+#     return 0
+
+# # Water overflowing or spilling
+
+
+# def binaryIUActionWaterOverflowing(interview):
+#     for uttr in interview:
+#         if(check_action_unit(uttr['pos'], ['water', 'tap', 'sink'], ['overflow', 'spill'])):
+#             return 1
+#     return 0
+
+
+# For action unit to be present, the subject and action (eg. 'boy' and 'fall')
+# must be tagged together in the utterance
+# Input: POSTags, subject list, verb list
+def check_action_unit(pos_tags, subjs, verbs):
+    stemmed_subjs = [stemmer.stem(s) for s in subjs]
+    stemmed_verbs = [stemmer.stem(s) for s in verbs]
+    subj_found, verb_found = False, False
+    for pos in pos_tags:
+        if stemmer.stem(pos[0]) in stemmed_subjs and pos[1] in NOUN_POS_TAGS:
+            subj_found = True
+        if stemmer.stem(pos[0]) in stemmed_verbs and pos[1] in VERB_POS_TAGS:
+            verb_found = True
+    return subj_found and verb_found
+
+
 # boy taking or stealing
-def binaryIUActionBoyTaking(interview):
+def keywordIUActionBoyTaking(interview):
+    count = 0
     for uttr in interview:
-        if(check_action_unit(uttr['pos'], BOY, ['take', 'steal'])):
-            return 1
-    return 0
+        if(check_action_unit(uttr['pos'], BOY, STEAL)):
+            count += 1
+    return count
+
+def binaryIUActionBoyTaking(interview):
+    count = keywordIUActionBoyTaking(interview)
+    return 0 if count == 0 else 1
 
 # boy or stool falling
+def keywordIUActionStoolFalling(interview):
+    count = 0
+    for uttr in interview:
+        if(check_action_unit(uttr['pos'], BOY + STOOL, FALL)):
+            count += 1
+    return count
 
 
 def binaryIUActionStoolFalling(interview):
-    for uttr in interview:
-        if(check_action_unit(uttr['pos'], BOY + ['stool'], ['falling'])):
-            return 1
-    return 0
+    count = keywordIUActionStoolFalling(interview)
+    return 0 if count == 0 else 1
+    
 
 # Woman drying or washing dishes/plate
+def keywordIUActionWomanDryingWashing(interview):
+    count = 0
+    for uttr in interview:
+        if(check_action_unit(uttr['pos'], WOMAN + PLATE, WASH)):
+            count += 1
+    return count
 
 
 def binaryIUActionWomanDryingWashing(interview):
-    for uttr in interview:
-        if(check_action_unit(uttr['pos'], WOMAN + ['dish', 'plate'], ['wash', 'dry'])):
-            return 1
-    return 0
-
+    count = keywordIUActionWomanDryingWashing(interview)
+    return 0 if count == 0 else 1
+    
 # Water overflowing or spilling
+def keywordIUActionWaterOverflowing(interview):
+    count = 0
+    for uttr in interview:
+        if(check_action_unit(uttr['pos'], WATER, OVERFLOW)):
+            count += 1
+    return count
 
 
 def binaryIUActionWaterOverflowing(interview):
-    for uttr in interview:
-        if(check_action_unit(uttr['pos'], ['water', 'tap', 'sink'], ['overflow', 'spill'])):
-            return 1
-    return 0
+    count = keywordIUActionWaterOverflowing(interview)
+    return 0 if count == 0 else 1
+    
 
-#??????????????????????????????
-# How to define 'action?'
-#??????????????????????????????
+#-----------------------
+# General keywords (7)
+#-----------------------
 
-# #action performed by the girl,
-# def binaryIUActionGirl(interview):
-# 	return check_action_unit(Tree.interview(tree),GIRL,['asking','reaching','helping'])
+# Raw count keywords
+# (proxy for the 'keyword count' features)
+def count_of_general_keyword(interview, keyword_set):
+    words = getAllWordsFromInterview(interview)
+    keywords = [w for w in words if w in keyword_set]
+    if not words or not keywords:
+        return 0
+    else:
+        return len(keywords)
 
-# #woman unconcerned by the overflowing,
-# def binaryIUActionWomanUnconcerned(interview):
-# 	return check_action_unit(Tree.fromstring(interview),WOMAN,['unconcerned'])
 
-# #woman indifferent to the children.
-# def binaryIUActionWomanIndifferent(interview):
-# 	return check_action_unit(Tree.fromstring(interview),['stool'],['falling'])
+# Keywords / all words uttered
+# (this is a measure of how 'relevant' the speech is)
+def general_keyword_to_non_keyword_ratio(interview, keyword_set):
+    words = getAllWordsFromInterview(interview)
+    keywords = [w for w in words if w in keyword_set]
+    if not words or not keywords:
+        return 0
+    else:
+        return len(keywords) / float(len(words))
 
+
+# unique keywords uttered / total set of possible keywords
+# (proxy for the 'binary count' features)
+def percentage_of_general_keywords_mentioned(interview, keyword_set):
+    words = getAllWordsFromInterview(interview)
+    keywords = [w for w in words if w in keyword_set]
+    if not words or not keywords:
+        return 0
+    else:
+        return len(set(keywords)) / float(len(keyword_set))
+
+
+# unique keywords uttered / total_keywords_uttered
+# (Measure of the diversity of keywords uttered)
+def general_keyword_type_to_token_ratio(interview, keyword_set):
+    words = getAllWordsFromInterview(interview)
+    keywords = [w for w in words if w in keyword_set]
+    if not words or not keywords:
+        return 0
+    else:
+        return len(set(keywords)) / float(len(keywords))
+
+
+#=====================================
+# Feature sets
+#=====================================
+def get_keyword_set():
+    return BOY + GIRL + WOMAN + KITCHEN + EXTERIOR + COOKIE + JAR + STOOL + SINK + PLATE + DISHCLOTH + WATER + WINDOW + CUPBOARD + DISHES + CURTAINS + STEAL + FALL + WASH + OVERFLOW
+
+# ----------------------
+# Divide image in half
+# ----------------------
+def get_leftside_keyword_set():
+    return BOY_EXT + GIRL_EXT + COOKIE_EXT + JAR_EXT + STOOL_EXT + CUPBOARD_EXT + STEAL_EXT + FALL_EXT
+
+def get_rightside_keyword_set():
+    return WOMAN_EXT + EXTERIOR_EXT + SINK_EXT + PLATE_EXT + DISHCLOTH_EXT + WATER_EXT + WINDOW_EXT + DISHES_EXT + CURTAINS_EXT + WASH_EXT + OVERFLOW_EXT
+# ----------------------
+
+# ----------------------
+# Divide image in 4 vertical strips
+# ----------------------
+def get_farleft_keyword_set():
+    return GIRL_EXT + COOKIE_EXT + JAR_EXT + STOOL_EXT + CUPBOARD_EXT + STEAL_EXT
+
+def get_centerleft_keyword_set():
+    return BOY_EXT + COOKIE_EXT + STOOL_EXT + CUPBOARD_EXT + STEAL_EXT + FALL_EXT 
+
+def get_farright_keyword_set():
+    return WOMAN_EXT + EXTERIOR_EXT + SINK_EXT + PLATE_EXT + DISHCLOTH_EXT + WATER_EXT + WINDOW_EXT + DISHES_EXT + CURTAINS_EXT + WASH_EXT + OVERFLOW_EXT
+
+def get_centerright_keyword_set():
+    return EXTERIOR_EXT + WINDOW_EXT + DISHES_EXT + CURTAINS_EXT
+
+# ----------------------
+# Divide image in 4 quadrants 
+# ----------------------
+def get_NW_keyword_set(): 
+    return GIRL_EXT + COOKIE_EXT + JAR_EXT + CUPBOARD_EXT + STEAL_EXT + BOY_EXT + COOKIE_EXT
+
+def get_NE_keyword_set():
+    return  WOMAN_EXT + EXTERIOR_EXT + PLATE_EXT + DISHCLOTH_EXT + WASH_EXT + WINDOW_EXT + CURTAINS_EXT
+
+def get_SW_keyword_set():
+    return WOMAN_EXT + SINK_EXT + WATER_EXT + DISHES_EXT + OVERFLOW_EXT
+
+def get_SE_keyword_set():
+    return GIRL_EXT + STOOL_EXT + FALL_EXT
+
+
+
+#-------------------------------------
+# LS/RS switch 
+#-------------------------------------
+def count_ls_rs_switches(interview):
+    leftside  = get_leftside_keyword_set()
+    rightside = get_rightside_keyword_set()
+    words = getAllWordsFromInterview(interview)
+    
+    last_side    = None
+    current      = None
+    switch_count = 0
+
+    for word in words:
+        if word in leftside:
+            current = 'left'
+        if word in rightside:
+            current = 'right'
+
+        if last_side is None and current:
+            last_side = current
+        else:
+            if current and last_side and (current != last_side):
+                switch_count += 1
+                last_side = current 
+
+    return switch_count
 
 #-------------------------------------
 # Cosine Similarity Between Utterances
@@ -520,46 +727,195 @@ def proportion_below_threshold(uttrs, thresh):
 # input: list of interview utterances stored as [ [{},{},{}], [{},{},{}] ]
 # returns: list of features for each interview
 
-
-def get_all(interview):
+def get_psycholinguistic_features(interview):
     feat_dict = {}
     feat_dict["getFamiliarityScore"] = getPsycholinguisticScore(interview, 'familiarity')
     feat_dict["getConcretenessScore"] = getPsycholinguisticScore(interview, 'concreteness')
     feat_dict["getImagabilityScore"] = getPsycholinguisticScore(interview, 'imagability')
     feat_dict["getAoaScore"] = getPsycholinguisticScore(interview, 'aoa')
     feat_dict["getSUBTLWordScores"] = getSUBTLWordScores(interview)
+    
     feat_dict["getLightVerbCount"] = getLightVerbCount(interview)
+    feat_dict["avg_cos_dist"] = avg_cos_dist(interview)
+    feat_dict["min_cos_dist"] = min_cos_dist(interview)
+    feat_dict["proportion_below_threshold_0"] = proportion_below_threshold(interview, 0)
+    feat_dict["proportion_below_threshold_0.3"] = proportion_below_threshold(interview, 0.3)
+    feat_dict["proportion_below_threshold_0.5"] = proportion_below_threshold(interview, 0.5)
 
+    # general_keywords
+    all_keywords = get_keyword_set()
+    feat_dict["count_of_general_keyword"] = count_of_general_keyword(interview, all_keywords)
+    feat_dict["general_keyword_type_to_token_ratio"] = general_keyword_type_to_token_ratio(interview, all_keywords)
+    feat_dict["general_keyword_to_non_keyword_ratio"]  = general_keyword_to_non_keyword_ratio(interview, all_keywords)
+    feat_dict["percentage_of_general_keywords_mentioned"] = percentage_of_general_keywords_mentioned(
+        interview, all_keywords)
+
+    return feat_dict
+
+
+def get_spatial_features(interview, photo_split):
+    divisions = ['halves','strips','quadrants']
+
+    if photo_split not in divisions:
+        raise ValueError("'photo_split' must be one of 'halves', 'quadrants' or 'strips', not: %s" % photo_split)
+    
+    feat_dict = {}
+    
+    if photo_split == 'halves':
+        # leftside_keywords
+        # (These are keywords which only appear on the left side of the image)
+        leftside_keywords = get_leftside_keyword_set()
+        feat_dict["ls_count"] = count_of_general_keyword(interview, leftside_keywords)
+        feat_dict["ls_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, leftside_keywords)
+        feat_dict["ls_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, leftside_keywords)
+        feat_dict["prcnt_ls_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, leftside_keywords)
+
+        # rightside_keywords
+        # (These are keywords which only appear on the right side of the image)
+        rightside_keywords = get_rightside_keyword_set()
+        feat_dict["rs_count"] = count_of_general_keyword(interview, rightside_keywords)
+        feat_dict["rs_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, rightside_keywords)
+        feat_dict["rs_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, rightside_keywords)
+        feat_dict["prcnt_rs_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, rightside_keywords)
+
+        feat_dict["count_ls_rs_switches"] = count_ls_rs_switches(interview)
+        return feat_dict
+
+    if photo_split == 'strips':
+        # farleft_keywords
+        # (These are keywords which only appear on the farleft side of the image)
+        farleft_keywords = get_farleft_keyword_set()
+        feat_dict["farleft_count"] = count_of_general_keyword(interview, farleft_keywords)
+        feat_dict["farleft_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, farleft_keywords)
+        feat_dict["farleft_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, farleft_keywords)
+        feat_dict["prcnt_farleft_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, farleft_keywords)
+
+        # centerleft_keywords
+        # (These are keywords which only appear on the centerleft side of the image)
+        centerleft_keywords = get_centerleft_keyword_set()
+        feat_dict["centerleft_count"] = count_of_general_keyword(interview, centerleft_keywords)
+        feat_dict["centerleft_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, centerleft_keywords)
+        feat_dict["centerleft_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, centerleft_keywords)
+        feat_dict["prcnt_centerleft_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, centerleft_keywords)
+        
+        # farright_keywords
+        # (These are keywords which only appear on the farright side of the image)
+        farright_keywords = get_farright_keyword_set()
+        feat_dict["farright_count"] = count_of_general_keyword(interview, farright_keywords)
+        feat_dict["farright_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, farright_keywords)
+        feat_dict["farright_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, farright_keywords)
+        feat_dict["prcnt_farright_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, farright_keywords)
+        
+        # centerright_keywords
+        # (These are keywords which only appear on the centerright side of the image)
+        centerright_keywords = get_centerright_keyword_set()
+        feat_dict["centerright_count"] = count_of_general_keyword(interview, centerright_keywords)
+        feat_dict["centerright_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, centerright_keywords)
+        feat_dict["centerright_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, centerright_keywords)
+        feat_dict["prcnt_centerright_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, centerright_keywords)
+
+        return feat_dict
+
+    if photo_split == 'quadrants':
+        # NW_keywords
+        # (These are keywords which only appear on the centerright side of the image)
+        NW_keywords = get_NW_keyword_set()
+        feat_dict["NW_count"] = count_of_general_keyword(interview, NW_keywords)
+        feat_dict["NW_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, NW_keywords)
+        feat_dict["NW_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, NW_keywords)
+        feat_dict["prcnt_NW_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, NW_keywords)
+
+        
+        # NE_keywords
+        # (TheNE are keywords which only appear on the centerright side of the image)
+        NE_keywords = get_NE_keyword_set()
+        feat_dict["NE_count"] = count_of_general_keyword(interview, NE_keywords)
+        feat_dict["NE_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, NE_keywords)
+        feat_dict["NE_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, NE_keywords)
+        feat_dict["prcnt_NE_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, NE_keywords)
+
+
+        # SE_keywords
+        # (TheNE are keywords which only appear on the centerright side of the image)
+        SE_keywords = get_SE_keyword_set()
+        feat_dict["SE_count"] = count_of_general_keyword(interview, SE_keywords)
+        feat_dict["SE_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, SE_keywords)
+        feat_dict["SE_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, SE_keywords)
+        feat_dict["prcnt_SE_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, SE_keywords)
+
+        # SW_keywords
+        # (TheNE are keywords which only appear on the centerright side of the image)
+        SW_keywords = get_SW_keyword_set()
+        feat_dict["SW_count"] = count_of_general_keyword(interview, SW_keywords)
+        feat_dict["SW_ty_to_tok_ratio"] = general_keyword_type_to_token_ratio(
+            interview, SW_keywords)
+        feat_dict["SW_kw_to_w_ratio"]  = general_keyword_to_non_keyword_ratio(
+            interview, SW_keywords)
+        feat_dict["prcnt_SW_uttered"] = percentage_of_general_keywords_mentioned(
+            interview, SW_keywords)
+
+        return feat_dict
+
+
+def get_cookie_theft_info_unit_features(interview):
+    feat_dict = {}
     # Boy IU
     feat_dict["keywordIUSubjectBoy"] = keywordIUSubjectBoy(interview)
-    feat_dict["binaryIUSubjectBoy"] = binaryIUSubjectBoy(interview)
+    feat_dict["binaryIUSubjectBoy"] = binaryIUSubjectBoy(interview)      
     # Girl IU
     feat_dict["keywordIUSubjectGirl"] = keywordIUSubjectGirl(interview)
-    feat_dict["binaryIUSubjectGirl"] = binaryIUSubjectGirl(interview)
+    feat_dict["binaryIUSubjectGirl"] = binaryIUSubjectGirl(interview)    
     # Woman IU
     feat_dict["keywordIUSubjectWoman"] = keywordIUSubjectWoman(interview)
-    feat_dict["binaryIUSubjectWoman"] = binaryIUSubjectWoman(interview)
+    feat_dict["binaryIUSubjectWoman"] = binaryIUSubjectWoman(interview)  
     # Kitchen IU
     feat_dict["keywordIUPlaceKitchen"] = keywordIUPlaceKitchen(interview)
-    feat_dict["binaryIUPlaceKitchen"] = binaryIUPlaceKitchen(interview)
+    feat_dict["binaryIUPlaceKitchen"] = binaryIUPlaceKitchen(interview)  
     # Exterior IU
     feat_dict["keywordIUPlaceExterior"] = keywordIUPlaceExterior(interview)
     feat_dict["binaryIUPlaceExterior"] = binaryIUPlaceExterior(interview)
     # Cookie IU
     feat_dict["keywordIUObjectCookie"] = keywordIUObjectCookie(interview)
-    feat_dict["binaryIUObjectCookie"] = binaryIUObjectCookie(interview)
+    feat_dict["binaryIUObjectCookie"] = binaryIUObjectCookie(interview)  
     # Jar IU
     feat_dict["keywordIUObjectJar"] = keywordIUObjectJar(interview)
-    feat_dict["binaryIUObjectJar"] = binaryIUObjectJar(interview)
+    feat_dict["binaryIUObjectJar"] = binaryIUObjectJar(interview)        
     # Stool IU
     feat_dict["keywordIUObjectStool"] = keywordIUObjectStool(interview)
-    feat_dict["binaryIUObjectStool"] = binaryIUObjectStool(interview)
+    feat_dict["binaryIUObjectStool"] = binaryIUObjectStool(interview)    
     # Sink IU
     feat_dict["keywordIUObjectSink"] = keywordIUObjectSink(interview)
-    feat_dict["binaryIUObjectSink"] = binaryIUObjectSink(interview)
+    feat_dict["binaryIUObjectSink"] = binaryIUObjectSink(interview)      
     # Plate IU
     feat_dict["keywordIUObjectPlate"] = keywordIUObjectPlate(interview)
-    feat_dict["binaryIUObjectPlate"] = binaryIUObjectPlate(interview)
+    feat_dict["binaryIUObjectPlate"] = binaryIUObjectPlate(interview)    
     # Dishcloth IU
     feat_dict["keywordIUObjectDishcloth"] = keywordIUObjectDishcloth(interview)
     feat_dict["binaryIUObjectDishcloth"] = binaryIUObjectDishcloth(interview)
@@ -578,19 +934,25 @@ def get_all(interview):
     # Curtains IU
     feat_dict["keywordIUObjectCurtains"] = keywordIUObjectCurtains(interview)
     feat_dict["binaryIUObjectCurtains"] = binaryIUObjectCurtains(interview)
-
+    
     # Boy taking IU
+    # feat_dict["keywordIUActionBoyTaking"] = keywordIUActionBoyTaking(interview)
     feat_dict["binaryIUActionBoyTaking"] = binaryIUActionBoyTaking(interview)
-    feat_dict["binaryIUActionStoolFalling"] = binaryIUActionStoolFalling(interview)
+
     # Stool falling taking IU
+    # feat_dict["keywordIUActionStoolFalling"] = keywordIUActionStoolFalling(interview)
+    feat_dict["binaryIUActionStoolFalling"] = binaryIUActionStoolFalling(interview)
+    
+    # Woman Drying
+    # feat_dict["keywordIUActionWomanDryingWashing"] = keywordIUActionWomanDryingWashing(interview)
     feat_dict["binaryIUActionWomanDryingWashing"] = binaryIUActionWomanDryingWashing(interview)
-
+    
+    # Water overflowing
+    # feat_dict["keywordIUActionWaterOverflowing"] = keywordIUActionWaterOverflowing(interview)
     feat_dict["binaryIUActionWaterOverflowing"] = binaryIUActionWaterOverflowing(interview)
-
-    feat_dict["avg_cos_dist"] = avg_cos_dist(interview)
-    feat_dict["min_cos_dist"] = min_cos_dist(interview)
-    feat_dict["proportion_below_threshold_0"] = proportion_below_threshold(interview, 0)
-    feat_dict["proportion_below_threshold_0.3"] = proportion_below_threshold(interview, 0.3)
-    feat_dict["proportion_below_threshold_0.5"] = proportion_below_threshold(interview, 0.5)
-
+    
     return feat_dict
+
+
+if __name__ == '__main__':
+    pass

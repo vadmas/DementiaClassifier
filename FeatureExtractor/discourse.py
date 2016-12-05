@@ -62,11 +62,20 @@ def get_all(path):
             key = tree.split('/')[-1].split('_')[0]
             print "Processing %s ..." % key
             features = {}
-            discourse_relations = get_discourse_relations(dpt)
-            features.update(discourse_relations)
             features["depth"]    = get_depth(dpt)
             features["edu_rate"] = get_edu_rate(sentences)
             features["number_of_utterances"] = len(sentences)
+
+            discourse_relations = get_discourse_relations(dpt)
+            n_relations = float(sum(discourse_relations.values()))
+            discourse_ratios = {key + "_ratio": value / n_relations for (key, value) in discourse_relations.iteritems()}
+            features.update(discourse_relations)
+            features.update(discourse_ratios)
+            
+            # Calculate type to token ratio
+            dtypes = [c for c in discourse_relations.values() if c is not 0]
+            features["discourse_type_token_ratio"] = len(dtypes) / float(sum(dtypes))
+            
             parsed_data[key] = features
     else:
         raise IOError("File not found: " + path + " does not exist")

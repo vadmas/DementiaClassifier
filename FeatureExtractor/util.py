@@ -40,5 +40,41 @@ def split_string_by_words(sen, n):
 def remove_control_chars(s):
     return control_char_re.sub('', s)
 
-def likelihood_ratio_test(alt_loss, null_loss):
-    
+def print_full(x):
+    for l in x:
+        print l
+
+
+def get_column_index(columns, df):
+    return [df.columns.get_loc(c) for c in columns]
+
+
+def shorten(name):
+    if "keyword_to_non_keyword_ratio" in name:
+        name = name.replace("keyword_to_non_keyword_ratio", 'kw_to_w_ratio')
+
+    if "keyword_type_to_token" in name:
+        name = name.replace("keyword_type_to_token", "ty_to_tok")
+
+    if "percentage_of_leftside_keywords_mentioned" in name:
+        name = name.replace("percentage_of_leftside_keywords_mentioned", "prcnt_ls_uttered")
+
+    if "percentage_of_rightside_keywords_mentioned" in name:
+        name = name.replace("percentage_of_rightside_keywords_mentioned", "prcnt_rs_uttered")
+
+    if "count_of_leftside_keyword" in name:
+        name = name.replace("count_of_leftside_keyword", "ls_count")
+
+    if "count_of_rightside_keyword" in name:
+        name = name.replace("count_of_rightside_keyword", "rs_count")
+
+    if "percentage_of_rightside_keywords_mentioned" in name:
+        name = name.replace("percentage_of_rightside_keywords_mentioned", "prcnt_rs_uttered")
+
+    if "leftside" in name:
+        name = name.replace("leftside", "ls")
+
+    if "rightside" in name:
+        name = name.replace("rightside", "rs")
+
+    return name

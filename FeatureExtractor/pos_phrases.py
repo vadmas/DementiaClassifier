@@ -637,7 +637,7 @@ def getPPTypeRate(nlp_obj):
     return phrase_count / word_count
 
 
-# input: list of  utterances for one interview stored as [{},{},{}]
+# input: list of utterances for one interview stored as [{},{},{}]
 # returns: list of features for  interview
 def get_all(interview):
     features = {}
