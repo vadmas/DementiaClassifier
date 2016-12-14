@@ -450,72 +450,145 @@ def get_general_keyword_features():
 
 def get_leftside_keyword_features():
     return [
-        'count_of_leftside_keyword', 
-        'leftside_keyword_to_non_keyword_ratio',
-        'leftside_keyword_type_to_token_ratio',
-        'percentage_of_leftside_keywords_mentioned',
+        "ls_count",
+        "ls_kw_to_w_ratio",
+        "ls_ty_to_tok_ratio",
+        "prcnt_ls_uttered",
     ]
 
 
 def get_rightside_keyword_features():
     return [
-        'count_of_rightside_keyword',
-        'percentage_of_rightside_keywords_mentioned',
-        'rightside_keyword_to_non_keyword_ratio',
-        'rightside_keyword_type_to_token_ratio',
+        "prcnt_rs_uttered",
+        "rs_count",
+        "rs_kw_to_w_ratio",
+        "rs_ty_to_tok_ratio",
     ]
 
 
-
-def get_leftside_rightside_features():
-     return [
-        'count_of_leftside_keyword', 
-        'leftside_keyword_to_non_keyword_ratio',
-        'leftside_keyword_type_to_token_ratio',
-        'percentage_of_leftside_keywords_mentioned',
-        'count_of_rightside_keyword',
-        'percentage_of_rightside_keywords_mentioned',
-        'rightside_keyword_to_non_keyword_ratio',
-        'rightside_keyword_type_to_token_ratio',
-        "count_ls_rs_switches",
+def get_halves_features():
+    return [
+        "ls_count",
+        "ls_kw_to_w_ratio",
+        "ls_ty_to_tok_ratio",
+        "prcnt_ls_uttered",
+        "prcnt_rs_uttered",
+        "rs_count",
+        "rs_kw_to_w_ratio",
+        "rs_ty_to_tok_ratio",
     ]
 
-def get_ls_rs_polynomial():
-    return[
-        'squared_ls_count',
-        'squared_ls_kw_to_w_ratio',
-        'squared_ls_ty_to_tok_ratio',
-        'squared_prcnt_ls_uttered',
-        'squared_rs_count',
-        'squared_prcnt_rs_uttered',
-        'squared_rs_kw_to_w_ratio',
-        'squared_rs_ty_to_tok_ratio',
-        'squared_count_ls_rs_switches',
-        'interaction_ls_count_rs_count',
-        'interaction_ls_count_prcnt_rs_uttered',
-        'interaction_ls_count_rs_kw_to_w_ratio',
-        'interaction_ls_count_rs_ty_to_tok_ratio',
-        'interaction_ls_kw_to_w_ratio_rs_count',
-        'interaction_ls_kw_to_w_ratio_prcnt_rs_uttered',
-        'interaction_ls_kw_to_w_ratio_rs_kw_to_w_ratio',
-        'interaction_ls_kw_to_w_ratio_rs_ty_to_tok_ratio',
-        'interaction_ls_ty_to_tok_ratio_rs_count',
-        'interaction_ls_ty_to_tok_ratio_prcnt_rs_uttered',
-        'interaction_ls_ty_to_tok_ratio_rs_kw_to_w_ratio',
-        'interaction_ls_ty_to_tok_ratio_rs_ty_to_tok_ratio',
-        'interaction_prcnt_ls_uttered_rs_count',
-        'interaction_prcnt_ls_uttered_prcnt_rs_uttered',
-        'interaction_prcnt_ls_uttered_rs_kw_to_w_ratio',
-        'interaction_prcnt_ls_uttered_rs_ty_to_tok_ratio',
-        'interaction_count_ls_rs_switches_ls_count',
-        'interaction_count_ls_rs_switches_ls_kw_to_w_ratio',
-        'interaction_count_ls_rs_switches_ls_ty_to_tok_ratio',
-        'interaction_count_ls_rs_switches_prcnt_ls_uttered',
-        'interaction_count_ls_rs_switches_rs_count',
-        'interaction_count_ls_rs_switches_prcnt_rs_uttered',
-        'interaction_count_ls_rs_switches_rs_kw_to_w_ratio',
-        'interaction_count_ls_rs_switches_rs_ty_to_tok_ratio'
-]
+
+def get_strips_features():
+    return [
+        "centerleft_count",
+        "centerleft_kw_to_w_ratio",
+        "centerleft_ty_to_tok_ratio",
+        "centerright_count",
+        "centerright_kw_to_w_ratio",
+        "centerright_ty_to_tok_ratio",
+        "farleft_count",
+        "farleft_kw_to_w_ratio",
+        "farleft_ty_to_tok_ratio",
+        "farright_count",
+        "farright_kw_to_w_ratio",
+        "farright_ty_to_tok_ratio",
+        "prcnt_centerleft_uttered",
+        "prcnt_centerright_uttered",
+        "prcnt_farleft_uttered",
+        "prcnt_farright_uttered",
+    ]
+
+
+def get_centerleft_features():
+    return [
+        "centerleft_count",
+        "centerleft_kw_to_w_ratio",
+        "centerleft_ty_to_tok_ratio",
+        "prcnt_centerleft_uttered",
+    ]
+
+
+def get_centerright_features():
+    return [
+        "centerright_count",
+        "centerright_kw_to_w_ratio",
+        "centerright_ty_to_tok_ratio",
+        "prcnt_centerright_uttered",
+    ]
+
+
+def get_farleft_features():
+    return [
+        "farleft_count",
+        "farleft_kw_to_w_ratio",
+        "farleft_ty_to_tok_ratio",
+        "prcnt_farleft_uttered",
+    ]
+
+
+def get_farright_features():
+    return [
+        "farright_count",
+        "farright_kw_to_w_ratio",
+        "farright_ty_to_tok_ratio",
+        "prcnt_farright_uttered",
+    ]
+
+
+def get_quadrant_features():
+    return [
+        "NE_count",
+        "NE_kw_to_w_ratio",
+        "NE_ty_to_tok_ratio",
+        "NW_count",
+        "NW_kw_to_w_ratio",
+        "NW_ty_to_tok_ratio",
+        "SE_count",
+        "SE_kw_to_w_ratio",
+        "SE_ty_to_tok_ratio",
+        "SW_count",
+        "SW_kw_to_w_ratio",
+        "SW_ty_to_tok_ratio",
+        "prcnt_NE_uttered",
+        "prcnt_NW_uttered",
+        "prcnt_SE_uttered",
+        "prcnt_SW_uttered",
+    ]
+
+
+def get_NE_features():
+    return [
+        "NE_count",
+        "NE_kw_to_w_ratio",
+        "NE_ty_to_tok_ratio",
+        "prcnt_NE_uttered",
+    ]
+
+
+def get_NW_features():
+    return [
+        "NW_count",
+        "NW_kw_to_w_ratio",
+        "NW_ty_to_tok_ratio",
+        "prcnt_NW_uttered",
+    ]
+
+def get_SE_features():
+    return [
+        "SE_count",
+        "SE_kw_to_w_ratio",
+        "SE_ty_to_tok_ratio",
+        "prcnt_SE_uttered",
+    ]
+
+def get_SW_features():
+    return [
+        "SW_count",
+        "SW_kw_to_w_ratio",
+        "SW_ty_to_tok_ratio",
+        "prcnt_SW_uttered",
+    ]
 
 
 def get_all_groups():
@@ -531,5 +604,7 @@ def get_all_groups():
     groups["demographic"]          = get_demographic_features()
     groups["information_content"]  = get_information_content_features()
     groups['get_general_keyword_features'] = get_general_keyword_features()
-    groups['get_leftside_rightside_features'] = get_leftside_rightside_features()
+    groups['get_halves_features']          = get_halves_features()
+    groups['get_strips_features']          = get_strips_features()
+    groups['get_quadrant_features']        = get_quadrant_features()
     return groups

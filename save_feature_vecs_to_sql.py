@@ -101,9 +101,8 @@ def save_spatial():
         feat_df = pd.DataFrame([feat_dict])
         quadrants_frame.append(feat_df)
 
-
-    halves_df = pd.concat(halves_frame, ignore_index=True)
-    strips_df = pd.concat(strips_frame, ignore_index=True)
+    halves_df    = pd.concat(halves_frame, ignore_index=True)
+    strips_df    = pd.concat(strips_frame, ignore_index=True)
     quadrants_df = pd.concat(quadrants_frame, ignore_index=True)
 
     halves_df.to_sql("dbank_spatial_halves", cnx, if_exists='replace', index=False)

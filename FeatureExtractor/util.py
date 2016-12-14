@@ -1,4 +1,5 @@
 from nltk.corpus import wordnet as wn
+import pandas as pd
 import re
 # or equivalently and much more efficiently
 control_chars = ''.join(map(unichr, range(0, 32) + range(127, 160)))
@@ -78,3 +79,11 @@ def shorten(name):
         name = name.replace("rightside", "rs")
 
     return name
+
+
+def get_top_pearson_features(X, y, n):
+    df = pd.DataFrame(X).apply(pd.to_numeric)
+    df['y'] = y
+    corr_coeff = df.corr()['y'].abs().sort(inplace=False, ascending=False)
+    return corr_coeff.index.values[1:n+1].astype(int)
+
