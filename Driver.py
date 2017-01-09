@@ -2,11 +2,14 @@ from sqlalchemy import create_engine
 import pandas as pd
 import numpy as np
 from sklearn.cross_validation import LabelKFold
-from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.model_selection import GroupKFold
+from sklearn.metrics import accuracy_score, roc_auc_score, f1_score
 import matplotlib.pyplot as plt
 from FeatureExtractor import feature_sets
 from FeatureExtractor import util
 from FeatureExtractor import domain_adaptation
+import seaborn as sns
+import scipy.stats as st
 
 # models
 from sklearn.linear_model import LogisticRegression
@@ -19,7 +22,7 @@ warnings.filterwarnings('ignore')
 
 # ====================
 # globals
-XTICKS = np.arange(40, 1200, 20)
+XTICKS = np.arange(100, 350, 5)
 REGULARIZATION_CONSTANT = 1
 
 # ------------------
@@ -66,6 +69,25 @@ def update_sql():
     print "fin!"
 
 
+def plot_bar(results_arr, names_arr, with_err=True):    
+    if len(results_arr) != len(names_arr):
+        print "error: Results and names array not same length"
+        return
+
+    dfs = []
+    for idx, results in enumerate(results_arr):
+        arr = np.asarray(results)
+        max_ind = np.argmax(np.mean(arr, axis=0))
+        df = pd.DataFrame(arr[:,max_ind], columns=['fold_vals'])
+        df['model'] = names_arr[idx]
+        df['best_k'] = XTICKS[max_ind]
+        dfs.append(df)
+    
+    dfs = pd.concat(dfs)
+    dfs.to_csv("output/tmp_csvs/40_300_with_discourse.csv")
+    ax = sns.barplot(x="model", y="fold_vals", data=dfs, capsize=.2)
+    sns.plt.show()
+
 def plot_results(results_arr, names_arr, with_err=True):
 
     if len(results_arr) != len(names_arr):
@@ -82,6 +104,7 @@ def plot_results(results_arr, names_arr, with_err=True):
         arr = np.asarray(results)
         means.append(np.mean(arr, axis=0))
         stdevs.append(np.std(arr, axis=0))
+
 
     df_dict  = {}
     err_dict = {}
@@ -146,19 +169,19 @@ def get_data(spacial_db="dbank_spatial_halves", diagnosis=ALZHEIMERS+CONTROL, in
     fv = pd.merge(fv, demo)
 
     # Add discourse
-    fv = pd.merge(fv, discourse, on=['interview'])
+    # fv = pd.merge(fv, discourse, on=['interview'])
 
     # Add infounits
     fv = pd.merge(fv, infounits, on=['interview'])
 
-    # Add spacial
-    # (Add Polynomial)
-    if polynomial:
-        spacial = spacial.drop(exclude_features, errors='ignore')
-        spacial = make_polynomial_terms(spacial)
-    fv = pd.merge(fv, spacial, on=['interview'])
+    # # Add spacial
+    # # (Add Polynomial)
+    # if polynomial:
+    #     spacial = spacial.drop(exclude_features, errors='ignore')
+    #     spacial = make_polynomial_terms(spacial)
+    # fv = pd.merge(fv, spacial, on=['interview'])
 
-    # Randomize
+    # # Randomize
     fv = fv.sample(frac=1, random_state=20)
 
     # Collect Labels
@@ -180,7 +203,7 @@ def get_data(spacial_db="dbank_spatial_halves", diagnosis=ALZHEIMERS+CONTROL, in
     return X, y, labels
 
 
-def evaluate_model(model, X, y, labels, save_features=False, group_ablation=False):
+def evaluate_model(model, X, y, labels, save_features=False, group_ablation=False, feature_output_name="features.csv"):
 
     model_fs = RandomizedLogisticRegression(C=1, random_state=1)
 
@@ -265,7 +288,7 @@ def evaluate_model(model, X, y, labels, save_features=False, group_ablation=Fals
                              reverse=True, key=lambda x: x[1])
         feat_scores = pd.DataFrame(feat_scores)
 
-        csv_path = "output/feature_scores/general_keywords.csv"
+        csv_path = "output/feature_scores/" + feature_output_name
         feat_scores.to_csv(csv_path, index=False)
         util.print_full(feat_scores)
 
@@ -330,44 +353,116 @@ def run_domain_adaptation():
     X_con, y_con, l_con = get_data(diagnosis=CONTROL, exclude_features=to_exclude)
     X_mci, y_mci, l_mci = get_data(diagnosis=MCI, exclude_features=to_exclude)
 
-    n_mci = len(X_mci)
     # Make X_target (MCI samples + control samples) and X_source (Alzheimers + *different* control samples)
+
+    # n_mci = len(X_mci)
+    # # Make X_target (MCI samples + control samples) and X_source (Alzheimers + *different* control samples)
+    # Xt, yt, lt = domain_adaptation.concat_and_shuffle(
+    #     X_mci, y_mci, l_mci, X_con.iloc[:n_mci], y_con.iloc[:n_mci], l_con[:n_mci])
+    
+    # Xs, ys, ls = domain_adaptation.concat_and_shuffle(
+    #     X_alz, y_alz, l_alz, X_con.iloc[n_mci:], y_con.iloc[n_mci:], l_con[n_mci:])
+
+    # Split control samples into target/source set (making sure one patient doesn't appear in both t and s)
+    gkf = GroupKFold(n_splits=6).split(X_con,y_con,groups=l_con)
+
+    source, target = gkf.next()
+   
     Xt, yt, lt = domain_adaptation.concat_and_shuffle(
-        X_mci, y_mci, l_mci, X_con.iloc[:n_mci], y_con.iloc[:n_mci], l_con[:n_mci])
+        X_mci, y_mci, l_mci, X_con.ix[target], y_con.ix[target], np.array(l_con)[target])
 
     Xs, ys, ls = domain_adaptation.concat_and_shuffle(
-        X_alz, y_alz, l_alz, X_con.iloc[n_mci:], y_con.iloc[n_mci:], l_con[n_mci:])
+        X_alz, y_alz, l_alz, X_con.ix[source], y_con.ix[source], np.array(l_con)[source])
 
     # Baseline 1
+    print "Running Baseline 1"
     model_1 = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
-    bl_1 = evaluate_model(model_1, Xt, yt, lt, save_features=False)
-    # plot_results([bl_1], ["baseline_1"], with_err=True)
+    bl_1 = evaluate_model(model_1, Xt, yt, lt, save_features=True, feature_output_name="MCI_without_discourse.csv")
+    plot_results([bl_1], ["baseline_1"], with_err=True)
 
-    # Baseline 2
+    # # Baseline 2
+    print "Running Baseline 2"
     model_2 = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
     bl_2 = domain_adaptation.run_baseline_two(model_2, Xt, yt, lt, Xs, ys, ls, XTICKS)
     # plot_results([bl_2], ["baseline_2"], with_err=True)
 
     # Baseline 3
+    print "Running Baseline 3"
     model_3 = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
     bl_3 = domain_adaptation.run_baseline_three(model_3, Xt, yt, lt, Xs, ys, ls, XTICKS)
     # plot_results([bl_3], ["baseline_3"], with_err=True)
 
-    # Baseline 4
+    # # Baseline 4
+    print "Running Baseline 4"
     model_4 = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
     bl_4 = domain_adaptation.run_baseline_four(model_4, Xt, yt, lt, Xs, ys, ls, XTICKS)
     # plot_results([bl_4], ["baseline_4"], with_err=True)
 
-    # frustratingly simple
+    frustratingly simple
+    print "Running frustratingly simple"
     model_frus = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
     frus = domain_adaptation.run_frustratingly_simple(model_frus, Xt, yt, lt, Xs, ys, ls, XTICKS)
-    # plot_results([frus], ["frus"], with_err=True)
+    # plot_results([frus], ["frus"], with_err=False)
 
+    # # Coral
+    print "Running CORAL"
+    model_coral = LogisticRegression(penalty='l2', C=REGULARIZATION_CONSTANT)
+    coral = domain_adaptation.run_coral(model_coral, Xt, yt, lt, Xs, ys, ls, XTICKS)
+    # plot_results([coral], ["coral"], with_err=True)
 
-    plot_results([bl_1, bl_2, bl_3, bl_4, frus], ["bl_1", "bl_2", "bl_3", "bl_4", "frus"], with_err=True)
-
+    # # plot_bar([bl_1, bl_2, bl_3, bl_4, frus, coral], ["bl_1","bl_2","bl_3","bl_4", "frus", "coral"])
+    # plot_results([bl_1, bl_2, bl_3, bl_4, frus, coral], ["bl_1","bl_2","bl_3","bl_4", "frus", "coral"])
+    # # domain_adaptation.get_top_correlated_features_frust(Xt, yt, Xs, ys)
 
 
 # ======================================================================================================
 if __name__ == '__main__':
     run_domain_adaptation()
+
+    # df_with = pd.read_csv("output/tmp_csvs/40_300_with_discourse.csv")
+    # df_without = pd.read_csv("output/tmp_csvs/40_300_without_discourse.csv")
+
+    # v1 = df_without[df_without.model == 'coral'].fold_vals
+    # c1 = st.t.interval(0.90, len(v1)-1, loc=np.mean(v1), scale=st.sem(v1))
+
+    # v2 = df_with[df_with.model == 'coral'].fold_vals
+    # c2 = st.t.interval(0.90, len(v2)-1, loc=np.mean(v2), scale=st.sem(v2))
+
+    # print "coral w/o discourse: %.2f 90  CI [%.2f, %.2f ]" % (np.mean(v1), c1[0], c1[1])
+    # print "coral w discourse: %.2f 90  CI [%.2f, %.2f ]" % (np.mean(v2), c2[0], c2[1])
+
+
+    # # df_with['Discourse Features'] = "Including Discourse Features"
+    # df_without['Discourse Features'] = "Excluding Discourse Features"
+
+    # dfs = pd.concat([df_with, df_without])
+
+    # dfs.replace("bl_1", "target\nonly", inplace=True)
+    # dfs.replace("bl_2", "source\nonly", inplace=True)
+    # dfs.replace("bl_3", "source w/target \nfeature selection", inplace=True)
+    # dfs.replace("bl_4", "relabeled \nsource", inplace=True)
+    # dfs.replace("frus", "frustratingly\nsimple", inplace=True)
+
+    # # sns.set_style("whitegrid")
+    # # ax = sns.barplot(x="model", y="fold_vals", hue='Discourse Features', data=dfs, ci=90, capsize=.2)
+    # # ax.set(xlabel='Model', ylabel='Accuracy')
+    # # ax.figure.tight_layout()
+    # # ax.figure.savefig("output/plots/winter_2017/model_comparison.png")
+
+    # # sns.plt.show()
+
+    # # dfs = dfs[['best_k', 'model', 'Discourse Features']].drop_duplicates()
+    # # ax = sns.barplot(x="model", y="best_k", hue='Discourse Features', data=dfs)
+    # # ax.set(xlabel='Model', ylabel='# of Features')
+    # # ax.figure.tight_layout()
+    # # ax.figure.savefig("output/plots/winter_2017/feature_count.png")
+
+
+
+
+
+
+
+
+
+

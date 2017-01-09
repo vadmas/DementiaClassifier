@@ -1,5 +1,6 @@
 from nltk.corpus import wordnet as wn
 import pandas as pd
+import numpy as np
 import re
 # or equivalently and much more efficiently
 control_chars = ''.join(map(unichr, range(0, 32) + range(127, 160)))
@@ -81,9 +82,17 @@ def shorten(name):
     return name
 
 
-def get_top_pearson_features(X, y, n):
+def get_top_pearson_features(X, y, n, return_correlation=False):
     df = pd.DataFrame(X).apply(pd.to_numeric)
     df['y'] = y
     corr_coeff = df.corr()['y'].abs().sort(inplace=False, ascending=False)
-    return corr_coeff.index.values[1:n+1].astype(int)
+    if return_correlation:
+        return corr_coeff
+    else:
+        return corr_coeff.index.values[1:n+1].astype(int)
 
+
+def msqrt(X):
+    '''Computes the square root matrix of symmetric square matrix X.'''
+    (L, V) = np.linalg.eigh(X)
+    return V.dot(np.diag(np.sqrt(L))).dot(V.T) 

@@ -31,7 +31,7 @@ def run_baseline_two(model, Xt, yt, lt, Xs, ys, ls, ticks):
         print "processing fold: %d" % (len(folds) + 1)
 
         # Split
-        # Here we train on the entire source data (hence no index to Xs or ys)
+        # Here we train on the entire source data (hence no train index to Xs or ys)
         X_train, X_test = Xs.values, Xt.values[test_index]
         y_train, y_test = ys.values, yt.values[test_index]
 
@@ -168,7 +168,7 @@ def run_frustratingly_simple(model, Xt, yt, lt, Xs, ys, ls, ticks):
 
         for k in ticks:
             indices = util.get_top_pearson_features(X_merged, y_merged, k)
-
+            # import pdb; pdb.set_trace()
             # Select k features
             X_train_fs = X_merged[:, indices]
             X_test_fs  = X_test_merged[:, indices]
@@ -177,6 +177,61 @@ def run_frustratingly_simple(model, Xt, yt, lt, Xs, ys, ls, ticks):
 
             # summarize the selection of the attributes
             yhat  = model.predict(X_test_fs)         # Predict
+            scores.append(accuracy_score(yt_test, yhat))     # Save
+
+        # ----- save row -----
+        folds.append(scores)
+        # ----- save row -----
+        
+    folds = np.asarray(folds)
+    return folds
+
+
+def get_top_correlated_features_frust(Xt, yt, Xs, ys):
+    Xs_train, Xt_train = Xs.values, Xt.values
+    ys_train, yt_train = ys.values, yt.values
+    X_merged = merge_and_extend_feature_space(Xt_train, Xs_train)
+    y_merged = np.concatenate([yt_train, ys_train])
+    indices  = util.get_top_pearson_features(X_merged, y_merged, 64, return_correlation=True)
+    for i in indices[1:].index:
+        if i < 353:
+            print indices.loc[i], Xs.columns[i] + "_both"
+        elif i < 706:
+            print indices.loc[i], Xs.columns[i - 353] + "_source_only"
+        else:
+            print indices.loc[i], Xs.columns[i - 706] + "_target_only"
+
+
+
+# This baseline adds the entire source data to each training fold and calls it target
+def run_coral(model, Xt, yt, lt, Xs, ys, ls, ticks):
+    # Split into folds using labels
+    label_kfold = LabelKFold(lt, n_folds=10)
+    folds  = []
+
+    for train_index, test_index in label_kfold:
+        print "processing fold: %d" % (len(folds) + 1)
+        # Split
+        # Here we train on the entire source data (hence no index to Xs or ys)
+        Xs_train, Xt_train, Xt_test = Xs.values, Xt.values[train_index], Xt.values[test_index]
+        ys_train, yt_train, yt_test = ys.values, yt.values[train_index], yt.values[test_index]
+        
+        # Realign (training)
+        Xs_train = CORAL(Xs_train, Xt_train)
+        
+        scores   = []
+
+        for k in ticks:
+            indices = util.get_top_pearson_features(Xs_train, ys_train, k)
+
+            # Select k features
+            X_train_fs = Xs_train[:, indices]
+            X_test_fs  = Xt_test[:, indices]
+
+            model = model.fit(X_train_fs, ys_train)
+
+            # summarize the selection of the attributes
+            yhat  = model.predict(X_test_fs)                 # Predict
             scores.append(accuracy_score(yt_test, yhat))     # Save
 
         # ----- save row -----
@@ -229,8 +284,24 @@ def expand_feature_space(Xtarget, Xsource, Ytarget, Ysource, t_labels, s_labels)
 
 # Following CORAL paper -http://arxiv.org/abs/1511.05547
 # Algorithm 1
-def CORAL(Dt, Ds, Ytarget, Ysource, t_labels, s_labels):
-    Cs = Ds.cov().values + np.eye(Ds.shape[1])
-    Ct = Dt.cov().values + np.eye(Dt.shape[1])
-    print "test"
-    print "test"
+def CORAL(Ds, Dt):
+    EPS = 1
+    # # Normalize
+    Ds = (Ds - Ds.mean(axis=0)) / Ds.std(axis=0)
+    Dt = (Dt - Dt.mean(axis=0)) / Dt.std(axis=0)
+    
+    # #Fill nan 
+    Ds = np.nan_to_num(Ds)
+    Dt = np.nan_to_num(Dt)
+
+    Cs = np.cov(Ds,rowvar=False) + EPS * np.eye(Ds.shape[1])
+    Ct = np.cov(Dt,rowvar=False) + EPS * np.eye(Dt.shape[1])
+    Ws = util.msqrt(np.linalg.inv(Cs))
+    
+    # # assert Ws*Ws == inv(Cs)
+    np.testing.assert_array_almost_equal(Ws.dot(Ws), np.linalg.inv(Cs))
+    Ds = np.dot(Ds,Ws)              # Whiten
+    Ds = np.dot(Ds,util.msqrt(Ct))  # Recolor
+
+    assert not np.isnan(Ds).any()
+    return Ds
