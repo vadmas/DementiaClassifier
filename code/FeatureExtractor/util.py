@@ -85,7 +85,7 @@ def shorten(name):
 def get_top_pearson_features(X, y, n, return_correlation=False):
     df = pd.DataFrame(X).apply(pd.to_numeric)
     df['y'] = y
-    corr_coeff = df.corr()['y'].abs().sort(inplace=False, ascending=False)
+    corr_coeff = df.corr()['y'].abs().sort_values(inplace=False, ascending=False)
     if return_correlation:
         return corr_coeff
     else:
